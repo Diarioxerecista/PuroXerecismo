@@ -629,7 +629,7 @@
     <button class="navbtn" data-view="calendario">Calendario y resultados</button>
     <button class="navbtn" data-view="clasificacion">Clasificación</button>
     <a class="navbtn navbtn-x" href="https://x.com/Puroxerecismo" target="_blank" rel="noopener noreferrer">𝕏</a>
-    <button class="navbtn navbtn-lang" id="langToggle" onclick="cambiarIdioma()" title="Switch language / Cambiar idioma">EN</button>
+    <button class="navbtn navbtn-lang" id="langToggle" onclick="cambiarIdioma()" title="Switch language / Cambiar idioma">🇬🇧 EN</button>
   </div>
 </nav>
 
@@ -972,7 +972,7 @@
     document.querySelector('#view-noticias .section-head h2').textContent = t('noticias');
     document.querySelector('#view-cronicas .section-head h2').textContent = t('cronicasTitulo');
     document.querySelector('#view-cronicas p').textContent = t('cronicasVacio');
-    document.getElementById('langToggle').textContent = idiomaActual === 'es' ? 'EN' : 'ES';
+    document.getElementById('langToggle').textContent = idiomaActual === 'es' ? '🇬🇧 EN' : '🇪🇸 ES';
     document.documentElement.lang = idiomaActual;
   }
 
