@@ -1,0 +1,38 @@
+name: Publicar noticia con IA
+
+on:
+  push:
+    paths:
+      - 'datos/pendientes/*.yml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  redactar-y-publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install -r scripts/requirements.txt
+
+      - name: Ejecutar el periodista IA
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/periodista_ia.py
+
+      - name: Publicar los cambios en el repositorio
+        run: |
+          git config user.name "Diario Xerecista (bot)"
+          git config user.email "bot@puroxerecismo.local"
+          git add noticias-es.json noticias-en.json datos/ fotos/
+          git diff --quiet --cached || git commit -m "Nueva noticia publicada automáticamente"
+          git push
