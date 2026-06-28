@@ -1,0 +1,34 @@
+# =====================================================================
+# PLANTILLA DE DATOS — Diario Xerecista
+# =====================================================================
+# Instrucciones:
+# 1. Copia este archivo y ponle un nombre nuevo, ej: noticia-2026-07-03.yml
+# 2. Rellena los campos con los datos REALES (hechos objetivos, no opiniones)
+# 3. Sube el archivo a la carpeta /datos/pendientes/ de tu repositorio
+# 4. El sistema se encargará solo de redactar y publicar la noticia
+#
+# IMPORTANTE: pon solo HECHOS (nombres, cifras, fechas, resultados).
+# No hace falta que escribas bien ni que redactes nada — eso lo hace la IA.
+# =====================================================================
+
+# Tipo de noticia: fichaje | resultado | declaraciones | club | pretemporada
+tipo: fichaje
+
+# Resumen en un par de frases sueltas, con los datos que tengas a mano.
+# No necesitas ortografía perfecta ni estructura, solo escribe los hechos.
+datos: |
+  Jugador: Rubén Mesa
+  Procedencia: Deportiva Minera
+  Posición: Delantero
+  Datos relevantes: 13 goles la temporada pasada (7 con la Minera, 6 con el Estepona)
+  Fecha del fichaje: 26 junio 2026
+
+# Si tienes una cita textual de alguien (jugador, entrenador, club), cópiala
+# aquí EXACTAMENTE como la dijo o la escribió. Deja en blanco si no hay.
+cita_textual: ""
+
+# ¿De dónde sacaste el dato? (nombre del medio o "fuente propia" si es tuyo)
+fuente: "fuente propia"
+
+# Enlace a la fuente si la hay (déjalo en blanco si no aplica)
+fuente_url: ""
