@@ -18,7 +18,6 @@
     "eyebrow": "Mercado de fichajes",
     "title": "El Xerez CD cierra la llegada de Rubén Mesa, máximo goleador de la Deportiva Minera",
     "lead": "El club azulino refuerza su ataque con un delantero extremeño que firmó la pasada temporada trece goles repartidos entre el Estepona y la Deportiva Minera.",
-    "foto": "fotos/publicadas/ruben-mesa-partido.jpg",
     "body": [
       "El Xerez CD ha hecho oficial la incorporación de Rubén Mesa para la temporada 2026/27. El delantero llega procedente de la Deportiva Minera, club cartagenero en el que disputó la segunda vuelta de la pasada campaña tras salir del Estepona en el mercado de invierno.",
       "El extremeño cierra el curso anterior como uno de los delanteros más en forma del Grupo IV: siete tantos con la Minera y seis con el Estepona, siendo además el máximo realizador de los cartageneros en la recta final de temporada.",
@@ -215,7 +214,6 @@
     "eyebrow": "Renovación · Centro del campo",
     "title": "Ismael Gutiérrez sigue un año más en el centro del campo xerecista",
     "lead": "El centrocampista, MVP de la pasada temporada, amplía su vinculación con el club tras ser un pilar importante dentro del equipo la pasada temporada.",
-    "foto": "fotos/publicadas/ismael-gutierrez-partido.jpg",
     "body": [
       "El Xerez CD ha confirmado la continuidad de Ismael Gutiérrez Montilla, que afrontará su segunda temporada en Jerez tras una campaña en la que fue un pilar importante dentro del equipo, con dos goles anotados.",
       "El centrocampista terminó el curso anterior como MVP de la temporada 2025/26, un reconocimiento que el club atribuye a su criterio con el balón, su capacidad para dar equilibrio al equipo y el liderazgo mostrado en la medular.",
@@ -240,36 +238,21 @@
     "eyebrow": "Renovación · Defensa",
     "title": "Josete amplía su vinculación con el Xerez CD para la temporada 2026/27",
     "lead": "El central ilicitano afrontará su tercera campaña consecutiva como azulino, después de ser un jugador importante en la zaga xerecista y un baluarte dentro del vestuario.",
-    "foto": "fotos/publicadas/josete-partido.jpg",
     "body": [
       "El Xerez CD ha confirmado la continuidad de José Antonio Malagón Rubio, 'Josete', central nacido en Elche en 1988, que seguirá defendiendo la camiseta azulina durante la temporada 2026/27, su tercera campaña consecutiva en la entidad jerezana.",
       "El experimentado defensa ha sido un jugador importante en la zaga xerecista a lo largo de la pasada temporada, aportando contundencia, juego aéreo y capacidad para ordenar al equipo desde la retaguardia. Más allá de lo estrictamente deportivo, Josete se ha convertido también en un baluarte dentro del vestuario, por su veteranía y su peso específico en el día a día del equipo.",
       "Su renovación da continuidad a una de las piezas más valoradas del proyecto azulino, tanto dentro como fuera del campo, de cara a la temporada 2026/27."
     ]
   },
-  "art22": {
-    "fecha": "2026-06-28",
-    "categoria": "noticia",
-    "eyebrow": "Exclusiva · Mercado de fichajes",
-    "title": "El Xerez CD baraja pagar la cláusula de Javi Cheli, joven centrocampista del San Roque de Lepe",
-    "lead": "Según ha podido saber este diario de fuentes cercanas al club, la dirección deportiva azulina estudia hacerse con los servicios del centrocampista sub-23, una de las revelaciones de la pasada temporada en Tercera RFEF.",
-    "body": [
-      "El Xerez Club Deportivo estaría barajando la posibilidad de pagar la cláusula de rescisión de Javi Cheli, joven centrocampista del CD San Roque de Lepe, según ha podido saber este diario de fuentes cercanas al club. Se trata de una operación que, de confirmarse, no contaría todavía con respaldo oficial por parte de ninguna de las dos entidades.",
-      "Cheli, futbolista sub-23 e hijo del exjugador del Recreativo de Huelva del mismo apodo, ha firmado una notable temporada en Tercera RFEF con el conjunto lepero, donde mantiene contrato en vigor hasta 2027. Su buen rendimiento, marcado por su llegada desde segunda línea y su personalidad con el balón, le ha valido el seguimiento de varios clubes de superior categoría.",
-      "El San Roque de Lepe ya ha reconocido públicamente que la continuidad del centrocampista no está cerrada, y que su salida podría producirse si algún club decide abonar la cláusula fijada en su contrato. Entre los equipos que han mostrado interés en el jugador, según informaciones publicadas en medios onubenses, figuran el Recreativo de Huelva, el Cádiz CF e incluso el RCD Mallorca.",
-      "De materializarse, la llegada de Cheli supondría una apuesta por el talento joven de la provincia, en una temporada en la que el Xerez CD sigue trabajando para reforzar su centro del campo de cara al inicio de la competición."
-    ]
-  },
   "art23": {
     "fecha": "2026-06-28",
     "categoria": "noticia",
-    "eyebrow": "Mercado de fichajes",
+    "eyebrow": "Exclusiva · Mercado de fichajes",
     "title": "El Xerez CD se lanza a por Javi Cheli, un sub-23 con proyección",
-    "lead": "El Xerez Club Deportivo ha puesto sus ojos en un prometedor centrocampista para reforzar su plantilla: Javi Cheli, actual jugador del CD San Roque de Lepe. El club azulino valora seriamente activar su cláusula de rescisión para traer al joven talento sub-23 a Chapín.",
+    "lead": "Según ha podido saber este diario de fuentes cercanas al club, el Xerez Club Deportivo ha puesto sus ojos en un prometedor centrocampista para reforzar su plantilla: Javi Cheli, actual jugador del CD San Roque de Lepe. El club azulino valoraría seriamente activar su cláusula de rescisión para traer al joven talento sub-23 a Chapín, aunque la operación no contaría todavía con respaldo oficial por parte de ninguna de las dos entidades.",
     "body": [
       "Cheli es un centrocampista de corte defensivo, con capacidad para organizar el juego y recuperar balones, un perfil muy buscado en el mercado. A pesar de su juventud, cuenta con experiencia en categorías superiores. Su contrato con el San Roque de Lepe se extiende hasta 2027, lo que obliga al Xerez CD a negociar o, como se baraja, a pagar su cláusula de salida para hacerse con sus servicios.",
       "La operación no será sencilla, pues otros clubes de entidad como el Recreativo de Huelva, el Cádiz CF e incluso el RCD Mallorca también han mostrado interés en el joven jugador. Cabe destacar que Javi Cheli es hijo del mítico exjugador del Recreativo de Huelva, también conocido como Cheli, añadiendo un aliciente más a su prometedora carrera y al interés que despierta en el fútbol andaluz. Un fichaje que, de concretarse, ilusionaría a la afición xerecista."
-    ],
-    "foto": "fotos/publicadas/92e06eca-aaa8-4421-b497-c11548c2d288_16-9-aspect-ratio_1600w_0.webp"
+    ]
   }
 }
