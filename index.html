@@ -978,10 +978,21 @@
 
   function cargarNoticias(){
     const archivo = idiomaActual === 'es' ? 'noticias-es.json' : 'noticias-en.json';
-    fetch(archivo)
-      .then(resp => resp.json())
-      .then(data => {
-        articles = data;
+
+    // Cargamos el texto (en el idioma activo) y las fotos (un solo archivo,
+    // compartido entre idiomas, para no tener que repetir la foto en cada
+    // versión) y los combinamos antes de pintar la web.
+    Promise.all([
+      fetch(archivo).then(resp => resp.json()),
+      fetch('fotos-articulos.json').then(resp => resp.json()).catch(() => ({}))
+    ])
+      .then(([textos, fotos]) => {
+        articles = textos;
+        for(const id in fotos){
+          if(articles[id]){
+            Object.assign(articles[id], fotos[id]);
+          }
+        }
         renderPortada();
         renderNoticias();
         renderCronicas();
@@ -1020,7 +1031,13 @@
 
     let bodyHtml = a.body.map(p=>`<p>${p}</p>`).join('');
     let quoteHtml = a.quote ? `<div class="pullquote">${a.quote}</div>` : '';
-    let fotoHtml = a.foto ? `<img src="${a.foto}" alt="${a.title}" style="width:100%;border-radius:3px;margin:18px 0;display:block;">` : '';
+    let fotoHtml = '';
+    if(a.foto){
+      const creditoHtml = a.creditoFoto
+        ? `<span style="display:block;font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);margin-top:6px;margin-bottom:18px;">${a.creditoFoto}</span>`
+        : '';
+      fotoHtml = `<img src="${a.foto}" alt="${a.title}" style="width:100%;border-radius:3px;margin-top:18px;display:block;">${creditoHtml}`;
+    }
 
     c.innerHTML = `
       <span class="back-link" onclick="closeArticle()">${t('volver')}</span>
