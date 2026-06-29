@@ -1019,6 +1019,13 @@
         renderPortada();
         renderNoticias();
         renderCronicas();
+
+        // Si la URL trae ?n=artXX (por ejemplo, al llegar desde un enlace
+        // compartido en redes), abrimos directamente esa noticia.
+        const idDesdeUrl = new URLSearchParams(window.location.search).get('n');
+        if(idDesdeUrl && articles[idDesdeUrl]){
+          openArticle(idDesdeUrl);
+        }
       })
       .catch(err => {
         console.error('No se pudieron cargar las noticias:', err);
@@ -1036,6 +1043,18 @@
 
   aplicarTextosInterfaz();
   cargarNoticias();
+
+  // Si el usuario usa el botón "atrás" del navegador tras abrir una noticia
+  // (por ejemplo, llegando desde un enlace compartido), volvemos a portada
+  // en vez de dejar la vista en un estado inconsistente.
+  window.addEventListener('popstate', () => {
+    const idDesdeUrl = new URLSearchParams(window.location.search).get('n');
+    if(idDesdeUrl && articles[idDesdeUrl]){
+      openArticle(idDesdeUrl);
+    } else {
+      closeArticle();
+    }
+  });
 
   function openArticle(id){
     const a = articles[id];
@@ -1074,12 +1093,20 @@
       <span class="byline" style="display:block;margin-top:24px;padding-top:16px;border-top:1px solid var(--linea);">${a.autor || t('redaccion')} — ${formatearFecha(a.fecha)}</span>
     `;
     showView('articulo');
+
+    // Actualiza la URL para que se pueda compartir un enlace directo a esta
+    // noticia (ej. diarioxerecista.es/?n=art24), sin recargar la página.
+    const nuevaUrl = window.location.pathname + '?n=' + id;
+    history.pushState({articuloId: id}, '', nuevaUrl);
   }
 
   function closeArticle(){
     showView('portada');
     navButtons.forEach(b=>b.classList.remove('active'));
     document.querySelector('[data-view="portada"]').classList.add('active');
+
+    // Al volver, quitamos el parámetro de la URL para dejarla limpia.
+    history.pushState({}, '', window.location.pathname);
   }
 
   // Fecha actual
