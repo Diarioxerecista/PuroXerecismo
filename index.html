@@ -893,7 +893,7 @@
       ? `<img src="${a.foto}" alt="${a.title}" style="width:100%;height:100%;object-fit:cover;">`
       : `<div class="stripe"></div>${a.score ? `<div class="score-overlay"><span class="comp">${a.eyebrow}</span><span class="score">${a.score}</span></div>` : ''}`;
     const creditoHtml = (a.foto && a.creditoFoto)
-      ? `<span style="display:block;font-family:'Space Mono',monospace;font-size:10px;color:var(--tinta-suave);opacity:0.75;margin-top:4px;">${a.creditoFoto}</span>`
+      ? `<span style="display:block;text-align:right;font-family:'Space Mono',monospace;font-size:10px;color:var(--tinta-suave);opacity:0.75;margin-top:4px;">${a.creditoFoto}</span>`
       : '';
     return `
       <article class="card" onclick="openArticle('${id}')">
@@ -918,7 +918,7 @@
             ? `<img src="${principal.foto}" alt="${principal.title}" style="width:100%;height:100%;object-fit:cover;">`
             : `<div class="stripe"></div>${principal.score ? `<div class="score-overlay"><span class="comp">${principal.eyebrow}</span><span class="score">${principal.score}</span></div>` : ''}`}
         </div>
-        ${(principal.foto && principal.creditoFoto) ? `<span style="display:block;font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);opacity:0.8;margin-top:4px;">${principal.creditoFoto}</span>` : ''}
+        ${(principal.foto && principal.creditoFoto) ? `<span style="display:block;text-align:right;font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);opacity:0.8;margin-top:4px;">${principal.creditoFoto}</span>` : ''}
         <span class="eyebrow">${principal.eyebrow}</span>
         <h3>${principal.title}</h3>
         <p>${principal.lead}</p>
