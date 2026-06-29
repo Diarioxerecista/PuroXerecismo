@@ -1057,9 +1057,9 @@
     let fotoHtml = '';
     if(a.foto){
       const creditoHtml = a.creditoFoto
-        ? `<span style="display:block;font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);margin-top:6px;margin-bottom:18px;">${a.creditoFoto}</span>`
+        ? `<span style="position:absolute;left:8px;bottom:8px;font-family:'Space Mono',monospace;font-size:11px;color:#fff;background:rgba(13,44,84,0.72);padding:3px 8px;border-radius:2px;">${a.creditoFoto}</span>`
         : '';
-      fotoHtml = `<img src="${a.foto}" alt="${a.title}" style="width:100%;border-radius:3px;margin-top:18px;display:block;">${creditoHtml}`;
+      fotoHtml = `<div style="position:relative;margin-top:18px;margin-bottom:18px;"><img src="${a.foto}" alt="${a.title}" style="width:100%;border-radius:3px;display:block;">${creditoHtml}</div>`;
     }
 
     c.innerHTML = `
