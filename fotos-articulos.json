@@ -28,7 +28,11 @@
     "creditoFoto": "Foto: San Roque de Lepe"
   },
   "art24": {
-    "foto": "fotos/publicadas/el-xerez-cd-confirma-el-inicio-de-los-entrenamientos-y-su-primer-amistoso.png",
+    "foto": "fotos/publicadas/fotoart24.jpg",
     "creditoFoto": "Foto: Xerez CD"
+  },
+  "art25": {
+    "foto": "fotos/publicadas/la-rfef-publica-esta-tarde-el-calendario-oficial-del-grupo-iv.png",
+    "creditoFoto": "fotoart24.png"
   }
 }

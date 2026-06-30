@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.name "Diario Xerecista (bot)"
           git config user.email "bot@puroxerecismo.local"
-          git add noticias-es.json noticias-en.json datos/ fotos/
+          git add noticias-es.json noticias-en.json mapa-slugs.json fotos-articulos.json noticias/ noticias-en/ datos/ fotos/
           git diff --quiet --cached || git commit -m "Nueva noticia publicada automáticamente"
           git push

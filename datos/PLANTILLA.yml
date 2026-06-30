@@ -32,3 +32,7 @@ fuente: "fuente propia"
 
 # Enlace a la fuente si la hay (déjalo en blanco si no aplica)
 fuente_url: ""
+
+# Crédito de la foto que subas a fotos/pendientes/ (ej. "Foto: Xerez CD")
+# Si lo dejas en blanco, se usará "Foto: PuroXerecismo"
+credito_foto: ""
