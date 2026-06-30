@@ -946,7 +946,7 @@
   }
 
   function renderNoticias(){
-    const ids = idsOrdenadosPorFecha('noticia');
+    const ids = idsOrdenadosPorFecha('noticia').slice(0, 15);
     document.getElementById('noticiasGrid').innerHTML = ids.map(tarjetaHTML).join('');
   }
 
