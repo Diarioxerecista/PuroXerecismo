@@ -646,6 +646,8 @@
     <button class="navbtn" data-view="cronicas">Crónicas</button>
     <button class="navbtn" data-view="calendario">Calendario y resultados</button>
     <button class="navbtn" data-view="clasificacion">Clasificación</button>
+    <button class="navbtn" data-view="historias">Historias Xerecistas</button>
+    <button class="navbtn" data-view="opinion">Artículo de Opinión</button>
     <a class="navbtn navbtn-x" href="https://x.com/Puroxerecismo" target="_blank" rel="noopener noreferrer">𝕏</a>
     <button class="navbtn navbtn-lang" id="langToggle" onclick="cambiarIdioma()" title="Switch language / Cambiar idioma">🇬🇧 EN</button>
   </div>
@@ -798,6 +800,30 @@
       <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">17</span><span class="team">Tamaraceite</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
       <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">18</span><span class="team">Tenerife B</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
     </div>
+  </section>
+
+  <!-- ===================== HISTORIAS XERECISTAS ===================== -->
+  <section class="view" id="view-historias">
+    <div class="section-head">
+      <h2>Historias Xerecistas</h2>
+      <span class="tag">Próximamente</span>
+    </div>
+
+    <p style="font-family:'Space Mono',monospace;font-size:12.5px;color:var(--tinta-suave);margin-bottom:18px;line-height:1.6;">
+      Esta sección reunirá historias, entrevistas y relatos del xerecismo más allá de la actualidad del día a día. Muy pronto empezaremos a publicar el primer contenido.
+    </p>
+  </section>
+
+  <!-- ===================== ARTÍCULO DE OPINIÓN ===================== -->
+  <section class="view" id="view-opinion">
+    <div class="section-head">
+      <h2>Artículo de Opinión</h2>
+      <span class="tag">Próximamente</span>
+    </div>
+
+    <p style="font-family:'Space Mono',monospace;font-size:12.5px;color:var(--tinta-suave);margin-bottom:18px;line-height:1.6;">
+      Próximamente, artículos de opinión sobre la actualidad del Xerez CD y el xerecismo. Muy pronto empezaremos a publicar el primer contenido.
+    </p>
   </section>
 
 
@@ -961,6 +987,8 @@
     es: {
       portada: 'Portada', noticias: 'Noticias', cronicas: 'Crónicas',
       calendario: 'Calendario y resultados', clasificacion: 'Clasificación',
+      historias: 'Historias Xerecistas', historiasVacio: 'Esta sección reunirá historias, entrevistas y relatos del xerecismo más allá de la actualidad del día a día. Muy pronto empezaremos a publicar el primer contenido.',
+      opinion: 'Artículo de Opinión', opinionVacio: 'Próximamente, artículos de opinión sobre la actualidad del Xerez CD y el xerecismo. Muy pronto empezaremos a publicar el primer contenido.',
       loUltimo: 'Lo último', pretemporada: 'Pretemporada',
       volver: '← Volver', redaccion: 'Redacción',
       cronicasTitulo: 'Crónicas de partido', cronicasVacio: 'Todavía no se ha disputado ningún partido oficial ni amistoso de la pretemporada. En cuanto el Xerez CD juegue su primer encuentro, aquí aparecerá la crónica completa con el resultado y el desarrollo del partido.',
@@ -970,6 +998,8 @@
     en: {
       portada: 'Home', noticias: 'News', cronicas: 'Match reports',
       calendario: 'Fixtures & results', clasificacion: 'Standings',
+      historias: 'Xerecista Stories', historiasVacio: 'This section will bring together stories, interviews and tales from the Xerez fanbase, beyond day-to-day news. We will start publishing content here very soon.',
+      opinion: 'Opinion Piece', opinionVacio: 'Coming soon, opinion pieces about Xerez CD and the Xerez fanbase. We will start publishing content here very soon.',
       loUltimo: 'Latest', pretemporada: 'Pre-season',
       volver: '← Back', redaccion: 'Staff',
       cronicasTitulo: 'Match reports', cronicasVacio: 'No official or pre-season friendly match has been played yet. As soon as Xerez CD play their first match, the full report with the result and a breakdown of the game will appear here.',
@@ -990,6 +1020,12 @@
     document.querySelector('[data-view="cronicas"]').textContent = t('cronicas');
     document.querySelector('[data-view="calendario"]').textContent = t('calendario');
     document.querySelector('[data-view="clasificacion"]').textContent = t('clasificacion');
+    document.querySelector('[data-view="historias"]').textContent = t('historias');
+    document.querySelector('[data-view="opinion"]').textContent = t('opinion');
+    document.querySelector('#view-historias .section-head h2').textContent = t('historias');
+    document.querySelector('#view-historias p').textContent = t('historiasVacio');
+    document.querySelector('#view-opinion .section-head h2').textContent = t('opinion');
+    document.querySelector('#view-opinion p').textContent = t('opinionVacio');
     document.querySelector('#view-portada .section-head h2').textContent = t('loUltimo');
     document.getElementById('tagLoUltimo').textContent = t('pretemporada');
     document.querySelector('#view-noticias .section-head h2').textContent = t('noticias');
