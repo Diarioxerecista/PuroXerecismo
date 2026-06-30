@@ -1,0 +1,65 @@
+name: Actualizar foto OG
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'noticias-es.json'
+      - 'fotos-articulos.json'
+
+jobs:
+  update-og:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Actualizar og:image con la foto más reciente
+        run: |
+          python3 << 'EOF'
+          import json, re
+
+          with open('noticias-es.json', 'r', encoding='utf-8') as f:
+              noticias = json.load(f)
+
+          with open('fotos-articulos.json', 'r', encoding='utf-8') as f:
+              fotos = json.load(f)
+
+          # Artículo más reciente que tenga foto
+          ordenados = sorted(noticias.items(), key=lambda x: x[1]['fecha'], reverse=True)
+          foto_url = None
+          for art_id, art in ordenados:
+              if art_id in fotos and fotos[art_id].get('foto'):
+                  foto_url = 'https://www.diarioxerecista.es/' + fotos[art_id]['foto']
+                  break
+
+          if not foto_url:
+              print('No se encontró foto, sin cambios.')
+              exit(0)
+
+          print('Foto OG:', foto_url)
+
+          with open('index.html', 'r', encoding='utf-8') as f:
+              html = f.read()
+
+          html = re.sub(r'<meta property="og:image" content="[^"]*">',
+                        f'<meta property="og:image" content="{foto_url}">', html)
+          html = re.sub(r'<meta name="twitter:image" content="[^"]*">',
+                        f'<meta name="twitter:image" content="{foto_url}">', html)
+
+          with open('index.html', 'w', encoding='utf-8') as f:
+              f.write(html)
+
+          print('index.html actualizado.')
+          EOF
+
+      - name: Guardar cambios
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git diff --quiet && echo "Sin cambios." && exit 0
+          git add index.html
+          git commit -m "Auto: actualizar og:image con la foto más reciente"
+          git push
