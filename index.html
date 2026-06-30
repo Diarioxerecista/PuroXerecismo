@@ -446,6 +446,13 @@
   .side-item .eyebrow{margin-bottom:6px;font-size:10px;}
   .side-item .byline{margin-top:6px;font-size:11px;}
 
+  .side-item-foto{
+    display:grid;
+    grid-template-columns:1fr 88px;
+    gap:14px;
+    align-items:start;
+  }
+
   /* ===== Grid de noticias ===== */
   .news-grid{
     display:grid;
@@ -597,6 +604,12 @@
     .brand-text h1{font-size:30px;}
     .fixture-row{grid-template-columns:60px 1fr 70px 1fr;font-size:13px;}
     .fixture-row .comp{display:none;}
+    /* Side-list: 2 columnas compactas bajo el hero */
+    .side-list{display:grid;grid-template-columns:1fr 1fr;gap:0 20px;}
+    .ad-banner-side{grid-column:1/-1;height:90px;}
+    /* Ocultar miniaturas y resetear grid en items */
+    .side-item-foto{display:block;}
+    .side-thumb{display:none;}
   }
   @media (max-width:560px){
     .news-grid{grid-template-columns:1fr;}
@@ -604,6 +617,7 @@
     .meta-date{text-align:left;}
     .article-detail h1{font-size:28px;}
     .scoreline{flex-direction:column;gap:10px;}
+    .side-list{grid-template-columns:1fr;}
   }
 
   :focus-visible{outline:2px solid var(--oro);outline-offset:2px;}
@@ -845,7 +859,7 @@
   </div>
   <div class="wrap" style="margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.12);">
     <span style="font-family:'Space Mono',monospace;font-size:11px;opacity:0.7;">PuroXerecismo 2026</span>
-    <span style="font-family:'Space Mono',monospace;font-size:11px;opacity:0.7;">Contacto: <a href="mailto:diario_xerecista@proton.me" style="color:var(--oro);text-decoration:none;">diario_xerecista@proton.me</a></span>
+    <span style="font-family:'Space Mono',monospace;font-size:11px;opacity:0.7;">Contacto: <a href="/cdn-cgi/l/email-protection#9efaf7ffecf7f1c1e6fbecfbfdf7edeaffdeeeecf1eaf1f0b0f3fb" style="color:var(--oro);text-decoration:none;"><span class="__cf_email__" data-cfemail="482c21293a212717302d3a2d2b213b3c2908383a273c272666252d">[email&#160;protected]</span></a></span>
   </div>
 </footer>
 
@@ -860,7 +874,7 @@
   </div>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   const navButtons = document.querySelectorAll('.navbtn[data-view]');
   const views = document.querySelectorAll('main .view, #view-articulo');
 
@@ -915,15 +929,27 @@
 
   function tarjetaHTML(id){
     const a = articles[id];
-    const imgHtml = a.foto
-      ? `<img src="${a.foto}" alt="${a.title}" style="width:100%;height:100%;object-fit:cover;">`
-      : `<div class="stripe"></div>${a.score ? `<div class="score-overlay"><span class="comp">${a.eyebrow}</span><span class="score">${a.score}</span></div>` : ''}`;
+    let imgBoxExtra = '';
+    let imgHtml;
+    if(a.foto){
+      imgHtml = `<img src="${a.foto}" alt="${a.title}" style="width:100%;height:100%;object-fit:cover;">`;
+    } else if(a.score){
+      imgHtml = `<div class="stripe"></div><div class="score-overlay"><span class="comp">${a.eyebrow}</span><span class="score">${a.score}</span></div>`;
+    } else {
+      const extracto = a.title.length > 55 ? a.title.substring(0,55)+'\u2026' : a.title;
+      imgBoxExtra = 'style="background:var(--papel-osc);border:1px solid var(--linea);display:flex;flex-direction:column;justify-content:center;padding:20px 22px;gap:10px;"';
+      imgHtml = `
+        <div style="position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 27px,rgba(13,44,84,0.07) 27px,rgba(13,44,84,0.07) 28px);pointer-events:none;"></div>
+        <span style="font-family:'Space Mono',monospace;font-size:9px;font-weight:700;color:var(--azul-medio);text-transform:uppercase;letter-spacing:0.14em;position:relative;">${a.eyebrow}</span>
+        <span style="font-family:'Fraunces',serif;font-size:20px;font-weight:700;color:var(--azul-profundo);line-height:1.25;position:relative;">${extracto}</span>
+        <div style="width:32px;height:3px;background:var(--oro);position:relative;"></div>`;
+    }
     const creditoHtml = (a.foto && a.creditoFoto)
       ? `<span style="display:block;text-align:right;font-family:'Space Mono',monospace;font-size:10px;color:var(--tinta-suave);opacity:0.75;margin-top:4px;">${a.creditoFoto}</span>`
       : '';
     return `
       <article class="card" onclick="openArticle('${id}')">
-        <div class="img-box">${imgHtml}</div>
+        <div class="img-box" ${imgBoxExtra}>${imgHtml}</div>
         ${creditoHtml}
         <h4>${a.title}</h4>
         <p>${a.lead}</p>
@@ -937,26 +963,55 @@
     const [primeraId, ...resto] = ids;
     const principal = articles[primeraId];
 
+    // Hero: tratamiento editorial si no hay foto
+    let heroImgBoxStyle = '';
+    let heroImgHtml;
+    if(principal.foto){
+      heroImgHtml = `<img src="${principal.foto}" alt="${principal.title}" style="width:100%;height:100%;object-fit:cover;">`;
+    } else {
+      const palabraFantasma = principal.eyebrow.split('\u00b7')[0].trim();
+      heroImgBoxStyle = 'background:var(--azul-profundo);display:flex;flex-direction:column;justify-content:space-between;padding:28px 32px;';
+      heroImgHtml = `
+        <div style="position:absolute;inset:0;background-image:radial-gradient(circle,rgba(201,162,75,0.13) 1px,transparent 1px);background-size:22px 22px;pointer-events:none;"></div>
+        <div style="display:flex;align-items:center;gap:14px;position:relative;">
+          <span style="font-family:'Space Mono',monospace;font-size:10px;font-weight:700;color:var(--oro);text-transform:uppercase;letter-spacing:0.14em;">${principal.eyebrow}</span>
+          <div style="flex:1;height:1px;background:rgba(201,162,75,0.3);"></div>
+        </div>
+        <div style="position:relative;">
+          <div style="font-family:'Fraunces',serif;font-size:clamp(20px,2.4vw,32px);font-weight:900;color:#fff;line-height:1.15;margin-bottom:14px;">${principal.title}</div>
+          <div style="width:36px;height:3px;background:var(--oro);"></div>
+        </div>
+        <span style="position:absolute;bottom:-16px;right:-8px;font-family:'Fraunces',serif;font-size:clamp(55px,8vw,110px);font-weight:900;font-style:italic;color:rgba(255,255,255,0.04);line-height:1;pointer-events:none;user-select:none;">${palabraFantasma}</span>`;
+    }
+
+    // Sidebar: miniatura cuando hay foto
+    const sideItems = resto.slice(0,4).map(id => {
+      const art = articles[id];
+      const thumbHtml = art.foto
+        ? `<div class="side-thumb" style="width:88px;height:68px;border-radius:2px;overflow:hidden;flex-shrink:0;"><img src="${art.foto}" alt="${art.title}" style="width:100%;height:100%;object-fit:cover;"></div>`
+        : '';
+      return `
+      <div class="side-item${art.foto ? ' side-item-foto' : ''}" onclick="openArticle('${id}')">
+        <div>
+          <span class="eyebrow">${art.eyebrow}</span>
+          <h4>${art.title}</h4>
+          <span class="byline">${formatearFecha(art.fecha)}</span>
+        </div>
+        ${thumbHtml}
+      </div>`;
+    }).join('');
+
     const heroHtml = `
       <article class="hero-main" onclick="openArticle('${primeraId}')">
-        <div class="img-box">
-          ${principal.foto
-            ? `<img src="${principal.foto}" alt="${principal.title}" style="width:100%;height:100%;object-fit:cover;">`
-            : `<div class="stripe"></div>${principal.score ? `<div class="score-overlay"><span class="comp">${principal.eyebrow}</span><span class="score">${principal.score}</span></div>` : ''}`}
-        </div>
+        <div class="img-box" style="${heroImgBoxStyle}">${heroImgHtml}</div>
         ${(principal.foto && principal.creditoFoto) ? `<span style="display:block;text-align:right;font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);opacity:0.8;margin-top:4px;">${principal.creditoFoto}</span>` : ''}
         <span class="eyebrow">${principal.eyebrow}</span>
-        <h3>${principal.title}</h3>
+        ${principal.foto ? `<h3>${principal.title}</h3>` : ''}
         <p>${principal.lead}</p>
         <span class="byline">${principal.autor || t('redaccion')} — ${formatearFecha(principal.fecha)}</span>
       </article>
       <div class="side-list">
-        ${resto.slice(0,4).map(id => `
-        <div class="side-item" onclick="openArticle('${id}')">
-          <span class="eyebrow">${articles[id].eyebrow}</span>
-          <h4>${articles[id].title}</h4>
-          <span class="byline">${formatearFecha(articles[id].fecha)}</span>
-        </div>`).join('')}
+        ${sideItems}
         <div class="ad-banner ad-banner-side">
           <span class="ad-label">Publicidad</span>
           <div class="ad-content">
