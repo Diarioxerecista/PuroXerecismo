@@ -2,15 +2,9 @@
   "actualizado": "2026-07-02",
   "jugadores": [
     {"nombre": "Fali Giménez",      "posicion": "Central",          "estado": "confirmado"},
-    {"nombre": "Rubén Mesa",        "posicion": "Delantero",         "estado": "confirmado"},
-    {"nombre": "Manu Galán",        "posicion": "Central",           "estado": "confirmado"},
-    {"nombre": "Guille Campos",     "posicion": "Centrocampista",    "estado": "confirmado"},
-    {"nombre": "Ismael Gutiérrez",  "posicion": "Centrocampista",    "estado": "confirmado"},
-    {"nombre": "Josete",            "posicion": "Lateral",           "estado": "confirmado"},
-    {"nombre": "Zelu",              "posicion": "Portero",           "estado": "confirmado"},
-    {"nombre": "Chuma",             "posicion": "Defensa",           "estado": "confirmado"},
-    {"nombre": "Zequi Díaz",        "posicion": "Delantero",         "estado": "confirmado"},
-    {"nombre": "Carlos Pantoja",    "posicion": "Portero",           "estado": "confirmado"},
-    {"nombre": "Javi Cheli",        "posicion": "Extremo",           "estado": "rumor"}
+    {"nombre": "Rubén Mesa",        "posicion": "Delantero",        "estado": "confirmado"},
+    {"nombre": "Carlos Pantoja",    "posicion": "Portero",          "estado": "confirmado"},
+    {"nombre": "Chacartegui",       "posicion": "Por confirmar",    "estado": "confirmado"},
+    {"nombre": "Javi Cheli",        "posicion": "Extremo",          "estado": "rumor"}
   ]
 }
