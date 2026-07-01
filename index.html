@@ -718,6 +718,46 @@
   }
   .share-x-btn:hover{opacity:0.85;}
 
+  /* ===== Cuenta atrás ===== */
+  .proximo-widget-countdown{
+    font-family:'Space Mono',monospace;font-size:13px;font-weight:700;
+    color:var(--oro);letter-spacing:0.05em;
+  }
+  .proximo-widget-countdown.directo{
+    color:#e84040;
+    animation:pulsoRojo 0.9s ease-in-out infinite alternate;
+  }
+  @keyframes pulsoRojo{from{opacity:1}to{opacity:0.4}}
+  .topbar-directo{
+    display:inline-flex;align-items:center;gap:5px;
+    color:#ff4444;font-weight:800;
+    animation:pulsoRojo 0.9s ease-in-out infinite alternate;
+  }
+  /* ===== Plantilla en construcción ===== */
+  .construccion-wrap{
+    display:flex;flex-direction:column;align-items:center;
+    justify-content:center;gap:20px;padding:80px 20px;text-align:center;
+  }
+  .construccion-icono{
+    width:64px;height:64px;border-radius:50%;
+    background:var(--papel-osc);border:2px solid var(--linea);
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Space Mono',monospace;font-size:26px;color:var(--azul-medio);
+    animation:girarLento 6s linear infinite;
+  }
+  @keyframes girarLento{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+  .construccion-wrap h3{font-family:'Fraunces',serif;font-size:26px;font-weight:700;color:var(--azul-profundo);}
+  .construccion-wrap p{font-family:'Space Mono',monospace;font-size:12px;color:var(--tinta-suave);max-width:440px;line-height:1.8;}
+  /* ===== Contacto ===== */
+  .contacto-wrap{max-width:600px;padding:32px 0;}
+  .contacto-intro{font-family:'Fraunces',serif;font-size:19px;font-weight:600;color:var(--azul-profundo);line-height:1.5;margin-bottom:28px;}
+  .contacto-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  .contacto-item{display:flex;flex-direction:column;gap:8px;padding:20px 22px;border:1px solid var(--linea);border-radius:3px;text-decoration:none;background:var(--papel-osc);transition:border-color .15s,background .15s;}
+  .contacto-item:hover{border-color:var(--azul-medio);background:var(--papel);}
+  .contacto-item-label{font-family:'Space Mono',monospace;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.12em;color:var(--tinta-suave);}
+  .contacto-item-value{font-family:'Fraunces',serif;font-size:16px;font-weight:700;color:var(--azul-profundo);}
+  @media(max-width:560px){.contacto-grid{grid-template-columns:1fr;}}
+
   :focus-visible{outline:2px solid var(--oro);outline-offset:2px;}
 </style>
 </head>
@@ -760,6 +800,8 @@
     <button class="navbtn" data-view="clasificacion">Clasificación</button>
     <button class="navbtn" data-view="historias">Historias Xerecistas</button>
     <button class="navbtn" data-view="opinion">Artículo de Opinión</button>
+    <button class="navbtn" data-view="plantilla">Plantilla</button>
+    <button class="navbtn" data-view="contacto">Contacto</button>
     <a class="navbtn navbtn-x" href="https://x.com/Puroxerecismo" target="_blank" rel="noopener noreferrer">𝕏</a>
     <button class="navbtn navbtn-lang" id="langToggle" onclick="cambiarIdioma()" title="Switch language / Cambiar idioma">🇬🇧 EN</button>
   </div>
@@ -930,6 +972,38 @@
       Próximamente, artículos de opinión sobre la actualidad del Xerez CD y el xerecismo. Muy pronto empezaremos a publicar el primer contenido.
     </p>
   </section>
+  <!-- ===================== PLANTILLA ===================== -->
+  <section class="view" id="view-plantilla">
+    <div class="section-head">
+      <h2>Plantilla 2026/27</h2>
+      <span class="tag">En construcción</span>
+    </div>
+    <div class="construccion-wrap">
+      <div class="construccion-icono">⚙</div>
+      <h3>Sección en construcción</h3>
+      <p>Estamos preparando la ficha completa de todos los jugadores de la plantilla 2026/27. Muy pronto disponible.</p>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO ===================== -->
+  <section class="view" id="view-contacto">
+    <div class="section-head">
+      <h2>Contacto</h2>
+    </div>
+    <div class="contacto-wrap">
+      <p class="contacto-intro">¿Tienes información, fotos o quieres colaborar con el Diario Xerecista? Escríbenos.</p>
+      <div class="contacto-grid">
+        <a href="/cdn-cgi/l/email-protection#9afef3fbe8f3f5c5e2ffe8fff9f3e9eefbdaeae8f5eef5f4b4f7ff" class="contacto-item">
+          <span class="contacto-item-label">Email</span>
+          <span class="contacto-item-value"><span class="__cf_email__" data-cfemail="63070a02110a0c3c1b061106000a1017022313110c170c0d4d0e06">[email&#160;protected]</span></span>
+        </a>
+        <a href="https://x.com/Puroxerecismo" target="_blank" rel="noopener" class="contacto-item">
+          <span class="contacto-item-label">𝕏 (Twitter)</span>
+          <span class="contacto-item-value">@Puroxerecismo</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
 
 </main>
@@ -965,7 +1039,7 @@
   </div>
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   const navButtons = document.querySelectorAll('.navbtn[data-view]');
   const views = document.querySelectorAll('main .view, #view-articulo');
 
@@ -995,6 +1069,16 @@
 
   // ===================== DATOS DE PARTIDOS =====================
   const PARTIDOS = [
+    // ── Pretemporada ──────────────────────────────────────────────────────
+    {fecha:'2026-08-01',jornada:'Amistoso',             local:'Jerez Industrial',          visitante:'Xerez CD',                      resultado:null, tipo:'amistoso'},
+    {fecha:'2026-08-07',jornada:'Amistoso',             local:'Chiclana C.F.',              visitante:'Xerez CD',                      resultado:null, tipo:'amistoso'},
+    {fecha:'2026-08-14',jornada:'Amistoso',             local:'Racing Portuense',           visitante:'Xerez CD',                      resultado:null, tipo:'amistoso'},
+    {fecha:'2026-08-15',jornada:'Amistoso',             local:'Xerez CD',                  visitante:'Real Betis B',                  resultado:null, tipo:'amistoso', sede:'Est. Pedro Garrido'},
+    {fecha:'2026-08-19',jornada:'Trofeo Vendimia',      local:'Xerez CD',                  visitante:'Real Ja\u00e9n',                resultado:null, tipo:'amistoso', sede:'Chap\u00edn'},
+    {fecha:'2026-08-22',jornada:'Trofeo Rafa Verd\u00fa',local:'Xerez CD',                 visitante:'Juventud Torremolinos',         resultado:null, tipo:'amistoso', sede:'Chap\u00edn'},
+    {fecha:'2026-08-25',jornada:'Amistoso',             local:'U.D. Rote\u00f1a',          visitante:'Xerez CD',                      resultado:null, tipo:'amistoso'},
+    {fecha:'2026-08-29',jornada:'Trofeo Andr\u00e9s Chac\u00f3n',local:'Xerez CD',        visitante:'Por confirmar',                 resultado:null, tipo:'amistoso', sede:'La Barca de la Florida'},
+    // ── Liga 2\u00aa Federaci\u00f3n ────────────────────────────────────────────────
     {fecha:'2026-09-06',jornada:'J1', local:'C.D. Estepona',            visitante:'Xerez CD',                resultado:null},
     {fecha:'2026-09-13',jornada:'J2', local:'Xerez CD',                 visitante:'C.D. Badajoz',            resultado:null},
     {fecha:'2026-09-20',jornada:'J3', local:'Xerez CD',                 visitante:'C.D. Don Benito',         resultado:null},
@@ -1036,26 +1120,34 @@
     const proximo = PARTIDOS.find(function(p){ return !p.resultado && new Date(p.fecha+'T12:00:00') >= hoy; });
     const widget = document.getElementById('proximoWidget');
     if(!proximo || !widget) return;
+    window.proximoPartidoData = proximo;
     const fecha = new Date(proximo.fecha+'T12:00:00');
     const locale = idiomaActual === 'es' ? 'es-ES' : 'en-GB';
     const fechaStr = fecha.toLocaleDateString(locale,{weekday:'long',day:'numeric',month:'long'});
     const fechaFmt = fechaStr.charAt(0).toUpperCase()+fechaStr.slice(1);
     const localXerez = proximo.local.includes('Xerez');
     const visitanteXerez = proximo.visitante.includes('Xerez');
-    const label = idiomaActual === 'es' ? 'PR\u00d3XIMO PARTIDO' : 'NEXT MATCH';
+    const esAmistoso = proximo.tipo === 'amistoso';
+    const label = idiomaActual === 'es'
+      ? (esAmistoso ? 'PR\u00d3XIMO AMISTOSO' : 'PR\u00d3XIMO PARTIDO')
+      : (esAmistoso ? 'NEXT FRIENDLY' : 'NEXT MATCH');
     widget.innerHTML =
       '<div class="proximo-widget">'+
         '<div class="proximo-widget-label">'+
           '<span>'+label+'</span>'+
-          '<span class="proximo-widget-jornada">'+proximo.jornada+' &middot; 2&ordf; Fed. Grupo IV</span>'+
+          '<span class="proximo-widget-jornada">'+proximo.jornada+(proximo.tipo==='amistoso' ? ' &middot; Pretemporada 2026/27' : ' &middot; 2&ordf; Fed. Grupo IV')+'</span>'+
         '</div>'+
         '<div class="proximo-widget-match">'+
           '<span class="proximo-equipo'+(localXerez?' xerez':'')+'">'+proximo.local+'</span>'+
           '<span class="proximo-vs">VS</span>'+
           '<span class="proximo-equipo'+(visitanteXerez?' xerez':'')+'">'+proximo.visitante+'</span>'+
         '</div>'+
-        '<div class="proximo-widget-fecha">'+fechaFmt+'</div>'+
+        '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">'+
+          '<div class="proximo-widget-fecha">'+fechaFmt+'</div>'+
+          '<div class="proximo-widget-countdown" id="cuentaAtras"></div>'+
+        '</div>'+
       '</div>';
+    actualizarCuentaAtras();
   }
 
   function renderCalendario(){
@@ -1114,6 +1206,66 @@
   // de las noticias viven en noticias.json (no en este archivo), así que
   // para añadir una noticia nueva solo hay que editar/subir ese archivo,
   // sin tocar el HTML.
+
+  function actualizarCuentaAtras(){
+    const el = document.getElementById('cuentaAtras');
+    const p = window.proximoPartidoData;
+    if(!el || !p) return;
+    const ahora = new Date();
+    const partes = (p.hora || '17:00').split(':').map(Number);
+    const f = new Date(p.fecha+'T00:00:00');
+    f.setHours(partes[0], partes[1], 0, 0);
+    const diffMs = f - ahora;
+    if(diffMs < 0 && diffMs > -110*60*1000){
+      el.className = 'proximo-widget-countdown directo';
+      el.textContent = idiomaActual==='es' ? '\u25cf EN DIRECTO' : '\u25cf LIVE';
+      return;
+    }
+    if(diffMs <= -110*60*1000){ el.textContent = ''; return; }
+    const s = Math.floor(diffMs/1000);
+    const d = Math.floor(s/86400);
+    const hh = Math.floor((s%86400)/3600);
+    const mm = Math.floor((s%3600)/60);
+    const ss = s%60;
+    el.className = 'proximo-widget-countdown';
+    if(d>7){ el.textContent = idiomaActual==='es' ? 'en '+d+' d\u00edas' : 'in '+d+' days'; }
+    else if(d>=1){ el.textContent = d+'d '+String(hh).padStart(2,'0')+'h '+String(mm).padStart(2,'0')+'m'; }
+    else { el.textContent = String(hh).padStart(2,'0')+':'+String(mm).padStart(2,'0')+':'+String(ss).padStart(2,'0'); }
+  }
+
+  function actualizarTopbarProximo(){
+    const el = document.getElementById('topbarScore');
+    if(!el) return;
+    const hoy = new Date(); hoy.setHours(0,0,0,0);
+    const p = PARTIDOS.find(function(x){ return !x.resultado && new Date(x.fecha+'T12:00:00') >= hoy; });
+    if(!p) return;
+    const fd = new Date(p.fecha+'T12:00:00');
+    const locale = idiomaActual==='es' ? 'es-ES' : 'en-GB';
+    const dStr = fd.toLocaleDateString(locale,{weekday:'short',day:'numeric',month:'short'}).toUpperCase();
+    const esHoy = fd.toDateString() === new Date().toDateString();
+    const esMan = fd.toDateString() === new Date(Date.now()+86400000).toDateString();
+    const cuando = esHoy ? (idiomaActual==='es'?'HOY':'TODAY') : esMan ? (idiomaActual==='es'?'MA\u00d1ANA':'TOMORROW') : dStr;
+    el.textContent = p.jornada+' \u00b7 '+p.local+' vs '+p.visitante+' \u2014 '+cuando;
+  }
+
+  // Para activar un resultado en directo: crear live.json con
+  // {"activo":true,"local":"Xerez CD","visitante":"Marbella FC","resultado":"1-0","minuto":65}
+  function comprobarDirecto(){
+    fetch('live.json?t='+Date.now())
+      .then(function(r){ return r.json(); })
+      .then(function(d){
+        const el = document.getElementById('topbarScore');
+        if(d && d.activo){
+          const min = d.minuto ? " '"+d.minuto : '';
+          if(el) el.innerHTML = '<span class="topbar-directo">EN DIRECTO</span>&nbsp;&nbsp;'+d.local+' <strong>'+d.resultado+'</strong> '+d.visitante+min;
+          const ca = document.getElementById('cuentaAtras');
+          if(ca){ ca.className='proximo-widget-countdown directo'; ca.textContent='\u25cf '+d.resultado; }
+        } else {
+          actualizarTopbarProximo();
+        }
+      })
+      .catch(function(){ actualizarTopbarProximo(); });
+  }
 
   function formatearFecha(fechaISO){
     const hoy = new Date();
@@ -1259,7 +1411,9 @@
       volver: '← Volver', redaccion: 'Redacción',
       cronicasTitulo: 'Crónicas de partido', cronicasVacio: 'Todavía no se ha disputado ningún partido oficial ni amistoso de la pretemporada. En cuanto el Xerez CD juegue su primer encuentro, aquí aparecerá la crónica completa con el resultado y el desarrollo del partido.',
       noLocale: 'es-ES',
-      errorCarga: 'No se han podido cargar las noticias. Comprueba que el archivo noticias-es.json existe junto a index.html.'
+      errorCarga: 'No se han podido cargar las noticias. Comprueba que el archivo noticias-es.json existe junto a index.html.',
+      plantilla: 'Plantilla', plantillaTitulo: 'Plantilla 2026/27',
+      contacto: 'Contacto', contactoIntro: '\u00bfTienes informaci\u00f3n, fotos o quieres colaborar con el Diario Xerecista? Escr\u00edbenos.'
     },
     en: {
       portada: 'Home', noticias: 'News', cronicas: 'Match reports',
@@ -1270,7 +1424,9 @@
       volver: '← Back', redaccion: 'Staff',
       cronicasTitulo: 'Match reports', cronicasVacio: 'No official or pre-season friendly match has been played yet. As soon as Xerez CD play their first match, the full report with the result and a breakdown of the game will appear here.',
       noLocale: 'en-GB',
-      errorCarga: 'Could not load the news. Check that noticias-en.json exists next to index.html.'
+      errorCarga: 'Could not load the news. Check that noticias-en.json exists next to index.html.',
+      plantilla: 'Squad', plantillaTitulo: 'Squad 2026/27',
+      contacto: 'Contact', contactoIntro: 'Got a tip, photos or want to contribute to Diario Xerecista? Get in touch.'
     }
   };
 
@@ -1299,6 +1455,11 @@
     document.querySelector('#view-cronicas p').textContent = t('cronicasVacio');
     document.getElementById('langToggle').textContent = idiomaActual === 'es' ? '🇬🇧 EN' : '🇪🇸 ES';
     document.documentElement.lang = idiomaActual;
+    document.querySelector('[data-view="plantilla"]').textContent = t('plantilla');
+    document.querySelector('[data-view="contacto"]').textContent = t('contacto');
+    document.querySelector('#view-plantilla .section-head h2').textContent = t('plantillaTitulo');
+    document.querySelector('#view-contacto .section-head h2').textContent = t('contacto');
+    document.querySelector('#view-contacto .contacto-intro').textContent = t('contactoIntro');
   }
 
   function cargarNoticias(){
@@ -1346,6 +1507,7 @@
     aplicarTextosInterfaz();
     renderProximoPartido();
     renderCalendario();
+    actualizarTopbarProximo();
     cargarNoticias();
   }
 
@@ -1369,7 +1531,14 @@
   // Si el usuario usa el botón "atrás" del navegador tras abrir una noticia
   // (por ejemplo, llegando desde un enlace compartido), volvemos a portada
   // en vez de dejar la vista en un estado inconsistente.
+  actualizarTopbarProximo();
+  comprobarDirecto();
+  setInterval(function(){ cargarNoticias(); }, 5*60*1000);
+  setInterval(actualizarCuentaAtras, 1000);
+  setInterval(comprobarDirecto, 60*1000);
+
   window.addEventListener('popstate', () => {
+    actualizarTopbarProximo();
     const nParamPop = new URLSearchParams(window.location.search).get('n');
     const idDesdeUrl = nParamPop ? (articles[nParamPop] ? nParamPop : (slugsReverso[nParamPop] || null)) : null;
     const vistaDesdeUrl = new URLSearchParams(window.location.search).get('v');
