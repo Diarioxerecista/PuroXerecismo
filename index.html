@@ -758,6 +758,40 @@
   .contacto-item-value{font-family:'Fraunces',serif;font-size:16px;font-weight:700;color:var(--azul-profundo);}
   @media(max-width:560px){.contacto-grid{grid-template-columns:1fr;}}
 
+  /* ===== Card fichajes (pretemporada) ===== */
+  .fichajes-strip{
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+    background:var(--papel-osc);border:1px solid var(--linea);
+    border-left:3px solid var(--oro);
+    border-radius:3px;padding:10px 16px;
+    margin-bottom:20px;
+  }
+  .fichajes-strip-label{
+    font-family:'Space Mono',monospace;font-size:9px;font-weight:700;
+    color:var(--oro);letter-spacing:0.14em;text-transform:uppercase;
+    white-space:nowrap;flex-shrink:0;
+  }
+  .fichajes-strip-sep{
+    width:1px;height:18px;background:var(--linea);flex-shrink:0;
+  }
+  .fichajes-chips{
+    display:flex;flex-wrap:wrap;gap:5px;flex:1;
+  }
+  .fj-chip{
+    font-family:'Space Mono',monospace;font-size:10px;font-weight:700;
+    padding:3px 8px;border-radius:2px;white-space:nowrap;
+  }
+  .fj-chip.confirmado{background:#d4edda;color:#155724;}
+  .fj-chip.avanzado{background:#fff3cd;color:#856404;}
+  .fj-chip.rumor{background:#e2e3e5;color:#495057;}
+  .fj-chip.descartado{background:#f8d7da;color:#721c24;text-decoration:line-through;opacity:0.7;}
+  .fichajes-strip-link{
+    font-family:'Space Mono',monospace;font-size:9px;font-weight:700;
+    color:var(--azul-medio);text-decoration:none;white-space:nowrap;
+    flex-shrink:0;letter-spacing:0.05em;
+  }
+  .fichajes-strip-link:hover{text-decoration:underline;}
+
   :focus-visible{outline:2px solid var(--oro);outline-offset:2px;}
 </style>
 </head>
@@ -801,7 +835,6 @@
     <button class="navbtn" data-view="historias">Historias Xerecistas</button>
     <button class="navbtn" data-view="opinion">Artículo de Opinión</button>
     <button class="navbtn" data-view="plantilla">Plantilla</button>
-    <button class="navbtn" data-view="contacto">Contacto</button>
     <a class="navbtn navbtn-x" href="https://x.com/Puroxerecismo" target="_blank" rel="noopener noreferrer">𝕏</a>
     <button class="navbtn navbtn-lang" id="langToggle" onclick="cambiarIdioma()" title="Switch language / Cambiar idioma">🇬🇧 EN</button>
   </div>
@@ -824,6 +857,7 @@
   <section class="view active" id="view-portada">
 
     <div id="proximoWidget"></div>
+    <div id="fichajesStrip"></div>
     <div class="hero-grid" id="heroGrid">
       <!-- generado dinámicamente por renderPortada() -->
     </div>
@@ -993,9 +1027,9 @@
     <div class="contacto-wrap">
       <p class="contacto-intro">¿Tienes información, fotos o quieres colaborar con el Diario Xerecista? Escríbenos.</p>
       <div class="contacto-grid">
-        <a href="/cdn-cgi/l/email-protection#9afef3fbe8f3f5c5e2ffe8fff9f3e9eefbdaeae8f5eef5f4b4f7ff" class="contacto-item">
+        <a href="/cdn-cgi/l/email-protection#baded3dbc8d3d5e5c2dfc8dfd9d3c9cedbfacac8d5ced5d494d7df" class="contacto-item">
           <span class="contacto-item-label">Email</span>
-          <span class="contacto-item-value"><span class="__cf_email__" data-cfemail="63070a02110a0c3c1b061106000a1017022313110c170c0d4d0e06">[email&#160;protected]</span></span>
+          <span class="contacto-item-value"><span class="__cf_email__" data-cfemail="debab7bfacb7b181a6bbacbbbdb7adaabf9eaeacb1aab1b0f0b3bb">[email&#160;protected]</span></span>
         </a>
         <a href="https://x.com/Puroxerecismo" target="_blank" rel="noopener" class="contacto-item">
           <span class="contacto-item-label">𝕏 (Twitter)</span>
@@ -1024,6 +1058,7 @@
   </div>
   <div class="wrap" style="margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.12);">
     <span style="font-family:'Space Mono',monospace;font-size:11px;opacity:0.7;">PuroXerecismo 2026</span>
+    <a href="https://x.com/Puroxerecismo" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font-family:'Space Mono',monospace;font-size:12px;font-weight:700;color:#fff;background:#000;padding:6px 14px;border-radius:3px;text-decoration:none;letter-spacing:0.04em;">𝕏 &nbsp;@Puroxerecismo</a>
     <span style="font-family:'Space Mono',monospace;font-size:11px;opacity:0.7;">Contacto: <a href="/cdn-cgi/l/email-protection#9efaf7ffecf7f1c1e6fbecfbfdf7edeaffdeeeecf1eaf1f0b0f3fb" style="color:var(--oro);text-decoration:none;"><span class="__cf_email__" data-cfemail="482c21293a212717302d3a2d2b213b3c2908383a273c272666252d">[email&#160;protected]</span></a></span>
   </div>
 </footer>
@@ -1206,6 +1241,35 @@
   // de las noticias viven en noticias.json (no en este archivo), así que
   // para añadir una noticia nueva solo hay que editar/subir ese archivo,
   // sin tocar el HTML.
+
+  function renderFichajesStrip(data){
+    const hoy = new Date();
+    const ligaInicio = new Date('2026-09-06T00:00:00');
+    const el = document.getElementById('fichajesStrip');
+    if(!el) return;
+    if(hoy >= ligaInicio){ el.innerHTML=''; return; }
+    const ICONOS = {confirmado:'\u2705',avanzado:'\uD83D\uDD25',rumor:'\uD83D\uDCAC',descartado:'\u274C'};
+    const chips = data.jugadores.map(function(j){
+      const icono = ICONOS[j.estado] || '';
+      return '<span class="fj-chip '+j.estado+'">'+icono+' '+j.nombre+'</span>';
+    }).join('');
+    const confirmados = data.jugadores.filter(function(j){ return j.estado==='confirmado'; }).length;
+    const label = idiomaActual==='es' ? '\uD83D\uDD25 MERCADO 26/27' : '\uD83D\uDD25 TRANSFERS 26/27';
+    const verMas = idiomaActual==='es' ? 'Ver plantilla \u2192' : 'See squad \u2192';
+    el.innerHTML = '<div class="fichajes-strip">'
+      +'<span class="fichajes-strip-label">'+label+'</span>'
+      +'<span class="fichajes-strip-sep"></span>'
+      +'<div class="fichajes-chips">'+chips+'</div>'
+      +'<a class="fichajes-strip-link" onclick="document.querySelector(\"[data-view=\\"plantilla\\"]\").click()">'+verMas+'</a>'
+      +'</div>';
+  }
+
+  function cargarFichajes(){
+    fetch('fichajes.json?t='+Date.now())
+      .then(function(r){ return r.json(); })
+      .then(function(d){ renderFichajesStrip(d); })
+      .catch(function(){});
+  }
 
   function actualizarCuentaAtras(){
     const el = document.getElementById('cuentaAtras');
@@ -1455,8 +1519,9 @@
     document.querySelector('#view-cronicas p').textContent = t('cronicasVacio');
     document.getElementById('langToggle').textContent = idiomaActual === 'es' ? '🇬🇧 EN' : '🇪🇸 ES';
     document.documentElement.lang = idiomaActual;
+    const contactoBtn = document.querySelector('[data-view="contacto"]');
+    if(contactoBtn) contactoBtn.textContent = t('contacto');
     document.querySelector('[data-view="plantilla"]').textContent = t('plantilla');
-    document.querySelector('[data-view="contacto"]').textContent = t('contacto');
     document.querySelector('#view-plantilla .section-head h2').textContent = t('plantillaTitulo');
     document.querySelector('#view-contacto .section-head h2').textContent = t('contacto');
     document.querySelector('#view-contacto .contacto-intro').textContent = t('contactoIntro');
@@ -1486,6 +1551,7 @@
         renderPortada();
         renderNoticias();
         renderCronicas();
+        cargarFichajes();
 
         // Si la URL trae ?n= (artXX o slug), abrimos directamente esa noticia.
         const nParam = new URLSearchParams(window.location.search).get('n');
