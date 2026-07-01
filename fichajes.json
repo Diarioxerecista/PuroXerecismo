@@ -10,7 +10,7 @@
     {"nombre": "Zelu",              "posicion": "Portero",           "estado": "confirmado"},
     {"nombre": "Chuma",             "posicion": "Defensa",           "estado": "confirmado"},
     {"nombre": "Zequi Díaz",        "posicion": "Delantero",         "estado": "confirmado"},
-    {"nombre": "Javi Cheli",        "posicion": "Extremo",           "estado": "confirmado"},
-    {"nombre": "Carlos Pantoja",    "posicion": "Portero",           "estado": "confirmado"}
+    {"nombre": "Carlos Pantoja",    "posicion": "Portero",           "estado": "confirmado"},
+    {"nombre": "Javi Cheli",        "posicion": "Extremo",           "estado": "rumor"}
   ]
 }
