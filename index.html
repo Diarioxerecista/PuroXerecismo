@@ -199,26 +199,25 @@
     background:rgba(255,255,255,0.05);
   }
   nav.mainnav .navbtn-x{
-    background:none;border:none;
-    color:rgba(255,255,255,0.72);
-    font-family:'Inter',sans-serif;
+    background:#000;
+    border:none;
+    color:#fff;
+    font-family:'Space Mono',monospace;
     font-weight:700;
-    font-size:16px;
-    padding:14px 16px;
+    font-size:15px;
+    padding:6px 14px;
     cursor:pointer;
     white-space:nowrap;
-    border-bottom:3px solid transparent;
-    transition:all .15s ease;
+    border-radius:6px;
+    transition:opacity .15s ease;
     text-decoration:none;
     display:inline-flex;
     align-items:center;
     margin-left:auto;
+    align-self:center;
+    letter-spacing:-0.01em;
   }
-  nav.mainnav .navbtn-x:hover{
-    color:#fff;
-    border-bottom-color:var(--oro);
-    background:rgba(255,255,255,0.05);
-  }
+  nav.mainnav .navbtn-x:hover{opacity:0.8;}
   nav.mainnav .navbtn-lang{
     background:none;
     border:1px solid rgba(255,255,255,0.35);
@@ -332,49 +331,87 @@
   .side-list{display:flex;flex-direction:column;gap:0;}
 
   /* ===== Espacios publicitarios ===== */
-  .ad-banner{
-    background:var(--papel-osc);
-    border:1px dashed var(--azul-medio);
-    border-radius:3px;
-    position:relative;
-    overflow:hidden;
+  /* Banner superior: franja discreta de patrocinadores */
+  .ad-banner-top{
+    border-top:1px solid var(--linea);
+    border-bottom:1px solid var(--linea);
+    margin:16px 0;
+    height:64px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    padding:0 12px;
   }
-  .ad-label{
-    position:absolute;
-    top:6px;left:8px;
+  .ad-banner-top .ad-label{
     font-family:'Space Mono',monospace;
     font-size:9px;
     color:var(--tinta-suave);
     text-transform:uppercase;
-    letter-spacing:0.08em;
-    background:var(--papel);
-    padding:1px 6px;
-    border-radius:2px;
-    opacity:0.85;
+    letter-spacing:0.1em;
+    white-space:nowrap;
+    flex-shrink:0;
+    opacity:0.6;
   }
-  .ad-content{
+  .ad-banner-top .ad-slots{
+    display:flex;
+    align-items:center;
+    gap:24px;
+    flex:1;
+    justify-content:center;
+  }
+  .ad-slot-small{
+    width:120px;
+    height:40px;
+    background:var(--papel-osc);
+    border-radius:3px;
+    border:1px solid var(--linea);
     display:flex;
     align-items:center;
     justify-content:center;
-    height:100%;
   }
-  .ad-placeholder-text{
+  .ad-slot-small span{
     font-family:'Space Mono',monospace;
-    font-size:11px;
-    color:var(--azul-medio);
-    text-align:center;
-    padding:0 16px;
+    font-size:9px;
+    color:var(--tinta-suave);
+    opacity:0.6;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
   }
-  .ad-banner-top{
-    height:90px;
-    margin:18px 0;
-  }
+  /* Banners laterales / principales: patrocinadores destacados */
   .ad-banner-side{
     height:250px;
     margin-top:18px;
+    border:2px solid var(--azul-medio);
+    border-radius:3px;
+    position:relative;
+    overflow:hidden;
+    background:var(--papel-osc);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+  }
+  .ad-banner-side .ad-label{
+    font-family:'Space Mono',monospace;
+    font-size:9px;
+    font-weight:700;
+    color:var(--azul-medio);
+    text-transform:uppercase;
+    letter-spacing:0.12em;
+    border:1px solid var(--azul-medio);
+    padding:3px 8px;
+    border-radius:2px;
+  }
+  .ad-banner-side .ad-size{
+    font-family:'Space Mono',monospace;
+    font-size:11px;
+    color:var(--tinta-suave);
+    opacity:0.5;
   }
   @media (max-width:560px){
-    .ad-banner-top{height:70px;}
+    .ad-banner-top{height:52px;}
   }
 
   /* ===== Banner de cookies ===== */
@@ -620,6 +657,67 @@
     .side-list{grid-template-columns:1fr;}
   }
 
+  /* ===== Widget próximo partido ===== */
+  .proximo-widget{
+    background:var(--azul-profundo);border-radius:3px;padding:22px 28px;
+    margin-bottom:32px;display:flex;align-items:center;gap:24px;flex-wrap:wrap;
+    position:relative;overflow:hidden;
+  }
+  .proximo-widget::before{
+    content:'';position:absolute;right:-20px;top:-30px;
+    width:180px;height:180px;
+    background:radial-gradient(circle,rgba(201,162,75,0.15) 0%,transparent 70%);
+    pointer-events:none;
+  }
+  .proximo-widget-label{
+    display:flex;flex-direction:column;gap:5px;flex-shrink:0;min-width:140px;
+  }
+  .proximo-widget-label>span:first-child{
+    font-family:'Space Mono',monospace;font-size:10px;font-weight:700;
+    color:var(--oro);letter-spacing:0.16em;text-transform:uppercase;
+  }
+  .proximo-widget-jornada{
+    font-family:'Space Mono',monospace;font-size:11px;color:rgba(255,255,255,0.5);
+  }
+  .proximo-widget-match{
+    flex:1;display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;
+  }
+  .proximo-equipo{
+    font-family:'Fraunces',serif;font-size:19px;font-weight:700;
+    color:rgba(255,255,255,0.65);text-align:center;
+  }
+  .proximo-equipo.xerez{color:#fff;font-size:22px;}
+  .proximo-vs{
+    font-family:'Space Mono',monospace;font-size:12px;font-weight:700;
+    color:var(--oro);letter-spacing:0.12em;
+  }
+  .proximo-widget-fecha{
+    font-family:'Space Mono',monospace;font-size:12px;
+    color:rgba(255,255,255,0.6);flex-shrink:0;
+  }
+  @media (max-width:680px){
+    .proximo-widget{flex-direction:column;align-items:flex-start;gap:14px;padding:18px 20px;}
+    .proximo-widget-match{justify-content:flex-start;}
+  }
+  /* ===== Cabecera de mes en calendario ===== */
+  .fixture-mes-header{
+    background:var(--azul-profundo);color:rgba(255,255,255,0.9);
+    font-family:'Space Mono',monospace;font-size:11px;font-weight:700;
+    letter-spacing:0.1em;text-transform:uppercase;padding:8px 20px;
+  }
+  /* ===== Próximo partido resaltado en calendario ===== */
+  .fixture-row.proximo{background:rgba(201,162,75,0.1);border-left:3px solid var(--oro);}
+  .fixture-row.proximo .vs-score{background:var(--azul-profundo);color:#fff;font-weight:700;}
+  /* ===== Botón compartir en X ===== */
+  .share-x-btn{
+    display:inline-flex;align-items:center;gap:6px;
+    font-family:'Space Mono',monospace;font-size:12px;font-weight:700;
+    color:var(--azul-profundo);background:var(--oro);
+    padding:8px 16px;border-radius:3px;text-decoration:none;
+    transition:opacity .15s ease;white-space:nowrap;flex-shrink:0;
+  }
+  .share-x-btn:hover{opacity:0.85;}
+
   :focus-visible{outline:2px solid var(--oro);outline-offset:2px;}
 </style>
 </head>
@@ -668,10 +766,12 @@
 </nav>
 
 <div class="wrap">
-  <div class="ad-banner ad-banner-top">
-    <span class="ad-label">Publicidad</span>
-    <div class="ad-content">
-      <span class="ad-placeholder-text">Espacio reservado para patrocinador · 728×90</span>
+  <div class="ad-banner-top">
+    <span class="ad-label">Colaboradores</span>
+    <div class="ad-slots">
+      <div class="ad-slot-small"><span>Logo patrocinador</span></div>
+      <div class="ad-slot-small"><span>Logo patrocinador</span></div>
+      <div class="ad-slot-small"><span>Logo patrocinador</span></div>
     </div>
   </div>
 </div>
@@ -681,6 +781,7 @@
   <!-- ===================== PORTADA ===================== -->
   <section class="view active" id="view-portada">
 
+    <div id="proximoWidget"></div>
     <div class="hero-grid" id="heroGrid">
       <!-- generado dinámicamente por renderPortada() -->
     </div>
@@ -731,7 +832,7 @@
       Calendario oficial del Xerez CD en el Grupo IV de Segunda Federación. Temporada 2026/27. Los resultados se irán actualizando jornada a jornada.
     </p>
 
-    <div class="fixtures">
+    <div class="fixtures" id="calendarGrid">
       <div class="fixture-row header"><span>Fecha</span><span>Local</span><span>Resultado</span><span>Visitante</span><span>Competición</span></div>
       <div class="fixture-row"><span class="date">6 sep</span><span class="team home">C.D. Estepona</span><span class="vs-score">vs</span><span class="team">Xerez CD</span><span class="comp">J1</span></div>
       <div class="fixture-row"><span class="date">13 sep</span><span class="team home">Xerez CD</span><span class="vs-score">vs</span><span class="team">C.D. Badajoz</span><span class="comp">J2</span></div>
@@ -889,6 +990,122 @@
   });
 
   let articles = {}; // se rellena al cargar noticias.json (ver fetch más abajo)
+  let slugsMap = {};     // artXX → slug legible
+  let slugsReverso = {}; // slug legible → artXX
+
+  // ===================== DATOS DE PARTIDOS =====================
+  const PARTIDOS = [
+    {fecha:'2026-09-06',jornada:'J1', local:'C.D. Estepona',            visitante:'Xerez CD',                resultado:null},
+    {fecha:'2026-09-13',jornada:'J2', local:'Xerez CD',                 visitante:'C.D. Badajoz',            resultado:null},
+    {fecha:'2026-09-20',jornada:'J3', local:'Xerez CD',                 visitante:'C.D. Don Benito',         resultado:null},
+    {fecha:'2026-09-27',jornada:'J4', local:'RC Recreativo de Huelva',  visitante:'Xerez CD',                resultado:null},
+    {fecha:'2026-10-04',jornada:'J5', local:'Xerez CD',                 visitante:'C.D. Tenerife "B"',       resultado:null},
+    {fecha:'2026-10-11',jornada:'J6', local:'Betis Deportivo',          visitante:'Xerez CD',                resultado:null},
+    {fecha:'2026-10-18',jornada:'J7', local:'Xerez CD',                 visitante:'Ciudad de Lucena',        resultado:null},
+    {fecha:'2026-10-25',jornada:'J8', local:'Xerez CD',                 visitante:'Marbella F.C.',           resultado:null},
+    {fecha:'2026-11-01',jornada:'J9', local:'U.D. Tamaraceite',         visitante:'Xerez CD',                resultado:null},
+    {fecha:'2026-11-08',jornada:'J10',local:'Atlético Sanluqueño',      visitante:'Xerez CD',                resultado:null},
+    {fecha:'2026-11-15',jornada:'J11',local:'Xerez CD',                 visitante:'C.A. Antoniano',          resultado:null},
+    {fecha:'2026-11-22',jornada:'J12',local:'C. Atlético Central',      visitante:'Xerez CD',                resultado:null},
+    {fecha:'2026-11-29',jornada:'J13',local:'Xerez CD',                 visitante:'Linares Deportivo',       resultado:null},
+    {fecha:'2026-12-06',jornada:'J14',local:'Las Palmas Atlético',      visitante:'Xerez CD',                resultado:null},
+    {fecha:'2026-12-13',jornada:'J15',local:'Sevilla Atlético',         visitante:'Xerez CD',                resultado:null},
+    {fecha:'2026-12-20',jornada:'J16',local:'Xerez CD',                 visitante:'C.P. Mijas Las Lagunas',  resultado:null},
+    {fecha:'2027-01-10',jornada:'J17',local:'C.D. Atlético Paso',       visitante:'Xerez CD',                resultado:null},
+    {fecha:'2027-01-17',jornada:'J18',local:'Xerez CD',                 visitante:'C.D. Estepona',           resultado:null},
+    {fecha:'2027-01-24',jornada:'J19',local:'Ciudad de Lucena',         visitante:'Xerez CD',                resultado:null},
+    {fecha:'2027-01-31',jornada:'J20',local:'Xerez CD',                 visitante:'Atlético Sanluqueño',     resultado:null},
+    {fecha:'2027-02-07',jornada:'J21',local:'Xerez CD',                 visitante:'Betis Deportivo',         resultado:null},
+    {fecha:'2027-02-14',jornada:'J22',local:'C.D. Don Benito',          visitante:'Xerez CD',                resultado:null},
+    {fecha:'2027-02-21',jornada:'J23',local:'Xerez CD',                 visitante:'U.D. Tamaraceite',        resultado:null},
+    {fecha:'2027-02-28',jornada:'J24',local:'Marbella F.C.',            visitante:'Xerez CD',                resultado:null},
+    {fecha:'2027-03-07',jornada:'J25',local:'Xerez CD',                 visitante:'Sevilla Atlético',        resultado:null},
+    {fecha:'2027-03-14',jornada:'J26',local:'C.P. Mijas Las Lagunas',   visitante:'Xerez CD',                resultado:null},
+    {fecha:'2027-03-21',jornada:'J27',local:'Xerez CD',                 visitante:'RC Recreativo de Huelva', resultado:null},
+    {fecha:'2027-03-28',jornada:'J28',local:'C.A. Antoniano',           visitante:'Xerez CD',                resultado:null},
+    {fecha:'2027-04-04',jornada:'J29',local:'Xerez CD',                 visitante:'C. Atlético Central',     resultado:null},
+    {fecha:'2027-04-11',jornada:'J30',local:'C.D. Tenerife "B"',        visitante:'Xerez CD',                resultado:null},
+    {fecha:'2027-04-18',jornada:'J31',local:'Xerez CD',                 visitante:'C.D. Atlético Paso',      resultado:null},
+    {fecha:'2027-04-25',jornada:'J32',local:'Linares Deportivo',        visitante:'Xerez CD',                resultado:null},
+    {fecha:'2027-05-02',jornada:'J33',local:'Xerez CD',                 visitante:'Las Palmas Atlético',     resultado:null},
+    {fecha:'2027-05-09',jornada:'J34',local:'C.D. Badajoz',             visitante:'Xerez CD',                resultado:null},
+  ];
+
+  function renderProximoPartido(){
+    const hoy = new Date(); hoy.setHours(0,0,0,0);
+    const proximo = PARTIDOS.find(function(p){ return !p.resultado && new Date(p.fecha+'T12:00:00') >= hoy; });
+    const widget = document.getElementById('proximoWidget');
+    if(!proximo || !widget) return;
+    const fecha = new Date(proximo.fecha+'T12:00:00');
+    const locale = idiomaActual === 'es' ? 'es-ES' : 'en-GB';
+    const fechaStr = fecha.toLocaleDateString(locale,{weekday:'long',day:'numeric',month:'long'});
+    const fechaFmt = fechaStr.charAt(0).toUpperCase()+fechaStr.slice(1);
+    const localXerez = proximo.local.includes('Xerez');
+    const visitanteXerez = proximo.visitante.includes('Xerez');
+    const label = idiomaActual === 'es' ? 'PR\u00d3XIMO PARTIDO' : 'NEXT MATCH';
+    widget.innerHTML =
+      '<div class="proximo-widget">'+
+        '<div class="proximo-widget-label">'+
+          '<span>'+label+'</span>'+
+          '<span class="proximo-widget-jornada">'+proximo.jornada+' &middot; 2&ordf; Fed. Grupo IV</span>'+
+        '</div>'+
+        '<div class="proximo-widget-match">'+
+          '<span class="proximo-equipo'+(localXerez?' xerez':'')+'">'+proximo.local+'</span>'+
+          '<span class="proximo-vs">VS</span>'+
+          '<span class="proximo-equipo'+(visitanteXerez?' xerez':'')+'">'+proximo.visitante+'</span>'+
+        '</div>'+
+        '<div class="proximo-widget-fecha">'+fechaFmt+'</div>'+
+      '</div>';
+  }
+
+  function renderCalendario(){
+    const el = document.getElementById('calendarGrid');
+    if(!el) return;
+    const hoy = new Date(); hoy.setHours(0,0,0,0);
+    var proximoIdx = -1;
+    for(var i=0;i<PARTIDOS.length;i++){
+      if(!PARTIDOS[i].resultado && new Date(PARTIDOS[i].fecha+'T12:00:00') >= hoy){ proximoIdx=i; break; }
+    }
+    const MESES_ES = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+    const MESES_EN = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    const MESES = idiomaActual === 'es' ? MESES_ES : MESES_EN;
+    const locale = idiomaActual === 'es' ? 'es-ES' : 'en-GB';
+    const hdrs = idiomaActual === 'es'
+      ? ['Fecha','Local','Resultado','Visitante','Competici\u00f3n']
+      : ['Date','Home','Result','Away','Competition'];
+    var html = '<div class="fixture-row header"><span>'+hdrs[0]+'</span><span>'+hdrs[1]+'</span><span>'+hdrs[2]+'</span><span>'+hdrs[3]+'</span><span>'+hdrs[4]+'</span></div>';
+    var mesActual = '';
+    PARTIDOS.forEach(function(p,idx){
+      var fecha = new Date(p.fecha+'T12:00:00');
+      var mesKey = fecha.getFullYear()+'-'+fecha.getMonth();
+      if(mesKey !== mesActual){
+        mesActual = mesKey;
+        html += '<div class="fixture-mes-header">'+MESES[fecha.getMonth()]+' '+fecha.getFullYear()+'</div>';
+      }
+      var diaStr = fecha.toLocaleDateString(locale,{day:'numeric',month:'short'});
+      var rowClass = 'fixture-row';
+      var scoreHtml;
+      if(p.resultado){
+        var partes = p.resultado.split('-');
+        var gLocal = parseInt(partes[0],10);
+        var gVisitante = parseInt(partes[1],10);
+        var xerezLocal = p.local.includes('Xerez');
+        var gXerez = xerezLocal ? gLocal : gVisitante;
+        var gRival = xerezLocal ? gVisitante : gLocal;
+        if(gXerez > gRival) rowClass += ' win';
+        else if(gXerez < gRival) rowClass += ' loss';
+        else rowClass += ' draw';
+        scoreHtml = '<span class="vs-score">'+p.resultado+'</span>';
+      } else if(idx === proximoIdx){
+        rowClass += ' proximo';
+        scoreHtml = '<span class="vs-score">&#9654; VS</span>';
+      } else {
+        scoreHtml = '<span class="vs-score" style="font-size:12px;color:var(--tinta-suave);">vs</span>';
+      }
+      html += '<div class="'+rowClass+'"><span class="date">'+diaStr+'</span><span class="team home">'+p.local+'</span>'+scoreHtml+'<span class="team">'+p.visitante+'</span><span class="comp">'+p.jornada+'</span></div>';
+    });
+    el.innerHTML = html;
+  }
 
   // ===================== RENDERIZADO DINÁMICO =====================
   // La portada y la lista de Noticias se generan automáticamente a partir
@@ -1008,17 +1225,15 @@
       </article>
       <div class="side-list">
         ${sideItems}
-        <div class="ad-banner ad-banner-side">
-          <span class="ad-label">Publicidad</span>
-          <div class="ad-content">
-            <span class="ad-placeholder-text">Espacio reservado para patrocinador · 300×250</span>
-          </div>
+        <div class="ad-banner-side">
+          <span class="ad-label">Patrocinador Oficial</span>
+          <span class="ad-size">300×250</span>
         </div>
       </div>
     `;
     document.getElementById('heroGrid').innerHTML = heroHtml;
 
-    const loUltimoIds = resto.slice(4, 7);
+    const loUltimoIds = resto.slice(4, 10);
     document.getElementById('loUltimoGrid').innerHTML = loUltimoIds.map(tarjetaHTML).join('');
   }
 
@@ -1094,22 +1309,26 @@
     // versión) y los combinamos antes de pintar la web.
     Promise.all([
       fetch(archivo).then(resp => resp.json()),
-      fetch('fotos-articulos.json').then(resp => resp.json()).catch(() => ({}))
+      fetch('fotos-articulos.json').then(resp => resp.json()).catch(() => ({})),
+      fetch('mapa-slugs.json').then(resp => resp.json()).catch(() => ({}))
     ])
-      .then(([textos, fotos]) => {
+      .then(([textos, fotos, slugs]) => {
         articles = textos;
         for(const id in fotos){
           if(articles[id]){
             Object.assign(articles[id], fotos[id]);
           }
         }
+        slugsMap = slugs;
+        slugsReverso = {};
+        for(const id in slugsMap){ slugsReverso[slugsMap[id]] = id; }
         renderPortada();
         renderNoticias();
         renderCronicas();
 
-        // Si la URL trae ?n=artXX (por ejemplo, al llegar desde un enlace
-        // compartido en redes), abrimos directamente esa noticia.
-        const idDesdeUrl = new URLSearchParams(window.location.search).get('n');
+        // Si la URL trae ?n= (artXX o slug), abrimos directamente esa noticia.
+        const nParam = new URLSearchParams(window.location.search).get('n');
+        const idDesdeUrl = nParam ? (articles[nParam] ? nParam : (slugsReverso[nParam] || null)) : null;
         if(idDesdeUrl && articles[idDesdeUrl]){
           openArticle(idDesdeUrl);
         }
@@ -1125,10 +1344,14 @@
     idiomaActual = idiomaActual === 'es' ? 'en' : 'es';
     localStorage.setItem('idioma', idiomaActual);
     aplicarTextosInterfaz();
+    renderProximoPartido();
+    renderCalendario();
     cargarNoticias();
   }
 
   aplicarTextosInterfaz();
+  renderProximoPartido();
+  renderCalendario();
 
   // Abrir sección directamente si la URL lleva ?v= (ej. ?v=calendario)
   (function abrirSeccionDesdeUrl(){
@@ -1147,7 +1370,8 @@
   // (por ejemplo, llegando desde un enlace compartido), volvemos a portada
   // en vez de dejar la vista en un estado inconsistente.
   window.addEventListener('popstate', () => {
-    const idDesdeUrl = new URLSearchParams(window.location.search).get('n');
+    const nParamPop = new URLSearchParams(window.location.search).get('n');
+    const idDesdeUrl = nParamPop ? (articles[nParamPop] ? nParamPop : (slugsReverso[nParamPop] || null)) : null;
     const vistaDesdeUrl = new URLSearchParams(window.location.search).get('v');
     if(idDesdeUrl && articles[idDesdeUrl]){
       openArticle(idDesdeUrl);
@@ -1188,6 +1412,9 @@
       fotoHtml = `<div style="position:relative;margin-top:18px;margin-bottom:18px;"><img src="${a.foto}" alt="${a.title}" style="width:100%;border-radius:3px;display:block;">${creditoHtml}</div>`;
     }
 
+    const slug = slugsMap[id] || id;
+    const shareUrl = 'https://x.com/intent/tweet?text='+encodeURIComponent(a.title+'\n\nhttps://www.diarioxerecista.es/?n='+slug)+'&via=Puroxerecismo';
+    const compartirTexto = idiomaActual === 'es' ? 'Compartir en 𝕏' : 'Share on 𝕏';
     c.innerHTML = `
       <span class="back-link" onclick="closeArticle()">${t('volver')}</span>
       <span class="eyebrow">${a.eyebrow}</span>
@@ -1197,13 +1424,16 @@
       <p class="lead">${a.lead}</p>
       ${bodyHtml}
       ${quoteHtml}
-      <span class="byline" style="display:block;margin-top:24px;padding-top:16px;border-top:1px solid var(--linea);">${a.autor || t('redaccion')} — ${formatearFecha(a.fecha)}</span>
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:24px;padding-top:16px;border-top:1px solid var(--linea);">
+        <span class="byline">${a.autor || t('redaccion')} — ${formatearFecha(a.fecha)}</span>
+        <a href="${shareUrl}" target="_blank" rel="noopener" class="share-x-btn">${compartirTexto}</a>
+      </div>
     `;
     showView('articulo');
 
     // Actualiza la URL para que se pueda compartir un enlace directo a esta
     // noticia (ej. diarioxerecista.es/?n=art24), sin recargar la página.
-    const nuevaUrl = window.location.pathname + '?n=' + id;
+    const nuevaUrl = window.location.pathname + '?n=' + slug;
     history.pushState({articuloId: id}, '', nuevaUrl);
   }
 
