@@ -790,7 +790,7 @@
     color:var(--azul-medio);text-decoration:none;white-space:nowrap;
     flex-shrink:0;letter-spacing:0.05em;
   }
-  .fichajes-strip-link:hover{text-decoration:underline;}
+  .fj-chip em{font-style:normal;font-size:9px;opacity:0.7;margin-left:3px;}
 
   :focus-visible{outline:2px solid var(--oro);outline-offset:2px;}
 </style>
@@ -1249,11 +1249,13 @@
     if(!el) return;
     if(hoy >= ligaInicio){ el.innerHTML=''; return; }
     const ICONOS = {confirmado:'\u2705',avanzado:'\uD83D\uDD25',rumor:'\uD83D\uDCAC',descartado:'\u274C'};
-    const chips = data.jugadores.map(function(j){
-      const icono = ICONOS[j.estado] || '';
-      return '<span class="fj-chip '+j.estado+'">'+icono+' '+j.nombre+'</span>';
+    const LABELS = {confirmado:'Confirmado',avanzado:'Avanzado',rumor:'Rumor',descartado:'Descartado'};
+    const LABELS_EN = {confirmado:'Confirmed',avanzado:'Advanced',rumor:'Rumour',descartado:'Ruled out'};
+    const labs = idiomaActual==='es' ? LABELS : LABELS_EN;
+    const ultimos = data.jugadores.slice(-4);
+    const chips = ultimos.map(function(j){
+      return '<span class="fj-chip '+j.estado+'">'+j.nombre+' <em>'+labs[j.estado]+'</em></span>';
     }).join('');
-    const confirmados = data.jugadores.filter(function(j){ return j.estado==='confirmado'; }).length;
     const label = idiomaActual==='es' ? '\uD83D\uDD25 MERCADO 26/27' : '\uD83D\uDD25 TRANSFERS 26/27';
     const verMas = idiomaActual==='es' ? 'Ver plantilla \u2192' : 'See squad \u2192';
     el.innerHTML = '<div class="fichajes-strip">'
