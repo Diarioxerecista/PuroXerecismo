@@ -792,6 +792,13 @@
   }
   .fj-chip em{font-style:normal;font-size:9px;opacity:0.7;margin-left:3px;}
 
+  /* ===== Grid cromos ===== */
+  .cromos-grid{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;padding:20px 0;}
+  .cromo-card{width:220px;cursor:pointer;transition:transform .2s,box-shadow .2s;border-radius:10px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.18);}
+  .cromo-card:hover{transform:translateY(-4px) scale(1.02);box-shadow:0 10px 32px rgba(0,0,0,0.28);}
+  .cromo-card img{width:100%;display:block;}
+  .cromo-card-nombre{font-family:'Space Mono',monospace;font-size:11px;font-weight:700;text-align:center;padding:6px 0;background:var(--azul-profundo);color:#fff;letter-spacing:0.05em;}
+
   :focus-visible{outline:2px solid var(--oro);outline-offset:2px;}
 </style>
 </head>
@@ -1012,10 +1019,11 @@
       <h2>Plantilla 2026/27</h2>
       <span class="tag">En construcción</span>
     </div>
-    <div class="construccion-wrap">
-      <div class="construccion-icono">⚙</div>
-      <h3>Sección en construcción</h3>
-      <p>Estamos preparando la ficha completa de todos los jugadores de la plantilla 2026/27. Muy pronto disponible.</p>
+    <div class="cromos-grid" id="cromosGrid">
+      <div class="construccion-wrap">
+        <div class="construccion-icono">⚙</div>
+        <h3>Cargando plantilla…</h3>
+      </div>
     </div>
   </section>
 
@@ -1270,6 +1278,22 @@
     fetch('fichajes.json?t='+Date.now())
       .then(function(r){ return r.json(); })
       .then(function(d){ renderFichajesStrip(d); })
+      .catch(function(){});
+  }
+
+  function cargarPlantilla(){
+    fetch('plantilla.json?t='+Date.now())
+      .then(function(r){ return r.json(); })
+      .then(function(jugadores){
+        const el = document.getElementById('cromosGrid');
+        if(!el) return;
+        if(!jugadores.length){ el.innerHTML='<p style="font-family:monospace;font-size:12px;color:var(--tinta-suave);padding:20px;">Plantilla en construcción. Muy pronto.</p>'; return; }
+        el.innerHTML = jugadores.map(function(j){
+          return '<div class="cromo-card">'
+            +'<img src="'+j.cromo+'" alt="'+j.nombre+' '+j.apellidos+'">'
+            +'</div>';
+        }).join('');
+      })
       .catch(function(){});
   }
 
@@ -1554,6 +1578,7 @@
         renderNoticias();
         renderCronicas();
         cargarFichajes();
+        cargarPlantilla();
 
         // Si la URL trae ?n= (artXX o slug), abrimos directamente esa noticia.
         const nParam = new URLSearchParams(window.location.search).get('n');
