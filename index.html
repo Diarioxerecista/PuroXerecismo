@@ -1413,7 +1413,10 @@
     }
 
     const slug = slugsMap[id] || id;
-    const shareUrl = 'https://x.com/intent/tweet?text='+encodeURIComponent(a.title+'\n\nhttps://www.diarioxerecista.es/?n='+slug)+'&via=Puroxerecismo';
+    const urlArticulo = slug && slug !== id
+      ? 'https://www.diarioxerecista.es/noticias/'+slug+'/'
+      : 'https://www.diarioxerecista.es/?n='+id;
+    const shareUrl = 'https://x.com/intent/tweet?text='+encodeURIComponent(a.title+'\n\n'+urlArticulo)+'&via=Puroxerecismo';
     const compartirTexto = idiomaActual === 'es' ? 'Compartir en 𝕏' : 'Share on 𝕏';
     c.innerHTML = `
       <span class="back-link" onclick="closeArticle()">${t('volver')}</span>
@@ -1434,8 +1437,7 @@
     // Actualiza la URL para que se pueda compartir un enlace directo a esta
     // noticia (ej. diarioxerecista.es/?n=art24), sin recargar la página.
     const nuevaUrl = window.location.pathname + '?n=' + slug;
-    history.pushState({articuloId: id}, '', nuevaUrl);
-  }
+    history.pushState({articuloId: id}, '', nuevaUrl);  }
 
   function closeArticle(){
     showView('portada');
