@@ -9,8 +9,27 @@
   {
     "nombre": "Zeki",
     "apellidos": "Díaz",
+    "nombreCompleto": "Ezequiel Díaz Romero",
     "dorsal": 21,
-    "posicion": "CC",
+    "posicion": "EXT IZQ",
+    "posicionDetalle": "Delantero · Extremo izquierdo",
+    "fechaNacimiento": "19/01/1997",
+    "edad": 29,
+    "lugarNacimiento": "Sanlúcar de Barrameda",
+    "nacionalidad": "España",
+    "fichado": "16/01/2026",
+    "contrato": "30/06/2027",
+    "valorMercado": "200.000 €",
+    "historial": [
+      {"temporada": "25/26", "deClub": "At. Sanluqueño", "aClub": "Xerez CD", "valor": "200k €"},
+      {"temporada": "25/26", "deClub": "Marbella", "aClub": "At. Sanluqueño", "valor": "200k €"},
+      {"temporada": "24/25", "deClub": "CF Intercity", "aClub": "Marbella", "valor": "250k €"},
+      {"temporada": "24/25", "deClub": "Algeciras CF", "aClub": "CF Intercity", "valor": "300k €"},
+      {"temporada": "23/24", "deClub": "At. Sanluqueño", "aClub": "Algeciras CF", "valor": "300k €"},
+      {"temporada": "22/23", "deClub": "Ciudad Lucena", "aClub": "At. Sanluqueño", "valor": "—"},
+      {"temporada": "21/22", "deClub": "CD Rota", "aClub": "Ciudad Lucena", "valor": "—"},
+      {"temporada": "21/22", "deClub": "Utrera", "aClub": "CD Rota", "valor": "—"}
+    ],
     "cromo": "fotos/cromos/Cromo02-zeki.png"
   },
   {
