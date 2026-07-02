@@ -1,38 +1,38 @@
 {
   "art2": {
-    "foto": "fotos/publicadas/ruben-mesa-partido.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
-  },
-  "art14": {
-    "foto": "fotos/publicadas/Z91_2604.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "foto": "fotos/publicadas/Ruben.mesa.jpg",
+    "creditoFoto": "Foto: Xerez CD"
   },
   "art17": {
-    "foto": "fotos/publicadas/guille_campos.jpg",
+    "foto": "fotos/publicadas/noticia_guille.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
   },
   "art18": {
-    "foto": "fotos/publicadas/Z91_3304.jpg",
+    "foto": "fotos/publicadas/Noticia_zelu.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
   },
   "art19": {
-    "foto": "fotos/publicadas/ismael-gutierrez-partido.jpg",
+    "foto": "fotos/publicadas/isma-gutierrez.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
   },
   "art21": {
-    "foto": "fotos/publicadas/josete-partido.jpg",
+    "foto": "fotos/publicadas/noticia_josete.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
-  },
-  "art23": {
-    "foto": "fotos/publicadas/Cheli_foto.jpg",
-    "creditoFoto": "Foto: San Roque de Lepe"
   },
   "art24": {
     "foto": "fotos/publicadas/fotoart24.jpg",
     "creditoFoto": "Foto: Xerez CD"
   },
+  "art25": {
+    "foto": "fotos/publicadas/pretemporada.jpg",
+    "creditoFoto": "Foto: PuroXerecismo"
+  },
   "art26": {
-    "foto": "fotos/publicadas/noticia27.jpg",
-    "creditoFoto": "Foto: Estadio Deportivo"
+    "foto": "fotos/publicadas/Fali-Xerez.jpg",
+    "creditoFoto": "Foto: Xerez CD"
+  },
+  "art27": {
+    "foto": "fotos/publicadas/david-garcia-crop.jpg",
+    "creditoFoto": "Foto: PuroXerecismo"
   }
 }

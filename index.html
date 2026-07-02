@@ -848,7 +848,31 @@
   .cromo-overlay{position:absolute;inset:0;z-index:2;-webkit-user-drag:none;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;}
   .cromo-card-nombre{font-family:'Space Mono',monospace;font-size:11px;font-weight:700;text-align:center;padding:6px 0;background:var(--azul-profundo);color:#fff;letter-spacing:0.05em;}
 
-  :focus-visible{outline:2px solid var(--oro);outline-offset:2px;}
+  /* ===== Modal jugador ===== */
+  .cromo-modal-overlay{position:fixed;inset:0;background:rgba(13,44,84,0.72);z-index:1000;display:flex;align-items:center;justify-content:center;padding:16px;opacity:0;pointer-events:none;transition:opacity .2s;}
+  .cromo-modal-overlay.open{opacity:1;pointer-events:all;}
+  .cromo-modal{background:var(--papel);border-radius:8px;width:100%;max-width:560px;max-height:90vh;overflow-y:auto;box-shadow:0 24px 64px rgba(0,0,0,0.35);}
+  .cromo-modal-header{background:var(--azul-profundo);color:#fff;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;border-radius:8px 8px 0 0;}
+  .cromo-modal-header h3{font-family:'Fraunces',serif;font-size:22px;font-weight:700;margin:0;}
+  .cromo-modal-pos{font-family:'Space Mono',monospace;font-size:10px;color:var(--oro);text-transform:uppercase;letter-spacing:0.1em;margin-top:3px;}
+  .cromo-modal-close{background:none;border:none;color:#fff;font-size:22px;cursor:pointer;padding:4px 8px;opacity:0.7;line-height:1;}
+  .cromo-modal-close:hover{opacity:1;}
+  .cromo-modal-body{padding:20px;}
+  .cromo-modal-top{display:flex;gap:20px;align-items:flex-start;margin-bottom:20px;}
+  .cromo-modal-img{width:110px;flex-shrink:0;border-radius:6px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.2);aspect-ratio:280/396;background-size:cover;background-position:center;}
+  .cromo-stats{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px;flex:1;}
+  .cromo-stat{border-bottom:1px solid var(--linea);padding-bottom:7px;}
+  .cromo-stat-label{font-family:'Space Mono',monospace;font-size:9px;color:var(--tinta-suave);text-transform:uppercase;letter-spacing:0.1em;}
+  .cromo-stat-value{font-size:13px;font-weight:600;color:var(--tinta);margin-top:2px;}
+  .cromo-stat-value.gold{color:var(--oro);font-family:'Space Mono',monospace;}
+  .cromo-historial-title{font-family:'Space Mono',monospace;font-size:10px;font-weight:700;color:var(--azul-profundo);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid var(--azul-profundo);}
+  .cromo-historial-table{width:100%;border-collapse:collapse;font-size:12px;}
+  .cromo-historial-table th{font-family:'Space Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:0.08em;color:var(--tinta-suave);padding:4px 8px;text-align:left;background:var(--papel-osc);}
+  .cromo-historial-table td{padding:7px 8px;border-bottom:1px solid var(--linea);color:var(--tinta);}
+  .cromo-historial-table tr:last-child td{border-bottom:none;}
+  .cromo-historial-table .val{color:var(--azul-medio);font-weight:600;text-align:right;}
+
+    :focus-visible{outline:2px solid var(--oro);outline-offset:2px;}
 </style>
 </head>
 <body>
@@ -1338,8 +1362,9 @@
         const el = document.getElementById('cromosGrid');
         if(!el) return;
         if(!jugadores.length){ el.innerHTML='<p style="font-family:monospace;font-size:12px;color:var(--tinta-suave);padding:20px;">Plantilla en construcción. Muy pronto.</p>'; return; }
-        el.innerHTML = jugadores.map(function(j){
-          return '<div class="cromo-card">'
+        window._plantillaData = jugadores;
+        el.innerHTML = jugadores.map(function(j,idx){
+          return '<div class="cromo-card" onclick="openCromoModal('+idx+')" title="'+j.nombre+' '+j.apellidos+'">'
             +'<div class="cromo-card-bg" style="background-image:url(\''+ j.cromo +'\')" aria-label="'+j.nombre+' '+j.apellidos+'"></div>'
             +'<div class="cromo-overlay" oncontextmenu="return false;"></div>'
             +'</div>';
@@ -1631,10 +1656,11 @@
     // Cargamos el texto (en el idioma activo) y las fotos (un solo archivo,
     // compartido entre idiomas, para no tener que repetir la foto en cada
     // versión) y los combinamos antes de pintar la web.
+    const cb = '?t='+Date.now();
     Promise.all([
-      fetch(archivo).then(resp => resp.json()),
-      fetch('fotos-articulos.json').then(resp => resp.json()).catch(() => ({})),
-      fetch('mapa-slugs.json').then(resp => resp.json()).catch(() => ({}))
+      fetch(archivo+cb).then(resp => resp.json()),
+      fetch('fotos-articulos.json'+cb).then(resp => resp.json()).catch(() => ({})),
+      fetch('mapa-slugs.json'+cb).then(resp => resp.json()).catch(() => ({}))
     ])
       .then(([textos, fotos, slugs]) => {
         articles = textos;
@@ -1935,6 +1961,49 @@ function initMapaRivales(){
     }
   });
 }
+</script>
+
+<!-- ===== MODAL JUGADOR ===== -->
+<div class="cromo-modal-overlay" id="cromoModalOverlay">
+  <div class="cromo-modal" id="cromoModal">
+    <div class="cromo-modal-header">
+      <div>
+        <h3 id="cromoModalNombre"></h3>
+        <div class="cromo-modal-pos" id="cromoModalPos"></div>
+      </div>
+      <button class="cromo-modal-close" onclick="closeCromoModal()">✕</button>
+    </div>
+    <div class="cromo-modal-body" id="cromoModalBody"></div>
+  </div>
+</div>
+<script>
+  function openCromoModal(idx){
+    const j = (window._plantillaData || [])[idx];
+    if(!j) return;
+    document.getElementById('cromoModalNombre').textContent = j.nombreCompleto || (j.nombre+' '+j.apellidos);
+    document.getElementById('cromoModalPos').textContent = j.posicionDetalle || j.posicion || '';
+    const stats = [
+      {label:'Fecha nac.',value:j.fechaNacimiento||'—'},
+      {label:'Edad',value:j.edad ? j.edad+' años' : '—'},
+      {label:'Lugar nac.',value:j.lugarNacimiento||'—'},
+      {label:'Dorsal',value:j.dorsal||'—'},
+      {label:'Fichado',value:j.fichado||'—'},
+      {label:'Contrato',value:j.contrato||'—'},
+      {label:'Valor mercado',value:j.valorMercado||'—',gold:true},
+    ].map(function(s){
+      return '<div class="cromo-stat"><div class="cromo-stat-label">'+s.label+'</div><div class="cromo-stat-value'+(s.gold?' gold':'')+'">'+s.value+'</div></div>';
+    }).join('');
+    const historial = j.historial && j.historial.length ? '<div class="cromo-historial-title">Historial de fichajes</div><table class="cromo-historial-table"><thead><tr><th>Temp.</th><th>Salida</th><th>Destino</th><th>Valor</th></tr></thead><tbody>'+j.historial.map(function(h){return '<tr><td>'+h.temporada+'</td><td>'+h.deClub+'</td><td>'+h.aClub+'</td><td class="val">'+h.valor+'</td></tr>';}).join('')+'</tbody></table>' : '';
+    document.getElementById('cromoModalBody').innerHTML = '<div class="cromo-modal-top"><div class="cromo-modal-img" style="background-image:url(\'"+j.cromo+"\')"></div><div class="cromo-stats">'+stats+'</div></div>'+historial;
+    document.getElementById('cromoModalOverlay').classList.add('open');
+    document.body.style.overflow='hidden';
+  }
+  function closeCromoModal(e){
+    if(e && e.target !== document.getElementById('cromoModalOverlay')) return;
+    document.getElementById('cromoModalOverlay').classList.remove('open');
+    document.body.style.overflow='';
+  }
+  document.addEventListener('keydown',function(e){if(e.key==='Escape') closeCromoModal();});
 </script>
 </body>
 </html>
