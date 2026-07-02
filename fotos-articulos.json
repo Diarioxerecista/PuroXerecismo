@@ -6,7 +6,7 @@
   "art17": {
     "foto": "fotos/publicadas/noticia_guille.jpg",
     "creditoFoto": "Foto: PuroXerecismo",
-    "objectPosition": "center 20%"
+    "objectPosition": "top center"
   },
   "art18": {
     "foto": "fotos/publicadas/Noticia_zelu.jpg",
@@ -25,7 +25,7 @@
     "creditoFoto": "Foto: Xerez CD"
   },
   "art25": {
-    "foto": "fotos/publicadas/pretemporada.jpg",
+    "foto": "fotos/publicadas/noticia_temporada.png",
     "creditoFoto": "Foto: PuroXerecismo"
   },
   "art26": {
