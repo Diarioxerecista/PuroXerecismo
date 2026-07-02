@@ -1719,6 +1719,8 @@
   });
 
   function openMapaRivales(){
+    _mapaInited = false;
+    if(window._leafletMap){ try{ window._leafletMap.remove(); }catch(e){} window._leafletMap=null; }
     const c = document.getElementById('articleContent');
     c.innerHTML = `
       <span class="back-link" onclick="closeArticle()">← Volver</span>
@@ -1731,7 +1733,7 @@
     document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
     document.getElementById('view-articulo').classList.add('active');
     window.scrollTo({top:0,behavior:'smooth'});
-    setTimeout(initMapaRivales, 150);
+    setTimeout(function(){ initMapaRivales(); if(window._leafletMap) window._leafletMap.invalidateSize(); }, 300);
   }
 
   function openArticle(id){
@@ -1894,10 +1896,10 @@ function initMapaRivales(){
     {n:'C.P. Mijas Las Lagunas',lat:36.595,lon:-4.641},
     {n:'C.D. Atlético Paso',lat:28.658,lon:-17.873}
   ];
-  var map=L.map('mapaRivales');
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',{
-    attribution:'© <a href="https://openstreetmap.org">OpenStreetMap</a> © <a href="https://carto.com">CARTO</a>',
-    maxZoom:13
+  var map=L.map('mapaRivales'); window._leafletMap=map;
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+    attribution:'© <a href="https://openstreetmap.org">OpenStreetMap</a>',
+    maxZoom:18
   }).addTo(map);
   var markers=[];
   equipos.forEach(function(e){
