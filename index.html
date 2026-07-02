@@ -1464,7 +1464,7 @@
     let imgBoxExtra = '';
     let imgHtml;
     if(a.foto){
-      imgHtml = `<img src="${a.foto}" alt="${a.title}" style="width:100%;height:100%;object-fit:cover;">`;
+      imgHtml = `<img src="${a.foto}" alt="${a.title}" style="width:100%;height:100%;object-fit:cover;object-position:top center;">`;
     } else if(a.score){
       imgHtml = `<div class="stripe"></div><div class="score-overlay"><span class="comp">${a.eyebrow}</span><span class="score">${a.score}</span></div>`;
     } else {
@@ -1499,7 +1499,7 @@
     let heroImgBoxStyle = '';
     let heroImgHtml;
     if(principal.foto){
-      heroImgHtml = `<img src="${principal.foto}" alt="${principal.title}" style="width:100%;height:100%;object-fit:cover;">`;
+      heroImgHtml = `<img src="${principal.foto}" alt="${principal.title}" style="width:100%;height:100%;object-fit:cover;object-position:top center;">`;
     } else {
       const palabraFantasma = principal.eyebrow.split('\u00b7')[0].trim();
       heroImgBoxStyle = 'background:var(--azul-profundo);display:flex;flex-direction:column;justify-content:space-between;padding:28px 32px;';
@@ -1520,7 +1520,7 @@
     const sideItems = resto.slice(0,4).map(id => {
       const art = articles[id];
       const thumbHtml = art.foto
-        ? `<div class="side-thumb" style="width:88px;height:68px;border-radius:2px;overflow:hidden;flex-shrink:0;"><img src="${art.foto}" alt="${art.title}" style="width:100%;height:100%;object-fit:cover;"></div>`
+        ? `<div class="side-thumb" style="width:88px;height:68px;border-radius:2px;overflow:hidden;flex-shrink:0;"><img src="${art.foto}" alt="${art.title}" style="width:100%;height:100%;object-fit:cover;object-position:top center;ver;"></div>`
         : '';
       return `
       <div class="side-item${art.foto ? ' side-item-foto' : ''}" onclick="openArticle('${id}')">
