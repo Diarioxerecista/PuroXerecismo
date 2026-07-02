@@ -83,6 +83,7 @@
   });
 </script>
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -1073,6 +1074,13 @@
         <h3>Cargando plantilla…</h3>
       </div>
     </div>
+
+    <div class="section-head" style="margin-top:48px;">
+      <h2>Rivales Grupo IV</h2>
+      <span class="tag">26/27</span>
+    </div>
+    <div id="mapaRivales" style="height:460px;border-radius:4px;overflow:hidden;border:1px solid var(--linea);"></div>
+    <p style="font-family:'Space Mono',monospace;font-size:10px;color:var(--tinta-suave);margin:8px 0 48px;line-height:1.7;">📍 Distancias en línea recta desde Chapín &nbsp;·&nbsp; Haz clic en cada marcador &nbsp;·&nbsp; Equipos confirmados del Grupo IV — corrígenos si hay cambios</p>
   </section>
 
   <!-- ===================== CONTACTO ===================== -->
@@ -1526,12 +1534,23 @@
     document.getElementById('heroGrid').innerHTML = heroHtml;
 
     const loUltimoIds = resto.slice(4, 10);
-    document.getElementById('loUltimoGrid').innerHTML = loUltimoIds.map(tarjetaHTML).join('');
+    const cardFijaPortada = '<article class="card" onclick="openMapaRivales()" style="cursor:pointer;"><div class="img-box" style="background:var(--azul-profundo);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;"><div style=\"position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(201,162,75,0.08) 0px,rgba(201,162,75,0.08) 1px,transparent 1px,transparent 12px);\"></div><svg width=\"56\" height=\"56\" viewBox=\"0 0 64 64\" fill=\"none\" style=\"opacity:0.9;position:relative;z-index:1;\"><circle cx=\"32\" cy=\"28\" r=\"14\" stroke=\"#C9A24B\" stroke-width=\"2.5\" fill=\"none\"/><circle cx=\"32\" cy=\"28\" r=\"4\" fill=\"#C9A24B\"/><path d=\"M32 42 L32 56\" stroke=\"#C9A24B\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg><span style=\"position:absolute;top:10px;left:10px;font-family:monospace;font-size:9px;font-weight:700;color:#C9A24B;background:rgba(13,44,84,0.8);padding:3px 8px;border-radius:2px;\">📌 Fijo</span></div><span class=\"eyebrow\" style=\"margin-top:14px;display:block;\">Competición · Grupo IV 26/27</span><h4>Mapa interactivo de rivales — distancias desde Chapín</h4><p style=\"font-size:13px;color:var(--tinta-suave);margin-top:6px;\">17 rivales geolocalizados con los km desde Chapín.</p></article>';
+    document.getElementById('loUltimoGrid').innerHTML = cardFijaPortada + loUltimoIds.map(tarjetaHTML).join('');
   }
 
   function renderNoticias(){
     const ids = idsOrdenadosPorFecha('noticia').slice(0, 15);
-    document.getElementById('noticiasGrid').innerHTML = ids.map(tarjetaHTML).join('');
+    const cardFija = `<article class="card" onclick="openMapaRivales()" style="cursor:pointer;">
+      <div class="img-box" style="background:var(--azul-profundo);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
+        <div style="position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(201,162,75,0.08) 0px,rgba(201,162,75,0.08) 1px,transparent 1px,transparent 12px);"></div>
+        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" style="opacity:0.9;position:relative;z-index:1;"><circle cx="32" cy="28" r="14" stroke="#C9A24B" stroke-width="2.5" fill="none"/><circle cx="32" cy="28" r="4" fill="#C9A24B"/><path d="M32 42 L32 56" stroke="#C9A24B" stroke-width="2" stroke-linecap="round"/><circle cx="18" cy="20" r="3" fill="rgba(255,255,255,0.5)"/><circle cx="46" cy="38" r="3" fill="rgba(255,255,255,0.5)"/><circle cx="14" cy="40" r="2.5" fill="rgba(255,255,255,0.4)"/><circle cx="50" cy="18" r="2.5" fill="rgba(255,255,255,0.4)"/></svg>
+        <span style="position:absolute;top:10px;left:10px;font-family:'Space Mono',monospace;font-size:9px;font-weight:700;color:var(--oro);letter-spacing:0.1em;text-transform:uppercase;background:rgba(13,44,84,0.8);padding:3px 8px;border-radius:2px;">📌 Fijo</span>
+      </div>
+      <span class="eyebrow" style="margin-top:14px;display:block;">Competición · Grupo IV 26/27</span>
+      <h4>Mapa interactivo de rivales — distancias desde Chapín</h4>
+      <p style="font-size:13px;color:var(--tinta-suave);margin-top:6px;">17 rivales geolocalizados con los kilómetros desde el Estadio Municipal de Chapín.</p>
+    </article>`;
+    document.getElementById('noticiasGrid').innerHTML = cardFija + ids.map(tarjetaHTML).join('');
   }
 
   function renderCronicas(){
@@ -1699,6 +1718,22 @@
     }
   });
 
+  function openMapaRivales(){
+    const c = document.getElementById('articleContent');
+    c.innerHTML = `
+      <span class="back-link" onclick="closeArticle()">← Volver</span>
+      <span class="eyebrow">Competición · Grupo IV 26/27</span>
+      <h1>Rivales del Xerez CD — Grupo IV 26/27</h1>
+      <p class="lead">17 rivales geolocalizados. Haz clic en cada marcador para ver los kilómetros desde el Estadio Municipal de Chapín en línea recta.</p>
+      <div id="mapaRivales" style="height:480px;border-radius:4px;overflow:hidden;border:1px solid var(--linea);margin:24px 0 8px;"></div>
+      <p style="font-family:'Space Mono',monospace;font-size:10px;color:var(--tinta-suave);margin-bottom:32px;line-height:1.7;">📍 Distancias en línea recta · <span style="color:var(--oro)">●</span> Xerez CD · <span style="color:var(--azul-profundo)">●</span> Rival</p>
+    `;
+    document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+    document.getElementById('view-articulo').classList.add('active');
+    window.scrollTo({top:0,behavior:'smooth'});
+    setTimeout(initMapaRivales, 150);
+  }
+
   function openArticle(id){
     const a = articles[id];
     if(!a) return;
@@ -1806,5 +1841,95 @@
   })();
 </script>
 
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+var _mapaInited = false;
+var ISLAS_CANARIAS = ['C.D. Tenerife "B"','U.D. Tamaraceite','C.D. Atlético Paso'];
+
+function kmAereo(lat1,lon1,lat2,lon2){
+  var R=6371,toR=function(x){return x*Math.PI/180;};
+  var dLat=toR(lat2-lat1),dLon=toR(lon2-lon1);
+  var a=Math.sin(dLat/2)*Math.sin(dLat/2)+Math.cos(toR(lat1))*Math.cos(toR(lat2))*Math.sin(dLon/2)*Math.sin(dLon/2);
+  return Math.round(R*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a)));
+}
+
+function popupRival(nombre,kmTexto,nota){
+  return '<strong style="font-family:monospace;font-size:13px">'+nombre+'</strong><br>'
+    +'<span style="font-family:monospace;color:#C9A24B;font-weight:700;font-size:14px">'+kmTexto+'</span>'
+    +' <span style="font-size:11px;color:#666">desde Chapín</span>'
+    +(nota?'<br><span style="font-size:10px;color:#999">'+nota+'</span>':'');
+}
+
+function fetchKmCarretera(lon1,lat1,lon2,lat2){
+  var url='https://router.project-osrm.org/route/v1/driving/'+lon1+','+lat1+';'+lon2+','+lat2+'?overview=false';
+  return fetch(url).then(function(r){return r.json();}).then(function(d){
+    if(d.code==='Ok'&&d.routes&&d.routes[0]) return Math.round(d.routes[0].distance/1000);
+    return null;
+  });
+}
+
+function initMapaRivales(){
+  var el = document.getElementById('mapaRivales');
+  if(!el || _mapaInited) return;
+  _mapaInited = true;
+  var JEREZ = [36.685, -6.138];
+  var equipos=[
+    {n:'Xerez CD',lat:36.685,lon:-6.138,home:true},
+    {n:'C.D. Estepona',lat:36.426,lon:-5.148},
+    {n:'C.D. Badajoz',lat:38.878,lon:-6.970},
+    {n:'C.D. Don Benito',lat:38.955,lon:-5.862},
+    {n:'RC Recreativo de Huelva',lat:37.261,lon:-6.948},
+    {n:'C.D. Tenerife "B"',lat:28.463,lon:-16.252},
+    {n:'Betis Deportivo',lat:37.356,lon:-5.981},
+    {n:'Ciudad de Lucena',lat:37.408,lon:-4.486},
+    {n:'Marbella F.C.',lat:36.510,lon:-4.886},
+    {n:'U.D. Tamaraceite',lat:28.147,lon:-15.423},
+    {n:'Atlético Sanluqueño',lat:36.778,lon:-6.353},
+    {n:'C.A. Antoniano',lat:36.921,lon:-6.075},
+    {n:'C. Atlético Central',lat:37.390,lon:-5.995},
+    {n:'Linares Deportivo',lat:38.088,lon:-3.636},
+    {n:'Las Palmas Atlético',lat:28.128,lon:-15.436},
+    {n:'Sevilla Atlético',lat:37.384,lon:-5.990},
+    {n:'C.P. Mijas Las Lagunas',lat:36.595,lon:-4.641},
+    {n:'C.D. Atlético Paso',lat:28.658,lon:-17.873}
+  ];
+  var map=L.map('mapaRivales');
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',{
+    attribution:'© <a href="https://openstreetmap.org">OpenStreetMap</a> © <a href="https://carto.com">CARTO</a>',
+    maxZoom:13
+  }).addTo(map);
+  var markers=[];
+  equipos.forEach(function(e){
+    var s=e.home?18:12;
+    var icon=L.divIcon({
+      className:'',
+      html:'<div style="width:'+s+'px;height:'+s+'px;background:'+(e.home?'#C9A24B':'#0D2C54')+';border:2px solid '+(e.home?'#0D2C54':'#C9A24B')+';border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.35);"></div>',
+      iconSize:[s,s],iconAnchor:[s/2,s/2]
+    });
+    var initPopup=e.home
+      ?'<strong style="font-family:monospace">Xerez CD 🏠</strong><br><span style="font-size:12px">Estadio Municipal de Chapín</span>'
+      :'<strong style="font-family:monospace">'+e.n+'</strong><br><span style="font-size:11px;color:#999">Calculando...</span>';
+    markers.push(L.marker([e.lat,e.lon],{icon:icon}).bindPopup(initPopup).addTo(map));
+  });
+  map.fitBounds(L.featureGroup(markers).getBounds().pad(0.08));
+  equipos.forEach(function(e,i){
+    if(e.home) return;
+    var m=markers[i];
+    if(ISLAS_CANARIAS.indexOf(e.n)>=0){
+      var aer=kmAereo(JEREZ[0],JEREZ[1],e.lat,e.lon);
+      m.setPopupContent(popupRival(e.n,'~'+aer+' km','✈️ distancia aérea (isla)'));
+    } else {
+      fetchKmCarretera(JEREZ[1],JEREZ[0],e.lon,e.lat).then(function(km){
+        if(km) m.setPopupContent(popupRival(e.n,km+' km','🚗 por carretera'));
+        else { var aer=kmAereo(JEREZ[0],JEREZ[1],e.lat,e.lon); m.setPopupContent(popupRival(e.n,'~'+aer+' km','distancia aprox.')); }
+      }).catch(function(){
+        var aer=kmAereo(JEREZ[0],JEREZ[1],e.lat,e.lon);
+        m.setPopupContent(popupRival(e.n,'~'+aer+' km','distancia aprox.'));
+      });
+    }
+  });
+}
+</script>
 </body>
 </html>
