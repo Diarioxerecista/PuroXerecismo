@@ -794,9 +794,10 @@
 
   /* ===== Grid cromos ===== */
   .cromos-grid{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;padding:20px 0;}
-  .cromo-card{width:220px;cursor:pointer;transition:transform .2s,box-shadow .2s;border-radius:10px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.18);}
+  .cromo-card{width:220px;cursor:pointer;transition:transform .2s,box-shadow .2s;border-radius:10px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,0.18);position:relative;}
   .cromo-card:hover{transform:translateY(-4px) scale(1.02);box-shadow:0 10px 32px rgba(0,0,0,0.28);}
   .cromo-card-bg{width:100%;aspect-ratio:280/396;background-size:cover;background-position:center;-webkit-user-drag:none;user-select:none;}
+  .cromo-overlay{position:absolute;inset:0;z-index:2;-webkit-user-drag:none;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;}
   .cromo-card-nombre{font-family:'Space Mono',monospace;font-size:11px;font-weight:700;text-align:center;padding:6px 0;background:var(--azul-profundo);color:#fff;letter-spacing:0.05em;}
 
   :focus-visible{outline:2px solid var(--oro);outline-offset:2px;}
@@ -1291,9 +1292,10 @@
         el.innerHTML = jugadores.map(function(j){
           return '<div class="cromo-card">'
             +'<div class="cromo-card-bg" style="background-image:url(\''+ j.cromo +'\')" aria-label="'+j.nombre+' '+j.apellidos+'"></div>'
+            +'<div class="cromo-overlay" oncontextmenu="return false;"></div>'
             +'</div>';
         }).join('');
-        el.addEventListener('contextmenu',function(e){e.preventDefault();});
+        el.addEventListener('contextmenu',function(e){e.preventDefault();return false;},true);
       })
       .catch(function(){});
   }

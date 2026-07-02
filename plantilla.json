@@ -5,12 +5,19 @@
     "dorsal": 8,
     "posicion": "CC",
     "cromo": "fotos/cromos/Cromo01-ismael.png"
-  }
-  ,{
+  },
+  {
     "nombre": "Zeki",
     "apellidos": "Díaz",
     "dorsal": 21,
     "posicion": "CC",
     "cromo": "fotos/cromos/Cromo02-zeki.png"
+  },
+  {
+    "nombre": "Guille",
+    "apellidos": "Campos",
+    "dorsal": 22,
+    "posicion": "DEFENSA",
+    "cromo": "fotos/cromos/Cromo03-guille.png"
   }
 ]
