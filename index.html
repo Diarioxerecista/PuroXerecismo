@@ -1075,12 +1075,6 @@
       </div>
     </div>
 
-    <div class="section-head" style="margin-top:48px;">
-      <h2>Rivales Grupo IV</h2>
-      <span class="tag">26/27</span>
-    </div>
-    <div id="mapaRivales" style="height:460px;border-radius:4px;overflow:hidden;border:1px solid var(--linea);"></div>
-    <p style="font-family:'Space Mono',monospace;font-size:10px;color:var(--tinta-suave);margin:8px 0 48px;line-height:1.7;">📍 Distancias en línea recta desde Chapín &nbsp;·&nbsp; Haz clic en cada marcador &nbsp;·&nbsp; Equipos confirmados del Grupo IV — corrígenos si hay cambios</p>
   </section>
 
   <!-- ===================== CONTACTO ===================== -->
@@ -1534,7 +1528,16 @@
     document.getElementById('heroGrid').innerHTML = heroHtml;
 
     const loUltimoIds = resto.slice(4, 10);
-    const cardFijaPortada = '<article class="card" onclick="openMapaRivales()" style="cursor:pointer;"><div class="img-box" style="background:var(--azul-profundo);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;"><div style=\"position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(201,162,75,0.08) 0px,rgba(201,162,75,0.08) 1px,transparent 1px,transparent 12px);\"></div><svg width=\"56\" height=\"56\" viewBox=\"0 0 64 64\" fill=\"none\" style=\"opacity:0.9;position:relative;z-index:1;\"><circle cx=\"32\" cy=\"28\" r=\"14\" stroke=\"#C9A24B\" stroke-width=\"2.5\" fill=\"none\"/><circle cx=\"32\" cy=\"28\" r=\"4\" fill=\"#C9A24B\"/><path d=\"M32 42 L32 56\" stroke=\"#C9A24B\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg><span style=\"position:absolute;top:10px;left:10px;font-family:monospace;font-size:9px;font-weight:700;color:#C9A24B;background:rgba(13,44,84,0.8);padding:3px 8px;border-radius:2px;\">📌 Fijo</span></div><span class=\"eyebrow\" style=\"margin-top:14px;display:block;\">Competición · Grupo IV 26/27</span><h4>Mapa interactivo de rivales — distancias desde Chapín</h4><p style=\"font-size:13px;color:var(--tinta-suave);margin-top:6px;\">17 rivales geolocalizados con los km desde Chapín.</p></article>';
+    const cardFijaPortada = `<article class="card" onclick="openMapaRivales()" style="cursor:pointer;">
+      <div class="img-box" style="background:var(--azul-profundo);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
+        <div style="position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(201,162,75,0.08) 0px,rgba(201,162,75,0.08) 1px,transparent 1px,transparent 12px);"></div>
+        <svg width="56" height="56" viewBox="0 0 64 64" fill="none" style="opacity:0.9;position:relative;z-index:1;"><circle cx="32" cy="28" r="14" stroke="#C9A24B" stroke-width="2.5" fill="none"/><circle cx="32" cy="28" r="4" fill="#C9A24B"/><path d="M32 42 L32 56" stroke="#C9A24B" stroke-width="2" stroke-linecap="round"/></svg>
+        <span style="position:absolute;top:10px;left:10px;font-family:monospace;font-size:9px;font-weight:700;color:#C9A24B;background:rgba(13,44,84,0.8);padding:3px 8px;border-radius:2px;">📌 Fijo</span>
+      </div>
+      <span class="eyebrow" style="margin-top:14px;display:block;">Competición · Grupo IV 26/27</span>
+      <h4>Mapa interactivo de rivales — distancias desde Chapín</h4>
+      <p style="font-size:13px;color:var(--tinta-suave);margin-top:6px;">17 rivales geolocalizados con los km desde Chapín.</p>
+    </article>`;
     document.getElementById('loUltimoGrid').innerHTML = cardFijaPortada + loUltimoIds.map(tarjetaHTML).join('');
   }
 
