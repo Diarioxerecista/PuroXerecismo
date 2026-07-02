@@ -1,0 +1,175 @@
+name: Resultado en directo
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # cada 5 minutos (GitHub puede retrasarlo ~15 min)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  live-score:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar dependencias
+        run: pip install requests --quiet
+
+      - name: Actualizar live.json
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: |
+          python3 << 'PYEOF'
+          import json, os, sys, requests
+          from datetime import datetime, timedelta
+
+          # ── Calendario de partidos (fecha + hora orientativa) ──────────────
+          # Actualiza las horas cuando la RFEF confirme los horarios oficiales.
+          PARTIDOS = [
+            {"fecha":"2026-09-06","hora":"17:00","local":"C.D. Estepona","visitante":"Xerez CD"},
+            {"fecha":"2026-09-13","hora":"17:00","local":"Xerez CD","visitante":"C.D. Badajoz"},
+            {"fecha":"2026-09-20","hora":"17:00","local":"Xerez CD","visitante":"C.D. Don Benito"},
+            {"fecha":"2026-09-27","hora":"17:00","local":"RC Recreativo de Huelva","visitante":"Xerez CD"},
+            {"fecha":"2026-10-04","hora":"17:00","local":"Xerez CD","visitante":"C.D. Tenerife B"},
+            {"fecha":"2026-10-11","hora":"17:00","local":"Betis Deportivo","visitante":"Xerez CD"},
+            {"fecha":"2026-10-18","hora":"17:00","local":"Xerez CD","visitante":"Ciudad de Lucena"},
+            {"fecha":"2026-10-25","hora":"17:00","local":"Xerez CD","visitante":"Marbella F.C."},
+            {"fecha":"2026-11-01","hora":"17:00","local":"U.D. Tamaraceite","visitante":"Xerez CD"},
+            {"fecha":"2026-11-08","hora":"17:00","local":"Atletico Sanluqueno","visitante":"Xerez CD"},
+            {"fecha":"2026-11-15","hora":"17:00","local":"Xerez CD","visitante":"C.A. Antoniano"},
+            {"fecha":"2026-11-22","hora":"17:00","local":"C. Atletico Central","visitante":"Xerez CD"},
+            {"fecha":"2026-11-29","hora":"17:00","local":"Xerez CD","visitante":"Linares Deportivo"},
+            {"fecha":"2026-12-06","hora":"17:00","local":"Las Palmas Atletico","visitante":"Xerez CD"},
+            {"fecha":"2026-12-13","hora":"17:00","local":"Sevilla Atletico","visitante":"Xerez CD"},
+            {"fecha":"2026-12-20","hora":"17:00","local":"Xerez CD","visitante":"C.P. Mijas Las Lagunas"},
+            {"fecha":"2027-01-10","hora":"17:00","local":"C.D. Atletico Paso","visitante":"Xerez CD"},
+            {"fecha":"2027-01-17","hora":"17:00","local":"Xerez CD","visitante":"C.D. Estepona"},
+            {"fecha":"2027-01-24","hora":"17:00","local":"Ciudad de Lucena","visitante":"Xerez CD"},
+            {"fecha":"2027-01-31","hora":"17:00","local":"Xerez CD","visitante":"Atletico Sanluqueno"},
+            {"fecha":"2027-02-07","hora":"17:00","local":"Xerez CD","visitante":"Betis Deportivo"},
+            {"fecha":"2027-02-14","hora":"17:00","local":"C.D. Don Benito","visitante":"Xerez CD"},
+            {"fecha":"2027-02-21","hora":"17:00","local":"Xerez CD","visitante":"U.D. Tamaraceite"},
+            {"fecha":"2027-02-28","hora":"17:00","local":"Marbella F.C.","visitante":"Xerez CD"},
+            {"fecha":"2027-03-07","hora":"17:00","local":"Xerez CD","visitante":"Sevilla Atletico"},
+            {"fecha":"2027-03-14","hora":"17:00","local":"C.P. Mijas Las Lagunas","visitante":"Xerez CD"},
+            {"fecha":"2027-03-21","hora":"17:00","local":"Xerez CD","visitante":"RC Recreativo de Huelva"},
+            {"fecha":"2027-03-28","hora":"17:00","local":"C.A. Antoniano","visitante":"Xerez CD"},
+            {"fecha":"2027-04-04","hora":"17:00","local":"Xerez CD","visitante":"C. Atletico Central"},
+            {"fecha":"2027-04-11","hora":"17:00","local":"C.D. Tenerife B","visitante":"Xerez CD"},
+            {"fecha":"2027-04-18","hora":"17:00","local":"Xerez CD","visitante":"C.D. Atletico Paso"},
+            {"fecha":"2027-04-25","hora":"17:00","local":"Linares Deportivo","visitante":"Xerez CD"},
+            {"fecha":"2027-05-02","hora":"17:00","local":"Xerez CD","visitante":"Las Palmas Atletico"},
+            {"fecha":"2027-05-09","hora":"17:00","local":"C.D. Badajoz","visitante":"Xerez CD"},
+          ]
+
+          # ── Buscar partido de hoy ──────────────────────────────────────────
+          ahora = datetime.now()
+          hoy   = ahora.strftime("%Y-%m-%d")
+          partido_hoy = next((p for p in PARTIDOS if p["fecha"] == hoy), None)
+
+          LIVE_PATH = "live.json"
+
+          def guardar(data):
+              with open(LIVE_PATH, "w", encoding="utf-8") as f:
+                  json.dump(data, f, ensure_ascii=False)
+              print("live.json →", data)
+
+          if not partido_hoy:
+              guardar({"activo": False})
+              sys.exit(0)
+
+          # ── Comprobar ventana horaria (kick-off ± 10 min / +120 min) ───────
+          h, m = map(int, partido_hoy["hora"].split(":"))
+          kick  = ahora.replace(hour=h, minute=m, second=0, microsecond=0)
+          inicio = kick - timedelta(minutes=10)
+          fin    = kick + timedelta(minutes=120)
+
+          if not (inicio <= ahora <= fin):
+              # Fuera de la ventana: no consumir cuota de API
+              guardar({"activo": False})
+              sys.exit(0)
+
+          # ── Llamada a API-Football ─────────────────────────────────────────
+          key = os.environ.get("API_FOOTBALL_KEY", "").strip()
+          if not key:
+              print("ERROR: API_FOOTBALL_KEY no configurada.")
+              sys.exit(1)
+
+          headers = {"x-apisports-key": key}
+
+          # Primero intentamos el endpoint /live (usa menos cuota)
+          resp = requests.get(
+              "https://v3.football.api-sports.io/fixtures",
+              params={"live": "all"},
+              headers=headers,
+              timeout=15
+          )
+          fixtures = resp.json().get("response", [])
+
+          # Filtrar por "Xerez"
+          partido_api = next(
+              (f for f in fixtures
+               if "xerez" in f["teams"]["home"]["name"].lower()
+               or "xerez" in f["teams"]["away"]["name"].lower()),
+              None
+          )
+
+          # Si no está en vivo, buscar por fecha (puede que aún no empezó)
+          if not partido_api:
+              resp2 = requests.get(
+                  "https://v3.football.api-sports.io/fixtures",
+                  params={"date": hoy},
+                  headers=headers,
+                  timeout=15
+              )
+              fixtures2 = resp2.json().get("response", [])
+              partido_api = next(
+                  (f for f in fixtures2
+                   if "xerez" in f["teams"]["home"]["name"].lower()
+                   or "xerez" in f["teams"]["away"]["name"].lower()),
+                  None
+              )
+
+          if not partido_api:
+              print("Partido no encontrado en la API.")
+              guardar({"activo": False})
+              sys.exit(0)
+
+          # ── Leer estado y resultado ────────────────────────────────────────
+          status = partido_api["fixture"]["status"]["short"]
+          goals  = partido_api["goals"]
+          minuto = partido_api["fixture"]["status"].get("elapsed") or ""
+
+          VIVO      = {"1H","HT","2H","ET","BT","P","LIVE"}
+          TERMINADO = {"FT","AET","PEN"}
+
+          if status in VIVO:
+              guardar({
+                  "activo":    True,
+                  "local":     partido_hoy["local"],
+                  "visitante": partido_hoy["visitante"],
+                  "resultado": f"{goals['home']}-{goals['away']}",
+                  "minuto":    minuto
+              })
+          elif status in TERMINADO:
+              guardar({
+                  "activo":    False,
+                  "local":     partido_hoy["local"],
+                  "visitante": partido_hoy["visitante"],
+                  "resultado": f"{goals['home']}-{goals['away']}",
+                  "terminado": True
+              })
+          else:
+              guardar({"activo": False})
+
+          PYEOF
+
+      - name: Publicar cambios
+        run: |
+          git config user.name "Diario Xerecista (bot)"
+          git config user.email "bot@puroxerecismo.local"
+          git add live.json
+          git diff --quiet --cached || git commit -m "Auto: resultado en directo"
+          git push
