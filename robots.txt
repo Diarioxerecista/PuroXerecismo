@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://diarioxerecista.github.io/PuroXerecismo/sitemap.xml
+Sitemap: https://www.diarioxerecista.es/sitemap.xml
