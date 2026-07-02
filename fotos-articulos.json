@@ -5,7 +5,8 @@
   },
   "art17": {
     "foto": "fotos/publicadas/noticia_guille.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: PuroXerecismo",
+    "objectPosition": "center 20%"
   },
   "art18": {
     "foto": "fotos/publicadas/Noticia_zelu.jpg",
