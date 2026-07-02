@@ -5,6 +5,7 @@
     {"nombre": "Rubén Mesa",        "posicion": "Delantero",        "estado": "confirmado"},
     {"nombre": "Carlos Pantoja",    "posicion": "Portero",          "estado": "confirmado"},
     {"nombre": "Chacartegui",       "posicion": "Por confirmar",    "estado": "confirmado"},
-    {"nombre": "Javi Cheli",        "posicion": "Extremo",          "estado": "rumor"}
+    {"nombre": "Javi Cheli",        "posicion": "Extremo",          "estado": "rumor"},
+    {"nombre": "David García",      "posicion": "Centrocampista",   "estado": "rumor"}
   ]
 }

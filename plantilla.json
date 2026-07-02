@@ -2,8 +2,33 @@
   {
     "nombre": "Ismael",
     "apellidos": "Gutiérrez",
+    "nombreCompleto": "Ismael Gutiérrez Montilla",
     "dorsal": 8,
     "posicion": "CC",
+    "posicionDetalle": "Centrocampista · Mediocentro",
+    "fechaNacimiento": "07/08/2000",
+    "edad": 25,
+    "lugarNacimiento": "Los Palacios y Villafranca",
+    "nacionalidad": "España",
+    "altura": "1,78 m",
+    "pie": "Derecho",
+    "fichado": "01/07/2025",
+    "contrato": "30/06/2027",
+    "valorMercado": "150.000 €",
+    "historial": [
+      {"temporada": "25/26", "deClub": "Linares Deportivo", "aClub": "Xerez CD",        "valor": "150k €"},
+      {"temporada": "24/25", "deClub": "Sin equipo",         "aClub": "Linares Deportivo","valor": "200k €"},
+      {"temporada": "24/25", "deClub": "Mérida AD",          "aClub": "Sin equipo",       "valor": "200k €"},
+      {"temporada": "23/24", "deClub": "CF La Nucía",        "aClub": "Mérida AD",        "valor": "200k €"},
+      {"temporada": "22/23", "deClub": "Atl. Madrileño",     "aClub": "CF La Nucía",      "valor": "200k €"},
+      {"temporada": "21/22", "deClub": "Málaga CF",          "aClub": "Atl. Madrileño",   "valor": "200k €"},
+      {"temporada": "21/22", "deClub": "Atl. Madrileño",     "aClub": "Málaga CF",        "valor": "1M €"},
+      {"temporada": "20/21", "deClub": "Real Betis",         "aClub": "Atl. Madrileño",   "valor": "900k €"},
+      {"temporada": "20/21", "deClub": "Alavés",             "aClub": "Real Betis",       "valor": "900k €"},
+      {"temporada": "19/20", "deClub": "Real Betis",         "aClub": "Alavés",           "valor": "1M €"},
+      {"temporada": "19/20", "deClub": "Betis Deportivo",    "aClub": "Real Betis",       "valor": "1M €"},
+      {"temporada": "19/20", "deClub": "Betis Juvenil A",    "aClub": "Betis Deportivo",  "valor": "—"}
+    ],
     "cromo": "fotos/cromos/Cromo01-ismael.png"
   },
   {
@@ -35,8 +60,26 @@
   {
     "nombre": "Guille",
     "apellidos": "Campos",
+    "nombreCompleto": "Guillermo Campos",
     "dorsal": 22,
     "posicion": "DEFENSA",
+    "posicionDetalle": "Defensa central · Lateral derecho",
+    "fechaNacimiento": "15/01/1997",
+    "edad": 29,
+    "lugarNacimiento": "Sanlúcar de Barrameda",
+    "nacionalidad": "España",
+    "fichado": "01/07/2025",
+    "contrato": "30/06/2027",
+    "valorMercado": "150.000 €",
+    "historial": [
+      {"temporada": "25/26", "deClub": "CA Antoniano",      "aClub": "Xerez CD",        "valor": "100k €"},
+      {"temporada": "24/25", "deClub": "Villanovense",      "aClub": "CA Antoniano",    "valor": "100k €"},
+      {"temporada": "23/24", "deClub": "At. Sanluqueño",    "aClub": "Villanovense",    "valor": "50k €"},
+      {"temporada": "22/23", "deClub": "CD Rota",           "aClub": "At. Sanluqueño",  "valor": "50k €"},
+      {"temporada": "20/21", "deClub": "At. Sanluqueño",    "aClub": "CD Rota",         "valor": "50k €"},
+      {"temporada": "19/20", "deClub": "CD Rota",           "aClub": "At. Sanluqueño",  "valor": "—"},
+      {"temporada": "16/17", "deClub": "Sanluqueño Juv. A", "aClub": "CD Rota",         "valor": "—"}
+    ],
     "cromo": "fotos/cromos/Cromo03-guille.png"
   }
 ]
