@@ -322,6 +322,7 @@
     grid-template-columns:1.6fr 1fr;
     gap:32px;
     margin-bottom:48px;
+    align-items:start;
   }
   .hero-main{cursor:pointer;}
   .hero-main .img-box{
@@ -756,6 +757,15 @@
   /* ===== Próximo partido resaltado en calendario ===== */
   .fixture-row.proximo{background:rgba(201,162,75,0.1);border-left:3px solid var(--oro);}
   .fixture-row.proximo .vs-score{background:var(--azul-profundo);color:#fff;font-weight:700;}
+  /* ===== Clasificación: zonas de ascenso/descenso ===== */
+  .fixture-row.zona-ascenso{background:rgba(201,162,75,0.16);border-left:3px solid var(--oro);}
+  .fixture-row.zona-playoff{background:rgba(27,77,143,0.08);border-left:3px solid var(--azul-medio);}
+  .fixture-row.zona-playout{background:rgba(201,120,45,0.08);border-left:3px solid #C9782D;}
+  .fixture-row.zona-descenso{background:rgba(161,61,51,0.08);border-left:3px solid #a13d33;}
+  .clasificacion-leyenda{display:flex;flex-wrap:wrap;gap:16px 24px;margin-top:16px;font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);}
+  .clasificacion-leyenda span{display:inline-flex;align-items:center;gap:7px;}
+  .clasificacion-leyenda i{width:10px;height:10px;border-radius:2px;display:inline-block;}
+
   /* ===== Botón compartir en X ===== */
   .share-x-btn{
     display:inline-flex;align-items:center;gap:6px;
@@ -1042,24 +1052,31 @@
       <div class="fixture-row header" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;">
         <span>#</span><span>Equipo</span><span>Pj</span><span>Pts</span><span>GF</span><span>GC</span>
       </div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">1</span><span class="team">Antoniano</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">2</span><span class="team">Atlético Central</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">3</span><span class="team">Atlético Paso</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">4</span><span class="team">Atlético Sanluqueño</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">5</span><span class="team">Badajoz</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">6</span><span class="team">Betis B</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">7</span><span class="team">Ciudad de Lucena</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">8</span><span class="team">Don Benito</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">9</span><span class="team">Estepona</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">10</span><span class="team">Las Palmas Atlético</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">11</span><span class="team">Linares Deportivo</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">12</span><span class="team">Marbella</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">13</span><span class="team">Mijas Las Lagunas</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">14</span><span class="team">Recreativo de Huelva</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">15</span><span class="team">Sevilla Atlético</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row win" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">16</span><span class="team" style="font-weight:800;color:var(--azul-profundo);">Xerez CD</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">17</span><span class="team">Tamaraceite</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
-      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">18</span><span class="team">Tenerife B</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row zona-ascenso" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">1</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/antoniano.png" alt="" style="width:24px;height:24px;object-fit:contain;">Antoniano</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row zona-playoff" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">2</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/atletico-central.png" alt="" style="width:24px;height:24px;object-fit:contain;">Atlético Central</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row zona-playoff" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">3</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/atletico-paso.png" alt="" style="width:24px;height:24px;object-fit:contain;">Atlético Paso</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row zona-playoff" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">4</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/sanluqueno.png" alt="" style="width:24px;height:24px;object-fit:contain;">Atlético Sanluqueño</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row zona-playoff" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">5</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/badajoz.png" alt="" style="width:24px;height:24px;object-fit:contain;">Badajoz</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">6</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/betis-deportivo.png" alt="" style="width:24px;height:24px;object-fit:contain;">Betis B</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">7</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/ciudad-lucena.png" alt="" style="width:24px;height:24px;object-fit:contain;">Ciudad de Lucena</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">8</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/don-benito.png" alt="" style="width:24px;height:24px;object-fit:contain;">Don Benito</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">9</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/estepona.png" alt="" style="width:24px;height:24px;object-fit:contain;">Estepona</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">10</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/las-palmas-atletico.png" alt="" style="width:24px;height:24px;object-fit:contain;">Las Palmas Atlético</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">11</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/linares.png" alt="" style="width:24px;height:24px;object-fit:contain;">Linares Deportivo</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">12</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/marbella.png" alt="" style="width:24px;height:24px;object-fit:contain;">Marbella</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">13</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/las-lagunas.png" alt="" style="width:24px;height:24px;object-fit:contain;">Mijas Las Lagunas</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row zona-playout" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">14</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/recreativo.png" alt="" style="width:24px;height:24px;object-fit:contain;">Recreativo de Huelva</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row zona-descenso" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">15</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/sevilla-atletico.png" alt="" style="width:24px;height:24px;object-fit:contain;">Sevilla Atlético</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row zona-descenso win" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">16</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;font-weight:800;color:var(--azul-profundo);"><img src="fotos/escudos/escudo-xerez-cd-hd.png" alt="" style="width:24px;height:24px;object-fit:contain;">Xerez CD</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row zona-descenso" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">17</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/tamaraceite.png" alt="" style="width:24px;height:24px;object-fit:contain;">Tamaraceite</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+      <div class="fixture-row zona-descenso" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;"><span class="date">18</span><span class="team" style="display:inline-flex;align-items:center;gap:8px;"><img src="fotos/escudos/tenerife-b.png" alt="" style="width:24px;height:24px;object-fit:contain;">Tenerife B</span><span class="date">0</span><span class="date">0</span><span class="date">0</span><span class="date">0</span></div>
+    </div>
+
+    <div class="clasificacion-leyenda">
+      <span><i style="background:var(--oro);"></i>Ascenso directo</span>
+      <span><i style="background:var(--azul-medio);"></i>Playoff de ascenso</span>
+      <span><i style="background:#C9782D;"></i>Playout de permanencia</span>
+      <span><i style="background:#a13d33;"></i>Descenso</span>
     </div>
   </section>
 
@@ -1211,7 +1228,7 @@
   function escudoImg(nombre){
     var src = ESCUDOS[nombre];
     if(!src) return '';
-    return '<img src="'+src+'" alt="" style="width:20px;height:20px;object-fit:contain;flex-shrink:0;">';
+    return '<img src="'+src+'" alt="" style="width:24px;height:24px;object-fit:contain;flex-shrink:0;">';
   }
   function escudoWidget(nombre){
     var src = ESCUDOS[nombre];

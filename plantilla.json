@@ -178,6 +178,128 @@
     "cromo": "fotos/cromos/Cromo05-josete.png"
   },
   {
+    "nombre": "Zelu",
+    "apellidos": "García",
+    "nombreCompleto": "José Luis García Pérez",
+    "dorsal": 7,
+    "posicion": "EXT DER",
+    "posicionDetalle": "Delantero · Extremo derecho",
+    "fechaNacimiento": "21/01/1996",
+    "edad": 30,
+    "lugarNacimiento": "Jerez de la Frontera",
+    "nacionalidad": "España",
+    "altura": "1,70 m",
+    "pie": "Derecho",
+    "fichado": "01/07/2025",
+    "contrato": "30/06/2027",
+    "valorMercado": "150.000 €",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "Recreativo",
+        "aClub": "Xerez CD",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "At. Sanluqueño",
+        "aClub": "Recreativo",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "Othellos Athien",
+        "aClub": "At. Sanluqueño",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "CD Badajoz",
+        "aClub": "Othellos Athien",
+        "valor": "250k €"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "UD Logroñés",
+        "aClub": "CD Badajoz",
+        "valor": "300k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Córdoba CF",
+        "aClub": "UD Logroñés",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "UD Logroñés",
+        "aClub": "Córdoba CF",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Córdoba CF",
+        "aClub": "UD Logroñés",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "CyD Leonesa",
+        "aClub": "Córdoba CF",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "Córdoba CF",
+        "aClub": "CyD Leonesa",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "UD Melilla",
+        "aClub": "Córdoba CF",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "Atl. Malagueño",
+        "aClub": "UD Melilla",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "San Fernando CD",
+        "aClub": "Atl. Malagueño",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "Atl. Malagueño",
+        "aClub": "San Fernando CD",
+        "valor": "—"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "Marbella",
+        "aClub": "Atl. Malagueño",
+        "valor": "—"
+      },
+      {
+        "temporada": "15/16",
+        "deClub": "Sevilla Juv. A",
+        "aClub": "Marbella",
+        "valor": "—"
+      },
+      {
+        "temporada": "14/15",
+        "deClub": "Sevilla Juv. B",
+        "aClub": "Sevilla Juv. A",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo07-zelu.png"
+  },
+  {
     "nombre": "Ismael",
     "apellidos": "Gutiérrez",
     "nombreCompleto": "Ismael Gutiérrez Montilla",
@@ -354,128 +476,6 @@
       }
     ],
     "cromo": "fotos/cromos/Cromo06-chuma.png"
-  },
-  {
-    "nombre": "Zelu",
-    "apellidos": "García",
-    "nombreCompleto": "José Luis García Pérez",
-    "dorsal": 7,
-    "posicion": "EXT DER",
-    "posicionDetalle": "Delantero · Extremo derecho",
-    "fechaNacimiento": "21/01/1996",
-    "edad": 30,
-    "lugarNacimiento": "Jerez de la Frontera",
-    "nacionalidad": "España",
-    "altura": "1,70 m",
-    "pie": "Derecho",
-    "fichado": "01/07/2025",
-    "contrato": "30/06/2027",
-    "valorMercado": "150.000 €",
-    "historial": [
-      {
-        "temporada": "25/26",
-        "deClub": "Recreativo",
-        "aClub": "Xerez CD",
-        "valor": "150k €"
-      },
-      {
-        "temporada": "24/25",
-        "deClub": "At. Sanluqueño",
-        "aClub": "Recreativo",
-        "valor": "200k €"
-      },
-      {
-        "temporada": "23/24",
-        "deClub": "Othellos Athien",
-        "aClub": "At. Sanluqueño",
-        "valor": "200k €"
-      },
-      {
-        "temporada": "23/24",
-        "deClub": "CD Badajoz",
-        "aClub": "Othellos Athien",
-        "valor": "250k €"
-      },
-      {
-        "temporada": "21/22",
-        "deClub": "UD Logroñés",
-        "aClub": "CD Badajoz",
-        "valor": "300k €"
-      },
-      {
-        "temporada": "20/21",
-        "deClub": "Córdoba CF",
-        "aClub": "UD Logroñés",
-        "valor": "200k €"
-      },
-      {
-        "temporada": "19/20",
-        "deClub": "UD Logroñés",
-        "aClub": "Córdoba CF",
-        "valor": "200k €"
-      },
-      {
-        "temporada": "19/20",
-        "deClub": "Córdoba CF",
-        "aClub": "UD Logroñés",
-        "valor": "200k €"
-      },
-      {
-        "temporada": "18/19",
-        "deClub": "CyD Leonesa",
-        "aClub": "Córdoba CF",
-        "valor": "200k €"
-      },
-      {
-        "temporada": "18/19",
-        "deClub": "Córdoba CF",
-        "aClub": "CyD Leonesa",
-        "valor": "200k €"
-      },
-      {
-        "temporada": "18/19",
-        "deClub": "UD Melilla",
-        "aClub": "Córdoba CF",
-        "valor": "200k €"
-      },
-      {
-        "temporada": "17/18",
-        "deClub": "Atl. Malagueño",
-        "aClub": "UD Melilla",
-        "valor": "50k €"
-      },
-      {
-        "temporada": "16/17",
-        "deClub": "San Fernando CD",
-        "aClub": "Atl. Malagueño",
-        "valor": "50k €"
-      },
-      {
-        "temporada": "16/17",
-        "deClub": "Atl. Malagueño",
-        "aClub": "San Fernando CD",
-        "valor": "—"
-      },
-      {
-        "temporada": "16/17",
-        "deClub": "Marbella",
-        "aClub": "Atl. Malagueño",
-        "valor": "—"
-      },
-      {
-        "temporada": "15/16",
-        "deClub": "Sevilla Juv. A",
-        "aClub": "Marbella",
-        "valor": "—"
-      },
-      {
-        "temporada": "14/15",
-        "deClub": "Sevilla Juv. B",
-        "aClub": "Sevilla Juv. A",
-        "valor": "—"
-      }
-    ],
-    "cromo": "fotos/cromos/Cromo07-zelu.png"
   },
   {
     "nombre": "Moi",
