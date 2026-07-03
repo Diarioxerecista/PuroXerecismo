@@ -1186,6 +1186,32 @@
   let slugsReverso = {}; // slug legible → artXX
 
   // ===================== DATOS DE PARTIDOS =====================
+  // Escudos de los equipos de liga (nombre exacto → imagen)
+  const ESCUDOS = {
+    'Xerez CD':                 'fotos/escudo-xerez-cd-hd.png',
+    'C.D. Estepona':            'fotos/escudos/estepona.png',
+    'C.D. Badajoz':             'fotos/escudos/badajoz.png',
+    'C.D. Don Benito':          'fotos/escudos/don-benito.png',
+    'RC Recreativo de Huelva':  'fotos/escudos/recreativo.png',
+    'C.D. Tenerife "B"':        'fotos/escudos/tenerife-b.png',
+    'Betis Deportivo':          'fotos/escudos/betis-deportivo.png',
+    'Ciudad de Lucena':         'fotos/escudos/ciudad-lucena.png',
+    'Marbella F.C.':            'fotos/escudos/marbella.png',
+    'U.D. Tamaraceite':         'fotos/escudos/tamaraceite.png',
+    'Atlético Sanluqueño':      'fotos/escudos/sanluqueno.png',
+    'C.A. Antoniano':           'fotos/escudos/antoniano.png',
+    'C. Atlético Central':      'fotos/escudos/atletico-central.png',
+    'Linares Deportivo':        'fotos/escudos/linares.png',
+    'Las Palmas Atlético':      'fotos/escudos/las-palmas-atletico.png',
+    'Sevilla Atlético':         'fotos/escudos/sevilla-atletico.png',
+    'C.P. Mijas Las Lagunas':   'fotos/escudos/las-lagunas.png',
+    'C.D. Atlético Paso':       'fotos/escudos/atletico-paso.png'
+  };
+  function escudoImg(nombre){
+    var src = ESCUDOS[nombre];
+    if(!src) return '';
+    return '<img src="'+src+'" alt="" style="width:20px;height:20px;object-fit:contain;flex-shrink:0;">';
+  }
   const PARTIDOS = [
     // ── Pretemporada ──────────────────────────────────────────────────────
     {fecha:'2026-08-01',jornada:'Amistoso',             local:'Jerez Industrial',          visitante:'Xerez CD',                      resultado:null, tipo:'amistoso'},
@@ -1312,7 +1338,11 @@
       } else {
         scoreHtml = '<span class="vs-score" style="font-size:12px;color:var(--tinta-suave);">vs</span>';
       }
-      html += '<div class="'+rowClass+'"><span class="date">'+diaStr+'</span><span class="team home">'+p.local+'</span>'+scoreHtml+'<span class="team">'+p.visitante+'</span><span class="comp">'+p.jornada+'</span></div>';
+      var escLocal = escudoImg(p.local);
+      var escVisit = escudoImg(p.visitante);
+      var localHtml = '<span class="team home" style="display:flex;align-items:center;justify-content:flex-end;gap:8px;">'+p.local+escLocal+'</span>';
+      var visitHtml = '<span class="team" style="display:flex;align-items:center;gap:8px;">'+escVisit+p.visitante+'</span>';
+      html += '<div class="'+rowClass+'"><span class="date">'+diaStr+'</span>'+localHtml+scoreHtml+visitHtml+'<span class="comp">'+p.jornada+'</span></div>';
     });
     el.innerHTML = html;
   }
