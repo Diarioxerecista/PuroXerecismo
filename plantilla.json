@@ -81,5 +81,34 @@
       {"temporada": "16/17", "deClub": "Sanluqueño Juv. A", "aClub": "CD Rota",         "valor": "—"}
     ],
     "cromo": "fotos/cromos/Cromo03-guille.png"
+  },
+  {
+    "nombre": "Felipe",
+    "apellidos": "Chacartegui",
+    "nombreCompleto": "Felipe Chacartegui",
+    "dorsal": 3,
+    "posicion": "LAT IZQ",
+    "posicionDetalle": "Defensa · Lateral izquierdo",
+    "fechaNacimiento": "23/02/1998",
+    "edad": 28,
+    "lugarNacimiento": "Cádiz",
+    "nacionalidad": "España",
+    "altura": "1,79 m",
+    "pie": "Izquierdo",
+    "fichado": "01/07/2025",
+    "contrato": "30/06/2027",
+    "valorMercado": "150.000 €",
+    "historial": [
+      {"temporada": "25/26", "deClub": "CA Antoniano",      "aClub": "Xerez CD",       "valor": "150k €"},
+      {"temporada": "24/25", "deClub": "Beroe",             "aClub": "CA Antoniano",   "valor": "150k €"},
+      {"temporada": "24/25", "deClub": "CD Badajoz",        "aClub": "Beroe",          "valor": "150k €"},
+      {"temporada": "23/24", "deClub": "Hércules CF",       "aClub": "CD Badajoz",     "valor": "150k €"},
+      {"temporada": "22/23", "deClub": "UCAM Murcia",       "aClub": "Hércules CF",    "valor": "250k €"},
+      {"temporada": "20/21", "deClub": "Sevilla Atl.",      "aClub": "UCAM Murcia",    "valor": "250k €"},
+      {"temporada": "17/18", "deClub": "Sevilla Juv. A",    "aClub": "Sevilla Atl.",   "valor": "—"},
+      {"temporada": "15/16", "deClub": "S. Fernando JuvA",  "aClub": "Sevilla Juv. A", "valor": "—"},
+      {"temporada": "14/15", "deClub": "S. Fernando F.b",   "aClub": "S. Fernando JuvA","valor": "—"}
+    ],
+    "cromo": "fotos/cromos/Cromo04-chacartegui.png"
   }
 ]
