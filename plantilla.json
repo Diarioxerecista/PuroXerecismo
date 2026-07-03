@@ -71,7 +71,41 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo04-Chaca.png"
+    "cromo": "fotos/cromos/Cromo04-chacartegui.png"
+  },
+  {
+    "nombre": "Josete",
+    "apellidos": "Malagón",
+    "nombreCompleto": "José Antonio Malagón Rubio",
+    "dorsal": 5,
+    "posicion": "DEFENSA",
+    "posicionDetalle": "Defensa · Defensa central",
+    "fechaNacimiento": "28/05/1988",
+    "edad": 38,
+    "lugarNacimiento": "Elche",
+    "nacionalidad": "España",
+    "altura": "1,79 m",
+    "pie": "Izquierdo",
+    "fichado": "29/08/2024",
+    "contrato": "30/06/2027",
+    "valorMercado": "25.000 €",
+    "historial": [
+      {"temporada": "24/25", "deClub": "AC Torrellano",   "aClub": "Xerez CD",       "valor": "—"},
+      {"temporada": "23/24", "deClub": "Sin equipo",      "aClub": "AC Torrellano",  "valor": "—"},
+      {"temporada": "23/24", "deClub": "CD Badajoz",      "aClub": "Sin equipo",     "valor": "100k €"},
+      {"temporada": "22/23", "deClub": "CF Talavera",     "aClub": "CD Badajoz",     "valor": "100k €"},
+      {"temporada": "22/23", "deClub": "Sin equipo",      "aClub": "CF Talavera",    "valor": "100k €"},
+      {"temporada": "22/23", "deClub": "UCAM Murcia",     "aClub": "Sin equipo",     "valor": "100k €"},
+      {"temporada": "20/21", "deClub": "CD Lugo",         "aClub": "UCAM Murcia",    "valor": "200k €"},
+      {"temporada": "17/18", "deClub": "Elche CF",        "aClub": "CD Lugo",        "valor": "300k €"},
+      {"temporada": "16/17", "deClub": "Real Oviedo",     "aClub": "Elche CF",       "valor": "300k €"},
+      {"temporada": "15/16", "deClub": "Cádiz CF",        "aClub": "Real Oviedo",    "valor": "—"},
+      {"temporada": "12/13", "deClub": "Zamora CF",       "aClub": "Cádiz CF",       "valor": "—"},
+      {"temporada": "11/12", "deClub": "Alavés",          "aClub": "Zamora CF",      "valor": "—"},
+      {"temporada": "10/11", "deClub": "Elche Ilicitano", "aClub": "Alavés",         "valor": "—"},
+      {"temporada": "07/08", "deClub": "Elche Juvenil A", "aClub": "Elche Ilicitano","valor": "—"}
+    ],
+    "cromo": "fotos/cromos/Cromo05-josete.png"
   },
   {
     "nombre": "Ismael",
