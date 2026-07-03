@@ -1954,23 +1954,23 @@ function initMapaRivales(){
   var JEREZ = [36.685, -6.138];
   var equipos=[
     {n:'Xerez CD',lat:36.685,lon:-6.138,home:true},
-    {n:'C.D. Estepona',lat:36.426,lon:-5.148,escudo:'fotos/escudos/estepona.png'},
-    {n:'C.D. Badajoz',lat:38.878,lon:-6.970,escudo:'fotos/escudos/badajoz.png'},
-    {n:'C.D. Don Benito',lat:38.955,lon:-5.862,escudo:'fotos/escudos/don-benito.png'},
-    {n:'RC Recreativo de Huelva',lat:37.261,lon:-6.948,escudo:'fotos/escudos/recreativo.png'},
-    {n:'C.D. Tenerife "B"',lat:28.463,lon:-16.252,escudo:'fotos/escudos/tenerife-b.png'},
-    {n:'Betis Deportivo',lat:37.356,lon:-5.981,escudo:'fotos/escudos/betis-deportivo.png'},
-    {n:'Ciudad de Lucena',lat:37.408,lon:-4.486,escudo:'fotos/escudos/ciudad-lucena.png'},
-    {n:'Marbella F.C.',lat:36.510,lon:-4.886,escudo:'fotos/escudos/marbella.png'},
-    {n:'U.D. Tamaraceite',lat:28.147,lon:-15.423,escudo:'fotos/escudos/tamaraceite.png'},
-    {n:'Atlético Sanluqueño',lat:36.778,lon:-6.353,escudo:'fotos/escudos/sanluqueno.png'},
-    {n:'C.A. Antoniano',lat:36.921,lon:-6.075,escudo:'fotos/escudos/antoniano.png'},
-    {n:'C. Atlético Central',lat:37.390,lon:-5.995,escudo:'fotos/escudos/atletico-central.png'},
-    {n:'Linares Deportivo',lat:38.088,lon:-3.636,escudo:'fotos/escudos/linares.png'},
-    {n:'Las Palmas Atlético',lat:28.128,lon:-15.436,escudo:'fotos/escudos/las-palmas-atletico.png'},
-    {n:'Sevilla Atlético',lat:37.384,lon:-5.990,escudo:'fotos/escudos/sevilla-atletico.png'},
-    {n:'C.P. Mijas Las Lagunas',lat:36.595,lon:-4.641,escudo:'fotos/escudos/las-lagunas.png'},
-    {n:'C.D. Atlético Paso',lat:28.658,lon:-17.873,escudo:'fotos/escudos/atletico-paso.png'}
+    {n:'C.D. Estepona',lat:36.426,lon:-5.148},
+    {n:'C.D. Badajoz',lat:38.878,lon:-6.970},
+    {n:'C.D. Don Benito',lat:38.955,lon:-5.862},
+    {n:'RC Recreativo de Huelva',lat:37.261,lon:-6.948},
+    {n:'C.D. Tenerife "B"',lat:28.463,lon:-16.252},
+    {n:'Betis Deportivo',lat:37.356,lon:-5.981},
+    {n:'Ciudad de Lucena',lat:37.408,lon:-4.486},
+    {n:'Marbella F.C.',lat:36.510,lon:-4.886},
+    {n:'U.D. Tamaraceite',lat:28.147,lon:-15.423},
+    {n:'Atlético Sanluqueño',lat:36.778,lon:-6.353},
+    {n:'C.A. Antoniano',lat:36.921,lon:-6.075},
+    {n:'C. Atlético Central',lat:37.390,lon:-5.995},
+    {n:'Linares Deportivo',lat:38.088,lon:-3.636},
+    {n:'Las Palmas Atlético',lat:28.128,lon:-15.436},
+    {n:'Sevilla Atlético',lat:37.384,lon:-5.990},
+    {n:'C.P. Mijas Las Lagunas',lat:36.595,lon:-4.641},
+    {n:'C.D. Atlético Paso',lat:28.658,lon:-17.873}
   ];
   var map=L.map('mapaRivales'); window._leafletMap=map;
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
@@ -1985,12 +1985,6 @@ function initMapaRivales(){
         className:'',
         html:'<div style="width:44px;height:52px;filter:drop-shadow(0 3px 8px rgba(0,0,0,0.4));"><img src="fotos/escudo-xerez-cd-hd.png" alt="Xerez CD" style="width:100%;height:100%;object-fit:contain;"></div>',
         iconSize:[44,52],iconAnchor:[22,26]
-      });
-    } else if(e.escudo){
-      icon=L.divIcon({
-        className:'',
-        html:'<div style="width:30px;height:30px;background:#fff;border:2px solid #0D2C54;border-radius:50%;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.35);display:flex;align-items:center;justify-content:center;"><img src="'+e.escudo+'" alt="'+e.n+'" style="width:24px;height:24px;object-fit:contain;"></div>',
-        iconSize:[30,30],iconAnchor:[15,15]
       });
     } else {
       var s=12;
