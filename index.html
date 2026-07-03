@@ -1205,12 +1205,18 @@
     'Las Palmas Atlético':      'fotos/escudos/las-palmas-atletico.png',
     'Sevilla Atlético':         'fotos/escudos/sevilla-atletico.png',
     'C.P. Mijas Las Lagunas':   'fotos/escudos/las-lagunas.png',
-    'C.D. Atlético Paso':       'fotos/escudos/atletico-paso.png'
+    'C.D. Atlético Paso':       'fotos/escudos/atletico-paso.png',
+    'Jerez Industrial':         'fotos/escudos/jerez-industrial.png'
   };
   function escudoImg(nombre){
     var src = ESCUDOS[nombre];
     if(!src) return '';
     return '<img src="'+src+'" alt="" style="width:20px;height:20px;object-fit:contain;flex-shrink:0;">';
+  }
+  function escudoWidget(nombre){
+    var src = ESCUDOS[nombre];
+    if(!src) return '';
+    return '<img src="'+src+'" alt="" style="width:34px;height:34px;object-fit:contain;flex-shrink:0;filter:drop-shadow(0 2px 5px rgba(0,0,0,0.35));">';
   }
   const PARTIDOS = [
     // ── Pretemporada ──────────────────────────────────────────────────────
@@ -1282,9 +1288,9 @@
           '<span class="proximo-widget-jornada">'+proximo.jornada+(proximo.tipo==='amistoso' ? ' &middot; Pretemporada 2026/27' : ' &middot; 2&ordf; Fed. Grupo IV')+'</span>'+
         '</div>'+
         '<div class="proximo-widget-match">'+
-          '<span class="proximo-equipo'+(localXerez?' xerez':'')+'">'+proximo.local+'</span>'+
+          '<span class="proximo-equipo'+(localXerez?' xerez':'')+'" style="display:inline-flex;align-items:center;gap:10px;">'+escudoWidget(proximo.local)+proximo.local+'</span>'+
           '<span class="proximo-vs">VS</span>'+
-          '<span class="proximo-equipo'+(visitanteXerez?' xerez':'')+'">'+proximo.visitante+'</span>'+
+          '<span class="proximo-equipo'+(visitanteXerez?' xerez':'')+'" style="display:inline-flex;align-items:center;gap:10px;">'+proximo.visitante+escudoWidget(proximo.visitante)+'</span>'+
         '</div>'+
         '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">'+
           '<div class="proximo-widget-fecha">'+fechaFmt+'</div>'+
@@ -1471,6 +1477,31 @@
 
   // Para activar un resultado en directo: crear live.json con
   // {"activo":true,"local":"Xerez CD","visitante":"Marbella FC","resultado":"1-0","minuto":65}
+  function renderMarcadorDirecto(d){
+    const widget = document.getElementById('proximoWidget');
+    if(!widget) return;
+    window._liveActivo = true;
+    function esc(nombre){
+      var src = ESCUDOS[nombre];
+      if(!src) return '<div style="width:52px;height:52px;"></div>';
+      return '<img src="'+src+'" alt="'+nombre+'" style="width:52px;height:52px;object-fit:contain;filter:drop-shadow(0 2px 6px rgba(0,0,0,0.4));">';
+    }
+    var minStr = d.minuto ? d.minuto+"'" : '';
+    var estado = d.estado || (idiomaActual==='es' ? 'EN DIRECTO' : 'LIVE');
+    widget.innerHTML =
+      '<div class="proximo-widget" style="text-align:center;">'
+      +'<div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:14px;">'
+      +'<span style="width:9px;height:9px;border-radius:50%;background:#ff4444;display:inline-block;animation:pulsoRojo 0.9s ease-in-out infinite alternate;"></span>'
+      +'<span style="font-family:\'Space Mono\',monospace;font-size:12px;font-weight:700;letter-spacing:0.15em;color:#ff6b6b;">'+estado+(minStr?' · '+minStr:'')+'</span>'
+      +'</div>'
+      +'<div style="display:flex;align-items:center;justify-content:center;gap:22px;flex-wrap:wrap;">'
+      +'<div style="display:flex;align-items:center;gap:12px;">'+esc(d.local)+'<span style="font-family:\'Fraunces\',serif;font-size:22px;font-weight:700;color:#fff;">'+d.local+'</span></div>'
+      +'<span style="font-family:\'Space Mono\',monospace;font-size:34px;font-weight:700;color:var(--oro);background:rgba(255,255,255,0.08);padding:6px 18px;border-radius:4px;">'+d.resultado+'</span>'
+      +'<div style="display:flex;align-items:center;gap:12px;"><span style="font-family:\'Fraunces\',serif;font-size:22px;font-weight:700;color:#fff;">'+d.visitante+'</span>'+esc(d.visitante)+'</div>'
+      +'</div>'
+      +(d.nota ? '<div style="margin-top:12px;font-family:\'Space Mono\',monospace;font-size:11px;color:rgba(255,255,255,0.65);">'+d.nota+'</div>' : '')
+      +'</div>';
+  }
   function comprobarDirecto(){
     fetch('live.json?t='+Date.now())
       .then(function(r){ return r.json(); })
@@ -1481,7 +1512,9 @@
           if(el) el.innerHTML = '<span class="topbar-directo">EN DIRECTO</span>&nbsp;&nbsp;'+d.local+' <strong>'+d.resultado+'</strong> '+d.visitante+min;
           const ca = document.getElementById('cuentaAtras');
           if(ca){ ca.className='proximo-widget-countdown directo'; ca.textContent='\u25cf '+d.resultado; }
+          renderMarcadorDirecto(d);
         } else {
+          if(window._liveActivo){ window._liveActivo=false; renderProximoPartido(); }
           actualizarTopbarProximo();
         }
       })
