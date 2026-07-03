@@ -478,6 +478,68 @@
     "cromo": "fotos/cromos/Cromo07-zelu.png"
   },
   {
+    "nombre": "Moi",
+    "apellidos": "Rodríguez",
+    "nombreCompleto": "Moisés Rodríguez Laínez",
+    "dorsal": 19,
+    "posicion": "CENTRAL",
+    "posicionDetalle": "Defensa · Defensa central",
+    "fechaNacimiento": "02/04/1997",
+    "edad": 29,
+    "lugarNacimiento": "La Liara",
+    "nacionalidad": "España",
+    "altura": "—",
+    "pie": "Derecho",
+    "fichado": "12/07/2025",
+    "contrato": "30/06/2026",
+    "valorMercado": "200.000 €",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "Ourense CF",
+        "aClub": "Xerez CD",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "UD Melilla",
+        "aClub": "Ourense CF",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "CF Villanovense",
+        "aClub": "UD Melilla",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "CD Utrera",
+        "aClub": "CF Villanovense",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Sin equipo",
+        "aClub": "CD Utrera",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Cádiz CF B",
+        "aClub": "Sin equipo",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "Cádiz Juvenil A",
+        "aClub": "Cádiz CF B",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo08-moi.png"
+  },
+  {
     "nombre": "Zeki",
     "apellidos": "Díaz",
     "nombreCompleto": "Ezequiel Díaz Romero",
