@@ -923,10 +923,8 @@
 <div class="wrap">
   <div class="ad-banner-top">
     <span class="ad-label">Colaboradores</span>
-    <div class="ad-slots">
-      <div class="ad-slot-small" style="overflow:hidden;padding:0;">
-        <img src="fotos/publicidad/PubliJadirdin.jpg" alt="El Jardín de Papel" style="width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block;">
-      </div>
+    <div class="ad-slots" id="colaboradoresSlots">
+      <div class="ad-slot-small"><span>Logo patrocinador</span></div>
       <div class="ad-slot-small"><span>Logo patrocinador</span></div>
       <div class="ad-slot-small"><span>Logo patrocinador</span></div>
     </div>
@@ -1358,6 +1356,29 @@
       .catch(function(){});
   }
 
+  function cargarPublicidad(){
+    fetch('publicidad.json?t='+Date.now())
+      .then(function(r){ return r.json(); })
+      .then(function(data){
+        var slots = document.getElementById('colaboradoresSlots');
+        if(!slots) return;
+        var activos = (data.colaboradores||[]).filter(function(c){ return c.activo; });
+        var html = activos.map(function(c){
+          var img = '<div class="ad-slot-small" style="overflow:hidden;padding:0;">'
+            +(c.url ? '<a href="'+c.url+'" target="_blank" rel="noopener" style="display:block;width:100%;height:100%;">' : '')
+            +'<img src="'+c.imagen+'" alt="'+c.nombre+'" style="width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block;">'
+            +(c.url ? '</a>' : '')
+            +'</div>';
+          return img;
+        }).join('');
+        // Rellenar huecos vacíos hasta 3
+        var vacios = Math.max(0, 3 - activos.length);
+        for(var i=0;i<vacios;i++) html += '<div class="ad-slot-small"><span>Logo patrocinador</span></div>';
+        slots.innerHTML = html;
+      })
+      .catch(function(){ /* Sin publicidad.json, dejamos los slots por defecto */ });
+  }
+
   function cargarPlantilla(){
     fetch('plantilla.json?t='+Date.now())
       .then(function(r){ return r.json(); })
@@ -1680,6 +1701,7 @@
         renderCronicas();
         cargarFichajes();
         cargarPlantilla();
+        cargarPublicidad();
 
         // Si la URL trae ?n= (artXX o slug), abrimos directamente esa noticia.
         const nParam = new URLSearchParams(window.location.search).get('n');
