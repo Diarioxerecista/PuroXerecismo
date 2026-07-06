@@ -2,6 +2,15 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<script>
+  // Si se llega a la portada sin parámetros (visita "en frío"), mostramos antes la entrada.
+  // Los enlaces compartidos (?n=... , ?v=...) o una visita ya iniciada en esta sesión no se ven afectados.
+  try{
+    if(!window.location.search && !sessionStorage.getItem('xdEntrada')){
+      window.location.replace('entrada.html');
+    }
+  }catch(e){}
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Diario Xerecista — Noticias del Xerez Club Deportivo (Xerez CD) | Xerez</title>
 
