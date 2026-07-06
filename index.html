@@ -3,11 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <script>
-  // Si se llega a la portada sin parámetros (visita "en frío"), mostramos antes la entrada.
-  // Los enlaces compartidos (?n=... , ?v=...) o una visita ya iniciada en esta sesión no se ven afectados.
+  // Entrada: en visitas "en frío" (sin ?n= / ?v= y sin sesión iniciada) se muestra la splash integrada.
   try{
     if(!window.location.search && !sessionStorage.getItem('xdEntrada')){
-      window.location.replace('entrada.html');
+      document.documentElement.classList.add('con-entrada');
     }
   }catch(e){}
 </script>
@@ -95,7 +94,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,900&family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --azul-profundo:#0D2C54;
@@ -893,8 +892,256 @@
 
     :focus-visible{outline:2px solid var(--oro);outline-offset:2px;}
 </style>
+<style>
+  /* ===== Entrada (splash integrada, solo primera visita) ===== */
+  #entradaSplash{display:none;}
+  html.con-entrada body{overflow:hidden;}
+  html.con-entrada #entradaSplash{
+    display:block;
+    position:fixed;
+    inset:0;
+    z-index:9999;
+    overflow:hidden;
+    background:#0D2C54;
+    font-family:'Space Mono',monospace;
+    color:#F7F5F0;
+    transition:opacity 0.65s ease;
+  }
+  #entradaSplash .ent-foto{
+    position:absolute;
+    inset:-3%;
+    background:url('fotos/chapin.png') center 78%/cover no-repeat;
+    filter:grayscale(1) contrast(1.15) brightness(0.85);
+    animation:entKenburns 24s ease-in-out infinite alternate;
+  }
+  @keyframes entKenburns{
+    from{transform:scale(1);}
+    to{transform:scale(1.09);}
+  }
+  #entradaSplash .ent-duotono{
+    position:absolute;
+    inset:-3%;
+    mix-blend-mode:color;
+    background:linear-gradient(125deg,#0D2C54 15%,#1B4D8F 55%,#C9A24B 115%);
+    opacity:0.92;
+  }
+  #entradaSplash .ent-scrim{
+    position:absolute;
+    inset:0;
+    background:
+      radial-gradient(circle, rgba(201,162,75,0.14) 1px, transparent 1px) 0 0/26px 26px,
+      linear-gradient(100deg, rgba(9,26,50,0.97) 0%, rgba(9,26,50,0.86) 32%, rgba(9,26,50,0.35) 58%, rgba(9,26,50,0.55) 100%),
+      linear-gradient(0deg, rgba(9,26,50,0.9) 0%, rgba(9,26,50,0.15) 40%, rgba(9,26,50,0.05) 60%, rgba(9,26,50,0.7) 100%);
+  }
+  #entradaSplash .ent-sello{
+    position:absolute;
+    z-index:1;
+    right:4vw;
+    top:10%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    user-select:none;
+    pointer-events:none;
+  }
+  #entradaSplash .ent-sello img{
+    width:min(11vw,130px);
+    opacity:0.15;
+    filter:grayscale(1) brightness(3);
+    margin-bottom:-2vw;
+  }
+  #entradaSplash .ent-sello span{
+    font-family:'Fraunces',serif;
+    font-weight:900;
+    font-size:min(24vw,300px);
+    line-height:1;
+    color:rgba(247,245,240,0.09);
+    letter-spacing:-0.02em;
+  }
+  #entradaSplash .ent-marca{
+    position:absolute;
+    z-index:3;
+    top:32px;left:40px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    opacity:0;
+    animation:entSubir 0.9s 0.1s cubic-bezier(.2,.8,.2,1) forwards;
+  }
+  #entradaSplash .ent-marca img{width:30px;height:30px;object-fit:contain;}
+  #entradaSplash .ent-marca span{
+    font-size:11px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:rgba(247,245,240,0.8);
+  }
+  #entradaSplash .ent-contenido{
+    position:relative;
+    z-index:3;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    padding:0 5vw 64px;
+    max-width:900px;
+  }
+  #entradaSplash .ent-kicker{
+    display:inline-block;
+    font-family:'Fraunces',serif;
+    font-style:italic;
+    font-weight:500;
+    font-size:clamp(16px,1.8vw,22px);
+    letter-spacing:0.01em;
+    color:#C9A24B;
+    margin-bottom:26px;
+    opacity:0;
+    animation:entSubir 0.9s 0.25s cubic-bezier(.2,.8,.2,1) forwards;
+  }
+  #entradaSplash h1{
+    font-family:'Fraunces',serif;
+    font-weight:900;
+    font-size:clamp(52px,10vw,132px);
+    line-height:0.92;
+    letter-spacing:-0.02em;
+    color:#F7F5F0;
+  }
+  #entradaSplash h1 span{display:block;overflow:hidden;}
+  #entradaSplash h1 span b{
+    display:block;
+    font-weight:900;
+    opacity:0;
+    transform:translateY(100%);
+    animation:entSubirTexto 0.9s cubic-bezier(.2,.8,.2,1) forwards;
+  }
+  #entradaSplash h1 .ent-l1 b{animation-delay:0.35s;}
+  #entradaSplash h1 .ent-l2 b{
+    color:#C9A24B;
+    font-style:italic;
+    animation-delay:0.5s;
+  }
+  @keyframes entSubirTexto{
+    to{opacity:1;transform:translateY(0);}
+  }
+  #entradaSplash .ent-sub{
+    max-width:440px;
+    margin:26px 0 0;
+    font-family:'Space Mono',monospace;
+    font-size:14px;
+    line-height:1.7;
+    color:#B9C2D6;
+    opacity:0;
+    animation:entSubir 0.9s 0.65s cubic-bezier(.2,.8,.2,1) forwards;
+  }
+  #entradaSplash .ent-cta{
+    display:inline-flex;
+    align-items:center;
+    gap:12px;
+    margin-top:36px;
+    padding:17px 34px;
+    background:#C9A24B;
+    color:#0D2C54;
+    border:none;
+    border-radius:2px;
+    font-family:'Space Mono',monospace;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    text-decoration:none;
+    width:fit-content;
+    cursor:pointer;
+    opacity:0;
+    animation:entSubir 0.9s 0.8s cubic-bezier(.2,.8,.2,1) forwards, entRespirar 2.8s 1.8s ease-in-out infinite;
+    transition:background 0.2s, color 0.2s, transform 0.2s;
+  }
+  #entradaSplash .ent-cta:hover{
+    background:transparent;
+    color:#C9A24B;
+    box-shadow:inset 0 0 0 1px #C9A24B;
+    transform:translateX(4px);
+    animation:entSubir 0.9s 0.8s cubic-bezier(.2,.8,.2,1) forwards;
+  }
+  #entradaSplash .ent-cta svg{transition:transform 0.2s;}
+  #entradaSplash .ent-cta:hover svg{transform:translateX(4px);}
+  @keyframes entRespirar{
+    0%,100%{box-shadow:0 0 0 0 rgba(201,162,75,0.45);}
+    50%{box-shadow:0 0 22px 4px rgba(201,162,75,0.35);}
+  }
+  @keyframes entSubir{
+    from{opacity:0;transform:translateY(14px);}
+    to{opacity:1;transform:translateY(0);}
+  }
+  #entradaSplash .ent-pie{
+    position:absolute;
+    z-index:3;
+    left:0;right:0;bottom:24px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 40px;
+    font-size:11px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:rgba(247,245,240,0.6);
+    opacity:0;
+    animation:entSubir 0.9s 1s cubic-bezier(.2,.8,.2,1) forwards;
+  }
+  #entradaSplash .ent-pie strong{color:#C9A24B;}
+  @media (max-width:760px){
+    #entradaSplash .ent-sello{right:2vw;top:3%;}
+    #entradaSplash .ent-sello img{width:22vw;}
+    #entradaSplash .ent-sello span{font-size:34vw;}
+    #entradaSplash .ent-marca{top:22px;left:22px;}
+    #entradaSplash .ent-contenido{padding:0 24px 48px;}
+    #entradaSplash .ent-pie{padding:0 24px;flex-direction:column;align-items:flex-start;gap:6px;bottom:18px;}
+  }
+</style>
 </head>
 <body>
+
+<div id="entradaSplash">
+  <div class="ent-foto"></div>
+  <div class="ent-duotono"></div>
+  <div class="ent-scrim"></div>
+
+  <div class="ent-sello">
+    <img src="fotos/escudos/escudo-xerez-cd-hd.png" alt="">
+    <span>1947</span>
+  </div>
+
+  <div class="ent-marca">
+    <img src="fotos/escudos/escudo-xerez-cd-hd.png" alt="Escudo Xerez Club Deportivo">
+    <span>Diario Xerecista</span>
+  </div>
+
+  <div class="ent-contenido">
+    <span class="ent-kicker">Jerez, cuna del fútbol español</span>
+    <h1>
+      <span class="ent-l1"><b>El sentimiento</b></span>
+      <span class="ent-l2"><b>que nos une</b></span>
+    </h1>
+    <p class="ent-sub">Diario Xerecista, edición digital. Noticias, fichajes y crónicas del Xerez Club Deportivo, temporada 2026/27.</p>
+    <button class="ent-cta" onclick="cerrarEntrada()">
+      Entrar
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+  </div>
+
+  <div class="ent-pie">
+    <span>Estadio Municipal de <strong>Chapín</strong></span>
+    <span><strong>Desde</strong> 1947</span>
+  </div>
+</div>
+<script>
+  function cerrarEntrada(){
+    try{sessionStorage.setItem('xdEntrada','1');}catch(e){}
+    var s = document.getElementById('entradaSplash');
+    s.style.opacity = '0';
+    setTimeout(function(){
+      document.documentElement.classList.remove('con-entrada');
+    }, 680);
+  }
+</script>
 
 <div class="topbar">
   <div class="wrap">
