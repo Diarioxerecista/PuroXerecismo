@@ -5,7 +5,8 @@
 <script>
   // Entrada: en visitas "en frío" (sin ?n= / ?v= y sin sesión iniciada) se muestra la splash integrada.
   try{
-    if(!window.location.search && !sessionStorage.getItem('xdEntrada')){
+    var params = new URLSearchParams(window.location.search);
+    if(!params.has('n') && !params.has('v') && !sessionStorage.getItem('xdEntrada')){
       document.documentElement.classList.add('con-entrada');
     }
   }catch(e){}
