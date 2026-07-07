@@ -1087,6 +1087,50 @@
     animation:entSubir 0.9s 1s cubic-bezier(.2,.8,.2,1) forwards;
   }
   #entradaSplash .ent-pie strong{color:#C9A24B;}
+
+  /* ===== Reproductor de himno ===== */
+  .audio-flotante{
+    position:fixed;
+    right:20px;bottom:20px;
+    z-index:600;
+    display:flex;align-items:center;gap:12px;
+    background:var(--azul-profundo);
+    color:#F7F5F0;
+    border-radius:30px;
+    padding:8px 18px 8px 8px;
+    border:1px solid rgba(201,162,75,0.45);
+    box-shadow:0 8px 24px rgba(13,44,84,0.35);
+    font-family:'Space Mono',monospace;
+    opacity:0;
+    transform:translateY(12px);
+    pointer-events:none;
+    transition:opacity 0.4s ease, transform 0.4s ease;
+  }
+  .audio-flotante.visible{opacity:1;transform:translateY(0);pointer-events:auto;}
+  .audio-flotante .af-btn{
+    width:38px;height:38px;flex-shrink:0;
+    border-radius:50%;
+    border:none;
+    background:var(--oro);
+    color:var(--azul-profundo);
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;
+  }
+  .audio-flotante .af-btn svg{width:16px;height:16px;}
+  .audio-flotante .af-info{display:flex;flex-direction:column;gap:2px;line-height:1;}
+  .audio-flotante .af-titulo{font-size:11px;font-weight:700;letter-spacing:0.04em;}
+  .audio-flotante .af-eq{display:flex;align-items:flex-end;gap:2px;height:12px;}
+  .audio-flotante .af-eq span{width:2px;background:var(--oro);opacity:0.5;animation:afEq 0.9s ease-in-out infinite;}
+  .audio-flotante.tocando .af-eq span{opacity:1;}
+  .audio-flotante .af-eq span:nth-child(1){height:40%;animation-delay:0s;}
+  .audio-flotante .af-eq span:nth-child(2){height:100%;animation-delay:0.15s;}
+  .audio-flotante .af-eq span:nth-child(3){height:60%;animation-delay:0.3s;}
+  .audio-flotante:not(.tocando) .af-eq span{animation-play-state:paused;}
+  @keyframes afEq{0%,100%{transform:scaleY(0.4);}50%{transform:scaleY(1);}}
+  @media (max-width:760px){
+    .audio-flotante{right:14px;bottom:14px;padding:7px 14px 7px 7px;}
+    .audio-flotante .af-titulo{font-size:10px;}
+  }
   @media (max-width:760px){
     #entradaSplash .ent-sello{right:2vw;top:3%;}
     #entradaSplash .ent-sello img{width:22vw;}
@@ -1132,6 +1176,18 @@
     <span><strong>Desde</strong> 1947</span>
   </div>
 </div>
+
+<audio id="himnoAudio" src="fotos/himno-xerez.mp3" loop preload="none"></audio>
+<div class="audio-flotante" id="audioFlotante">
+  <button class="af-btn" id="afBtn" onclick="toggleHimno()" aria-label="Reproducir himno">
+    <svg id="afIconPlay" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+    <svg id="afIconPause" viewBox="0 0 24 24" fill="currentColor" style="display:none;"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+  </button>
+  <div class="af-info">
+    <span class="af-titulo">Himno Xerecista</span>
+    <div class="af-eq"><span></span><span></span><span></span></div>
+  </div>
+</div>
 <script>
   function cerrarEntrada(){
     try{sessionStorage.setItem('xdEntrada','1');}catch(e){}
@@ -1140,6 +1196,45 @@
     setTimeout(function(){
       document.documentElement.classList.remove('con-entrada');
     }, 680);
+    reproducirHimno();
+  }
+
+  function reproducirHimno(){
+    var a = document.getElementById('himnoAudio');
+    var w = document.getElementById('audioFlotante');
+    a.play().then(function(){
+      w.classList.add('tocando');
+    }).catch(function(){
+      /* el navegador bloqueó el autoplay; el usuario podrá darle al botón */
+    });
+    w.classList.add('visible');
+  }
+
+  function toggleHimno(){
+    var a = document.getElementById('himnoAudio');
+    var w = document.getElementById('audioFlotante');
+    if(a.paused){
+      a.play();
+      w.classList.add('tocando');
+    } else {
+      a.pause();
+      w.classList.remove('tocando');
+    }
+  }
+
+  document.getElementById('himnoAudio').addEventListener('play', function(){
+    document.getElementById('afIconPlay').style.display='none';
+    document.getElementById('afIconPause').style.display='block';
+  });
+  document.getElementById('himnoAudio').addEventListener('pause', function(){
+    document.getElementById('afIconPlay').style.display='block';
+    document.getElementById('afIconPause').style.display='none';
+  });
+
+  // Si la splash de entrada no se muestra (ya visitado en esta sesión),
+  // dejamos el reproductor visible para que el usuario lo active manualmente.
+  if(!document.documentElement.classList.contains('con-entrada')){
+    document.getElementById('audioFlotante').classList.add('visible');
   }
 </script>
 
