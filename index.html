@@ -1232,11 +1232,12 @@
     document.getElementById('afIconPause').style.display='none';
   });
 
-  // Si la splash de entrada no se muestra (ya visitado en esta sesión),
-  // dejamos el reproductor visible para que el usuario lo active manualmente.
-  if(!document.documentElement.classList.contains('con-entrada')){
-    document.getElementById('audioFlotante').classList.add('visible');
-  }
+  // Intentamos reproducir el himno nada más cargar la página (sin esperar
+  // al clic en "Entrar"). Si el navegador bloquea el autoplay con sonido
+  // -algo habitual en la primera visita, según la política de cada
+  // navegador- el reproductor flotante queda visible para activarlo con un
+  // clic manual.
+  reproducirHimno();
 </script>
 
 <div class="topbar">
@@ -1551,8 +1552,31 @@
   });
 
   let articles = {}; // se rellena al cargar noticias.json (ver fetch más abajo)
-  let slugsMap = {};     // artXX → slug legible
-  let slugsReverso = {}; // slug legible → artXX
+  let slugsMap = {};     // artXX → slug legible (ES)
+  let slugsMapEn = {};   // artXX → slug legible (EN)
+  let slugsReverso = {}; // slug legible (ES o EN) → artXX
+
+  // Extrae el id de artículo a partir de la URL actual: acepta tanto la ruta
+  // bonita /noticias/<slug>/ o /en/noticias/<slug>/ (la que se comparte en
+  // redes) como el formato antiguo ?n=artXX o ?n=slug.
+  function idArticuloDesdeUrlActual(){
+    const ruta = window.location.pathname;
+    const m = ruta.match(/\/(en\/)?noticias\/([^/]+)\/?$/);
+    if(m){
+      const esIngles = !!m[1];
+      const slug = decodeURIComponent(m[2]);
+      const id = slugsReverso[slug] || null;
+      if(id && esIngles && idiomaActual !== 'en'){
+        idiomaActual = 'en';
+        localStorage.setItem('idioma', 'en');
+        aplicarTextosInterfaz();
+      }
+      return id;
+    }
+    const nParam = new URLSearchParams(window.location.search).get('n');
+    if(!nParam) return null;
+    return articles[nParam] ? nParam : (slugsReverso[nParam] || null);
+  }
 
   // ===================== DATOS DE PARTIDOS =====================
   // Escudos de los equipos de liga (nombre exacto → imagen)
@@ -2008,7 +2032,7 @@
     `;
     document.getElementById('heroGrid').innerHTML = heroHtml;
 
-    const loUltimoIds = resto.slice(4, 10);
+    const loUltimoIds = resto.slice(4, 13);
     const cardFijaPortada = `<article class="card" onclick="openMapaRivales()" style="cursor:pointer;">
       <div class="img-box" style="background:var(--azul-profundo);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
         <div style="position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(201,162,75,0.08) 0px,rgba(201,162,75,0.08) 1px,transparent 1px,transparent 12px);"></div>
@@ -2116,9 +2140,10 @@
     Promise.all([
       fetch(archivo+cb).then(resp => resp.json()),
       fetch('fotos-articulos.json'+cb).then(resp => resp.json()).catch(() => ({})),
-      fetch('mapa-slugs.json'+cb).then(resp => resp.json()).catch(() => ({}))
+      fetch('mapa-slugs.json'+cb).then(resp => resp.json()).catch(() => ({})),
+      fetch('mapa-slugs-en.json'+cb).then(resp => resp.json()).catch(() => ({}))
     ])
-      .then(([textos, fotos, slugs]) => {
+      .then(([textos, fotos, slugs, slugsEn]) => {
         articles = textos;
         for(const id in fotos){
           if(articles[id]){
@@ -2126,8 +2151,10 @@
           }
         }
         slugsMap = slugs;
+        slugsMapEn = slugsEn;
         slugsReverso = {};
         for(const id in slugsMap){ slugsReverso[slugsMap[id]] = id; }
+        for(const id in slugsMapEn){ slugsReverso[slugsMapEn[id]] = id; }
         renderPortada();
         renderNoticias();
         renderCronicas();
@@ -2135,9 +2162,9 @@
         cargarPlantilla();
         cargarPublicidad();
 
-        // Si la URL trae ?n= (artXX o slug), abrimos directamente esa noticia.
-        const nParam = new URLSearchParams(window.location.search).get('n');
-        const idDesdeUrl = nParam ? (articles[nParam] ? nParam : (slugsReverso[nParam] || null)) : null;
+        // Si la URL trae la ruta bonita /noticias/<slug>/ (o /en/...) o el
+        // formato antiguo ?n=, abrimos directamente esa noticia.
+        const idDesdeUrl = idArticuloDesdeUrlActual();
         if(idDesdeUrl && articles[idDesdeUrl]){
           openArticle(idDesdeUrl);
         }
@@ -2187,8 +2214,7 @@
 
   window.addEventListener('popstate', () => {
     actualizarTopbarProximo();
-    const nParamPop = new URLSearchParams(window.location.search).get('n');
-    const idDesdeUrl = nParamPop ? (articles[nParamPop] ? nParamPop : (slugsReverso[nParamPop] || null)) : null;
+    const idDesdeUrl = idArticuloDesdeUrlActual();
     const vistaDesdeUrl = new URLSearchParams(window.location.search).get('v');
     if(idDesdeUrl && articles[idDesdeUrl]){
       openArticle(idDesdeUrl);
@@ -2270,9 +2296,12 @@
     }
 
     const slug = slugsMap[id] || id;
-    const urlArticulo = slug && slug !== id
-      ? 'https://www.diarioxerecista.es/noticias/'+slug+'/'
-      : 'https://www.diarioxerecista.es/?n='+id;
+    const slugEn = slugsMapEn[id] || null;
+    const urlArticulo = idiomaActual === 'en' && slugEn
+      ? 'https://www.diarioxerecista.es/en/noticias/'+slugEn+'/'
+      : (slug && slug !== id
+        ? 'https://www.diarioxerecista.es/noticias/'+slug+'/'
+        : 'https://www.diarioxerecista.es/?n='+id);
     const shareUrl = 'https://x.com/intent/tweet?text='+encodeURIComponent(a.title+'\n\n'+urlArticulo)+'&via=Puroxerecismo';
     const compartirTexto = idiomaActual === 'es' ? 'Compartir en 𝕏' : 'Share on 𝕏';
     c.innerHTML = `
@@ -2292,8 +2321,13 @@
     showView('articulo');
 
     // Actualiza la URL para que se pueda compartir un enlace directo a esta
-    // noticia (ej. diarioxerecista.es/?n=art24), sin recargar la página.
-    const nuevaUrl = window.location.pathname + '?n=' + slug;
+    // noticia con vista previa correcta en redes sociales: usamos la ruta
+    // bonita /noticias/<slug>/ (o /en/noticias/<slug>/) siempre que exista,
+    // que es la que lleva a una página individual con sus propias etiquetas
+    // Open Graph. Si no hay slug, recurrimos al formato antiguo ?n=id.
+    const nuevaUrl = idiomaActual === 'en' && slugEn
+      ? '/en/noticias/'+slugEn+'/'
+      : (slug && slug !== id ? '/noticias/'+slug+'/' : (window.location.pathname.replace(/\/(en\/)?noticias\/[^/]+\/?$/,'/') + '?n=' + id));
     history.pushState({articuloId: id}, '', nuevaUrl);  }
 
   function closeArticle(){
@@ -2301,8 +2335,9 @@
     navButtons.forEach(b=>b.classList.remove('active'));
     document.querySelector('[data-view="portada"]').classList.add('active');
 
-    // Al volver, quitamos el parámetro de la URL para dejarla limpia.
-    history.pushState({}, '', window.location.pathname);
+    // Al volver, dejamos la URL limpia en la raíz del sitio (y no la ruta
+    // del artículo que se acaba de cerrar).
+    history.pushState({}, '', '/');
   }
 
   // Fecha actual
