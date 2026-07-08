@@ -4,8 +4,9 @@
     {"nombre": "Fali Giménez",      "posicion": "Central",          "estado": "confirmado"},
     {"nombre": "Rubén Mesa",        "posicion": "Delantero",        "estado": "confirmado"},
     {"nombre": "Carlos Pantoja",    "posicion": "Portero",          "estado": "confirmado"},
-    {"nombre": "Chacartegui",       "posicion": "Por confirmar",    "estado": "confirmado"},
+    {"nombre": "Chacartegui",       "posicion": "Lateral Izquierdo", "dorsal": 3, "estado": "confirmado"},
     {"nombre": "Javi Cheli",        "posicion": "Extremo",          "estado": "rumor"},
-    {"nombre": "David García",      "posicion": "Centrocampista",   "estado": "rumor"}
+    {"nombre": "David García",      "posicion": "Centrocampista",   "estado": "rumor"},
+    {"nombre": "Jaime Fernández",   "posicion": "Extremo",          "dorsal": null, "procedencia": "Yeclano Deportivo (cedido por Villarreal)", "estado": "confirmado"}
   ]
 }
