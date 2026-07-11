@@ -1,5 +1,73 @@
 [
   {
+    "nombre": "Jaime",
+    "apellidos": "López Rodríguez",
+    "nombreCompleto": "Jaime López Rodríguez",
+    "dorsal": 14,
+    "posicion": "CC",
+    "posicionDetalle": "Centrocampista · Mediocentro (sec. Mediocentro ofensivo)",
+    "fechaNacimiento": "18/01/2000",
+    "edad": 26,
+    "lugarNacimiento": "Sevilla",
+    "nacionalidad": "España",
+    "altura": "1,80 m",
+    "pie": "Derecho",
+    "agente": "Star Group Football",
+    "fichado": "01/07/2025",
+    "contrato": "30/06/2027",
+    "valorMercado": "150.000 €",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "CA Antoniano",
+        "aClub": "Xerez CD",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "At. Sanluqueño",
+        "aClub": "CA Antoniano",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "Sevilla FC C",
+        "aClub": "At. Sanluqueño",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Sevilla Juv. A",
+        "aClub": "Sevilla FC C",
+        "valor": "-"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "Sevilla Juv. B",
+        "aClub": "Sevilla Juv. A",
+        "valor": "-"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "Sevilla Cad. A",
+        "aClub": "Sevilla Juv. B",
+        "valor": "-"
+      },
+      {
+        "temporada": "15/16",
+        "deClub": "Altair Cad A",
+        "aClub": "Sevilla Cad. A",
+        "valor": "-"
+      },
+      {
+        "temporada": "14/15",
+        "deClub": "SevillaFútb.bas",
+        "aClub": "Altair Cad A",
+        "valor": "-"
+      }
+    ]
+  },
+  {
     "nombre": "Felipe",
     "apellidos": "Chacartegui",
     "nombreCompleto": "Felipe Chacartegui",
