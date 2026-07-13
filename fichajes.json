@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-10",
+  "actualizado": "2026-07-13",
   "jugadores": [
     {"nombre": "Fali Giménez",      "posicion": "Central",          "estado": "confirmado"},
     {"nombre": "Rubén Mesa",        "posicion": "Delantero",        "estado": "confirmado"},
@@ -9,6 +9,7 @@
     {"nombre": "David García",      "posicion": "Centrocampista",   "estado": "rumor"},
     {"nombre": "Jaime Fernández",   "posicion": "Extremo",          "dorsal": null, "procedencia": "Yeclano Deportivo (cedido por Villarreal)", "estado": "confirmado"},
     {"nombre": "Víctor López",      "posicion": "Lateral Derecho",  "procedencia": "Linares Deportivo", "estado": "confirmado"},
-    {"nombre": "David Sala",        "posicion": "Lateral Derecho",  "procedencia": "Albacete Balompié", "estado": "rumor"}
+    {"nombre": "David Sala",        "posicion": "Lateral Derecho",  "procedencia": "Albacete Balompié", "estado": "rumor"},
+    {"nombre": "Raúl López",        "posicion": "Centrocampista",   "procedencia": "Cádiz Mirandilla", "estado": "confirmado"}
   ]
 }
