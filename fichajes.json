@@ -1,6 +1,7 @@
 {
   "actualizado": "2026-07-13",
   "jugadores": [
+    {"nombre": "Bittor Isuskiza",   "posicion": "Centrocampista",   "estado": "confirmado"},
     {"nombre": "Fali Giménez",      "posicion": "Central",          "estado": "confirmado"},
     {"nombre": "Rubén Mesa",        "posicion": "Delantero",        "estado": "confirmado"},
     {"nombre": "Carlos Pantoja",    "posicion": "Portero",          "estado": "confirmado"},
