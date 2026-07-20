@@ -1561,7 +1561,7 @@
   // redes) como el formato antiguo ?n=artXX o ?n=slug.
   function idArticuloDesdeUrlActual(){
     const ruta = window.location.pathname;
-    const m = ruta.match(/\/(en\/)?noticias\/([^/]+)\/?$/);
+    const m = ruta.match(/\/(en\/)?noticias\/(.+?)\/?$/);
     if(m){
       const esIngles = !!m[1];
       const slug = decodeURIComponent(m[2]);
@@ -1935,7 +1935,7 @@
 
   function idsOrdenadosPorFecha(filtroCategoria){
     return Object.keys(articles)
-      .filter(id => !filtroCategoria || articles[id].categoria === filtroCategoria)
+      .filter(id => !filtroCategoria || (Array.isArray(articles[id].categoria) ? articles[id].categoria.includes(filtroCategoria) : articles[id].categoria === filtroCategoria))
       .sort((a,b) => new Date(articles[b].fecha) - new Date(articles[a].fecha));
   }
 
@@ -2130,19 +2130,45 @@
     document.querySelector('#view-contacto .contacto-intro').textContent = t('contactoIntro');
   }
 
+  // Descarga un JSON con un reintento automático (con pequeño backoff) si la
+  // primera petición falla o el servidor responde algo que no es JSON válido.
+  // Esto evita errores puntuales cuando varias peticiones salen a la vez.
+  function fetchJsonConReintento(url, fallback, intentos){
+    intentos = intentos || 5;
+    return fetch(url)
+      .then(resp => resp.json())
+      .catch(err => {
+        if(intentos > 1){
+          return new Promise(resolve => setTimeout(resolve, 500))
+            .then(() => fetchJsonConReintento(url, fallback, intentos - 1));
+        }
+        console.error('No se pudo cargar '+url+':', err);
+        return fallback;
+      });
+  }
+
   function cargarNoticias(){
     const archivo = idiomaActual === 'es' ? 'noticias-es.json' : 'noticias-en.json';
 
     // Cargamos el texto (en el idioma activo) y las fotos (un solo archivo,
     // compartido entre idiomas, para no tener que repetir la foto en cada
-    // versión) y los combinamos antes de pintar la web.
+    // versión) y los combinamos antes de pintar la web. Se piden en cadena
+    // (no todas a la vez) para no saturar con peticiones simultáneas.
     const cb = '?t='+Date.now();
-    Promise.all([
-      fetch(archivo+cb).then(resp => resp.json()),
-      fetch('fotos-articulos.json'+cb).then(resp => resp.json()).catch(() => ({})),
-      fetch('mapa-slugs.json'+cb).then(resp => resp.json()).catch(() => ({})),
-      fetch('mapa-slugs-en.json'+cb).then(resp => resp.json()).catch(() => ({}))
-    ])
+    fetchJsonConReintento(archivo+cb, null)
+      .then(textos => {
+        if(!textos) throw new Error('sin datos de noticias');
+        return fetchJsonConReintento('fotos-articulos.json'+cb, {})
+          .then(fotos => [textos, fotos]);
+      })
+      .then(([textos, fotos]) =>
+        fetchJsonConReintento('mapa-slugs.json'+cb, {})
+          .then(slugs => [textos, fotos, slugs])
+      )
+      .then(([textos, fotos, slugs]) =>
+        fetchJsonConReintento('mapa-slugs-en.json'+cb, {})
+          .then(slugsEn => [textos, fotos, slugs, slugsEn])
+      )
       .then(([textos, fotos, slugs, slugsEn]) => {
         articles = textos;
         for(const id in fotos){
@@ -2201,13 +2227,15 @@
     showView(vista);
   })();
 
-  cargarNoticias();
+  // Pequeño retraso inicial: evita que la primera carga de datos compita con
+  // la ráfaga de peticiones de fuentes/imágenes al arrancar la página.
+  setTimeout(cargarNoticias, 250);
 
   // Si el usuario usa el botón "atrás" del navegador tras abrir una noticia
   // (por ejemplo, llegando desde un enlace compartido), volvemos a portada
   // en vez de dejar la vista en un estado inconsistente.
   actualizarTopbarProximo();
-  comprobarDirecto();
+  setTimeout(comprobarDirecto, 600);
   setInterval(function(){ cargarNoticias(); }, 5*60*1000);
   setInterval(actualizarCuentaAtras, 1000);
   setInterval(comprobarDirecto, 60*1000);
@@ -2327,7 +2355,7 @@
     // Open Graph. Si no hay slug, recurrimos al formato antiguo ?n=id.
     const nuevaUrl = idiomaActual === 'en' && slugEn
       ? '/en/noticias/'+slugEn+'/'
-      : (slug && slug !== id ? '/noticias/'+slug+'/' : (window.location.pathname.replace(/\/(en\/)?noticias\/[^/]+\/?$/,'/') + '?n=' + id));
+      : (slug && slug !== id ? '/noticias/'+slug+'/' : (window.location.pathname.replace(/\/(en\/)?noticias\/.+$/,'/') + '?n=' + id));
     history.pushState({articuloId: id}, '', nuevaUrl);  }
 
   function closeArticle(){
