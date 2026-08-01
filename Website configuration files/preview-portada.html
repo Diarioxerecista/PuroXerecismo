@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preview portada — Diario Xerecista</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --azul-profundo:#0D2C54;--azul-medio:#1A4A8A;--oro:#C9A24B;
+    --papel:#F5F2EC;--papel-osc:#EDE9E0;--tinta:#1C1C1C;
+    --tinta-suave:#6B6560;--linea:rgba(13,44,84,0.14);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--papel);font-family:'Space Mono',monospace;color:var(--tinta);}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 20px;}
+
+  /* topbar */
+  .topbar{background:var(--azul-profundo);color:rgba(255,255,255,0.7);font-size:11px;padding:7px 0;}
+  .topbar .wrap{display:flex;justify-content:space-between;}
+
+  /* masthead */
+  .masthead{background:var(--papel);padding:20px 0 16px;border-bottom:3px solid var(--azul-profundo);}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;}
+  .brand{display:flex;align-items:center;gap:14px;}
+  .brand-crest{width:52px;height:52px;background:var(--azul-profundo);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--oro);font-size:20px;font-weight:700;}
+  .brand-text .kicker{font-size:9px;color:var(--tinta-suave);text-transform:uppercase;letter-spacing:0.12em;display:block;}
+  .brand-text h1{font-family:'Fraunces',serif;font-size:32px;font-weight:900;color:var(--azul-profundo);line-height:1;}
+  .brand-text h1 em{color:var(--azul-medio);}
+  .meta-date{text-align:right;font-size:12px;color:var(--tinta-suave);}
+  .meta-date strong{display:block;color:var(--azul-profundo);font-size:13px;}
+
+  /* nav */
+  .mainnav{background:var(--azul-profundo);overflow-x:auto;}
+  .mainnav .wrap{display:flex;align-items:stretch;gap:0;}
+  .navbtn{background:none;border:none;color:rgba(255,255,255,0.72);font-family:'Space Mono',monospace;font-size:12px;font-weight:700;padding:13px 14px;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent;}
+  .navbtn.active{color:#fff;border-bottom-color:var(--oro);}
+  .navbtn-x{background:#000;color:#fff;border-radius:6px;margin:auto 8px auto auto;padding:6px 14px;font-size:15px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;}
+
+  /* main */
+  main{padding:28px 0;}
+
+  /* próximo widget */
+  .proximo-widget{background:var(--azul-profundo);border-radius:3px;padding:20px 26px;margin-bottom:20px;display:flex;align-items:center;gap:24px;flex-wrap:wrap;position:relative;overflow:hidden;}
+  .proximo-widget::before{content:'';position:absolute;right:-20px;top:-30px;width:180px;height:180px;background:radial-gradient(circle,rgba(201,162,75,0.15) 0%,transparent 70%);pointer-events:none;}
+  .pw-label{display:flex;flex-direction:column;gap:4px;flex-shrink:0;min-width:130px;}
+  .pw-label span:first-child{font-size:10px;font-weight:700;color:var(--oro);letter-spacing:0.16em;text-transform:uppercase;}
+  .pw-jornada{font-size:11px;color:rgba(255,255,255,0.5);}
+  .pw-match{flex:1;display:flex;align-items:center;justify-content:center;gap:18px;}
+  .pw-equipo{font-family:'Fraunces',serif;font-size:18px;font-weight:700;color:rgba(255,255,255,0.65);}
+  .pw-equipo.xerez{color:#fff;font-size:22px;}
+  .pw-vs{font-size:12px;font-weight:700;color:var(--oro);letter-spacing:0.12em;}
+  .pw-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;}
+  .pw-fecha{font-size:12px;color:rgba(255,255,255,0.6);}
+  .pw-countdown{font-size:13px;font-weight:700;color:var(--oro);}
+
+  /* ── CARD FICHAJES ─────────────────────────────── */
+  .fichajes-card{
+    background:var(--papel);border:1px solid var(--linea);
+    border-top:3px solid var(--oro);border-radius:3px;
+    overflow:hidden;margin-bottom:28px;
+  }
+  .fichajes-head{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:14px 20px;background:var(--azul-profundo);gap:12px;
+  }
+  .fichajes-head-left{display:flex;flex-direction:column;gap:3px;}
+  .fj-tag{font-size:9px;font-weight:700;color:var(--oro);letter-spacing:0.16em;text-transform:uppercase;}
+  .fj-title{font-family:'Fraunces',serif;font-size:17px;font-weight:700;color:#fff;}
+  .fj-contador{font-size:10px;color:rgba(255,255,255,0.5);text-align:right;}
+  .fj-contador strong{display:block;font-size:18px;font-weight:700;color:var(--oro);}
+  .fichajes-list{padding:6px 0;}
+  .fichaje-row{
+    display:grid;grid-template-columns:26px 1fr auto;
+    align-items:center;gap:10px;padding:9px 20px;
+    border-bottom:1px solid var(--linea);
+  }
+  .fichaje-row:last-child{border-bottom:none;}
+  .fj-icono{font-size:16px;text-align:center;line-height:1;}
+  .fj-info{display:flex;flex-direction:column;gap:2px;}
+  .fj-nombre{font-family:'Fraunces',serif;font-size:15px;font-weight:700;color:var(--azul-profundo);}
+  .fj-detalle{font-size:10px;color:var(--tinta-suave);}
+  .fj-badge{font-size:9px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:3px 8px;border-radius:2px;white-space:nowrap;}
+  .badge-ok{background:#d4edda;color:#155724;}
+  .badge-hot{background:#fff3cd;color:#856404;}
+  .badge-rumor{background:#e2e3e5;color:#383d41;}
+  .badge-no{background:#f8d7da;color:#721c24;text-decoration:line-through;}
+  .fichajes-footer{
+    padding:10px 20px;font-size:10px;color:var(--tinta-suave);
+    border-top:1px solid var(--linea);background:var(--papel-osc);
+    display:flex;justify-content:space-between;align-items:center;
+  }
+  .fj-link{font-size:10px;font-weight:700;color:var(--azul-medio);text-decoration:none;}
+
+  /* hero grid placeholder */
+  .hero-grid{display:grid;grid-template-columns:1fr 300px;gap:20px;}
+  .hero-main-placeholder{
+    background:var(--azul-profundo);border-radius:3px;
+    aspect-ratio:16/9;display:flex;flex-direction:column;
+    justify-content:flex-end;padding:28px;gap:8px;
+  }
+  .hero-eyebrow{font-size:10px;font-weight:700;color:var(--oro);text-transform:uppercase;letter-spacing:0.14em;}
+  .hero-title{font-family:'Fraunces',serif;font-size:26px;font-weight:900;color:#fff;line-height:1.2;}
+  .hero-lead{font-size:12px;color:rgba(255,255,255,0.7);line-height:1.6;}
+  .side-list{display:flex;flex-direction:column;gap:0;}
+  .side-item{padding:14px 0;border-bottom:1px solid var(--linea);}
+  .side-item:last-child{border-bottom:none;}
+  .side-eyebrow{font-size:9px;font-weight:700;color:var(--azul-medio);text-transform:uppercase;letter-spacing:0.1em;display:block;margin-bottom:4px;}
+  .side-title{font-family:'Fraunces',serif;font-size:14px;font-weight:700;color:var(--azul-profundo);line-height:1.3;}
+
+  /* section head */
+  .section-head{display:flex;align-items:baseline;gap:14px;margin:28px 0 16px;padding-bottom:10px;border-bottom:2px solid var(--azul-profundo);}
+  .section-head h2{font-family:'Fraunces',serif;font-size:20px;font-weight:900;color:var(--azul-profundo);}
+  .tag{font-size:9px;font-weight:700;color:var(--azul-medio);text-transform:uppercase;letter-spacing:0.1em;background:var(--papel-osc);padding:3px 8px;border-radius:2px;}
+
+  .nota{text-align:center;font-size:11px;color:var(--tinta-suave);padding:16px;background:var(--papel-osc);border-radius:3px;margin-top:8px;}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span>Jerez de la Frontera · Estadio Municipal de Chapín</span>
+    <span>J1 · C.D. Estepona vs Xerez CD — SAB 6 SEP</span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-crest">X</div>
+      <div class="brand-text">
+        <span class="kicker">Prensa Xerecista · Edición Digital</span>
+        <h1>Diario <em>Xerecista</em></h1>
+      </div>
+    </div>
+    <div class="meta-date">
+      <strong>Miércoles, 2 de julio de 2026</strong>
+      Temporada 2026/27 · Pretemporada
+    </div>
+  </div>
+</header>
+
+<nav class="mainnav">
+  <div class="wrap">
+    <button class="navbtn active">Portada</button>
+    <button class="navbtn">Noticias</button>
+    <button class="navbtn">Crónicas</button>
+    <button class="navbtn">Calendario</button>
+    <button class="navbtn" style="color:var(--oro);border-bottom-color:rgba(201,162,75,0.4);">🔥 Fichajes</button>
+    <button class="navbtn">Clasificación</button>
+    <button class="navbtn">Historias</button>
+    <button class="navbtn">Opinión</button>
+    <button class="navbtn">Plantilla</button>
+    <a class="navbtn navbtn-x">𝕏</a>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+
+    <!-- Próximo partido -->
+    <div class="proximo-widget">
+      <div class="pw-label">
+        <span>PRÓXIMO AMISTOSO</span>
+        <span class="pw-jornada">Amistoso · Pretemporada 2026/27</span>
+      </div>
+      <div class="pw-match">
+        <span class="pw-equipo">Jerez Industrial</span>
+        <span class="pw-vs">VS</span>
+        <span class="pw-equipo xerez">Xerez CD</span>
+      </div>
+      <div class="pw-right">
+        <span class="pw-fecha">Sábado, 1 de agosto</span>
+        <span class="pw-countdown">en 29 días</span>
+      </div>
+    </div>
+
+    <!-- ★ CARD FICHAJES ★ -->
+    <div class="fichajes-card">
+      <div class="fichajes-head">
+        <div class="fichajes-head-left">
+          <span class="fj-tag">Mercado de fichajes</span>
+          <span class="fj-title">Pretemporada 2026/27</span>
+        </div>
+        <div class="fj-contador">
+          <strong>7</strong>
+          incorporaciones
+        </div>
+      </div>
+      <div class="fichajes-list">
+        <div class="fichaje-row">
+          <span class="fj-icono">✅</span>
+          <div class="fj-info">
+            <span class="fj-nombre">Fali Giménez</span>
+            <span class="fj-detalle">Central · Ex Cádiz CF</span>
+          </div>
+          <span class="fj-badge badge-ok">Confirmado</span>
+        </div>
+        <div class="fichaje-row">
+          <span class="fj-icono">✅</span>
+          <div class="fj-info">
+            <span class="fj-nombre">Rubén Mesa</span>
+            <span class="fj-detalle">Delantero · Ex Deportiva Minera</span>
+          </div>
+          <span class="fj-badge badge-ok">Confirmado</span>
+        </div>
+        <div class="fichaje-row">
+          <span class="fj-icono">✅</span>
+          <div class="fj-info">
+            <span class="fj-nombre">Guille Campos</span>
+            <span class="fj-detalle">Centrocampista · Renovación</span>
+          </div>
+          <span class="fj-badge badge-ok">Confirmado</span>
+        </div>
+        <div class="fichaje-row">
+          <span class="fj-icono">🔥</span>
+          <div class="fj-info">
+            <span class="fj-nombre">Jugador en negociación</span>
+            <span class="fj-detalle">Extremo · Club por confirmar</span>
+          </div>
+          <span class="fj-badge badge-hot">Avanzado</span>
+        </div>
+        <div class="fichaje-row">
+          <span class="fj-icono">💬</span>
+          <div class="fj-info">
+            <span class="fj-nombre">Nombre en rumores</span>
+            <span class="fj-detalle">Portero · Segunda Federación</span>
+          </div>
+          <span class="fj-badge badge-rumor">Rumor</span>
+        </div>
+      </div>
+      <div class="fichajes-footer">
+        <span>Actualizado hoy · Mercado abierto hasta 2 sep</span>
+        <a class="fj-link" href="#">Ver plantilla completa →</a>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="section-head">
+      <h2>Lo último</h2>
+      <span class="tag">Pretemporada</span>
+    </div>
+    <div class="hero-grid">
+      <div class="hero-main-placeholder">
+        <span class="hero-eyebrow">Mercado de fichajes</span>
+        <div class="hero-title">El Xerez CD hace oficial el fichaje de Fali, el excadista que llevaba meses entrenando en Chapín</div>
+        <p class="hero-lead">Fali Giménez firma con el conjunto azulino y se convierte en el cuarto refuerzo del verano.</p>
+      </div>
+      <div class="side-list">
+        <div class="side-item">
+          <span class="side-eyebrow">Fichajes</span>
+          <div class="side-title">Rubén Mesa, nuevo delantero azulino tras destacar en la Deportiva Minera</div>
+        </div>
+        <div class="side-item">
+          <span class="side-eyebrow">Pretemporada</span>
+          <div class="side-title">Arranca la pretemporada en Chapín con la mirada puesta en septiembre</div>
+        </div>
+        <div class="side-item">
+          <span class="side-eyebrow">Club</span>
+          <div class="side-title">Chapín estrena nueva iluminación de cara a la nueva temporada</div>
+        </div>
+        <div class="side-item">
+          <span class="side-eyebrow">Competición</span>
+          <div class="side-title">El Xerez CD ya conoce a sus rivales del Grupo IV 2026/27</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nota">↑ Así quedaría el card de fichajes en la portada real, entre el widget del próximo partido y las noticias</div>
+
+  </div>
+</main>
+
+</body>
+</html>

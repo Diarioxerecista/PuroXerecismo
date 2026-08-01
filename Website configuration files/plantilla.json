@@ -1,0 +1,737 @@
+[
+  {
+    "nombre": "Jaime",
+    "apellidos": "López Rodríguez",
+    "nombreCompleto": "Jaime López Rodríguez",
+    "dorsal": 14,
+    "posicion": "CC",
+    "posicionDetalle": "Centrocampista · Mediocentro (sec. Mediocentro ofensivo)",
+    "fechaNacimiento": "18/01/2000",
+    "edad": 26,
+    "lugarNacimiento": "Sevilla",
+    "nacionalidad": "España",
+    "altura": "1,80 m",
+    "pie": "Derecho",
+    "agente": "Star Group Football",
+    "fichado": "01/07/2025",
+    "contrato": "30/06/2027",
+    "valorMercado": "150.000 €",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "CA Antoniano",
+        "aClub": "Xerez CD",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "At. Sanluqueño",
+        "aClub": "CA Antoniano",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "Sevilla FC C",
+        "aClub": "At. Sanluqueño",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Sevilla Juv. A",
+        "aClub": "Sevilla FC C",
+        "valor": "-"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "Sevilla Juv. B",
+        "aClub": "Sevilla Juv. A",
+        "valor": "-"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "Sevilla Cad. A",
+        "aClub": "Sevilla Juv. B",
+        "valor": "-"
+      },
+      {
+        "temporada": "15/16",
+        "deClub": "Altair Cad A",
+        "aClub": "Sevilla Cad. A",
+        "valor": "-"
+      },
+      {
+        "temporada": "14/15",
+        "deClub": "SevillaFútb.bas",
+        "aClub": "Altair Cad A",
+        "valor": "-"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo09-jaimelopez.png"
+  },
+  {
+    "nombre": "Felipe",
+    "apellidos": "Chacartegui",
+    "nombreCompleto": "Felipe Chacartegui",
+    "dorsal": 3,
+    "posicion": "LAT IZQ",
+    "posicionDetalle": "Defensa · Lateral izquierdo",
+    "fechaNacimiento": "23/02/1998",
+    "edad": 28,
+    "lugarNacimiento": "Cádiz",
+    "nacionalidad": "España",
+    "altura": "1,79 m",
+    "pie": "Izquierdo",
+    "fichado": "01/07/2025",
+    "contrato": "30/06/2027",
+    "valorMercado": "150.000 €",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "CA Antoniano",
+        "aClub": "Xerez CD",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "Beroe",
+        "aClub": "CA Antoniano",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "CD Badajoz",
+        "aClub": "Beroe",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "Hércules CF",
+        "aClub": "CD Badajoz",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "UCAM Murcia",
+        "aClub": "Hércules CF",
+        "valor": "250k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Sevilla Atl.",
+        "aClub": "UCAM Murcia",
+        "valor": "250k €"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "Sevilla Juv. A",
+        "aClub": "Sevilla Atl.",
+        "valor": "—"
+      },
+      {
+        "temporada": "15/16",
+        "deClub": "S. Fernando JuvA",
+        "aClub": "Sevilla Juv. A",
+        "valor": "—"
+      },
+      {
+        "temporada": "14/15",
+        "deClub": "S. Fernando F.b",
+        "aClub": "S. Fernando JuvA",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo04-Chaca.png"
+  },
+  {
+    "nombre": "Josete",
+    "apellidos": "Malagón",
+    "nombreCompleto": "José Antonio Malagón Rubio",
+    "dorsal": 5,
+    "posicion": "DEFENSA",
+    "posicionDetalle": "Defensa · Defensa central",
+    "fechaNacimiento": "28/05/1988",
+    "edad": 38,
+    "lugarNacimiento": "Elche",
+    "nacionalidad": "España",
+    "altura": "1,79 m",
+    "pie": "Izquierdo",
+    "fichado": "29/08/2024",
+    "contrato": "30/06/2027",
+    "valorMercado": "25.000 €",
+    "historial": [
+      {
+        "temporada": "24/25",
+        "deClub": "AC Torrellano",
+        "aClub": "Xerez CD",
+        "valor": "—"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "Sin equipo",
+        "aClub": "AC Torrellano",
+        "valor": "—"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "CD Badajoz",
+        "aClub": "Sin equipo",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "CF Talavera",
+        "aClub": "CD Badajoz",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "Sin equipo",
+        "aClub": "CF Talavera",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "UCAM Murcia",
+        "aClub": "Sin equipo",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "CD Lugo",
+        "aClub": "UCAM Murcia",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "Elche CF",
+        "aClub": "CD Lugo",
+        "valor": "300k €"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "Real Oviedo",
+        "aClub": "Elche CF",
+        "valor": "300k €"
+      },
+      {
+        "temporada": "15/16",
+        "deClub": "Cádiz CF",
+        "aClub": "Real Oviedo",
+        "valor": "—"
+      },
+      {
+        "temporada": "12/13",
+        "deClub": "Zamora CF",
+        "aClub": "Cádiz CF",
+        "valor": "—"
+      },
+      {
+        "temporada": "11/12",
+        "deClub": "Alavés",
+        "aClub": "Zamora CF",
+        "valor": "—"
+      },
+      {
+        "temporada": "10/11",
+        "deClub": "Elche Ilicitano",
+        "aClub": "Alavés",
+        "valor": "—"
+      },
+      {
+        "temporada": "07/08",
+        "deClub": "Elche Juvenil A",
+        "aClub": "Elche Ilicitano",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo05-josete.png"
+  },
+  {
+    "nombre": "Zelu",
+    "apellidos": "García",
+    "nombreCompleto": "José Luis García Pérez",
+    "dorsal": 7,
+    "posicion": "EXT DER",
+    "posicionDetalle": "Delantero · Extremo derecho",
+    "fechaNacimiento": "21/01/1996",
+    "edad": 30,
+    "lugarNacimiento": "Jerez de la Frontera",
+    "nacionalidad": "España",
+    "altura": "1,70 m",
+    "pie": "Derecho",
+    "fichado": "01/07/2025",
+    "contrato": "30/06/2027",
+    "valorMercado": "150.000 €",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "Recreativo",
+        "aClub": "Xerez CD",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "At. Sanluqueño",
+        "aClub": "Recreativo",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "Othellos Athien",
+        "aClub": "At. Sanluqueño",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "CD Badajoz",
+        "aClub": "Othellos Athien",
+        "valor": "250k €"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "UD Logroñés",
+        "aClub": "CD Badajoz",
+        "valor": "300k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Córdoba CF",
+        "aClub": "UD Logroñés",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "UD Logroñés",
+        "aClub": "Córdoba CF",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Córdoba CF",
+        "aClub": "UD Logroñés",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "CyD Leonesa",
+        "aClub": "Córdoba CF",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "Córdoba CF",
+        "aClub": "CyD Leonesa",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "UD Melilla",
+        "aClub": "Córdoba CF",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "Atl. Malagueño",
+        "aClub": "UD Melilla",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "San Fernando CD",
+        "aClub": "Atl. Malagueño",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "Atl. Malagueño",
+        "aClub": "San Fernando CD",
+        "valor": "—"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "Marbella",
+        "aClub": "Atl. Malagueño",
+        "valor": "—"
+      },
+      {
+        "temporada": "15/16",
+        "deClub": "Sevilla Juv. A",
+        "aClub": "Marbella",
+        "valor": "—"
+      },
+      {
+        "temporada": "14/15",
+        "deClub": "Sevilla Juv. B",
+        "aClub": "Sevilla Juv. A",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo07-zelu.png"
+  },
+  {
+    "nombre": "Ismael",
+    "apellidos": "Gutiérrez",
+    "nombreCompleto": "Ismael Gutiérrez Montilla",
+    "dorsal": 8,
+    "posicion": "CC",
+    "posicionDetalle": "Centrocampista · Mediocentro",
+    "fechaNacimiento": "07/08/2000",
+    "edad": 25,
+    "lugarNacimiento": "Los Palacios y Villafranca",
+    "nacionalidad": "España",
+    "altura": "1,78 m",
+    "pie": "Derecho",
+    "fichado": "01/07/2025",
+    "contrato": "30/06/2027",
+    "valorMercado": "150.000 €",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "Linares Deportivo",
+        "aClub": "Xerez CD",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "Sin equipo",
+        "aClub": "Linares Deportivo",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "Mérida AD",
+        "aClub": "Sin equipo",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "CF La Nucía",
+        "aClub": "Mérida AD",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "Atl. Madrileño",
+        "aClub": "CF La Nucía",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "Málaga CF",
+        "aClub": "Atl. Madrileño",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "Atl. Madrileño",
+        "aClub": "Málaga CF",
+        "valor": "1M €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Real Betis",
+        "aClub": "Atl. Madrileño",
+        "valor": "900k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Alavés",
+        "aClub": "Real Betis",
+        "valor": "900k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Real Betis",
+        "aClub": "Alavés",
+        "valor": "1M €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Betis Deportivo",
+        "aClub": "Real Betis",
+        "valor": "1M €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Betis Juvenil A",
+        "aClub": "Betis Deportivo",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo01-ismael.png"
+  },
+  {
+    "nombre": "Chuma",
+    "apellidos": "Rodríguez",
+    "nombreCompleto": "Rafael González Rodríguez",
+    "dorsal": 9,
+    "posicion": "DC",
+    "posicionDetalle": "Delantero · Delantero centro",
+    "fechaNacimiento": "13/02/1997",
+    "edad": 29,
+    "lugarNacimiento": "Sevilla",
+    "nacionalidad": "España",
+    "altura": "1,76 m",
+    "pie": "",
+    "fichado": "30/01/2026",
+    "contrato": "30/06/2026",
+    "valorMercado": "100.000 €",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "Wieczysta",
+        "aClub": "Xerez CD",
+        "valor": "75k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "Mérida AD",
+        "aClub": "Wieczysta",
+        "valor": "—"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "UCAM Murcia",
+        "aClub": "Mérida AD",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "San Roque Lepe",
+        "aClub": "UCAM Murcia",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "Xerez CD",
+        "aClub": "San Roque Lepe",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Atl. Levante",
+        "aClub": "Xerez CD",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Córdoba CF B",
+        "aClub": "Atl. Levante",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "UB Lebrijana",
+        "aClub": "Córdoba CF B",
+        "valor": "—"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "Sevilla FC C",
+        "aClub": "UB Lebrijana",
+        "valor": "—"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "Sevilla Juv. A",
+        "aClub": "Sevilla FC C",
+        "valor": "—"
+      },
+      {
+        "temporada": "13/14",
+        "deClub": "SevillaFútb.bas",
+        "aClub": "Sevilla Juv. A",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo06-chuma.png"
+  },
+  {
+    "nombre": "Moi",
+    "apellidos": "Rodríguez",
+    "nombreCompleto": "Moisés Rodríguez Laínez",
+    "dorsal": 19,
+    "posicion": "CENTRAL",
+    "posicionDetalle": "Defensa · Defensa central",
+    "fechaNacimiento": "02/04/1997",
+    "edad": 29,
+    "lugarNacimiento": "La Liara",
+    "nacionalidad": "España",
+    "altura": "—",
+    "pie": "Derecho",
+    "fichado": "12/07/2025",
+    "contrato": "30/06/2026",
+    "valorMercado": "200.000 €",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "Ourense CF",
+        "aClub": "Xerez CD",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "UD Melilla",
+        "aClub": "Ourense CF",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "CF Villanovense",
+        "aClub": "UD Melilla",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "CD Utrera",
+        "aClub": "CF Villanovense",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Sin equipo",
+        "aClub": "CD Utrera",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Cádiz CF B",
+        "aClub": "Sin equipo",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "Cádiz Juvenil A",
+        "aClub": "Cádiz CF B",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo08-moi.png"
+  },
+  {
+    "nombre": "Zeki",
+    "apellidos": "Díaz",
+    "nombreCompleto": "Ezequiel Díaz Romero",
+    "dorsal": 21,
+    "posicion": "EXT IZQ",
+    "posicionDetalle": "Delantero · Extremo izquierdo",
+    "fechaNacimiento": "19/01/1997",
+    "edad": 29,
+    "lugarNacimiento": "Sanlúcar de Barrameda",
+    "nacionalidad": "España",
+    "fichado": "16/01/2026",
+    "contrato": "30/06/2027",
+    "valorMercado": "200.000 €",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "At. Sanluqueño",
+        "aClub": "Xerez CD",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "25/26",
+        "deClub": "Marbella",
+        "aClub": "At. Sanluqueño",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "CF Intercity",
+        "aClub": "Marbella",
+        "valor": "250k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "Algeciras CF",
+        "aClub": "CF Intercity",
+        "valor": "300k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "At. Sanluqueño",
+        "aClub": "Algeciras CF",
+        "valor": "300k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "Ciudad Lucena",
+        "aClub": "At. Sanluqueño",
+        "valor": "—"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "CD Rota",
+        "aClub": "Ciudad Lucena",
+        "valor": "—"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "Utrera",
+        "aClub": "CD Rota",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo02-zeki.png"
+  },
+  {
+    "nombre": "Guille",
+    "apellidos": "Campos",
+    "nombreCompleto": "Guillermo Campos",
+    "dorsal": 22,
+    "posicion": "DEFENSA",
+    "posicionDetalle": "Defensa central · Lateral derecho",
+    "fechaNacimiento": "15/01/1997",
+    "edad": 29,
+    "lugarNacimiento": "Sanlúcar de Barrameda",
+    "nacionalidad": "España",
+    "fichado": "01/07/2025",
+    "contrato": "30/06/2027",
+    "valorMercado": "150.000 €",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "CA Antoniano",
+        "aClub": "Xerez CD",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "Villanovense",
+        "aClub": "CA Antoniano",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "At. Sanluqueño",
+        "aClub": "Villanovense",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "CD Rota",
+        "aClub": "At. Sanluqueño",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "At. Sanluqueño",
+        "aClub": "CD Rota",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "CD Rota",
+        "aClub": "At. Sanluqueño",
+        "valor": "—"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "Sanluqueño Juv. A",
+        "aClub": "CD Rota",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo03-guille.png"
+  }
+]

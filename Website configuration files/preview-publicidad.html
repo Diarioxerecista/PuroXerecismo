@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preview publicidad — El Jardín de Papel</title>
+<style>
+  :root {
+    --azul-profundo:#0D2C54;
+    --azul-medio:#1A4A8A;
+    --oro:#C9A24B;
+    --papel:#F5F0E8;
+    --papel-osc:#EDE8DF;
+    --tinta:#1A1A1A;
+    --tinta-suave:#555;
+    --linea:#D9D3C7;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:#E8E3DA;font-family:'Georgia',serif;color:var(--tinta);padding:24px;}
+  h2{font-size:11px;font-family:monospace;text-transform:uppercase;letter-spacing:.1em;color:var(--tinta-suave);margin-bottom:10px;}
+  .wrap{max-width:900px;margin:0 auto;}
+  .label-section{margin:28px 0 8px;font-family:monospace;font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--tinta-suave);opacity:.7;}
+
+  /* Simulación barra nav */
+  .mock-nav{
+    background:var(--azul-profundo);
+    height:48px;
+    border-radius:4px 4px 0 0;
+    display:flex;align-items:center;padding:0 16px;gap:16px;
+    margin-bottom:0;
+  }
+  .mock-nav-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.25);}
+  .mock-nav-logo{color:var(--oro);font-family:monospace;font-size:13px;font-weight:700;letter-spacing:.08em;}
+  .mock-nav-links{display:flex;gap:16px;margin-left:auto;}
+  .mock-nav-link{width:40px;height:8px;background:rgba(255,255,255,.15);border-radius:2px;}
+
+  /* Banner top */
+  .ad-banner-top{
+    border-top:1px solid var(--linea);
+    border-bottom:1px solid var(--linea);
+    background:var(--papel);
+    height:64px;
+    display:flex;align-items:center;justify-content:center;
+    padding:0;
+    overflow:hidden;
+  }
+  .ad-banner-top img{
+    width:100%;height:64px;object-fit:cover;object-position:center top;
+    display:block;
+  }
+  .ad-label-float{
+    position:absolute;
+    top:2px;left:6px;
+    font-family:monospace;font-size:8px;text-transform:uppercase;letter-spacing:.08em;
+    color:var(--tinta-suave);opacity:.6;
+  }
+
+  /* Layout portada */
+  .portada-grid{
+    display:grid;
+    grid-template-columns:1fr 300px;
+    gap:20px;
+    background:var(--papel);
+    padding:16px;
+  }
+  .mock-article{background:var(--papel-osc);border-radius:3px;height:280px;display:flex;align-items:center;justify-content:center;color:var(--tinta-suave);font-family:monospace;font-size:11px;opacity:.6;}
+  
+  /* Banner lateral 300x250 */
+  .ad-banner-side{
+    height:250px;
+    border:2px solid var(--azul-medio);
+    border-radius:3px;
+    overflow:hidden;
+    background:var(--papel-osc);
+    position:relative;
+  }
+  .ad-banner-side img{
+    width:100%;height:100%;object-fit:cover;object-position:center;
+    display:block;
+  }
+  .ad-banner-side-label{
+    position:absolute;bottom:0;left:0;right:0;
+    background:rgba(13,44,84,.75);
+    padding:4px 8px;
+    font-family:monospace;font-size:9px;color:rgba(255,255,255,.8);
+    text-transform:uppercase;letter-spacing:.08em;
+    text-align:center;
+  }
+
+  /* Banner ancho 728xX */
+  .ad-banner-leaderboard{
+    width:100%;
+    height:120px;
+    overflow:hidden;
+    border-radius:3px;
+    border:1px solid var(--linea);
+    background:var(--papel);
+    position:relative;
+  }
+  .ad-banner-leaderboard img{
+    width:100%;height:100%;object-fit:cover;object-position:center 30%;
+    display:block;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <img src="fotos/publicidad/jardin-de-papel.jpg" alt="El Jardín de Papel" style="width:100%;border-radius:4px;display:block;">
+
+</div>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preview — Card Fichajes</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,900;1,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --azul-profundo:#0D2C54;
+    --azul-medio:#1A4A8A;
+    --oro:#C9A24B;
+    --papel:#F5F2EC;
+    --papel-osc:#EDE9E0;
+    --tinta:#1C1C1C;
+    --tinta-suave:#6B6560;
+    --linea:rgba(13,44,84,0.14);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:#e8e4dc;
+    font-family:'Space Mono',monospace;
+    display:flex;flex-direction:column;
+    align-items:center;justify-content:center;
+    min-height:100vh;padding:32px 16px;gap:24px;
+  }
+  .label{
+    font-size:11px;color:var(--tinta-suave);letter-spacing:0.1em;
+    text-transform:uppercase;
+  }
+
+  /* ── Card fichajes ─────────────────────────────── */
+  .fichajes-card{
+    background:var(--papel);
+    border:1px solid var(--linea);
+    border-top:3px solid var(--oro);
+    width:100%;max-width:680px;
+    border-radius:3px;
+    overflow:hidden;
+  }
+  .fichajes-head{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:14px 20px;
+    background:var(--azul-profundo);
+    gap:12px;
+  }
+  .fichajes-head-left{display:flex;flex-direction:column;gap:3px;}
+  .fichajes-tag{
+    font-family:'Space Mono',monospace;font-size:9px;font-weight:700;
+    color:var(--oro);letter-spacing:0.16em;text-transform:uppercase;
+  }
+  .fichajes-title{
+    font-family:'Fraunces',serif;font-size:17px;font-weight:700;
+    color:#fff;
+  }
+  .fichajes-contador{
+    font-family:'Space Mono',monospace;font-size:10px;
+    color:rgba(255,255,255,0.5);
+    text-align:right;
+  }
+  .fichajes-contador strong{
+    display:block;font-size:18px;font-weight:700;color:var(--oro);
+  }
+
+  /* filas */
+  .fichajes-list{padding:8px 0;}
+  .fichaje-row{
+    display:grid;
+    grid-template-columns:28px 1fr auto;
+    align-items:center;gap:10px;
+    padding:10px 20px;
+    border-bottom:1px solid var(--linea);
+    transition:background .12s;
+    cursor:default;
+  }
+  .fichaje-row:last-child{border-bottom:none;}
+  .fichaje-row:hover{background:var(--papel-osc);}
+  .fichaje-icono{
+    font-size:17px;text-align:center;
+    line-height:1;
+  }
+  .fichaje-info{display:flex;flex-direction:column;gap:2px;}
+  .fichaje-nombre{
+    font-family:'Fraunces',serif;font-size:15px;font-weight:700;
+    color:var(--azul-profundo);
+  }
+  .fichaje-detalle{
+    font-family:'Space Mono',monospace;font-size:10px;
+    color:var(--tinta-suave);
+  }
+  .fichaje-badge{
+    font-family:'Space Mono',monospace;font-size:9px;font-weight:700;
+    letter-spacing:0.08em;text-transform:uppercase;
+    padding:3px 8px;border-radius:2px;white-space:nowrap;
+  }
+  .badge-confirmado{background:#d4edda;color:#155724;}
+  .badge-avanzado{background:#fff3cd;color:#856404;}
+  .badge-rumor{background:#e2e3e5;color:#383d41;}
+  .badge-descartado{background:#f8d7da;color:#721c24;text-decoration:line-through;}
+
+  .fichajes-footer{
+    padding:10px 20px;
+    font-family:'Space Mono',monospace;font-size:10px;
+    color:var(--tinta-suave);
+    border-top:1px solid var(--linea);
+    background:var(--papel-osc);
+    display:flex;justify-content:space-between;align-items:center;
+  }
+  .fichajes-ver-mas{
+    font-size:10px;font-weight:700;color:var(--azul-medio);
+    text-decoration:none;letter-spacing:0.05em;
+  }
+</style>
+</head>
+<body>
+
+<span class="label">Ejemplo — Card en portada</span>
+
+<div class="fichajes-card">
+  <div class="fichajes-head">
+    <div class="fichajes-head-left">
+      <span class="fichajes-tag">Mercado de fichajes</span>
+      <span class="fichajes-title">Pretemporada 2026/27</span>
+    </div>
+    <div class="fichajes-contador">
+      <strong>7</strong>
+      incorporaciones
+    </div>
+  </div>
+
+  <div class="fichajes-list">
+    <div class="fichaje-row">
+      <span class="fichaje-icono">✅</span>
+      <div class="fichaje-info">
+        <span class="fichaje-nombre">Fali Giménez</span>
+        <span class="fichaje-detalle">Central · Ex Cádiz CF</span>
+      </div>
+      <span class="fichaje-badge badge-confirmado">Confirmado</span>
+    </div>
+    <div class="fichaje-row">
+      <span class="fichaje-icono">✅</span>
+      <div class="fichaje-info">
+        <span class="fichaje-nombre">Rubén Mesa</span>
+        <span class="fichaje-detalle">Delantero · Ex Deportiva Minera</span>
+      </div>
+      <span class="fichaje-badge badge-confirmado">Confirmado</span>
+    </div>
+    <div class="fichaje-row">
+      <span class="fichaje-icono">✅</span>
+      <div class="fichaje-info">
+        <span class="fichaje-nombre">Guille Campos</span>
+        <span class="fichaje-detalle">Centrocampista · Renovación</span>
+      </div>
+      <span class="fichaje-badge badge-confirmado">Confirmado</span>
+    </div>
+    <div class="fichaje-row">
+      <span class="fichaje-icono">✅</span>
+      <div class="fichaje-info">
+        <span class="fichaje-nombre">Chacartegui</span>
+        <span class="fichaje-detalle">Lateral Izquierdo · Dorsal 3</span>
+      </div>
+      <span class="fichaje-badge badge-confirmado">Confirmado</span>
+    </div>
+    <div class="fichaje-row">
+      <span class="fichaje-icono">🔥</span>
+      <div class="fichaje-info">
+        <span class="fichaje-nombre">Jugador en negociación</span>
+        <span class="fichaje-detalle">Extremo · Club por confirmar</span>
+      </div>
+      <span class="fichaje-badge badge-avanzado">Avanzado</span>
+    </div>
+    <div class="fichaje-row">
+      <span class="fichaje-icono">💬</span>
+      <div class="fichaje-info">
+        <span class="fichaje-nombre">Nombre en rumores</span>
+        <span class="fichaje-detalle">Portero · Segunda Federación</span>
+      </div>
+      <span class="fichaje-badge badge-rumor">Rumor</span>
+    </div>
+    <div class="fichaje-row">
+      <span class="fichaje-icono">❌</span>
+      <div class="fichaje-info">
+        <span class="fichaje-nombre">Nombre descartado</span>
+        <span class="fichaje-detalle">Lateral · Otro club</span>
+      </div>
+      <span class="fichaje-badge badge-descartado">Descartado</span>
+    </div>
+  </div>
+
+  <div class="fichajes-footer">
+    <span>Actualizado hoy · Mercado abierto hasta 2 sep</span>
+    <a class="fichajes-ver-mas" href="#">Ver plantilla completa →</a>
+  </div>
+</div>
+
+<span class="label">Así quedaría en la portada del Diario Xerecista</span>
+
+</body>
+</html>
