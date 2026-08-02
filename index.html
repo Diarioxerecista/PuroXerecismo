@@ -795,6 +795,8 @@
     animation:pulsoRojo 0.9s ease-in-out infinite alternate;
   }
   @keyframes pulsoRojo{from{opacity:1}to{opacity:0.4}}
+  .mapa-ping{animation:mapaPing 2.2s ease-out infinite;transform-origin:15px 38px;}
+  @keyframes mapaPing{0%{opacity:0.9;transform:scale(0.6);}100%{opacity:0;transform:scale(2.4);}}
   .topbar-directo{
     display:inline-flex;align-items:center;gap:5px;
     color:#ff4444;font-weight:800;
@@ -2039,12 +2041,12 @@
     const cardFijaPortada = `<article class="card" onclick="openMapaRivales()" style="cursor:pointer;">
       <div class="img-box" style="background:var(--azul-profundo);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
         <div style="position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(201,162,75,0.08) 0px,rgba(201,162,75,0.08) 1px,transparent 1px,transparent 12px);"></div>
-        <svg width="58" height="58" viewBox="0 0 64 64" fill="none" style="opacity:0.95;position:relative;z-index:1;"><path d="M6 30 L9 21 L16 15 L25 11 L34 8 L43 9 L51 13 L57 19 L60 27 L58 35 L52 42 L44 47 L35 51 L26 51 L18 47 L11 40 Z" fill="rgba(201,162,75,0.16)" stroke="#C9A24B" stroke-width="1.6"/><circle cx="15" cy="38" r="2.2" fill="#C9A24B"/><circle cx="27" cy="32" r="2.2" fill="#fff" fill-opacity="0.55"/><circle cx="38" cy="22" r="2.2" fill="#fff" fill-opacity="0.55"/><circle cx="46" cy="34" r="2.2" fill="#fff" fill-opacity="0.55"/><circle cx="15" cy="38" r="4.5" fill="none" stroke="#C9A24B" stroke-width="1.3"/></svg>
+        <svg width="76" height="76" viewBox="0 0 64 64" fill="none" style="opacity:0.97;position:relative;z-index:1;"><path d="M6 30 L9 21 L16 15 L25 11 L34 8 L43 9 L51 13 L57 19 L60 27 L58 35 L52 42 L44 47 L35 51 L26 51 L18 47 L11 40 Z" fill="rgba(201,162,75,0.14)" stroke="#C9A24B" stroke-width="1.6"/><g stroke="rgba(255,255,255,0.4)" stroke-width="1"><line x1="15" y1="38" x2="27" y2="32"/><line x1="15" y1="38" x2="38" y2="22"/><line x1="15" y1="38" x2="46" y2="34"/><line x1="15" y1="38" x2="20" y2="18"/></g><circle cx="27" cy="32" r="2.4" fill="#fff" fill-opacity="0.6"/><circle cx="38" cy="22" r="2.4" fill="#fff" fill-opacity="0.6"/><circle cx="46" cy="34" r="2.4" fill="#fff" fill-opacity="0.6"/><circle cx="20" cy="18" r="2.4" fill="#fff" fill-opacity="0.6"/><circle class="mapa-ping" cx="15" cy="38" r="7" fill="none" stroke="#C9A24B" stroke-width="1.2"/><circle cx="15" cy="38" r="3" fill="#C9A24B"/></svg>
         <span style="position:absolute;top:10px;left:10px;font-family:monospace;font-size:9px;font-weight:700;color:#C9A24B;background:rgba(13,44,84,0.8);padding:3px 8px;border-radius:2px;">📌 Fijo</span>
       </div>
       <span class="eyebrow" style="margin-top:14px;display:block;">Competición · Grupo IV 26/27</span>
       <h4>Mapa interactivo de rivales — distancias desde Chapín</h4>
-      <p style="font-size:13px;color:var(--tinta-suave);margin-top:6px;">17 rivales geolocalizados con los km desde Chapín.</p>
+      <p style="font-size:13px;color:var(--tinta-suave);margin-top:6px;">17 rivales geolocalizados con los km desde Chapín. <span style="color:var(--oro);font-weight:600;">Ver mapa →</span></p>
     </article>`;
     document.getElementById('loUltimoGrid').innerHTML = cardFijaPortada + loUltimoIds.map(tarjetaHTML).join('');
   }
@@ -2054,12 +2056,12 @@
     const cardFija = `<article class="card" onclick="openMapaRivales()" style="cursor:pointer;">
       <div class="img-box" style="background:var(--azul-profundo);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
         <div style="position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(201,162,75,0.08) 0px,rgba(201,162,75,0.08) 1px,transparent 1px,transparent 12px);"></div>
-        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" style="opacity:0.95;position:relative;z-index:1;"><path d="M6 30 L9 21 L16 15 L25 11 L34 8 L43 9 L51 13 L57 19 L60 27 L58 35 L52 42 L44 47 L35 51 L26 51 L18 47 L11 40 Z" fill="rgba(201,162,75,0.16)" stroke="#C9A24B" stroke-width="1.6"/><circle cx="15" cy="38" r="2.4" fill="#C9A24B"/><circle cx="27" cy="32" r="2.4" fill="#fff" fill-opacity="0.55"/><circle cx="38" cy="22" r="2.4" fill="#fff" fill-opacity="0.55"/><circle cx="46" cy="34" r="2.4" fill="#fff" fill-opacity="0.55"/><circle cx="20" cy="18" r="2.4" fill="#fff" fill-opacity="0.55"/><circle cx="15" cy="38" r="4.8" fill="none" stroke="#C9A24B" stroke-width="1.3"/></svg>
+        <svg width="76" height="76" viewBox="0 0 64 64" fill="none" style="opacity:0.97;position:relative;z-index:1;"><path d="M6 30 L9 21 L16 15 L25 11 L34 8 L43 9 L51 13 L57 19 L60 27 L58 35 L52 42 L44 47 L35 51 L26 51 L18 47 L11 40 Z" fill="rgba(201,162,75,0.14)" stroke="#C9A24B" stroke-width="1.6"/><g stroke="rgba(255,255,255,0.4)" stroke-width="1"><line x1="15" y1="38" x2="27" y2="32"/><line x1="15" y1="38" x2="38" y2="22"/><line x1="15" y1="38" x2="46" y2="34"/><line x1="15" y1="38" x2="20" y2="18"/></g><circle cx="27" cy="32" r="2.4" fill="#fff" fill-opacity="0.6"/><circle cx="38" cy="22" r="2.4" fill="#fff" fill-opacity="0.6"/><circle cx="46" cy="34" r="2.4" fill="#fff" fill-opacity="0.6"/><circle cx="20" cy="18" r="2.4" fill="#fff" fill-opacity="0.6"/><circle class="mapa-ping" cx="15" cy="38" r="7" fill="none" stroke="#C9A24B" stroke-width="1.2"/><circle cx="15" cy="38" r="3" fill="#C9A24B"/></svg>
         <span style="position:absolute;top:10px;left:10px;font-family:'Space Mono',monospace;font-size:9px;font-weight:700;color:var(--oro);letter-spacing:0.1em;text-transform:uppercase;background:rgba(13,44,84,0.8);padding:3px 8px;border-radius:2px;">📌 Fijo</span>
       </div>
       <span class="eyebrow" style="margin-top:14px;display:block;">Competición · Grupo IV 26/27</span>
       <h4>Mapa interactivo de rivales — distancias desde Chapín</h4>
-      <p style="font-size:13px;color:var(--tinta-suave);margin-top:6px;">17 rivales geolocalizados con los kilómetros desde el Estadio Municipal de Chapín.</p>
+      <p style="font-size:13px;color:var(--tinta-suave);margin-top:6px;">17 rivales geolocalizados con los kilómetros desde el Estadio Municipal de Chapín. <span style="color:var(--oro);font-weight:600;">Ver mapa →</span></p>
     </article>`;
     document.getElementById('noticiasGrid').innerHTML = cardFija + ids.map(tarjetaHTML).join('');
   }
