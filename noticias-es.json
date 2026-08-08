@@ -571,7 +571,10 @@
   },
   "art43": {
     "fecha": "2026-08-04",
-    "categoria": ["cronica", "noticia"],
+    "categoria": [
+      "cronica",
+      "noticia"
+    ],
     "eyebrow": "Crónica · Pretemporada",
     "title": "El Xerez CD encadena su segundo triunfo veraniego ante el filial del Ceuta",
     "lead": "El conjunto de Xavi Molist se impuso 2-0 al Ceuta B en La Barca de La Florida y se llevó el Trofeo Andrés Chacón Oñate, con goles de Jaime López y Mario Peregrina en la segunda mitad.",
@@ -593,6 +596,29 @@
       "<strong>Goles: 1-0 (min. 70) Jaime López. 2-0 (min. 89) Mario Peregrina.</strong>",
       "<strong>Árbitro: Antonio Ruiz España, que amonestó a José Miguel y a Guille Campos.</strong>",
       "<strong>Incidencias: XVII edición del Trofeo Andrés Chacón Oñate, disputado en el campo homónimo entre Xerez CD y Ceuta B, con temperaturas muy elevadas y notable presencia de aficionados xerecistas en el segundo compromiso veraniego de los de Xavi Molist.</strong>"
+    ]
+  },
+  "art44": {
+    "fecha": "2026-08-08",
+    "categoria": "noticia",
+    "eyebrow": "Análisis · Pretemporada",
+    "title": "Análisis: el Xerez CD firma un pletórico arranque de pretemporada con pleno de victorias y portería a cero",
+    "lead": "El Xerez CD ha cerrado su primera semana de pretemporada con un balance inmejorable: tres partidos, tres victorias, diez goles a favor y ninguno en contra. Un estreno veraniego que deja sensaciones muy positivas de cara al trabajo que está desarrollando Xavi Molist con la plantilla azulina.",
+    "body": [
+      "<strong>Un resumen de números redondos</strong>",
+      "Jerez Industrial 0 - 7 Xerez CD (Trofeo Pedro Garrido)<br>Xerez CD 2 - 0 Ceuta B (Trofeo Andrés Chacón Oñate)<br>Chiclana CF 0 - 1 Xerez CD, con gol del debutante Saúl",
+      "Tres encuentros, tres triunfos y una portería que no ha encajado ni un solo tanto pese a que Molist ha ido rotando prácticamente la totalidad de la plantilla en cada cita, probando sistemas distintos (3-5-2, 4-2-3-1) y dando minutos tanto a jugadores contrastados como a canteranos y futbolistas a prueba.",
+      "<strong>Lo que dice el ataque</strong>",
+      "Los diez goles anotados reparten protagonismo entre nombres muy diferentes: Rober Sánchez, Mario Peregrina (con doblete en el primer partido), Isuskiza, Óscar Lorenzo, Rubén Mesa, Óscar Ganfornina, Jaime López y ahora Saúl, que además ha estrenado su casillero goleador en su primera aparición con el equipo. Esa variedad de anotadores es un dato relevante: no depende de un solo referente arriba, sino que el gol está llegando desde varias posiciones y con jugadores distintos en cada partido, algo que da margen a Molist para seguir experimentando sin perder pegada.",
+      "<strong>Lo que dice la defensa</strong>",
+      "Si el capítulo ofensivo invita al optimismo, el defensivo lo hace todavía más. Encadenar tres partidos sin encajar, con bloques y sistemas diferentes sobre el terreno de juego y con rotaciones masivas —hasta diez cambios de golpe en el descanso ante el Ceuta B—, es un indicador sólido de que el equipo está entendiendo bien las indicaciones tácticas del técnico independientemente de quién ocupe cada demarcación.",
+      "<strong>Contexto que conviene matizar</strong>",
+      "Conviene recordar que se trata de pretemporada, con rivales que en algunos casos (como el propio Ceuta B o el Jerez Industrial) acusaban carga física de sus primeras semanas de trabajo, y con partidos donde el resultado no siempre refleja con fidelidad lo que será la competición oficial. Aun así, hay lecturas que trascienden el marcador:",
+      "Profundidad de plantilla: Molist ha podido usar prácticamente a dos equipos completos sin que caiga el rendimiento.<br>Buen rendimiento de los sub-23: nombres propios como Rober Sánchez, Mario Peregrina, Óscar Ganfornina o ahora Saúl están respondiendo con goles nada más tener minutos.<br>Solidez defensiva transversal: el cero en la portería no ha dependido de un once fijo, lo que sugiere una idea de equipo bien interiorizada.",
+      "<strong>Valoración final</strong>",
+      "Con diez goles a favor, cero en contra y pleno de victorias, el Xerez CD envía un mensaje de solidez colectiva en el arranque de su preparación estival. El reto ahora será mantener estos registros cuando lleguen rivales de mayor entidad y el nivel de exigencia física y táctica de la pretemporada siga creciendo, pero el primer boletín de notas de Xavi Molist es, sin duda, sobresaliente.",
+      "<strong>Apunte curioso: otra goleada en tierras andaluzas</strong>",
+      "Mientras el Xerez CD sumaba su pleno de victorias, la actualidad de las pretemporadas en Andalucía dejaba otro resultado llamativo: en el triangular disputado en San Roque de Lepe, el Betis Deportivo endosó un contundente 0-3 al Recreativo de Huelva… en solo 45 minutos de partido. Una muestra de que el filial verdiblanco también está llegando con el trabajo físico bien hecho a este arranque de curso, y un dato que sirve como termómetro comparativo de cómo se están viendo los primeros amistosos veraniegos en la región, con marcadores abultados siendo, de momento, la tónica habitual en varios campos."
     ]
   }
 }
