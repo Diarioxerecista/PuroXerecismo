@@ -644,6 +644,15 @@
   }
   .scoreline .team-name{font-size:14px;text-transform:uppercase;letter-spacing:0.05em;opacity:0.85;}
   .scoreline .score-big{font-size:36px;font-weight:700;color:var(--oro);}
+  .hero-main .scoreline{
+    display:flex;align-items:center;gap:14px;
+    background:var(--azul-profundo);color:#fff;
+    padding:10px 16px;border-radius:3px;
+    font-family:'Space Mono',monospace;
+    margin:2px 0 14px;width:fit-content;
+  }
+  .hero-main .scoreline .team-name{font-size:12px;text-transform:uppercase;letter-spacing:0.04em;opacity:0.85;}
+  .hero-main .scoreline .score-big{font-size:20px;font-weight:700;color:var(--oro);}
   .article-detail .lead{
     font-size:18px;line-height:1.7;
     color:var(--tinta);
@@ -2024,6 +2033,7 @@
         ${(principal.foto && principal.creditoFoto) ? `<span style="display:block;text-align:right;font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);opacity:0.8;margin-top:4px;">${principal.creditoFoto}</span>` : ''}
         <span class="eyebrow">${principal.eyebrow}</span>
         ${principal.foto ? `<h3>${principal.title}</h3>` : ''}
+        ${principal.score ? `<div class="scoreline"><span class="team-name">${principal.scoreHome}</span><span class="score-big">${principal.score}</span><span class="team-name">${principal.scoreAway}</span></div>` : ''}
         <p>${principal.lead}</p>
         <span class="byline">${principal.autor || t('redaccion')} — ${formatearFecha(principal.fecha)}</span>
       </article>
