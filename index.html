@@ -674,9 +674,13 @@
     .matchcard-info{flex-direction:column;}
     .matchcard-info-item{border-right:none;border-bottom:1px solid rgba(255,255,255,0.12);}
     .matchcard-info-item:last-child{border-bottom:none;}
-    .matchcard-team-name{font-size:17px;}
-    .matchcard-team img{width:28px;height:28px;}
-    .matchcard-num{font-size:22px;padding:5px 12px;}
+    .matchcard-score{grid-template-columns:1fr;justify-items:center;gap:10px;padding:16px 16px 6px;}
+    .matchcard-team.home,.matchcard-team.away{justify-content:center;}
+    .matchcard-team-name{font-size:19px;}
+    .matchcard-team img{width:30px;height:30px;}
+    .matchcard-num{font-size:24px;padding:6px 14px;}
+    .matchcard-goals{grid-template-columns:1fr;text-align:center;gap:4px;padding:6px 16px 18px;}
+    .matchcard-goals-col.home,.matchcard-goals-col.away{text-align:center;}
   }
   .article-detail .lead{
     font-size:18px;line-height:1.7;
