@@ -634,7 +634,7 @@
     color:var(--azul-profundo);
   }
   .article-detail .scoreline{
-    display:flex;align-items:center;justify-content:center;gap:24px;
+    display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px;
     background:var(--azul-profundo);
     color:#fff;
     padding:24px;
@@ -644,8 +644,9 @@
   }
   .scoreline .team-name{font-size:14px;text-transform:uppercase;letter-spacing:0.05em;opacity:0.85;}
   .scoreline .score-big{font-size:36px;font-weight:700;color:var(--oro);}
+  .scoreline-goles{width:100%;text-align:center;font-size:12px;font-family:'Space Mono',monospace;color:rgba(255,255,255,0.7);letter-spacing:0.02em;margin-top:2px;}
   .hero-main .scoreline{
-    display:flex;align-items:center;gap:14px;
+    display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:14px;
     background:var(--azul-profundo);color:#fff;
     padding:10px 16px;border-radius:3px;
     font-family:'Space Mono',monospace;
@@ -653,6 +654,7 @@
   }
   .hero-main .scoreline .team-name{font-size:12px;text-transform:uppercase;letter-spacing:0.04em;opacity:0.85;}
   .hero-main .scoreline .score-big{font-size:20px;font-weight:700;color:var(--oro);}
+  .hero-main .scoreline-goles{font-size:10px;}
   .article-detail .lead{
     font-size:18px;line-height:1.7;
     color:var(--tinta);
@@ -2033,20 +2035,20 @@
         ${(principal.foto && principal.creditoFoto) ? `<span style="display:block;text-align:right;font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);opacity:0.8;margin-top:4px;">${principal.creditoFoto}</span>` : ''}
         <span class="eyebrow">${principal.eyebrow}</span>
         ${principal.foto ? `<h3>${principal.title}</h3>` : ''}
-        ${principal.score ? `<div class="scoreline"><span class="team-name">${principal.scoreHome}</span><span class="score-big">${principal.score}</span><span class="team-name">${principal.scoreAway}</span></div>` : ''}
+        ${principal.score ? `<div class="scoreline"><span class="team-name">${principal.scoreHome}</span><span class="score-big">${principal.score}</span><span class="team-name">${principal.scoreAway}</span>${principal.goleadores ? `<div class="scoreline-goles">${principal.goleadores}</div>` : ''}</div>` : ''}
         <p>${principal.lead}</p>
         <span class="byline">${principal.autor || t('redaccion')} — ${formatearFecha(principal.fecha)}</span>
       </article>
       <div class="side-list">
         ${sideItems}
-        <a class="ad-banner-side" href="tel:608394823" style="padding:14px;text-decoration:none;">
-          <img src="fotos/publicidad/lugo-distribuciones-carnicas.png" alt="Distribuciones Cárnicas Garrido Lugo" style="width:100%;height:100%;object-fit:contain;">
+        <a class="ad-banner-side" href="tel:608394823" style="padding:20px;text-decoration:none;background:#fff;">
+          <img src="fotos/publicidad/lugo-distribuciones-carnicas-trim.png" alt="Distribuciones Cárnicas Garrido Lugo" style="width:100%;height:100%;object-fit:contain;">
         </a>
       </div>
     `;
     document.getElementById('heroGrid').innerHTML = heroHtml;
 
-    const loUltimoIds = resto.slice(4, 13);
+    const loUltimoIds = resto.slice(4, 16);
     const cardFijaPortada = `<article class="card" onclick="openMapaRivales()" style="cursor:pointer;">
       <div class="img-box" style="background:var(--azul-profundo) url('fotos/publicadas/mapa-andalucia-rivales.png') center/cover;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
         <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,44,84,0.1),rgba(13,44,84,0.55));"></div>
@@ -2331,6 +2333,7 @@
           <span class="team-name">${a.scoreHome}</span>
           <span class="score-big">${a.score}</span>
           <span class="team-name">${a.scoreAway}</span>
+          ${a.goleadores ? `<div class="scoreline-goles">${a.goleadores}</div>` : ''}
         </div>`;
     }
 
