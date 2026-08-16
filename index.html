@@ -647,18 +647,7 @@
   .scoreline .team-name{font-size:14px;text-transform:uppercase;letter-spacing:0.05em;opacity:0.85;}
   .scoreline .score-big{font-size:36px;font-weight:700;color:var(--oro);}
   .scoreline-goles{font-size:11px;font-family:'Space Mono',monospace;color:rgba(255,255,255,0.65);letter-spacing:0.02em;line-height:1.5;}
-  .hero-main .scoreline{
-    display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:14px;
-    background:var(--azul-profundo);color:#fff;
-    padding:12px 18px;border-radius:3px;
-    font-family:'Space Mono',monospace;
-    margin:2px 0 14px;width:fit-content;
-    text-align:center;
-  }
-  .hero-main .scoreline .team-col{gap:5px;}
-  .hero-main .scoreline .team-name{font-size:12px;text-transform:uppercase;letter-spacing:0.04em;opacity:0.85;}
-  .hero-main .scoreline .score-big{font-size:20px;font-weight:700;color:var(--oro);}
-  .hero-main .scoreline-goles{font-size:9px;}
+  .hero-main .matchcard{margin:2px 0 14px;}
 
   .matchcard{background:var(--azul-profundo);border-radius:4px;overflow:hidden;position:relative;margin:24px 0;}
   .matchcard::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(201,162,75,0.05) 0px,rgba(201,162,75,0.05) 1px,transparent 1px,transparent 18px);pointer-events:none;}
@@ -1638,6 +1627,7 @@
     'C.D. Tenerife "B"':        'fotos/escudos/tenerife-b.png',
     'Salerm Puente Genil':      'fotos/escudos/puente-genil.png',
     'Betis Deportivo':          'fotos/escudos/betis-deportivo.png',
+    'Real Betis C':             'fotos/escudos/betis-deportivo.png',
     'Ciudad de Lucena':         'fotos/escudos/ciudad-lucena.png',
     'Marbella F.C.':            'fotos/escudos/marbella.png',
     'U.D. Tamaraceite':         'fotos/escudos/tamaraceite.png',
@@ -1666,11 +1656,11 @@
     {fecha:'2026-08-04',jornada:'Amistoso',             local:'Xerez CD',                  visitante:'Ceuta B',                       resultado:'2-0', tipo:'amistoso'},
     {fecha:'2026-08-07',jornada:'Amistoso',             local:'Chiclana C.F.',              visitante:'Xerez CD',                      resultado:'0-1', tipo:'amistoso'},
     {fecha:'2026-08-14',jornada:'Amistoso',             local:'Racing Portuense',           visitante:'Xerez CD',                      resultado:'0-0', tipo:'amistoso'},
-    {fecha:'2026-08-15',jornada:'Amistoso',             local:'Betis Deportivo',           visitante:'Xerez CD',                      resultado:'1-1', tipo:'amistoso', sede:'Antonio Gallardo (Arcos)'},
+    {fecha:'2026-08-15',jornada:'Amistoso',             local:'Real Betis C',              visitante:'Xerez CD',                      resultado:'1-1', tipo:'amistoso', sede:'Antonio Gallardo (Arcos)'},
     {fecha:'2026-08-19',jornada:'Trofeo Vendimia',      local:'Xerez CD',                  visitante:'Real Ja\u00e9n',                resultado:null, tipo:'amistoso', sede:'Chap\u00edn'},
     {fecha:'2026-08-22',jornada:'Trofeo Rafa Verd\u00fa',local:'Xerez CD',                 visitante:'Juventud Torremolinos',         resultado:null, tipo:'amistoso', sede:'Chap\u00edn'},
     {fecha:'2026-08-25',jornada:'Amistoso',             local:'U.D. Rote\u00f1a',          visitante:'Xerez CD',                      resultado:null, tipo:'amistoso'},
-    {fecha:'2026-08-29',jornada:'Trofeo Andr\u00e9s Chac\u00f3n',local:'Xerez CD',        visitante:'Por confirmar',                 resultado:null, tipo:'amistoso', sede:'La Barca de la Florida'},
+    {fecha:'2026-08-29',jornada:'Trofeo Andr\u00e9s Chac\u00f3n',local:'Atl\u00e9tico Sanluque\u00f1o', visitante:'Xerez CD',                 resultado:null, tipo:'amistoso', sede:'El Palmar'},
     // ── Liga 2\u00aa Federaci\u00f3n ────────────────────────────────────────────────
     {fecha:'2026-09-06',jornada:'J1', local:'C.D. Estepona',            visitante:'Xerez CD',                resultado:null},
     {fecha:'2026-09-13',jornada:'J2', local:'Xerez CD',                 visitante:'C.D. Badajoz',            resultado:null},
@@ -2069,11 +2059,27 @@
         ${(principal.foto && principal.creditoFoto) ? `<span style="display:block;text-align:right;font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);opacity:0.8;margin-top:4px;">${principal.creditoFoto}</span>` : ''}
         <span class="eyebrow">${principal.eyebrow}</span>
         ${principal.foto ? `<h3>${principal.title}</h3>` : ''}
-        ${principal.score ? `<div class="scoreline">
-          <div class="team-col"><span class="team-name">${principal.scoreHome}</span>${principal.goleadoresHome ? `<div class="scoreline-goles">${principal.goleadoresHome}</div>` : ''}</div>
-          <span class="score-big">${principal.score}</span>
-          <div class="team-col"><span class="team-name">${principal.scoreAway}</span>${principal.goleadoresAway ? `<div class="scoreline-goles">${principal.goleadoresAway}</div>` : ''}</div>
-        </div>` : ''}
+        ${principal.score ? (function(){
+          var escHome = ESCUDOS[principal.scoreHome] ? '<img src="'+ESCUDOS[principal.scoreHome]+'" alt="">' : '';
+          var escAway = ESCUDOS[principal.scoreAway] ? '<img src="'+ESCUDOS[principal.scoreAway]+'" alt="">' : '';
+          var sp = principal.score.split('-');
+          var info = '';
+          if(principal.jornadaLabel) info += '<div class="matchcard-info-item"><span class="matchcard-info-label">'+t('jornada')+'</span><span class="matchcard-info-value">'+principal.jornadaLabel+'</span></div>';
+          if(principal.estadio) info += '<div class="matchcard-info-item"><span class="matchcard-info-label">'+t('estadio')+'</span><span class="matchcard-info-value">'+principal.estadio+'</span></div>';
+          return '<div class="matchcard">'
+            +(info ? '<div class="matchcard-info">'+info+'</div>' : '')
+            +'<div class="matchcard-status"><span>'+t('finalizado')+'</span></div>'
+            +'<div class="matchcard-score">'
+              +'<div class="matchcard-team home">'+escHome+'<span class="matchcard-team-name">'+principal.scoreHome+'</span></div>'
+              +'<div class="matchcard-numbers"><span class="matchcard-num">'+(sp[0]||'')+'</span><span class="matchcard-num">'+(sp[1]||'')+'</span></div>'
+              +'<div class="matchcard-team away"><span class="matchcard-team-name">'+principal.scoreAway+'</span>'+escAway+'</div>'
+            +'</div>'
+            +'<div class="matchcard-goals">'
+              +'<div class="matchcard-goals-col home">'+(principal.goleadoresHome||'')+'</div><div></div>'
+              +'<div class="matchcard-goals-col away">'+(principal.goleadoresAway||'')+'</div>'
+            +'</div>'
+          +'</div>';
+        })() : ''}
         <p>${principal.lead}</p>
         <span class="byline">${principal.autor || t('redaccion')} — ${formatearFecha(principal.fecha)}</span>
       </article>
