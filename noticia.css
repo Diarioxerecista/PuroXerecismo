@@ -53,12 +53,44 @@ h1{
   font-size:11px;color:#fff;background:rgba(13,44,84,0.72);padding:3px 8px;border-radius:2px;
 }
 .scoreline{
-  display:flex;align-items:center;justify-content:center;gap:24px;
+  display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px;
   background:var(--azul-profundo);color:#fff;padding:24px;margin:24px 0;
-  border-radius:3px;font-family:'Space Mono',monospace;
+  border-radius:3px;font-family:'Space Mono',monospace;text-align:center;
 }
+.scoreline .team-col{display:flex;flex-direction:column;align-items:center;gap:8px;}
 .scoreline .team-name{font-size:14px;text-transform:uppercase;letter-spacing:0.05em;opacity:0.85;}
 .scoreline .score-big{font-size:36px;font-weight:700;color:var(--oro);}
+.scoreline-goles{font-size:11px;font-family:'Space Mono',monospace;color:rgba(255,255,255,0.65);letter-spacing:0.02em;line-height:1.5;}
+
+.matchcard{background:var(--azul-profundo);border-radius:4px;overflow:hidden;position:relative;margin:24px 0;}
+.matchcard::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(201,162,75,0.05) 0px,rgba(201,162,75,0.05) 1px,transparent 1px,transparent 18px);pointer-events:none;}
+.matchcard-info{display:flex;position:relative;color:#fff;font-family:'Space Mono',monospace;border-bottom:1px solid rgba(255,255,255,0.12);}
+.matchcard-info-item{flex:1;text-align:center;padding:14px 12px;border-right:1px solid rgba(255,255,255,0.15);}
+.matchcard-info-item:last-child{border-right:none;}
+.matchcard-info-label{display:block;font-size:9px;text-transform:uppercase;letter-spacing:0.1em;color:var(--oro);margin-bottom:4px;}
+.matchcard-info-value{font-size:12px;color:#fff;opacity:0.92;}
+.matchcard-status{text-align:center;position:relative;padding:12px 0 2px;}
+.matchcard-status span{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:0.14em;color:var(--oro);border:1px solid var(--oro);padding:4px 12px;border-radius:2px;text-transform:uppercase;}
+.matchcard-score{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;position:relative;padding:18px 28px 8px;}
+.matchcard-team{display:flex;align-items:center;gap:12px;min-width:0;}
+.matchcard-team.home{justify-content:flex-end;}
+.matchcard-team.away{justify-content:flex-start;}
+.matchcard-team img{width:38px;height:38px;object-fit:contain;flex-shrink:0;}
+.matchcard-team-name{font-family:'Fraunces',serif;font-weight:900;font-size:22px;color:#fff;line-height:1.1;}
+.matchcard-numbers{display:flex;gap:4px;}
+.matchcard-num{background:var(--papel);color:var(--azul-profundo);font-family:'Space Mono',monospace;font-weight:700;font-size:28px;padding:6px 16px;border-radius:3px;min-width:44px;text-align:center;}
+.matchcard-goals{display:grid;grid-template-columns:1fr auto 1fr;gap:16px;position:relative;padding:6px 28px 20px;}
+.matchcard-goals-col{font-family:'Space Mono',monospace;font-size:11px;color:var(--oro);line-height:1.8;}
+.matchcard-goals-col.home{text-align:right;}
+.matchcard-goals-col.away{text-align:left;}
+@media (max-width:680px){
+  .matchcard-info{flex-direction:column;}
+  .matchcard-info-item{border-right:none;border-bottom:1px solid rgba(255,255,255,0.12);}
+  .matchcard-info-item:last-child{border-bottom:none;}
+  .matchcard-team-name{font-size:17px;}
+  .matchcard-team img{width:28px;height:28px;}
+  .matchcard-num{font-size:22px;padding:5px 12px;}
+}
 .lead{font-size:18px;line-height:1.7;color:var(--tinta);font-weight:600;margin-bottom:18px;}
 .n-article p{font-size:16px;line-height:1.8;color:var(--tinta);margin-bottom:16px;}
 .pullquote{

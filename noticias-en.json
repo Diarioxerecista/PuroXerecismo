@@ -209,7 +209,6 @@
     "score": "0-0",
     "scoreHome": "Xerez CD",
     "scoreAway": "Racing Portuense",
-    "goleadores": "",
     "body": [
       "Xerez CD suffered their first setback of the summer last night, though with caveats. At the José del Cuvillo, Xavi Molist's side could not get past a goalless draw against a Racing Club Portuense side that arrives this season as one of the candidates to fight for the Segunda RFEF promotion play-offs on their return to that category. A well-organised, capable rival with good football, who managed to keep a Xerez side still finding its shape in check.",
       "Until now, the blue-and-white pre-season had been nothing but good news. The Xerecistas had won all three of their previous summer fixtures: thrashing Jerez Industrial, a Primera Andaluza side, in the Trofeo Pedro Garrido; beating Ceuta B, of Tercera Federación, comfortably by two goals to nil; and edging past another Group X side, Chiclana, by the minimum. Against the Portuense side in red and white, however, the goal proved elusive for the first time this summer.",
@@ -220,7 +219,12 @@
       "After the break, the Catalan coach brought on a block packed with academy players mixed with first-team names: Marcos Alconchel, Gabri, David Lachica, Chacartegui, Manu Galán, Fali, Isma, Zequi, Jaime López, Jaime Fernández, Óscar Ganfornina, Dani Sánchez, Samu Rubiales and Sebas Rubiales all took their turn on the pitch in the second half, without the pattern of the match changing substantially.",
       "<strong>A positive takeaway despite the draw</strong>",
       "Beyond the result, the reading to take from the match against Racing Portuense is of a Xerez CD still putting the pieces together, with Molist rotating and testing formulas before competition starts to bite for real. This first blank of the pre-season also comes against a rival of real quality, which puts any negative reading of the scoreline into perspective. The blue-and-white side continue their preparations over the coming days, eyes already on the league opener at Estepona on 6 September."
-    ]
+    ],
+    "goleadoresHome": "",
+    "goleadoresAway": "",
+    "arbitro": "",
+    "estadio": "José del Cuvillo",
+    "jornadaLabel": "Friendly · Pre-season"
   },
   "art48": {
     "fecha": "2026-08-16",
@@ -234,7 +238,6 @@
     "score": "1-1",
     "scoreHome": "Betis Deportivo",
     "scoreAway": "Xerez CD",
-    "goleadores": "Jaime López 26' · Juan 32'",
     "body": [
       "Xerez CD could not break their run of draws. After Friday's 0-0 against Racing Portuense, Xavi Molist's side shared the spoils yesterday, 1-1, against Betis Deportivo at the Antonio Gallardo stadium in Arcos, in a match in which the blue-and-whites, with fatigue in their legs from the packed schedule, did not look superior to a lower-category rival that nonetheless plays with real fluency after being crowned División de Honor champions and earning promotion to Tercera RFEF with a squad full of technically gifted players. The Xerez side never quite got going, either in the first half, where Jaime Fernández's forays down the right were the main attacking threat, or in the second, after the usual carousel of substitutions, with Molist still to settle on what looks like his first-choice line-up for the league opener.",
       "The Betis affiliate side, coached by former Xerez man Capi, almost took the lead straight from kick-off. After two minutes, a quick transition caught the Xerez back line out of position and the ball reached Kike, whose shot clipped the post; only a good reaction save from Marcos Alconchel prevented the first goal conceded all pre-season. Xerez responded immediately with a good pass from Jaime López to Jaime Fernández, who raced down the wing and, with space to work with, looked for Rubén Mesa with a cross that fell just short. On eleven minutes the green-and-white affiliate side threatened again: a cross from Zequi to the far post, a knockdown from Chacartegui and an overhead effort from Rubén Mesa that flew over the bar.",
@@ -252,6 +255,11 @@
       "<strong>Goals: 1-0 (26') Jaime López. 1-1 (32') Juan.</strong>",
       "<strong>Referee: Ignacio de Santisteban Adame, assisted by Raúl Romero and Javi Romero, of the Seville committee. Sent off Guille Campos with a straight red card in the final play. Booked Farah and Ganfornina.</strong>",
       "<strong>Notes: pre-season friendly played at the Antonio Gallardo stadium in Arcos, with the pitch in perfect condition.</strong>"
-    ]
+    ],
+    "goleadoresHome": "Juan 32'",
+    "goleadoresAway": "Jaime López 26'",
+    "arbitro": "Ignacio de Santisteban Adame",
+    "estadio": "Antonio Gallardo (Arcos)",
+    "jornadaLabel": "Friendly · Pre-season"
   }
 }

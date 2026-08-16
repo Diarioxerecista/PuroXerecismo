@@ -378,7 +378,6 @@
     "score": "0-0",
     "scoreHome": "Xerez CD",
     "scoreAway": "Racing Portuense",
-    "goleadores": "",
     "body": [
       "El Xerez CD conoció anoche su primer tropiezo del verano, aunque con matices. En el Josè del Cuvillo, el conjunto de Xavi Molist no pasó del empate a cero ante un Racing Club Portuense que se presenta esta temporada como uno de los aspirantes a pelear por el play-off de ascenso a Segunda RFEF en su regreso a la categoría de bronce del fútbol nacional. Un rival de entidad, ordenado y con buen fútbol, que supo maniatar a un Xerez todavía en fase de construcción.",
       "Hasta ahora, la pretemporada azulina había sido un no parar de buenas noticias. Los xerecistas habían firmado pleno de victorias en sus tres primeros compromisos estivales: golearon al Jerez Industrial, un Primera Andaluza, en el Trofeo Pedro Garrido; superaron con solvencia al Ceuta B, de Tercera Federación, por dos goles a cero; y doblegaron también a otro representante del Grupo X, el Chiclana, por la mínima. Ante los rojiblancos portuenses, sin embargo, el gol se resistió por primera vez este verano.",
@@ -389,7 +388,12 @@
       "Tras el paso por vestuarios, el técnico catalán dio entrada a un bloque plagado de canteranos que se mezcló con nombres del primer equipo: Marcos Alconchel, Gabri, David Lachica, Chacartegui, Manu Galán, Fali, Isma, Zequi, Jaime López, Jaime Fernández, Óscar Ganfornina, Dani Sánchez, Samu Rubiales y Sebas Rubiales fueron desfilando por el césped en la segunda mitad, sin que el guion del partido cambiara sustancialmente.",
       "<strong>Balance positivo pese al empate</strong>",
       "Más allá del resultado, la lectura que deja el choque ante el Racing Portuense es la de un Xerez CD que sigue engarzando piezas, con Molist rotando y probando fórmulas antes de que la competición empiece a apretar de verdad. El primer cero de la pretemporada llega, además, ante un rival de garantías, lo que relativiza cualquier lectura negativa del marcador. El equipo azulino seguirá su preparación en los próximos días, con la mirada puesta ya en el estreno liguero del 6 de septiembre en campo del Estepona."
-    ]
+    ],
+    "goleadoresHome": "",
+    "goleadoresAway": "",
+    "arbitro": "",
+    "estadio": "José del Cuvillo",
+    "jornadaLabel": "Amistoso · Pretemporada"
   },
   "art48": {
     "fecha": "2026-08-16",
@@ -403,7 +407,6 @@
     "score": "1-1",
     "scoreHome": "Betis Deportivo",
     "scoreAway": "Xerez CD",
-    "goleadores": "Jaime López 26' · Juan 32'",
     "body": [
       "El Xerez CD no logró bajarse del empate. Tras el 0-0 del viernes ante el Racing Portuense, el conjunto de Xavi Molist firmó ayer las tablas a un gol frente al Betis Deportivo en el Antonio Gallardo de Arcos, en un partido en el que los azulinos, con carga física acumulada en las piernas, no se mostraron superiores a un rival de categoría inferior que, sin embargo, juega de memoria tras proclamarse campeón de División de Honor y ascender a Tercera RFEF con una plantilla plagada de futbolistas de gran nivel técnico. El equipo xerecista no terminó de carburar ni en la primera parte, con las incursiones de Jaime Fernández por banda derecha como principal argumento ofensivo, ni en la segunda, tras el habitual carrusel de cambios, con Molist todavía sin mostrar el once que se presume titular de cara al inicio liguero.",
       "El filial bético, dirigido por el exazulino Capi desde el banquillo, pudo adelantarse nada más arrancar el choque. A los dos minutos, una rápida transición encontró descolocada a la zaga xerecista y el balón le llegó a Kike, que ajustó su disparo al palo derecho; solo la buena reacción de Marcos Alconchel, que sacó una mano salvadora, evitó el primer gol en contra de toda la pretemporada. El Xerez respondió de inmediato con un buen pase de Jaime López para Jaime Fernández, que se montó en la moto por la banda y, con metro de ventaja, buscó a Rubén Mesa con un centro que se quedó corto. A los once minutos fue el filial verdiblanco quien avisó de nuevo: centro de Zequi al segundo palo, prolongación de Chacartegui y remate de media chilena de Rubén Mesa que se marchó por encima del larguero.",
@@ -421,6 +424,11 @@
       "<strong>Goles: 1-0 (26') Jaime López. 1-1 (32') Juan.</strong>",
       "<strong>Árbitro: Ignacio de Santisteban Adame, asistido por Raúl Romero y Javi Romero, del Comité de Sevilla. Expulsó en la última jugada del partido a Guille Campos, con roja directa. Amonestó con amarilla a Farah y a Ganfornina.</strong>",
       "<strong>Incidencias: partido de pretemporada disputado en el estadio Antonio Gallardo de Arcos, con el césped en perfectas condiciones.</strong>"
-    ]
+    ],
+    "goleadoresHome": "Juan 32'",
+    "goleadoresAway": "Jaime López 26'",
+    "arbitro": "Ignacio de Santisteban Adame",
+    "estadio": "Antonio Gallardo (Arcos)",
+    "jornadaLabel": "Amistoso · Pretemporada"
   }
 }
