@@ -221,4 +221,22 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/jerez-necesita-cesped-en-condiciones-antes-de-que-sea-demasiado-tarde/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/jerez-necesita-cesped-en-condiciones-antes-de-que-sea-demasiado-tarde/"/>
   </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-jaen-se-lleva-la-vendimia-y-deja-al-xerez-cd-con-los-pies-en-la-tierra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-08-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-jaen-se-lleva-la-vendimia-y-deja-al-xerez-cd-con-los-pies-en-la-tierra/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/cronicas/2026-08/jaen-win-the-vendimia-and-leave-xerez-cd-with-their-feet-on-the-ground/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-jaen-se-lleva-la-vendimia-y-deja-al-xerez-cd-con-los-pies-en-la-tierra/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/cronicas/2026-08/jaen-win-the-vendimia-and-leave-xerez-cd-with-their-feet-on-the-ground/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-08-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-jaen-se-lleva-la-vendimia-y-deja-al-xerez-cd-con-los-pies-en-la-tierra/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/cronicas/2026-08/jaen-win-the-vendimia-and-leave-xerez-cd-with-their-feet-on-the-ground/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-jaen-se-lleva-la-vendimia-y-deja-al-xerez-cd-con-los-pies-en-la-tierra/"/>
+  </url>
 </urlset>
