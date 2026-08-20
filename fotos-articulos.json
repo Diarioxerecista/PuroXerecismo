@@ -3,10 +3,6 @@
     "foto": "fotos/publicadas/Jaime-Fernandez-Xerez.jpg",
     "creditoFoto": "Foto: Xerez CD"
   },
-  "art26": {
-    "foto": "fotos/publicadas/Fali-Xerez.jpg",
-    "creditoFoto": "Foto: Xerez CD"
-  },
   "art27": {
     "foto": "fotos/publicadas/Noticia_DavidGarcia.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
@@ -86,5 +82,9 @@
   "art51": {
     "foto": "fotos/publicadas/xerez-jaen-vendimia-pitos.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
+  },
+  "art52": {
+    "foto": "fotos/publicadas/xerez-cd-tienda-oficial-apertura.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
   }
 }

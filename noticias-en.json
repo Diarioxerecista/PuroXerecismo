@@ -103,18 +103,6 @@
       "Before his spell in Villarreal's youth system, Fernández came through the Xerez DFC academy after spells at Atlético Sanluqueño and a season at Guadalcacín, going on to feature in a handful of first-team games in the 23/24 season."
     ]
   },
-  "art26": {
-    "fecha": "2026-07-01",
-    "categoria": "noticia",
-    "eyebrow": "Transfer market",
-    "title": "Xerez CD confirm the signing of Fali, the former Cádiz man who has been training at Chapín for months",
-    "lead": "Fali Giménez puts pen to paper with Xerez CD, becoming the club's fourth summer signing. The 32-year-old Valencia-born centre-back had been training with the squad since February following his departure from Cádiz CF.",
-    "body": [
-      "Xerez CD have confirmed the signing of Fali Giménez for the 2026/27 season. The Valencia-born centre-back, who had been training alongside the rest of the squad at Chapín for several months following his exit from Cádiz CF, is now officially a Xerez player.",
-      "Fali, 32, brings a wealth of professional experience. During his time at Cádiz he spent eight seasons at the club, four of them in La Liga. He came through the academies at Villarreal and Levante, and has also played for Nàstic de Tarragona and Barcelona B. His versatility is an added bonus: a specialist centre-back, he can also operate as a defensive midfielder.",
-      "His arrival, which had been widely expected despite his name being linked with CD Eldense in recent weeks, significantly strengthens the defensive unit of Xavi Molist's side. Xerez CD now have four summer signings to their name, following Manu Galán, Carlos Pantoja and Rubén Mesa."
-    ]
-  },
   "art35": {
     "fecha": "2026-07-17",
     "categoria": "noticia",
@@ -264,7 +252,10 @@
   },
   "art50": {
     "fecha": "2026-08-19",
-    "categoria": ["cronica", "noticia"],
+    "categoria": [
+      "cronica",
+      "noticia"
+    ],
     "eyebrow": "Match report · Pre-season",
     "title": "Jaén win the Vendimia and leave Xerez CD with their feet on the ground",
     "lead": "Chapín gave its squad a warm ovation before kick-off and turned on it with jeers during the first half, on an afternoon that confirms just how much work Molist still has ahead of him.",

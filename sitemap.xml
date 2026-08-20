@@ -34,14 +34,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-firma-al-extremo-sub-23-jaime-fernandez/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-hace-oficial-el-fichaje-de-fali-el-excadista-que-llevaba-meses-entrenando-en-chapin/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-07-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-hace-oficial-el-fichaje-de-fali-el-excadista-que-llevaba-meses-entrenando-en-chapin/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-hace-oficial-el-fichaje-de-fali-el-excadista-que-llevaba-meses-entrenando-en-chapin/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-refuerza-el-lateral-derecho-con-la-llegada-de-victor-lopez/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -246,5 +238,13 @@
     <lastmod>2026-08-20</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/los-pitos-que-no-tocan-pretemporada-no-es-tiempo-de-exigir-es-tiempo-de-construir/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/los-pitos-que-no-tocan-pretemporada-no-es-tiempo-de-exigir-es-tiempo-de-construir/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-inaugura-su-tienda-oficial-con-una-gran-respuesta-de-la-aficion/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-inaugura-su-tienda-oficial-con-una-gran-respuesta-de-la-aficion/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-inaugura-su-tienda-oficial-con-una-gran-respuesta-de-la-aficion/"/>
   </url>
 </urlset>
