@@ -1393,7 +1393,7 @@
 
     <div class="fixtures" id="calendarGrid">
       <div class="fixture-row header"><span>Fecha</span><span>Local</span><span>Resultado</span><span>Visitante</span><span>Competición</span></div>
-      <div class="fixture-row"><span class="date">6 sep</span><span class="team home">C.D. Estepona</span><span class="vs-score">vs</span><span class="team">Xerez CD</span><span class="comp">J1</span></div>
+      <div class="fixture-row"><span class="date">5 sep<br><span style="font-size:11px;color:var(--oro);">21:00</span></span><span class="team home">C.D. Estepona</span><span class="vs-score">vs</span><span class="team">Xerez CD</span><span class="comp">J1</span></div>
       <div class="fixture-row"><span class="date">13 sep</span><span class="team home">Xerez CD</span><span class="vs-score">vs</span><span class="team">C.D. Badajoz</span><span class="comp">J2</span></div>
       <div class="fixture-row"><span class="date">20 sep</span><span class="team home">Xerez CD</span><span class="vs-score">vs</span><span class="team">C.D. Don Benito</span><span class="comp">J3</span></div>
       <div class="fixture-row"><span class="date">27 sep</span><span class="team home">RC Recreativo de Huelva</span><span class="vs-score">vs</span><span class="team">Xerez CD</span><span class="comp">J4</span></div>
@@ -1668,7 +1668,7 @@
     {fecha:'2026-08-25',jornada:'Amistoso',             local:'U.D. Rote\u00f1a',          visitante:'Xerez CD',                      resultado:null, tipo:'amistoso'},
     {fecha:'2026-08-29',jornada:'Trofeo Andr\u00e9s Chac\u00f3n',local:'Atl\u00e9tico Sanluque\u00f1o', visitante:'Xerez CD',                 resultado:null, tipo:'amistoso', sede:'El Palmar'},
     // ── Liga 2\u00aa Federaci\u00f3n ────────────────────────────────────────────────
-    {fecha:'2026-09-06',jornada:'J1', local:'C.D. Estepona',            visitante:'Xerez CD',                resultado:null},
+    {fecha:'2026-09-05',jornada:'J1', local:'C.D. Estepona',            visitante:'Xerez CD',                hora:'21:00', resultado:null},
     {fecha:'2026-09-13',jornada:'J2', local:'Xerez CD',                 visitante:'C.D. Badajoz',            resultado:null},
     {fecha:'2026-09-20',jornada:'J3', local:'Xerez CD',                 visitante:'C.D. Don Benito',         resultado:null},
     {fecha:'2026-09-27',jornada:'J4', local:'RC Recreativo de Huelva',  visitante:'Xerez CD',                resultado:null},
@@ -1732,7 +1732,7 @@
           '<span class="proximo-equipo'+(visitanteXerez?' xerez':'')+'" style="display:inline-flex;align-items:center;gap:10px;">'+proximo.visitante+escudoWidget(proximo.visitante)+'</span>'+
         '</div>'+
         '<div style="display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;">'+
-          '<div class="proximo-widget-fecha">'+fechaFmt+'</div>'+
+          '<div class="proximo-widget-fecha">'+fechaFmt+(proximo.hora ? ' &middot; '+proximo.hora+'h' : '')+'</div>'+
           '<div class="proximo-widget-countdown" id="cuentaAtras"></div>'+
         '</div>'+
       '</div>';
@@ -1764,6 +1764,7 @@
         html += '<div class="fixture-mes-header">'+MESES[fecha.getMonth()]+' '+fecha.getFullYear()+'</div>';
       }
       var diaStr = fecha.toLocaleDateString(locale,{day:'numeric',month:'short'});
+      var horaHtml = (!p.resultado && p.hora) ? '<br><span style="font-size:11px;color:var(--oro);">'+p.hora+'</span>' : '';
       var rowClass = 'fixture-row';
       var scoreHtml;
       if(p.resultado){
@@ -1787,7 +1788,7 @@
       var escVisit = escudoImg(p.visitante);
       var localHtml = '<span class="team home" style="display:flex;align-items:center;justify-content:flex-end;gap:8px;">'+p.local+escLocal+'</span>';
       var visitHtml = '<span class="team" style="display:flex;align-items:center;gap:8px;">'+escVisit+p.visitante+'</span>';
-      html += '<div class="'+rowClass+'"><span class="date">'+diaStr+'</span>'+localHtml+scoreHtml+visitHtml+'<span class="comp">'+p.jornada+'</span></div>';
+      html += '<div class="'+rowClass+'"><span class="date">'+diaStr+horaHtml+'</span>'+localHtml+scoreHtml+visitHtml+'<span class="comp">'+p.jornada+'</span></div>';
     });
     el.innerHTML = html;
   }
@@ -1802,7 +1803,7 @@
 
   function renderFichajesStrip(data){
     const hoy = new Date();
-    const ligaInicio = new Date('2026-09-06T00:00:00');
+    const ligaInicio = new Date('2026-09-05T00:00:00');
     const el = document.getElementById('fichajesStrip');
     if(!el) return;
     if(hoy >= ligaInicio){ el.innerHTML=''; return; }
@@ -1911,7 +1912,7 @@
     const esHoy = fd.toDateString() === new Date().toDateString();
     const esMan = fd.toDateString() === new Date(Date.now()+86400000).toDateString();
     const cuando = esHoy ? (idiomaActual==='es'?'HOY':'TODAY') : esMan ? (idiomaActual==='es'?'MA\u00d1ANA':'TOMORROW') : dStr;
-    el.textContent = p.jornada+' \u00b7 '+p.local+' vs '+p.visitante+' \u2014 '+cuando;
+    el.textContent = p.jornada+' \u00b7 '+p.local+' vs '+p.visitante+' \u2014 '+cuando+(p.hora ? ' \u00b7 '+p.hora+'h' : '');
   }
 
   // Para activar un resultado en directo: crear live.json con

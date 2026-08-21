@@ -10,14 +10,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-mantiene-contactos-con-david-garcia-ex-del-cadiz-cedido-al-ibiza/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-07-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-mantiene-contactos-con-david-garcia-ex-del-cadiz-cedido-al-ibiza/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-mantiene-contactos-con-david-garcia-ex-del-cadiz-cedido-al-ibiza/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-07/moi-amplia-su-vinculacion-con-el-xerez-cd-para-la-temporada-202627/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -246,5 +238,13 @@
     <lastmod>2026-08-20</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-inaugura-su-tienda-oficial-con-una-gran-respuesta-de-la-aficion/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-inaugura-su-tienda-oficial-con-una-gran-respuesta-de-la-aficion/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-abrira-la-liga-el-sabado-5-de-septiembre-a-las-21-00-en-estepona/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-08-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-abrira-la-liga-el-sabado-5-de-septiembre-a-las-21-00-en-estepona/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-abrira-la-liga-el-sabado-5-de-septiembre-a-las-21-00-en-estepona/"/>
   </url>
 </urlset>

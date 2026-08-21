@@ -3,10 +3,6 @@
     "foto": "fotos/publicadas/Jaime-Fernandez-Xerez.jpg",
     "creditoFoto": "Foto: Xerez CD"
   },
-  "art27": {
-    "foto": "fotos/publicadas/Noticia_DavidGarcia.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
-  },
   "art28": {
     "foto": "fotos/publicadas/Noticia_moi.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
@@ -86,5 +82,9 @@
   "art52": {
     "foto": "fotos/publicadas/xerez-cd-tienda-oficial-apertura.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art53": {
+    "foto": "fotos/publicadas/xerez-cd-accion-partido-2026-27.jpg",
+    "creditoFoto": "Foto: PuroXerecismo"
   }
 }

@@ -28,7 +28,7 @@ jobs:
           # ── Calendario de partidos (fecha + hora orientativa) ──────────────
           # Actualiza las horas cuando la RFEF confirme los horarios oficiales.
           PARTIDOS = [
-            {"fecha":"2026-09-06","hora":"17:00","local":"C.D. Estepona","visitante":"Xerez CD"},
+            {"fecha":"2026-09-05","hora":"21:00","local":"C.D. Estepona","visitante":"Xerez CD"},
             {"fecha":"2026-09-13","hora":"17:00","local":"Xerez CD","visitante":"C.D. Badajoz"},
             {"fecha":"2026-09-20","hora":"17:00","local":"Xerez CD","visitante":"C.D. Don Benito"},
             {"fecha":"2026-09-27","hora":"17:00","local":"RC Recreativo de Huelva","visitante":"Xerez CD"},
