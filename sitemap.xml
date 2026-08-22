@@ -247,4 +247,12 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-abrira-la-liga-el-sabado-5-de-septiembre-a-las-21-00-en-estepona/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-abrira-la-liga-el-sabado-5-de-septiembre-a-las-21-00-en-estepona/"/>
   </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-xerez-gana-y-convence/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-08-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-xerez-gana-y-convence/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-xerez-gana-y-convence/"/>
+  </url>
 </urlset>
