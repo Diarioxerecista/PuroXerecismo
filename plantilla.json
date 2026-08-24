@@ -735,11 +735,12 @@
     "cromo": "fotos/cromos/Cromo03-guille.png"
   },
   {
-    "nombre": "Rafa",
+    "nombre": "Fali",
     "apellidos": "Jiménez",
     "nombreCompleto": "Rafael Jiménez Jarque",
+    "dorsal": 6,
     "posicion": "CENTRAL",
-    "posicionDetalle": "Defensa · Defensa central",
+    "posicionDetalle": "Defensa · Defensa central (sec. Mediocentro)",
     "fechaNacimiento": "12/08/1993",
     "edad": 33,
     "lugarNacimiento": "Valencia",
@@ -824,6 +825,6 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/escudos/escudo-xerez-cd-hd.png"
+    "cromo": "fotos/cromos/Cromo10-fali.png"
   }
 ]
