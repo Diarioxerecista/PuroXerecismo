@@ -1764,7 +1764,7 @@
         html += '<div class="fixture-mes-header">'+MESES[fecha.getMonth()]+' '+fecha.getFullYear()+'</div>';
       }
       var diaStr = fecha.toLocaleDateString(locale,{day:'numeric',month:'short'});
-      var horaHtml = (!p.resultado && p.hora) ? '<br><span style="font-size:11px;color:var(--oro);">'+p.hora+'</span>' : '';
+      var horaHtml = '';
       var rowClass = 'fixture-row';
       var scoreHtml;
       if(p.resultado){
@@ -1780,9 +1780,11 @@
         scoreHtml = '<span class="vs-score">'+p.resultado+'</span>';
       } else if(idx === proximoIdx){
         rowClass += ' proximo';
-        scoreHtml = '<span class="vs-score">&#9654; VS</span>';
+        scoreHtml = '<span class="vs-score">'+(p.hora ? p.hora : '&#9654; VS')+'</span>';
       } else {
-        scoreHtml = '<span class="vs-score" style="font-size:12px;color:var(--tinta-suave);">vs</span>';
+        scoreHtml = p.hora
+          ? '<span class="vs-score" style="font-size:12px;">'+p.hora+'</span>'
+          : '<span class="vs-score" style="font-size:12px;color:var(--tinta-suave);">vs</span>';
       }
       var escLocal = escudoImg(p.local);
       var escVisit = escudoImg(p.visitante);
