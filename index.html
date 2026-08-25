@@ -2416,7 +2416,7 @@
         </div>`;
     }
 
-    let bodyHtml = a.body.map(p=>`<p>${p}</p>`).join('');
+    let bodyHtml = a.body.map(p=> /^<(div|figure|img)/i.test(p.trim()) ? p : `<p>${p}</p>`).join('');
     let quoteHtml = a.quote ? `<div class="pullquote">${a.quote}</div>` : '';
     let fotoHtml = '';
     if(a.foto){
