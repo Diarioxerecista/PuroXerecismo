@@ -3,10 +3,6 @@
     "foto": "fotos/publicadas/Jaime-Fernandez-Xerez.jpg",
     "creditoFoto": "Foto: Xerez CD"
   },
-  "art28": {
-    "foto": "fotos/publicadas/Noticia_moi.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
-  },
   "art29": {
     "foto": "fotos/publicadas/Victor-Lopez-Xerez.jpg",
     "creditoFoto": "Foto: Linares"
@@ -94,5 +90,9 @@
   "art55": {
     "foto": "fotos/publicadas/xerez-rotena-fali-falta-gol.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
+  },
+  "art56": {
+    "foto": "fotos/publicadas/julio-martinez-xerez.png",
+    "creditoFoto": "Foto: Málaga CF"
   }
 }
