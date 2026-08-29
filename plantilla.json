@@ -733,5 +733,98 @@
       }
     ],
     "cromo": "fotos/cromos/Cromo03-guille.png"
+  },
+  {
+    "nombre": "Fali",
+    "apellidos": "Jiménez",
+    "nombreCompleto": "Rafael Jiménez Jarque",
+    "dorsal": 6,
+    "posicion": "CENTRAL",
+    "posicionDetalle": "Defensa · Defensa central (sec. Mediocentro)",
+    "fechaNacimiento": "12/08/1993",
+    "edad": 33,
+    "lugarNacimiento": "Valencia",
+    "nacionalidad": "España",
+    "altura": "1,86 m",
+    "pie": "Derecho",
+    "agente": "AS1",
+    "fichado": "01/07/2026",
+    "contrato": "30/06/2027",
+    "valorMercado": "300.000 €",
+    "historial": [
+      {
+        "temporada": "26/27",
+        "deClub": "Sin equipo",
+        "aClub": "Xerez CD",
+        "valor": "300k €"
+      },
+      {
+        "temporada": "25/26",
+        "deClub": "Cádiz CF",
+        "aClub": "Sin equipo",
+        "valor": "400k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Gimnàstic",
+        "aClub": "Cádiz CF",
+        "valor": "800k €"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "Cádiz CF",
+        "aClub": "Gimnàstic",
+        "valor": "Fin de cesión"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "Gimnàstic",
+        "aClub": "Cádiz CF",
+        "valor": "Cesión"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "Barcelona B",
+        "aClub": "Gimnàstic",
+        "valor": "Fin de cesión"
+      },
+      {
+        "temporada": "15/16",
+        "deClub": "Gimnàstic",
+        "aClub": "Barcelona B",
+        "valor": "Cesión"
+      },
+      {
+        "temporada": "15/16",
+        "deClub": "Huracán",
+        "aClub": "Gimnàstic",
+        "valor": "Sin coste"
+      },
+      {
+        "temporada": "13/14",
+        "deClub": "Levante B",
+        "aClub": "Huracán",
+        "valor": "Sin coste"
+      },
+      {
+        "temporada": "12/13",
+        "deClub": "Levante Juv. A",
+        "aClub": "Levante B",
+        "valor": "—"
+      },
+      {
+        "temporada": "10/11",
+        "deClub": "Catarroja CF",
+        "aClub": "Levante Juv. A",
+        "valor": "—"
+      },
+      {
+        "temporada": "09/10",
+        "deClub": "Villarr. Fút.b.",
+        "aClub": "Catarroja CF",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo10-fali.png"
   }
 ]

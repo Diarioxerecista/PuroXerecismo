@@ -10,14 +10,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-07/moi-amplia-su-vinculacion-con-el-xerez-cd-para-la-temporada-202627/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-07-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/moi-amplia-su-vinculacion-con-el-xerez-cd-para-la-temporada-202627/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/moi-amplia-su-vinculacion-con-el-xerez-cd-para-la-temporada-202627/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-firma-al-extremo-sub-23-jaime-fernandez/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -262,5 +254,21 @@
     <lastmod>2026-08-25</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/goleada-del-xerez-en-rota-empanado-por-el-susto-de-salas/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/goleada-del-xerez-en-rota-empanado-por-el-susto-de-salas/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-08/julio-martinez-extremo-del-ucam-murcia-se-convertira-en-jugador-azulino-en-las-proximas-horas/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-08-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/julio-martinez-extremo-del-ucam-murcia-se-convertira-en-jugador-azulino-en-las-proximas-horas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/julio-martinez-extremo-del-ucam-murcia-se-convertira-en-jugador-azulino-en-las-proximas-horas/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/cronicas/2026-08/al-xerez-se-le-escapa-el-triunfo-en-el-92-cuando-debio-sentenciar-antes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-08-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/al-xerez-se-le-escapa-el-triunfo-en-el-92-cuando-debio-sentenciar-antes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/al-xerez-se-le-escapa-el-triunfo-en-el-92-cuando-debio-sentenciar-antes/"/>
   </url>
 </urlset>
