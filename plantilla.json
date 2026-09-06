@@ -964,5 +964,68 @@
       }
     ],
     "cromo": "fotos/cromos/Cromo12-oscarlorenzo.png"
+  },
+  {
+    "nombre": "Bittor",
+    "apellidos": "Isuskiza",
+    "nombreCompleto": "Víctor Isuskiza Taranilla",
+    "dorsal": 20,
+    "posicion": "CC",
+    "posicionDetalle": "Centrocampista · Mediocentro",
+    "fechaNacimiento": "17/12/1998",
+    "edad": 27,
+    "lugarNacimiento": "Güeñes",
+    "nacionalidad": "España",
+    "altura": "1,85 m",
+    "pie": "Derecho",
+    "agente": "EGGO Asesores",
+    "fichado": "14/07/2026",
+    "contrato": "30/06/2027",
+    "valorMercado": "200.000 €",
+    "historial": [
+      {
+        "temporada": "26/27",
+        "deClub": "UB Conquense",
+        "aClub": "Xerez CD",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "25/26",
+        "deClub": "Barakaldo CF",
+        "aClub": "UB Conquense",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "Sestao River",
+        "aClub": "Barakaldo CF",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Portugalete",
+        "aClub": "Sestao River",
+        "valor": "50k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Somorrostro",
+        "aClub": "Portugalete",
+        "valor": "—"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "Barakaldo CF",
+        "aClub": "Somorrostro",
+        "valor": "—"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "Barakaldo U19",
+        "aClub": "Barakaldo CF",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo13-bittor.png"
   }
 ]
