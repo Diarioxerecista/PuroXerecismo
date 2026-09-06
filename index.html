@@ -1787,6 +1787,14 @@
 
     // Escapa texto que va dentro de un atributo HTML. Sin esto, un titular con
   // comillas dobles (hay varios en noticias-es.json) rompe el <img> entero.
+  // Si una foto de noticia ya no existe en el repo, se oculta el hueco en vez
+  // de dejar el icono de imagen rota. El resto de la tarjeta se pinta igual.
+  var ONERROR_FOTO = "this.style.display='none';this.setAttribute('data-roto','1');"
+    + "console.warn('Foto no disponible: '+this.getAttribute('src'));";
+  // En el cuerpo del articulo se oculta la figura entera (foto + credito).
+  var ONERROR_FIGURA = "var f=this.closest('[data-figura]');if(f){f.style.display='none';}"
+    + "console.warn('Foto no disponible: '+this.getAttribute('src'));";
+
   function escAttr(s){
     return String(s == null ? '' : s)
       .replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;')
@@ -1841,8 +1849,8 @@
   function zonaClasif(pos){
     if(pos === 1) return ' zona-ascenso';
     if(pos <= 5) return ' zona-playoff';
-    if(pos === 14) return ' zona-playout';
-    if(pos >= 15) return ' zona-descenso';
+    if(pos === 13) return ' zona-playout';
+    if(pos >= 14) return ' zona-descenso';
     return '';
   }
 
@@ -2065,7 +2073,7 @@
     let imgBoxExtra = '';
     let imgHtml;
     if(a.foto){
-      imgHtml = `<img src="${escAttr(a.foto)}" alt="${escAttr(a.title)}" style="width:100%;height:100%;object-fit:cover;object-position:${escAttr(a.objectPosition||'top center')};">` ;
+      imgHtml = `<img src="${escAttr(a.foto)}" alt="${escAttr(a.title)}" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:${escAttr(a.objectPosition||'top center')};">` ;
     } else if(a.score){
       imgHtml = `<div class="stripe"></div><div class="score-overlay"><span class="comp">${a.eyebrow}</span><span class="score">${a.score}</span></div>`;
     } else {
@@ -2100,7 +2108,7 @@
     let heroImgBoxStyle = '';
     let heroImgHtml;
     if(principal.foto){
-      heroImgHtml = `<img src="${escAttr(principal.foto)}" alt="${escAttr(principal.title)}" style="width:100%;height:100%;object-fit:cover;object-position:${escAttr(principal.objectPosition||'top center')};">` ;
+      heroImgHtml = `<img src="${escAttr(principal.foto)}" alt="${escAttr(principal.title)}" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:${escAttr(principal.objectPosition||'top center')};">` ;
     } else {
       const palabraFantasma = principal.eyebrow.split('\u00b7')[0].trim();
       heroImgBoxStyle = 'background:var(--azul-profundo);display:flex;flex-direction:column;justify-content:space-between;padding:28px 32px;';
@@ -2121,7 +2129,7 @@
     const sideItems = resto.slice(0,4).map(id => {
       const art = articles[id];
       const thumbHtml = art.foto
-        ? `<div class="side-thumb" style="width:88px;height:68px;border-radius:2px;overflow:hidden;flex-shrink:0;"><img src="${escAttr(art.foto)}" alt="${escAttr(art.title)}" style="width:100%;height:100%;object-fit:cover;object-position:top center;ver;"></div>`
+        ? `<div class="side-thumb" style="width:88px;height:68px;border-radius:2px;overflow:hidden;flex-shrink:0;"><img src="${escAttr(art.foto)}" alt="${escAttr(art.title)}" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:top center;ver;"></div>`
         : '';
       return `
       <div class="side-item${art.foto ? ' side-item-foto' : ''}" onclick="openArticle('${id}')">
@@ -2495,7 +2503,7 @@
       const creditoHtml = a.creditoFoto
         ? `<span style="position:absolute;left:8px;bottom:8px;font-family:'Space Mono',monospace;font-size:11px;color:#fff;background:rgba(13,44,84,0.72);padding:3px 8px;border-radius:2px;">${a.creditoFoto}</span>`
         : '';
-      fotoHtml = `<div style="position:relative;margin-top:18px;margin-bottom:18px;"><img src="${escAttr(a.foto)}" alt="${escAttr(a.title)}" style="width:100%;border-radius:3px;display:block;">${creditoHtml}</div>`;
+      fotoHtml = `<div data-figura style="position:relative;margin-top:18px;margin-bottom:18px;"><img src="${escAttr(a.foto)}" alt="${escAttr(a.title)}" onerror="${ONERROR_FIGURA}" style="width:100%;border-radius:3px;display:block;">${creditoHtml}</div>`;
     }
 
     const slug = slugsMap[id] || id;
