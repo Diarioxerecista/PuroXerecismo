@@ -1,11 +1,35 @@
 {
   "actualizado": "2026-09-06",
   "jornada": 1,
-  "fuente": "futbolme",
+  "fuente": "besoccer",
   "equipos": [
+    {
+      "nombre": "Salerm Puente Genil",
+      "escudo": "fotos/escudos/puente-genil.png",
+      "pj": 1,
+      "pts": 3,
+      "gf": 4,
+      "gc": 0
+    },
+    {
+      "nombre": "Atlético Central",
+      "escudo": "fotos/escudos/atletico-central.png",
+      "pj": 1,
+      "pts": 3,
+      "gf": 2,
+      "gc": 0
+    },
     {
       "nombre": "Badajoz",
       "escudo": "fotos/escudos/badajoz.png",
+      "pj": 1,
+      "pts": 3,
+      "gf": 2,
+      "gc": 1
+    },
+    {
+      "nombre": "Don Benito",
+      "escudo": "fotos/escudos/don-benito.png",
       "pj": 1,
       "pts": 3,
       "gf": 2,
@@ -28,12 +52,36 @@
       "gc": 0
     },
     {
-      "nombre": "Xerez CD",
-      "escudo": "fotos/escudos/escudo-xerez-cd-hd.png",
+      "nombre": "Atlético Sanluqueño",
+      "escudo": "fotos/escudos/sanluqueno.png",
       "pj": 1,
       "pts": 1,
-      "gf": 0,
-      "gc": 0
+      "gf": 2,
+      "gc": 2
+    },
+    {
+      "nombre": "Marbella",
+      "escudo": "fotos/escudos/marbella.png",
+      "pj": 1,
+      "pts": 1,
+      "gf": 2,
+      "gc": 2
+    },
+    {
+      "nombre": "Ciudad de Lucena",
+      "escudo": "fotos/escudos/ciudad-lucena.png",
+      "pj": 1,
+      "pts": 1,
+      "gf": 1,
+      "gc": 1
+    },
+    {
+      "nombre": "Linares Deportivo",
+      "escudo": "fotos/escudos/linares.png",
+      "pj": 1,
+      "pts": 1,
+      "gf": 1,
+      "gc": 1
     },
     {
       "nombre": "Estepona",
@@ -44,84 +92,20 @@
       "gc": 0
     },
     {
-      "nombre": "Don Benito",
-      "escudo": "fotos/escudos/don-benito.png",
-      "pj": 0,
-      "pts": 0,
-      "gf": 0,
-      "gc": 0
-    },
-    {
-      "nombre": "Atlético Sanluqueño",
-      "escudo": "fotos/escudos/sanluqueno.png",
-      "pj": 0,
-      "pts": 0,
-      "gf": 0,
-      "gc": 0
-    },
-    {
-      "nombre": "Marbella",
-      "escudo": "fotos/escudos/marbella.png",
-      "pj": 0,
-      "pts": 0,
-      "gf": 0,
-      "gc": 0
-    },
-    {
-      "nombre": "Recreativo de Huelva",
-      "escudo": "fotos/escudos/recreativo.png",
-      "pj": 0,
-      "pts": 0,
+      "nombre": "Xerez CD",
+      "escudo": "fotos/escudos/escudo-xerez-cd-hd.png",
+      "pj": 1,
+      "pts": 1,
       "gf": 0,
       "gc": 0
     },
     {
       "nombre": "Antoniano",
       "escudo": "fotos/escudos/antoniano.png",
-      "pj": 0,
+      "pj": 1,
       "pts": 0,
-      "gf": 0,
-      "gc": 0
-    },
-    {
-      "nombre": "Linares Deportivo",
-      "escudo": "fotos/escudos/linares.png",
-      "pj": 0,
-      "pts": 0,
-      "gf": 0,
-      "gc": 0
-    },
-    {
-      "nombre": "Ciudad de Lucena",
-      "escudo": "fotos/escudos/ciudad-lucena.png",
-      "pj": 0,
-      "pts": 0,
-      "gf": 0,
-      "gc": 0
-    },
-    {
-      "nombre": "Atlético Central",
-      "escudo": "fotos/escudos/atletico-central.png",
-      "pj": 0,
-      "pts": 0,
-      "gf": 0,
-      "gc": 0
-    },
-    {
-      "nombre": "Mijas Las Lagunas",
-      "escudo": "fotos/escudos/las-lagunas.png",
-      "pj": 0,
-      "pts": 0,
-      "gf": 0,
-      "gc": 0
-    },
-    {
-      "nombre": "Salerm Puente Genil",
-      "escudo": "fotos/escudos/puente-genil.png",
-      "pj": 0,
-      "pts": 0,
-      "gf": 0,
-      "gc": 0
+      "gf": 1,
+      "gc": 2
     },
     {
       "nombre": "Tenerife B",
@@ -146,6 +130,22 @@
       "pts": 0,
       "gf": 0,
       "gc": 1
+    },
+    {
+      "nombre": "Recreativo de Huelva",
+      "escudo": "fotos/escudos/recreativo.png",
+      "pj": 1,
+      "pts": 0,
+      "gf": 0,
+      "gc": 2
+    },
+    {
+      "nombre": "Mijas Las Lagunas",
+      "escudo": "fotos/escudos/las-lagunas.png",
+      "pj": 1,
+      "pts": 0,
+      "gf": 0,
+      "gc": 4
     }
   ]
 }
