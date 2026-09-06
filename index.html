@@ -1824,7 +1824,6 @@
 
   function cargarFichajes(){
     fetchJson('fichajes.json')
-      .then(function(r){ return r.json(); })
       .then(function(d){ renderFichajesStrip(d); })
       .catch(function(){});
   }
@@ -1843,7 +1842,6 @@
     var cont = document.getElementById('tablaClasificacion');
     if(!cont) return;
     fetchJson('clasificacion.json')
-      .then(function(r){ return r.json(); })
       .then(function(data){
         var eq = (data && data.equipos) || [];
         if(!eq.length) return;
@@ -1872,13 +1870,19 @@
       .catch(function(err){ console.warn('clasificacion.json no disponible', err); });
   }
 
-  function cargarPublicidad(){
-    fetchJson('publicidad.json')
-      .then(function(r){ return r.json(); })
-      .then(function(data){
+  // Lista de respaldo: si publicidad.json no carga, los patrocinadores se pintan
+  // igual desde aqui. Un patrocinador nunca puede desaparecer de la portada.
+  var COLABORADORES_RESPALDO = [
+    { nombre: 'El Jardin de Papel', imagen: 'fotos/publicidad/jardin-de-papel.jpg',
+      url: 'https://www.instagram.com/eljardindepapel_', activo: true }
+  ];
+
+  function pintarPublicidad(data){
         var slots = document.getElementById('colaboradoresSlots');
         if(!slots) return;
-        var activos = (data.colaboradores||[]).filter(function(c){ return c.activo; });
+        var activos = ((data && data.colaboradores)||[]).filter(function(c){ return c.activo; });
+        // Si el JSON llega vacio o sin activos, tiramos del respaldo.
+        if(!activos.length) activos = COLABORADORES_RESPALDO.filter(function(c){ return c.activo; });
         // Si la imagen de un patrocinador no carga, el hueco muestra su nombre.
         // Un patrocinador nunca debe quedar como imagen rota.
         var esc = function(s){
@@ -1908,13 +1912,19 @@
         var vacios = Math.max(0, 3 - activos.length);
         for(var i=0;i<vacios;i++) html += '<div class="ad-slot-small"><span>Logo patrocinador</span></div>';
         slots.innerHTML = html;
-      })
-      .catch(function(){ /* Sin publicidad.json, dejamos los slots por defecto */ });
+  }
+
+  function cargarPublicidad(){
+    fetchJson('publicidad.json')
+      .then(pintarPublicidad)
+      .catch(function(err){
+        console.warn('publicidad.json no disponible, usando respaldo', err);
+        pintarPublicidad({ colaboradores: COLABORADORES_RESPALDO });
+      });
   }
 
   function cargarPlantilla(){
     fetchJson('plantilla.json')
-      .then(function(r){ return r.json(); })
       .then(function(jugadores){
         const el = document.getElementById('cromosGrid');
         if(!el) return;
@@ -2001,7 +2011,6 @@
   }
   function comprobarDirecto(){
     fetchJson('live.json')
-      .then(function(r){ return r.json(); })
       .then(function(d){
         const el = document.getElementById('topbarScore');
         if(d && d.activo){
@@ -2150,7 +2159,8 @@
       <div class="side-list">
         ${sideItems}
         <a class="ad-banner-side" href="tel:608394823" style="padding:20px;text-decoration:none;background:#fff;">
-          <img src="fotos/publicidad/lugo-distribuciones-carnicas-trim.png" alt="Distribuciones Cárnicas Garrido Lugo" style="width:100%;height:100%;object-fit:contain;">
+          <img src="fotos/publicidad/lugo-distribuciones-carnicas-trim.png" alt="Distribuciones Cárnicas Garrido Lugo" onerror="this.style.display='none';var s=this.parentNode.querySelector('.ad-fallback');if(s){s.style.display='flex';}" style="width:100%;height:100%;object-fit:contain;">
+          <span class="ad-fallback" style="display:none;width:100%;height:100%;box-sizing:border-box;align-items:center;justify-content:center;text-align:center;font-family:'Space Mono',monospace;font-size:11px;line-height:1.25;color:var(--tinta-suave);">Distribuciones Cárnicas<br>Garrido Lugo<br>608 394 823</span>
         </a>
       </div>
     `;
