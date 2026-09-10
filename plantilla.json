@@ -1027,5 +1027,36 @@
       }
     ],
     "cromo": "fotos/cromos/Cromo13-bittor.png"
+  },
+  {
+    "nombre": "Marcos",
+    "apellidos": "Alconchel",
+    "nombreCompleto": "Marcos Alconchel",
+    "dorsal": 13,
+    "posicion": "PORTERO",
+    "posicionDetalle": "Portero",
+    "nacionalidad": "España",
+    "historial": [
+      {
+        "temporada": "25/26",
+        "deClub": "Betis Juvenil A",
+        "aClub": "Xerez CD",
+        "valor": "Sin coste"
+      },
+      {
+        "temporada": "25/26",
+        "deClub": "Calavera Juv. A",
+        "aClub": "Betis Juvenil A",
+        "valor": "—"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "Betis Fútb.base",
+        "aClub": "Calavera Juv. A",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo14-alconchel.png",
+    "fichado": "23/01/2026"
   }
 ]

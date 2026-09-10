@@ -1,20 +1,4 @@
 {
-  "art22": {
-    "foto": "fotos/publicadas/Jaime-Fernandez-Xerez.jpg",
-    "creditoFoto": "Foto: Xerez CD"
-  },
-  "art29": {
-    "foto": "fotos/publicadas/Victor-Lopez-Xerez.jpg",
-    "creditoFoto": "Foto: Linares"
-  },
-  "art30": {
-    "foto": "fotos/publicadas/Bittor-Isuskiza-Xerez.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
-  },
-  "art32": {
-    "foto": "fotos/publicadas/Jaime-Lopez-Xerez.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
-  },
   "art37": {
     "foto": "fotos/publicadas/mundial-2026-espana-argentina-parada.jpg",
     "creditoFoto": "Foto: FIFA World Cup 26"
@@ -98,8 +82,7 @@
   "art57": {
     "foto": "fotos/publicadas/xerez-sanluqueno-amistoso-1.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
-  }
-,
+  },
   "art58": {
     "foto": "fotos/publicadas/estepona-xerez-j1-once.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
