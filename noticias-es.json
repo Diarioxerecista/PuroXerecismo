@@ -578,5 +578,21 @@
     "arbitro": "Víctor García Acosta",
     "estadio": "Muñoz Pérez (Estepona)",
     "jornadaLabel": "Jornada 1 · Grupo IV"
+  },
+  "art59": {
+    "fecha": "2026-09-11",
+    "categoria": "noticia",
+    "eyebrow": "Historial · Xerez - Badajoz",
+    "title": "El historial sonríe al Xerez: 16 victorias por 2 del Badajoz en 24 enfrentamientos",
+    "lead": "Los azulinos dominan claramente el balance histórico ante un rival al que no pierden desde 1991 y al que goleó 5-3 en el último precedente en Segunda División",
+    "body": [
+      "El Xerez CD recibirá al Badajoz el próximo domingo en el debut liguero como local en el estadio azulino, un partido en el que el historial entre ambos clubes juega claramente a favor de los de Xavi Molist. Los dos equipos se han enfrentado en 24 ocasiones a lo largo de su historia, con un balance ampliamente favorable para los xerecistas: 16 victorias azulinas, 6 empates y tan solo 2 triunfos pacenses.",
+      "<strong>Un dominio histórico casi absoluto</strong>",
+      "El primer precedente entre ambos conjuntos se remonta al 18 de septiembre de 1949, con victoria xerecista por 3-0. Desde entonces, el Xerez ha llevado la voz cantante en la mayoría de los enfrentamientos, dejando al Badajoz con muy pocas alegrías en el cómputo global.",
+      "De hecho, la última victoria pacense se remonta al año 1991, por un ajustado 0-2, en una época en la que ambos clubes militaban en Segunda B. Desde entonces, más de tres décadas de historia entre ambos clubes no han vuelto a sonreír al conjunto extremeño.",
+      "<strong>El último precedente, con goleada incluida</strong>",
+      "El enfrentamiento más reciente entre ambos equipos se disputó en la jornada 41 de Segunda División, con un vibrante 5-3 a favor del Xerez, en un partido que refleja bien el buen momento histórico de los azulinos ante este rival.",
+      "Con este bagaje como telón de fondo, el Xerez CD afrontará el domingo su debut como local de la temporada con la confianza que da un historial abrumadoramente favorable, aunque el equipo de Xavi Molist sabe que cada partido es una historia nueva y que el Badajoz llegará con ganas de romper esa tendencia negativa."
+    ]
   }
 }
