@@ -1058,5 +1058,86 @@
     ],
     "cromo": "fotos/cromos/Cromo14-alconchel.png",
     "fichado": "23/01/2026"
+  },
+  {
+    "nombre": "Carlos",
+    "apellidos": "Pantoja Valadés",
+    "nombreCompleto": "Carlos Pantoja Valadés",
+    "dorsal": 1,
+    "posicion": "PORTERO",
+    "posicionDetalle": "Portero",
+    "fechaNacimiento": "19/04/2000",
+    "edad": 26,
+    "lugarNacimiento": "Madrid",
+    "nacionalidad": "España",
+    "altura": "1,91 m",
+    "pie": "Derecho",
+    "agente": "Plus Soccer",
+    "fichado": "01/07/2026",
+    "contrato": "30/06/2027",
+    "valorMercado": "100.000 €",
+    "historial": [
+      {
+        "temporada": "26/27",
+        "deClub": "RSD Alcalá",
+        "aClub": "Xerez CD",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "Unión Collado",
+        "aClub": "RSD Alcalá",
+        "valor": "-"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "Unión Adarve",
+        "aClub": "Unión Collado",
+        "valor": "25k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "Rayo B",
+        "aClub": "Unión Adarve",
+        "valor": "25k €"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "Marchamalo",
+        "aClub": "Rayo B",
+        "valor": "25k €"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "Complutense",
+        "aClub": "Marchamalo",
+        "valor": "-"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "CDF Tres Cantos",
+        "aClub": "Complutense",
+        "valor": "-"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Alcobend. Juv A",
+        "aClub": "CDF Tres Cantos",
+        "valor": "-"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "Sanse Juvenil A",
+        "aClub": "Alcobend. Juv A",
+        "valor": "-"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "Alcobendas F.b.",
+        "aClub": "Sanse Juvenil A",
+        "valor": "-"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo15-pantoja.png"
   }
 ]
