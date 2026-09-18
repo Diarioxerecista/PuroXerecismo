@@ -1139,5 +1139,116 @@
       }
     ],
     "cromo": "fotos/cromos/Cromo15-pantoja.png"
+  },
+  {
+    "nombre": "Rubén",
+    "apellidos": "Mesa",
+    "nombreCompleto": "Rubén Mesa Visiga",
+    "dorsal": 9,
+    "posicion": "DC",
+    "posicionDetalle": "Delantero · Delantero centro",
+    "fechaNacimiento": "16/01/1992",
+    "edad": 34,
+    "lugarNacimiento": "Badajoz",
+    "nacionalidad": "España",
+    "altura": "1,84 m",
+    "pie": "Derecho",
+    "agente": "AS1",
+    "fichado": "01/07/2026",
+    "contrato": "30/06/2027",
+    "valorMercado": "100.000 €",
+    "historial": [
+      {
+        "temporada": "26/27",
+        "deClub": "Minera",
+        "aClub": "Xerez CD",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "CD Estepona FS",
+        "aClub": "Minera",
+        "valor": "150k €"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "CD Numancia",
+        "aClub": "CD Estepona FS",
+        "valor": "250k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "UCAM Murcia",
+        "aClub": "CD Numancia",
+        "valor": "250k €"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "Extremadura",
+        "aClub": "UCAM Murcia",
+        "valor": "300k €"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "R. Majadahonda",
+        "aClub": "Extremadura",
+        "valor": "300k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Villarreal CF B",
+        "aClub": "R. Majadahonda",
+        "valor": "300k €"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "UD Sanse",
+        "aClub": "Villarreal CF B",
+        "valor": "300k €"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "Recreativo",
+        "aClub": "UD Sanse",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "14/15",
+        "deClub": "Atl. Madrileño",
+        "aClub": "Recreativo",
+        "valor": "-"
+      },
+      {
+        "temporada": "13/14",
+        "deClub": "Rayo B",
+        "aClub": "Atl. Madrileño",
+        "valor": "-"
+      },
+      {
+        "temporada": "12/13",
+        "deClub": "RSD Alcalá",
+        "aClub": "Rayo B",
+        "valor": "-"
+      },
+      {
+        "temporada": "12/13",
+        "deClub": "Rayo B",
+        "aClub": "RSD Alcalá",
+        "valor": "-"
+      },
+      {
+        "temporada": "12/13",
+        "deClub": "Badajoz",
+        "aClub": "Rayo B",
+        "valor": "-"
+      },
+      {
+        "temporada": "11/12",
+        "deClub": "Fl. Negra JuvA",
+        "aClub": "Badajoz",
+        "valor": "-"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo16-mesa.png"
   }
 ]
