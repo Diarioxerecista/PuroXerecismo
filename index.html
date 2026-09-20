@@ -1395,7 +1395,7 @@
       <div class="fixture-row header"><span>Fecha</span><span>Local</span><span>Resultado</span><span>Visitante</span><span>Competición</span></div>
       <div class="fixture-row"><span class="date">5 sep</span><span class="team home">C.D. Estepona</span><span class="vs-score">0-0</span><span class="team">Xerez CD</span><span class="comp">J1</span></div>
       <div class="fixture-row"><span class="date">13 sep</span><span class="team home">Xerez CD</span><span class="vs-score">1-2</span><span class="team">C.D. Badajoz</span><span class="comp">J2</span></div>
-      <div class="fixture-row"><span class="date">20 sep</span><span class="team home">Xerez CD</span><span class="vs-score">vs</span><span class="team">C.D. Don Benito</span><span class="comp">J3</span></div>
+      <div class="fixture-row"><span class="date">20 sep</span><span class="team home">Xerez CD</span><span class="vs-score">0-0</span><span class="team">C.D. Don Benito</span><span class="comp">J3</span></div>
       <div class="fixture-row"><span class="date">27 sep</span><span class="team home">RC Recreativo de Huelva</span><span class="vs-score">vs</span><span class="team">Xerez CD</span><span class="comp">J4</span></div>
       <div class="fixture-row"><span class="date">4 oct</span><span class="team home">Xerez CD</span><span class="vs-score">vs</span><span class="team">C.D. Tenerife "B"</span><span class="comp">J5</span></div>
       <div class="fixture-row"><span class="date">11 oct</span><span class="team home">Betis Deportivo</span><span class="vs-score">vs</span><span class="team">Xerez CD</span><span class="comp">J6</span></div>
@@ -1652,7 +1652,7 @@
     // ── Liga 2\u00aa Federaci\u00f3n ────────────────────────────────────────────────
     {fecha:'2026-09-05',jornada:'J1', local:'C.D. Estepona',            visitante:'Xerez CD',                hora:'21:00', resultado:'0-0'},
     {fecha:'2026-09-13',jornada:'J2', local:'Xerez CD',                 visitante:'C.D. Badajoz',            hora:'19:00', resultado:'1-2'},
-    {fecha:'2026-09-20',jornada:'J3', local:'Xerez CD',                 visitante:'C.D. Don Benito',         resultado:null},
+    {fecha:'2026-09-20',jornada:'J3', local:'Xerez CD',                 visitante:'C.D. Don Benito',         hora:'19:00', resultado:'0-0'},
     {fecha:'2026-09-27',jornada:'J4', local:'RC Recreativo de Huelva',  visitante:'Xerez CD',                resultado:null},
     {fecha:'2026-10-04',jornada:'J5', local:'Xerez CD',                 visitante:'C.D. Tenerife "B"',       resultado:null},
     {fecha:'2026-10-11',jornada:'J6', local:'Betis Deportivo',          visitante:'Xerez CD',                resultado:null},
@@ -2319,19 +2319,18 @@
     // compartido entre idiomas, para no tener que repetir la foto en cada
     // versión) y los combinamos antes de pintar la web. Se piden en cadena
     // (no todas a la vez) para no saturar con peticiones simultáneas.
-    const cb = '?t='+Date.now();
-    fetchJsonConReintento(archivo+cb, null)
+    fetchJsonConReintento(archivo, null)
       .then(textos => {
         if(!textos) throw new Error('sin datos de noticias');
-        return fetchJsonConReintento('fotos-articulos.json'+cb, {})
+        return fetchJsonConReintento('fotos-articulos.json', {})
           .then(fotos => [textos, fotos]);
       })
       .then(([textos, fotos]) =>
-        fetchJsonConReintento('mapa-slugs.json'+cb, {})
+        fetchJsonConReintento('mapa-slugs.json', {})
           .then(slugs => [textos, fotos, slugs])
       )
       .then(([textos, fotos, slugs]) =>
-        fetchJsonConReintento('mapa-slugs-en.json'+cb, {})
+        fetchJsonConReintento('mapa-slugs-en.json', {})
           .then(slugsEn => [textos, fotos, slugs, slugsEn])
       )
       .then(([textos, fotos, slugs, slugsEn]) => {
