@@ -1250,5 +1250,48 @@
       }
     ],
     "cromo": "fotos/cromos/Cromo16-mesa.png"
+  },
+  {
+    "nombre": "Mario",
+    "apellidos": "Peregrina",
+    "nombreCompleto": "Mario Peregrina Vargas",
+    "dorsal": 18,
+    "posicion": "CC",
+    "posicionDetalle": "Centrocampista · Mediocentro ofensivo",
+    "fechaNacimiento": "08/02/2004",
+    "edad": 22,
+    "lugarNacimiento": "Minas de Riotinto",
+    "nacionalidad": "España",
+    "pie": "Derecho",
+    "agente": "Unique Sports Group",
+    "fichado": "29/07/2026",
+    "contrato": "30/06/2027",
+    "historial": [
+      {
+        "temporada": "26/27",
+        "deClub": "Córdoba CF B",
+        "aClub": "Xerez CD",
+        "valor": "-"
+      },
+      {
+        "temporada": "23/24",
+        "deClub": "Betis Juvenil A",
+        "aClub": "Córdoba CF B",
+        "valor": "-"
+      },
+      {
+        "temporada": "21/22",
+        "deClub": "Calavera Juv. A",
+        "aClub": "Betis Juvenil A",
+        "valor": "-"
+      },
+      {
+        "temporada": "20/21",
+        "deClub": "Betis Fútb.base",
+        "aClub": "Calavera Juv. A",
+        "valor": "-"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo17-peregrina.png"
   }
 ]
