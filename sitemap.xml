@@ -10,14 +10,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-presentara-su-campana-de-abonados-el-21-de-julio/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-07-17</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-presentara-su-campana-de-abonados-el-21-de-julio/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-presentara-su-campana-de-abonados-el-21-de-julio/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/cronicas/2026-07/espana-campeona-del-mundo-2026-tras-vencer-a-argentina-en-la-prorroga/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -332,15 +324,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-09/un-xerez-sin-ideas-y-sin-gol-vuelve-a-dejarse-puntos-en-chapin/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-07/xerez-cd-to-unveil-2026-27-season-ticket-campaign-on-21-july/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-07-17</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-presentara-su-campana-de-abonados-el-21-de-julio/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-07/xerez-cd-to-unveil-2026-27-season-ticket-campaign-on-21-july/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-presentara-su-campana-de-abonados-el-21-de-julio/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/en/noticias/cronicas/2026-08/xerez-draw-with-a-strong-portuense-side/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -411,5 +394,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cumple-79-anos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-turns-79/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cumple-79-anos/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/recreativistas-y-xerecistas-sellaran-este-domingo-un-hermanamiento-historico-entre-sus-aficiones/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-09-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/recreativistas-y-xerecistas-sellaran-este-domingo-un-hermanamiento-historico-entre-sus-aficiones/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/recreativo-and-xerez-fans-to-seal-a-historic-twinning-this-sunday/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/recreativistas-y-xerecistas-sellaran-este-domingo-un-hermanamiento-historico-entre-sus-aficiones/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-09/recreativo-and-xerez-fans-to-seal-a-historic-twinning-this-sunday/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-09-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/recreativistas-y-xerecistas-sellaran-este-domingo-un-hermanamiento-historico-entre-sus-aficiones/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/recreativo-and-xerez-fans-to-seal-a-historic-twinning-this-sunday/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/recreativistas-y-xerecistas-sellaran-este-domingo-un-hermanamiento-historico-entre-sus-aficiones/"/>
   </url>
 </urlset>

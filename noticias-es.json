@@ -1,15 +1,4 @@
 {
-  "art35": {
-    "fecha": "2026-07-17",
-    "categoria": "noticia",
-    "eyebrow": "Club · Abonados",
-    "title": "El Xerez CD presentará su campaña de abonados el próximo 21 de julio",
-    "lead": "El club ha fijado la fecha y la hora del acto de presentación de la campaña de abonados 2026/27, aunque todavía no ha desvelado más detalles sobre el evento.",
-    "body": [
-      "El Xerez CD ha confirmado que presentará su campaña de abonados para la temporada 2026/27 el próximo 21 de julio, a las 20:00 horas.",
-      "El club no ha facilitado por el momento más información sobre el acto, como el lugar de celebración o los precios y modalidades de abono. Se espera que estos detalles se conozcan en los próximos días."
-    ]
-  },
   "art37": {
     "fecha": "2026-07-19",
     "categoria": [
@@ -871,6 +860,30 @@
       "Los años posteriores trajeron consigo momentos especialmente duros para la institución: un proceso concursal, un nuevo descenso a Segunda B y, finalmente, un durísimo golpe administrativo en el verano de 2013, cuando el club fue apartado de la competición profesional por impagos, viéndose obligado a competir en Tercera División. A ello se sumó la pérdida temporal del estadio de Chapín, cedido por decisión municipal, lo que forzó a la entidad a disputar sus encuentros en las instalaciones de La Granja en unas circunstancias deportivas y económicas extremadamente complicadas, que desembocarían en un nuevo descenso, esta vez hasta la Primera Andaluza.",
       "<strong>Una historia que sigue escribiéndose</strong>",
       "Casi ochenta años después de su fundación, el Xerez CD continúa siendo un club que arrastra consigo una historia repleta de contrastes: momentos de gloria compartida con toda una ciudad, pero también episodios institucionales que han puesto a prueba la resistencia de su afición. Un recorrido que, jornada tras jornada, sigue construyendo nuevos capítulos en la memoria colectiva del xerecismo."
+    ]
+  },
+  "art68": {
+    "fecha": "2026-09-24",
+    "categoria": "noticia",
+    "eyebrow": "Afición · Hermanamiento",
+    "title": "Recreativistas y xerecistas sellarán este domingo un hermanamiento histórico entre sus aficiones",
+    "lead": "La Federación de Peñas del Decano recibirá a la Agrupación de Peñas XCD 1947 en un acto oficial que culmina una unión gestada la pasada temporada, previo al partido entre ambos equipos en el Nuevo Colombino",
+    "body": [
+      "HUELVA. El fútbol modesto volverá a demostrar este domingo que, más allá de los resultados y las categorías, sigue existiendo espacio para la hermandad entre aficiones. La Federación de Peñas del Recreativo de Huelva tiene ya todo dispuesto para recibir, a partir de las 14:30 horas, a una representación de la Junta Directiva de la Agrupación de Peñas XCD 1947, con motivo del acto oficial que sellará el hermanamiento entre ambos colectivos de seguidores.",
+      "<strong>Una unión que se gestó la temporada pasada</strong>",
+      "El vínculo entre ambas aficiones no surge de manera improvisada, sino que responde a un proceso iniciado durante el curso anterior. Fue entonces cuando, desde Jerez, partió la propuesta de estrechar aún más los lazos históricos entre dos aficiones que comparten no solo la elástica blanquiazul, sino también la tradición centenaria de sus respectivas entidades. La respuesta desde Huelva no se hizo esperar, acogiendo la iniciativa con entusiasmo hasta llegar al capítulo que se escribirá este domingo.",
+      "<strong>Entradas libres para facilitar el encuentro entre gradas</strong>",
+      "El contexto en el que se produce este hermanamiento adquiere un significado especial. Tanto el Recreativo de Huelva como el Xerez CD han apostado por facilitar el desplazamiento de sus respectivas aficiones para la cita liguera de este fin de semana, habilitando entradas sin límite de aforo y con precios adaptados a la categoría en la que compiten ambos conjuntos.",
+      "Una decisión que permitirá que un notable contingente de seguidores xerecistas pueda acompañar a su equipo hasta tierras onubenses, al mismo tiempo que la parroquia recreativista podrá disfrutar del duelo en las mejores condiciones posibles. Desde la Federación de Peñas del Decano se ha querido destacar el valor de una medida que devuelve a las gradas el papel protagonista en este tipo de encuentros.",
+      "La propia Agrupación de Peñas XCD 1947 ha trasladado públicamente su agradecimiento por este gesto, subrayando que, cuando dos clubes trabajan para que miles de seguidores puedan disfrutar juntos de una jornada como esta, es el fútbol en su conjunto el que sale beneficiado. Un mensaje al que se ha sumado igualmente la Federación de Peñas del Recreativo, que ha querido agradecer tanto al conjunto onubense como al xerecista las facilidades brindadas para convertir el partido en una auténtica fiesta compartida entre aficiones.",
+      "<strong>Convivencia entre peñistas antes de poner rumbo al Nuevo Colombino</strong>",
+      "El acto institucional de hermanamiento no será, sin embargo, el único punto de encuentro entre ambas aficiones. Tras la recepción oficial a la delegación jerezana, las dos federaciones compartirán un rato de convivencia en la propia sede recreativista, con tapas y cerveza como excusa perfecta para el reencuentro, antes de trasladarse conjuntamente hacia el estadio Nuevo Colombino.",
+      "Desde la organización se ha lanzado un llamamiento abierto a presidentes de peñas, peñistas y aficionados recreativistas en general para que se sumen a esta cita y acompañen a sus hermanos xerecistas en una jornada que aspira a trascender lo meramente deportivo. Una oportunidad para compartir mesa, conversación y grada, dejando durante unas horas los colores en un segundo plano para dar protagonismo a lo que realmente une a ambas aficiones: la pasión compartida por el fútbol.",
+      "<strong>Un hermanamiento con vocación de permanencia</strong>",
+      "La cita ha quedado fijada para este domingo, 27 de septiembre, a las 14:30 horas, en la sede de la Federación de Peñas del Recreativo de Huelva. Allí arrancará de manera oficial un hermanamiento que las dos federaciones aspiran a mantener vivo en el tiempo, y que este fin de semana vivirá uno de sus episodios más significativos hasta la fecha.",
+      "Recreativistas y xerecistas compartirán, antes de que el balón eche a rodar, mesa, charla y grada, en una jornada pensada para reivindicar esos valores que, pese al paso de los años y las categorías, siguen dando sentido al fútbol modesto español.",
+      "<strong>Datos del acto</strong>",
+      "<strong>Lugar:</strong> Sede de la Federación de Peñas del Recreativo de Huelva<br><strong>Día:</strong> Domingo, 27 de septiembre de 2026<br><strong>Hora:</strong> 14:30 horas"
     ]
   }
 }
