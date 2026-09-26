@@ -38,23 +38,6 @@
     ],
     "quote": "\"They are an example for Spain: together we are stronger.\""
   },
-  "art38": {
-    "fecha": "2026-07-20",
-    "categoria": "noticia",
-    "eyebrow": "Club · Pre-season",
-    "title": "Xerez CD begin pre-season training at Pedro S. Garrido with ten new faces",
-    "lead": "The blue-and-white side reported to Xavi Molist this Monday at Pedro S. Garrido to begin 2026/27 pre-season training, with ten new signings already part of the squad for a fresh push for promotion to Primera RFEF.",
-    "body": [
-      "The 2026/2027 Xerez CD is now a reality. The Jerez side reported to Xavi Molist for the first time on the Pedro S. Garrido Stadium pitch this Monday to begin pre-season training, aiming to prepare for a new campaign in Segunda Federación in which the Xerecistas will once again chase promotion to Primera RFEF.",
-      "The day began with a talk from the Catalan coach, in which he laid out some of the concepts he wants to instil in the team and which he will keep developing over the coming weeks until the league gets under way, scheduled for 6 September. This was followed by the official presentation from the board, with words from president Juan Luis Gil and sporting director Miguel Ángel Gutiérrez, before the squad took to the pitch for the summer's first physical and ball-work sessions.",
-      "<strong>Ten signings for a renewed squad</strong>",
-      "The group that has started pre-season features 20 players from the first-team squad, including the ten new arrivals confirmed by the club for the new campaign: goalkeepers Carlos Pantoja and Manu Galán, defenders Fali, Víctor López and José David Salas, midfielders Jaime Fernández, Bittor Isuskiza and Raúl López, and forwards Óscar Lorenzo and Rubén Mesa.",
-      "They are joined by players staying on from last season, including Felipe Chacartegui, Josete, Moi Rodríguez, Guille Campos, Isma, Jaime López, Zelu, Zequi Díaz and Chuma, as well as goalkeeper Marcos Alconchel. Xavi Molist will also be able to call on several academy players this summer, among them Gabri Navarro, Manu Rosado, Miguel López, David de la Chica, Aarón Padilla, Óscar Ganfornina, Rober Sánchez, Ammar, Adri Valiente, Óscar Gallardo, Samu Rubiales and Dani Sánchez.",
-      "<strong>A week split between the Garrido and Costa Ballena</strong>",
-      "The squad will train again on Tuesday at Pedro S. Garrido before moving to Costa Ballena on Wednesday. Thursday will be a rest day, with work resuming on Friday, again at Costa Ballena, before closing out the week on Saturday at the Avenida Blas Infante ground.",
-      "The first pre-season friendly will come on 1 August against Jerez Industrial, opening a schedule that will also include matches against Chiclana CF, Racing Portuense, Real Betis C, Real Jaén, Juventud de Torremolinos, UD Roteña and Atlético Sanluqueño before the league opener in September."
-    ]
-  },
   "art47": {
     "fecha": "2026-08-15",
     "categoria": [
@@ -474,6 +457,25 @@
       "Before the ball starts rolling, Recreativo and Xerez fans will share a table, conversation and the stands, on a day designed to champion those values that, despite the passing years and divisions, still give meaning to Spanish grassroots football.",
       "<strong>Event details</strong>",
       "<strong>Venue:</strong> Headquarters of the Federación de Peñas of Recreativo de Huelva<br><strong>Day:</strong> Sunday, 27 September 2026<br><strong>Time:</strong> 14:30"
+    ]
+  },
+  "art69": {
+    "fecha": "2026-09-26",
+    "categoria": "noticia",
+    "eyebrow": "Institutional · Stadium",
+    "title": "Jerez City Council and Cádiz Provincial Council to invest 3.5 million euros in the full refurbishment of Estadio Chapín",
+    "lead": "The project, first reported by David Sánchez in Diario de Jerez, includes new turf and irrigation, new LED lighting, seat renewal and accessibility improvements at a venue that had been dragging long-standing structural shortcomings",
+    "body": [
+      "Jerez City Council and Cádiz Provincial Council will undertake a thorough modernisation of the Estadio Municipal Chapín thanks to a joint investment of 3.5 million euros, as revealed in information first reported by our colleague David Sánchez in Diario de Jerez. The announcement was confirmed by the mayor during the municipal Plenary session, accompanied by the councillor for Sport, Tomás Sampalo, who together detailed an extensive package of structural works aimed at correcting deficiencies the stadium had been dragging for years.",
+      "<strong>New playing surface and full modernisation</strong>",
+      "Among the project's most notable items is an investment of 400,000 euros for the complete renewal of the turf, a measure that had become urgent given the problems detected in the drainage system, the build-up of what is known as Black Layer, the poor filtration of rainwater and the wear of an irrigation network whose maintenance and spare parts had become financially unsustainable.",
+      "<strong>A breakdown of works covering the entire venue</strong>",
+      "In addition to the new playing surface, the approved investment plan includes a series of improvements that will affect different areas of the stadium:",
+      "<strong>LED lighting:</strong> 1,550,000 euros<br><strong>Seat renewal:</strong> 1,150,000 euros<br><strong>Lift installation:</strong> 250,000 euros<br><strong>New dugouts:</strong> 100,000 euros<br><strong>Replacement of the irrigation system with a hydraulic one:</strong> 55,000 euros<br><strong>Area adapted for people with reduced mobility (PRM):</strong> 50,000 euros<br><strong>New water tanks for irrigation:</strong> 30,000 euros",
+      "<strong>The mayor defends the local government's order of priorities</strong>",
+      "During her speech, the mayor of Jerez expressly thanked the president of the Cádiz Provincial Council for her involvement in launching this joint project. The mayor also used her appearance to justify the strategy followed by the municipal government before tackling an investment of this size at the Xerez ground, explaining that it had been a priority to first address the deteriorated state of the sports courts and pitches spread across the city's different neighbourhoods, before concentrating financial resources on the Chapín facilities.",
+      "<strong>A plan within a broader investment strategy</strong>",
+      "Finally, the mayor framed this work within a broader package of interventions considered priorities for the city as a whole, among which she also cited the renewal of the municipal bus fleet and the resurfacing of various public roads. The mayor also confirmed that for the 2027 financial year, already within the next term of office, Estadio Chapín will continue to receive additional investment to complement the works now announced."
     ]
   }
 }

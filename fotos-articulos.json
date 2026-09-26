@@ -3,10 +3,6 @@
     "foto": "fotos/publicadas/mundial-2026-espana-argentina-parada.jpg",
     "creditoFoto": "Foto: FIFA World Cup 26"
   },
-  "art38": {
-    "foto": "fotos/publicadas/xerez-cd-primer-entreno-pretemporada-2026-27.jpg",
-    "creditoFoto": "Foto: Xerez CD"
-  },
   "art39": {
     "foto": "fotos/publicadas/xerez-cd-cartel-abonos-2026-27.jpeg",
     "creditoFoto": "Foto: Xerez CD"
@@ -125,6 +121,10 @@
   },
   "art68": {
     "foto": "fotos/publicadas/recreativo-xerez-hermanamiento-aficiones.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art69": {
+    "foto": "fotos/publicadas/estadio-chapin-remodelacion.png",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
