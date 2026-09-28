@@ -28,14 +28,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-07/espana-campeona-del-mundo-2026-tras-vencer-a-argentina-en-la-prorroga/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-hace-publico-el-precio-de-los-abonos-para-la-temporada-2026-27/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-07-21</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-hace-publico-el-precio-de-los-abonos-para-la-temporada-2026-27/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-07/el-xerez-cd-hace-publico-el-precio-de-los-abonos-para-la-temporada-2026-27/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-07/la-rfef-aprecia-fraude-de-ley-y-deja-al-malacitano-sin-plaza-en-segunda-federacion/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -430,5 +422,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/cronicas/2026-09/un-xerez-sin-personalidad-precipita-el-cese-de-molist/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/cronicas/2026-09/a-xerez-side-lacking-personality-brings-about-molists-dismissal/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-09/un-xerez-sin-personalidad-precipita-el-cese-de-molist/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-gomez-abel-segovia-y-angel-rodriguez-los-tres-candidatos-para-el-banquillo-del-xerez-cd/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-gomez-abel-segovia-y-angel-rodriguez-los-tres-candidatos-para-el-banquillo-del-xerez-cd/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/abel-gomez-abel-segovia-and-angel-rodriguez-the-three-candidates-for-the-xerez-cd-dugout/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-gomez-abel-segovia-y-angel-rodriguez-los-tres-candidatos-para-el-banquillo-del-xerez-cd/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-09/abel-gomez-abel-segovia-and-angel-rodriguez-the-three-candidates-for-the-xerez-cd-dugout/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-09-28</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-gomez-abel-segovia-y-angel-rodriguez-los-tres-candidatos-para-el-banquillo-del-xerez-cd/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/abel-gomez-abel-segovia-and-angel-rodriguez-the-three-candidates-for-the-xerez-cd-dugout/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-gomez-abel-segovia-y-angel-rodriguez-los-tres-candidatos-para-el-banquillo-del-xerez-cd/"/>
   </url>
 </urlset>

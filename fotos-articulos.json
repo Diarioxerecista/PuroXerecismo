@@ -3,10 +3,6 @@
     "foto": "fotos/publicadas/mundial-2026-espana-argentina-parada.jpg",
     "creditoFoto": "Foto: FIFA World Cup 26"
   },
-  "art39": {
-    "foto": "fotos/publicadas/xerez-cd-cartel-abonos-2026-27.jpeg",
-    "creditoFoto": "Foto: Xerez CD"
-  },
   "art40": {
     "foto": "fotos/publicadas/xerez-cd-accion-partido-2026-27.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
@@ -129,6 +125,10 @@
   },
   "art70": {
     "foto": "fotos/publicadas/recreativo-xerez-j4-jero-lario-despeje.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art71": {
+    "foto": "fotos/publicadas/recreativo-xerez-j4-banquillo-colombino.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
