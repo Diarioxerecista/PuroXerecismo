@@ -15,10 +15,6 @@
     "foto": "fotos/publicadas/xerez-ceuta-b-chacon-onate-celebracion.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
   },
-  "art45": {
-    "foto": "fotos/publicadas/xerez-cd-primer-entreno-pretemporada-2026-27.jpg",
-    "creditoFoto": "Foto: Xerez CD"
-  },
   "art46": {
     "foto": "fotos/publicadas/mapa-andalucia-rivales.png",
     "creditoFoto": "Foto: PuroXerecismo"
@@ -130,5 +126,9 @@
   "art73": {
     "foto": "fotos/publicadas/xerez-donbenito-j3-chapin-grada.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art74": {
+    "foto": "fotos/publicadas/abel-segovia-marbella-cf.png",
+    "creditoFoto": "Foto: Marbella CF"
   }
 }

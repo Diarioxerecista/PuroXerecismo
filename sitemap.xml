@@ -52,14 +52,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-xerez-cd-encadena-su-segundo-triunfo-veraniego-ante-el-filial-del-ceuta/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-08/golpe-a-la-delantera-del-xerez-cd-saul-romero-dos-meses-de-baja-por-fractura-en-el-pie/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-08-13</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/golpe-a-la-delantera-del-xerez-cd-saul-romero-dos-meses-de-baja-por-fractura-en-el-pie/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/golpe-a-la-delantera-del-xerez-cd-saul-romero-dos-meses-de-baja-por-fractura-en-el-pie/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-08/cambios-en-el-grupo-del-xerez-sale-el-atletico-paso-entra-el-salerm-puente-genil/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -460,5 +452,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-conocera-este-lunes-5-de-octubre-a-su-rival-en-la-copa-del-rey/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-to-learn-its-copa-del-rey-opponent-on-monday-5-october/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-conocera-este-lunes-5-de-octubre-a-su-rival-en-la-copa-del-rey/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cerca-de-un-acuerdo-con-abel-segovia-aunque-el-nombramiento-aun-no-esta-cerrado/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cerca-de-un-acuerdo-con-abel-segovia-aunque-el-nombramiento-aun-no-esta-cerrado/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-close-to-an-agreement-with-abel-segovia-although-the-appointment-is-not-yet-finalised/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cerca-de-un-acuerdo-con-abel-segovia-aunque-el-nombramiento-aun-no-esta-cerrado/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-close-to-an-agreement-with-abel-segovia-although-the-appointment-is-not-yet-finalised/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-09-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cerca-de-un-acuerdo-con-abel-segovia-aunque-el-nombramiento-aun-no-esta-cerrado/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-close-to-an-agreement-with-abel-segovia-although-the-appointment-is-not-yet-finalised/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cerca-de-un-acuerdo-con-abel-segovia-aunque-el-nombramiento-aun-no-esta-cerrado/"/>
   </url>
 </urlset>

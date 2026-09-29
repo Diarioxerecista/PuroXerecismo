@@ -2065,7 +2065,7 @@
   function idsOrdenadosPorFecha(filtroCategoria){
     return Object.keys(articles)
       .filter(id => !filtroCategoria || (Array.isArray(articles[id].categoria) ? articles[id].categoria.includes(filtroCategoria) : articles[id].categoria === filtroCategoria))
-      .sort((a,b) => new Date(articles[b].fecha) - new Date(articles[a].fecha));
+      .sort((a,b) => (new Date(articles[b].fecha) - new Date(articles[a].fecha)) || (parseInt(b.replace(/\D/g,''),10) - parseInt(a.replace(/\D/g,''),10)));
   }
 
   function tarjetaHTML(id){
