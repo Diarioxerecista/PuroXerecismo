@@ -15,10 +15,6 @@
     "foto": "fotos/publicadas/xerez-ceuta-b-chacon-onate-celebracion.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
   },
-  "art44": {
-    "foto": "fotos/publicadas/xerez-jerez-industrial-pedro-garrido-1.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
-  },
   "art45": {
     "foto": "fotos/publicadas/xerez-cd-primer-entreno-pretemporada-2026-27.jpg",
     "creditoFoto": "Foto: Xerez CD"
@@ -130,5 +126,9 @@
   "art72": {
     "foto": "fotos/publicadas/xerez-betis-deportivo-arcos-2.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
+  },
+  "art73": {
+    "foto": "fotos/publicadas/xerez-donbenito-j3-chapin-grada.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
   }
 }
