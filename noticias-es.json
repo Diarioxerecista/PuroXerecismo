@@ -111,21 +111,6 @@
       "<strong>Incidencias: XVII edición del Trofeo Andrés Chacón Oñate, disputado en el campo homónimo entre Xerez CD y Ceuta B, con temperaturas muy elevadas y notable presencia de aficionados xerecistas en el segundo compromiso veraniego de los de Xavi Molist.</strong>"
     ]
   },
-  "art46": {
-    "fecha": "2026-08-14",
-    "categoria": "noticia",
-    "eyebrow": "RFEF · Segunda Federación",
-    "title": "Cambios en el Grupo del Xerez",
-    "lead": "La RFEF ha resuelto finalmente la reconfiguración de la Segunda Federación derivada del culebrón del Unión Malacitano, y el Grupo 4 en el que milita el Xerez CD cambia de fisonomía a apenas tres semanas del inicio liguero. El movimiento es doble: el Atlético Paso, el club palmero que llevaba meses instalado en el grupo andaluz-canario-extremeño, sale rumbo al Grupo 5, mientras que el Salerm Puente Genil entra por la puerta grande tras el fallo que dejó al proyecto malagueño sin plaza en la categoría.",
-    "body": [
-      "De esta forma, la Federación opta por primar el criterio de proximidad geográfica que el propio club cordobés había reclamado en las últimas semanas, en detrimento de una salida que hasta ahora parecía más plausible, la de un desplazamiento de equipos extremeños hacia el Grupo 5. El resultado es que el Xerez CD estrena rival de la comarca cordobesa y pierde, tras solo una temporada de convivencia, al conjunto de La Palma como oponente.",
-      "<strong>Un grupo que se reordena a las puertas de la competición</strong>",
-      "El cambio llega en un momento delicado del calendario, con la pretemporada ya en marcha y el debut liguero fijado para el 6 de septiembre. El Xerez CD, que ya conocía su calendario desde finales de junio con el Atlético Paso todavía como rival, tendrá que asumir la modificación de fixture que trae consigo la entrada del Puente Genil en sustitución del equipo canario.",
-      "Para la afición xerecista, el Puente Genil no es un desconocido: ambos equipos ya compartieron grupo la pasada temporada, con encuentros disputados tanto en Chapín como en el Municipal de Puente Genil. Su regreso al Grupo 4 recompone, en la práctica, un duelo andaluz que había desaparecido del calendario tras el descenso pontano.",
-      "El adiós del Atlético Paso, que apenas había estrenado esta temporada su presencia en el grupo andaluz tras ascender de Tercera Federación, se explica por la propia lógica territorial que la RFEF ha querido aplicar en esta reconfiguración: con la incorporación de un equipo cordobés al Grupo 4, la Federación ha preferido reequilibrar el bloque canario reduciendo su peso en un grupo ya de por sí exigente en desplazamientos, y reubicar al conjunto palmero en el Grupo 5.",
-      "La resolución pone fin a semanas de incertidumbre sobre la composición definitiva de la categoría, abierta desde que el Comité de Competición rechazara la inscripción del Unión Malacitano y reconociera al Puente Genil, como mejor clasificado de los descendidos del Grupo 4, el derecho a recuperar la plaza. Ahora, con el nuevo mapa ya cerrado, el Xerez CD afronta la recta final de la pretemporada con un rival más, y otro menos, sobre el papel."
-    ]
-  },
   "art47": {
     "fecha": "2026-08-15",
     "categoria": [
@@ -923,6 +908,22 @@
       "El problema, tal y como apuntan las informaciones disponibles, no reside en el perfil deportivo del técnico ni en su idoneidad para el cargo, sobre la que ya existe consenso en la directiva, sino precisamente en las condiciones ligadas a la incorporación de su cuerpo técnico. Es ese asunto, y no otro, el que está retrasando la firma del acuerdo hasta final de temporada que ambas partes pretenden alcanzar.",
       "<strong>Un nombramiento que sigue sin cerrarse</strong>",
       "Mientras se resuelve este escollo, el Xerez CD continúa sin oficializar el nombramiento de su nuevo entrenador, con el reloj corriendo en contra ante la proximidad del debut liguero del banquillo, previsto para el próximo domingo ante el Tenerife B. La entidad deberá resolver cuanto antes esta cuestión si quiere que el técnico disponga de los días necesarios para preparar el encuentro con su propio cuerpo técnico sobre el césped de Chapín."
+    ]
+  },
+  "art75": {
+    "fecha": "2026-09-30",
+    "categoria": "noticia",
+    "eyebrow": "Club · Banquillo",
+    "title": "Abel Segovia firmará como nuevo entrenador del Xerez CD hasta el final de temporada",
+    "lead": "El técnico resuelve finalmente el proceso de negociación mantenido con la directiva azulina y se convierte en el sucesor de Xavi Molist",
+    "body": [
+      "El Xerez CD pondrá fin en las próximas horas a la incertidumbre vivida en su banquillo durante la última semana. Abel Segovia firmará como nuevo técnico del primer equipo hasta el término de la presente temporada, según ha podido confirmarse, cerrando así un proceso de negociación que se había dilatado en los últimos días. Se desconocen, por el momento, las condiciones concretas del contrato suscrito entre ambas partes.",
+      "<strong>Un acuerdo que finalmente llega a buen puerto</strong>",
+      "El club jerezano y el técnico han alcanzado finalmente un entendimiento que permitirá a Segovia hacerse cargo del vestuario azulino con la totalidad de la presente temporada por delante, tras varios días de conversaciones para cerrar los términos de su llegada.",
+      "<strong>Sucesor de Xavi Molist</strong>",
+      "El nuevo entrenador releva así a Xavi Molist, destituido tras la derrota cosechada en el feudo del Recreativo de Huelva, resultado que dejaba al conjunto jerezano con solo dos puntos de doce posibles y en puestos de descenso tras las cuatro primeras jornadas del Grupo 4 de Segunda RFEF.",
+      "<strong>Debut inminente ante el Tenerife B</strong>",
+      "Abel Segovia dispondrá de escasos días para preparar su primer encuentro al frente del Xerez CD, que llegará ya el próximo domingo con la visita del Tenerife B a Chapín. Un estreno con la presión añadida de tener que revertir cuanto antes una dinámica de resultados que ha encendido las alarmas entre la afición azulina en el arranque liguero."
     ]
   }
 }

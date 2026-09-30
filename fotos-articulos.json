@@ -15,10 +15,6 @@
     "foto": "fotos/publicadas/xerez-ceuta-b-chacon-onate-celebracion.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
   },
-  "art46": {
-    "foto": "fotos/publicadas/mapa-andalucia-rivales.png",
-    "creditoFoto": "Foto: PuroXerecismo"
-  },
   "art47": {
     "foto": "fotos/publicadas/xerez-racing-portuense-cuvillo-1.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
@@ -128,6 +124,10 @@
     "creditoFoto": "Foto: Diario Xerecista"
   },
   "art74": {
+    "foto": "fotos/publicadas/abel-segovia-marbella-cf.png",
+    "creditoFoto": "Foto: Marbella CF"
+  },
+  "art75": {
     "foto": "fotos/publicadas/abel-segovia-marbella-cf.png",
     "creditoFoto": "Foto: Marbella CF"
   }

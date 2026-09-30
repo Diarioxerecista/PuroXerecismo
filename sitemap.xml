@@ -52,14 +52,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-xerez-cd-encadena-su-segundo-triunfo-veraniego-ante-el-filial-del-ceuta/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-08/cambios-en-el-grupo-del-xerez-sale-el-atletico-paso-entra-el-salerm-puente-genil/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-08-14</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/cambios-en-el-grupo-del-xerez-sale-el-atletico-paso-entra-el-salerm-puente-genil/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/cambios-en-el-grupo-del-xerez-sale-el-atletico-paso-entra-el-salerm-puente-genil/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-xerez-empata-ante-un-buen-portuense/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -470,5 +462,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cerca-de-un-acuerdo-con-abel-segovia-aunque-el-nombramiento-aun-no-esta-cerrado/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-close-to-an-agreement-with-abel-segovia-although-the-appointment-is-not-yet-finalised/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cerca-de-un-acuerdo-con-abel-segovia-aunque-el-nombramiento-aun-no-esta-cerrado/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-segovia-firmara-como-nuevo-entrenador-del-xerez-cd-hasta-el-final-de-temporada/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-segovia-firmara-como-nuevo-entrenador-del-xerez-cd-hasta-el-final-de-temporada/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/abel-segovia-to-sign-as-new-xerez-cd-head-coach-until-the-end-of-the-season/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-segovia-firmara-como-nuevo-entrenador-del-xerez-cd-hasta-el-final-de-temporada/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-09/abel-segovia-to-sign-as-new-xerez-cd-head-coach-until-the-end-of-the-season/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-09-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-segovia-firmara-como-nuevo-entrenador-del-xerez-cd-hasta-el-final-de-temporada/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/abel-segovia-to-sign-as-new-xerez-cd-head-coach-until-the-end-of-the-season/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-segovia-firmara-como-nuevo-entrenador-del-xerez-cd-hasta-el-final-de-temporada/"/>
   </url>
 </urlset>
