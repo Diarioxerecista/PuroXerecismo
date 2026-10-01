@@ -35,10 +35,6 @@
     "foto": "fotos/publicadas/xerez-jaen-vendimia-pitos.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
   },
-  "art52": {
-    "foto": "fotos/publicadas/xerez-cd-tienda-oficial-apertura.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art53": {
     "foto": "fotos/publicadas/xerez-cd-accion-partido-2026-27.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
@@ -130,5 +126,9 @@
   "art75": {
     "foto": "fotos/publicadas/abel-segovia-marbella-cf.png",
     "creditoFoto": "Foto: Marbella CF"
+  },
+  "art76": {
+    "foto": "fotos/publicadas/copa-del-rey-2026-27-grupos-primera-eliminatoria.png",
+    "creditoFoto": "Imagen: RFEF"
   }
 }

@@ -243,19 +243,6 @@
       "Eso no significa que la crítica no tenga cabida, ni que la afición deba aplaudir sin más cualquier cosa que pase en el campo. El seguidor tiene todo el derecho a exigir, a analizar y a preocuparse cuando algo no funciona. Pero hay formas y hay momentos, y un amistoso de pretemporada, con la plantilla todavía en construcción, no es ni el momento ni el lugar para sacar los pitos. Ese comportamiento no ayuda al equipo, no ayuda al técnico y, sobre todo, no se corresponde con el camino que ha recorrido este club para volver a estar donde está. Toca acompañar, apretar los dientes si hace falta, y guardar la exigencia de verdad para cuando de verdad empiecen a repartirse los puntos."
     ]
   },
-  "art52": {
-    "fecha": "2026-08-20",
-    "categoria": "noticia",
-    "eyebrow": "Club · Tienda oficial",
-    "title": "El Xerez CD inaugura su tienda oficial con una gran respuesta de la afición",
-    "lead": "El club azulino abrió esta tarde, a las ocho, las puertas de su tienda oficial, y la respuesta de los xerecistas no se hizo esperar.",
-    "body": [
-      "El club azulino abrió esta tarde, a las ocho, las puertas de su tienda oficial, y la respuesta de los xerecistas no se hizo esperar. Decenas de aficionados se acercaron desde primera hora para conocer de cerca la nueva equipación firmada por Nike, en una jornada que sirve además como pistoletazo de salida a la campaña de merchandising de cara a la temporada 2026/27.",
-      "La equipación, que ya se había podido ver en fotografías durante las últimas semanas, ganó adeptos nada más tenerla delante. Las imágenes no le hacían justicia: en persona, la camiseta ha sorprendido gratamente a quienes se acercaron a probársela, y el ambiente en el interior del establecimiento recordó a las mejores tardes de compras previas al arranque de temporada.",
-      "En cuanto a los precios, el club ha optado por mantener los mismos que la pasada campaña, sin ninguna subida en las principales prendas de la colección. Además, como viene siendo habitual, los socios del Xerez CD cuentan con un descuento del 5% sobre el precio de venta al público en todos los artículos, un aliciente más para que los abonados se pasen por la tienda estos días.",
-      "Con la pretemporada ya en su recta final y el estreno liguero fijado para el 6 de septiembre en Estepona, la apertura de la tienda oficial pone de manifiesto el tirón que sigue teniendo el Xerez CD entre su afición, que no ha dudado en volcarse desde el primer día para vestir de azulino esta nueva temporada."
-    ]
-  },
   "art53": {
     "fecha": "2026-08-21",
     "categoria": "noticia",
@@ -924,6 +911,24 @@
       "El nuevo entrenador releva así a Xavi Molist, destituido tras la derrota cosechada en el feudo del Recreativo de Huelva, resultado que dejaba al conjunto jerezano con solo dos puntos de doce posibles y en puestos de descenso tras las cuatro primeras jornadas del Grupo 4 de Segunda RFEF.",
       "<strong>Debut inminente ante el Tenerife B</strong>",
       "Abel Segovia dispondrá de escasos días para preparar su primer encuentro al frente del Xerez CD, que llegará ya el próximo domingo con la visita del Tenerife B a Chapín. Un estreno con la presión añadida de tener que revertir cuanto antes una dinámica de resultados que ha encendido las alarmas entre la afición azulina en el arranque liguero."
+    ]
+  },
+  "art76": {
+    "fecha": "2026-10-01",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Sorteo",
+    "title": "El Xerez CD, previsiblemente emparejado con un Segunda División, mientras Recreativo y Lebrijana tendrán rival de Primera",
+    "lead": "El criterio de proximidad geográfica apunta a que el Recreativo de Huelva y el vencedor del duelo entre la UB Lebrijana y el CD Ceuta se cruzarán con toda seguridad con un conjunto de Primera División, mientras los equipos madrileños de categorías inferiores absorberán a los otros representantes de la máxima categoría, dejando al conjunto azulino sin esa opción",
+    "body": [
+      "El sorteo de la primera eliminatoria de la Copa del Rey, que se celebrará el próximo lunes 5 de octubre en el Salón Luis Aragonés de la Ciudad del Fútbol, se regirá por el criterio de proximidad geográfica entre los clubes participantes, un factor que marcará de forma decisiva los emparejamientos de esta ronda.",
+      "<strong>Recreativo de Huelva y Lebrijana, abocados a un rival de Primera</strong>",
+      "La distribución territorial de los equipos participantes deja prácticamente sentenciado que tanto el Recreativo de Huelva como el vencedor de la eliminatoria previa entre la UB Lebrijana y el CD Ceuta se medirán con seguridad a un representante de Primera División. Al tratarse de los únicos clubes de entidad situados en el entorno andaluz más próximo a los grandes conjuntos de la máxima categoría con sede en la región, el criterio geográfico del sorteo prácticamente garantiza ese cruce de máximo nivel para ambos equipos.",
+      "<strong>Los equipos madrileños, candidatos a los otros cruces de Primera</strong>",
+      "La concentración de clubes radicados en la Comunidad de Madrid entre los participantes de categorías inferiores apunta, por su parte, a que los restantes representantes de Primera División quedarán emparejados con conjuntos como el vencedor de la eliminatoria previa entre el AD Sporting de Hortaleza y el Atlético Unión Güímar, el CF Trival Valderas, el CDA Navalcarnero o la AD Alcorcón, todos ellos situados en el entorno madrileño.",
+      "<strong>El Xerez CD, sin opción de un rival de Primera</strong>",
+      "Esta doble circunstancia geográfica deja al Xerez CD prácticamente sin opción de recibir en el sorteo a un equipo de la máxima categoría, al quedar los cupos más próximos ya cubiertos por los clubes andaluces y madrileños antes citados. Todo apunta, por tanto, a que los azulinos tendrán que conformarse con un rival de Segunda División en esta primera eliminatoria copera.",
+      "<strong>A la espera del bombo definitivo</strong>",
+      "La composición final de los grupos del sorteo seguirá dependiendo, en cualquier caso, de la resolución de la eliminatoria previa del 3 y 4 de octubre, por lo que habrá que esperar a los próximos días para conocer con exactitud contra quién medirá sus fuerzas el Xerez CD en su participación en la Copa del Rey."
     ]
   }
 }

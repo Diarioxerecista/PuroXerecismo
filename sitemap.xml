@@ -102,14 +102,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/los-pitos-que-no-tocan-pretemporada-no-es-tiempo-de-exigir-es-tiempo-de-construir/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-inaugura-su-tienda-oficial-con-una-gran-respuesta-de-la-aficion/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-08-20</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-inaugura-su-tienda-oficial-con-una-gran-respuesta-de-la-aficion/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-inaugura-su-tienda-oficial-con-una-gran-respuesta-de-la-aficion/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-08/el-xerez-cd-abrira-la-liga-el-sabado-5-de-septiembre-a-las-21-00-en-estepona/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -480,5 +472,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-segovia-firmara-como-nuevo-entrenador-del-xerez-cd-hasta-el-final-de-temporada/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/abel-segovia-to-sign-as-new-xerez-cd-head-coach-until-the-end-of-the-season/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/abel-segovia-firmara-como-nuevo-entrenador-del-xerez-cd-hasta-el-final-de-temporada/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-previsiblemente-emparejado-con-un-segunda-division-mientras-recreativo-y-lebrijana-tendran-rival-de-primera/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-previsiblemente-emparejado-con-un-segunda-division-mientras-recreativo-y-lebrijana-tendran-rival-de-primera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cd-likely-to-be-paired-with-a-segunda-division-side-while-recreativo-and-lebrijana-will-face-primera-opposition/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-previsiblemente-emparejado-con-un-segunda-division-mientras-recreativo-y-lebrijana-tendran-rival-de-primera/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cd-likely-to-be-paired-with-a-segunda-division-side-while-recreativo-and-lebrijana-will-face-primera-opposition/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-10-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-previsiblemente-emparejado-con-un-segunda-division-mientras-recreativo-y-lebrijana-tendran-rival-de-primera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cd-likely-to-be-paired-with-a-segunda-division-side-while-recreativo-and-lebrijana-will-face-primera-opposition/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-previsiblemente-emparejado-con-un-segunda-division-mientras-recreativo-y-lebrijana-tendran-rival-de-primera/"/>
   </url>
 </urlset>
