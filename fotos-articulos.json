@@ -43,10 +43,6 @@
     "foto": "fotos/publicadas/xerez-rotena-fali-falta-gol.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
   },
-  "art56": {
-    "foto": "fotos/publicadas/julio-martinez-xerez.png",
-    "creditoFoto": "Foto: Málaga CF"
-  },
   "art57": {
     "foto": "fotos/publicadas/xerez-sanluqueno-amistoso-1.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
@@ -134,5 +130,9 @@
   "art78": {
     "foto": "fotos/publicadas/xerez-cadiz-copa-del-rey-2026-27-escudos.jpg",
     "creditoFoto": "Imagen: Diario Xerecista"
+  },
+  "art79": {
+    "foto": "fotos/publicadas/xerez-cadiz-precedente-copa-celebracion.png",
+    "creditoFoto": "Foto: Archivo"
   }
 }

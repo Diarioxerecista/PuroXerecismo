@@ -325,19 +325,6 @@
     "estadio": "Manuel Bernal (Rota)",
     "jornadaLabel": "Amistoso · Pretemporada"
   },
-  "art56": {
-    "fecha": "2026-08-26",
-    "categoria": "noticia",
-    "eyebrow": "Mercado de fichajes · Ataque",
-    "title": "Julio Martínez, extremo del UCAM Murcia, se convertirá en jugador azulino en las próximas horas",
-    "lead": "El Xerez CD tiene casi cerrada la incorporación del extremo, que llegaría procedente del conjunto universitario para reforzar el ataque a menos de dos semanas del estreno liguero en Estepona.",
-    "body": [
-      "El Xerez CD ultima un nuevo refuerzo para su ataque. Julio Martínez, extremo del UCAM Murcia, se convertirá en jugador azulino en las próximas horas, según ha podido saber este medio. La operación está casi cerrada y el club se encuentra cerrando flecos de última hora antes de hacerla oficial.",
-      "El futbolista, formado en la cantera del Málaga CF, llega procedente del conjunto universitario, el mismo club que este verano incorporó al exxerecista Charaf Taoualy de la mano de Checa, técnico también con pasado en el banquillo del Pedro S. Garrido. Su perfil es el de un extremo de banda, con desborde y capacidad para jugar a pierna cambiada, un recurso que el cuerpo técnico buscaba desde hace semanas.",
-      "La llegada de Martínez responde a una necesidad clara en la parcela ofensiva azulina. Las bajas de Saúl Romero, con dos meses de baja por una fractura en el pie, y de Chuma han obligado a Xavi Molist a tirar durante toda la pretemporada de Rubén Mesa como referencia y a reconvertir a futbolistas como Zelu y Jaime Fernández para poblar las bandas.",
-      "El extremo podría incorporarse al grupo con la pretemporada ya cerrada y con el estreno liguero a la vuelta de la esquina: el Xerez CD abre el Grupo IV de Segunda Federación el sábado 5 de septiembre a las 21:00 en el campo del CD Estepona. Molist dispone de menos de dos semanas para encajar en el once a los últimos futbolistas llegados a la plantilla."
-    ]
-  },
   "art57": {
     "fecha": "2026-08-29",
     "categoria": [
@@ -978,6 +965,22 @@
       "El partido se disputará, con toda probabilidad, el miércoles 28 de octubre, aunque la fecha y el horario definitivos aún no han sido confirmados oficialmente. Habrá que esperar a las próximas jornadas para conocer todos los detalles.",
       "<strong>Un cruce con regusto especial</strong>",
       "El choque llega en un momento en el que el Xerez busca reencontrarse con las buenas sensaciones tras su primera victoria liguera ante el Tenerife B, y supone una oportunidad para que la afición azulina viva una cita de máximo atractivo en su estadio, ante un rival de enorme atractivo."
+    ]
+  },
+  "art79": {
+    "fecha": "2026-10-05",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Precedentes",
+    "title": "El último precedente copero entre Xerez y Cádiz fue para los azulinos: eliminatoria de 1985-86 resuelta con un global de 4-2",
+    "lead": "Tras el empate a uno en el Domecq, el Xerez se impuso por 1-3 en el Ramón de Carranza, en el último cruce directo de Copa entre ambos clubes",
+    "body": [
+      "Con el sorteo de la primera eliminatoria de la Copa del Rey ya resuelto y el derbi provincial señalado para el miércoles 28 de octubre en Chapín, la memoria xerecista viaja hasta la temporada 1985-86, la última vez que Xerez CD y Cádiz CF se vieron las caras en una eliminatoria directa del torneo del KO.",
+      "<strong>Empate en el Domecq</strong>",
+      "La ida se disputó el 23 de octubre de 1985 en el estadio Domecq de Jerez y terminó con un empate a uno. El resultado dejó la eliminatoria abierta de cara al duelo en tierras gaditanas.",
+      "<strong>Triunfo azulino en el Carranza</strong>",
+      "El partido de vuelta se jugó el 6 de noviembre de 1985 en el estadio Ramón de Carranza. El Xerez se llevó el derbi por 1-3 en campo del conjunto cadista y certificó su clasificación con un global de 4-2.",
+      "<strong>Cuarenta y un años después, nuevo capítulo</strong>",
+      "Más de cuatro décadas después de aquella eliminatoria, ambos equipos volverán a medirse en la Copa. Esta vez será a partido único y con el Xerez como local en Chapín. Los azulinos, de nuevo en el papel de aspirante frente a un rival de categoría superior, intentarán repetir la gesta y alimentar la ilusión de una afición que ya sueña con otro derbi para la historia."
     ]
   }
 }
