@@ -243,19 +243,6 @@
       "Eso no significa que la crítica no tenga cabida, ni que la afición deba aplaudir sin más cualquier cosa que pase en el campo. El seguidor tiene todo el derecho a exigir, a analizar y a preocuparse cuando algo no funciona. Pero hay formas y hay momentos, y un amistoso de pretemporada, con la plantilla todavía en construcción, no es ni el momento ni el lugar para sacar los pitos. Ese comportamiento no ayuda al equipo, no ayuda al técnico y, sobre todo, no se corresponde con el camino que ha recorrido este club para volver a estar donde está. Toca acompañar, apretar los dientes si hace falta, y guardar la exigencia de verdad para cuando de verdad empiecen a repartirse los puntos."
     ]
   },
-  "art53": {
-    "fecha": "2026-08-21",
-    "categoria": "noticia",
-    "eyebrow": "Competición · Jornada 1",
-    "title": "El Xerez CD abrirá la liga el sábado 5 de septiembre a las 21:00 en Estepona",
-    "lead": "El estreno liguero del conjunto azulino en el Grupo IV de Segunda Federación se disputará en horario nocturno, en el campo del CD Estepona.",
-    "body": [
-      "El Xerez CD ya conoce el día y la hora de su debut en la temporada 2026/27. El conjunto azulino abrirá la competición el sábado 5 de septiembre a las 21:00 en Estepona, en un adelanto respecto al domingo 6 que figuraba inicialmente en el calendario del Grupo IV de Segunda Federación.",
-      "El horario nocturno responde a las altas temperaturas que suelen registrarse en la Costa del Sol a comienzos de septiembre, una circunstancia habitual en las primeras jornadas del calendario andaluz. Para la afición xerecista supone además un desplazamiento en sábado, algo que facilita la organización del viaje hasta la localidad malagueña.",
-      "El equipo de Xavi Molist llegará a la cita con la pretemporada ya cerrada y con la necesidad de dejar atrás las dudas mostradas en el Trofeo Feria de la Vendimia. El técnico dispone todavía de dos semanas de trabajo para ajustar el once y terminar de encajar a los últimos futbolistas incorporados a la plantilla.",
-      "El CD Estepona, por su parte, afronta el estreno ante su público en una de las plazas que se presume más incómodas del grupo. Será la primera prueba real para un Xerez CD que ha declarado abiertamente su objetivo de pelear por el ascenso a Primera Federación."
-    ]
-  },
   "art54": {
     "fecha": "2026-08-22",
     "categoria": [
@@ -975,6 +962,22 @@
       "<strong>Goles:</strong> 0-1 (18') Omar Sánchez, de penalti. 1-1 (55') Julito. 2-1 (79') Chuma.",
       "<strong>Árbitro:</strong> Carlos Agraz Díaz (Comité Extremeño). Amonestó a Chacartegui, Rubén Mesa, Raúl López, Ismael y Julito.",
       "<strong>Incidencias:</strong> Quinta jornada del Grupo 4 de Segunda RFEF, disputada en Chapín ante 7.466 espectadores."
+    ]
+  },
+  "art78": {
+    "fecha": "2026-10-05",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Primera eliminatoria",
+    "title": "El Xerez CD se medirá al Cádiz CF en Chapín en la primera eliminatoria de la Copa del Rey",
+    "lead": "El sorteo celebrado en Las Rozas deparó un derbi provincial que, con toda probabilidad, se disputará el miércoles 28 de octubre en el estadio azulino",
+    "body": [
+      "El Xerez CD ya conoce su rival en la primera eliminatoria de la Copa del Rey: será el Cádiz CF. Así lo ha deparado el sorteo celebrado este lunes en Las Rozas a partir de las 13:00 horas, en el que los azulinos han quedado emparejados con el conjunto amarillo, tal y como ya adelantó esta web en días previos. El encuentro se jugará en Chapín.",
+      "<strong>Un derbi provincial en el torneo del KO</strong>",
+      "El cruce enfrenta a dos de los clubes más representativos de la provincia de Cádiz en un duelo con un claro componente de rivalidad. El Xerez, que compite en Segunda RFEF, tendrá la oportunidad de medirse en casa a un equipo de Segunda División, como ya apuntaba el criterio de proximidad geográfica que rige estos emparejamientos.",
+      "<strong>Fecha prevista</strong>",
+      "El partido se disputará, con toda probabilidad, el miércoles 28 de octubre, aunque la fecha y el horario definitivos aún no han sido confirmados oficialmente. Habrá que esperar a las próximas jornadas para conocer todos los detalles.",
+      "<strong>Un cruce con regusto especial</strong>",
+      "El choque llega en un momento en el que el Xerez busca reencontrarse con las buenas sensaciones tras su primera victoria liguera ante el Tenerife B, y supone una oportunidad para que la afición azulina viva una cita de máximo atractivo en su estadio, ante un rival de enorme atractivo."
     ]
   }
 }

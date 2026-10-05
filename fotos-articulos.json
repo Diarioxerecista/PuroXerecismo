@@ -35,10 +35,6 @@
     "foto": "fotos/publicadas/xerez-jaen-vendimia-pitos.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
   },
-  "art53": {
-    "foto": "fotos/publicadas/xerez-cd-accion-partido-2026-27.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
-  },
   "art54": {
     "foto": "fotos/publicadas/xerez-torremolinos-rafa-verdu-1.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
@@ -134,5 +130,9 @@
   "art77": {
     "foto": "fotos/publicadas/xerez-tenerife-b-j5-celebracion.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art78": {
+    "foto": "fotos/publicadas/xerez-cadiz-copa-del-rey-2026-27-escudos.jpg",
+    "creditoFoto": "Imagen: Diario Xerecista"
   }
 }
