@@ -141,22 +141,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Vendimia Trophy · Pre-season"
   },
-  "art59": {
-    "fecha": "2026-09-11",
-    "categoria": "noticia",
-    "eyebrow": "Head-to-head · Xerez - Badajoz",
-    "title": "History smiles on Xerez: 16 wins to Badajoz's 2 in 24 meetings",
-    "lead": "The blue-and-whites hold a clear historical advantage over an opponent they have not lost to since 1991 and whom they beat 5-3 in their most recent meeting in Segunda División",
-    "body": [
-      "Xerez CD host Badajoz this Sunday in their first home league match of the season at the blue-and-white stadium, a game in which the head-to-head record between the two clubs clearly favours Xavi Molist's side. The two teams have met 24 times throughout their history, with a record heavily in favour of the Xerecistas: 16 blue-and-white wins, 6 draws and just 2 victories for the side from Badajoz.",
-      "<strong>Almost total historical dominance</strong>",
-      "The first meeting between the two sides dates back to 18 September 1949, a 3-0 win for Xerez. Since then, Xerez have called the tune in most of the encounters, leaving Badajoz with very little to celebrate in the overall count.",
-      "In fact, Badajoz's last win goes back to 1991, a narrow 0-2, at a time when both clubs were playing in Segunda B. Since then, more than three decades of shared history have not smiled on the Extremadura side again.",
-      "<strong>The most recent meeting, with a hatful of goals</strong>",
-      "The most recent clash between the two teams was played on matchday 41 of Segunda División, a thrilling 5-3 win for Xerez, a result that reflects just how well the blue-and-whites have historically fared against this opponent.",
-      "With that backdrop, Xerez CD go into Sunday's home debut of the season with the confidence that comes from an overwhelmingly favourable record, although Molist's side know that every match is a new story and that Badajoz will arrive eager to break that negative trend."
-    ]
-  },
   "art60": {
     "fecha": "2026-09-13",
     "categoria": [
@@ -705,6 +689,22 @@
       "The second leg was played on 6 November 1985 at the Ramón de Carranza stadium. Xerez won the derby 1-3 on Cádiz’s ground and sealed their progress with a 4-2 aggregate.",
       "<strong>Forty-one years later, a new chapter</strong>",
       "More than four decades after that tie, the two sides will meet again in the Cup. This time it will be a single match, with Xerez at home at Chapín. The azulinos, once again cast as the underdog against a higher-division opponent, will try to repeat the feat and feed the hopes of a fanbase that is already dreaming of another derby for the history books."
+    ]
+  },
+  "art80": {
+    "fecha": "2026-10-06",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Matchday 6",
+    "title": "Xerez CD visit Betis Deportivo, a solid leader yet to concede a goal",
+    "lead": "The azulinos face the verdiblanco reserve side on Saturday at 18:00, a team that has gone five matches without conceding and is the main candidate for direct promotion. A defeat would leave Abel Segovia’s side 11 points behind the leader barely a month into the season",
+    "body": [
+      "Xerez CD face one of the toughest tests on the calendar. On Saturday at 18:00 they will visit Betis Deportivo, leaders of Group 4 of Segunda RFEF, a team that has completed its first five matches without any opponent breaching its goal.",
+      "<strong>A leader that gives nothing away</strong>",
+      "The Betis reserve side has built its start on an impenetrable defence. Five matchdays with a clean sheet make the verdiblanco squad a very hard unit to beat and the main contender to achieve direct promotion. Their solidity at the back contrasts with the goal drought the Jerez side endured in the opening matchdays.",
+      "<strong>A match with a lot at stake</strong>",
+      "The azulinos arrive at the fixture after opening their win account against Tenerife B (2-1), a result that restored confidence to a dressing room that was going through a delicate moment. With Abel Segovia now in charge of the team, Xerez know the match is worth more than three points. If Betis Deportivo win, the gap to the leader would rise to 11 points when barely a month of competition has passed, a lead that would be very hard to cut. A good result, on the other hand, would keep the azulinos’ hopes alive and confirm that the change on the bench has put the season back on track.",
+      "<strong>A huge challenge</strong>",
+      "Beating a team that has not yet conceded a goal is a complicated task. Xerez will need to be clinical in the final third and highly focused at the back. It will be the first big test to measure how far the team has come with its new coach."
     ]
   }
 }

@@ -51,10 +51,6 @@
     "foto": "fotos/publicadas/estepona-xerez-j1-once.jpg",
     "creditoFoto": "Foto: PuroXerecismo"
   },
-  "art59": {
-    "foto": "fotos/publicadas/xerez-badajoz-historial.png",
-    "creditoFoto": "Foto: Diario de Jerez"
-  },
   "art60": {
     "foto": "fotos/publicadas/xerez-badajoz-j2-mesa-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -134,5 +130,9 @@
   "art79": {
     "foto": "fotos/publicadas/xerez-cadiz-precedente-copa-celebracion.png",
     "creditoFoto": "Foto: Archivo"
+  },
+  "art80": {
+    "foto": "fotos/publicadas/xerez-betis-deportivo-arcos-3.jpg",
+    "creditoFoto": "Foto: PuroXerecismo"
   }
 }

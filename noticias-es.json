@@ -417,22 +417,6 @@
     "estadio": "Muñoz Pérez (Estepona)",
     "jornadaLabel": "Jornada 1 · Grupo IV"
   },
-  "art59": {
-    "fecha": "2026-09-11",
-    "categoria": "noticia",
-    "eyebrow": "Historial · Xerez - Badajoz",
-    "title": "El historial sonríe al Xerez: 16 victorias por 2 del Badajoz en 24 enfrentamientos",
-    "lead": "Los azulinos dominan claramente el balance histórico ante un rival al que no pierden desde 1991 y al que goleó 5-3 en el último precedente en Segunda División",
-    "body": [
-      "El Xerez CD recibirá al Badajoz el próximo domingo en el debut liguero como local en el estadio azulino, un partido en el que el historial entre ambos clubes juega claramente a favor de los de Xavi Molist. Los dos equipos se han enfrentado en 24 ocasiones a lo largo de su historia, con un balance ampliamente favorable para los xerecistas: 16 victorias azulinas, 6 empates y tan solo 2 triunfos pacenses.",
-      "<strong>Un dominio histórico casi absoluto</strong>",
-      "El primer precedente entre ambos conjuntos se remonta al 18 de septiembre de 1949, con victoria xerecista por 3-0. Desde entonces, el Xerez ha llevado la voz cantante en la mayoría de los enfrentamientos, dejando al Badajoz con muy pocas alegrías en el cómputo global.",
-      "De hecho, la última victoria pacense se remonta al año 1991, por un ajustado 0-2, en una época en la que ambos clubes militaban en Segunda B. Desde entonces, más de tres décadas de historia entre ambos clubes no han vuelto a sonreír al conjunto extremeño.",
-      "<strong>El último precedente, con goleada incluida</strong>",
-      "El enfrentamiento más reciente entre ambos equipos se disputó en la jornada 41 de Segunda División, con un vibrante 5-3 a favor del Xerez, en un partido que refleja bien el buen momento histórico de los azulinos ante este rival.",
-      "Con este bagaje como telón de fondo, el Xerez CD afrontará el domingo su debut como local de la temporada con la confianza que da un historial abrumadoramente favorable, aunque el equipo de Xavi Molist sabe que cada partido es una historia nueva y que el Badajoz llegará con ganas de romper esa tendencia negativa."
-    ]
-  },
   "art60": {
     "fecha": "2026-09-13",
     "categoria": [
@@ -981,6 +965,22 @@
       "El partido de vuelta se jugó el 6 de noviembre de 1985 en el estadio Ramón de Carranza. El Xerez se llevó el derbi por 1-3 en campo del conjunto cadista y certificó su clasificación con un global de 4-2.",
       "<strong>Cuarenta y un años después, nuevo capítulo</strong>",
       "Más de cuatro décadas después de aquella eliminatoria, ambos equipos volverán a medirse en la Copa. Esta vez será a partido único y con el Xerez como local en Chapín. Los azulinos, de nuevo en el papel de aspirante frente a un rival de categoría superior, intentarán repetir la gesta y alimentar la ilusión de una afición que ya sueña con otro derbi para la historia."
+    ]
+  },
+  "art80": {
+    "fecha": "2026-10-06",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Jornada 6",
+    "title": "El Xerez CD visita al Betis Deportivo, un líder sólido que aún no ha encajado un gol",
+    "lead": "Los azulinos se miden el sábado a las 18:00 horas al filial verdiblanco, que suma cinco partidos sin recibir un tanto y es el gran candidato al ascenso directo. Una derrota dejaría al equipo de Abel Segovia a 11 puntos del líder en apenas un mes de competición",
+    "body": [
+      "El Xerez CD afronta una de las pruebas más exigentes del calendario. El sábado a las 18:00 horas visitará al Betis Deportivo, líder del Grupo 4 de Segunda RFEF, un equipo que ha completado sus cinco primeros partidos sin que ningún rival le haya perforado la portería.",
+      "<strong>Un líder que no concede</strong>",
+      "El filial bético ha construido su arranque sobre una defensa impermeable. Cinco jornadas con la portería a cero convierten a la plantilla verdiblanca en un bloque muy difícil de batir y en el principal aspirante a conseguir el ascenso de forma directa. Su solidez atrás contrasta con la sequía goleadora que arrastró el conjunto jerezano en las primeras jornadas.",
+      "<strong>Un partido con mucho en juego</strong>",
+      "Los azulinos llegan a la cita tras estrenar su casillero de victorias ante el Tenerife B (2-1), un resultado que devolvió la confianza a un vestuario que atravesaba un momento delicado. Con Abel Segovia ya al frente del equipo, el Xerez sabe que el duelo vale más que tres puntos. Si gana el Betis Deportivo, la distancia con el líder subiría a 11 puntos cuando apenas ha transcurrido un mes de competición, una ventaja muy difícil de recortar. Un buen resultado en cambio mantendría vivas las aspiraciones azulinas y confirmaría que el cambio en el banquillo ha encarrilado la temporada.",
+      "<strong>Un reto mayúsculo</strong>",
+      "Batir a un equipo que todavía no ha conocido el gol en contra es una tarea complicada. El Xerez deberá mostrar acierto en los metros finales y mucha concentración atrás. Será la primera gran prueba para medir hasta dónde ha llegado el equipo con su nuevo entrenador."
     ]
   }
 }
