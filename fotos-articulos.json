@@ -9,54 +9,50 @@
   },
   "art42": {
     "foto": "fotos/publicadas/xerez-jerez-industrial-pedro-garrido-1.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art43": {
     "foto": "fotos/publicadas/xerez-ceuta-b-chacon-onate-celebracion.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art47": {
     "foto": "fotos/publicadas/xerez-racing-portuense-cuvillo-1.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art48": {
     "foto": "fotos/publicadas/xerez-betis-deportivo-arcos-1.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art49": {
     "foto": "fotos/chapin.png",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art50": {
     "foto": "fotos/publicadas/xerez-jaen-vendimia-1.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art51": {
     "foto": "fotos/publicadas/xerez-jaen-vendimia-pitos.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art54": {
     "foto": "fotos/publicadas/xerez-torremolinos-rafa-verdu-1.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art55": {
     "foto": "fotos/publicadas/xerez-rotena-fali-falta-gol.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art57": {
     "foto": "fotos/publicadas/xerez-sanluqueno-amistoso-1.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art58": {
     "foto": "fotos/publicadas/estepona-xerez-j1-once.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art60": {
     "foto": "fotos/publicadas/xerez-badajoz-j2-mesa-lamento.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
-  "art61": {
-    "foto": "fotos/publicadas/xerez-rotena-fali-ninos.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
   "art62": {
@@ -101,7 +97,7 @@
   },
   "art72": {
     "foto": "fotos/publicadas/xerez-betis-deportivo-arcos-2.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
   },
   "art73": {
     "foto": "fotos/publicadas/xerez-donbenito-j3-chapin-grada.jpg",
@@ -133,6 +129,10 @@
   },
   "art80": {
     "foto": "fotos/publicadas/xerez-betis-deportivo-arcos-3.jpg",
-    "creditoFoto": "Foto: PuroXerecismo"
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art81": {
+    "foto": "fotos/publicadas/xerez-cd-79-aniversario-escudo.jpg",
+    "creditoFoto": "Foto: Xerez CD"
   }
 }

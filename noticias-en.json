@@ -197,25 +197,6 @@
     "estadio": "Municipal de Chapín (Jerez)",
     "jornadaLabel": "Matchday 2 · Group IV"
   },
-  "art61": {
-    "fecha": "2026-09-15",
-    "categoria": "noticia",
-    "eyebrow": "Fali · El Larguero",
-    "title": "Fali opens up on El Larguero: \"Xerez has given me back the desire to get up every day\"",
-    "lead": "The blue-and-white defender and Kiko Narváez reviewed the state of the Jerez club on Cadena SER's national programme, where the player revealed deeply personal chapters and the former pundit praised Gallo's work as sporting director",
-    "body": [
-      "The name of Xerez CD echoed once again on national radio. El Larguero, on Cadena SER, devoted a slot to the latest on the blue-and-white side with the participation of Fali, a defender with the Jerez team, who shared with Kiko Narváez a conversation full of personal confessions and reflections on the club's present.",
-      "<strong>A life away from the media spotlight</strong>",
-      "One of the first subjects to come up was the player's absence from social media, a personal decision he explained as a way of protecting his privacy and staying clear of the noise that tends to accompany professional football these days. A quirk that drew attention on a programme with national reach, used to interviewing players with a wide digital profile.",
-      "The conversation soon turned to one of the most delicate episodes of his career: his departure from Cádiz CF. Fali did go into that chapter at length, covering details and circumstances of his exit from the yellow side that we, from here, prefer not to reproduce or pick apart.",
-      "<strong>Xerez, a lifeline</strong>",
-      "It was at that point in the interview that the player delivered the line that has travelled furthest since his appearance on national airwaves. Fali admitted he went through a really hard time back then, and that it has been precisely his arrival at Xerez CD that has given him back the desire to get up every day, in remarks charged with emotion that show just how far the blue-and-white dressing room has become a personal refuge for the player.",
-      "The defender was not short of praise for the Jerez supporters, for whom he said he gives his life in every match, underlining the special bond he has developed with a fanbase that, in his own words, has been decisive in his emotional recovery. Fali even expressed his wish to play one day in a derby between Xerez and Cádiz, a match he admitted he would especially love to experience from inside the pitch, despite the mixed feelings his past at the yellow club may stir in him.",
-      "<strong>Kiko Narváez highlights Gallo's role</strong>",
-      "During the chat, Kiko Narváez also took the chance to focus on the sporting management of the Jerez club, highlighting the great work Gallo is doing as the blue-and-white sporting director. The former Cadena SER pundit underlined the solidity of the project being built in Jerez, endorsing the sporting chief as one of the keys to the side's present and future.",
-      "An interview, in short, that served to bring the reality of Xerez CD closer to a national audience, making clear that, beyond results on the pitch, the Jerez club has become for some of its players far more than simply a professional destination."
-    ]
-  },
   "art62": {
     "fecha": "2026-09-16",
     "categoria": [
@@ -705,6 +686,27 @@
       "The azulinos arrive at the fixture after opening their win account against Tenerife B (2-1), a result that restored confidence to a dressing room that was going through a delicate moment. With Abel Segovia now in charge of the team, Xerez know the match is worth more than three points. If Betis Deportivo win, the gap to the leader would rise to 11 points when barely a month of competition has passed, a lead that would be very hard to cut. A good result, on the other hand, would keep the azulinos’ hopes alive and confirm that the change on the bench has put the season back on track.",
       "<strong>A huge challenge</strong>",
       "Beating a team that has not yet conceded a goal is a complicated task. Xerez will need to be clinical in the final third and highly focused at the back. It will be the first big test to measure how far the team has come with its new coach."
+    ]
+  },
+  "art81": {
+    "fecha": "2026-10-07",
+    "categoria": "noticia",
+    "eyebrow": "Club · Institutional",
+    "title": "Jerez City Council urged to finally present Xerez CD with the City Gold Medal, awarded in 2010",
+    "lead": "Members of the 75th Anniversary Committee denounce, in a letter to the mayor, the \"irregular situation\" of a full council resolution that remains unfulfilled more than fifteen years later",
+    "body": [
+      "JEREZ. The City Gold Medal that the full municipal council awarded to Xerez CD in 2010 has still not been presented. This is denounced in a letter addressed to the mayor of Jerez, María José García Pelayo, dated August 2026 and signed by Jesús Fernández Aguilar, which calls on the City Council to redress what its authors describe as a \"historic injustice\".",
+      "<strong>A request that keeps being turned down</strong>",
+      "The letter reviews the steps taken so far. In 2023, on behalf of the club’s 75th Anniversary Committee, they held a conversation with the councillor for Sport, who undertook to pass the request on to the relevant bodies. The answer they received was that it was not the right moment.",
+      "On 22 July 2024 they submitted a letter through the official channels to formally request that this failure to comply be put right. The mayor then informed the president of Xerez CD of a new negative response, once again based on the situation not being favourable. According to the letter, this increased the weariness and incomprehension of those driving the claim.",
+      "<strong>\"There are no objective circumstances\"</strong>",
+      "Two years later, the signatories maintain that the context has changed. They highlight the current moment of institutional normalisation between the City Council and the city’s clubs, reflected in the agreements recently signed, and state that there are no objective circumstances preventing the club from receiving a recognition granted by the people of Jerez more than fifteen years ago.",
+      "They also stress that other relevant people and institutions in the city regularly receive medals, and describe the situation as an \"administrative anomaly that is hard to justify\" for an institution such as the City Council.",
+      "<strong>Credit to the current government, but with demands</strong>",
+      "The letter acknowledges that the current governing team was not responsible for delaying the process, although it considers that the municipal corporation should be the first to ensure that the medal reaches its recipient. It recalls that full council resolutions are binding and leaves open the possibility of taking action if the matter is not resolved, while expressing the wish that this will not be necessary.",
+      "\"It is my most fervent wish that it will not be necessary for any such action to be set in motion,\" the text states, trusting that the City Council will show the sensitivity, formality and exemplary conduct befitting an institution that acts on behalf of all the people of Jerez.",
+      "<strong>Attached documentation</strong>",
+      "Along with the letter, documentation on the various steps taken and a press dossier have been sent. The signatories are awaiting a response from the City Council."
     ]
   }
 }

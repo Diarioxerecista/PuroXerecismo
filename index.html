@@ -1626,7 +1626,8 @@
     'Las Palmas Atlético':      'fotos/escudos/las-palmas-atletico.png',
     'Sevilla Atlético':         'fotos/escudos/sevilla-atletico.png',
     'C.P. Mijas Las Lagunas':   'fotos/escudos/las-lagunas.png',
-    'Jerez Industrial':         'fotos/escudos/jerez-industrial.png'
+    'Jerez Industrial':         'fotos/escudos/jerez-industrial.png',
+    'C\u00e1diz CF':               'fotos/escudos/cadiz.png'
   };
   function escudoImg(nombre){
     var src = ESCUDOS[nombre];
@@ -1658,6 +1659,7 @@
     {fecha:'2026-10-10',jornada:'J6', local:'Betis Deportivo',          visitante:'Xerez CD',                hora:'18:00', resultado:null},
     {fecha:'2026-10-18',jornada:'J7', local:'Xerez CD',                 visitante:'Ciudad de Lucena',        resultado:null},
     {fecha:'2026-10-25',jornada:'J8', local:'Xerez CD',                 visitante:'Marbella F.C.',           resultado:null},
+    {fecha:'2026-10-28',jornada:'Copa del Rey',local:'Xerez CD',            visitante:'C\u00e1diz CF',              resultado:null, tipo:'copa', sede:'Chap\u00edn'},
     {fecha:'2026-11-01',jornada:'J9', local:'U.D. Tamaraceite',         visitante:'Xerez CD',                resultado:null},
     {fecha:'2026-11-08',jornada:'J10',local:'Atlético Sanluqueño',      visitante:'Xerez CD',                resultado:null},
     {fecha:'2026-11-15',jornada:'J11',local:'Xerez CD',                 visitante:'C.A. Antoniano',          resultado:null},
@@ -1706,7 +1708,7 @@
       '<div class="proximo-widget">'+
         '<div class="proximo-widget-label">'+
           '<span>'+label+'</span>'+
-          '<span class="proximo-widget-jornada">'+proximo.jornada+(proximo.tipo==='amistoso' ? ' &middot; Pretemporada 2026/27' : ' &middot; 2&ordf; Fed. Grupo IV')+'</span>'+
+          '<span class="proximo-widget-jornada">'+proximo.jornada+(proximo.tipo==='amistoso' ? ' &middot; Pretemporada 2026/27' : proximo.tipo==='copa' ? (idiomaActual==='es' ? ' &middot; Primera eliminatoria' : ' &middot; First round') : ' &middot; 2&ordf; Fed. Grupo IV')+'</span>'+
         '</div>'+
         '<div class="proximo-widget-match">'+
           '<span class="proximo-equipo'+(localXerez?' xerez':'')+'" style="display:inline-flex;align-items:center;gap:10px;">'+escudoWidget(proximo.local)+proximo.local+'</span>'+
