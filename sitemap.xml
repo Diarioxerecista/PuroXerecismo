@@ -152,24 +152,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-09/el-xerez-cd-falla-un-penalti-en-el-94-y-certifica-su-primera-derrota-liguera-ante-el-badajoz/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/como-afecta-la-inflacion-a-un-aficionado-al-futbol/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-09-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/como-afecta-la-inflacion-a-un-aficionado-al-futbol/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/how-inflation-affects-a-football-supporter/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/como-afecta-la-inflacion-a-un-aficionado-al-futbol/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-09/how-inflation-affects-a-football-supporter/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-09-16</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/como-afecta-la-inflacion-a-un-aficionado-al-futbol/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/how-inflation-affects-a-football-supporter/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/como-afecta-la-inflacion-a-un-aficionado-al-futbol/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/molist-exige-el-cuchillo-entre-los-dientes-para-tumbar-al-lider-don-benito/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -546,5 +528,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/un-xerez-paga-su-desgaste-fisico-y-cede-un-empate-ante-el-betis-deportivo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/cronicas/2026-10/xerez-pay-for-their-physical-toll-and-concede-a-draw-against-betis-deportivo/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/un-xerez-paga-su-desgaste-fisico-y-cede-un-empate-ante-el-betis-deportivo/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-tras-medirse-a-seis-rivales-de-la-zona-alta-recibe-al-tercero/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-tras-medirse-a-seis-rivales-de-la-zona-alta-recibe-al-tercero/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cd-having-faced-six-top-half-sides-host-the-third-placed-team/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-tras-medirse-a-seis-rivales-de-la-zona-alta-recibe-al-tercero/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cd-having-faced-six-top-half-sides-host-the-third-placed-team/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-tras-medirse-a-seis-rivales-de-la-zona-alta-recibe-al-tercero/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cd-having-faced-six-top-half-sides-host-the-third-placed-team/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-tras-medirse-a-seis-rivales-de-la-zona-alta-recibe-al-tercero/"/>
   </url>
 </urlset>

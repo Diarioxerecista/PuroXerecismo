@@ -55,10 +55,6 @@
     "foto": "fotos/publicadas/xerez-badajoz-j2-mesa-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art62": {
-    "foto": "fotos/publicadas/xerez-messi-2009.jpg",
-    "creditoFoto": "Foto: Archivo"
-  },
   "art63": {
     "foto": "fotos/publicadas/molist-chapin-rueda-prensa.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -137,6 +133,10 @@
   },
   "art82": {
     "foto": "fotos/publicadas/betis-deportivo-xerez-j6-celebracion-chuma.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art83": {
+    "foto": "fotos/publicadas/xerez-tenerife-b-j5-disputa.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
