@@ -59,10 +59,6 @@
     "foto": "fotos/publicadas/xerez-donbenito-j3-pantoja-parada.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art66": {
-    "foto": "fotos/publicadas/garcia-delgado-minera-acuerdo.jpg",
-    "creditoFoto": "Foto: CD Minera"
-  },
   "art67": {
     "foto": "fotos/publicadas/xerez-cd-79-aniversario-escudo.jpg",
     "creditoFoto": "Foto: Xerez CD"
@@ -137,6 +133,10 @@
   },
   "art85": {
     "foto": "fotos/publicadas/Noticia_zelu.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art86": {
+    "foto": "fotos/publicadas/xerez-badajoz-j2-disputa.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
