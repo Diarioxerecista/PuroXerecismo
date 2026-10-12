@@ -26,7 +26,7 @@ El texto español se respeta literal (solo se corrigen erratas evidentes y mayú
 - Usar solo los datos que dé el usuario y los del repositorio (calendario, clasificación, plantilla). No inventar declaraciones, cifras ni fuentes.
 - Lo que sea suposición, escribirlo como tal ("podría", "según apuntan").
 - Avisar al usuario de cualquier dato que no cuadre con el repositorio antes de publicar.
-- Enseñar el texto al usuario antes de publicarlo.
+- Enseñar al usuario solo el texto en español antes de publicarlo. Cuando lo apruebe, publicar a la vez la versión española y la inglesa.
 - Si el usuario envía el texto ya redactado, se respeta literal (como dice la sección de publicación bilingüe).
 
 ## Rotación de noticias (categoría "noticia" únicamente)
