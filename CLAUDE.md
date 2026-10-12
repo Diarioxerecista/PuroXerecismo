@@ -21,6 +21,14 @@ TODO artículo que se publique (noticia, crónica, opinión, historia) se public
 
 El texto español se respeta literal (solo se corrigen erratas evidentes y mayúsculas de nombres propios, avisando). El inglés es traducción fiel, sin reescribir ni resumir.
 
+## Estilo de redacción
+- Cuando el usuario envíe notas o datos sueltos, redactar la pieza como un periodista deportivo profesional de un diario local: pirámide invertida, lo más importante en el titular y la entradilla, frases claras, sin adornos ni opiniones (salvo en Opinión).
+- Usar solo los datos que dé el usuario y los del repositorio (calendario, clasificación, plantilla). No inventar declaraciones, cifras ni fuentes.
+- Lo que sea suposición, escribirlo como tal ("podría", "según apuntan").
+- Avisar al usuario de cualquier dato que no cuadre con el repositorio antes de publicar.
+- Enseñar el texto al usuario antes de publicarlo.
+- Si el usuario envía el texto ya redactado, se respeta literal (como dice la sección de publicación bilingüe).
+
 ## Rotación de noticias (categoría "noticia" únicamente)
 Mantener siempre un máximo de 17 artículos con `categoria: "noticia"` (o array que incluya "noticia" pero no "cronica") en noticias-es.json. Al publicar uno nuevo que supere ese total, borrar el más antiguo (por `fecha`; empate → id menor) de esa categoría en:
 - noticias-es.json y noticias-en.json
