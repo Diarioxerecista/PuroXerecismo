@@ -4,7 +4,7 @@ Web de aficionados del Xerez CD, bilingüe ES/EN, temporada 2026/27 (Segunda RFE
 
 ## Dónde trabajar
 - **En Claude Code / GitHub:** el repositorio ES la web. Edita los archivos en la raíz y haz commit + push. No uses las carpetas espejo.
-- **En el entorno de diseño (claude.ai):** hay 4 copias que deben quedar idénticas: raíz, `subir-ahora/`, `web-completa/`, `para-subir/`. Cada cambio se aplica en las cuatro.
+- Las antiguas carpetas espejo (`subir-ahora/`, `web-completa/`, `para-subir/`) ya no se usan: la única copia de la web es la raíz del repositorio.
 - Ignorar: `entrega-art66/`, `entrega-art67/`, `screenshots/`, `uploads/`, `preview-*.html`, `cromo-preview.html`.
 
 ## Entregas: carpetas SIEMPRE completas
@@ -91,7 +91,7 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - Con los resultados de una jornada: sumar pj, gf, gc y pts (3/1/0) a los 18, ordenar por pts → diferencia de goles → goles a favor, y subir `jornada` y `actualizado`. Comprobar antes que `jornada` es la anterior (no sumar dos veces).
 - Nombres exactos del JSON: Betis B, Recreativo de Huelva, Ciudad de Lucena, Badajoz, Tenerife B, Estepona, Don Benito, Linares Deportivo, Mijas Las Lagunas, Sevilla Atlético, Salerm Puente Genil, Atlético Sanluqueño, Xerez CD, Atlético Central, Marbella, Las Palmas Atlético, Tamaraceite, Antoniano. Mapear los que dé el usuario ("Betis Deportivo"→Betis B, "Recreativo"→Recreativo de Huelva, "CD Badajoz"→Badajoz, "Puente Genil"→Salerm Puente Genil, "UD Las Palmas Atlético"→Las Palmas Atlético, "Atlético Antoniano"→Antoniano, "CP Mijas Las Lagunas"→Mijas Las Lagunas, "CD Estepona"→Estepona).
 - Escudos en `fotos/escudos/`. Zonas por posición (las pinta index.html): 1.º ascenso, 2.º–5.º play off, 13.º play out, 14.º–18.º descenso.
-- Existe el workflow `workflows/clasificacion.yml` (GitHub Actions, domingos y lunes) que reescribe este JSON desde TheSportsDB. Si está activo en el repo, la edición manual puede quedar pisada; si los datos de la API son peores que los manuales, avisar al usuario.
+- El workflow `.github/workflows/clasificacion.yml` (GitHub Actions, activo, domingos y lunes) reescribe este JSON desde TheSportsDB, así que la edición manual puede quedar pisada; si los datos de la API son peores que los manuales, avisar al usuario.
 - Tras actualizar, comprobar que las distancias que citen los artículos coinciden con la tabla y avisar si no.
 
 ## Calendario y resultados (`PARTIDOS` dentro de `index.html`)
@@ -101,12 +101,12 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - Amistosos: `tipo:'amistoso'`; Copa: `tipo:'copa'`, `jornada:'Copa del Rey'`; campo neutral o distinto: `sede:'…'`.
 - Los nombres de rival deben coincidir con las claves de `ESCUDOS` en index.html para que salga el escudo; si llega un rival nuevo (p. ej. Copa), añadir su escudo en `fotos/escudos/` y su entrada en `ESCUDOS`.
 - El widget "Próximo partido" de portada sale de este array; no requiere más cambios.
-- Si cambia una hora, actualizarla también en `workflows/directo.yml` (lista PARTIDOS propia, con hora).
+- Si cambia una hora, actualizarla también en `.github/workflows/directo.yml` (lista PARTIDOS propia, con hora).
 
 ## Directo (`live.json`)
 - Apagado: `{"activo": false}`.
 - Encendido: `{"activo":true,"local":"Xerez CD","visitante":"Marbella","resultado":"1-0","minuto":65}`; opcionales `estado` ("DESCANSO", "FINAL") y `nota`. Sustituye al widget de próximo partido.
-- Nombres como en `ESCUDOS`. Lo puede escribir el workflow `workflows/directo.yml` (cada 5 min en día de partido). Al acabar, volver a `{"activo": false}`.
+- Nombres como en `ESCUDOS`. Lo escribe el workflow `.github/workflows/directo.yml` (activo, cada 5 min en día de partido). Al acabar, volver a `{"activo": false}`.
 
 ## Plantilla y cromos (`plantilla.json` + `fotos/cromos/`)
 - `plantilla.json` es un array; cada jugador: nombre, apellidos, nombreCompleto, dorsal, posicion (POR/DEF/CC/DEL…), posicionDetalle, fechaNacimiento (dd/mm/aaaa), edad, lugarNacimiento, nacionalidad, altura, pie, agente, fichado, contrato, valorMercado, historial [{temporada, deClub, aClub, valor}], cromo.
@@ -132,7 +132,7 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 ## Otros archivos
 - `CNAME` (dominio de GitHub Pages) y `robots.txt`: no tocar.
 - `noticia.css`: estilos comunes de todas las páginas de artículo.
-- `workflows/`: automatismos de GitHub Actions (clasificación y directo). En el repo deben estar en `.github/workflows/` para ejecutarse; necesitan los secrets THESPORTSDB_KEY y API_FOOTBALL_KEY.
+- `.github/workflows/`: automatismos de GitHub Actions, activos: `clasificacion.yml`, `directo.yml` y `publicar.yml`. Necesitan los secrets THESPORTSDB_KEY, API_FOOTBALL_KEY y GEMINI_API_KEY. No existe ya la carpeta `workflows/` en la raíz.
 
 ## Antes de entregar / hacer push — comprobar
 - JSON válidos; cada artNN tiene ES, EN, slug ES/EN, foto existente, HTML ES/EN y entradas en el sitemap.
