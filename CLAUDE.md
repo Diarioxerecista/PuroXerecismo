@@ -132,7 +132,8 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 ## Otros archivos
 - `CNAME` (dominio de GitHub Pages) y `robots.txt`: no tocar.
 - `noticia.css`: estilos comunes de todas las páginas de artículo.
-- `.github/workflows/`: automatismos de GitHub Actions, activos: `clasificacion.yml`, `directo.yml` y `publicar.yml`. Necesitan los secrets THESPORTSDB_KEY, API_FOOTBALL_KEY y GEMINI_API_KEY. No existe ya la carpeta `workflows/` en la raíz.
+- `.github/workflows/`: automatismos de GitHub Actions. Activos: `clasificacion.yml` y `directo.yml` (secrets THESPORTSDB_KEY y API_FOOTBALL_KEY). No existe ya la carpeta `workflows/` en la raíz.
+- `publicar.yml` y `scripts/periodista_ia.py` están desactivados, usan la estructura antigua; no reactivar sin adaptarlos.
 
 ## Antes de entregar / hacer push — comprobar
 - JSON válidos; cada artNN tiene ES, EN, slug ES/EN, foto existente, HTML ES/EN y entradas en el sitemap.
