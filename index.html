@@ -1303,7 +1303,7 @@
     </div>
     <div class="meta-date">
       <strong id="todayDate">Viernes, 26 de junio de 2026</strong>
-      Temporada 2026/27 · Pretemporada
+      Temporada 2026/27
     </div>
   </div>
 </header>
@@ -1347,7 +1347,7 @@
 
     <div class="section-head">
       <h2>Lo último</h2>
-      <span class="tag" id="tagLoUltimo">Pretemporada</span>
+      <span class="tag" id="tagLoUltimo">Temporada</span>
     </div>
 
     <div class="news-grid" id="loUltimoGrid">
@@ -1360,7 +1360,7 @@
   <section class="view" id="view-noticias">
     <div class="section-head">
       <h2>Noticias</h2>
-      <span class="tag">Fichajes · Club · Pretemporada</span>
+      <span class="tag">Fichajes · Club · Temporada</span>
     </div>
     <div class="news-grid" id="noticiasGrid">
       <!-- generado dinámicamente por renderNoticias() -->
@@ -2214,6 +2214,8 @@
   function renderCronicas(){
     const ids = idsOrdenadosPorFecha('cronica');
     const grid = document.getElementById('cronicasGrid');
+    const vacio = document.querySelector('#view-cronicas > p');
+    if(vacio) vacio.style.display = ids.length ? 'none' : '';
     grid.innerHTML = ids.map(tarjetaHTML).join('');
   }
 
@@ -2240,7 +2242,7 @@
       calendario: 'Calendario y resultados', clasificacion: 'Clasificación',
       historias: 'Historias Xerecistas', historiasVacio: 'Esta sección reunirá historias, entrevistas y relatos del xerecismo más allá de la actualidad del día a día. Muy pronto empezaremos a publicar el primer contenido.',
       opinion: 'Artículo de Opinión', opinionVacio: 'Próximamente, artículos de opinión sobre la actualidad del Xerez CD y el xerecismo. Muy pronto empezaremos a publicar el primer contenido.',
-      loUltimo: 'Lo último', pretemporada: 'Pretemporada',
+      loUltimo: 'Lo último', pretemporada: 'Temporada',
       volver: '← Volver', redaccion: 'Redacción',
       jornada: 'Jornada', arbitro: 'Árbitro', estadio: 'Estadio', finalizado: 'Finalizado',
       cronicasTitulo: 'Crónicas de partido', cronicasVacio: 'Todavía no se ha disputado ningún partido oficial ni amistoso de la pretemporada. En cuanto el Xerez CD juegue su primer encuentro, aquí aparecerá la crónica completa con el resultado y el desarrollo del partido.',
@@ -2254,7 +2256,7 @@
       calendario: 'Fixtures & results', clasificacion: 'Standings',
       historias: 'Xerecista Stories', historiasVacio: 'This section will bring together stories, interviews and tales from the Xerez fanbase, beyond day-to-day news. We will start publishing content here very soon.',
       opinion: 'Opinion Piece', opinionVacio: 'Coming soon, opinion pieces about Xerez CD and the Xerez fanbase. We will start publishing content here very soon.',
-      loUltimo: 'Latest', pretemporada: 'Pre-season',
+      loUltimo: 'Latest', pretemporada: 'Season',
       volver: '← Back', redaccion: 'Staff',
       jornada: 'Matchday', arbitro: 'Referee', estadio: 'Stadium', finalizado: 'Full time',
       cronicasTitulo: 'Match reports', cronicasVacio: 'No official or pre-season friendly match has been played yet. As soon as Xerez CD play their first match, the full report with the result and a breakdown of the game will appear here.',

@@ -55,16 +55,8 @@
     "foto": "fotos/publicadas/xerez-badajoz-j2-mesa-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art63": {
-    "foto": "fotos/publicadas/molist-chapin-rueda-prensa.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art64": {
     "foto": "fotos/publicadas/xerez-donbenito-j3-pantoja-parada.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
-  "art65": {
-    "foto": "fotos/publicadas/xerez-rotena-fali-falta-gol.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
   "art66": {
@@ -137,6 +129,14 @@
   },
   "art83": {
     "foto": "fotos/publicadas/xerez-tenerife-b-j5-disputa.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art84": {
+    "foto": "fotos/publicadas/betis-deportivo-xerez-j6-conduccion.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art85": {
+    "foto": "fotos/publicadas/Noticia_zelu.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
