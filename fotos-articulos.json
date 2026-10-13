@@ -105,7 +105,8 @@
   },
   "art78": {
     "foto": "fotos/publicadas/xerez-cadiz-copa-del-rey-2026-27-escudos.jpg",
-    "creditoFoto": "Imagen: Diario Xerecista"
+    "creditoFoto": "Imagen: Diario Xerecista",
+    "objectPosition": "center 50%"
   },
   "art79": {
     "foto": "fotos/publicadas/xerez-cadiz-precedente-copa-celebracion.png",

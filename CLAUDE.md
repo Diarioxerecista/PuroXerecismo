@@ -74,6 +74,7 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 ```
 - Fotos en `fotos/publicadas/`. Si piden "una foto cualquiera / de partidos anteriores", elegir una que no use ningún otro artículo y que encaje con el tema.
 - Crédito siempre "Foto: Diario Xerecista" (EN: "Photo: Diario Xerecista").
+- Encuadre: las tarjetas, el destacado y las miniaturas recortan la foto por arriba (`top center`). Si lo importante queda cortado (p. ej. una foto vertical), añadir `"objectPosition": "center 50%"` (u otro valor CSS) en su entrada de fotos-articulos.json.
 
 ### HTML
 - Copiar la estructura del artículo publicado más reciente y cambiar: title, description, canonical, hreflang, og:*, twitter:*, JSON-LD (headline, description, image, datePublished, dateModified, inLanguage, @id), eyebrow, h1, foto + alt, lead, cuerpo, byline, enlace de compartir en X (`&via=Puroxerecismo`), enlaces ES↔EN.

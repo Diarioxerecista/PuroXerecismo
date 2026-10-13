@@ -2247,7 +2247,7 @@
     const sideItems = resto.slice(0,4).map(id => {
       const art = articles[id];
       const thumbHtml = art.foto
-        ? `<div class="side-thumb" style="width:88px;height:68px;border-radius:8px;overflow:hidden;flex-shrink:0;"><img src="${escAttr(art.foto)}" alt="${escAttr(art.title)}" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:top center;ver;"></div>`
+        ? `<div class="side-thumb" style="width:88px;height:68px;border-radius:8px;overflow:hidden;flex-shrink:0;"><img src="${escAttr(art.foto)}" alt="${escAttr(art.title)}" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:${escAttr(art.objectPosition||'top center')};"></div>`
         : '';
       return `
       <div class="side-item${art.foto ? ' side-item-foto' : ''}" onclick="openArticle('${id}')">
