@@ -119,9 +119,10 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 
 ## Plantilla y cromos (`plantilla.json` + `fotos/cromos/`)
 - `plantilla.json` es un array; cada jugador: nombre, apellidos, nombreCompleto, dorsal, posicion (POR/DEF/CC/DEL…), posicionDetalle, fechaNacimiento (dd/mm/aaaa), edad, lugarNacimiento, nacionalidad, altura, pie, agente, fichado, contrato, valorMercado, historial [{temporada, deClub, aClub, valor}], cromo.
-- `cromo` = ruta a `fotos/cromos/CromoNN-nombre.png` (numeración correlativa: Cromo01-ismael … Cromo18-julito; el siguiente es Cromo19). Imagen vertical proporción 280×396.
+- `cromo` = ruta a `fotos/cromos/CromoNN-nombre.webp` (numeración correlativa: Cromo01-ismael … Cromo18-julito; el siguiente es Cromo19-nombre.webp). La web los muestra en proporción 280×396.
+- Los cromos van en WebP, calidad 85, 600 px de ancho manteniendo la proporción (como máximo 600×900; sin deformar). Si el usuario pasa un PNG, convertirlo antes de subirlo y no subir el PNG.
 - La sección Plantilla pinta un cromo por jugador en el orden del array; al pulsar abre la ficha con los datos y el historial.
-- Alta: añadir el objeto al array + el PNG en `fotos/cromos/` (entregar la carpeta `fotos/cromos/` entera). Baja: quitar el objeto y su PNG.
+- Alta: añadir el objeto al array + el WebP en `fotos/cromos/` (entregar la carpeta `fotos/cromos/` entera). Baja: quitar el objeto y su WebP.
 - Foto de jugador para artículos: `fotos/publicadas/` (no usar el cromo como foto de noticia).
 
 ## Fichajes (`fichajes.json`)

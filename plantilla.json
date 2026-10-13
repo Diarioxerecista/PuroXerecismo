@@ -66,7 +66,7 @@
         "valor": "-"
       }
     ],
-    "cromo": "fotos/cromos/Cromo09-jaimelopez.png"
+    "cromo": "fotos/cromos/Cromo09-jaimelopez.webp"
   },
   {
     "nombre": "Felipe",
@@ -140,7 +140,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo04-Chaca.png"
+    "cromo": "fotos/cromos/Cromo04-Chaca.webp"
   },
   {
     "nombre": "Josete",
@@ -244,7 +244,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo05-josete.png"
+    "cromo": "fotos/cromos/Cromo05-josete.webp"
   },
   {
     "nombre": "Zelu",
@@ -366,7 +366,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo07-zelu.png"
+    "cromo": "fotos/cromos/Cromo07-zelu.webp"
   },
   {
     "nombre": "Ismael",
@@ -458,7 +458,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo01-ismael.png"
+    "cromo": "fotos/cromos/Cromo01-ismael.webp"
   },
   {
     "nombre": "Chuma",
@@ -544,7 +544,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo06-chuma.png"
+    "cromo": "fotos/cromos/Cromo06-chuma.webp"
   },
   {
     "nombre": "Moi",
@@ -606,7 +606,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo08-moi.png"
+    "cromo": "fotos/cromos/Cromo08-moi.webp"
   },
   {
     "nombre": "Zeki",
@@ -672,7 +672,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo02-zeki.png"
+    "cromo": "fotos/cromos/Cromo02-zeki.webp"
   },
   {
     "nombre": "Guille",
@@ -732,7 +732,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo03-guille.png"
+    "cromo": "fotos/cromos/Cromo03-guille.webp"
   },
   {
     "nombre": "Fali",
@@ -825,7 +825,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo10-fali.png"
+    "cromo": "fotos/cromos/Cromo10-fali.webp"
   },
   {
     "nombre": "Jaime",
@@ -879,7 +879,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo11-jaimefernandez.png"
+    "cromo": "fotos/cromos/Cromo11-jaimefernandez.webp"
   },
   {
     "nombre": "Óscar",
@@ -963,7 +963,7 @@
         "valor": "Sin coste"
       }
     ],
-    "cromo": "fotos/cromos/Cromo12-oscarlorenzo.png"
+    "cromo": "fotos/cromos/Cromo12-oscarlorenzo.webp"
   },
   {
     "nombre": "Bittor",
@@ -1026,7 +1026,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo13-bittor.png"
+    "cromo": "fotos/cromos/Cromo13-bittor.webp"
   },
   {
     "nombre": "Marcos",
@@ -1056,7 +1056,7 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo14-alconchel.png",
+    "cromo": "fotos/cromos/Cromo14-alconchel.webp",
     "fichado": "23/01/2026"
   },
   {
@@ -1138,7 +1138,7 @@
         "valor": "-"
       }
     ],
-    "cromo": "fotos/cromos/Cromo15-pantoja.png"
+    "cromo": "fotos/cromos/Cromo15-pantoja.webp"
   },
   {
     "nombre": "Rubén",
@@ -1249,7 +1249,7 @@
         "valor": "-"
       }
     ],
-    "cromo": "fotos/cromos/Cromo16-mesa.png"
+    "cromo": "fotos/cromos/Cromo16-mesa.webp"
   },
   {
     "nombre": "Mario",
@@ -1292,7 +1292,7 @@
         "valor": "-"
       }
     ],
-    "cromo": "fotos/cromos/Cromo17-peregrina.png"
+    "cromo": "fotos/cromos/Cromo17-peregrina.webp"
   },
   {
     "nombre": "Julito",
@@ -1355,6 +1355,6 @@
         "valor": "—"
       }
     ],
-    "cromo": "fotos/cromos/Cromo18-julito.png"
+    "cromo": "fotos/cromos/Cromo18-julito.webp"
   }
 ]
