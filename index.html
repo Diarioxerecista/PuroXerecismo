@@ -358,6 +358,19 @@
   }
   .score-overlay .score{font-size:22px;font-weight:700;letter-spacing:0.03em;}
   .score-overlay .comp{font-size:11px;color:var(--oro);text-transform:uppercase;letter-spacing:0.08em;}
+  /* Franja de marcador en las tarjetas de crónica (reutiliza .score-overlay) */
+  .img-box .score-overlay.score-franja{padding:8px 12px;justify-content:center;gap:10px;}
+  .score-franja .franja-jornada{
+    position:absolute;left:12px;top:50%;transform:translateY(-50%);
+    font-size:10px;color:rgba(255,255,255,0.75);text-transform:uppercase;letter-spacing:0.08em;
+  }
+  .score-franja .score{font-size:18px;font-weight:700;color:#C9A24B;letter-spacing:0.04em;}
+  .score-franja img, .score-franja .franja-sigla{width:22px;height:22px;flex-shrink:0;}
+  .score-franja img{object-fit:contain;}
+  .score-franja .franja-sigla{
+    display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:22px;
+    font-size:10px;font-weight:700;color:#fff;letter-spacing:0.04em;
+  }
 
   .eyebrow{
     font-family:'Space Mono',monospace;
@@ -2145,14 +2158,42 @@
       .sort((a,b) => (new Date(articles[b].fecha) - new Date(articles[a].fecha)) || (parseInt(b.replace(/\D/g,''),10) - parseInt(a.replace(/\D/g,''),10)));
   }
 
+  // Franja con el marcador para las tarjetas de crónica (no se usa en el destacado)
+  function escudoOSigla(nombre){
+    const src = ESCUDOS[nombre];
+    if(src) return '<img src="'+escAttr(src)+'" alt="'+escAttr(nombre)+'" title="'+escAttr(nombre)+'">';
+    const sigla = String(nombre||'').replace(/[^A-Za-zÁÉÍÓÚÜÑáéíóúüñ]/g,'').substring(0,3).toUpperCase();
+    return '<span class="franja-sigla" title="'+escAttr(nombre)+'">'+escAttr(sigla)+'</span>';
+  }
+  function etiquetaJornada(eyebrow){
+    const m = String(eyebrow||'').match(/(?:Jornada|Matchday)\s*(\d+)/i);
+    if(m) return t('cardJornada')+m[1];
+    if(/Pretemporada|Pre-season|Amistoso|Friendly/i.test(eyebrow||'')) return t('cardAmistoso');
+    if(/Copa|Cup/i.test(eyebrow||'')) return t('cardCopa');
+    return '';
+  }
+  function franjaMarcador(a){
+    const jor = etiquetaJornada(a.eyebrow);
+    return '<div class="score-overlay score-franja">'
+      + (jor ? '<span class="franja-jornada">'+jor+'</span>' : '')
+      + escudoOSigla(a.scoreHome)
+      + '<span class="score">'+escAttr(a.score)+'</span>'
+      + escudoOSigla(a.scoreAway)
+      + '</div>';
+  }
+
   function tarjetaHTML(id){
     const a = articles[id];
     let imgBoxExtra = '';
     let imgHtml;
+    const cats = Array.isArray(a.categoria) ? a.categoria : [a.categoria];
+    const franja = (cats.indexOf('cronica') !== -1 && a.score) ? franjaMarcador(a) : '';
     if(a.foto){
-      imgHtml = `<img src="${escAttr(a.foto)}" alt="${escAttr(a.title)}" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:${escAttr(a.objectPosition||'top center')};">` ;
+      imgHtml = `<img src="${escAttr(a.foto)}" alt="${escAttr(a.title)}" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:${escAttr(a.objectPosition||'top center')};">${franja}` ;
     } else if(a.score){
-      imgHtml = `<div class="stripe"></div><div class="score-overlay"><span class="comp">${a.eyebrow}</span><span class="score">${a.score}</span></div>`;
+      imgHtml = franja
+        ? `<div class="stripe"></div>${franja}`
+        : `<div class="stripe"></div><div class="score-overlay"><span class="comp">${a.eyebrow}</span><span class="score">${a.score}</span></div>`;
     } else {
       const extracto = a.title.length > 55 ? a.title.substring(0,55)+'\u2026' : a.title;
       imgBoxExtra = 'style="background:var(--papel-osc);border:1px solid var(--linea);display:flex;flex-direction:column;justify-content:center;padding:20px 22px;gap:10px;"';
@@ -2412,6 +2453,7 @@
       noLocale: 'es-ES',
       errorCarga: 'No se han podido cargar las noticias. Comprueba que el archivo noticias-es.json existe junto a index.html.',
       plantilla: 'Plantilla', plantillaTitulo: 'Plantilla 2026/27',
+      cardJornada: 'J', cardAmistoso: 'Amistoso', cardCopa: 'Copa',
       publiEspacio: 'Espacio publicitario \u00b7 Pon tu publicidad aqu\u00ed', publiContacta: 'Contacta \u2192',
       goleadoresTitulo: 'Goleadores \u00b7 Liga', golSing: 'gol', golPlur: 'goles',
       goleadoresPie: function(g, j){ return g+' '+(g===1?'gol':'goles')+' del Xerez CD en '+j+' '+(j===1?'jornada':'jornadas'); },
@@ -2429,6 +2471,7 @@
       noLocale: 'en-GB',
       errorCarga: 'Could not load the news. Check that noticias-en.json exists next to index.html.',
       plantilla: 'Squad', plantillaTitulo: 'Squad 2026/27',
+      cardJornada: 'MD', cardAmistoso: 'Friendly', cardCopa: 'Cup',
       publiEspacio: 'Advertising space \u00b7 Advertise here', publiContacta: 'Contact us \u2192',
       goleadoresTitulo: 'Top scorers \u00b7 League', golSing: 'goal', golPlur: 'goals',
       goleadoresPie: function(g, j){ return g+' Xerez CD '+(g===1?'goal':'goals')+' in '+j+' '+(j===1?'matchday':'matchdays'); },
