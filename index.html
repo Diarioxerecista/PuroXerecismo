@@ -636,8 +636,8 @@
   .card:hover h4{color:var(--azul-medio);}
   .card p{font-size:14px;color:var(--tinta-suave);line-height:1.55;}
 
-  /* Recuadros: noticias de la barra lateral y de "Lo último" (el destacado no) */
-  .side-item, #loUltimoGrid .card{
+  /* Recuadros: noticias de la barra lateral y de todas las rejillas de noticias (el destacado no) */
+  .side-item, .news-grid .card{
     background:rgba(27,77,143,0.06);
     border:1px solid rgba(27,77,143,0.18);
     border-radius:14px;
@@ -645,12 +645,12 @@
     align-self:start; /* cada caja mide lo que su contenido */
     transition:background .15s ease, border-color .15s ease, box-shadow .15s ease;
   }
-  .side-item:hover, #loUltimoGrid .card:hover{
+  .side-item:hover, .news-grid .card:hover{
     background:rgba(27,77,143,0.1);
     border-color:rgba(27,77,143,0.32);
     box-shadow:0 6px 18px rgba(13,44,84,0.08);
   }
-  #loUltimoGrid .card .img-box{border-radius:10px;overflow:hidden;}
+  .news-grid .card .img-box{border-radius:10px;overflow:hidden;}
 
   /* ===== Marcador / calendario ===== */
   .fixtures{
