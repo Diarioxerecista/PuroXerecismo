@@ -793,7 +793,9 @@
       "<strong>Goles:</strong> 0-1 (18') Omar Sánchez, de penalti. 1-1 (55') Julito. 2-1 (79') Chuma.",
       "<strong>Árbitro:</strong> Carlos Agraz Díaz (Comité Extremeño). Amonestó a Chacartegui, Rubén Mesa, Raúl López, Ismael y Julito.",
       "<strong>Incidencias:</strong> Quinta jornada del Grupo 4 de Segunda RFEF, disputada en Chapín ante 7.466 espectadores."
-    ]
+    ],
+    "goleadoresHome": "Julito 55'<br>Chuma 79'",
+    "goleadoresAway": "Omar Sánchez 18'"
   },
   "art78": {
     "fecha": "2026-10-05",
@@ -903,7 +905,9 @@
       "<strong>Goles:</strong> 0-1 (24') Chuma. 1-1 (68') Rica Funes.",
       "<strong>Árbitro:</strong> Johan González Rodríguez, del colegio tinerfeño. Amonestó a Ian Forns y Rafa Oya, por los locales; y a Mario Peregrina, Jaime Fernández y Chacartegui, por el Xerez.",
       "<strong>Incidencias:</strong> Sexta jornada del Grupo 4 de Segunda RFEF, disputada en la Ciudad Deportiva Luis del Sol, con gran presencia de la afición azulina."
-    ]
+    ],
+    "goleadoresHome": "Rica Funes 68'",
+    "goleadoresAway": "Chuma 24'"
   },
   "art83": {
     "fecha": "2026-10-11",

@@ -793,7 +793,9 @@
       "<strong>Goals:</strong> 0-1 (18') Omar Sánchez, penalty. 1-1 (55') Julito. 2-1 (79') Chuma.",
       "<strong>Referee:</strong> Carlos Agraz Díaz (Extremadura Committee). Booked Chacartegui, Rubén Mesa, Raúl López, Ismael and Julito.",
       "<strong>Incidents:</strong> Fifth matchday of Group 4 of Segunda RFEF, played at Chapín in front of 7,466 spectators."
-    ]
+    ],
+    "goleadoresHome": "Julito 55'<br>Chuma 79'",
+    "goleadoresAway": "Omar Sánchez 18'"
   },
   "art78": {
     "fecha": "2026-10-05",
@@ -903,7 +905,9 @@
       "<strong>Goals:</strong> 0-1 (24') Chuma. 1-1 (68') Rica Funes.",
       "<strong>Referee:</strong> Johan González Rodríguez, from the Tenerife committee. He booked Ian Forns and Rafa Oya for the home side, and Mario Peregrina, Jaime Fernández and Chacartegui for Xerez.",
       "<strong>Notes:</strong> Matchday six of Group 4 of Segunda RFEF, played at the Ciudad Deportiva Luis del Sol, with a large presence of azulino fans."
-    ]
+    ],
+    "goleadoresHome": "Rica Funes 68'",
+    "goleadoresAway": "Chuma 24'"
   },
   "art83": {
     "fecha": "2026-10-11",

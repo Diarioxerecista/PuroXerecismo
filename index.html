@@ -388,6 +388,68 @@
 
   .side-list{display:flex;flex-direction:column;gap:0;}
 
+  /* Columna de la noticia principal: publicidad + goleadores debajo */
+  .hero-col{display:flex;flex-direction:column;gap:20px;min-width:0;}
+  .ad-strip{
+    height:64px;box-sizing:border-box;
+    border:1.5px dashed rgba(13,44,84,0.32);border-radius:3px;
+    background:var(--papel-osc);
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+    padding:0 12px 0 16px;
+  }
+  .ad-strip-text{
+    font-family:'Space Mono',monospace;font-size:11px;
+    color:var(--tinta-suave);text-transform:uppercase;letter-spacing:0.08em;
+    line-height:1.3;min-width:0;
+  }
+  .ad-strip-btn{
+    background:var(--oro);color:var(--azul-profundo);
+    font-family:'Space Mono',monospace;font-size:12px;font-weight:700;
+    padding:9px 14px;border:0;border-radius:3px;cursor:pointer;white-space:nowrap;flex-shrink:0;
+  }
+  .ad-strip-btn:hover{filter:brightness(1.06);}
+  .goleadores{
+    background:rgba(27,77,143,0.06);
+    border:1px solid rgba(27,77,143,0.18);
+    border-radius:14px;padding:18px 18px 14px;
+  }
+  .goleadores .eyebrow{margin-bottom:12px;}
+  .goleadores-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;}
+  .goleador{
+    display:flex;align-items:center;gap:10px;
+    background:#fff;border-radius:10px;padding:10px;min-width:0;
+  }
+  .goleador.lider{background:var(--azul-profundo);color:#fff;}
+  .goleador-foto{
+    width:52px;height:52px;border-radius:50%;flex-shrink:0;
+    border:2px solid var(--oro);box-sizing:border-box;
+    /* recorte del cromo (280x396) centrado en la cara del jugador */
+    background:var(--papel-osc) 55% 11%/320% no-repeat;
+    display:flex;align-items:center;justify-content:center;
+    font-family:'Fraunces',serif;font-weight:900;font-size:18px;color:var(--azul-medio);
+  }
+  .goleador.lider .goleador-foto{color:var(--oro);background-color:rgba(255,255,255,0.08);}
+  .goleador-goles{
+    font-family:'Fraunces',serif;font-size:28px;font-weight:900;line-height:1;
+    color:var(--azul-profundo);flex-shrink:0;
+  }
+  .goleador.lider .goleador-goles{color:var(--oro);}
+  .goleador-info{display:flex;flex-direction:column;min-width:0;}
+  .goleador-nombre{font-weight:700;font-size:14px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .goleador-pos{
+    font-family:'Space Mono',monospace;font-size:10px;text-transform:uppercase;letter-spacing:0.06em;
+    color:var(--tinta-suave);margin-top:3px;
+  }
+  .goleador.lider .goleador-pos{color:rgba(255,255,255,0.7);}
+  .goleadores-pie{
+    font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);
+    margin-top:12px;
+  }
+  @media (max-width:560px){
+    .goleadores-list{grid-template-columns:1fr;}
+    .ad-strip{height:auto;min-height:64px;padding:10px 12px;}
+  }
+
   /* ===== Espacios publicitarios ===== */
   /* Banner superior: franja discreta de patrocinadores */
   .ad-banner-top{
@@ -2145,6 +2207,7 @@
     }).join('');
 
     const heroHtml = `
+      <div class="hero-col">
       <article class="hero-main" onclick="openArticle('${primeraId}')">
         <div class="img-box" style="${heroImgBoxStyle}">${heroImgHtml}</div>
         ${(principal.foto && principal.creditoFoto) ? `<span style="display:block;text-align:right;font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);opacity:0.8;margin-top:4px;">${principal.creditoFoto}</span>` : ''}
@@ -2174,6 +2237,12 @@
         <p>${principal.lead}</p>
         <span class="byline">${principal.autor || t('redaccion')} — ${formatearFecha(principal.fecha)}</span>
       </article>
+      <div class="ad-strip">
+        <span class="ad-strip-text">${t('publiEspacio')}</span>
+        <button type="button" class="ad-strip-btn" onclick="irAContacto()">${t('publiContacta')}</button>
+      </div>
+      <div id="goleadoresBox"></div>
+      </div>
       <div class="side-list">
         ${sideItems}
         <a class="ad-banner-side" href="tel:608394823" style="padding:20px;text-decoration:none;background:#fff;">
@@ -2183,6 +2252,7 @@
       </div>
     `;
     document.getElementById('heroGrid').innerHTML = heroHtml;
+    renderGoleadores();
 
     const loUltimoIds = resto.slice(4, 16);
     const cardFijaPortada = `<article class="card" onclick="openMapaRivales()" style="cursor:pointer;">
@@ -2195,6 +2265,81 @@
       <p style="font-size:13px;color:var(--tinta-suave);margin-top:6px;">17 rivales geolocalizados con los km desde Chapín. <span style="color:var(--oro);font-weight:600;">Ver mapa →</span></p>
     </article>`;
     document.getElementById('loUltimoGrid').innerHTML = cardFijaPortada + loUltimoIds.map(tarjetaHTML).join('');
+  }
+
+  // Abre la sección Contacto (no tiene botón propio en el menú)
+  function irAContacto(){
+    navButtons.forEach(b=>b.classList.remove('active'));
+    showView('contacto');
+    history.pushState({view:'contacto'}, '', window.location.pathname + '?v=contacto');
+  }
+
+  // ===== Goleadores de Liga: se calculan de las crónicas con "Jornada" =====
+  function normNombre(s){
+    return String(s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/qu/g,'k').trim();
+  }
+  function buscarJugador(nombre, plantilla){
+    const n = normNombre(nombre);
+    return (plantilla||[]).find(function(j){
+      return [j.nombre, j.apellidos, (j.nombre||'')+' '+(j.apellidos||''), j.nombreCompleto]
+        .some(function(x){ return x && normNombre(x) === n; });
+    }) || null;
+  }
+  function calcularGoleadores(){
+    const cuenta = {}; let orden = 0; let golesTotales = 0; let jornadas = 0;
+    const ids = Object.keys(articles).filter(function(id){
+      const a = articles[id];
+      const cats = Array.isArray(a.categoria) ? a.categoria : [a.categoria];
+      return cats.indexOf('cronica') !== -1 && /Jornada|Matchday/i.test(a.eyebrow||'') && a.score;
+    }).sort(function(x,y){ return (articles[x].fecha||'').localeCompare(articles[y].fecha||''); });
+    ids.forEach(function(id){
+      const a = articles[id];
+      const enCasa = a.scoreHome === 'Xerez CD';
+      if(!enCasa && a.scoreAway !== 'Xerez CD') return;
+      jornadas++;
+      const marcador = String(a.score).split('-').map(function(x){ return parseInt(x,10)||0; });
+      golesTotales += enCasa ? marcador[0] : marcador[1];
+      String((enCasa ? a.goleadoresHome : a.goleadoresAway) || '')
+        .split(/<br\s*\/?>|,/i)
+        .forEach(function(trozo){
+          if(/p\.\s*p\./i.test(trozo)) return; // gol en propia puerta: no cuenta para ningún jugador
+          const nombre = trozo.replace(/<[^>]+>/g,'').replace(/\(.*?\)/g,'').replace(/\s*\d+(\+\d+)?'.*$/,'').trim();
+          if(!nombre) return;
+          if(!cuenta[nombre]) cuenta[nombre] = { nombre: nombre, goles: 0, orden: orden++ };
+          cuenta[nombre].goles++;
+        });
+    });
+    const lista = Object.keys(cuenta).map(function(k){ return cuenta[k]; })
+      .sort(function(a,b){ return b.goles - a.goles || a.orden - b.orden; });
+    return { lista: lista, golesTotales: golesTotales, jornadas: jornadas };
+  }
+  function renderGoleadores(){
+    const box = document.getElementById('goleadoresBox');
+    if(!box) return;
+    const datos = calcularGoleadores();
+    if(!datos.lista.length){ box.innerHTML = ''; return; }
+    const plantilla = window._plantillaData;
+    if(!plantilla){
+      fetchJson('plantilla.json').then(function(j){ window._plantillaData = j || []; renderGoleadores(); }).catch(function(){ window._plantillaData = []; renderGoleadores(); });
+    }
+    const filas = datos.lista.slice(0,3).map(function(g, i){
+      const j = buscarJugador(g.nombre, plantilla);
+      const foto = j && j.cromo
+        ? '<div class="goleador-foto" style="background-image:url(\''+escAttr(j.cromo)+'\')" role="img" aria-label="'+escAttr(g.nombre)+'"></div>'
+        : '<div class="goleador-foto" aria-hidden="true">'+escAttr(g.nombre.charAt(0))+'</div>';
+      const pos = j ? [j.posicion, j.dorsal].filter(function(x){ return x !== undefined && x !== null && x !== ''; }).join(' \u00b7 ') : '';
+      return '<div class="goleador'+(i===0?' lider':'')+'">'
+        + foto
+        + '<span class="goleador-goles" title="'+g.goles+' '+(g.goles===1?t('golSing'):t('golPlur'))+'">'+g.goles+'</span>'
+        + '<div class="goleador-info"><span class="goleador-nombre">'+escAttr(g.nombre)+'</span>'
+        + (pos ? '<span class="goleador-pos">'+escAttr(pos)+'</span>' : '')
+        + '</div></div>';
+    }).join('');
+    box.innerHTML = '<div class="goleadores">'
+      + '<span class="eyebrow">'+t('goleadoresTitulo')+'</span>'
+      + '<div class="goleadores-list">'+filas+'</div>'
+      + '<div class="goleadores-pie">'+TEXTOS[idiomaActual].goleadoresPie(datos.golesTotales, datos.jornadas)+'</div>'
+      + '</div>';
   }
 
   function renderNoticias(){
@@ -2249,6 +2394,9 @@
       noLocale: 'es-ES',
       errorCarga: 'No se han podido cargar las noticias. Comprueba que el archivo noticias-es.json existe junto a index.html.',
       plantilla: 'Plantilla', plantillaTitulo: 'Plantilla 2026/27',
+      publiEspacio: 'Espacio publicitario \u00b7 Pon tu publicidad aqu\u00ed', publiContacta: 'Contacta \u2192',
+      goleadoresTitulo: 'Goleadores \u00b7 Liga', golSing: 'gol', golPlur: 'goles',
+      goleadoresPie: function(g, j){ return g+' '+(g===1?'gol':'goles')+' del Xerez CD en '+j+' '+(j===1?'jornada':'jornadas'); },
       contacto: 'Contacto', contactoIntro: '\u00bfTienes informaci\u00f3n, fotos o quieres colaborar con el Diario Xerecista? Escr\u00edbenos.'
     },
     en: {
@@ -2263,6 +2411,9 @@
       noLocale: 'en-GB',
       errorCarga: 'Could not load the news. Check that noticias-en.json exists next to index.html.',
       plantilla: 'Squad', plantillaTitulo: 'Squad 2026/27',
+      publiEspacio: 'Advertising space \u00b7 Advertise here', publiContacta: 'Contact us \u2192',
+      goleadoresTitulo: 'Top scorers \u00b7 League', golSing: 'goal', golPlur: 'goals',
+      goleadoresPie: function(g, j){ return g+' Xerez CD '+(g===1?'goal':'goals')+' in '+j+' '+(j===1?'matchday':'matchdays'); },
       contacto: 'Contact', contactoIntro: 'Got a tip, photos or want to contribute to Diario Xerecista? Get in touch.'
     }
   };
@@ -2389,9 +2540,9 @@
     const vista = new URLSearchParams(window.location.search).get('v');
     if(!vista) return;
     const btn = document.querySelector(`[data-view="${vista}"]`);
-    if(!btn) return;
+    if(!btn && !document.getElementById('view-'+vista)) return; // Contacto no tiene botón en el menú
     navButtons.forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
+    if(btn) btn.classList.add('active');
     showView(vista);
   })();
 
