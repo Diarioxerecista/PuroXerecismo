@@ -386,7 +386,7 @@
     margin-top:14px;
   }
 
-  .side-list{display:flex;flex-direction:column;gap:0;}
+  .side-list{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;align-items:start;}
 
   /* Columna de la noticia principal: publicidad + goleadores debajo */
   .hero-col{display:flex;flex-direction:column;gap:20px;min-width:0;}
@@ -588,11 +588,8 @@
   }
 
   .side-item{
-    padding:18px 0;
-    border-bottom:1px solid var(--linea);
     cursor:pointer;
   }
-  .side-item:first-child{padding-top:0;}
   .side-item:hover h4{color:var(--azul-medio);}
   .side-item h4{
     font-family:'Fraunces',serif;
@@ -638,6 +635,22 @@
   }
   .card:hover h4{color:var(--azul-medio);}
   .card p{font-size:14px;color:var(--tinta-suave);line-height:1.55;}
+
+  /* Recuadros: noticias de la barra lateral y de "Lo último" (el destacado no) */
+  .side-item, #loUltimoGrid .card{
+    background:rgba(27,77,143,0.06);
+    border:1px solid rgba(27,77,143,0.18);
+    border-radius:14px;
+    padding:14px;
+    align-self:start; /* cada caja mide lo que su contenido */
+    transition:background .15s ease, border-color .15s ease, box-shadow .15s ease;
+  }
+  .side-item:hover, #loUltimoGrid .card:hover{
+    background:rgba(27,77,143,0.1);
+    border-color:rgba(27,77,143,0.32);
+    box-shadow:0 6px 18px rgba(13,44,84,0.08);
+  }
+  #loUltimoGrid .card .img-box{border-radius:10px;overflow:hidden;}
 
   /* ===== Marcador / calendario ===== */
   .fixtures{
@@ -800,7 +813,7 @@
     .fixture-row{grid-template-columns:60px 1fr 70px 1fr;font-size:13px;}
     .fixture-row .comp{display:none;}
     /* Side-list: 2 columnas compactas bajo el hero */
-    .side-list{display:grid;grid-template-columns:1fr 1fr;gap:0 20px;}
+    .side-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
     .ad-banner-side{grid-column:1/-1;height:90px;}
     /* Ocultar miniaturas y resetear grid en items */
     .side-item-foto{display:block;}
@@ -2193,7 +2206,7 @@
     const sideItems = resto.slice(0,4).map(id => {
       const art = articles[id];
       const thumbHtml = art.foto
-        ? `<div class="side-thumb" style="width:88px;height:68px;border-radius:2px;overflow:hidden;flex-shrink:0;"><img src="${escAttr(art.foto)}" alt="${escAttr(art.title)}" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:top center;ver;"></div>`
+        ? `<div class="side-thumb" style="width:88px;height:68px;border-radius:8px;overflow:hidden;flex-shrink:0;"><img src="${escAttr(art.foto)}" alt="${escAttr(art.title)}" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:top center;ver;"></div>`
         : '';
       return `
       <div class="side-item${art.foto ? ' side-item-foto' : ''}" onclick="openArticle('${id}')">
