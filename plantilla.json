@@ -1293,5 +1293,68 @@
       }
     ],
     "cromo": "fotos/cromos/Cromo17-peregrina.png"
+  },
+  {
+    "nombre": "Julito",
+    "apellidos": "Martínez",
+    "nombreCompleto": "Julio Martínez Cortés",
+    "dorsal": 24,
+    "posicion": "DEL",
+    "posicionDetalle": "Delantero · Extremo derecho",
+    "fechaNacimiento": "02/11/2000",
+    "edad": 25,
+    "lugarNacimiento": "Requena",
+    "nacionalidad": "España",
+    "altura": "1,78 m",
+    "pie": "Ambidiestro",
+    "agente": "CAA Stellar",
+    "fichado": "28/08/2026",
+    "contrato": "30/06/2027",
+    "valorMercado": "100.000 €",
+    "historial": [
+      {
+        "temporada": "26/27",
+        "deClub": "UCAM Murcia",
+        "aClub": "Xerez CD",
+        "valor": "100k €"
+      },
+      {
+        "temporada": "24/25",
+        "deClub": "Recre Granada",
+        "aClub": "UCAM Murcia",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "22/23",
+        "deClub": "Atl. Malagueño",
+        "aClub": "Recre Granada",
+        "valor": "200k €"
+      },
+      {
+        "temporada": "19/20",
+        "deClub": "Málaga Juv. A",
+        "aClub": "Atl. Malagueño",
+        "valor": "—"
+      },
+      {
+        "temporada": "18/19",
+        "deClub": "Córdoba Juv. A",
+        "aClub": "Málaga Juv. A",
+        "valor": "—"
+      },
+      {
+        "temporada": "17/18",
+        "deClub": "Córdoba F.base",
+        "aClub": "Córdoba Juv. A",
+        "valor": "—"
+      },
+      {
+        "temporada": "16/17",
+        "deClub": "VCF Fútb.base",
+        "aClub": "Córdoba F.base",
+        "valor": "—"
+      }
+    ],
+    "cromo": "fotos/cromos/Cromo18-julito.png"
   }
 ]
