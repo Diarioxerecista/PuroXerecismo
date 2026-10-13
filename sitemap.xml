@@ -199,24 +199,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-08/el-xerez-cd-empata-en-arcos-ante-el-filial-del-betis-deportivo/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cumple-79-anos/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-09-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cumple-79-anos/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-turns-79/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cumple-79-anos/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-turns-79/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-09-24</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cumple-79-anos/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-turns-79/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cumple-79-anos/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/recreativistas-y-xerecistas-sellaran-este-domingo-un-hermanamiento-historico-entre-sus-aficiones/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -638,5 +620,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-recibira-al-marbella-el-domingo-25-de-octubre-a-las-19-00-horas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cd-to-host-marbella-on-sunday-25-october-at-19-00/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cd-recibira-al-marbella-el-domingo-25-de-octubre-a-las-19-00-horas/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/cuatro-campos-en-una-semana-un-reto-para-la-planificacion-del-xerez-cd/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/cuatro-campos-en-una-semana-un-reto-para-la-planificacion-del-xerez-cd/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/four-pitches-in-one-week-a-challenge-for-xerez-cds-planning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/cuatro-campos-en-una-semana-un-reto-para-la-planificacion-del-xerez-cd/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/four-pitches-in-one-week-a-challenge-for-xerez-cds-planning/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/cuatro-campos-en-una-semana-un-reto-para-la-planificacion-del-xerez-cd/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/four-pitches-in-one-week-a-challenge-for-xerez-cds-planning/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/cuatro-campos-en-una-semana-un-reto-para-la-planificacion-del-xerez-cd/"/>
   </url>
 </urlset>

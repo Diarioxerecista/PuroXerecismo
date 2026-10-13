@@ -59,10 +59,6 @@
     "foto": "fotos/publicadas/xerez-donbenito-j3-pantoja-parada.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art67": {
-    "foto": "fotos/publicadas/xerez-cd-79-aniversario-escudo.jpg",
-    "creditoFoto": "Foto: Xerez CD"
-  },
   "art68": {
     "foto": "fotos/publicadas/recreativo-xerez-hermanamiento-aficiones.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -138,6 +134,10 @@
   },
   "art86": {
     "foto": "fotos/publicadas/xerez-badajoz-j2-disputa.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art87": {
+    "foto": "fotos/publicadas/entreno01.jpg.webp",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
