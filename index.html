@@ -2285,8 +2285,8 @@
         .some(function(x){ return x && normNombre(x) === n; });
     }) || null;
   }
-  function calcularGoleadores(){
-    const cuenta = {}; let orden = 0; let golesTotales = 0; let jornadas = 0;
+  function calcularGoleadores(plantilla){
+    const cuenta = {}; let seq = 0; let golesTotales = 0; let jornadas = 0;
     const ids = Object.keys(articles).filter(function(id){
       const a = articles[id];
       const cats = Array.isArray(a.categoria) ? a.categoria : [a.categoria];
@@ -2305,25 +2305,30 @@
           if(/p\.\s*p\./i.test(trozo)) return; // gol en propia puerta: no cuenta para ningún jugador
           const nombre = trozo.replace(/<[^>]+>/g,'').replace(/\(.*?\)/g,'').replace(/\s*\d+(\+\d+)?'.*$/,'').trim();
           if(!nombre) return;
-          if(!cuenta[nombre]) cuenta[nombre] = { nombre: nombre, goles: 0, orden: orden++ };
-          cuenta[nombre].goles++;
+          // Se agrupa por jugador de plantilla.json (así "Isuskiza" y "Bittor" cuentan como uno)
+          const j = buscarJugador(nombre, plantilla);
+          const clave = j ? 'p:'+normNombre(j.nombre+' '+(j.apellidos||'')) : 'n:'+normNombre(nombre);
+          if(!cuenta[clave]) cuenta[clave] = { nombre: j ? j.nombre : nombre, jugador: j, goles: 0, alcanzado: 0 };
+          cuenta[clave].goles++;
+          cuenta[clave].alcanzado = seq++; // momento en que llegó a su cifra actual
         });
     });
     const lista = Object.keys(cuenta).map(function(k){ return cuenta[k]; })
-      .sort(function(a,b){ return b.goles - a.goles || a.orden - b.orden; });
+      // Empate: el que llegó antes a esa cifra y, si persiste, orden alfabético
+      .sort(function(a,b){ return b.goles - a.goles || a.alcanzado - b.alcanzado || a.nombre.localeCompare(b.nombre, 'es'); });
     return { lista: lista, golesTotales: golesTotales, jornadas: jornadas };
   }
   function renderGoleadores(){
     const box = document.getElementById('goleadoresBox');
     if(!box) return;
-    const datos = calcularGoleadores();
-    if(!datos.lista.length){ box.innerHTML = ''; return; }
     const plantilla = window._plantillaData;
     if(!plantilla){
       fetchJson('plantilla.json').then(function(j){ window._plantillaData = j || []; renderGoleadores(); }).catch(function(){ window._plantillaData = []; renderGoleadores(); });
     }
+    const datos = calcularGoleadores(plantilla);
+    if(!datos.lista.length){ box.innerHTML = ''; return; }
     const filas = datos.lista.slice(0,3).map(function(g, i){
-      const j = buscarJugador(g.nombre, plantilla);
+      const j = g.jugador;
       const foto = j && j.cromo
         ? '<div class="goleador-foto" style="background-image:url(\''+escAttr(j.cromo)+'\')" role="img" aria-label="'+escAttr(g.nombre)+'"></div>'
         : '<div class="goleador-foto" aria-hidden="true">'+escAttr(g.nombre.charAt(0))+'</div>';

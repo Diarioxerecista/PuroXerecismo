@@ -60,6 +60,7 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - Ladillos: elemento del array con `<strong>…</strong>` (en el HTML se pintan como `<h2>`).
 - Categorías: `"noticia"`, `["cronica","noticia"]`, `"historias"`, `"opinion"` (solo sección Opinión, no sale en portada), `["opinion","noticia"]` (opinión que sí sale en portada y cuenta para las 17).
 - Eyebrows usados: "Segunda RFEF · Jornada N" / "Segunda RFEF · Matchday N"; "Opinión · Análisis" / "Opinion · Analysis"; "Xerez CD · Enfermería" / "Xerez CD · Injuries".
+- Crónicas: rellenar SIEMPRE `goleadoresHome` y `goleadoresAway` con el formato "Nombre 24'" (varios separados por `<br>`), con el nombre tal como figura en plantilla.json (campo `nombre`). Sin goles: `""`. Si el texto no da el minuto, preguntar.
 
 ### Slugs (`mapa-slugs*.json`)
 - Noticias/opinión: `articulos/AAAA-MM/slug-del-titular`; crónicas: `cronicas/AAAA-MM/slug`.
@@ -136,6 +137,9 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - Secciones (`<section class="view" id="view-…">`): noticias, cronicas, calendario, clasificacion, historias, opinion, plantilla (cromos), contacto, articulo.
 - Portada excluye `"historias"` y `"opinion"` puros; `["opinion","noticia"]` sí sale.
 - Ya estamos en temporada: no usar la palabra "Pretemporada" en etiquetas de interfaz.
+- Bloque bajo la noticia principal (columna del destacado, en este orden):
+  1. Franja "Espacio publicitario · Pon tu publicidad aquí" con el botón a Contacto. Cuando haya un patrocinador para ese hueco, se sustituye por su banner.
+  2. "Goleadores · Liga": los 3 máximos goleadores del Xerez CD en liga, calculados automáticamente a partir de `goleadoresHome`/`goleadoresAway` de las crónicas con eyebrow "Jornada" (sin amistosos ni Copa). Foto = cromo de plantilla.json; sin cromo, la inicial. Empate: el que llegó antes a esa cifra y, si persiste, orden alfabético.
 
 ## Otros archivos
 - `CNAME` (dominio de GitHub Pages) y `robots.txt`: no tocar.
