@@ -148,6 +148,8 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - `noticia.css`: estilos comunes de todas las páginas de artículo.
 - `.github/workflows/`: automatismos de GitHub Actions. Activos: `clasificacion.yml` y `directo.yml` (secrets THESPORTSDB_KEY y API_FOOTBALL_KEY). No existe ya la carpeta `workflows/` en la raíz.
 - `publicar.yml` y `scripts/periodista_ia.py` están desactivados, usan la estructura antigua; no reactivar sin adaptarlos.
+- Los cambios en `.github/workflows/` (p. ej. horas en `directo.yml`) se suben con commit + push como el resto: el token del Mac mini ("Mac mini - Diario Xerecista", en el Llavero como github.com) tiene los permisos `repo` y `workflow`. Si un push se rechaza por falta de `workflow` scope o por credenciales, el token ha caducado o perdido el permiso: crear otro en github.com/settings/tokens/new con `repo` y `workflow`, y sustituirlo en Acceso a Llaveros (entrada github.com). Nunca pegar el token en el chat.
+- `directo.yml` calcula la ventana del partido con la hora de España (`ZoneInfo("Europe/Madrid")`); las horas de su lista PARTIDOS van en hora peninsular, como en index.html.
 
 ## Antes de entregar / hacer push — comprobar
 - JSON válidos; cada artNN tiene ES, EN, slug ES/EN, foto existente, HTML ES/EN y entradas en el sitemap.
