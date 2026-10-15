@@ -24,6 +24,7 @@ jobs:
           python3 << 'PYEOF'
           import json, os, sys, requests
           from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
 
           # ── Calendario de partidos (fecha + hora orientativa) ──────────────
           # Actualiza las horas cuando la RFEF confirme los horarios oficiales.
@@ -37,7 +38,7 @@ jobs:
             {"fecha":"2026-10-18","hora":"19:00","local":"Xerez CD","visitante":"Ciudad de Lucena"},
             {"fecha":"2026-10-25","hora":"19:00","local":"Xerez CD","visitante":"Marbella F.C."},
             {"fecha":"2026-10-28","hora":"21:00","local":"Xerez CD","visitante":"Cádiz CF"},
-            {"fecha":"2026-11-01","hora":"17:00","local":"U.D. Tamaraceite","visitante":"Xerez CD"},
+            {"fecha":"2026-11-01","hora":"13:00","local":"U.D. Tamaraceite","visitante":"Xerez CD"},
             {"fecha":"2026-11-08","hora":"17:00","local":"Atlético Sanluqueño","visitante":"Xerez CD"},
             {"fecha":"2026-11-15","hora":"17:00","local":"Xerez CD","visitante":"C.A. Antoniano"},
             {"fecha":"2026-11-22","hora":"17:00","local":"C. Atlético Central","visitante":"Xerez CD"},
@@ -66,7 +67,7 @@ jobs:
           ]
 
           # ── Buscar partido de hoy ──────────────────────────────────────────
-          ahora = datetime.now()
+          ahora = datetime.now(ZoneInfo("Europe/Madrid")).replace(tzinfo=None)
           hoy   = ahora.strftime("%Y-%m-%d")
           partido_hoy = next((p for p in PARTIDOS if p["fecha"] == hoy), None)
 
