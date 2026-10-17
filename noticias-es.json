@@ -574,23 +574,6 @@
       "<strong>Incidencias:</strong> Encuentro correspondiente a la cuarta jornada del Grupo 4 de Segunda RFEF disputado en el Nuevo Colombino, con cerca de 700 seguidores xerecistas desplazados hasta las gradas onubenses."
     ]
   },
-  "art71": {
-    "fecha": "2026-09-28",
-    "categoria": "noticia",
-    "eyebrow": "Club · Banquillo",
-    "title": "Abel Gómez, Abel Segovia y Ángel Rodríguez, los tres candidatos para el banquillo del Xerez CD",
-    "lead": "Tras la destitución de Xavi Molist, la directiva azulina baraja tres nombres para dirigir a un equipo que suma dos puntos de doce y ocupa puestos de descenso",
-    "body": [
-      "El Xerez CD ya trabaja en la búsqueda de un nuevo entrenador. Apenas horas después de hacerse oficial la salida de Xavi Molist, la cúpula directiva ha puesto sobre la mesa una terna de candidatos para ocupar el banquillo del primer equipo: Abel Gómez, Abel Segovia y Ángel Rodríguez.",
-      "<strong>Una decisión que no admite demora</strong>",
-      "La urgencia deportiva marca los tiempos del club. El conjunto jerezano llega a esta situación con solo dos puntos de doce posibles, sin conocer la victoria en las cuatro primeras jornadas del Grupo 4 de Segunda RFEF y con una plaza en la zona de descenso. Por ello, la entidad pretende resolver el relevo con la mayor celeridad posible, de modo que el elegido pueda dirigir cuanto antes a la plantilla y contar con el máximo de sesiones de trabajo de cara al próximo compromiso liguero.",
-      "<strong>Tres perfiles sobre la mesa</strong>",
-      "Los nombres que maneja el consejo de administración son los de Abel Gómez, Abel Segovia y Ángel Rodríguez, tres técnicos que se encuentran ahora mismo en la órbita del club y entre los que se decantará la directiva en las próximas horas. La entidad no ha hecho público, por el momento, ningún detalle sobre el orden de preferencia ni sobre el estado de las conversaciones con cada uno de ellos.",
-      "<strong>Un reto exigente para el elegido</strong>",
-      "Quien finalmente se siente en el banquillo de Chapín heredará un vestuario necesitado de confianza, un equipo que ha mostrado falta de personalidad y escasa producción ofensiva, y una afición que ha expresado su malestar en las últimas semanas. El nuevo entrenador tendrá como primera misión revertir la dinámica y devolver al Xerez a la senda de la victoria, en un inicio de temporada que exige reacciones inmediatas.",
-      "Se trata de una noticia en desarrollo. El club deberá comunicar en los próximos días la decisión definitiva."
-    ]
-  },
   "art72": {
     "fecha": "2026-09-29",
     "categoria": "noticia",
@@ -974,6 +957,20 @@
       "<strong>Dos ascensos y una rivalidad</strong>",
       "Aquella temporada terminó bien para los dos: el Xerez acabó tercero y el Lucena cuarto, y ambos ascendieron a Tercera División. Fue el comienzo de un cruce que se ha repetido muchas veces desde entonces. Como local, el Xerez suma ante el Lucena diez precedentes, con dos victorias, cuatro empates y cuatro derrotas.",
       "Casi diez años después, el duelo llega por primera vez a Segunda RFEF. El domingo 18 de octubre, a las 19:00 horas, Chapín acoge un nuevo capítulo de una historia que empezó con un empate sin goles en La Juventud."
+    ]
+  },
+  "art91": {
+    "fecha": "2026-10-17",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Entradas",
+    "title": "El Xerez agota las entradas de Tribuna y Preferencia para el derbi de Copa ante el Cádiz",
+    "lead": "Las localidades de Tribuna y Preferencia para el partido de la primera eliminatoria de la Copa del Rey ante el Cádiz CF, que se disputará el miércoles 28 de octubre a las 21:00 horas en Chapín, ya están agotadas a falta de once días para el encuentro, según ha informado el club.",
+    "body": [
+      "El Xerez CD ha vendido todas las entradas de Tribuna y Preferencia para el derbi provincial ante el Cádiz CF. La venta se abrió el jueves 15 de octubre, con precios de 35 euros en Tribuna y 30 en Preferencia para el público general, y de 20 y 15 euros, respectivamente, para los abonados.",
+      "<strong>Pocas entradas en Fondo Sur</strong>",
+      "En Fondo Sur quedan pocas localidades. Cuestan 25 euros para el público general y 10 para los abonados, precio que se mantiene hasta el domingo 25; a partir del lunes 26, todas las entradas se venderán a precio general.",
+      "<strong>Un cruce ante un Segunda División</strong>",
+      "El partido enfrenta al Xerez, que compite en Segunda RFEF, con el Cádiz CF, de Segunda División, en la primera eliminatoria de la Copa del Rey. Los aficionados gaditanos tienen reservado el Fondo Norte, con entradas a 25 euros."
     ]
   }
 }
