@@ -1594,9 +1594,9 @@
     <div class="contacto-wrap">
       <p class="contacto-intro">¿Tienes información, fotos o quieres colaborar con el Diario Xerecista? Escríbenos.</p>
       <div class="contacto-grid">
-        <a href="/cdn-cgi/l/email-protection#baded3dbc8d3d5e5c2dfc8dfd9d3c9cedbfacac8d5ced5d494d7df" class="contacto-item">
+        <a href="mailto:diario_xerecista@proton.me" class="contacto-item">
           <span class="contacto-item-label">Email</span>
-          <span class="contacto-item-value"><span class="__cf_email__" data-cfemail="debab7bfacb7b181a6bbacbbbdb7adaabf9eaeacb1aab1b0f0b3bb">[email&#160;protected]</span></span>
+          <span class="contacto-item-value">diario_xerecista@proton.me</span>
         </a>
         <a href="https://x.com/Puroxerecismo" target="_blank" rel="noopener" class="contacto-item">
           <span class="contacto-item-label">𝕏 (Twitter)</span>
@@ -1626,7 +1626,7 @@
   <div class="wrap" style="margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.12);">
     <span style="font-family:'Space Mono',monospace;font-size:11px;opacity:0.7;">PuroXerecismo 2026</span>
     <a href="https://x.com/Puroxerecismo" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;font-family:'Space Mono',monospace;font-size:12px;font-weight:700;color:#fff;background:#000;padding:6px 14px;border-radius:3px;text-decoration:none;letter-spacing:0.04em;">𝕏 &nbsp;@Puroxerecismo</a>
-    <span style="font-family:'Space Mono',monospace;font-size:11px;opacity:0.7;">Contacto: <a href="/cdn-cgi/l/email-protection#9efaf7ffecf7f1c1e6fbecfbfdf7edeaffdeeeecf1eaf1f0b0f3fb" style="color:var(--oro);text-decoration:none;"><span class="__cf_email__" data-cfemail="482c21293a212717302d3a2d2b213b3c2908383a273c272666252d">[email&#160;protected]</span></a></span>
+    <span style="font-family:'Space Mono',monospace;font-size:11px;opacity:0.7;"><span id="pieContacto">Contacto</span>: <a href="mailto:diario_xerecista@proton.me" style="color:var(--oro);text-decoration:none;">diario_xerecista@proton.me</a></span>
   </div>
 </footer>
 
@@ -1641,7 +1641,7 @@
   </div>
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script>
   const navButtons = document.querySelectorAll('.navbtn[data-view]');
   const views = document.querySelectorAll('main .view, #view-articulo');
 
@@ -2510,6 +2510,7 @@
     document.querySelector('#view-plantilla .section-head h2').textContent = t('plantillaTitulo');
     document.querySelector('#view-contacto .section-head h2').textContent = t('contacto');
     document.querySelector('#view-contacto .contacto-intro').textContent = t('contactoIntro');
+    const pieContacto = document.getElementById('pieContacto'); if(pieContacto) pieContacto.textContent = t('contacto');
   }
 
   // Descarga un JSON con un reintento automático (con pequeño backoff) si la
