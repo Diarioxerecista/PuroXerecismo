@@ -1448,7 +1448,7 @@
   <section class="view" id="view-noticias">
     <div class="section-head">
       <h2>Noticias</h2>
-      <span class="tag">Fichajes · Club · Temporada</span>
+      <span class="tag" data-t="tagNoticias">Fichajes · Club · Temporada</span>
     </div>
     <div class="news-grid" id="noticiasGrid">
       <!-- generado dinámicamente por renderNoticias() -->
@@ -1459,7 +1459,7 @@
   <section class="view" id="view-cronicas">
     <div class="section-head">
       <h2>Crónicas de partido</h2>
-      <span class="tag">Temporada 2026/27</span>
+      <span class="tag" data-t="tagCronicas">Temporada 2026/27</span>
     </div>
     <p style="font-family:'Space Mono',monospace;font-size:12.5px;color:var(--tinta-suave);margin-bottom:18px;line-height:1.6;">
       Todavía no se ha disputado ningún partido oficial ni amistoso esta temporada. En cuanto el Xerez CD juegue su primer encuentro, aquí aparecerá la crónica completa con el resultado y el desarrollo del partido.
@@ -1472,7 +1472,7 @@
   <section class="view" id="view-calendario">
     <div class="section-head">
       <h2 id="calTitulo">Calendario y resultados</h2>
-      <span class="tag">Grupo IV · Segunda Federación 2026/27</span>
+      <span class="tag" data-t="tagCalendario">Grupo IV · Segunda Federación 2026/27</span>
     </div>
 
     <p id="calIntro" style="font-family:'Space Mono',monospace;font-size:12.5px;color:var(--tinta-suave);margin-bottom:18px;line-height:1.6;">
@@ -1522,7 +1522,7 @@
   <section class="view" id="view-clasificacion">
     <div class="section-head">
       <h2 id="clasTitulo">Clasificación</h2>
-      <span class="tag">Grupo IV · Segunda Federación</span>
+      <span class="tag" data-t="tagClasificacion">Grupo IV · Segunda Federación</span>
     </div>
 
     <p id="clasIntro" style="font-family:'Space Mono',monospace;font-size:12.5px;color:var(--tinta-suave);margin-bottom:18px;line-height:1.6;">
@@ -1547,7 +1547,7 @@
   <section class="view" id="view-historias">
     <div class="section-head">
       <h2>Historias Xerecistas</h2>
-      <span class="tag">Hemeroteca y relatos</span>
+      <span class="tag" data-t="tagHistorias">Hemeroteca y relatos</span>
     </div>
 
     <p style="font-family:'Space Mono',monospace;font-size:12.5px;color:var(--tinta-suave);margin-bottom:18px;line-height:1.6;">
@@ -1561,7 +1561,7 @@
   <section class="view" id="view-opinion">
     <div class="section-head">
       <h2>Artículo de Opinión</h2>
-      <span class="tag">Punto de vista</span>
+      <span class="tag" data-t="tagOpinion">Punto de vista</span>
     </div>
 
     <p style="font-family:'Space Mono',monospace;font-size:12.5px;color:var(--tinta-suave);margin-bottom:18px;line-height:1.6;">
@@ -1574,9 +1574,9 @@
   <section class="view" id="view-plantilla">
     <div class="section-head">
       <h2>Plantilla 2026/27</h2>
-      <span class="tag">En construcción</span>
+      <span class="tag" data-t="tagPlantilla">Temporada 2026/27</span>
     </div>
-    <p style="font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);margin-bottom:20px;line-height:1.7;">👆 Pulsa sobre el cromo para saber todo sobre tu jugador favorito y ver su historial.</p>
+    <p style="font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);margin-bottom:20px;line-height:1.7;" data-t="plantillaAviso">👆 Pulsa sobre el cromo para saber todo sobre tu jugador favorito y ver su historial.</p>
     <div class="cromos-grid" id="cromosGrid">
       <div class="construccion-wrap">
         <div class="construccion-icono">⚙</div>
@@ -2465,6 +2465,12 @@
       publiEspacio: 'Espacio publicitario \u00b7 Pon tu publicidad aqu\u00ed', publiContacta: 'Contacta \u2192',
       goleadoresTitulo: 'Goleadores \u00b7 Liga', golSing: 'gol', golPlur: 'goles',
       goleadoresPie: function(g, j){ return g+' '+(g===1?'gol':'goles')+' del Xerez CD en '+j+' '+(j===1?'jornada':'jornadas'); },
+      tagNoticias: 'Fichajes · Club · Temporada', tagCronicas: 'Temporada 2026/27', tagCalendario: 'Grupo IV · Segunda Federación 2026/27',
+      tagClasificacion: 'Grupo IV · Segunda Federación', tagHistorias: 'Hemeroteca y relatos', tagOpinion: 'Punto de vista', tagPlantilla: 'Temporada 2026/27',
+      plantillaAviso: '👆 Pulsa sobre el cromo para saber todo sobre tu jugador favorito y ver su historial.',
+      fichaNac: 'Fecha nac.', fichaEdad: 'Edad', fichaAnios: 'años', fichaLugar: 'Lugar nac.', fichaDorsal: 'Dorsal', fichaFichado: 'Fichado',
+      fichaContrato: 'Contrato', fichaValor: 'Valor mercado', fichaHistorial: 'Historial de fichajes',
+      fichaTemp: 'Temp.', fichaSalida: 'Salida', fichaDestino: 'Destino', fichaValorCol: 'Valor',
       mapaLiga: 'Segunda Federación · Grupo IV', mapaFijo: 'Fijo', mapaEyebrow: 'Competición · Grupo IV 26/27', mapaVer: 'Ver mapa →', mapaVolver: '← Volver',
       mapaCardTitulo: 'Mapa interactivo de rivales — distancias desde Chapín',
       mapaCardTexto: '17 rivales geolocalizados con los kilómetros desde Chapín.',
@@ -2496,6 +2502,12 @@
       publiEspacio: 'Advertising space \u00b7 Advertise here', publiContacta: 'Contact us \u2192',
       goleadoresTitulo: 'Top scorers \u00b7 League', golSing: 'goal', golPlur: 'goals',
       goleadoresPie: function(g, j){ return g+' Xerez CD '+(g===1?'goal':'goals')+' in '+j+' '+(j===1?'matchday':'matchdays'); },
+      tagNoticias: 'Signings · Club · Season', tagCronicas: '2026/27 season', tagCalendario: 'Group IV · Segunda Federación 2026/27',
+      tagClasificacion: 'Group IV · Segunda Federación', tagHistorias: 'Archive and stories', tagOpinion: 'Point of view', tagPlantilla: '2026/27 season',
+      plantillaAviso: '👆 Tap a card to find out all about your favourite player and see his career history.',
+      fichaNac: 'Date of birth', fichaEdad: 'Age', fichaAnios: 'years', fichaLugar: 'Birthplace', fichaDorsal: 'Number', fichaFichado: 'Signed',
+      fichaContrato: 'Contract', fichaValor: 'Market value', fichaHistorial: 'Transfer history',
+      fichaTemp: 'Season', fichaSalida: 'From', fichaDestino: 'To', fichaValorCol: 'Fee',
       mapaLiga: 'Segunda Federación · Group IV', mapaFijo: 'Pinned', mapaEyebrow: 'Competition · Group IV 26/27', mapaVer: 'See map →', mapaVolver: '← Back',
       mapaCardTitulo: 'Interactive map of opponents — distances from Chapín',
       mapaCardTexto: '17 opponents geolocated with the distance in kilometres from Chapín.',
@@ -2545,6 +2557,7 @@
     document.querySelector('#view-contacto .section-head h2').textContent = t('contacto');
     document.querySelector('#view-contacto .contacto-intro').textContent = t('contactoIntro');
     const pieContacto = document.getElementById('pieContacto'); if(pieContacto) pieContacto.textContent = t('contacto');
+    document.querySelectorAll('[data-t]').forEach(function(el){ var v = t(el.dataset.t); if(typeof v === 'string') el.textContent = v; });
     document.getElementById('calTitulo').textContent = t('calendarioTitulo');
     document.getElementById('calIntro').textContent = t('calendarioIntro');
     document.getElementById('clasTitulo').textContent = t('clasificacionTitulo');
@@ -3047,17 +3060,17 @@ function initMapaRivales(){
     document.getElementById('cromoModalNombre').textContent = j.nombreCompleto || (j.nombre+' '+j.apellidos);
     document.getElementById('cromoModalPos').textContent = j.posicionDetalle || j.posicion || '';
     const stats = [
-      {label:'Fecha nac.',value:j.fechaNacimiento||'—'},
-      {label:'Edad',value:j.edad ? j.edad+' años' : '—'},
-      {label:'Lugar nac.',value:j.lugarNacimiento||'—'},
-      {label:'Dorsal',value:j.dorsal||'—'},
-      {label:'Fichado',value:j.fichado||'—'},
-      {label:'Contrato',value:j.contrato||'—'},
-      {label:'Valor mercado',value:j.valorMercado||'—',gold:true},
+      {label:t('fichaNac'),value:j.fechaNacimiento||'—'},
+      {label:t('fichaEdad'),value:j.edad ? j.edad+' '+t('fichaAnios') : '—'},
+      {label:t('fichaLugar'),value:j.lugarNacimiento||'—'},
+      {label:t('fichaDorsal'),value:j.dorsal||'—'},
+      {label:t('fichaFichado'),value:j.fichado||'—'},
+      {label:t('fichaContrato'),value:j.contrato||'—'},
+      {label:t('fichaValor'),value:j.valorMercado||'—',gold:true},
     ].map(function(s){
       return '<div class="cromo-stat"><div class="cromo-stat-label">'+s.label+'</div><div class="cromo-stat-value'+(s.gold?' gold':'')+'">'+s.value+'</div></div>';
     }).join('');
-    const historial = j.historial && j.historial.length ? '<div class="cromo-historial-title">Historial de fichajes</div><table class="cromo-historial-table"><thead><tr><th>Temp.</th><th>Salida</th><th>Destino</th><th>Valor</th></tr></thead><tbody>'+j.historial.map(function(h){return '<tr><td>'+h.temporada+'</td><td>'+h.deClub+'</td><td>'+h.aClub+'</td><td class="val">'+h.valor+'</td></tr>';}).join('')+'</tbody></table>' : '';
+    const historial = j.historial && j.historial.length ? '<div class="cromo-historial-title">'+t('fichaHistorial')+'</div><table class="cromo-historial-table"><thead><tr><th>'+t('fichaTemp')+'</th><th>'+t('fichaSalida')+'</th><th>'+t('fichaDestino')+'</th><th>'+t('fichaValorCol')+'</th></tr></thead><tbody>'+j.historial.map(function(h){return '<tr><td>'+h.temporada+'</td><td>'+h.deClub+'</td><td>'+h.aClub+'</td><td class="val">'+h.valor+'</td></tr>';}).join('')+'</tbody></table>' : '';
     document.getElementById('cromoModalBody').innerHTML = '<div class="cromo-modal-top"><div class="cromo-modal-img" style="background-image:url(\''+j.cromo+'\')"></div><div class="cromo-stats">'+stats+'</div></div>'+historial;
     document.getElementById('cromoModalOverlay').classList.add('open');
     document.body.style.overflow='hidden';
