@@ -2320,11 +2320,11 @@
     const cardFijaPortada = `<article class="card" onclick="openMapaRivales()" style="cursor:pointer;">
       <div class="img-box" style="background:var(--azul-profundo) url('fotos/publicadas/mapa-andalucia-rivales.png') center/cover;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
         <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,44,84,0.1),rgba(13,44,84,0.55));"></div>
-        <span style="position:absolute;top:10px;left:10px;font-family:monospace;font-size:9px;font-weight:700;color:#C9A24B;background:rgba(13,44,84,0.8);padding:3px 8px;border-radius:2px;">📌 Fijo</span>
+        <span style="position:absolute;top:10px;left:10px;font-family:monospace;font-size:9px;font-weight:700;color:#C9A24B;background:rgba(13,44,84,0.8);padding:3px 8px;border-radius:2px;">📌 ${t('mapaFijo')}</span>
       </div>
-      <span class="eyebrow" style="margin-top:14px;display:block;">Competición · Grupo IV 26/27</span>
-      <h4>Mapa interactivo de rivales — distancias desde Chapín</h4>
-      <p style="font-size:13px;color:var(--tinta-suave);margin-top:6px;">17 rivales geolocalizados con los km desde Chapín. <span style="color:var(--oro);font-weight:600;">Ver mapa →</span></p>
+      <span class="eyebrow" style="margin-top:14px;display:block;">${t('mapaEyebrow')}</span>
+      <h4>${t('mapaCardTitulo')}</h4>
+      <p style="font-size:13px;color:var(--tinta-suave);margin-top:6px;">${t('mapaCardTexto')} <span style="color:var(--oro);font-weight:600;">${t('mapaVer')}</span></p>
     </article>`;
     document.getElementById('loUltimoGrid').innerHTML = cardFijaPortada + loUltimoIds.map(tarjetaHTML).join('');
   }
@@ -2414,11 +2414,11 @@
     const cardFija = `<article class="card" onclick="openMapaRivales()" style="cursor:pointer;">
       <div class="img-box" style="background:var(--azul-profundo) url('fotos/publicadas/mapa-andalucia-rivales.png') center/cover;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;">
         <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,44,84,0.1),rgba(13,44,84,0.55));"></div>
-        <span style="position:absolute;top:10px;left:10px;font-family:'Space Mono',monospace;font-size:9px;font-weight:700;color:var(--oro);letter-spacing:0.1em;text-transform:uppercase;background:rgba(13,44,84,0.8);padding:3px 8px;border-radius:2px;">📌 Fijo</span>
+        <span style="position:absolute;top:10px;left:10px;font-family:'Space Mono',monospace;font-size:9px;font-weight:700;color:var(--oro);letter-spacing:0.1em;text-transform:uppercase;background:rgba(13,44,84,0.8);padding:3px 8px;border-radius:2px;">📌 ${t('mapaFijo')}</span>
       </div>
-      <span class="eyebrow" style="margin-top:14px;display:block;">Competición · Grupo IV 26/27</span>
-      <h4>Mapa interactivo de rivales — distancias desde Chapín</h4>
-      <p style="font-size:13px;color:var(--tinta-suave);margin-top:6px;">17 rivales geolocalizados con los kilómetros desde el Estadio Municipal de Chapín. <span style="color:var(--oro);font-weight:600;">Ver mapa →</span></p>
+      <span class="eyebrow" style="margin-top:14px;display:block;">${t('mapaEyebrow')}</span>
+      <h4>${t('mapaCardTitulo')}</h4>
+      <p style="font-size:13px;color:var(--tinta-suave);margin-top:6px;">${t('mapaCardTexto')} <span style="color:var(--oro);font-weight:600;">${t('mapaVer')}</span></p>
     </article>`;
     document.getElementById('noticiasGrid').innerHTML = cardFija + ids.map(tarjetaHTML).join('');
   }
@@ -2465,6 +2465,15 @@
       publiEspacio: 'Espacio publicitario \u00b7 Pon tu publicidad aqu\u00ed', publiContacta: 'Contacta \u2192',
       goleadoresTitulo: 'Goleadores \u00b7 Liga', golSing: 'gol', golPlur: 'goles',
       goleadoresPie: function(g, j){ return g+' '+(g===1?'gol':'goles')+' del Xerez CD en '+j+' '+(j===1?'jornada':'jornadas'); },
+      mapaLiga: 'Segunda Federación · Grupo IV', mapaFijo: 'Fijo', mapaEyebrow: 'Competición · Grupo IV 26/27', mapaVer: 'Ver mapa →', mapaVolver: '← Volver',
+      mapaCardTitulo: 'Mapa interactivo de rivales — distancias desde Chapín',
+      mapaCardTexto: '17 rivales geolocalizados con los kilómetros desde Chapín.',
+      mapaTitulo: 'Rivales del Xerez CD — Grupo IV 26/27',
+      mapaLead: '17 rivales geolocalizados. Haz clic en cada marcador para ver los kilómetros por carretera desde el Estadio Municipal de Chapín (en línea recta para los equipos canarios).',
+      mapaTemporada: 'Temporada 2026/27', mapaZonas: '18 equipos · Andalucía, Extremadura y Canarias',
+      mapaEquipos: 'Equipos', mapaJornadas: 'Jornadas', mapaInicio: 'Inicio',
+      mapaLeyenda: 'Por carretera; en línea recta para Canarias', mapaDesde: 'desde Chapín', mapaCalculando: 'Calculando...',
+      mapaIsla: '✈️ distancia aérea (isla)', mapaCarretera: '🚗 por carretera', mapaAprox: 'distancia aprox.',
       calendarioTitulo: 'Calendario y resultados',
       calendarioIntro: 'Calendario oficial del Xerez CD en el Grupo IV de Segunda Federación. Temporada 2026/27. Los resultados se irán actualizando jornada a jornada.',
       clasificacionTitulo: 'Clasificación',
@@ -2487,6 +2496,15 @@
       publiEspacio: 'Advertising space \u00b7 Advertise here', publiContacta: 'Contact us \u2192',
       goleadoresTitulo: 'Top scorers \u00b7 League', golSing: 'goal', golPlur: 'goals',
       goleadoresPie: function(g, j){ return g+' Xerez CD '+(g===1?'goal':'goals')+' in '+j+' '+(j===1?'matchday':'matchdays'); },
+      mapaLiga: 'Segunda Federación · Group IV', mapaFijo: 'Pinned', mapaEyebrow: 'Competition · Group IV 26/27', mapaVer: 'See map →', mapaVolver: '← Back',
+      mapaCardTitulo: 'Interactive map of opponents — distances from Chapín',
+      mapaCardTexto: '17 opponents geolocated with the distance in kilometres from Chapín.',
+      mapaTitulo: 'Xerez CD opponents — Group IV 26/27',
+      mapaLead: '17 opponents geolocated. Click on each marker to see the road distance in kilometres from the Estadio Municipal de Chapín (straight-line distance for the Canary Islands teams).',
+      mapaTemporada: '2026/27 season', mapaZonas: '18 teams · Andalusia, Extremadura and the Canary Islands',
+      mapaEquipos: 'Teams', mapaJornadas: 'Matchdays', mapaInicio: 'Start',
+      mapaLeyenda: 'By road; straight-line for the Canary Islands', mapaDesde: 'from Chapín', mapaCalculando: 'Calculating...',
+      mapaIsla: '✈️ air distance (island)', mapaCarretera: '🚗 by road', mapaAprox: 'approx. distance',
       calendarioTitulo: 'Fixtures and results',
       calendarioIntro: 'Official Xerez CD fixtures in Group IV of the Segunda Federación. 2026/27 season. Results will be updated matchday by matchday.',
       clasificacionTitulo: 'Standings',
@@ -2666,34 +2684,34 @@
     if(window._leafletMap){ try{ window._leafletMap.remove(); }catch(e){} window._leafletMap=null; }
     const c = document.getElementById('articleContent');
     c.innerHTML = `
-      <span class="back-link" onclick="closeArticle()">← Volver</span>
-      <span class="eyebrow">Competición · Grupo IV 26/27</span>
-      <h1>Rivales del Xerez CD — Grupo IV 26/27</h1>
-      <p class="lead">17 rivales geolocalizados. Haz clic en cada marcador para ver los kilómetros desde el Estadio Municipal de Chapín en línea recta.</p>
+      <span class="back-link" onclick="closeArticle()">${t('mapaVolver')}</span>
+      <span class="eyebrow">${t('mapaEyebrow')}</span>
+      <h1>${t('mapaTitulo')}</h1>
+      <p class="lead">${t('mapaLead')}</p>
       <div style="background:var(--azul-profundo);border-radius:6px;padding:22px 24px;margin:18px 0 24px;display:flex;align-items:center;gap:20px;flex-wrap:wrap;position:relative;overflow:hidden;">
         <div style="position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(201,162,75,0.06) 0px,rgba(201,162,75,0.06) 1px,transparent 1px,transparent 18px);pointer-events:none;"></div>
         <div style="flex:1;min-width:180px;position:relative;">
-          <div style="font-family:'Space Mono',monospace;font-size:9px;font-weight:700;color:var(--oro);text-transform:uppercase;letter-spacing:0.16em;margin-bottom:8px;">Segunda Federación · Grupo IV</div>
-          <div style="font-family:'Fraunces',serif;font-size:22px;font-weight:900;color:#fff;line-height:1.15;margin-bottom:6px;">Temporada 2026/27</div>
-          <div style="font-family:'Space Mono',monospace;font-size:11px;color:rgba(255,255,255,0.6);line-height:1.6;">18 equipos · Andalucía, Extremadura y Canarias</div>
+          <div style="font-family:'Space Mono',monospace;font-size:9px;font-weight:700;color:var(--oro);text-transform:uppercase;letter-spacing:0.16em;margin-bottom:8px;">${t('mapaLiga')}</div>
+          <div style="font-family:'Fraunces',serif;font-size:22px;font-weight:900;color:#fff;line-height:1.15;margin-bottom:6px;">${t('mapaTemporada')}</div>
+          <div style="font-family:'Space Mono',monospace;font-size:11px;color:rgba(255,255,255,0.6);line-height:1.6;">${t('mapaZonas')}</div>
         </div>
         <div style="display:flex;gap:12px;flex-wrap:wrap;position:relative;">
           <div style="background:rgba(255,255,255,0.07);border:1px solid rgba(201,162,75,0.3);border-radius:4px;padding:10px 16px;text-align:center;">
             <div style="font-family:'Fraunces',serif;font-size:28px;font-weight:900;color:var(--oro);line-height:1;">18</div>
-            <div style="font-family:'Space Mono',monospace;font-size:9px;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.1em;margin-top:2px;">Equipos</div>
+            <div style="font-family:'Space Mono',monospace;font-size:9px;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.1em;margin-top:2px;">${t('mapaEquipos')}</div>
           </div>
           <div style="background:rgba(255,255,255,0.07);border:1px solid rgba(201,162,75,0.3);border-radius:4px;padding:10px 16px;text-align:center;">
             <div style="font-family:'Fraunces',serif;font-size:28px;font-weight:900;color:var(--oro);line-height:1;">34</div>
-            <div style="font-family:'Space Mono',monospace;font-size:9px;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.1em;margin-top:2px;">Jornadas</div>
+            <div style="font-family:'Space Mono',monospace;font-size:9px;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.1em;margin-top:2px;">${t('mapaJornadas')}</div>
           </div>
           <div style="background:rgba(255,255,255,0.07);border:1px solid rgba(201,162,75,0.3);border-radius:4px;padding:10px 16px;text-align:center;">
             <div style="font-family:'Fraunces',serif;font-size:28px;font-weight:900;color:var(--oro);line-height:1;">5 Sep</div>
-            <div style="font-family:'Space Mono',monospace;font-size:9px;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.1em;margin-top:2px;">Inicio</div>
+            <div style="font-family:'Space Mono',monospace;font-size:9px;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.1em;margin-top:2px;">${t('mapaInicio')}</div>
           </div>
         </div>
       </div>
       <div id="mapaRivales" style="height:480px;border-radius:4px;overflow:hidden;border:1px solid var(--linea);margin:24px 0 8px;"></div>
-      <p style="font-family:'Space Mono',monospace;font-size:10px;color:var(--tinta-suave);margin-bottom:32px;line-height:1.7;">📍 Distancias en línea recta · <span style="color:var(--oro)">●</span> Xerez CD · <span style="color:var(--azul-profundo)">●</span> Rival</p>
+      <p style="font-family:'Space Mono',monospace;font-size:10px;color:var(--tinta-suave);margin-bottom:32px;line-height:1.7;">📍 ${t('mapaLeyenda')} · <span style="color:var(--oro)">●</span> Xerez CD · <span style="color:var(--azul-profundo)">●</span> Rival</p>
     `;
     document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
     document.getElementById('view-articulo').classList.add('active');
@@ -2849,7 +2867,7 @@ function kmAereo(lat1,lon1,lat2,lon2){
 function popupRival(nombre,kmTexto,nota){
   return '<strong style="font-family:monospace;font-size:13px">'+nombre+'</strong><br>'
     +'<span style="font-family:monospace;color:#C9A24B;font-weight:700;font-size:14px">'+kmTexto+'</span>'
-    +' <span style="font-size:11px;color:#666">desde Chapín</span>'
+    +' <span style="font-size:11px;color:#666">'+t('mapaDesde')+'</span>'
     +(nota?'<br><span style="font-size:10px;color:#999">'+nota+'</span>':'');
 }
 
@@ -2916,7 +2934,7 @@ function initMapaRivales(){
     }
     var initPopup=e.home
       ?'<strong style="font-family:monospace">Xerez CD 🏠</strong><br><span style="font-size:12px">Estadio Municipal de Chapín</span>'
-      :'<strong style="font-family:monospace">'+e.n+'</strong><br><span style="font-size:11px;color:#999">Calculando...</span>';
+      :'<strong style="font-family:monospace">'+e.n+'</strong><br><span style="font-size:11px;color:#999">'+t('mapaCalculando')+'</span>';
     markers.push(L.marker([e.lat,e.lon],{icon:icon}).bindPopup(initPopup).addTo(map));
   });
   map.fitBounds(L.featureGroup(markers).getBounds().pad(0.08));
@@ -2995,14 +3013,14 @@ function initMapaRivales(){
     var m=markers[i];
     if(ISLAS_CANARIAS.indexOf(e.n)>=0){
       var aer=kmAereo(JEREZ[0],JEREZ[1],e.lat,e.lon);
-      m.setPopupContent(popupRival(e.n,'~'+aer+' km','✈️ distancia aérea (isla)'));
+      m.setPopupContent(popupRival(e.n,'~'+aer+' km',t('mapaIsla')));
     } else {
       fetchKmCarretera(JEREZ[1],JEREZ[0],e.lon,e.lat).then(function(km){
-        if(km) m.setPopupContent(popupRival(e.n,km+' km','🚗 por carretera'));
-        else { var aer=kmAereo(JEREZ[0],JEREZ[1],e.lat,e.lon); m.setPopupContent(popupRival(e.n,'~'+aer+' km','distancia aprox.')); }
+        if(km) m.setPopupContent(popupRival(e.n,km+' km',t('mapaCarretera')));
+        else { var aer=kmAereo(JEREZ[0],JEREZ[1],e.lat,e.lon); m.setPopupContent(popupRival(e.n,'~'+aer+' km',t('mapaAprox'))); }
       }).catch(function(){
         var aer=kmAereo(JEREZ[0],JEREZ[1],e.lat,e.lon);
-        m.setPopupContent(popupRival(e.n,'~'+aer+' km','distancia aprox.'));
+        m.setPopupContent(popupRival(e.n,'~'+aer+' km',t('mapaAprox')));
       });
     }
   });
