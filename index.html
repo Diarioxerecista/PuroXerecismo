@@ -3054,6 +3054,15 @@ function initMapaRivales(){
   </div>
 </div>
 <script>
+  // Edad calculada a partir de la fecha de nacimiento (dd/mm/aaaa); null si la fecha está incompleta
+  function edadDesde(fecha){
+    var m = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(String(fecha||'').trim());
+    if(!m) return null;
+    var hoy = new Date(), d = +m[1], mes = +m[2], a = +m[3];
+    var e = hoy.getFullYear() - a;
+    if(hoy.getMonth()+1 < mes || (hoy.getMonth()+1 === mes && hoy.getDate() < d)) e--;
+    return e;
+  }
   function openCromoModal(idx){
     const j = (window._plantillaData || [])[idx];
     if(!j) return;
@@ -3061,7 +3070,7 @@ function initMapaRivales(){
     document.getElementById('cromoModalPos').textContent = j.posicionDetalle || j.posicion || '';
     const stats = [
       {label:t('fichaNac'),value:j.fechaNacimiento||'—'},
-      {label:t('fichaEdad'),value:j.edad ? j.edad+' '+t('fichaAnios') : '—'},
+      {label:t('fichaEdad'),value:(function(){ var e = edadDesde(j.fechaNacimiento); if(e === null) e = j.edad; return e ? e+' '+t('fichaAnios') : '—'; })()},
       {label:t('fichaLugar'),value:j.lugarNacimiento||'—'},
       {label:t('fichaDorsal'),value:j.dorsal||'—'},
       {label:t('fichaFichado'),value:j.fichado||'—'},
