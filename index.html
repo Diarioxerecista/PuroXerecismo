@@ -1947,7 +1947,7 @@
   // Texto de cabecera de la Clasificación con la jornada real de clasificacion.json
   function pintarIntroClasificacion(){
     var el = document.getElementById('clasIntro');
-    if(el) el.textContent = TEXTOS[idiomaActual].clasificacionIntro(window._jornadaClasif);
+    if(el) el.textContent = TEXTOS[idiomaActual].clasificacionIntro(window._jornadaClasif, window._pendientesClasif || 0);
   }
 
   function cargarClasificacion(){
@@ -1979,6 +1979,7 @@
         cont.querySelectorAll('.fixture-row:not(.header)').forEach(function(n){ n.remove(); });
         cont.insertAdjacentHTML('beforeend', html);
         window._jornadaClasif = data.jornada || null;
+        window._pendientesClasif = (data.pendientes || []).length;
         pintarIntroClasificacion();
       })
       .catch(function(err){ console.warn('clasificacion.json no disponible', err); });
@@ -2483,7 +2484,7 @@
       calendarioTitulo: 'Calendario y resultados',
       calendarioIntro: 'Calendario oficial del Xerez CD en el Grupo IV de Segunda Federación. Temporada 2026/27. Los resultados se irán actualizando jornada a jornada.',
       clasificacionTitulo: 'Clasificación',
-      clasificacionIntro: function(j){ return 'Temporada 2026/27' + (j ? ' · Clasificación tras la jornada ' + j : '') + '. El Grupo IV de Segunda Federación reúne a clubes de Andalucía, Canarias y Extremadura. La tabla se actualiza al cerrarse cada jornada.'; },
+      clasificacionIntro: function(j, f){ return 'Temporada 2026/27' + (j ? (f ? ' · Clasificación provisional de la jornada ' + j + ' (falta' + (f===1?' 1 partido':'n ' + f + ' partidos') + ')' : ' · Clasificación tras la jornada ' + j) : '') + '. El Grupo IV de Segunda Federación reúne a clubes de Andalucía, Canarias y Extremadura. La tabla se actualiza al cerrarse cada jornada.'; },
       contacto: 'Contacto', contactoIntro: '\u00bfTienes informaci\u00f3n, fotos o quieres colaborar con el Diario Xerecista? Escr\u00edbenos.'
     },
     en: {
@@ -2520,7 +2521,7 @@
       calendarioTitulo: 'Fixtures and results',
       calendarioIntro: 'Official Xerez CD fixtures in Group IV of the Segunda Federación. 2026/27 season. Results will be updated matchday by matchday.',
       clasificacionTitulo: 'Standings',
-      clasificacionIntro: function(j){ return '2026/27 season' + (j ? ' · Standings after matchday ' + j : '') + '. Group IV of the Segunda Federación brings together clubs from Andalusia, the Canary Islands and Extremadura. The table is updated as each matchday is completed.'; },
+      clasificacionIntro: function(j, f){ return '2026/27 season' + (j ? (f ? ' · Provisional standings for matchday ' + j + ' (' + f + ' match' + (f===1?'':'es') + ' still to play)' : ' · Standings after matchday ' + j) : '') + '. Group IV of the Segunda Federación brings together clubs from Andalusia, the Canary Islands and Extremadura. The table is updated as each matchday is completed.'; },
       contacto: 'Contact', contactoIntro: 'Got a tip, photos or want to contribute to Diario Xerecista? Get in touch.'
     }
   };
