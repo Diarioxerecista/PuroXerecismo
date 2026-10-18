@@ -117,7 +117,8 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 ## Directo (`live.json`)
 - Apagado: `{"activo": false}`.
 - Encendido: `{"activo":true,"local":"Xerez CD","visitante":"Marbella","resultado":"1-0","minuto":65}`; opcionales `estado` ("DESCANSO", "FINAL") y `nota`. Sustituye al widget de próximo partido.
-- Nombres como en `ESCUDOS`. Lo escribe el workflow `.github/workflows/directo.yml` (activo, cada 5 min en día de partido). Al acabar, volver a `{"activo": false}`.
+- Nombres como en `ESCUDOS`. Lo escribe el workflow `.github/workflows/directo.yml`, solo y para todos los partidos de su lista `PARTIDOS` (no hay que hacer nada en cada partido).
+- Cómo funciona: GitHub lo lanza cuando puede (programado cada 5 min, pero a veces con mucho retraso). Si arranca hasta 90 min antes del saque, espera sin gastar cuota; desde 10 min antes vigila el partido entero, consulta API-Football cada 150 s (unas 50-60 consultas por partido; el plan gratuito da 100/día) y sube cada cambio (minuto, goles, "DESCANSO"). Al terminar deja `"estado": "FINAL"` y la siguiente ejecución fuera de horario lo apaga. Un solo robot a la vez (`concurrency`).
 
 ## Plantilla y cromos (`plantilla.json` + `fotos/cromos/`)
 - `plantilla.json` es un array; cada jugador: nombre, apellidos, nombreCompleto, dorsal, posicion (POR/DEF/CC/DEL…), posicionDetalle, fechaNacimiento (dd/mm/aaaa), edad, lugarNacimiento, nacionalidad, altura, pie, agente, fichado, contrato, valorMercado, historial [{temporada, deClub, aClub, valor}], cromo.
