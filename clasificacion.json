@@ -28,20 +28,28 @@
    "gc": 6
   },
   {
+   "nombre": "Badajoz",
+   "escudo": "fotos/escudos/badajoz.png",
+   "pj": 7,
+   "pts": 14,
+   "gf": 8,
+   "gc": 5
+  },
+  {
+   "nombre": "Don Benito",
+   "escudo": "fotos/escudos/don-benito.png",
+   "pj": 7,
+   "pts": 13,
+   "gf": 13,
+   "gc": 10
+  },
+  {
    "nombre": "Mijas Las Lagunas",
    "escudo": "fotos/escudos/las-lagunas.png",
    "pj": 7,
    "pts": 12,
    "gf": 16,
    "gc": 12
-  },
-  {
-   "nombre": "Badajoz",
-   "escudo": "fotos/escudos/badajoz.png",
-   "pj": 6,
-   "pts": 11,
-   "gf": 7,
-   "gc": 5
   },
   {
    "nombre": "Estepona",
@@ -68,14 +76,6 @@
    "gc": 6
   },
   {
-   "nombre": "Don Benito",
-   "escudo": "fotos/escudos/don-benito.png",
-   "pj": 6,
-   "pts": 10,
-   "gf": 9,
-   "gc": 8
-  },
-  {
    "nombre": "Tenerife B",
    "escudo": "fotos/escudos/tenerife-b.png",
    "pj": 7,
@@ -94,10 +94,10 @@
   {
    "nombre": "Atlético Sanluqueño",
    "escudo": "fotos/escudos/sanluqueno.png",
-   "pj": 6,
+   "pj": 7,
    "pts": 7,
    "gf": 10,
-   "gc": 10
+   "gc": 11
   },
   {
    "nombre": "Xerez CD",
@@ -108,20 +108,20 @@
    "gc": 6
   },
   {
-   "nombre": "Atlético Central",
-   "escudo": "fotos/escudos/atletico-central.png",
-   "pj": 6,
-   "pts": 6,
-   "gf": 8,
-   "gc": 11
-  },
-  {
    "nombre": "Marbella",
    "escudo": "fotos/escudos/marbella.png",
    "pj": 7,
    "pts": 6,
    "gf": 6,
    "gc": 9
+  },
+  {
+   "nombre": "Atlético Central",
+   "escudo": "fotos/escudos/atletico-central.png",
+   "pj": 7,
+   "pts": 6,
+   "gf": 10,
+   "gc": 15
   },
   {
    "nombre": "Tamaraceite",
@@ -147,9 +147,5 @@
    "gf": 6,
    "gc": 12
   }
- ],
- "pendientes": [
-  "Badajoz - Atlético Sanluqueño",
-  "Don Benito - Atlético Central"
  ]
 }
