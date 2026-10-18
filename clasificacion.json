@@ -20,20 +20,20 @@
    "gc": 7
   },
   {
+   "nombre": "Ciudad de Lucena",
+   "escudo": "fotos/escudos/ciudad-lucena.png",
+   "pj": 7,
+   "pts": 14,
+   "gf": 12,
+   "gc": 6
+  },
+  {
    "nombre": "Mijas Las Lagunas",
    "escudo": "fotos/escudos/las-lagunas.png",
    "pj": 7,
    "pts": 12,
    "gf": 16,
    "gc": 12
-  },
-  {
-   "nombre": "Ciudad de Lucena",
-   "escudo": "fotos/escudos/ciudad-lucena.png",
-   "pj": 6,
-   "pts": 11,
-   "gf": 11,
-   "gc": 6
   },
   {
    "nombre": "Badajoz",
@@ -102,10 +102,10 @@
   {
    "nombre": "Xerez CD",
    "escudo": "fotos/escudos/escudo-xerez-cd-hd.png",
-   "pj": 6,
+   "pj": 7,
    "pts": 6,
    "gf": 4,
-   "gc": 5
+   "gc": 6
   },
   {
    "nombre": "Atlético Central",
@@ -150,7 +150,6 @@
  ],
  "pendientes": [
   "Badajoz - Atlético Sanluqueño",
-  "Don Benito - Atlético Central",
-  "Xerez CD - Ciudad de Lucena"
+  "Don Benito - Atlético Central"
  ]
 }
