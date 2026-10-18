@@ -401,6 +401,16 @@
 
   .side-list{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;align-items:start;}
 
+  /* Tabla de clasificación: columnas propias (en móvil, números estrechos y el nombre con el resto) */
+  #tablaClasificacion .fixture-row{grid-template-columns:40px minmax(0,1fr) 50px 50px 50px 50px;}
+  #tablaClasificacion .team{min-width:0;line-height:1.25;}
+  @media (max-width:560px){
+    #tablaClasificacion .fixture-row{grid-template-columns:20px minmax(0,1fr) 24px 30px 24px 24px;gap:6px;padding:10px 8px;font-size:12px;}
+    #tablaClasificacion .fixture-row > span:not(.team){text-align:center;}
+    #tablaClasificacion .team{gap:6px !important;}
+    #tablaClasificacion .team img{width:18px !important;height:18px !important;flex-shrink:0;}
+  }
+
   /* Columna de la noticia principal: publicidad + goleadores debajo */
   .hero-col{display:flex;flex-direction:column;gap:20px;min-width:0;}
   .ad-strip{
@@ -1530,7 +1540,7 @@
     </p>
 
     <div class="fixtures" id="tablaClasificacion">
-      <div class="fixture-row header" style="grid-template-columns:40px 1fr 50px 50px 50px 50px;">
+      <div class="fixture-row header">
         <span>#</span><span>Equipo</span><span>Pj</span><span>Pts</span><span>GF</span><span>GC</span>
       </div>
     </div>
@@ -1957,7 +1967,7 @@
       .then(function(data){
         var eq = (data && data.equipos) || [];
         if(!eq.length) return;
-        var cols = 'grid-template-columns:40px 1fr 50px 50px 50px 50px;';
+        var cols = '';
         var html = '';
         eq.forEach(function(e, i){
           var pos = i + 1;
