@@ -83,6 +83,12 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - hreflang: es, en y x-default (= ES) en ambas páginas.
 - Byline: "Redacción — 12 de octubre de 2026" / "Newsroom — 12 October 2026"; en opinión "Opinión — …" / "Opinion — …".
 
+### Imagen para redes (`fotos/redes/`)
+- Cada artículo nuevo lleva una imagen para compartir de 1200×630 con el titular encima: `fotos/redes/artNN-es.jpg` y `fotos/redes/artNN-en.jpg`, generadas con `scripts/imagen_redes.py` a partir de la foto del artículo. Etiqueta según el tipo: "Noticia"/"News", "Crónica"/"Match report", "Opinión"/"Opinion", "Historias"/"Stories".
+- En el HTML de cada idioma, `og:image` y `twitter:image` apuntan a su imagen de redes, con `og:image:width` 1200 y `og:image:height` 630. En la web (portada, tarjetas, artículo) se sigue viendo la foto normal; el JSON-LD también usa la foto normal.
+- X y WhatsApp guardan la vista previa de un enlace la primera vez que lo ven: la imagen tiene que estar ANTES de que se comparta. Si se cambia después, al tuitear pegar el enlace con `?v=2` (o otro número) y avisar al usuario de que los tuits ya publicados no cambian.
+- Requiere Pillow (en el Mac mini se instala en un entorno temporal: `python3 -m venv … && pip install pillow`).
+
 ### Sitemap (un bloque por idioma, al final antes de `</urlset>`)
 ```xml
 <url>
