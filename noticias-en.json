@@ -574,23 +574,6 @@
       "<strong>Incidents:</strong> Match corresponding to the fourth matchday of Group 4 of Segunda RFEF played at the Nuevo Colombino, with around 700 Xerez supporters travelling to the Huelva stands."
     ]
   },
-  "art72": {
-    "fecha": "2026-09-29",
-    "categoria": "noticia",
-    "eyebrow": "Club · Dugout",
-    "title": "Xerez still weighing up the dugout decision, already preparing for Tenerife B and with the Betis Deportivo kick-off time confirmed",
-    "lead": "Ángel Rodríguez has been ruled out of the shortlist drawn up by the board, which is now choosing between Abel Gómez and Abel Segovia to lead the team on Sunday at 12:00 against the Canary Islands side, while the kick-off time for the clash with the Betis reserve side, leaders of Segunda RFEF, is already known: Saturday at 18:00",
-    "body": [
-      "Xerez CD has still not resolved the question mark over its dugout just days before hosting Tenerife B next Sunday at 12:00, in what will be the first league fixture since the dismissal of Xavi Molist. The club has already ruled Ángel Rodríguez out of the shortlist of candidates, so the final decision is now narrowed down to the other two profiles being considered by the board: Abel Gómez and Abel Segovia.",
-      "<strong>No decision in sight</strong>",
-      "The club continues to work against the clock to resolve an appointment that looks urgent, given that the new coach would have very few training days before the clash with the Canary Islanders. Despite this, and although time is pressing, the club has not yet confirmed which of the two Abels will finally take the seat on the Xerez bench.",
-      "<strong>The fixture list offers no respite: leaders Betis Deportivo are next</strong>",
-      "Aside from the uncertainty in the dugout, the kick-off time has also been confirmed for the match that will pit the Jerez side against, without a doubt, the most in-form team in Group 4: Betis Deportivo, the green-and-white reserve side that sits clear at the top of the division, in a fixture that will be played on Saturday at 18:00.",
-      "It is striking that, in both Segunda RFEF and Tercera RFEF, Real Betis Balompié's two reserve sides currently occupy first place in their respective groups, and with an identical number of points, a curious coincidence that reflects the high level of performance both Betis academy teams are showing at the start of the season.",
-      "<strong>A demanding stretch of fixtures</strong>",
-      "Xerez CD therefore faces a double challenge in the coming weeks: resolving the dugout situation as soon as possible so as not to lose any more adaptation time, and doing so with an eye on a fixture list that offers no respite, with the visit of Tenerife B on Sunday at 12:00 and the trip to leaders Betis Deportivo at the Ciudad Deportiva Luis del Sol the following Saturday at 18:00, two acid tests for a team that needs to react as soon as possible in the table."
-    ]
-  },
   "art73": {
     "fecha": "2026-09-29",
     "categoria": "noticia",
@@ -1013,5 +996,30 @@
     "arbitro": "Cándido Rodríguez Tavio",
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 7 · Group IV"
+  },
+  "art93": {
+    "fecha": "2026-10-19",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinion · Analysis",
+    "title": "What if we asked for help?",
+    "lead": "Under Abel Segovia, Xerez have gained intensity and judgement, and the squad has the quality for much more. But a team that dominates and does not win is starting to feel the anxiety: perhaps the time has come for the mind to be trained too, and to put every player in his right place.",
+    "body": [
+      "Since Abel Segovia's arrival, Xerez CD have changed their image. The team plays with intensity and judgement, and knows what it has to do on the pitch. They showed it on Sunday against Ciudad de Lucena, in a match they dominated from start to finish and lost in the 89th minute. But the results are not following, with four points out of nine under the new coach, and the feeling is that some players are still not in their right place. One figure sums it up: Xerez have hit the woodwork seven times in seven league matchdays.",
+      "<strong>Zequi, on his wrong foot</strong>",
+      "Zequi is a player with real class, but he keeps being played on the left, on his wrong foot. On the right, Guille Campos gives solidity to the full-back position; what is missing afterwards is the cross, that final ball that turns an attack into a chance.",
+      "<strong>Set pieces, a missed opportunity</strong>",
+      "There is one resource Xerez are not making the most of: corners and set pieces. Not a single corner is aimed at the near post, a variation that could catch opposing defences by surprise.",
+      "<strong>Fali, at the heart of the defence</strong>",
+      "Fali has to play, but at centre-back. On Sunday, in his minutes at the heart of the defence, he showed he has the judgement to bring the ball out from the back. The problem is who to leave out, because all the centre-backs are playing at a tremendous level.",
+      "<strong>A clever diamond that lacks a spark</strong>",
+      "In midfield, the team forms a diamond with Raúl López, Mario Peregrina, Zequi and Jaime Fernández. They play with judgement, but perhaps they lack that touch of creativity that Jaime López and Ismael bring. Bittor Isuskiza is a great player, but he is the one you bring on when you want to slow a game down: he brings calm to the midfield.",
+      "<strong>Up front, between anxiety and effort</strong>",
+      "In attack, Rubén Mesa is so anxious to score that perhaps that very anxiety is holding him back. And there is nothing to say about Chuma: two league goals, and he gives his all in every match.",
+      "<strong>The mind plays too</strong>",
+      "Perhaps it would be a good idea for the team to work with a psychologist, before the players themselves stop believing they can turn the situation around. Because this is a good squad and, little by little, a good team is also being built. There are reasons to trust it. But perhaps the time has come to put every player in his right place."
+    ]
   }
 }

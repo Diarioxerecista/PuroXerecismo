@@ -217,24 +217,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-09/un-xerez-sin-personalidad-precipita-el-cese-de-molist/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-sigue-deshojando-la-margarita-para-el-banquillo-preparando-ya-su-compromiso-ante-el-tenerife-b/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-09-29</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-sigue-deshojando-la-margarita-para-el-banquillo-preparando-ya-su-compromiso-ante-el-tenerife-b/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-still-weighing-up-the-dugout-decision-as-they-prepare-for-tenerife-b/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-sigue-deshojando-la-margarita-para-el-banquillo-preparando-ya-su-compromiso-ante-el-tenerife-b/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-still-weighing-up-the-dugout-decision-as-they-prepare-for-tenerife-b/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-09-29</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-sigue-deshojando-la-margarita-para-el-banquillo-preparando-ya-su-compromiso-ante-el-tenerife-b/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-still-weighing-up-the-dugout-decision-as-they-prepare-for-tenerife-b/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-sigue-deshojando-la-margarita-para-el-banquillo-preparando-ya-su-compromiso-ante-el-tenerife-b/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-conocera-este-lunes-5-de-octubre-a-su-rival-en-la-copa-del-rey/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -674,5 +656,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/el-lucena-sale-colider-de-chapin-ante-un-gran-xerez/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/cronicas/2026-10/lucena-leave-chapin-as-joint-leaders-against-a-great-xerez-side/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/el-lucena-sale-colider-de-chapin-ante-un-gran-xerez/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/what-if-we-asked-for-help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/what-if-we-asked-for-help/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-19</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/what-if-we-asked-for-help/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/"/>
   </url>
 </urlset>
