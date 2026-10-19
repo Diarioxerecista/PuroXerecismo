@@ -2791,7 +2791,7 @@
       : (slug && slug !== id
         ? 'https://www.diarioxerecista.es/noticias/'+slug+'/'
         : 'https://www.diarioxerecista.es/?n='+id);
-    const shareUrl = 'https://x.com/intent/tweet?text='+encodeURIComponent(a.title+'\n\n'+urlArticulo)+'&via=Puroxerecismo';
+    const shareUrl = 'https://x.com/intent/tweet?text='+encodeURIComponent(a.title+'\n\n'+urlArticulo);
     const compartirTexto = idiomaActual === 'es' ? 'Compartir en 𝕏' : 'Share on 𝕏';
     c.innerHTML = `
       <span class="back-link" onclick="closeArticle()">${t('volver')}</span>
