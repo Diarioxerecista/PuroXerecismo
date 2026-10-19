@@ -77,7 +77,7 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - Encuadre: las tarjetas, el destacado y las miniaturas recortan la foto por arriba (`top center`). Si lo importante queda cortado (p. ej. una foto vertical), añadir `"objectPosition": "center 50%"` (u otro valor CSS) en su entrada de fotos-articulos.json.
 
 ### HTML
-- Copiar la estructura del artículo publicado más reciente y cambiar: title, description, canonical, hreflang, og:*, twitter:*, JSON-LD (headline, description, image, datePublished, dateModified, inLanguage, @id), eyebrow, h1, foto + alt, lead, cuerpo, byline, enlace de compartir en X (sin `&via=`: el usuario decidió no añadir "a través de @Puroxerecismo"), enlaces ES↔EN.
+- Copiar la estructura del artículo publicado más reciente y cambiar: title, description, canonical, hreflang, og:*, twitter:*, JSON-LD (headline, description, image, datePublished, dateModified, inLanguage, @id), eyebrow, h1, foto + alt, lead, cuerpo, byline, enlace de compartir en X (texto: titular + salto + URL + salto + `#XerezCD`, sin `&via=`; el hashtag detrás hace que X muestre el enlace), enlaces ES↔EN.
 - Rutas relativas: ES `noticias/articulos/AAAA-MM/slug/` → `../../../../`; EN `en/noticias/articulos/AAAA-MM/slug/` → `../../../../../`.
 - Canonical = URL absoluta propia: `https://www.diarioxerecista.es/noticias/<slug>/` y `https://www.diarioxerecista.es/en/noticias/<slug>/`.
 - hreflang: es, en y x-default (= ES) en ambas páginas.
