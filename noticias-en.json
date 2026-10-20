@@ -574,22 +574,6 @@
       "<strong>Incidents:</strong> Match corresponding to the fourth matchday of Group 4 of Segunda RFEF played at the Nuevo Colombino, with around 700 Xerez supporters travelling to the Huelva stands."
     ]
   },
-  "art73": {
-    "fecha": "2026-09-29",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Draw",
-    "title": "Xerez CD will learn its Copa del Rey opponent this Monday, 5 October",
-    "lead": "The draw for the first round will be held from 13:00 in the Salón Luis Aragonés at the Ciudad del Fútbol, with the possibility that the azulinos will face a side from a higher division",
-    "body": [
-      "Xerez CD will be following closely this coming Monday, 5 October, the draw for the first round of the Copa del Rey, which will be held from 13:00 in the Salón Luis Aragonés at the Ciudad del Fútbol. The event will determine the opponent that will cross the Jerez side's path on its run in the knockout tournament, with the chance of facing a team from a higher division.",
-      "<strong>Criteria of geographical proximity and sporting level</strong>",
-      "The draw will be made according to criteria of geographical proximity between the participating clubs, while also seeking, whenever possible, to pair teams from lower divisions with sides from higher levels, in the traditional format that characterises the early rounds of the competition.",
-      "<strong>Composition pending the preliminary round</strong>",
-      "The final composition of the groups for this draw will, however, depend on how the preliminary round scheduled for 3 and 4 October is resolved, the outcome of which will determine which teams finally enter the pool of participants ahead of Monday's event.",
-      "<strong>The four Supercopa representatives, exempt from this round</strong>",
-      "FC Barcelona, Real Madrid, Atlético de Madrid and Real Sociedad, the four teams that will contest the next Supercopa de España, are exempt from playing this first round. These teams will join the competition directly in the round of 32."
-    ]
-  },
   "art74": {
     "fecha": "2026-09-29",
     "categoria": "noticia",
@@ -1020,6 +1004,21 @@
       "In attack, Rubén Mesa is so anxious to score that perhaps that very anxiety is holding him back. And there is nothing to say about Chuma: two league goals, and he gives his all in every match.",
       "<strong>The mind plays too</strong>",
       "Perhaps it would be a good idea for the team to work with a psychologist, before the players themselves stop believing they can turn the situation around. Because this is a good squad and, little by little, a good team is also being built. There are reasons to trust it. But perhaps the time has come to put every player in his right place."
+    ]
+  },
+  "art94": {
+    "fecha": "2026-10-20",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Security",
+    "title": "Security operation for Xerez-Cádiz, declared high risk, gets more complicated",
+    "lead": "The Copa del Rey match between Xerez CD and Cádiz CF, to be played on Wednesday 28 October at Chapín, has been declared high risk by the relevant authorities. In addition, Renfe will not lay on a return train for Cádiz supporters, Cádiz CF has announced on social media, which complicates the security operation and could lead many Cádiz fans to decide against travelling to Jerez.",
+    "body": [
+      "Xerez CD host Cádiz CF on Wednesday 28 October at 21:00 at Chapín, in the first round of the Copa del Rey. The Cádiz club explained in a statement that it tried to negotiate a return train with Renfe for its supporters after the match, but it was not possible. The lack of that train means the security operation planned for a high-risk match has to be rethought.",
+      "<strong>Fewer away fans</strong>",
+      "Without a return train, many Cádiz supporters may think twice about travelling to Jerez. The club reserved the Fondo Norte for them, with tickets at 25 euros.",
+      "<strong>What will Xerez do with the Fondo Norte?</strong>",
+      "The big question is what Xerez CD will now do with the Fondo Norte seats that may be left empty. One possibility would be to split the stand in two to sell the available tickets on match day. We will have to wait for the club's decision.",
+      "Demand for the derby has been high: Tribuna and Preferencia tickets sold out eleven days before the match, and there were few seats left in the Fondo Sur."
     ]
   }
 }

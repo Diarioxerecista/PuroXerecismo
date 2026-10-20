@@ -60,7 +60,7 @@ def generar(foto, etiqueta, titulo, logo, salida, vert=0.35):
     # titular: el mayor tamaño que quepa en 3 líneas como máximo
     for tam in range(96, 40, -4):
         ft = ImageFont.truetype(F_TIT, tam)
-        lineas = partir(d, titulo, ft, W - 2 * margen - 40)
+        lineas = partir(d, titulo, ft, W - 2 * margen - 120)  # deja hueco al escudo de la derecha
         if len(lineas) <= 3: break
     alto_linea = int(tam * 1.12)
     y_tit = H - 92 - alto_linea * len(lineas)

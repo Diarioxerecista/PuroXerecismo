@@ -217,24 +217,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-09/un-xerez-sin-personalidad-precipita-el-cese-de-molist/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-conocera-este-lunes-5-de-octubre-a-su-rival-en-la-copa-del-rey/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-09-29</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-conocera-este-lunes-5-de-octubre-a-su-rival-en-la-copa-del-rey/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-to-learn-its-copa-del-rey-opponent-on-monday-5-october/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-conocera-este-lunes-5-de-octubre-a-su-rival-en-la-copa-del-rey/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-to-learn-its-copa-del-rey-opponent-on-monday-5-october/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <lastmod>2026-09-29</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-conocera-este-lunes-5-de-octubre-a-su-rival-en-la-copa-del-rey/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-09/xerez-cd-to-learn-its-copa-del-rey-opponent-on-monday-5-october/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-conocera-este-lunes-5-de-octubre-a-su-rival-en-la-copa-del-rey/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-09/el-xerez-cd-cerca-de-un-acuerdo-con-abel-segovia-aunque-el-nombramiento-aun-no-esta-cerrado/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -674,5 +656,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/what-if-we-asked-for-help/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/se-complica-el-dispositivo-de-seguridad-del-xerez-cadiz-declarado-de-alto-riesgo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/se-complica-el-dispositivo-de-seguridad-del-xerez-cadiz-declarado-de-alto-riesgo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/security-operation-for-xerez-cadiz-declared-high-risk-gets-more-complicated/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/se-complica-el-dispositivo-de-seguridad-del-xerez-cadiz-declarado-de-alto-riesgo/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/security-operation-for-xerez-cadiz-declared-high-risk-gets-more-complicated/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/se-complica-el-dispositivo-de-seguridad-del-xerez-cadiz-declarado-de-alto-riesgo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/security-operation-for-xerez-cadiz-declared-high-risk-gets-more-complicated/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/se-complica-el-dispositivo-de-seguridad-del-xerez-cadiz-declarado-de-alto-riesgo/"/>
   </url>
 </urlset>

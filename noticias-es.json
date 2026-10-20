@@ -574,22 +574,6 @@
       "<strong>Incidencias:</strong> Encuentro correspondiente a la cuarta jornada del Grupo 4 de Segunda RFEF disputado en el Nuevo Colombino, con cerca de 700 seguidores xerecistas desplazados hasta las gradas onubenses."
     ]
   },
-  "art73": {
-    "fecha": "2026-09-29",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Sorteo",
-    "title": "El Xerez CD conocerá este lunes 5 de octubre a su rival en la Copa del Rey",
-    "lead": "El sorteo de la primera eliminatoria se celebrará a partir de las 13:00 horas en el Salón Luis Aragonés de la Ciudad del Fútbol, con la posibilidad de que los azulinos se midan a un conjunto de categoría superior",
-    "body": [
-      "El Xerez CD permanecerá atento este próximo lunes, 5 de octubre, al sorteo de la primera eliminatoria de la Copa del Rey, que se celebrará a partir de las 13:00 horas en el Salón Luis Aragonés de la Ciudad del Fútbol. El acto determinará el rival que se cruzará en el camino del conjunto jerezano en su andadura por el torneo del KO, con la opción de enfrentarse a un equipo de superior categoría.",
-      "<strong>Criterios de proximidad geográfica y de nivel deportivo</strong>",
-      "El sorteo se realizará siguiendo criterios de proximidad geográfica entre los clubes participantes, buscando además, siempre que resulte posible, enfrentar a los conjuntos de categorías inferiores con equipos de niveles superiores, en la tradicional fórmula que caracteriza a las primeras rondas de la competición.",
-      "<strong>Composición pendiente de la eliminatoria previa</strong>",
-      "La composición definitiva de los grupos de este sorteo dependerá, no obstante, de cómo se resuelva la eliminatoria previa programada para los días 3 y 4 de octubre, cuyo desenlace determinará qué equipos entran finalmente en la bolsa de participantes de cara a la cita del lunes.",
-      "<strong>Los cuatro representantes de la Supercopa, exentos de esta ronda</strong>",
-      "Quedan exentos de disputar esta primera eliminatoria el FC Barcelona, el Real Madrid, el Atlético de Madrid y la Real Sociedad, los cuatro conjuntos que disputarán la próxima Supercopa de España. Los citados equipos se incorporarán directamente a la competición en la ronda de dieciseisavos de final."
-    ]
-  },
   "art74": {
     "fecha": "2026-09-29",
     "categoria": "noticia",
@@ -1020,6 +1004,21 @@
       "En la delantera, Rubén Mesa está tan ansioso por marcar que quizás esa misma ansiedad le está frenando. Y de Chuma no hay nada que decir: dos goles en liga, y se deja el alma en cada partido.",
       "<strong>La cabeza también juega</strong>",
       "Quizás sería bueno que el equipo trabajara con una psicóloga, antes de que los propios jugadores dejen de verse capaces de levantar la situación. Porque esta es una buena plantilla y, poco a poco, también se está construyendo un buen equipo. Hay motivos para confiar en él. Pero quizás ha llegado la hora de poner a cada jugador en su sitio."
+    ]
+  },
+  "art94": {
+    "fecha": "2026-10-20",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Seguridad",
+    "title": "Se complica el dispositivo de seguridad del Xerez-Cádiz, declarado de alto riesgo",
+    "lead": "El partido de Copa del Rey entre el Xerez CD y el Cádiz CF, que se disputará el miércoles 28 de octubre en Chapín, ha sido declarado de alto riesgo por las autoridades competentes. Además, Renfe no habilitará un tren de regreso para los aficionados gaditanos, según ha comunicado el Cádiz CF en sus redes sociales, lo que complica el dispositivo de seguridad y podría hacer que muchos seguidores del Cádiz renuncien a viajar a Jerez.",
+    "body": [
+      "El Xerez CD recibe al Cádiz CF el miércoles 28 de octubre, a las 21:00 horas, en Chapín, en la primera eliminatoria de la Copa del Rey. El club gaditano ha explicado en un comunicado que intentó negociar con Renfe un tren de vuelta para su afición tras el partido, pero no ha sido posible. La falta de ese tren obliga a replantear el dispositivo de seguridad previsto para un encuentro de alto riesgo.",
+      "<strong>Menos aficionados visitantes</strong>",
+      "Sin un tren de regreso, muchos seguidores del Cádiz podrían pensarse no viajar a Jerez. El club les reservó el Fondo Norte, con entradas a 25 euros.",
+      "<strong>¿Qué hará el Xerez con el Fondo Norte?</strong>",
+      "La gran incógnita es qué hará ahora el Xerez CD con las localidades del Fondo Norte que puedan quedar libres. Una posibilidad sería dividir el fondo en dos para poner a la venta el día del partido las entradas disponibles. Habrá que esperar a conocer la decisión del club.",
+      "La demanda para el derbi ha sido alta: las entradas de Tribuna y Preferencia se agotaron a falta de once días para el encuentro, y en Fondo Sur quedaban pocas localidades."
     ]
   }
 }
