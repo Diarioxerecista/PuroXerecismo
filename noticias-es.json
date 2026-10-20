@@ -574,22 +574,6 @@
       "<strong>Incidencias:</strong> Encuentro correspondiente a la cuarta jornada del Grupo 4 de Segunda RFEF disputado en el Nuevo Colombino, con cerca de 700 seguidores xerecistas desplazados hasta las gradas onubenses."
     ]
   },
-  "art74": {
-    "fecha": "2026-09-29",
-    "categoria": "noticia",
-    "eyebrow": "Club · Banquillo",
-    "title": "El Xerez CD, cerca de un acuerdo con Abel Segovia, aunque el nombramiento aún no está cerrado",
-    "lead": "El preparador es el elegido por la directiva para dirigir al conjunto azulino hasta el final de la presente temporada, pero el acuerdo definitivo no termina de cerrarse por el equipo de trabajo que le acompaña, formado por colaboradores que ya estuvieron con él en el Sanluqueño y en el Numancia",
-    "body": [
-      "Todo apunta a que Abel Segovia es el elegido por la directiva del Xerez CD para hacerse cargo del banquillo hasta el final de la presente temporada, tras la destitución de Xavi Molist la pasada semana. Sin embargo, pese a existir ya una decisión tomada sobre el nombre del técnico, el acuerdo definitivo no ha llegado a cerrarse, y el motivo no es otro que el equipo de trabajo que acompaña al preparador, formado por colaboradores con los que ya ha trabajado anteriormente tanto en el Sanluqueño como en el Numancia.",
-      "<strong>Un cuerpo técnico de confianza como condición</strong>",
-      "Segovia, según ha podido conocerse, no contempla asumir el proyecto azulino en solitario, sino acompañado de los mismos colaboradores que le han secundado en anteriores etapas como entrenador. Una fórmula habitual en el fútbol, donde muchos técnicos condicionan su llegada a poder contar con su propio equipo de confianza, pero que en este caso se ha convertido en el auténtico hueso de la negociación entre ambas partes.",
-      "<strong>El equipo de trabajo, el verdadero obstáculo</strong>",
-      "El problema, tal y como apuntan las informaciones disponibles, no reside en el perfil deportivo del técnico ni en su idoneidad para el cargo, sobre la que ya existe consenso en la directiva, sino precisamente en las condiciones ligadas a la incorporación de su cuerpo técnico. Es ese asunto, y no otro, el que está retrasando la firma del acuerdo hasta final de temporada que ambas partes pretenden alcanzar.",
-      "<strong>Un nombramiento que sigue sin cerrarse</strong>",
-      "Mientras se resuelve este escollo, el Xerez CD continúa sin oficializar el nombramiento de su nuevo entrenador, con el reloj corriendo en contra ante la proximidad del debut liguero del banquillo, previsto para el próximo domingo ante el Tenerife B. La entidad deberá resolver cuanto antes esta cuestión si quiere que el técnico disponga de los días necesarios para preparar el encuentro con su propio cuerpo técnico sobre el césped de Chapín."
-    ]
-  },
   "art75": {
     "fecha": "2026-09-30",
     "categoria": "noticia",
@@ -1019,6 +1003,18 @@
       "<strong>¿Qué hará el Xerez con el Fondo Norte?</strong>",
       "La gran incógnita es qué hará ahora el Xerez CD con las localidades del Fondo Norte que puedan quedar libres. Una posibilidad sería dividir el fondo en dos para poner a la venta el día del partido las entradas disponibles. Habrá que esperar a conocer la decisión del club.",
       "La demanda para el derbi ha sido alta: las entradas de Tribuna y Preferencia se agotaron a falta de once días para el encuentro, y en Fondo Sur quedaban pocas localidades."
+    ]
+  },
+  "art95": {
+    "fecha": "2026-10-20",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Chapín",
+    "title": "El Ayuntamiento retirará la estructura de lanzamiento de disco de Chapín para el Xerez-Cádiz",
+    "lead": "El delegado de Salud y Deportes del Ayuntamiento de Jerez, Tomás Sampalo, ha anunciado en respuesta a este medio que se retirará la estructura de lanzamiento de disco del Estadio Municipal de Chapín para el partido de Copa del Rey ante el Cádiz CF, con el objetivo de que haya una mayor visibilidad.",
+    "body": [
+      "La medida se aplicará para el encuentro de la primera eliminatoria de la Copa del Rey entre el Xerez CD y el Cádiz CF, que se disputará el miércoles 28 de octubre a las 21:00 horas en Chapín. Con la retirada de la estructura, los aficionados tendrán una mayor visibilidad del terreno de juego.",
+      "<strong>Un partido con mucha expectación</strong>",
+      "El derbi provincial ha despertado un gran interés: las entradas de Tribuna y Preferencia se agotaron a falta de once días para el encuentro, que ha sido declarado de alto riesgo por las autoridades competentes."
     ]
   }
 }

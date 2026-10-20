@@ -63,10 +63,6 @@
     "foto": "fotos/publicadas/recreativo-xerez-j4-jero-lario-despeje.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art74": {
-    "foto": "fotos/publicadas/abel-segovia-marbella-cf.png",
-    "creditoFoto": "Foto: Marbella CF"
-  },
   "art75": {
     "foto": "fotos/publicadas/abel-segovia-marbella-cf.png",
     "creditoFoto": "Foto: Marbella CF"
@@ -148,5 +144,10 @@
   "art94": {
     "foto": "fotos/publicadas/xerez-donbenito-j3-chapin-grada.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art95": {
+    "foto": "fotos/publicadas/estadio-chapin-vista-aerea.jpg",
+    "creditoFoto": "Foto: Diario Xerecista",
+    "objectPosition": "center 45%"
   }
 }

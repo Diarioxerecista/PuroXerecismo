@@ -574,22 +574,6 @@
       "<strong>Incidents:</strong> Match corresponding to the fourth matchday of Group 4 of Segunda RFEF played at the Nuevo Colombino, with around 700 Xerez supporters travelling to the Huelva stands."
     ]
   },
-  "art74": {
-    "fecha": "2026-09-29",
-    "categoria": "noticia",
-    "eyebrow": "Club · Dugout",
-    "title": "Xerez CD close to an agreement with Abel Segovia, although the appointment is not yet finalised",
-    "lead": "The coach is the board's choice to lead the azulinos until the end of the current season, but the final agreement has yet to be sealed because of the backroom team that accompanies him, made up of assistants who were already with him at Sanluqueño and Numancia",
-    "body": [
-      "Everything points to Abel Segovia being the Xerez CD board's choice to take charge of the dugout until the end of the current season, following the dismissal of Xavi Molist last week. However, despite a decision already having been made on the coach's name, the final agreement has not yet been sealed, and the reason is none other than the backroom team that accompanies the coach, made up of assistants with whom he has previously worked at both Sanluqueño and Numancia.",
-      "<strong>A trusted coaching staff as a condition</strong>",
-      "Segovia, it has emerged, does not intend to take on the Xerez project alone, but accompanied by the same assistants who have supported him in previous spells as a coach. It is a common formula in football, where many coaches make their arrival conditional on being able to bring their own trusted team, but in this case it has become the real sticking point in the negotiations between the two parties.",
-      "<strong>The backroom team, the real obstacle</strong>",
-      "The problem, according to the information available, does not lie in the coach's sporting profile or his suitability for the role, on which there is already consensus within the board, but precisely in the conditions linked to the incorporation of his coaching staff. It is that issue, and no other, that is delaying the signing of the agreement until the end of the season that both parties are aiming to reach.",
-      "<strong>An appointment still not finalised</strong>",
-      "While this hurdle is being resolved, Xerez CD has still not made official the appointment of its new coach, with the clock ticking against them as the new coach's league debut approaches, scheduled for next Sunday against Tenerife B. The club will need to resolve this matter as soon as possible if it wants the coach to have the days needed to prepare for the match with his own coaching staff on the Chapín pitch."
-    ]
-  },
   "art75": {
     "fecha": "2026-09-30",
     "categoria": "noticia",
@@ -1019,6 +1003,18 @@
       "<strong>What will Xerez do with the Fondo Norte?</strong>",
       "The big question is what Xerez CD will now do with the Fondo Norte seats that may be left empty. One possibility would be to split the stand in two to sell the available tickets on match day. We will have to wait for the club's decision.",
       "Demand for the derby has been high: Tribuna and Preferencia tickets sold out eleven days before the match, and there were few seats left in the Fondo Sur."
+    ]
+  },
+  "art95": {
+    "fecha": "2026-10-20",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Chapín",
+    "title": "Jerez City Council to remove the discus throwing structure at Chapín for Xerez-Cádiz",
+    "lead": "Jerez City Council's head of Health and Sports, Tomás Sampalo, has announced in response to this outlet that the discus throwing structure at the Estadio Municipal de Chapín will be removed for the Copa del Rey match against Cádiz CF, so that there is better visibility.",
+    "body": [
+      "The measure will apply for the Copa del Rey first-round match between Xerez CD and Cádiz CF, to be played on Wednesday 28 October at 21:00 at Chapín. With the structure removed, supporters will have a better view of the pitch.",
+      "<strong>A match generating great anticipation</strong>",
+      "The provincial derby has generated great interest: Tribuna and Preferencia tickets sold out eleven days before the match, which has been declared high risk by the relevant authorities."
     ]
   }
 }
