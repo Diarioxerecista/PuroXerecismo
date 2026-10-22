@@ -622,22 +622,6 @@
     "goleadoresHome": "Julito 55'<br>Chuma 79'",
     "goleadoresAway": "Omar Sánchez 18'"
   },
-  "art79": {
-    "fecha": "2026-10-05",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Head-to-head",
-    "title": "The last cup meeting between Xerez and Cádiz went the azulinos’ way: a 1985-86 tie settled 4-2 on aggregate",
-    "lead": "After a one-all draw at the Domecq, Xerez won 1-3 at the Ramón de Carranza, in the last direct Cup tie between the two clubs",
-    "body": [
-      "With the first-round draw of the Copa del Rey now settled and the provincial derby set for Wednesday 28 October at Chapín, Xerez memories travel back to the 1985-86 season, the last time Xerez CD and Cádiz CF faced each other in a direct knockout tie in the competition.",
-      "<strong>A draw at the Domecq</strong>",
-      "The first leg was played on 23 October 1985 at the Domecq stadium in Jerez and ended in a one-all draw. The result left the tie open ahead of the clash in Cádiz.",
-      "<strong>Azulino triumph at the Carranza</strong>",
-      "The second leg was played on 6 November 1985 at the Ramón de Carranza stadium. Xerez won the derby 1-3 on Cádiz’s ground and sealed their progress with a 4-2 aggregate.",
-      "<strong>Forty-one years later, a new chapter</strong>",
-      "More than four decades after that tie, the two sides will meet again in the Cup. This time it will be a single match, with Xerez at home at Chapín. The azulinos, once again cast as the underdog against a higher-division opponent, will try to repeat the feat and feed the hopes of a fanbase that is already dreaming of another derby for the history books."
-    ]
-  },
   "art80": {
     "fecha": "2026-10-06",
     "categoria": "noticia",
@@ -1005,6 +989,19 @@
       "<strong>Xerez fans wait to see what happens</strong>",
       "It remains to be seen how Xerez fans would take the change. Some supporters who already have their tickets finish work around that time and could struggle to reach the stadium on time.",
       "The match was already drawing attention: it has been declared high-risk and the City Council will remove the discus-throwing structure at Chapín for the game."
+    ]
+  },
+  "art99": {
+    "fecha": "2026-10-23",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Latest",
+    "title": "The Xerez CD crest slips into a PP video against the PSOE",
+    "lead": "The Partido Popular has published a video aimed at Pedro Sánchez on its official X account in which the main character wears a sweatshirt bearing the Xerez CD crest.",
+    "body": [
+      "The video lasts one minute and 29 seconds and was posted with the message \"We hope the pizza doesn't upset your stomach, Pedro\", together with a mention of Sánchez's account. It opens with a shot of the sign outside a PSOE office. At the time of writing, it had over 290,000 views.",
+      "<strong>The crest, front and centre</strong>",
+      "In several shots, the young man who stars in the piece is seen walking down the street with a motorcycle helmet under his arm. He is wearing a navy Luanvi sweatshirt with the Xerez CD crest on the chest.",
+      "Diario Xerecista is not aware that the club authorised the use of its crest in the video, nor that it has commented on the matter."
     ]
   }
 }

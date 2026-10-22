@@ -67,10 +67,6 @@
     "foto": "fotos/publicadas/xerez-tenerife-b-j5-celebracion.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art79": {
-    "foto": "fotos/publicadas/xerez-cadiz-precedente-copa-celebracion.png",
-    "creditoFoto": "Foto: Archivo"
-  },
   "art80": {
     "foto": "fotos/publicadas/xerez-betis-deportivo-arcos-3.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -147,6 +143,10 @@
   },
   "art98": {
     "foto": "fotos/publicadas/Noticia_once_xerez.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art99": {
+    "foto": "fotos/publicadas/xerez-cd-tienda-oficial-apertura.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
