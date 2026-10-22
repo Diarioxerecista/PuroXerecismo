@@ -574,24 +574,6 @@
       "<strong>Incidencias:</strong> Encuentro correspondiente a la cuarta jornada del Grupo 4 de Segunda RFEF disputado en el Nuevo Colombino, con cerca de 700 seguidores xerecistas desplazados hasta las gradas onubenses."
     ]
   },
-  "art76": {
-    "fecha": "2026-10-01",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Sorteo",
-    "title": "El Xerez CD, previsiblemente emparejado con un Segunda División, mientras Recreativo y Lebrijana tendrán rival de Primera",
-    "lead": "El criterio de proximidad geográfica apunta a que el Recreativo de Huelva y el vencedor del duelo entre la UB Lebrijana y el CD Ceuta se cruzarán con toda seguridad con un conjunto de Primera División, mientras los equipos madrileños de categorías inferiores absorberán a los otros representantes de la máxima categoría, dejando al conjunto azulino sin esa opción",
-    "body": [
-      "El sorteo de la primera eliminatoria de la Copa del Rey, que se celebrará el próximo lunes 5 de octubre en el Salón Luis Aragonés de la Ciudad del Fútbol, se regirá por el criterio de proximidad geográfica entre los clubes participantes, un factor que marcará de forma decisiva los emparejamientos de esta ronda.",
-      "<strong>Recreativo de Huelva y Lebrijana, abocados a un rival de Primera</strong>",
-      "La distribución territorial de los equipos participantes deja prácticamente sentenciado que tanto el Recreativo de Huelva como el vencedor de la eliminatoria previa entre la UB Lebrijana y el CD Ceuta se medirán con seguridad a un representante de Primera División. Al tratarse de los únicos clubes de entidad situados en el entorno andaluz más próximo a los grandes conjuntos de la máxima categoría con sede en la región, el criterio geográfico del sorteo prácticamente garantiza ese cruce de máximo nivel para ambos equipos.",
-      "<strong>Los equipos madrileños, candidatos a los otros cruces de Primera</strong>",
-      "La concentración de clubes radicados en la Comunidad de Madrid entre los participantes de categorías inferiores apunta, por su parte, a que los restantes representantes de Primera División quedarán emparejados con conjuntos como el vencedor de la eliminatoria previa entre el AD Sporting de Hortaleza y el Atlético Unión Güímar, el CF Trival Valderas, el CDA Navalcarnero o la AD Alcorcón, todos ellos situados en el entorno madrileño.",
-      "<strong>El Xerez CD, sin opción de un rival de Primera</strong>",
-      "Esta doble circunstancia geográfica deja al Xerez CD prácticamente sin opción de recibir en el sorteo a un equipo de la máxima categoría, al quedar los cupos más próximos ya cubiertos por los clubes andaluces y madrileños antes citados. Todo apunta, por tanto, a que los azulinos tendrán que conformarse con un rival de Segunda División en esta primera eliminatoria copera.",
-      "<strong>A la espera del bombo definitivo</strong>",
-      "La composición final de los grupos del sorteo seguirá dependiendo, en cualquier caso, de la resolución de la eliminatoria previa del 3 y 4 de octubre, por lo que habrá que esperar a los próximos días para conocer con exactitud contra quién medirá sus fuerzas el Xerez CD en su participación en la Copa del Rey."
-    ]
-  },
   "art77": {
     "fecha": "2026-10-04",
     "categoria": [
@@ -1011,6 +993,20 @@
       "Los hechos se produjeron en el minuto 89 del partido de la séptima jornada, cuando Sergio García marcó el 0-1 que dio la victoria al Ciudad de Lucena. Según recoge el acta del encuentro, en ese momento se lanzaron botellas y mecheros desde la grada.",
       "<strong>Un aviso antes del derbi</strong>",
       "El apercibimiento supone que, si se repiten incidentes similares, el club podría ser sancionado con el cierre parcial del Fondo Sur. La sanción llega a una semana del partido de Copa del Rey ante el Cádiz CF, que se disputará el miércoles 28 de octubre a las 21:00 horas en Chapín y que ha sido declarado de alto riesgo por las autoridades competentes."
+    ]
+  },
+  "art97": {
+    "fecha": "2026-10-22",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Jornada 8",
+    "title": "El Atlético Marbella nunca ganó en Jerez: los precedentes antes de la primera visita del Marbella FC",
+    "lead": "El Xerez CD recibe el domingo 25 de octubre, a las 19:00 horas, al Marbella FC en lo que será, según la prensa marbellí, el primer enfrentamiento oficial entre ambos clubes. Los azulinos sí se midieron en tres ocasiones como locales al desaparecido Atlético Marbella en Segunda B, con dos victorias y un empate.",
+    "body": [
+      "La octava jornada del Grupo IV de Segunda RFEF enfrenta en Chapín a dos equipos empatados en la tabla: el Xerez es decimotercero y el Marbella, decimocuarto, ambos con 6 puntos.",
+      "<strong>El Marbella ya ganó en Jerez, pero no al Xerez</strong>",
+      "El actual club marbellí, que entonces se llamaba UD Marbella, ya sabe lo que es ganar en Jerez. Lo hizo en la temporada 2009/10, cuando se impuso por 1-2 al Jerez Industrial en el Grupo IV de Segunda División B.",
+      "<strong>Tres precedentes ante el Atlético Marbella</strong>",
+      "El historial del Xerez como local ante el desaparecido Club Atlético Marbella es favorable a los azulinos. En la temporada 1984/85, el Xerez ganó por 1-0 en el Grupo II de Segunda B. En la 1991/92 repitió el 1-0, ya en el Grupo IV, y en la 1996/97 ambos empataron a cero en ese mismo grupo. En sus tres visitas, el Atlético Marbella nunca ganó en Jerez."
     ]
   }
 }

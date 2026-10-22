@@ -63,10 +63,6 @@
     "foto": "fotos/publicadas/recreativo-xerez-j4-jero-lario-despeje.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art76": {
-    "foto": "fotos/publicadas/copa-del-rey-2026-27-grupos-primera-eliminatoria.png",
-    "creditoFoto": "Imagen: RFEF"
-  },
   "art77": {
     "foto": "fotos/publicadas/xerez-tenerife-b-j5-celebracion.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -148,6 +144,10 @@
   },
   "art96": {
     "foto": "fotos/publicadas/xerez-lucena-j7-celebracion-lucena.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art97": {
+    "foto": "fotos/publicadas/xerez-lucena-j7-control-area.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
