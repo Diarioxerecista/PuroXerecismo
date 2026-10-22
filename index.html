@@ -931,6 +931,25 @@
     animation:pulsoRojo 0.9s ease-in-out infinite alternate;
   }
   @keyframes pulsoRojo{from{opacity:1}to{opacity:0.4}}
+
+  /* ===== Última hora (ultimahora.json): recuadro sin foto arriba de la portada ===== */
+  .ultima-hora{
+    display:flex;gap:14px;align-items:flex-start;
+    background:#fff5f4;border:1px solid rgba(196,43,28,0.25);border-left:5px solid #c42b1c;
+    border-radius:10px;padding:14px 18px;margin-bottom:18px;
+  }
+  .ultima-hora-tag{
+    display:inline-flex;align-items:center;gap:7px;flex-shrink:0;
+    font-family:'Space Mono',monospace;font-size:11px;font-weight:700;letter-spacing:0.12em;
+    color:#c42b1c;text-transform:uppercase;padding-top:3px;
+  }
+  .ultima-hora-tag i{width:8px;height:8px;border-radius:50%;background:#c42b1c;display:inline-block;animation:pulsoRojo 0.9s ease-in-out infinite alternate;}
+  .ultima-hora-texto{font-size:15px;line-height:1.5;color:var(--tinta);font-weight:600;margin:0;}
+  .ultima-hora-hora{display:block;font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);font-weight:400;margin-top:4px;}
+  @media (max-width:560px){
+    .ultima-hora{flex-direction:column;gap:6px;padding:12px 14px;}
+    .ultima-hora-texto{font-size:14px;}
+  }
   .mapa-ping{animation:mapaPing 2.2s ease-out infinite;transform-origin:15px 38px;}
   @keyframes mapaPing{0%{opacity:0.9;transform:scale(0.6);}100%{opacity:0;transform:scale(2.4);}}
   .topbar-directo{
@@ -1437,6 +1456,7 @@
   <!-- ===================== PORTADA ===================== -->
   <section class="view active" id="view-portada">
 
+    <div id="ultimaHora"></div>
     <div id="proximoWidget"></div>
     <div id="fichajesStrip"></div>
     <div class="hero-grid" id="heroGrid">
@@ -1936,6 +1956,26 @@
       .catch(function(){
         return fetch(url).then(function(r){ return r.json(); });
       });
+  }
+
+  // Última hora: recuadro sin foto que se lee de ultimahora.json y desaparece solo al caducar
+  function pintarUltimaHora(){
+    const el = document.getElementById('ultimaHora');
+    const d = window._ultimaHora;
+    if(!el) return;
+    if(!d || !d.activo || (d.caduca && new Date(d.caduca) < new Date())){ el.innerHTML = ''; return; }
+    const texto = (d.texto && (d.texto[idiomaActual] || d.texto.es)) || '';
+    if(!texto){ el.innerHTML = ''; return; }
+    let hora = '';
+    if(d.fecha){
+      const f = new Date(d.fecha);
+      if(!isNaN(f)) hora = f.toLocaleString(idiomaActual === 'es' ? 'es-ES' : 'en-GB', {day:'numeric', month:'long', hour:'2-digit', minute:'2-digit'});
+    }
+    el.innerHTML = '<div class="ultima-hora" role="status"><span class="ultima-hora-tag"><i></i>'+t('ultimaHora')+'</span>'
+      + '<p class="ultima-hora-texto">'+texto+(hora ? '<span class="ultima-hora-hora">'+hora+'</span>' : '')+'</p></div>';
+  }
+  function cargarUltimaHora(){
+    fetchJson('ultimahora.json').then(function(d){ window._ultimaHora = d; pintarUltimaHora(); }).catch(function(){});
   }
 
   function cargarFichajes(){
@@ -2476,6 +2516,7 @@
       publiEspacio: 'Espacio publicitario \u00b7 Pon tu publicidad aqu\u00ed', publiContacta: 'Contacta \u2192',
       goleadoresTitulo: 'Goleadores \u00b7 Liga', golSing: 'gol', golPlur: 'goles',
       goleadoresPie: function(g, j){ return g+' '+(g===1?'gol':'goles')+' del Xerez CD en '+j+' '+(j===1?'jornada':'jornadas'); },
+      ultimaHora: 'Última hora',
       tagNoticias: 'Fichajes · Club · Temporada', tagCronicas: 'Temporada 2026/27', tagCalendario: 'Grupo IV · Segunda Federación 2026/27',
       tagClasificacion: 'Grupo IV · Segunda Federación', tagHistorias: 'Hemeroteca y relatos', tagOpinion: 'Punto de vista', tagPlantilla: 'Temporada 2026/27',
       plantillaAviso: '👆 Pulsa sobre el cromo para saber todo sobre tu jugador favorito y ver su historial.',
@@ -2513,6 +2554,7 @@
       publiEspacio: 'Advertising space \u00b7 Advertise here', publiContacta: 'Contact us \u2192',
       goleadoresTitulo: 'Top scorers \u00b7 League', golSing: 'goal', golPlur: 'goals',
       goleadoresPie: function(g, j){ return g+' Xerez CD '+(g===1?'goal':'goals')+' in '+j+' '+(j===1?'matchday':'matchdays'); },
+      ultimaHora: 'Breaking news',
       tagNoticias: 'Signings · Club · Season', tagCronicas: '2026/27 season', tagCalendario: 'Group IV · Segunda Federación 2026/27',
       tagClasificacion: 'Group IV · Segunda Federación', tagHistorias: 'Archive and stories', tagOpinion: 'Point of view', tagPlantilla: '2026/27 season',
       plantillaAviso: '👆 Tap a card to find out all about your favourite player and see his career history.',
@@ -2568,6 +2610,7 @@
     document.querySelector('#view-contacto .section-head h2').textContent = t('contacto');
     document.querySelector('#view-contacto .contacto-intro').textContent = t('contactoIntro');
     const pieContacto = document.getElementById('pieContacto'); if(pieContacto) pieContacto.textContent = t('contacto');
+    pintarUltimaHora();
     document.querySelectorAll('[data-t]').forEach(function(el){ var v = t(el.dataset.t); if(typeof v === 'string') el.textContent = v; });
     document.getElementById('calTitulo').textContent = t('calendarioTitulo');
     document.getElementById('calIntro').textContent = t('calendarioIntro');
@@ -2674,7 +2717,7 @@
   // la ráfaga de peticiones de fuentes/imágenes al arrancar la página.
   setTimeout(cargarNoticias, 250);
   // Independientes de las noticias: si un JSON de noticias falla, estos siguen cargando.
-  setTimeout(function(){ cargarFichajes(); cargarPlantilla(); cargarPublicidad(); cargarClasificacion(); }, 300);
+  setTimeout(function(){ cargarUltimaHora(); cargarFichajes(); cargarPlantilla(); cargarPublicidad(); cargarClasificacion(); }, 300);
 
   // Si el usuario usa el botón "atrás" del navegador tras abrir una noticia
   // (por ejemplo, llegando desde un enlace compartido), volvemos a portada

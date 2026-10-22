@@ -120,6 +120,11 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - El widget "Próximo partido" de portada sale de este array; no requiere más cambios.
 - Si cambia una hora, actualizarla también en `.github/workflows/directo.yml` (lista PARTIDOS propia, con hora).
 
+## Última hora (`ultimahora.json`)
+- Recuadro rojo sin foto encima del widget "Próximo partido" en portada.
+- `{ "activo": true, "fecha": "AAAA-MM-DDTHH:MM", "caduca": "AAAA-MM-DDTHH:MM", "texto": { "es": "…", "en": "…" } }`. Siempre en los dos idiomas.
+- Se oculta solo al pasar `caduca` (hora de España) o con `{"activo": false}`. Tras el partido o cuando la noticia pierda vigencia, apagarlo.
+
 ## Directo (`live.json`)
 - Apagado: `{"activo": false}`.
 - Encendido: `{"activo":true,"local":"Xerez CD","visitante":"Marbella","resultado":"1-0","minuto":65}`; opcionales `estado` ("DESCANSO", "FINAL") y `nota`. Sustituye al widget de próximo partido.
