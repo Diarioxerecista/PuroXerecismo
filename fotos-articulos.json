@@ -146,7 +146,8 @@
     "creditoFoto": "Foto: Diario Xerecista"
   },
   "art99": {
-    "foto": "fotos/publicadas/xerez-cd-tienda-oficial-apertura.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
+    "foto": "fotos/publicadas/video-pp-sudadera-xerez.jpg",
+    "creditoFoto": "Imagen: vídeo del Partido Popular en X",
+    "objectPosition": "center 40%"
   }
 }
