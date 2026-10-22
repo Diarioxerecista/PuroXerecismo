@@ -67,11 +67,6 @@
     "foto": "fotos/publicadas/xerez-tenerife-b-j5-celebracion.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art78": {
-    "foto": "fotos/publicadas/xerez-cadiz-copa-del-rey-2026-27-escudos.jpg",
-    "creditoFoto": "Imagen: Diario Xerecista",
-    "objectPosition": "center 50%"
-  },
   "art79": {
     "foto": "fotos/publicadas/xerez-cadiz-precedente-copa-celebracion.png",
     "creditoFoto": "Foto: Archivo"
@@ -148,6 +143,10 @@
   },
   "art97": {
     "foto": "fotos/publicadas/xerez-lucena-j7-control-area.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art98": {
+    "foto": "fotos/publicadas/Noticia_once_xerez.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
