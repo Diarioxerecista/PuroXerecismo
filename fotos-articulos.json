@@ -67,10 +67,6 @@
     "foto": "fotos/publicadas/xerez-tenerife-b-j5-celebracion.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art81": {
-    "foto": "fotos/publicadas/xerez-cd-79-aniversario-escudo.jpg",
-    "creditoFoto": "Foto: Xerez CD"
-  },
   "art82": {
     "foto": "fotos/publicadas/betis-deportivo-xerez-j6-celebracion-chuma.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -148,6 +144,10 @@
   },
   "art100": {
     "foto": "fotos/publicadas/marbella-fc-balon-aereo.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art101": {
+    "foto": "fotos/publicadas/xerez-cd-primer-entreno-pretemporada-2026-27.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }

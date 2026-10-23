@@ -622,27 +622,6 @@
     "goleadoresHome": "Julito 55'<br>Chuma 79'",
     "goleadoresAway": "Omar Sánchez 18'"
   },
-  "art81": {
-    "fecha": "2026-10-07",
-    "categoria": "noticia",
-    "eyebrow": "Club · Institutional",
-    "title": "Jerez City Council urged to finally present Xerez CD with the City Gold Medal, awarded in 2010",
-    "lead": "Members of the 75th Anniversary Committee denounce, in a letter to the mayor, the \"irregular situation\" of a full council resolution that remains unfulfilled more than fifteen years later",
-    "body": [
-      "JEREZ. The City Gold Medal that the full municipal council awarded to Xerez CD in 2010 has still not been presented. This is denounced in a letter addressed to the mayor of Jerez, María José García Pelayo, dated August 2026 and signed by Jesús Fernández Aguilar, which calls on the City Council to redress what its authors describe as a \"historic injustice\".",
-      "<strong>A request that keeps being turned down</strong>",
-      "The letter reviews the steps taken so far. In 2023, on behalf of the club’s 75th Anniversary Committee, they held a conversation with the councillor for Sport, who undertook to pass the request on to the relevant bodies. The answer they received was that it was not the right moment.",
-      "On 22 July 2024 they submitted a letter through the official channels to formally request that this failure to comply be put right. The mayor then informed the president of Xerez CD of a new negative response, once again based on the situation not being favourable. According to the letter, this increased the weariness and incomprehension of those driving the claim.",
-      "<strong>\"There are no objective circumstances\"</strong>",
-      "Two years later, the signatories maintain that the context has changed. They highlight the current moment of institutional normalisation between the City Council and the city’s clubs, reflected in the agreements recently signed, and state that there are no objective circumstances preventing the club from receiving a recognition granted by the people of Jerez more than fifteen years ago.",
-      "They also stress that other relevant people and institutions in the city regularly receive medals, and describe the situation as an \"administrative anomaly that is hard to justify\" for an institution such as the City Council.",
-      "<strong>Credit to the current government, but with demands</strong>",
-      "The letter acknowledges that the current governing team was not responsible for delaying the process, although it considers that the municipal corporation should be the first to ensure that the medal reaches its recipient. It recalls that full council resolutions are binding and leaves open the possibility of taking action if the matter is not resolved, while expressing the wish that this will not be necessary.",
-      "\"It is my most fervent wish that it will not be necessary for any such action to be set in motion,\" the text states, trusting that the City Council will show the sensitivity, formality and exemplary conduct befitting an institution that acts on behalf of all the people of Jerez.",
-      "<strong>Attached documentation</strong>",
-      "Along with the letter, documentation on the various steps taken and a press dossier have been sent. The signatories are awaiting a response from the City Council."
-    ]
-  },
   "art82": {
     "fecha": "2026-10-10",
     "categoria": [
@@ -1003,6 +982,25 @@
       "The squad has been almost completely rebuilt after relegation, and Calderón himself has acknowledged that the players are still getting to know each other. He has also called for a dressing room at the Luis Teruel stadium, because the group only comes together at training.",
       "<strong>A clash between table neighbours</strong>",
       "Xerez and Marbella are level on 6 points; the blue-and-whites are 13th and Marbella 14th, separated only by goal difference. Atlético Marbella never won in Jerez in their three visits in Segunda B."
+    ]
+  },
+  "art101": {
+    "fecha": "2026-10-23",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Matchday 8",
+    "title": "Segovia wants to make Chapín a fortress against a shape-shifting Marbella",
+    "lead": "Xerez CD head coach Abel Segovia called for sharper finishing for Sunday's match against Marbella (19:00, Chapín), a direct rival level on 6 points. He confirmed that Zelu will miss out and that Josete is back, and set the Copa del Rey aside: \"We haven't talked about Wednesday and we're not going to\".",
+    "body": [
+      "<strong>Only Marbella matters</strong>",
+      "The Cup tie against Cádiz, on Wednesday at Chapín, has not made its way into the dressing room this week, according to the coach: \"The only match that exists right now is the Marbella one\". Xerez arrive 13th, in the play-out place, and Marbella 14th, in the relegation zone, on the same points.",
+      "<strong>Lack of goals after Lucena</strong>",
+      "Segovia did not dwell on whether the 0-1 defeat to Ciudad de Lucena was unfair: \"I don't believe in fair or unfair, I believe in putting it in or not\". For the coach, the team played a complete match and lacked a finish. \"We are creating plenty of chances,\" he added, and he believes Xerez are above average in that department.",
+      "<strong>Fali at centre-back</strong>",
+      "On Fali, whom he played at centre-back last matchday, he recalled that he had already coached him as assistant manager at Nàstic and that he performed best in that position there. \"If we have to use him in defensive midfield we will, but right now I see him as a centre-back,\" he explained.",
+      "<strong>A changing Marbella</strong>",
+      "He noted that the opponents have gone four games without scoring, but that they change system a lot: they started with a 4-4-2 and have used 5-2-3 and 5-3-2. In their last match they defended with five and attacked in a 4-3-3. \"We have worked on those situations so we know how to counter them. In the end it has to be about us,\" he said.",
+      "<strong>Chapín, a fortress</strong>",
+      "Segovia asked for the fans' support: \"To achieve any objective you have to make your home a fortress\". He wants supporters to \"identify with the team, be proud and, when it's time to push, push\"."
     ]
   }
 }
