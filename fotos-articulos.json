@@ -147,7 +147,8 @@
     "creditoFoto": "Foto: Diario Xerecista"
   },
   "art101": {
-    "foto": "fotos/publicadas/xerez-cd-primer-entreno-pretemporada-2026-27.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
+    "foto": "fotos/publicadas/xerez-tenerife-b-j5-segovia-palco.jpg",
+    "creditoFoto": "Foto: Diario Xerecista",
+    "objectPosition": "center 40%"
   }
 }
