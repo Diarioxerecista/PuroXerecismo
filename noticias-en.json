@@ -622,22 +622,6 @@
     "goleadoresHome": "Julito 55'<br>Chuma 79'",
     "goleadoresAway": "Omar Sánchez 18'"
   },
-  "art80": {
-    "fecha": "2026-10-06",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Matchday 6",
-    "title": "Xerez CD visit Betis Deportivo, a solid leader yet to concede a goal",
-    "lead": "The azulinos face the verdiblanco reserve side on Saturday at 18:00, a team that has gone five matches without conceding and is the main candidate for direct promotion. A defeat would leave Abel Segovia’s side 11 points behind the leader barely a month into the season",
-    "body": [
-      "Xerez CD face one of the toughest tests on the calendar. On Saturday at 18:00 they will visit Betis Deportivo, leaders of Group 4 of Segunda RFEF, a team that has completed its first five matches without any opponent breaching its goal.",
-      "<strong>A leader that gives nothing away</strong>",
-      "The Betis reserve side has built its start on an impenetrable defence. Five matchdays with a clean sheet make the verdiblanco squad a very hard unit to beat and the main contender to achieve direct promotion. Their solidity at the back contrasts with the goal drought the Jerez side endured in the opening matchdays.",
-      "<strong>A match with a lot at stake</strong>",
-      "The azulinos arrive at the fixture after opening their win account against Tenerife B (2-1), a result that restored confidence to a dressing room that was going through a delicate moment. With Abel Segovia now in charge of the team, Xerez know the match is worth more than three points. If Betis Deportivo win, the gap to the leader would rise to 11 points when barely a month of competition has passed, a lead that would be very hard to cut. A good result, on the other hand, would keep the azulinos’ hopes alive and confirm that the change on the bench has put the season back on track.",
-      "<strong>A huge challenge</strong>",
-      "Beating a team that has not yet conceded a goal is a complicated task. Xerez will need to be clinical in the final third and highly focused at the back. It will be the first big test to measure how far the team has come with its new coach."
-    ]
-  },
   "art81": {
     "fecha": "2026-10-07",
     "categoria": "noticia",
@@ -1002,6 +986,23 @@
       "<strong>The crest, front and centre</strong>",
       "In several shots, the young man who stars in the piece is seen walking down the street with a motorcycle helmet under his arm. He is wearing a navy Luanvi sweatshirt with the Xerez CD crest on the chest.",
       "Diario Xerecista is not aware that the club authorised the use of its crest in the video, nor that it has commented on the matter."
+    ]
+  },
+  "art100": {
+    "fecha": "2026-10-23",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Matchday 8",
+    "title": "How Marbella arrive at Chapín: a back three, few goals and a squad still taking shape",
+    "lead": "Antonio Calderón's Marbella FC visit Chapín on Sunday 25 October at 19:00 sitting 14th with 6 points, the same as Xerez CD. The Marbella side, just relegated from Primera Federación, have scored only six goals in seven matchdays, and the local press points to their lack of goals as their biggest problem.",
+    "body": [
+      "<strong>A back three</strong>",
+      "Calderón took over at Marbella in July and has opted for a three-man central defence. At a press conference he explained that it is the approach that best suits his squad and that he will stick with it, although he does not rule out changing it. Against Betis Deportivo he lined up with five defenders, four midfielders and a lone striker.",
+      "The coach has also highlighted the change of system he introduced against Atlético Central, which, in his view, gave the team solidity: \"with this solidity, we give the team security\". His idea is to press without the ball in order to win it back and hurt the opponent.",
+      "<strong>No goals and a new squad</strong>",
+      "Marbella have scored six goals and conceded nine. In their last match they drew 0-0 with Estepona, and the Marbella press described the lack of finishing as \"their big problem this season\". Before that they had lost 1-0 at Badajoz, to a penalty, and 0-2 to Betis Deportivo, playing the whole second half with ten men after Cristóbal was sent off.",
+      "The squad has been almost completely rebuilt after relegation, and Calderón himself has acknowledged that the players are still getting to know each other. He has also called for a dressing room at the Luis Teruel stadium, because the group only comes together at training.",
+      "<strong>A clash between table neighbours</strong>",
+      "Xerez and Marbella are level on 6 points; the blue-and-whites are 13th and Marbella 14th, separated only by goal difference. Atlético Marbella never won in Jerez in their three visits in Segunda B."
     ]
   }
 }

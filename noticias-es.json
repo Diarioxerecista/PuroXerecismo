@@ -622,22 +622,6 @@
     "goleadoresHome": "Julito 55'<br>Chuma 79'",
     "goleadoresAway": "Omar Sánchez 18'"
   },
-  "art80": {
-    "fecha": "2026-10-06",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Jornada 6",
-    "title": "El Xerez CD visita al Betis Deportivo, un líder sólido que aún no ha encajado un gol",
-    "lead": "Los azulinos se miden el sábado a las 18:00 horas al filial verdiblanco, que suma cinco partidos sin recibir un tanto y es el gran candidato al ascenso directo. Una derrota dejaría al equipo de Abel Segovia a 11 puntos del líder en apenas un mes de competición",
-    "body": [
-      "El Xerez CD afronta una de las pruebas más exigentes del calendario. El sábado a las 18:00 horas visitará al Betis Deportivo, líder del Grupo 4 de Segunda RFEF, un equipo que ha completado sus cinco primeros partidos sin que ningún rival le haya perforado la portería.",
-      "<strong>Un líder que no concede</strong>",
-      "El filial bético ha construido su arranque sobre una defensa impermeable. Cinco jornadas con la portería a cero convierten a la plantilla verdiblanca en un bloque muy difícil de batir y en el principal aspirante a conseguir el ascenso de forma directa. Su solidez atrás contrasta con la sequía goleadora que arrastró el conjunto jerezano en las primeras jornadas.",
-      "<strong>Un partido con mucho en juego</strong>",
-      "Los azulinos llegan a la cita tras estrenar su casillero de victorias ante el Tenerife B (2-1), un resultado que devolvió la confianza a un vestuario que atravesaba un momento delicado. Con Abel Segovia ya al frente del equipo, el Xerez sabe que el duelo vale más que tres puntos. Si gana el Betis Deportivo, la distancia con el líder subiría a 11 puntos cuando apenas ha transcurrido un mes de competición, una ventaja muy difícil de recortar. Un buen resultado en cambio mantendría vivas las aspiraciones azulinas y confirmaría que el cambio en el banquillo ha encarrilado la temporada.",
-      "<strong>Un reto mayúsculo</strong>",
-      "Batir a un equipo que todavía no ha conocido el gol en contra es una tarea complicada. El Xerez deberá mostrar acierto en los metros finales y mucha concentración atrás. Será la primera gran prueba para medir hasta dónde ha llegado el equipo con su nuevo entrenador."
-    ]
-  },
   "art81": {
     "fecha": "2026-10-07",
     "categoria": "noticia",
@@ -1002,6 +986,23 @@
       "<strong>El escudo, en primer plano</strong>",
       "En varias imágenes aparece el joven que protagoniza la pieza caminando por la calle con un casco de moto bajo el brazo. Lleva una sudadera azul marino de la marca Luanvi con el escudo del Xerez CD en el pecho.",
       "Diario Xerecista no tiene constancia de que el club haya autorizado el uso de su escudo en el vídeo ni de que se haya pronunciado al respecto."
+    ]
+  },
+  "art100": {
+    "fecha": "2026-10-23",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Jornada 8",
+    "title": "Así llega el Marbella a Chapín: tres centrales, pocos goles y una plantilla todavía por hacer",
+    "lead": "El Marbella FC de Antonio Calderón visita Chapín el domingo 25 de octubre, a las 19:00, como 14.º clasificado con 6 puntos, los mismos que el Xerez CD. El equipo marbellí, recién descendido de Primera Federación, ha marcado solo seis goles en siete jornadas, y la prensa local señala la falta de gol como su gran problema.",
+    "body": [
+      "<strong>Defensa de tres centrales</strong>",
+      "Calderón llegó al banquillo del Marbella en julio y ha apostado por una defensa de tres centrales. En rueda de prensa explicó que es el planteamiento que mejor se adapta a su plantilla y que lo mantendrá, aunque no descarta variarlo. Ante el Betis Deportivo formó con cinco defensas, cuatro centrocampistas y un solo punta.",
+      "El técnico también ha destacado el cambio de sistema que introdujo ante el Atlético Central, que, según él, dio solidez al equipo: \"con esta solidez, al equipo le damos seguridad\". Su idea es presionar sin balón para robar y hacer daño al rival.",
+      "<strong>Sin gol y con una plantilla nueva</strong>",
+      "El Marbella suma seis goles a favor y nueve en contra. En su último partido empató sin goles ante el Estepona, y la prensa marbellí describió la falta de acierto como \"su gran problema de esta campaña\". Antes había perdido 1-0 en Badajoz, de penalti, y 0-2 ante el Betis Deportivo, con diez jugadores toda la segunda parte por la expulsión de Cristóbal.",
+      "La plantilla se ha rehecho casi entera tras el descenso, y el propio Calderón ha reconocido que los jugadores todavía se están conociendo. También ha reclamado un vestuario en el estadio Luis Teruel, porque el grupo solo coincide en los entrenamientos.",
+      "<strong>Un duelo entre vecinos de tabla</strong>",
+      "Xerez y Marbella llegan empatados a 6 puntos; los azulinos son 13.º y los marbellíes, 14.º, solo por la diferencia de goles. El Atlético Marbella nunca ganó en Jerez en sus tres visitas en Segunda B."
     ]
   }
 }

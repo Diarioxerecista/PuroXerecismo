@@ -67,10 +67,6 @@
     "foto": "fotos/publicadas/xerez-tenerife-b-j5-celebracion.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art80": {
-    "foto": "fotos/publicadas/xerez-betis-deportivo-arcos-3.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art81": {
     "foto": "fotos/publicadas/xerez-cd-79-aniversario-escudo.jpg",
     "creditoFoto": "Foto: Xerez CD"
@@ -149,5 +145,9 @@
     "foto": "fotos/publicadas/video-pp-sudadera-xerez.jpg",
     "creditoFoto": "Imagen: vídeo del Partido Popular en X",
     "objectPosition": "center 40%"
+  },
+  "art100": {
+    "foto": "fotos/publicadas/marbella-fc-balon-aereo.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
   }
 }
