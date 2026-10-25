@@ -991,5 +991,44 @@
       "It will be Xerez's second consecutive match with a morning kick-off. A week earlier, on Sunday 1 November, they visit Tamaraceite at 13:00.",
       "Before those two away trips, on Wednesday 28 October, the team host Cádiz CF at Chapín in the first round of the Copa del Rey."
     ]
+  },
+  "art104": {
+    "fecha": "2026-10-25",
+    "categoria": [
+      "cronica",
+      "noticia"
+    ],
+    "eyebrow": "Match report · Matchday 8",
+    "title": "An Ismael thunderbolt lifts Xerez out of the relegation zone against Marbella (1-0)",
+    "lead": "Xerez CD beat Marbella 1-0 at Chapín thanks to a stunning strike from outside the box by Ismael, who had come on after the break, in the 62nd minute. The blue-and-whites overcame a direct rival who made life uncomfortable for them in the first half with a high defensive line and a high press. With the win they climb out of the automatic relegation places and head into the Copa del Rey tie against Cádiz with their morale boosted.",
+    "score": "1-0",
+    "scoreHome": "Xerez CD",
+    "scoreAway": "Marbella FC",
+    "body": [
+      "<strong>Just one change to the line-up</strong>",
+      "Abel Segovia opted for continuity after the defeat to Ciudad de Lucena. It was the second of three consecutive matches at Chapín, counting Wednesday's Copa del Rey tie against Cádiz. He made just one change: Fali, wearing the captain's armband, came into the centre of defence alongside Manu Galán in place of Moi. Pantoja kept his place in goal, with Guille Campos and Chacartegui at full-back and under-23s Raúl López and Peregrina in midfield. Jaime Fernández and Zequi played on the flanks, Julito in the hole and Chuma up front. Antonio Calderón lined up in a 4-4-2.",
+      "<strong>Marbella surprise with their press</strong>",
+      "Xerez started with intent and Chuma tried his luck in the 2nd minute, but Marbella soon caught them off guard with a very high defensive line and a high press that made it hard for the Xerez side to play out from the back. Even so, the blue-and-whites found gaps: in the 12th minute, Julito headed a Zequi cross and Bloch saved.",
+      "<div style=\"position:relative;margin-top:18px;margin-bottom:18px;\"><img src=\"fotos/publicadas/xerez-marbella-j8-parada-bloch.jpg\" alt=\"Marbella goalkeeper Bloch stretches to tip the ball away at Chapín\" style=\"width:100%;border-radius:3px;display:block;\"><span style=\"position:absolute;left:8px;bottom:8px;font-family:'Space Mono',monospace;font-size:11px;color:#fff;background:rgba(13,44,84,0.72);padding:3px 8px;border-radius:2px;\">Photo: Diario Xerecista</span></div>",
+      "As the minutes passed, Calderón's side pushed forward. Fali cleared two crosses in a row in the 20th minute and Pantoja turned a cross-shot from Wudu behind for a corner in the 25th. Marbella lost Naldo to injury in the 22nd minute, replaced by Marcos.",
+      "<strong>Two disputed incidents</strong>",
+      "The crowd protested two incidents in the visitors' box: a push on Zequi in the 34th minute, which the fans claimed as a penalty, and a stamp by Wudu on Raúl López in the 38th. Guille Campos went close with a shot from the edge of the box before half-time, which arrived goalless.",
+      "<strong>Ismael changes the game</strong>",
+      "Segovia turned to his bench at the break: Ismael came on for Jaime Fernández, Julito moved out wide and Peregrina pushed further forward. In the 49th minute, Peregrina found himself one-on-one with Bloch, who blocked the shot with his chest. Cristóbal replied with a shot from the edge of the box that Pantoja held (55').",
+      "<div style=\"position:relative;margin-top:18px;margin-bottom:18px;\"><img src=\"fotos/publicadas/xerez-marbella-j8-ocasion-bloch.jpg\" alt=\"A Xerez CD player shoots as Marbella goalkeeper Bloch comes out\" style=\"width:100%;border-radius:3px;display:block;\"><span style=\"position:absolute;left:8px;bottom:8px;font-family:'Space Mono',monospace;font-size:11px;color:#fff;background:rgba(13,44,84,0.72);padding:3px 8px;border-radius:2px;\">Photo: Diario Xerecista</span></div>",
+      "The reward came in the 62nd minute. Ismael unleashed a shot from outside the box that went in at the foot of the right-hand post: 1-0. Four minutes later, Fali went off injured to an ovation from the stands, which chanted his name. Zequi missed the chance to make it 2-0 in the 69th minute after a cut-back from Peregrina, and Ismael came close to a second in the 79th.",
+      "Marbella pushed in the closing stages and nearly equalised in the 89th minute with an effort from Mizzian from a set piece. They also appealed for a handball by Guille Campos. Xerez had to suffer until the end, but took three vital points.",
+      "<strong>Match details</strong>",
+      "<strong>Xerez CD:</strong> Pantoja, Guille Campos, Fali (Moi, 65'), Manu Galán, Chacartegui, Raúl López, Peregrina, Jaime Fernández (Ismael, 46'), Julito, Zequi Díaz (Óscar Lorenzo, 82') and Chuma (Rubén Mesa, 89').",
+      "<strong>Marbella FC:</strong> Florentin Bloch, Lanchi (Santos, 74'), Naldo (Marcos, 22'), Juan Rodríguez, Dani, Víctor Mena (Fernando, 46'), Cristóbal (Adri, 74'), Ohemeng, Juanma, A. Wudu and Pito (Mizzian, 60').",
+      "<strong>Goal:</strong> 1-0 (62') Ismael.",
+      "<strong>Referee:</strong> Enrique Pareja Nieto (Jaén). He booked Chacartegui and Guille Campos for Xerez CD, and Víctor Mena, Dani and Fernando for Marbella FC.",
+      "<strong>Notes:</strong> eighth-matchday fixture in Group 4 of the Segunda RFEF, played at Chapín in front of 7,222 spectators."
+    ],
+    "goleadoresHome": "Ismael 62'",
+    "goleadoresAway": "",
+    "arbitro": "Enrique Pareja Nieto",
+    "estadio": "Chapín",
+    "jornadaLabel": "Matchday 8 · Group IV"
   }
 }
