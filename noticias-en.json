@@ -665,24 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art83": {
-    "fecha": "2026-10-11",
-    "categoria": "noticia",
-    "title": "Xerez take on a surprising Ciudad de Lucena, who climb to third place",
-    "lead": "Betis Deportivo, Recreativo, Badajoz, Tenerife B, Don Benito and Estepona have already crossed the Azulinos’ path. On Sunday Ciudad de Lucena, the surprise package of the division after their crazy comeback, come to Chapín",
-    "body": [
-      "JEREZ. Xerez CD remain in the play-out places, but their league position is largely explained by a brutal start to the fixture list. The Azulinos have already faced six sides from the top half, and next Sunday, at Chapín, they will complete the list against Ciudad de Lucena, who have climbed to third place.",
-      "<strong>A relentless schedule</strong>",
-      "In just six matchdays, Abel Segovia’s side have faced Betis Deportivo, the unbeaten leaders, Recreativo de Huelva, CD Badajoz, Tenerife B, Don Benito and Estepona. It is a demanding run that has left Xerez with few points but with good feelings in recent weeks, such as the win over Tenerife B or the draw in Seville against the leaders, in which they went ahead through a Chuma goal.",
-      "<strong>Madness in Lucena</strong>",
-      "Ciudad de Lucena arrive in Jerez on the best run of their season. The Córdoba side came back from 0-2 down and climbed to third place, a huge surprise that adds to the appeal of the fixture.",
-      "<strong>A crazy finish in Sanlúcar</strong>",
-      "The matchday also produced another dramatic ending: Sanluqueño went 3-2 up in the 92nd minute, but their opponents equalised in the 95th to leave the final score at 3-3.",
-      "<strong>The gaps, still bridgeable</strong>",
-      "After the matchday, Xerez are 8 points behind the leaders, 7 behind second place and 4 off the play-off places. With Ciudad de Lucena and Marbella back-to-back at Chapín, the Azulinos have the chance to close the gap in front of their own supporters."
-    ],
-    "eyebrow": "Segunda RFEF · Matchday 7"
-  },
   "art84": {
     "fecha": "2026-10-12",
     "categoria": [
@@ -1001,6 +983,25 @@
       "He noted that the opponents have gone four games without scoring, but that they change system a lot: they started with a 4-4-2 and have used 5-2-3 and 5-3-2. In their last match they defended with five and attacked in a 4-3-3. \"We have worked on those situations so we know how to counter them. In the end it has to be about us,\" he said.",
       "<strong>Chapín, a fortress</strong>",
       "Segovia asked for the fans' support: \"To achieve any objective you have to make your home a fortress\". He wants supporters to \"identify with the team, be proud and, when it's time to push, push\"."
+    ]
+  },
+  "art102": {
+    "fecha": "2026-10-25",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinion · Analysis",
+    "title": "Win or win",
+    "lead": "Xerez CD host Marbella today (19:00, Chapín) with no margin for error. Saturday's results have tightened the table and, against a direct rival on the same 6 points, only a win will do. It is time for the improvement seen in their play to finally turn into goals.",
+    "body": [
+      "<strong>What Saturday left behind</strong>",
+      "The matchday began yesterday with four games, and almost all the movement was at the top. Recreativo thrashed Antoniano 5-0 and go top on 17 points. Betis Deportivo drew in Mijas and Ciudad de Lucena, who won at Chapín a week ago, also took only a point in Estepona. Don Benito and Linares shared the spoils.",
+      "Xerez, 13th in the play-out place, are 8 points behind Don Benito and Badajoz, who on 14 currently hold the last play-off spots. The gap can still be closed, but there is no room for more slip-ups at home.",
+      "<strong>A match worth double</strong>",
+      "Opposite them are Marbella, level on 6 points. A win would take Xerez to 9 points and leave a direct rival behind. A defeat, on the other hand, could sink them into the relegation zone, because Atlético Central and Tamaraceite also play below them.",
+      "<strong>Let the improvement show on the scoreboard</strong>",
+      "Abel Segovia's side have taken steps forward in their play, and the coach himself says they create more chances than average. But Xerez have scored only four goals in seven matchdays, the second-lowest tally in the group. Against Lucena they played well and lost 0-1. Today deserving it is not enough: they have to score and win to start looking towards the top half."
     ]
   }
 }

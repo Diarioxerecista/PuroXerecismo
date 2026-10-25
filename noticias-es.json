@@ -665,24 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art83": {
-    "fecha": "2026-10-11",
-    "categoria": "noticia",
-    "title": "El Xerez se mide a un sorprendente Ciudad de Lucena que asciende a la tercera plaza",
-    "lead": "Betis Deportivo, Recreativo, Badajoz, Tenerife B, Don Benito y Estepona ya han pasado por el camino azulino. El domingo en Chapín llega el Ciudad de Lucena, la revelación de la categoría tras su remontada de locura",
-    "body": [
-      "JEREZ. El Xerez CD sigue en puestos de play out, pero su clasificación se explica en gran parte por un arranque de calendario durísimo. Los azulinos han visto ya a seis rivales de la parte alta y el próximo domingo, en Chapín, completarán la lista con el Ciudad de Lucena, que ha escalado hasta la tercera plaza.",
-      "<strong>Un calendario sin respiro</strong>",
-      "En apenas seis jornadas, el equipo de Abel Segovia se ha enfrentado al Betis Deportivo, líder invicto, al Recreativo de Huelva, al CD Badajoz, al Tenerife B, al Don Benito y al Estepona. Es un recorrido exigente que ha dejado al Xerez con pocos puntos pero con buenas sensaciones en las últimas semanas, como la victoria ante el Tenerife B o el empate en Sevilla ante el líder, en el que se adelantó con un gol de Chuma.",
-      "<strong>Locura en Lucena</strong>",
-      "El Ciudad de Lucena llega a Jerez en la mejor racha de su temporada. El conjunto cordobés remontó un 0-2 en contra y escaló hasta el tercer puesto, una sorpresa mayúscula que aumenta el atractivo del duelo.",
-      "<strong>Final de locura en Sanlúcar</strong>",
-      "La jornada dejó además otro desenlace dramático: el Sanluqueño se adelantó en el minuto 92 con un 3-2, pero su rival igualó en el 95 para dejar el 3-3 definitivo.",
-      "<strong>Las distancias, todavía salvables</strong>",
-      "Tras la jornada, el Xerez está a 8 puntos del primero, a 7 del segundo y a 4 del play off. Con el Ciudad de Lucena y el Marbella consecutivos en Chapín, los azulinos tienen la oportunidad de recortar distancias ante su afición."
-    ],
-    "eyebrow": "Segunda RFEF · Jornada 7"
-  },
   "art84": {
     "fecha": "2026-10-12",
     "categoria": [
@@ -1001,6 +983,25 @@
       "Del rival destacó que lleva cuatro partidos sin marcar, pero que cambia mucho de sistema: empezó con un 4-4-2 y ha pasado por el 5-2-3 y el 5-3-2. En su último partido defendía con cinco y atacaba con un 4-3-3. \"Hemos trabajado las situaciones para saber contrarrestar eso. Al final tenemos que ser nosotros\", dijo.",
       "<strong>Chapín, un fortín</strong>",
       "Segovia pidió el apoyo de la grada: \"Para conseguir cualquier objetivo hay que hacer un fortín de casa\". Quiere que la afición \"se sienta identificada, que esté orgullosa y que en los momentos que hay que apretar, apriete\"."
+    ]
+  },
+  "art102": {
+    "fecha": "2026-10-25",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinión · Análisis",
+    "title": "Ganar o ganar",
+    "lead": "El Xerez CD recibe hoy al Marbella (19:00, Chapín) sin margen de error. Los resultados del sábado han dejado la tabla más apretada y, ante un rival directo con los mismos 6 puntos, solo vale la victoria. Es la hora de que la mejoría que se ha visto en el juego se traduzca por fin en goles.",
+    "body": [
+      "<strong>Lo que dejó el sábado</strong>",
+      "La jornada empezó ayer con cuatro partidos, y casi todo se movió por arriba. El Recreativo goleó 5-0 al Antoniano y se pone líder con 17 puntos. El Betis Deportivo empató en Mijas y el Ciudad de Lucena, que ganó en Chapín hace una semana, también sumó solo un punto en Estepona. Don Benito y Linares firmaron tablas.",
+      "El Xerez, 13.º en puesto de play-out, está a 8 puntos de Don Benito y Badajoz, que con 14 ocupan ahora las últimas plazas de play off. La distancia todavía se puede recortar, pero no admite más tropiezos en casa.",
+      "<strong>Un partido que vale doble</strong>",
+      "Enfrente está un Marbella empatado a 6 puntos. Una victoria llevaría al Xerez a 9 puntos y dejaría atrás a un rival directo. Una derrota, en cambio, podría hundirlo en la zona de descenso, porque por debajo también juegan Atlético Central y Tamaraceite.",
+      "<strong>Que la mejoría se vea en el marcador</strong>",
+      "El equipo de Abel Segovia ha dado pasos adelante en el juego, y el propio técnico asegura que genera más ocasiones que la media. Pero el Xerez lleva solo cuatro goles en siete jornadas, la segunda cifra más baja del grupo. Ante el Lucena hizo un buen partido y perdió 0-1. Hoy no basta con merecer: hay que marcar y ganar para empezar a mirar hacia la parte alta."
     ]
   }
 }

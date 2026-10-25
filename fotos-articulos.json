@@ -71,10 +71,6 @@
     "foto": "fotos/publicadas/betis-deportivo-xerez-j6-celebracion-chuma.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art83": {
-    "foto": "fotos/publicadas/xerez-tenerife-b-j5-disputa.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art84": {
     "foto": "fotos/publicadas/betis-deportivo-xerez-j6-conduccion.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -148,6 +144,10 @@
   },
   "art101": {
     "foto": "fotos/publicadas/abel-segovia-rueda-prensa-marbella.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art102": {
+    "foto": "fotos/publicadas/xerez-chapin-grada-aficion-2026-27.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
