@@ -71,10 +71,6 @@
     "foto": "fotos/publicadas/betis-deportivo-xerez-j6-celebracion-chuma.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art84": {
-    "foto": "fotos/publicadas/betis-deportivo-xerez-j6-conduccion.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art85": {
     "foto": "fotos/publicadas/Noticia_zelu.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -148,6 +144,10 @@
   },
   "art102": {
     "foto": "fotos/publicadas/xerez-chapin-grada-aficion-2026-27.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art103": {
+    "foto": "fotos/publicadas/xerez-sanluqueno-amistoso-1.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }

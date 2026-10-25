@@ -665,29 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art84": {
-    "fecha": "2026-10-12",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
-    "eyebrow": "Opinion · Analysis",
-    "title": "Segovia’s touch is showing, but Xerez have no margin for error left",
-    "lead": "Opinion: the team is starting to show a recognisable idea under the new coach, although it needs to build fitness and the league table has stopped forgiving",
-    "body": [
-      "The Xerez CD seen in Seville is no longer the side of the opening matchdays. Under Abel Segovia, the new coach’s touch is starting to show, and so are the shortcomings still weighing on a team under construction.",
-      "<strong>An idea that is starting to show</strong>",
-      "The most visible change is on the flanks. The full-backs push wide and provide width, while the wide players drift inside and play between the lines. That formula creates numerical superiority, opens up channels and leads to more one-on-one situations. Against Betis Deportivo, the team started very well, pressing the green-and-whites’ build-up play with intensity and dominating for a good part of the match, up to Chuma’s goal.",
-      "<strong>A missing level of fitness</strong>",
-      "But Seville also exposed the problem. The team lasted as long as the fuel lasted. Past the hour mark, fatigue took its toll, the opponents gained ground and Xerez ended up pinned back, holding on. Pressing high demands a level of fitness that the squad does not fully have today, and it is an area where Segovia and his coaching staff have work ahead of them.",
-      "<strong>Players who are not there yet and others who deserve a chance</strong>",
-      "The squad is not fully up and running either. There are players who have not yet reached their best level, and others who deserve more opportunities than they are getting. With a new coach and a team in transition, it is time to share out trust with good judgement and reward those who perform.",
-      "<strong>The margin is narrowing</strong>",
-      "The biggest problem is not the football, but the fixture list and the points. The poor start to the league has reduced the margin for error. On top of that, Recreativo and Betis Deportivo are not slipping up, which forces Xerez not to drop any more points at Chapín. And also to start picking up points away from home, where they have taken only 2 out of 9, even though in that stretch they have faced three teams expected to be at the top.",
-      "<strong>Conclusion</strong>",
-      "There are reasons for optimism in the ideas and the attitude, but the season no longer allows for slip-ups. With two matches in a row at Chapín, Xerez have the chance to turn good feelings into points. From now on, every matchday counts double."
-    ]
-  },
   "art85": {
     "fecha": "2026-10-12",
     "categoria": "noticia",
@@ -1002,6 +979,17 @@
       "Opposite them are Marbella, level on 6 points. A win would take Xerez to 9 points and leave a direct rival behind. A defeat, on the other hand, could sink them into the relegation zone, because Atlético Central and Tamaraceite also play below them.",
       "<strong>Let the improvement show on the scoreboard</strong>",
       "Abel Segovia's side have taken steps forward in their play, and the coach himself says they create more chances than average. But Xerez have scored only four goals in seven matchdays, the second-lowest tally in the group. Against Lucena they played well and lost 0-1. Today deserving it is not enough: they have to score and win to start looking towards the top half."
+    ]
+  },
+  "art103": {
+    "fecha": "2026-10-25",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Matchday 10",
+    "title": "Atlético Sanluqueño v Xerez CD will be played on Sunday 8 November at 12:30",
+    "lead": "The match between Atlético Sanluqueño and Xerez CD, on matchday ten of Group IV of the Segunda RFEF, now has a kick-off time: it will be played on Sunday 8 November at 12:30 at El Palmar in Sanlúcar de Barrameda.",
+    "body": [
+      "It will be Xerez's second consecutive match with a morning kick-off. A week earlier, on Sunday 1 November, they visit Tamaraceite at 13:00.",
+      "Before those two away trips, on Wednesday 28 October, the team host Cádiz CF at Chapín in the first round of the Copa del Rey."
     ]
   }
 }

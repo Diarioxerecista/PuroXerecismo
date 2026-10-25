@@ -665,29 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art84": {
-    "fecha": "2026-10-12",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
-    "eyebrow": "Opinión · Análisis",
-    "title": "La mano de Segovia se nota, pero al Xerez ya no le queda margen de error",
-    "lead": "Opinión: el equipo empieza a mostrar una idea reconocible con el nuevo entrenador, aunque necesita ganar fondo físico y la clasificación ha dejado de perdonar",
-    "body": [
-      "El Xerez CD que se vio en Sevilla ya no es el de las primeras jornadas. Con Abel Segovia, la mano del nuevo entrenador empieza a notarse, y también lo hacen las carencias que todavía arrastra un equipo en construcción.",
-      "<strong>Una idea que empieza a verse</strong>",
-      "El cambio más visible está en las bandas. Los laterales se abren y dan amplitud, mientras los jugadores de banda se meten por dentro y juegan entre líneas. Esa fórmula genera superioridades, abre carriles y propicia más situaciones de uno contra uno. Ante el Betis Deportivo, el equipo salió muy bien, presionando la salida de balón verdiblanca con intensidad y mandando durante buena parte del partido, hasta el gol de Chuma.",
-      "<strong>Un punto físico que falta</strong>",
-      "Pero en Sevilla también se vio el problema. El equipo duró lo que le duró la gasolina. Pasada la hora de juego, el desgaste pasó factura, el rival ganó metros y el Xerez acabó encerrado, resistiendo. Presionar arriba exige un fondo físico que hoy el grupo no tiene del todo, y es un aspecto donde Segovia y su cuerpo técnico tienen trabajo por delante.",
-      "<strong>Jugadores que aún no están y otros que merecen una oportunidad</strong>",
-      "La plantilla tampoco está del todo engrasada. Hay futbolistas que todavía no han alcanzado su mejor nivel, y otros que merecen más oportunidades de las que están recibiendo. Con un nuevo entrenador y un equipo en transición, es momento de repartir la confianza con criterio y premiar a quien rinde.",
-      "<strong>El margen se estrecha</strong>",
-      "El mayor problema no es de juego, sino de calendario y de puntos. El mal inicio liguero ha reducido el margen de error. A ello se suma que Recreativo y Betis Deportivo no fallan, lo que obliga al Xerez a no ceder más puntos en Chapín. Y también a empezar a rascar fuera de casa, donde solo ha sumado 2 de 9 puntos, aunque en ese tramo se haya medido a tres equipos llamados a estar arriba.",
-      "<strong>Conclusión</strong>",
-      "Hay motivos para el optimismo en las ideas y en la actitud, pero la temporada ya no admite tropiezos. Con dos partidos seguidos en Chapín, el Xerez tiene la oportunidad de transformar las buenas sensaciones en puntos. A partir de ahora, cada jornada cuenta doble."
-    ]
-  },
   "art85": {
     "fecha": "2026-10-12",
     "categoria": "noticia",
@@ -1002,6 +979,17 @@
       "Enfrente está un Marbella empatado a 6 puntos. Una victoria llevaría al Xerez a 9 puntos y dejaría atrás a un rival directo. Una derrota, en cambio, podría hundirlo en la zona de descenso, porque por debajo también juegan Atlético Central y Tamaraceite.",
       "<strong>Que la mejoría se vea en el marcador</strong>",
       "El equipo de Abel Segovia ha dado pasos adelante en el juego, y el propio técnico asegura que genera más ocasiones que la media. Pero el Xerez lleva solo cuatro goles en siete jornadas, la segunda cifra más baja del grupo. Ante el Lucena hizo un buen partido y perdió 0-1. Hoy no basta con merecer: hay que marcar y ganar para empezar a mirar hacia la parte alta."
+    ]
+  },
+  "art103": {
+    "fecha": "2026-10-25",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Jornada 10",
+    "title": "El Atlético Sanluqueño - Xerez CD se jugará el domingo 8 de noviembre a las 12:30",
+    "lead": "El partido entre el Atlético Sanluqueño y el Xerez CD, de la décima jornada del Grupo IV de Segunda RFEF, ya tiene horario: se disputará el domingo 8 de noviembre a las 12:30 en El Palmar de Sanlúcar de Barrameda.",
+    "body": [
+      "Será el segundo partido seguido del Xerez en horario de mañana. Una semana antes, el domingo 1 de noviembre, visita al Tamaraceite a las 13:00.",
+      "Antes de esos dos desplazamientos, el miércoles 28 de octubre, el equipo recibe al Cádiz CF en Chapín en la primera eliminatoria de la Copa del Rey."
     ]
   }
 }

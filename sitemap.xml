@@ -253,24 +253,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/un-xerez-paga-su-desgaste-fisico-y-cede-un-empate-ante-el-betis-deportivo/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/la-mano-de-segovia-se-nota-pero-al-xerez-ya-no-le-queda-margen-de-error/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-12</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/la-mano-de-segovia-se-nota-pero-al-xerez-ya-no-le-queda-margen-de-error/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/segovias-touch-is-showing-but-xerez-have-no-margin-for-error-left/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/la-mano-de-segovia-se-nota-pero-al-xerez-ya-no-le-queda-margen-de-error/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/segovias-touch-is-showing-but-xerez-have-no-margin-for-error-left/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-12</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/la-mano-de-segovia-se-nota-pero-al-xerez-ya-no-le-queda-margen-de-error/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/segovias-touch-is-showing-but-xerez-have-no-margin-for-error-left/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/la-mano-de-segovia-se-nota-pero-al-xerez-ya-no-le-queda-margen-de-error/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/zelu-con-rotura-fibrilar-otra-baja-sensible-para-el-xerez-cd/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -674,5 +656,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/ganar-o-ganar/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/win-or-win/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/ganar-o-ganar/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-atletico-sanluqueno-xerez-cd-se-jugara-el-domingo-8-de-noviembre-a-las-1230/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-atletico-sanluqueno-xerez-cd-se-jugara-el-domingo-8-de-noviembre-a-las-1230/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/atletico-sanluqueno-v-xerez-cd-will-be-played-on-sunday-8-november-at-1230/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-atletico-sanluqueno-xerez-cd-se-jugara-el-domingo-8-de-noviembre-a-las-1230/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/atletico-sanluqueno-v-xerez-cd-will-be-played-on-sunday-8-november-at-1230/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-atletico-sanluqueno-xerez-cd-se-jugara-el-domingo-8-de-noviembre-a-las-1230/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/atletico-sanluqueno-v-xerez-cd-will-be-played-on-sunday-8-november-at-1230/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-atletico-sanluqueno-xerez-cd-se-jugara-el-domingo-8-de-noviembre-a-las-1230/"/>
   </url>
 </urlset>
