@@ -2400,7 +2400,7 @@
     }
     const datos = calcularGoleadores(plantilla);
     if(!datos.lista.length){ box.innerHTML = ''; return; }
-    const filas = datos.lista.slice(0,3).map(function(g, i){
+    const filas = datos.lista.slice(0,6).map(function(g, i){
       const j = g.jugador;
       const foto = j && j.cromo
         ? '<div class="goleador-foto" style="background-image:url(\''+escAttr(j.cromo)+'\')" role="img" aria-label="'+escAttr(g.nombre)+'"></div>'
