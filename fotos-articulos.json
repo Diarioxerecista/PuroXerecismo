@@ -71,10 +71,6 @@
     "foto": "fotos/publicadas/betis-deportivo-xerez-j6-celebracion-chuma.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art86": {
-    "foto": "fotos/publicadas/xerez-badajoz-j2-disputa.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art87": {
     "foto": "fotos/publicadas/entreno01.jpg.webp",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -152,6 +148,10 @@
   },
   "art105": {
     "foto": "fotos/publicadas/abel-segovia-banda-chapin.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art106": {
+    "foto": "fotos/publicadas/estadio-chapin-vista-aerea.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }

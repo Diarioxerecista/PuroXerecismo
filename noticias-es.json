@@ -665,22 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art86": {
-    "fecha": "2026-10-13",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Jornada 8",
-    "title": "El Xerez CD recibirá al Marbella el domingo 25 de octubre a las 19:00 horas",
-    "lead": "El encuentro de la octava jornada se jugará en domingo y no en sábado, como esperaba la afición por la exigente semana que espera al equipo, con el derbi de Copa del Rey ante el Cádiz CF el miércoles 28 y un desplazamiento a continuación.",
-    "body": [
-      "El Xerez CD ya conoce el horario de su próximo partido liguero en Chapín. El conjunto azulino recibirá al Marbella FC el domingo 25 de octubre a las 19:00 horas, en la octava jornada del Grupo IV de Segunda RFEF.",
-      "<strong>Una semana sin descanso</strong>",
-      "La afición xerecista esperaba que el partido se disputara en sábado, por el calendario que afronta el equipo en los días siguientes. Apenas tres días después, el miércoles 28 de octubre a las 21:00 horas, el Xerez CD recibirá al Cádiz CF en Chapín en la primera eliminatoria de la Copa del Rey. A continuación tendrá que viajar a Gran Canaria para medirse a la UD Tamaraceite el domingo 1 de noviembre, en la novena jornada de Liga.",
-      "<strong>El Xerez Deportivo FC, también en casa</strong>",
-      "Ese mismo fin de semana juega en casa el Xerez Deportivo FC, y esa podría ser la razón por la que el encuentro ante el Marbella no se ha fijado en sábado.",
-      "<strong>Un rival directo en la tabla</strong>",
-      "Antes, los azulinos recibirán al Ciudad de Lucena el domingo 18 de octubre en la séptima jornada. Tras seis jornadas, el Xerez CD es decimotercero con 6 puntos, uno más que el Marbella, que ocupa la decimoquinta plaza con 5."
-    ]
-  },
   "art87": {
     "fecha": "2026-10-13",
     "categoria": "noticia",
@@ -1033,6 +1017,19 @@
       "El balance con Segovia es de 7 puntos de 12, cuatro goles a favor y tres en contra. El equipo ha salido del descenso directo y el propio técnico lo resume así: el equipo \"tiene una identidad\".",
       "<strong>La asignatura pendiente: el gol</strong>",
       "El lavado de cara todavía no está completo. El Xerez lleva cinco goles en ocho jornadas, la segunda cifra más baja del grupo, y el propio Segovia reconoce que al equipo le falta finalizar las ocasiones que genera. Con la personalidad recuperada, el siguiente paso es que esa mejoría se vea en el marcador para empezar a mirar hacia arriba."
+    ]
+  },
+  "art106": {
+    "fecha": "2026-10-26",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "El Xerez no venderá las entradas sobrantes del Fondo Sur por motivos de seguridad",
+    "lead": "El Xerez CD no pondrá a la venta las entradas que han sobrado en el Fondo Sur para el partido de Copa del Rey ante el Cádiz CF, el miércoles en Chapín, por motivos de seguridad, según ha confirmado a este medio el vicepresidente del club.",
+    "body": [
+      "<strong>El Cádiz, a puerta cerrada</strong>",
+      "El Cádiz, que ha cambiado de entrenador esta semana, entrenará a puerta cerrada antes de la eliminatoria. Todo apunta a que el equipo amarillo dará minutos a los jugadores menos habituales, aunque podría incluir a alguno de los que jugaron ante el Ceuta, según la carga física de cada uno.",
+      "<strong>Segovia no da pistas</strong>",
+      "Por su parte, Abel Segovia no dio pistas sobre su planteamiento. El técnico xerecista explicó que había estudiado al rival, pero con el anterior entrenador. Ahora tendrá que ponerse manos a la obra para volver a analizar al equipo amarillo."
     ]
   }
 }

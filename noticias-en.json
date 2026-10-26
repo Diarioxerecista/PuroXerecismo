@@ -665,22 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art86": {
-    "fecha": "2026-10-13",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Matchday 8",
-    "title": "Xerez CD to host Marbella on Sunday 25 October at 19:00",
-    "lead": "The eighth-matchday fixture will be played on Sunday rather than Saturday, as supporters had hoped given the demanding week ahead for the team, with the Copa del Rey derby against Cádiz CF on Wednesday 28th and a trip immediately afterwards.",
-    "body": [
-      "Xerez CD now know the kick-off time of their next league match at Chapín. The blue-and-whites will host Marbella FC on Sunday 25 October at 19:00, on the eighth matchday of Group IV of the Segunda RFEF.",
-      "<strong>A week without rest</strong>",
-      "Xerez supporters had expected the match to be played on Saturday, because of the schedule the team faces in the following days. Just three days later, on Wednesday 28 October at 21:00, Xerez CD will host Cádiz CF at Chapín in the first round of the Copa del Rey. After that, they will have to travel to Gran Canaria to face UD Tamaraceite on Sunday 1 November, on the ninth matchday of the league.",
-      "<strong>Xerez Deportivo FC also at home</strong>",
-      "That same weekend Xerez Deportivo FC play at home, and that could be the reason why the match against Marbella has not been scheduled for Saturday.",
-      "<strong>A direct rival in the table</strong>",
-      "Before that, the blue-and-whites will host Ciudad de Lucena on Sunday 18 October on the seventh matchday. After six matchdays, Xerez CD are 13th with 6 points, one more than Marbella, who are 15th with 5."
-    ]
-  },
   "art87": {
     "fecha": "2026-10-13",
     "categoria": "noticia",
@@ -1033,6 +1017,19 @@
       "Under Segovia the record stands at 7 points out of 12, four goals scored and three conceded. The team have climbed out of the automatic relegation places, and the coach himself sums it up: the team \"has an identity\".",
       "<strong>The unfinished business: goals</strong>",
       "The makeover is not yet complete. Xerez have scored five goals in eight matchdays, the second-lowest tally in the group, and Segovia himself admits the team need to finish the chances they create. With their personality recovered, the next step is for that improvement to show on the scoreboard so they can start looking upwards."
+    ]
+  },
+  "art106": {
+    "fecha": "2026-10-26",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "Xerez will not sell the remaining Fondo Sur tickets for security reasons",
+    "lead": "Xerez CD will not put on sale the tickets left over in the Fondo Sur for the Copa del Rey tie against Cádiz CF, on Wednesday at Chapín, for security reasons, as the club's vice-president has confirmed to this outlet.",
+    "body": [
+      "<strong>Cádiz train behind closed doors</strong>",
+      "Cádiz, who changed coach this week, will train behind closed doors ahead of the tie. Everything suggests the yellow side will give minutes to their less regular players, although they could include some of those who played against Ceuta, depending on each player's physical load.",
+      "<strong>Segovia gives nothing away</strong>",
+      "For his part, Abel Segovia gave no clues about his approach. The Xerez coach explained that he had studied the opponents, but under their previous coach. Now he will have to get down to work to analyse the yellow side again."
     ]
   }
 }
