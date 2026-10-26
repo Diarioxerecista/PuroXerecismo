@@ -665,22 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art85": {
-    "fecha": "2026-10-12",
-    "categoria": "noticia",
-    "eyebrow": "Xerez CD · Enfermería",
-    "title": "Zelu, con rotura fibrilar, otra baja sensible para el Xerez CD",
-    "lead": "El extremo azulino se lesionó en el minuto 32 del choque ante el Betis Deportivo y las pruebas han confirmado una rotura fibrilar",
-    "body": [
-      "El Xerez CD suma una nueva preocupación en la enfermería. Zelu padece una rotura fibrilar, según se ha confirmado tras someterse a las pruebas médicas, la lesión que le obligó a retirarse del campo el pasado sábado en la Ciudad Deportiva Luis del Sol.",
-      "<strong>Una lesión que se vio venir</strong>",
-      "El jugador se echó la mano a la parte posterior del muslo izquierdo y no pudo continuar. Abel Segovia tuvo que mover el banquillo antes de la media hora y dio entrada a Isma Gutiérrez. El Xerez, que ya se había adelantado con el gol de falta de Chuma, acabó empatando 1-1 ante el líder.",
-      "<strong>Pieza importante en el nuevo Xerez</strong>",
-      "Zelu había sido titular en los dos encuentros dirigidos por Segovia, frente al Tenerife B y el Betis Deportivo, y se perfilaba como uno de los futbolistas con más protagonismo en la banda izquierda del nuevo equipo. Su baja llega además en mal momento, con dos partidos consecutivos en Chapín ante el Ciudad de Lucena y el Marbella.",
-      "<strong>Plazos por determinar</strong>",
-      "Por el momento no se ha informado del tiempo de recuperación, que dependerá de la evolución de la lesión. Habrá que esperar al parte médico del club para conocer cuántas jornadas se perderá el extremo."
-    ]
-  },
   "art86": {
     "fecha": "2026-10-13",
     "categoria": "noticia",
@@ -1030,5 +1014,25 @@
     "arbitro": "Enrique Pareja Nieto",
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 8 · Grupo IV"
+  },
+  "art105": {
+    "fecha": "2026-10-26",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinión · Análisis",
+    "title": "El lavado de cara del Xerez: Segovia empieza a darle personalidad",
+    "lead": "Cuatro jornadas después de la llegada de Abel Segovia, el Xerez CD es otro equipo. Ha pasado de sumar 2 puntos en las cuatro primeras jornadas a sumar 7 en las cuatro siguientes, y sobre todo ha recuperado algo que había perdido: una forma reconocible de jugar.",
+    "body": [
+      "<strong>De \"sin personalidad\" a un equipo reconocible</strong>",
+      "La etapa de Xavi Molist terminó con dos empates, dos derrotas y un solo gol a favor. La derrota en Huelva, que precipitó su cese, dejó la imagen de un equipo sin ideas y sin personalidad. Segovia llegó con el equipo hundido en la tabla y sin margen para adaptarse.",
+      "Su estreno fue atípico. Ante el Tenerife B tuvo que ver el partido desde la grada, porque su ficha aún no estaba tramitada, y Juan Pedro Ramos se sentó en el banquillo. Aun así, el equipo remontó y logró su primera victoria. Ya se vieron algunos de los cambios: laterales que dan amplitud y extremos que se meten por dentro para buscar el uno contra uno.",
+      "<strong>Presión, transiciones y carácter en Chapín</strong>",
+      "En Sevilla, ante el Betis Deportivo, el Xerez fue el primer equipo que le marcó un gol al líder, con presión adelantada, robos y transiciones rápidas. El cansancio le costó la victoria al final. Ante el Ciudad de Lucena dominó de principio a fin y estrelló dos balones en el larguero, pero perdió con un gol en el minuto 89. Ante el Marbella sufrió en el primer tiempo, pero Segovia movió el banquillo en el descanso y el cambio de Ismael le dio la victoria.",
+      "El balance con Segovia es de 7 puntos de 12, cuatro goles a favor y tres en contra. El equipo ha salido del descenso directo y el propio técnico lo resume así: el equipo \"tiene una identidad\".",
+      "<strong>La asignatura pendiente: el gol</strong>",
+      "El lavado de cara todavía no está completo. El Xerez lleva cinco goles en ocho jornadas, la segunda cifra más baja del grupo, y el propio Segovia reconoce que al equipo le falta finalizar las ocasiones que genera. Con la personalidad recuperada, el siguiente paso es que esa mejoría se vea en el marcador para empezar a mirar hacia arriba."
+    ]
   }
 }

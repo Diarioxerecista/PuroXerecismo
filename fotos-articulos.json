@@ -71,10 +71,6 @@
     "foto": "fotos/publicadas/betis-deportivo-xerez-j6-celebracion-chuma.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art85": {
-    "foto": "fotos/publicadas/Noticia_zelu.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art86": {
     "foto": "fotos/publicadas/xerez-badajoz-j2-disputa.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -152,6 +148,10 @@
   },
   "art104": {
     "foto": "fotos/publicadas/xerez-marbella-j8-gol-ismael.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art105": {
+    "foto": "fotos/publicadas/abel-segovia-banda-chapin.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }

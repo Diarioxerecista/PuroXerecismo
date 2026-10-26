@@ -665,22 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art85": {
-    "fecha": "2026-10-12",
-    "categoria": "noticia",
-    "eyebrow": "Xerez CD · Injuries",
-    "title": "Zelu suffers a muscle tear, another significant loss for Xerez CD",
-    "lead": "The Azulinos’ winger was injured in the 32nd minute of the match against Betis Deportivo and tests have confirmed a muscle tear",
-    "body": [
-      "Xerez CD have a new concern in the treatment room. Zelu has a muscle tear, as confirmed after undergoing medical tests, the injury that forced him off the pitch last Saturday at the Ciudad Deportiva Luis del Sol.",
-      "<strong>An injury that was plain to see</strong>",
-      "The player put his hand to the back of his left thigh and was unable to continue. Abel Segovia had to turn to his bench before the half-hour mark and brought on Isma Gutiérrez. Xerez, who had already gone ahead through Chuma’s free-kick, ended up drawing 1-1 against the leaders.",
-      "<strong>An important piece in the new Xerez</strong>",
-      "Zelu had started both matches under Segovia, against Tenerife B and Betis Deportivo, and was shaping up as one of the most prominent players on the left flank of the new team. His absence also comes at a bad time, with two consecutive matches at Chapín against Ciudad de Lucena and Marbella.",
-      "<strong>Timescales to be determined</strong>",
-      "For the moment no recovery time has been announced, which will depend on how the injury evolves. We will have to wait for the club’s medical report to find out how many matchdays the winger will miss."
-    ]
-  },
   "art86": {
     "fecha": "2026-10-13",
     "categoria": "noticia",
@@ -1030,5 +1014,25 @@
     "arbitro": "Enrique Pareja Nieto",
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 8 · Group IV"
+  },
+  "art105": {
+    "fecha": "2026-10-26",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinion · Analysis",
+    "title": "Xerez's makeover: Segovia starts to give the team a personality",
+    "lead": "Four matchdays after the arrival of Abel Segovia, Xerez CD are a different team. They have gone from 2 points in the first four matchdays to 7 in the next four, and above all they have recovered something they had lost: a recognisable way of playing.",
+    "body": [
+      "<strong>From \"no personality\" to a recognisable team</strong>",
+      "Xavi Molist's spell ended with two draws, two defeats and a single goal scored. The defeat in Huelva, which hastened his dismissal, left the image of a team without ideas and without personality. Segovia arrived with the team sunk in the table and no time to settle in.",
+      "His debut was unusual. Against Tenerife B he had to watch the match from the stands, because his registration had not yet been processed, and Juan Pedro Ramos sat on the bench. Even so, the team came from behind to claim their first win. Some of the changes were already visible: full-backs providing width and wingers cutting inside to look for one-on-ones.",
+      "<strong>Pressing, transitions and character at Chapín</strong>",
+      "In Seville, against Betis Deportivo, Xerez became the first team to score against the leaders, with a high press, ball recoveries and quick transitions. Fatigue cost them the win at the end. Against Ciudad de Lucena they dominated from start to finish and hit the crossbar twice, but lost to an 89th-minute goal. Against Marbella they suffered in the first half, but Segovia turned to his bench at the break and bringing on Ismael won them the game.",
+      "Under Segovia the record stands at 7 points out of 12, four goals scored and three conceded. The team have climbed out of the automatic relegation places, and the coach himself sums it up: the team \"has an identity\".",
+      "<strong>The unfinished business: goals</strong>",
+      "The makeover is not yet complete. Xerez have scored five goals in eight matchdays, the second-lowest tally in the group, and Segovia himself admits the team need to finish the chances they create. With their personality recovered, the next step is for that improvement to show on the scoreboard so they can start looking upwards."
+    ]
   }
 }
