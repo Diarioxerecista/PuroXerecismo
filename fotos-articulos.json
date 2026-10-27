@@ -71,11 +71,6 @@
     "foto": "fotos/publicadas/betis-deportivo-xerez-j6-celebracion-chuma.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art89": {
-    "foto": "fotos/publicadas/entradasXerezCAdiz.jpeg",
-    "creditoFoto": "Imagen: Xerez CD",
-    "objectPosition": "center 15%"
-  },
   "art90": {
     "foto": "fotos/publicadas/lucena2016.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -153,5 +148,9 @@
   "art108": {
     "foto": "fotos/publicadas/xerez-cadiz-archivo-marca.jpg",
     "creditoFoto": "Foto: Diario Marca"
+  },
+  "art109": {
+    "foto": "fotos/publicadas/xerez-tenerife-b-j5-segovia-palco.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
   }
 }
