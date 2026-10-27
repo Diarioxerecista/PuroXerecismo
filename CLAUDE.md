@@ -82,6 +82,7 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - Canonical = URL absoluta propia: `https://www.diarioxerecista.es/noticias/<slug>/` y `https://www.diarioxerecista.es/en/noticias/<slug>/`.
 - hreflang: es, en y x-default (= ES) en ambas páginas.
 - Byline: "Redacción — 12 de octubre de 2026" / "Newsroom — 12 October 2026"; en opinión "Opinión — …" / "Opinion — …".
+- Firma externa (p. ej. "Carlos López, periodista"): ponerla en el byline del HTML y en el campo `"autor"` del JSON de cada idioma ("Carlos López, journalist" en EN); sin `autor`, la portada pone "Redacción".
 
 ### Imagen para redes (`fotos/redes/`)
 - Cada artículo nuevo lleva una imagen para compartir de 1200×630 con el titular encima: `fotos/redes/artNN-es.jpg` y `fotos/redes/artNN-en.jpg`, generadas con `scripts/imagen_redes.py` a partir de la foto del artículo. Etiqueta según el tipo: "Noticia"/"News", "Crónica"/"Match report", "Opinión"/"Opinion", "Historias"/"Stories".
