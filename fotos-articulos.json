@@ -71,10 +71,6 @@
     "foto": "fotos/publicadas/betis-deportivo-xerez-j6-celebracion-chuma.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art88": {
-    "foto": "fotos/publicadas/lucena2023.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art89": {
     "foto": "fotos/publicadas/entradasXerezCAdiz.jpeg",
     "creditoFoto": "Imagen: Xerez CD",
@@ -153,5 +149,9 @@
   "art107": {
     "foto": "fotos/publicadas/cadiz-cf-jugadores-carranza.jpg",
     "creditoFoto": "Foto: Diario de Cádiz"
+  },
+  "art108": {
+    "foto": "fotos/publicadas/Lucena2022.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
   }
 }

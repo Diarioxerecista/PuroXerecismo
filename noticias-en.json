@@ -665,24 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art88": {
-    "fecha": "2026-10-15",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Matchday 7",
-    "title": "One of Xerez CD's bogey teams visits Chapín",
-    "lead": "Ciudad de Lucena arrive this Sunday (19:00) at a stadium where the sky-blues have left their mark: ten previous meetings, with two Xerez wins, four draws and four Lucena victories",
-    "body": [
-      "One of the most frequent fixtures of the last decade in Andalusian football returns, and for the first time in the Segunda RFEF. Xerez CD will host Ciudad de Lucena this Sunday at 19:00 at Chapín, an opponent they have already faced ten times at home across several divisions and competitions. It is a fixture that has become a regular one, with an intense rivalry, between two teams that have almost always competed for the top places in the table.",
-      "<strong>Ten meetings at four venues</strong>",
-      "The meetings between the blue-and-whites and the sky-blues have been spread across the División de Honor, the Tercera RFEF, the RFAF Cup and the promotion play-off to the Segunda RFEF. They have been played at La Granja, the Pedro Garrido, Chapín and the Muñoz Pérez in Estepona.",
-      "The record of those ten matches favours the Córdoba side: two Xerez wins, four draws and four Lucena victories.",
-      "<strong>An opponent that usually leaves Jerez with something</strong>",
-      "The figures carry an important nuance for Xerez fans. At the various grounds in the city, the matches almost always tipped in Lucena's favour. That is why Lucena are, on their record, one of Xerez's bogey teams in recent years.",
-      "<strong>Zequi, on the other side in 2022</strong>",
-      "The reunion also has a curious detail. In 2022, when the two teams met in the promotion play-off to the Segunda RFEF held at the Muñoz Pérez in Estepona, Zequi belonged to Ciudad de Lucena. Today he is a key piece for Xerez CD.",
-      "On Sunday, the blue-and-whites have a good opportunity to change that trend, in front of their own fans and with the table getting tighter."
-    ]
-  },
   "art89": {
     "fecha": "2026-10-15",
     "categoria": "noticia",
@@ -1036,5 +1018,22 @@
       "So be careful, because now that the whole of Spain is starting to notice, we have come to prove it."
     ],
     "autor": "Carlos López, journalist"
+  },
+  "art108": {
+    "fecha": "2026-10-27",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "Xerez head into the derby with history on their side: 13 wins against Cádiz",
+    "lead": "Xerez CD have won more times than they have lost against Cádiz CF. In the 36 matches the two sides have played in the top divisions, home and away, the blue-and-whites have 13 wins, 11 draws and 12 defeats. The two teams meet again this Wednesday, at 21:00, at Chapín, in the Copa del Rey.",
+    "body": [
+      "<strong>The most frequent opponent from the province</strong>",
+      "No other club from the province has faced Cádiz as many times as Xerez. The Jerez side are 28th on the all-time list of opponents of the Carranza club, and the first from the province of Cádiz.",
+      "<strong>An almost even contest</strong>",
+      "The numbers paint a very even derby, but with a slight edge for Xerez. Xerez have taken all three points on 13 occasions, lost on 12 and on another 11 the match ended level.",
+      "<strong>Cádiz the favourites despite their year</strong>",
+      "But divisions exist for a reason, and Cádiz start as favourites in the tie. They do so despite a difficult 2026, in which they have won five matches and had five coaches.",
+      "<strong>A new chapter at Chapín</strong>",
+      "The derby now adds a new episode, this time in the Copa del Rey. Tomorrow, in front of their own fans, Xerez will look to extend that lead in the head-to-head record and reach the next round."
+    ]
   }
 }

@@ -665,24 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art88": {
-    "fecha": "2026-10-15",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Jornada 7",
-    "title": "Visita Chapín uno de los ogros del Xerez CD",
-    "lead": "El Ciudad de Lucena llega este domingo (19:00 horas) a un estadio en el que los celestes han dejado su huella: diez precedentes, con dos victorias xerecistas, cuatro empates y cuatro triunfos lucentinos",
-    "body": [
-      "Regresa uno de los duelos más repetidos de la última década en el fútbol andaluz, y lo hace por primera vez en Segunda RFEF. El Xerez CD recibirá este domingo, a las 19:00 horas en Chapín, al Ciudad de Lucena, un rival con el que ya se ha medido en diez ocasiones como local a lo largo de varias categorías y competiciones. Es un cruce que se ha vuelto habitual, de enorme rivalidad, entre dos equipos que casi siempre han competido por las plazas altas de la clasificación.",
-      "<strong>Diez precedentes en cuatro escenarios</strong>",
-      "Los enfrentamientos entre azulinos y celestes se han repartido entre la División de Honor, la Tercera RFEF, la Copa RFAF y la fase de ascenso a Segunda RFEF. Se han disputado en La Granja, el Pedro Garrido, Chapín y el Muñoz Pérez de Estepona.",
-      "El balance de esos diez encuentros favorece al conjunto cordobés: dos victorias del Xerez, cuatro empates y cuatro triunfos del Lucena.",
-      "<strong>Un rival que suele irse con algo de Jerez</strong>",
-      "Los datos tienen un matiz importante para los xerecistas. En los distintos campos de la ciudad, los encuentros casi siempre se inclinaron del lado aracelitano. De ahí que el Lucena sea, por historial, uno de los ogros del Xerez en los últimos años.",
-      "<strong>Zequi, en el otro bando en 2022</strong>",
-      "El reencuentro tiene además un detalle curioso. En 2022, cuando ambos equipos se vieron las caras en la fase de ascenso a Segunda RFEF disputada en el Muñoz Pérez de Estepona, Zequi pertenecía al Ciudad de Lucena. Hoy es una pieza del Xerez CD.",
-      "El domingo, el conjunto azulino tiene una buena ocasión para cambiar esa tendencia, ante su público y con la clasificación apretando."
-    ]
-  },
   "art89": {
     "fecha": "2026-10-15",
     "categoria": "noticia",
@@ -1036,5 +1018,22 @@
       "Pues tengan cuidado, porque ahora que toda España empieza a darse cuenta, venimos a demostrarlo."
     ],
     "autor": "Carlos López, periodista"
+  },
+  "art108": {
+    "fecha": "2026-10-27",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "El Xerez llega al derbi con el historial a su favor: 13 victorias ante el Cádiz",
+    "lead": "El Xerez CD ha ganado más veces de las que ha perdido ante el Cádiz CF. En los 36 partidos que han jugado en las principales categorías, entre casa y fuera, los azulinos suman 13 victorias, 11 empates y 12 derrotas. Los dos equipos vuelven a verse las caras este miércoles, a las 21:00, en Chapín, en la Copa del Rey.",
+    "body": [
+      "<strong>El rival de la provincia más repetido</strong>",
+      "Ningún otro club de la provincia se ha enfrentado tantas veces al Cádiz como el Xerez. El conjunto jerezano ocupa el puesto 28 en la lista histórica de rivales del club de Carranza, y es el primero de la provincia gaditana.",
+      "<strong>Un duelo casi a partes iguales</strong>",
+      "Los números dibujan un derbi muy igualado, pero con ligera ventaja xerecista. El Xerez ha sacado los tres puntos en 13 ocasiones, ha cedido en 12 y otras 11 veces el partido acabó en tablas.",
+      "<strong>El Cádiz, favorito pese a su año</strong>",
+      "Pero las categorías están para algo, y el Cádiz parte como favorito en la eliminatoria. Lo hace a pesar de un 2026 complicado, en el que ha sumado cinco victorias y ha tenido cinco entrenadores.",
+      "<strong>Un nuevo capítulo en Chapín</strong>",
+      "El derbi suma ahora un nuevo episodio, esta vez en la Copa del Rey. El Xerez buscará mañana, ante su afición, ampliar esa ventaja en el historial y meterse en la siguiente ronda."
+    ]
   }
 }

@@ -334,24 +334,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-09/un-xerez-que-fue-de-menos-a-mas-se-deja-dos-puntos-en-estepona/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/visita-chapin-uno-de-los-ogros-del-xerez-cd/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/visita-chapin-uno-de-los-ogros-del-xerez-cd/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/one-of-xerez-cds-bogey-teams-visits-chapin/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/visita-chapin-uno-de-los-ogros-del-xerez-cd/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/one-of-xerez-cds-bogey-teams-visits-chapin/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/visita-chapin-uno-de-los-ogros-del-xerez-cd/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/one-of-xerez-cds-bogey-teams-visits-chapin/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/visita-chapin-uno-de-los-ogros-del-xerez-cd/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/entradas-para-el-xerez-cadiz-de-copa-de-25-a-35-euros-y-descuentos-de-hasta-el-60-para-socios/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -692,5 +674,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/si-vengo-de-primera-regional/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/yes-i-come-from-primera-regional/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/si-vengo-de-primera-regional/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-llega-al-derbi-con-el-historial-a-su-favor-13-victorias-ante-el-cadiz/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-llega-al-derbi-con-el-historial-a-su-favor-13-victorias-ante-el-cadiz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-head-into-the-derby-with-history-on-their-side-13-wins-against-cadiz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-llega-al-derbi-con-el-historial-a-su-favor-13-victorias-ante-el-cadiz/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-head-into-the-derby-with-history-on-their-side-13-wins-against-cadiz/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-llega-al-derbi-con-el-historial-a-su-favor-13-victorias-ante-el-cadiz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-head-into-the-derby-with-history-on-their-side-13-wins-against-cadiz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-llega-al-derbi-con-el-historial-a-su-favor-13-victorias-ante-el-cadiz/"/>
   </url>
 </urlset>
