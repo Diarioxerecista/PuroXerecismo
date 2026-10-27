@@ -75,10 +75,6 @@
     "foto": "fotos/publicadas/lucena2016.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art91": {
-    "foto": "fotos/publicadas/xerez-chapin-grada-aficion-2026-27.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art92": {
     "foto": "fotos/publicadas/xerez-lucena-j7-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -151,6 +147,10 @@
   },
   "art109": {
     "foto": "fotos/publicadas/abel-segovia-rueda-prensa-marbella.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art110": {
+    "foto": "fotos/publicadas/xerez-rotena-fali-ninos.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }

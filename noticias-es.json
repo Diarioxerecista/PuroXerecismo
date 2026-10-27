@@ -683,20 +683,6 @@
       "Casi diez años después, el duelo llega por primera vez a Segunda RFEF. El domingo 18 de octubre, a las 19:00 horas, Chapín acoge un nuevo capítulo de una historia que empezó con un empate sin goles en La Juventud."
     ]
   },
-  "art91": {
-    "fecha": "2026-10-17",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Entradas",
-    "title": "El Xerez agota las entradas de Tribuna y Preferencia para el derbi de Copa ante el Cádiz",
-    "lead": "Las localidades de Tribuna y Preferencia para el partido de la primera eliminatoria de la Copa del Rey ante el Cádiz CF, que se disputará el miércoles 28 de octubre a las 21:00 horas en Chapín, ya están agotadas a falta de once días para el encuentro, según ha informado el club.",
-    "body": [
-      "El Xerez CD ha vendido todas las entradas de Tribuna y Preferencia para el derbi provincial ante el Cádiz CF. La venta se abrió el jueves 15 de octubre, con precios de 35 euros en Tribuna y 30 en Preferencia para el público general, y de 20 y 15 euros, respectivamente, para los abonados.",
-      "<strong>Pocas entradas en Fondo Sur</strong>",
-      "En Fondo Sur quedan pocas localidades. Cuestan 25 euros para el público general y 10 para los abonados, precio que se mantiene hasta el domingo 25; a partir del lunes 26, todas las entradas se venderán a precio general.",
-      "<strong>Un cruce ante un Segunda División</strong>",
-      "El partido enfrenta al Xerez, que compite en Segunda RFEF, con el Cádiz CF, de Segunda División, en la primera eliminatoria de la Copa del Rey. Los aficionados gaditanos tienen reservado el Fondo Norte, con entradas a 25 euros."
-    ]
-  },
   "art92": {
     "fecha": "2026-10-18",
     "categoria": [
@@ -1039,6 +1025,18 @@
       "El terreno de juego de Chapín llega muy castigado tras varios partidos seguidos el fin de semana. Al técnico le inquieta, aunque no quiso usarlo como excusa: \"El campo me preocupa, claro que sí. Somos un equipo que queremos tener la pelota, crear superioridades desde atrás y tener velocidad arriba, y si el campo está en malas condiciones nos cuesta más. El otro día hubo acciones en las que por tener que hacer un control de más dimos tiempo al contrario a posicionarse. Nos perjudica a los dos, pero no hay excusa: once contra once, el campo va a estar como tenga que estar y hay que saber qué hacer en cada momento\".",
       "<strong>\"Nos está faltando acierto\"</strong>",
       "Segovia también defendió el arranque de temporada de su equipo, aunque admitió que le falta gol: \"No estoy de acuerdo con que no se haya visto el verdadero potencial del equipo. Creo que hemos hecho cosas muy buenas y cada vez lo hacemos mejor, aunque nos esté faltando acierto de cara a portería. A partido único le podemos competir a cualquiera y ojalá estemos a la altura\"."
+    ]
+  },
+  "art110": {
+    "fecha": "2026-10-27",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "Fali: \"Si meto un gol, a lo mejor doy una voltereta y ni sé hacerla\"",
+    "lead": "El central del Xerez CD, que jugó en el Cádiz CF hasta 2025, se enfrenta este miércoles a su antiguo club en la Copa del Rey. Asegura que celebrar un gol no sería una falta de respeto a la afición cadista.",
+    "body": [
+      "El Xerez CD recibe este miércoles, a las 21:00, al Cádiz CF en Chapín. Para Fali Jiménez no será un partido más. El defensa pasó varias temporadas en el club de Carranza y sigue viviendo en Cádiz, donde sus hijos van al colegio y al instituto.",
+      "<strong>\"Llevo siete años sin meter un gol\"</strong>",
+      "Preguntado por cómo celebraría un hipotético gol ante su exequipo, Fali le quitó hierro al asunto con una sonrisa: \"Llevo siete años sin meter un gol. Si meto un gol, imagínate... no sé ni lo que puedo hacer, a lo mejor doy una voltereta y ni sé hacerla. Celebrar un gol no sería una falta de respeto a la afición del Cádiz, pero ellos me conocen y saben el cariño que les tengo\"."
     ]
   }
 }

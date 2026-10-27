@@ -683,20 +683,6 @@
       "Almost ten years later, the fixture reaches the Segunda RFEF for the first time. On Sunday 18 October, at 19:00, Chapín hosts a new chapter in a story that began with a goalless draw at La Juventud."
     ]
   },
-  "art91": {
-    "fecha": "2026-10-17",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Tickets",
-    "title": "Xerez sell out Tribuna and Preferencia tickets for the Copa derby against Cádiz",
-    "lead": "Tickets in the Tribuna and Preferencia for the Copa del Rey first-round match against Cádiz CF, to be played on Wednesday 28 October at 21:00 at Chapín, have sold out eleven days before the match, the club has announced.",
-    "body": [
-      "Xerez CD have sold all Tribuna and Preferencia tickets for the provincial derby against Cádiz CF. Sales opened on Thursday 15 October, with prices of 35 euros in the Tribuna and 30 in Preferencia for the general public, and 20 and 15 euros respectively for members.",
-      "<strong>Few tickets left in the Fondo Sur</strong>",
-      "Few seats remain in the Fondo Sur. They cost 25 euros for the general public and 10 for members, a price that applies until Sunday 25; from Monday 26, all tickets will be sold at the general price.",
-      "<strong>A tie against a Segunda División side</strong>",
-      "The match pits Xerez, who compete in the Segunda RFEF, against Segunda División side Cádiz CF in the first round of the Copa del Rey. Cádiz supporters have the Fondo Norte reserved for them, with tickets at 25 euros."
-    ]
-  },
   "art92": {
     "fecha": "2026-10-18",
     "categoria": [
@@ -1039,6 +1025,18 @@
       "The Chapín pitch is badly worn after several consecutive matches over the weekend. It worries the coach, although he refused to use it as an excuse: \"The pitch worries me, of course it does. We are a team that wants to have the ball, create numerical advantages from the back and have pace up front, and if the pitch is in poor condition it is harder for us. The other day there were moves in which, by having to take an extra touch, we gave the opponent time to get into position. It hurts both of us, but there is no excuse: eleven against eleven, the pitch will be however it has to be and you have to know what to do at every moment\".",
       "<strong>\"We are lacking accuracy\"</strong>",
       "Segovia also defended his team's start to the season, although he admitted they are short of goals: \"I don't agree that the team's true potential hasn't been seen. I think we have done very good things and we are getting better and better, although we are lacking accuracy in front of goal. In a one-off match we can compete with anyone and hopefully we will be up to it\"."
+    ]
+  },
+  "art110": {
+    "fecha": "2026-10-27",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "Fali: \"If I score, maybe I'll do a somersault and I don't even know how\"",
+    "lead": "The Xerez CD centre-back, who played for Cádiz CF until 2025, faces his former club in the Copa del Rey this Wednesday. He says celebrating a goal would not be disrespectful to the Cádiz fans.",
+    "body": [
+      "Xerez CD host Cádiz CF at Chapín this Wednesday at 21:00. For Fali Jiménez it will not be just another match. The defender spent several seasons at the Carranza club and still lives in Cádiz, where his children go to primary and secondary school.",
+      "<strong>\"I haven't scored a goal in seven years\"</strong>",
+      "Asked how he would celebrate a hypothetical goal against his former team, Fali played it down with a smile: \"I haven't scored a goal in seven years. If I score, imagine... I don't even know what I might do, maybe I'll do a somersault and I don't even know how. Celebrating a goal wouldn't be disrespectful to the Cádiz fans, but they know me and they know how fond of them I am\"."
     ]
   }
 }
