@@ -104,7 +104,8 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 ```
 
 ### Imagen de resultado final (redes)
-- Al acabar un partido, si el usuario lo pide: `python3 scripts/resultado_final.py "<local>" "<visitante>" <gl> <gv> <foto> <salida.jpg> [--vert 0.4]` (nombres como en `ESCUDOS` de index.html; foto del partido o de archivo). Usa el modelo del usuario `scripts/plantilla-resultado/modelo.jpg` (843×1264, con logos RFEF, anunciantes Lugo y El Jardín de Papel). Se entrega al usuario; no se sube a la web ni se publica en redes.
+- Al acabar un partido, si el usuario lo pide: `python3 scripts/resultado_final.py "<local>" "<visitante>" <gl> <gv> <foto> <salida.jpg> [--vert 0.4]` (nombres como en `ESCUDOS` de index.html; foto del partido o de archivo). Usa el modelo del usuario `scripts/plantilla-resultado/modelo.jpg` (843×1264, con logos RFEF, anunciantes Lugo y El Jardín de Papel). Se entrega al usuario; no se sube a la web. En partidos de Copa (`tipo:'copa'` en PARTIDOS) pone "COPA DEL REY" en lugar del logo de Segunda Federación.
+- Publicación automática en X (autorizada por el usuario solo para el resultado final): `directo.yml`, al ver `"estado": "FINAL"` en live.json, ejecuta `scripts/publicar_x.py`, que genera la imagen con una foto de archivo y la publica con el texto "⚽ FINAL | Local X-Y Visitante · www.diarioxerecista.es · #XerezCD". Registro en `publicados-x.json` (no repite; si X falla lo apunta con "(FALLO)" y no reintenta). Secrets: X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET. Prueba o publicación manual: workflow `resultado-x.yml` (Actions → Run workflow). Cualquier otra publicación en X la hace el usuario.
 
 ## Clasificación (`clasificacion.json`)
 - `{ actualizado, jornada, fuente, equipos: [{ nombre, escudo, pj, pts, gf, gc }] }`. 18 equipos.

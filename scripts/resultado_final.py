@@ -32,6 +32,15 @@ def escudos_y_nombres():
     return esc, nombres
 
 
+def es_copa(local, visitante):
+    html = open('index.html', encoding='utf-8').read()
+    for linea in re.findall(r'\{fecha:[^\n]*\}', html):
+        if "tipo:'copa'" in linea and all(re.sub(r'[\\]u([0-9a-fA-F]{4})', lambda m: chr(int(m.group(1), 16)), linea).find(e) >= 0
+                                         for e in (local, visitante)):
+            return True
+    return False
+
+
 def nombre_visible(equipo, esc, nombres):
     ruta = esc.get(equipo, '')
     for k, v in nombres.items():
@@ -88,7 +97,7 @@ def pegar_escudo(lienzo, ruta, centro, caja):
     lienzo.alpha_composite(e, (centro[0] - e.width // 2, centro[1] - e.height // 2))
 
 
-def main(local, visitante, gl, gv, foto, salida, vert=0.4):
+def main(local, visitante, gl, gv, foto, salida, vert=0.4, copa=None):
     esc, nombres = escudos_y_nombres()
     for eq in (local, visitante):
         assert eq in esc, f'Sin escudo en ESCUDOS de index.html: {eq}'
@@ -115,6 +124,19 @@ def main(local, visitante, gl, gv, foto, salida, vert=0.4):
         m = Image.new('L', (W, H), 0)
         m.paste(lum.crop(caja).point(lambda v: 255 if v > 185 else (0 if v < 140 else (v - 140) * 255 // 45)), caja[:2])
         lienzo.paste(base, (0, 0), m)
+
+    # 3b. En Copa, "COPA DEL REY" en lugar del logo de Segunda Federación
+    if copa is None:
+        copa = es_copa(local, visitante)
+    if copa:
+        zona = base.crop((340, 25, 610, 135))
+        oscuros = [p for p in zona.getdata() if sum(p) < 200] or [AZUL_ARRIBA]
+        color = tuple(sum(c[i] for c in oscuros) // len(oscuros) for i in range(3))
+        lienzo.paste(color, (350, 15), mascara_rect(260, 135, (0, 0, 260, 135), (12, 18, 30, 18)))
+        t = lienzo.convert('RGBA')
+        texto(t, (470, 63), 'COPA', fuente(34))
+        texto(t, (470, 98), 'DEL REY', fuente(34))
+        lienzo = t.convert('RGB')
 
     # 4. Escudo del Xerez en marca de agua (arriba a la izquierda), como en el modelo
     lienzo = lienzo.convert('RGBA')

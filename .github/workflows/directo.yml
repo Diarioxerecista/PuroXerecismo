@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v5
 
       - name: Instalar dependencias
-        run: pip install requests --quiet
+        run: pip install requests requests-oauthlib pillow --quiet
 
       - name: Configurar git
         run: |
@@ -194,3 +194,20 @@ jobs:
               time.sleep(PAUSA)
 
           PYEOF
+
+      - name: Publicar el resultado final en X
+        if: always()
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: |
+          git pull -q --rebase --autostash || true
+          python3 scripts/publicar_x.py || fallo=1
+          if [ -n "$(git status --porcelain publicados-x.json)" ]; then
+            git add publicados-x.json
+            git commit -q -m "Auto: resultado publicado en X"
+            for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          fi
+          exit ${fallo:-0}

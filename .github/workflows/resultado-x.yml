@@ -1,0 +1,40 @@
+name: Publicar resultado en X (manual)
+
+# Para pruebas o para repetir una publicación: Actions → "Publicar resultado en X (manual)" → Run workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      local:
+        description: 'Equipo local (como en index.html, p. ej. Xerez CD)'
+        required: true
+        default: 'Xerez CD'
+      visitante:
+        description: 'Equipo visitante (como en index.html, p. ej. Marbella F.C.)'
+        required: true
+      goles_local:
+        description: 'Goles del local'
+        required: true
+      goles_visitante:
+        description: 'Goles del visitante'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: pip install requests requests-oauthlib pillow --quiet
+      - name: Publicar en X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          LOCAL: ${{ inputs.local }}
+          VISITANTE: ${{ inputs.visitante }}
+          GL: ${{ inputs.goles_local }}
+          GV: ${{ inputs.goles_visitante }}
+        run: python3 scripts/publicar_x.py "$LOCAL" "$VISITANTE" "$GL" "$GV"
