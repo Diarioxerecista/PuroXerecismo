@@ -7,7 +7,7 @@ Los nombres de equipo son los de PARTIDOS/ESCUDOS en index.html. La foto es la d
 (se recorta para llenar la franja superior; --vert mueve el encuadre: 0 arriba, 1 abajo).
 Requiere Pillow.
 """
-import json, os, re, sys
+import json, os, re, sys, unicodedata
 from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -30,6 +30,22 @@ def escudos_y_nombres():
     esc = {re.sub(r'\\u([0-9a-fA-F]{4})', lambda m: chr(int(m.group(1), 16)), k): v for k, v in re.findall(r"'((?:[^'\\]|\\.)*)'\s*:\s*'([^']+)'", bloque)}
     nombres = {e['escudo']: e['nombre'] for e in json.load(open('clasificacion.json', encoding='utf-8'))['equipos']}
     return esc, nombres
+
+
+def _norm(s):
+    s = unicodedata.normalize('NFD', s.lower())
+    return re.sub(r'[^a-z0-9 ]', '', ''.join(c for c in s if unicodedata.category(c) != 'Mn')).strip()
+
+
+def resolver(equipo, esc):
+    """Admite el nombre escrito a mano ("marbella", "Cadiz") y devuelve la clave exacta de ESCUDOS."""
+    if equipo in esc:
+        return equipo
+    n = _norm(equipo)
+    candidatos = [k for k in esc if _norm(k) == n] or [k for k in esc if n and n in _norm(k)]
+    if len(candidatos) == 1:
+        return candidatos[0]
+    raise SystemExit(f'Equipo no reconocido: "{equipo}". Usa uno de: ' + ', '.join(esc))
 
 
 def es_copa(local, visitante):
@@ -99,8 +115,7 @@ def pegar_escudo(lienzo, ruta, centro, caja):
 
 def main(local, visitante, gl, gv, foto, salida, vert=0.4, copa=None):
     esc, nombres = escudos_y_nombres()
-    for eq in (local, visitante):
-        assert eq in esc, f'Sin escudo en ESCUDOS de index.html: {eq}'
+    local, visitante = resolver(local, esc), resolver(visitante, esc)
     base = Image.open(MODELO).convert('RGB')
     W, H = base.size
     lienzo = base.copy()

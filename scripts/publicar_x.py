@@ -83,8 +83,12 @@ def main():
         if clave in registro or clave + ' (FALLO)' in registro:
             print('Ya publicado:', clave); return
 
-    resultado_final.main(local, visitante, gl, gv, foto, IMAGEN)
     esc, nombres = resultado_final.escudos_y_nombres()
+    try:
+        local, visitante = resultado_final.resolver(local, esc), resultado_final.resolver(visitante, esc)
+    except SystemExit as e:
+        aviso(str(e), 'error'); sys.exit(1)
+    resultado_final.main(local, visitante, gl, gv, foto, IMAGEN)
     nl = resultado_final.nombre_visible(local, esc, nombres).title().replace('Cd', 'CD')
     nv = resultado_final.nombre_visible(visitante, esc, nombres).title().replace('Cd', 'CD').replace('Cf', 'CF')
     texto = f'⚽ FINAL | {nl} {gl}-{gv} {nv}\n\nwww.diarioxerecista.es\n\n#XerezCD'
