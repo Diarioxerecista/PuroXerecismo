@@ -370,24 +370,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/el-lucena-sale-colider-de-chapin-ante-un-gran-xerez/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/what-if-we-asked-for-help/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/what-if-we-asked-for-help/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-19</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/what-if-we-asked-for-help/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/y-si-pedimos-ayuda/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/se-complica-el-dispositivo-de-seguridad-del-xerez-cadiz-declarado-de-alto-riesgo/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -692,5 +674,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/fali-si-meto-un-gol-a-lo-mejor-doy-una-voltereta-y-ni-se-hacerla/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/fali-if-i-score-maybe-i-will-do-a-somersault-and-i-do-not-even-know-how/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/fali-si-meto-un-gol-a-lo-mejor-doy-una-voltereta-y-ni-se-hacerla/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/chapin-rozara-el-lleno-en-el-derbi-de-copa-ante-el-cadiz/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/chapin-rozara-el-lleno-en-el-derbi-de-copa-ante-el-cadiz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/chapin-set-to-be-almost-full-for-the-cup-derby-against-cadiz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/chapin-rozara-el-lleno-en-el-derbi-de-copa-ante-el-cadiz/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/chapin-set-to-be-almost-full-for-the-cup-derby-against-cadiz/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/chapin-rozara-el-lleno-en-el-derbi-de-copa-ante-el-cadiz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/chapin-set-to-be-almost-full-for-the-cup-derby-against-cadiz/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/chapin-rozara-el-lleno-en-el-derbi-de-copa-ante-el-cadiz/"/>
   </url>
 </urlset>

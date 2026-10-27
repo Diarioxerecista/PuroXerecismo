@@ -79,10 +79,6 @@
     "foto": "fotos/publicadas/xerez-lucena-j7-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art93": {
-    "foto": "fotos/publicadas/xerez-lucena-j7-balon-aereo.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art94": {
     "foto": "fotos/publicadas/xerez-donbenito-j3-chapin-grada.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -151,6 +147,10 @@
   },
   "art110": {
     "foto": "fotos/publicadas/xerez-marbella-j8-fali.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art111": {
+    "foto": "fotos/publicadas/xerez-chapin-grada-aficion-2026-27.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }

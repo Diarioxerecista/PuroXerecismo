@@ -724,31 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 7 · Group IV"
   },
-  "art93": {
-    "fecha": "2026-10-19",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
-    "eyebrow": "Opinion · Analysis",
-    "title": "What if we asked for help?",
-    "lead": "Under Abel Segovia, Xerez have gained intensity and judgement, and the squad has the quality for much more. But a team that dominates and does not win is starting to feel the anxiety: perhaps the time has come for the mind to be trained too, and to put every player in his right place.",
-    "body": [
-      "Since Abel Segovia's arrival, Xerez CD have changed their image. The team plays with intensity and judgement, and knows what it has to do on the pitch. They showed it on Sunday against Ciudad de Lucena, in a match they dominated from start to finish and lost in the 89th minute. But the results are not following, with four points out of nine under the new coach, and the feeling is that some players are still not in their right place. One figure sums it up: Xerez have hit the woodwork seven times in seven league matchdays.",
-      "<strong>Zequi, on his wrong foot</strong>",
-      "Zequi is a player with real class, but he keeps being played on the left, on his wrong foot. On the right, Guille Campos gives solidity to the full-back position; what is missing afterwards is the cross, that final ball that turns an attack into a chance.",
-      "<strong>Set pieces, a missed opportunity</strong>",
-      "There is one resource Xerez are not making the most of: corners and set pieces. Not a single corner is aimed at the near post, a variation that could catch opposing defences by surprise.",
-      "<strong>Fali, at the heart of the defence</strong>",
-      "Fali has to play, but at centre-back. On Sunday, in his minutes at the heart of the defence, he showed he has the judgement to bring the ball out from the back. The problem is who to leave out, because all the centre-backs are playing at a tremendous level.",
-      "<strong>A clever diamond that lacks a spark</strong>",
-      "In midfield, the team forms a diamond with Raúl López, Mario Peregrina, Zequi and Jaime Fernández. They play with judgement, but perhaps they lack that touch of creativity that Jaime López and Ismael bring. Bittor Isuskiza is a great player, but he is the one you bring on when you want to slow a game down: he brings calm to the midfield.",
-      "<strong>Up front, between anxiety and effort</strong>",
-      "In attack, Rubén Mesa is so anxious to score that perhaps that very anxiety is holding him back. And there is nothing to say about Chuma: two league goals, and he gives his all in every match.",
-      "<strong>The mind plays too</strong>",
-      "Perhaps it would be a good idea for the team to work with a psychologist, before the players themselves stop believing they can turn the situation around. Because this is a good squad and, little by little, a good team is also being built. There are reasons to trust it. But perhaps the time has come to put every player in his right place."
-    ]
-  },
   "art94": {
     "fecha": "2026-10-20",
     "categoria": "noticia",
@@ -1037,6 +1012,20 @@
       "Xerez CD host Cádiz CF at Chapín this Wednesday at 21:00. For Fali Jiménez it will not be just another match. The defender spent several seasons at the Carranza club and still lives in Cádiz, where his children go to primary and secondary school.",
       "<strong>\"I haven't scored a goal in seven years\"</strong>",
       "Asked how he would celebrate a hypothetical goal against his former team, Fali played it down with a smile: \"I haven't scored a goal in seven years. If I score, imagine... I don't even know what I might do, maybe I'll do a somersault and I don't even know how. Celebrating a goal wouldn't be disrespectful to the Cádiz fans, but they know me and they know how fond of them I am\"."
+    ]
+  },
+  "art111": {
+    "fecha": "2026-10-27",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "Chapín set to be almost full for the cup derby against Cádiz",
+    "lead": "Chapín will be close to full this Wednesday at 21:00 for the Copa del Rey tie between Xerez CD and Cádiz CF. The club has put back on sale the tickets released by season-ticket holders, in every part of the stadium. They cannot be bought at the ticket office.",
+    "body": [
+      "Xerez CD sold out the Tribuna and Preferencia stands ten days ago, when only a few seats were left in the Fondo Sur. Now the tickets released by season-ticket holders are available again, spread across the whole ground.",
+      "<strong>Online only</strong>",
+      "Tickets can be bought on the Xerez CD and Cádiz CF websites. The Xerez website is also selling seats in the away section. The ticket offices will not sell tickets, so anyone who wants to attend the derby will have to buy them in advance.",
+      "<strong>No official figure for Cádiz fans</strong>",
+      "Cádiz CF supporters have been allocated the Fondo Norte. Because of the security operation for the match, the number of Cádiz fans travelling to Jerez will not be made public, although it could be around 3,500."
     ]
   }
 }

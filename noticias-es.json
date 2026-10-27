@@ -724,31 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 7 · Grupo IV"
   },
-  "art93": {
-    "fecha": "2026-10-19",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
-    "eyebrow": "Opinión · Análisis",
-    "title": "¿Y si pedimos ayuda?",
-    "lead": "Con Abel Segovia el Xerez ha ganado intensidad y criterio, y la plantilla tiene nivel para mucho más. Pero a un equipo que domina y no gana empieza a pesarle la ansiedad: quizás ha llegado el momento de que la cabeza también se entrene, y de poner a cada jugador en su sitio.",
-    "body": [
-      "Desde la llegada de Abel Segovia, el Xerez CD ha cambiado su imagen. El equipo juega con intensidad y con criterio, y sabe lo que tiene que hacer en el campo. Lo demostró el domingo ante el Ciudad de Lucena, en un partido que dominó de principio a fin y que perdió en el minuto 89. Pero los resultados no acompañan, con cuatro puntos de nueve posibles con el nuevo técnico, y la sensación es que todavía hay jugadores que no están en su sitio. El dato lo resume: el Xerez lleva siete balones al palo en siete jornadas de liga.",
-      "<strong>Zequi, a pierna cambiada</strong>",
-      "Zequi es un jugador con mucha clase, pero se insiste en ponerlo por la izquierda, a pierna cambiada. Por la derecha, Guille Campos le da robustez al lateral; lo que falta después es el centro, ese último pase que convierta la llegada en ocasión.",
-      "<strong>El balón parado, una oportunidad perdida</strong>",
-      "Hay un recurso que el Xerez no está aprovechando: los córneres y las jugadas a balón parado. Ningún córner se lanza al primer palo, una variante que podría sorprender a las defensas rivales.",
-      "<strong>Fali, en el centro de la defensa</strong>",
-      "Fali tiene que jugar, pero de central. El domingo, en sus minutos en el eje de la zaga, demostró que tiene criterio para sacar el balón jugado. El problema es a quién quitar, porque todos los centrales están a un nivel enorme.",
-      "<strong>Un rombo con criterio al que le falta chispa</strong>",
-      "En el centro del campo, el equipo forma un rombo con Raúl López, Mario Peregrina, Zequi y Jaime Fernández. Juegan con criterio, pero quizás les falta esa pizca de creatividad que aportan Jaime López e Ismael. Bittor Isuskiza es un gran jugador, pero es para cuando quieres parar un partido: le da tranquilidad al centro del campo.",
-      "<strong>Arriba, entre la ansiedad y el esfuerzo</strong>",
-      "En la delantera, Rubén Mesa está tan ansioso por marcar que quizás esa misma ansiedad le está frenando. Y de Chuma no hay nada que decir: dos goles en liga, y se deja el alma en cada partido.",
-      "<strong>La cabeza también juega</strong>",
-      "Quizás sería bueno que el equipo trabajara con una psicóloga, antes de que los propios jugadores dejen de verse capaces de levantar la situación. Porque esta es una buena plantilla y, poco a poco, también se está construyendo un buen equipo. Hay motivos para confiar en él. Pero quizás ha llegado la hora de poner a cada jugador en su sitio."
-    ]
-  },
   "art94": {
     "fecha": "2026-10-20",
     "categoria": "noticia",
@@ -1037,6 +1012,20 @@
       "El Xerez CD recibe este miércoles, a las 21:00, al Cádiz CF en Chapín. Para Fali Jiménez no será un partido más. El defensa pasó varias temporadas en el club de Carranza y sigue viviendo en Cádiz, donde sus hijos van al colegio y al instituto.",
       "<strong>\"Llevo siete años sin meter un gol\"</strong>",
       "Preguntado por cómo celebraría un hipotético gol ante su exequipo, Fali le quitó hierro al asunto con una sonrisa: \"Llevo siete años sin meter un gol. Si meto un gol, imagínate... no sé ni lo que puedo hacer, a lo mejor doy una voltereta y ni sé hacerla. Celebrar un gol no sería una falta de respeto a la afición del Cádiz, pero ellos me conocen y saben el cariño que les tengo\"."
+    ]
+  },
+  "art111": {
+    "fecha": "2026-10-27",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "Chapín rozará el lleno en el derbi de Copa ante el Cádiz",
+    "lead": "Chapín rozará el lleno este miércoles a las 21:00 en el Xerez CD-Cádiz CF de Copa del Rey. El club ha vuelto a poner a la venta las entradas que han liberado los socios, en todas las zonas del estadio. No se podrán comprar en taquilla.",
+    "body": [
+      "El Xerez CD ya agotó hace diez días las localidades de Tribuna y Preferencia, y entonces quedaban pocas en Fondo Sur. Ahora vuelven a estar disponibles las entradas que los socios han dejado libres, repartidas por todo el campo.",
+      "<strong>Solo por internet</strong>",
+      "Las entradas se pueden comprar en las webs del Xerez CD y del Cádiz CF. En la del Xerez también se venden localidades de la zona visitante. Las taquillas no venderán entradas, así que quien quiera ir al derbi tendrá que comprarlas antes.",
+      "<strong>Sin cifra oficial de cadistas</strong>",
+      "Los aficionados del Cádiz CF tienen reservado el Fondo Norte. Por el dispositivo de seguridad del partido, no se hará pública la cifra de seguidores cadistas que se desplazarán a Jerez, aunque podrían rondar los 3.500."
     ]
   }
 }
