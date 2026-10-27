@@ -21,10 +21,17 @@ REGISTRO = 'publicados-x.json'
 IMAGEN = 'resultado-x.jpg'
 
 
+def aviso(msg, nivel='warning'):
+    """Mensaje visible como anotación de GitHub Actions (legible sin entrar en los registros)."""
+    print(f'::{nivel}::' + msg.replace('\n', ' '), flush=True)
+
+
 def auth():
     claves = [os.environ.get(k, '').strip() for k in ('X_API_KEY', 'X_API_SECRET', 'X_ACCESS_TOKEN', 'X_ACCESS_SECRET')]
     if not all(claves):
-        sys.exit('ERROR: faltan claves de X en los secrets del repositorio.')
+        faltan = [k for k, v in zip(('X_API_KEY', 'X_API_SECRET', 'X_ACCESS_TOKEN', 'X_ACCESS_SECRET'), claves) if not v]
+        aviso(f'Faltan secrets de X: {", ".join(faltan)}', 'error')
+        sys.exit(1)
     return OAuth1(*claves)
 
 
@@ -40,9 +47,9 @@ def subir_imagen(a, ruta):
             mid = (j.get('data') or {}).get('id') or j.get('media_id_string')
             if r.ok and mid:
                 return str(mid)
-            print('Subida de imagen rechazada en', url, r.status_code, r.text[:300], flush=True)
+            aviso(f'Subida de imagen rechazada en {url}: {r.status_code} {r.text[:300]}')
         except Exception as e:
-            print('Error subiendo imagen a', url, e, flush=True)
+            aviso(f'Error subiendo imagen a {url}: {e}')
     return None
 
 
@@ -52,6 +59,8 @@ def tuitear(a, texto, media_id):
         cuerpo['media'] = {'media_ids': [media_id]}
     r = requests.post('https://api.x.com/2/tweets', auth=a, json=cuerpo, timeout=30)
     print('X respondió', r.status_code, r.text[:300], flush=True)
+    if not r.ok:
+        aviso(f'X rechazó el tuit: {r.status_code} {r.text[:300]}', 'error')
     return r.ok
 
 
@@ -92,4 +101,10 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except SystemExit:
+        raise
+    except Exception as e:
+        aviso(f'{type(e).__name__}: {e}', 'error')
+        raise
