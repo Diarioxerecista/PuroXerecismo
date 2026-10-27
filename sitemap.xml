@@ -334,24 +334,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-09/un-xerez-que-fue-de-menos-a-mas-se-deja-dos-puntos-en-estepona/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/cuatro-campos-en-una-semana-un-reto-para-la-planificacion-del-xerez-cd/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-13</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/cuatro-campos-en-una-semana-un-reto-para-la-planificacion-del-xerez-cd/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/four-pitches-in-one-week-a-challenge-for-xerez-cds-planning/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/cuatro-campos-en-una-semana-un-reto-para-la-planificacion-del-xerez-cd/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/four-pitches-in-one-week-a-challenge-for-xerez-cds-planning/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-13</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/cuatro-campos-en-una-semana-un-reto-para-la-planificacion-del-xerez-cd/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/four-pitches-in-one-week-a-challenge-for-xerez-cds-planning/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/cuatro-campos-en-una-semana-un-reto-para-la-planificacion-del-xerez-cd/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/visita-chapin-uno-de-los-ogros-del-xerez-cd/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -692,5 +674,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-no-vendera-las-entradas-sobrantes-del-fondo-norte-por-motivos-de-seguridad/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-will-not-sell-the-remaining-fondo-norte-tickets-for-security-reasons/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-no-vendera-las-entradas-sobrantes-del-fondo-norte-por-motivos-de-seguridad/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/si-vengo-de-primera-regional/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/si-vengo-de-primera-regional/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/yes-i-come-from-primera-regional/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/si-vengo-de-primera-regional/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/yes-i-come-from-primera-regional/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-27</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/si-vengo-de-primera-regional/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/yes-i-come-from-primera-regional/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/si-vengo-de-primera-regional/"/>
   </url>
 </urlset>

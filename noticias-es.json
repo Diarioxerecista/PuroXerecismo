@@ -665,21 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art87": {
-    "fecha": "2026-10-13",
-    "categoria": "noticia",
-    "eyebrow": "Xerez CD · Entrenamientos",
-    "title": "Cuatro campos en una semana: un reto para la planificación del Xerez CD",
-    "lead": "Esta semana el Xerez CD alterna entre el anexo de Chapín, Chapín, Costa Ballena y San Telmo. Mantener la rutina en un entorno cambiante exige un esfuerzo añadido al cuerpo técnico y a la plantilla.",
-    "body": [
-      "Entrenar en cuatro escenarios distintos en apenas siete días es una situación que requiere una adaptación constante. El anexo de Chapín, el propio Chapín, Costa Ballena y San Telmo forman un mapa de trabajo que el cuerpo técnico debe gestionar con cuidado, porque cada campo tiene sus particularidades y puede influir en la preparación del equipo. El motivo es la falta de disponibilidad: en el Pedro Garrido se está arreglando el riego, lo que obliga al equipo a ir cambiando de instalación a lo largo de la semana.",
-      "<strong>Superficies distintas, sensaciones distintas</strong>",
-      "Cada recinto tiene un césped, una dureza y un drenaje propios. Los músculos y las articulaciones responden de forma diferente según el terreno, de modo que pasar de un campo a otro en pocos días pide a los jugadores un periodo de acomodación. Los preparadores físicos suelen preferir entornos conocidos para ajustar las cargas con mayor precisión, sobre todo en las sesiones de más intensidad.",
-      "<strong>Una planificación que se adapta sobre la marcha</strong>",
-      "La preparación física se apoya en la continuidad y la progresión. Cuando el escenario cambia, hay que reajustar espacios, horarios y ejercicios en función de lo que permita cada instalación. Es un trabajo que el cuerpo técnico puede resolver con experiencia y flexibilidad, pero que exige más atención y más tiempo de organización.",
-      "Todo ello con la vista puesta en el domingo 18 de octubre, cuando el Xerez CD recibe al Ciudad de Lucena en Chapín a las 19:00."
-    ]
-  },
   "art88": {
     "fecha": "2026-10-15",
     "categoria": "noticia",
@@ -1032,6 +1017,23 @@
       "El Cádiz, que ha cambiado de entrenador esta semana con la llegada de Borja Jiménez, entrenará a puerta cerrada antes de la eliminatoria, según ha informado el club en su web. El equipo amarillo dará minutos a los jugadores menos habituales, aunque podría incluir a alguno de los que jugaron ante el Ceuta, según la carga física de cada uno.",
       "<strong>Segovia no da pistas</strong>",
       "Por su parte, Abel Segovia no dio pistas sobre su planteamiento. El técnico xerecista explicó que había estudiado al rival, pero con el anterior entrenador. Ahora tendrá que ponerse manos a la obra para volver a analizar al equipo amarillo."
+    ]
+  },
+  "art107": {
+    "fecha": "2026-10-27",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinión · Firma invitada",
+    "title": "Sí, vengo de Primera Regional",
+    "lead": "Veo que algunos, allá por la Caleta, preguntan al xerecismo qué se ha sentido en Primera Regional. Y yo, que con los años cada vez encuentro más difícil agachar la cabeza y callar, no puedo evitar replicar.",
+    "body": [
+      "Que hemos tocado fondo no lo vamos a negar. Dieciocho años en los que la vida ha sido muy difícil para unos y bonita para otros. Pero, caprichoso el destino, ha querido que volvamos a encontrarnos en el camino.",
+      "Con un 1 % de posibilidades y un 99 % de fe. Porque si hay algo que el xerecismo nunca ha hecho es dejar de creer.",
+      "Y esa es el arma más fuerte de una afición que se ha hecho indestructible allí donde más dolía el amor, tragando sinsabores y hasta aguantando las carcajadas de quienes firmaban nuestra defunción.",
+      "Algunos de los que viviremos este #XerezCádiz replicábamos con orgullo a aquello tan sonada, \"para lo que habéis quedado\", con un \"pero seguimos vivos\".",
+      "Pues tengan cuidado, porque ahora que toda España empieza a darse cuenta, venimos a demostrarlo."
     ]
   }
 }

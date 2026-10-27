@@ -665,21 +665,6 @@
     "goleadoresHome": "Rica Funes 68'",
     "goleadoresAway": "Chuma 24'"
   },
-  "art87": {
-    "fecha": "2026-10-13",
-    "categoria": "noticia",
-    "eyebrow": "Xerez CD · Training",
-    "title": "Four pitches in one week: a challenge for Xerez CD's planning",
-    "lead": "This week Xerez CD are alternating between the Chapín annex pitch, Chapín, Costa Ballena and San Telmo. Keeping to a routine in a changing environment demands extra effort from the coaching staff and the squad.",
-    "body": [
-      "Training at four different venues in barely seven days is a situation that requires constant adaptation. The Chapín annex pitch, Chapín itself, Costa Ballena and San Telmo make up a map of work that the coaching staff must manage carefully, because each pitch has its own characteristics and can affect the team's preparation. The reason is a lack of availability: the irrigation system at the Pedro Garrido is being repaired, which forces the team to keep changing facilities throughout the week.",
-      "<strong>Different surfaces, different sensations</strong>",
-      "Each venue has its own grass, firmness and drainage. Muscles and joints respond differently depending on the surface, so moving from one pitch to another in a few days requires a period of adjustment from the players. Fitness coaches tend to prefer familiar settings in order to adjust training loads more precisely, especially in the most intense sessions.",
-      "<strong>Planning that adapts on the fly</strong>",
-      "Physical preparation relies on continuity and progression. When the setting changes, spaces, schedules and exercises have to be readjusted according to what each facility allows. It is a task the coaching staff can handle with experience and flexibility, but it demands more attention and more time spent on organisation.",
-      "All of this with an eye on Sunday 18 October, when Xerez CD host Ciudad de Lucena at Chapín at 19:00."
-    ]
-  },
   "art88": {
     "fecha": "2026-10-15",
     "categoria": "noticia",
@@ -1032,6 +1017,23 @@
       "Cádiz, who changed coach this week with the arrival of Borja Jiménez, will train behind closed doors ahead of the tie, as the club has announced on its website. The yellow side will give minutes to their less regular players, although they could include some of those who played against Ceuta, depending on each player's physical load.",
       "<strong>Segovia gives nothing away</strong>",
       "For his part, Abel Segovia gave no clues about his approach. The Xerez coach explained that he had studied the opponents, but under their previous coach. Now he will have to get down to work to analyse the yellow side again."
+    ]
+  },
+  "art107": {
+    "fecha": "2026-10-27",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinion · Guest column",
+    "title": "Yes, I come from Primera Regional",
+    "lead": "I see that some people, over by La Caleta, are asking Xerez fans what it felt like to be in Primera Regional. And I, who over the years find it ever harder to bow my head and keep quiet, cannot help but reply.",
+    "body": [
+      "That we hit rock bottom, we will not deny. Eighteen years in which life has been very hard for some and beautiful for others. But, as fate would have it, our paths have crossed again.",
+      "With a 1% chance and 99% faith. Because if there is one thing Xerez fans have never done, it is stop believing.",
+      "And that is the strongest weapon of a fanbase that has become indestructible where love hurt the most, swallowing disappointments and even putting up with the laughter of those who were signing our death certificate.",
+      "Some of us who will live this #XerezCádiz used to answer, with pride, that much-repeated \"look what you've been reduced to\" with a \"but we are still alive\".",
+      "So be careful, because now that the whole of Spain is starting to notice, we have come to prove it."
     ]
   }
 }

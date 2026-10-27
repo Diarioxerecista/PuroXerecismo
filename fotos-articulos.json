@@ -71,10 +71,6 @@
     "foto": "fotos/publicadas/betis-deportivo-xerez-j6-celebracion-chuma.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art87": {
-    "foto": "fotos/publicadas/entreno01.jpg.webp",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art88": {
     "foto": "fotos/publicadas/lucena2023.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -152,6 +148,10 @@
   },
   "art106": {
     "foto": "fotos/publicadas/estadio-chapin-vista-aerea.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art107": {
+    "foto": "fotos/publicadas/cadiz-cf-jugadores-carranza.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
