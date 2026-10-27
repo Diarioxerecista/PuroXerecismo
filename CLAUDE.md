@@ -103,6 +103,9 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
   </url>
 ```
 
+### Imagen de resultado final (redes)
+- Al acabar un partido, si el usuario lo pide: `python3 scripts/resultado_final.py "<local>" "<visitante>" <gl> <gv> <foto> <salida.jpg> [--vert 0.4]` (nombres como en `ESCUDOS` de index.html; foto del partido o de archivo). Usa el modelo del usuario `scripts/plantilla-resultado/modelo.jpg` (843×1264, con logos RFEF, anunciantes Lugo y El Jardín de Papel). Se entrega al usuario; no se sube a la web ni se publica en redes.
+
 ## Clasificación (`clasificacion.json`)
 - `{ actualizado, jornada, fuente, equipos: [{ nombre, escudo, pj, pts, gf, gc }] }`. 18 equipos.
 - Con los resultados de una jornada: sumar pj, gf, gc y pts (3/1/0) a los 18, ordenar por pts → diferencia de goles → goles a favor, y subir `jornada` y `actualizado`. Comprobar antes que `jornada` es la anterior (no sumar dos veces).
