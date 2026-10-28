@@ -724,18 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 7 · Grupo IV"
   },
-  "art96": {
-    "fecha": "2026-10-21",
-    "categoria": "noticia",
-    "eyebrow": "Xerez CD · Sanción",
-    "title": "Multa de 600 euros al Xerez y apercibimiento de cierre parcial del Fondo Sur por los incidentes en el gol del Lucena",
-    "lead": "El Comité de Competición ha impuesto al Xerez CD una multa de 600 euros y un apercibimiento de cierre parcial del Fondo Sur por los incidentes registrados tras el gol del Ciudad de Lucena en Chapín, el pasado domingo 18 de octubre.",
-    "body": [
-      "Los hechos se produjeron en el minuto 89 del partido de la séptima jornada, cuando Sergio García marcó el 0-1 que dio la victoria al Ciudad de Lucena. Según recoge el acta del encuentro, en ese momento se lanzaron botellas y mecheros desde la grada.",
-      "<strong>Un aviso antes del derbi</strong>",
-      "El apercibimiento supone que, si se repiten incidentes similares, el club podría ser sancionado con el cierre parcial del Fondo Sur. La sanción llega a una semana del partido de Copa del Rey ante el Cádiz CF, que se disputará el miércoles 28 de octubre a las 21:00 horas en Chapín y que ha sido declarado de alto riesgo por las autoridades competentes."
-    ]
-  },
   "art97": {
     "fecha": "2026-10-22",
     "categoria": "noticia",
@@ -1030,6 +1018,20 @@
       "Con la nueva fecha, los aficionados del Cádiz CF sí podrían disponer de medios de transporte para volver a casa tras el partido.",
       "<strong>Un césped muy castigado</strong>",
       "El estado del terreno de juego ya preocupaba antes del aplazamiento. En la previa del partido, Abel Segovia reconoció que el campo \"me preocupa, claro que sí\", después de varios partidos seguidos en Chapín."
+    ]
+  },
+  "art114": {
+    "fecha": "2026-10-28",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "El Xerez - Cádiz se jugará este jueves a las 21:00 en Chapín",
+    "lead": "El Xerez CD - Cádiz CF de Copa del Rey, aplazado este miércoles por el accidente de tren de Urda, se disputará este jueves 29 de octubre a las 21:00 en Chapín. Las entradas compradas para el miércoles siguen siendo válidas.",
+    "body": [
+      "Se impone así la primera de las dos opciones que se barajaban, jugar cuanto antes. Se descarta la de disputarlo el 24 o el 25 de noviembre, antes del sorteo de la segunda ronda.",
+      "<strong>Con desaparecidos todavía</strong>",
+      "La decisión llega apenas un día después del aplazamiento. El partido se suspendió por el accidente y se jugará cuando todavía hay desaparecidos.",
+      "<strong>Tres días para viajar a Canarias</strong>",
+      "El calendario se aprieta para el Xerez CD. Tras el derbi copero, el equipo de Segovia visita el domingo 1 de noviembre a las 13:00 al Tamaraceite, en Canarias, apenas tres días después."
     ]
   }
 }

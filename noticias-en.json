@@ -724,18 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 7 · Group IV"
   },
-  "art96": {
-    "fecha": "2026-10-21",
-    "categoria": "noticia",
-    "eyebrow": "Xerez CD · Disciplinary",
-    "title": "Xerez fined 600 euros and warned of a partial closure of the Fondo Sur over incidents at Lucena's goal",
-    "lead": "The Competition Committee has fined Xerez CD 600 euros and issued a warning of a partial closure of the Fondo Sur over the incidents that followed Ciudad de Lucena's goal at Chapín last Sunday, 18 October.",
-    "body": [
-      "The incidents took place in the 89th minute of the seventh-matchday fixture, when Sergio García scored the 0-1 that gave Ciudad de Lucena victory. According to the match report, bottles and lighters were thrown from the stands at that moment.",
-      "<strong>A warning ahead of the derby</strong>",
-      "The warning means that, if similar incidents happen again, the club could be punished with a partial closure of the Fondo Sur. The sanction comes a week before the Copa del Rey match against Cádiz CF, to be played on Wednesday 28 October at 21:00 at Chapín and which has been declared high risk by the relevant authorities."
-    ]
-  },
   "art97": {
     "fecha": "2026-10-22",
     "categoria": "noticia",
@@ -1030,6 +1018,20 @@
       "With the new date, Cádiz CF supporters could have transport available to get home after the match.",
       "<strong>A badly worn pitch</strong>",
       "The state of the pitch was already a concern before the postponement. In the pre-match press conference, Abel Segovia admitted that the pitch \"worries me, of course it does\", after several matches in a row at Chapín."
+    ]
+  },
+  "art114": {
+    "fecha": "2026-10-28",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "Xerez - Cádiz to be played this Thursday at 21:00 at Chapín",
+    "lead": "The Copa del Rey tie between Xerez CD and Cádiz CF, postponed this Wednesday because of the Urda train crash, will be played this Thursday 29 October at 21:00 at Chapín. Tickets bought for Wednesday remain valid.",
+    "body": [
+      "The first of the two options under consideration, playing as soon as possible, has prevailed. The option of playing it on 24 or 25 November, before the second-round draw, has been ruled out.",
+      "<strong>With people still missing</strong>",
+      "The decision comes just one day after the postponement. The match was called off because of the crash and will be played while there are still people missing.",
+      "<strong>Three days to travel to the Canary Islands</strong>",
+      "The schedule is tightening for Xerez CD. After the cup derby, Segovia's side visit Tamaraceite in the Canary Islands on Sunday 1 November at 13:00, just three days later."
     ]
   }
 }
