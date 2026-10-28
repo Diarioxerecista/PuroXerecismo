@@ -724,18 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 7 · Grupo IV"
   },
-  "art95": {
-    "fecha": "2026-10-20",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Chapín",
-    "title": "El Ayuntamiento retirará la estructura de lanzamiento de disco de Chapín para el Xerez-Cádiz",
-    "lead": "El delegado de Salud y Deportes del Ayuntamiento de Jerez, Tomás Sampalo, ha anunciado en respuesta a este medio que se retirará la estructura de lanzamiento de disco del Estadio Municipal de Chapín para el partido de Copa del Rey ante el Cádiz CF, con el objetivo de que haya una mayor visibilidad.",
-    "body": [
-      "La medida se aplicará para el encuentro de la primera eliminatoria de la Copa del Rey entre el Xerez CD y el Cádiz CF, que se disputará el miércoles 28 de octubre a las 21:00 horas en Chapín. Con la retirada de la estructura, los aficionados tendrán una mayor visibilidad del terreno de juego.",
-      "<strong>Un partido con mucha expectación</strong>",
-      "El derbi provincial ha despertado un gran interés: las entradas de Tribuna y Preferencia se agotaron a falta de once días para el encuentro, que ha sido declarado de alto riesgo por las autoridades competentes."
-    ]
-  },
   "art96": {
     "fecha": "2026-10-21",
     "categoria": "noticia",
@@ -1024,6 +1012,22 @@
       "Según los datos conocidos hasta el momento, el accidente ha causado 30 muertos y numerosos heridos.",
       "El partido queda aplazado sin fecha. El encuentro había despertado una enorme expectación en Jerez: Chapín iba a rozar el lleno.",
       "El Diario Xerecista traslada su pésame a las familias de las víctimas y desea una pronta recuperación a los heridos."
+    ]
+  },
+  "art113": {
+    "fecha": "2026-10-28",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "El Xerez - Cádiz, entre la semana que viene y el 24 o 25 de noviembre",
+    "lead": "El Xerez CD - Cádiz CF de Copa del Rey, aplazado este miércoles, tiene dos posibles fechas: la semana que viene, lo que obligaría a retrasar unos días la resiembra del césped de Chapín, o el 24 o el 25 de noviembre, antes del sorteo de la segunda ronda.",
+    "body": [
+      "<strong>Jugar ya y retrasar la resiembra</strong>",
+      "La primera opción sería disputar el partido la semana que viene, entre semana. Así se aprovecharía que el Xerez CD no vuelve a jugar como local en Liga hasta el 15 de noviembre, ante el Antoniano, aunque habría que retrasar unos días la resiembra. Para la plantilla supondría un calendario exigente: el domingo 1 de noviembre visita al Tamaraceite en Canarias y el domingo 8 juega en el campo del Atlético Sanluqueño, así que serían tres partidos en ocho días.",
+      "<strong>O esperar a finales de noviembre</strong>",
+      "La segunda opción es jugarlo el 24 o el 25 de noviembre, antes del sorteo de la segunda ronda de la Copa del Rey. En ese caso, el derbi caería entre la visita al Atlético Central (22 de noviembre) y la recepción al Linares Deportivo (29 de noviembre), con la resiembra ya terminada.",
+      "Con la nueva fecha, los aficionados del Cádiz CF sí podrían disponer de medios de transporte para volver a casa tras el partido.",
+      "<strong>Un césped muy castigado</strong>",
+      "El estado del terreno de juego ya preocupaba antes del aplazamiento. En la previa del partido, Abel Segovia reconoció que el campo \"me preocupa, claro que sí\", después de varios partidos seguidos en Chapín."
     ]
   }
 }

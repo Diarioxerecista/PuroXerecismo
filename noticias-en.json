@@ -724,18 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 7 · Group IV"
   },
-  "art95": {
-    "fecha": "2026-10-20",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Chapín",
-    "title": "Jerez City Council to remove the discus throwing structure at Chapín for Xerez-Cádiz",
-    "lead": "Jerez City Council's head of Health and Sports, Tomás Sampalo, has announced in response to this outlet that the discus throwing structure at the Estadio Municipal de Chapín will be removed for the Copa del Rey match against Cádiz CF, so that there is better visibility.",
-    "body": [
-      "The measure will apply for the Copa del Rey first-round match between Xerez CD and Cádiz CF, to be played on Wednesday 28 October at 21:00 at Chapín. With the structure removed, supporters will have a better view of the pitch.",
-      "<strong>A match generating great anticipation</strong>",
-      "The provincial derby has generated great interest: Tribuna and Preferencia tickets sold out eleven days before the match, which has been declared high risk by the relevant authorities."
-    ]
-  },
   "art96": {
     "fecha": "2026-10-21",
     "categoria": "noticia",
@@ -1024,6 +1012,22 @@
       "According to the information available so far, the crash has left 30 people dead and many injured.",
       "The match has been postponed with no new date set. It had generated huge anticipation in Jerez: Chapín was set to be almost full.",
       "Diario Xerecista sends its condolences to the families of the victims and wishes the injured a speedy recovery."
+    ]
+  },
+  "art113": {
+    "fecha": "2026-10-28",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "Xerez - Cádiz, between next week and 24 or 25 November",
+    "lead": "The Copa del Rey tie between Xerez CD and Cádiz CF, postponed this Wednesday, has two possible dates: next week, which would mean delaying the reseeding of the Chapín pitch by a few days, or 24 or 25 November, before the draw for the second round.",
+    "body": [
+      "<strong>Play now and delay the reseeding</strong>",
+      "The first option would be to play the match next week, midweek. This would take advantage of the fact that Xerez CD do not play at home in the league again until 15 November, against Antoniano, although the reseeding would have to be delayed by a few days. For the squad it would mean a demanding schedule: on Sunday 1 November they visit Tamaraceite in the Canary Islands and on Sunday 8 they play away at Atlético Sanluqueño, which would make three matches in eight days.",
+      "<strong>Or wait until late November</strong>",
+      "The second option is to play it on 24 or 25 November, before the draw for the second round of the Copa del Rey. In that case, the derby would fall between the trip to Atlético Central (22 November) and the home game against Linares Deportivo (29 November), with the reseeding already finished.",
+      "With the new date, Cádiz CF supporters could have transport available to get home after the match.",
+      "<strong>A badly worn pitch</strong>",
+      "The state of the pitch was already a concern before the postponement. In the pre-match press conference, Abel Segovia admitted that the pitch \"worries me, of course it does\", after several matches in a row at Chapín."
     ]
   }
 }

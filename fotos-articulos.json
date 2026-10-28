@@ -79,11 +79,6 @@
     "foto": "fotos/publicadas/xerez-lucena-j7-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art95": {
-    "foto": "fotos/publicadas/estadio-chapin-vista-aerea.jpg",
-    "creditoFoto": "Foto: Diario Xerecista",
-    "objectPosition": "center 45%"
-  },
   "art96": {
     "foto": "fotos/publicadas/xerez-lucena-j7-celebracion-lucena.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -151,6 +146,10 @@
   },
   "art112": {
     "foto": "fotos/publicadas/estadio-chapin-vista-aerea.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art113": {
+    "foto": "fotos/publicadas/xerez-chapin-grada-aficion-2026-27.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
