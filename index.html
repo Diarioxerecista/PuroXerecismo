@@ -1850,7 +1850,7 @@
       var rowClass = 'fixture-row';
       var scoreHtml;
       if(p.aplazado){
-        scoreHtml = '<span class="vs-score" style="font-size:12px;">'+(idiomaActual==='es' ? 'Aplazado' : 'Postponed')+'</span>';
+        scoreHtml = '<span class="vs-score" style="font-size:12px;">'+(idiomaActual==='es' ? 'Aplazado sin fecha' : 'Postponed, no date')+'</span>';
       } else if(p.resultado){
         var partes = p.resultado.split('-');
         var gLocal = parseInt(partes[0],10);
