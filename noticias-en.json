@@ -724,21 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 7 · Group IV"
   },
-  "art94": {
-    "fecha": "2026-10-20",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Security",
-    "title": "Security operation for Xerez-Cádiz, declared high risk, gets more complicated",
-    "lead": "The Copa del Rey match between Xerez CD and Cádiz CF, to be played on Wednesday 28 October at Chapín, has been declared high risk by the relevant authorities. In addition, Renfe will not lay on a return train for Cádiz supporters, Cádiz CF has announced on social media, which complicates the security operation and could lead many Cádiz fans to decide against travelling to Jerez.",
-    "body": [
-      "Xerez CD host Cádiz CF on Wednesday 28 October at 21:00 at Chapín, in the first round of the Copa del Rey. The Cádiz club explained in a statement that it tried to negotiate a return train with Renfe for its supporters after the match, but it was not possible. The lack of that train means the security operation planned for a high-risk match has to be rethought.",
-      "<strong>Fewer away fans</strong>",
-      "Without a return train, many Cádiz supporters may think twice about travelling to Jerez. The club reserved the Fondo Norte for them, with tickets at 25 euros.",
-      "<strong>What will Xerez do with the Fondo Norte?</strong>",
-      "The big question is what Xerez CD will now do with the Fondo Norte seats that may be left empty. One possibility would be to split the stand in two to sell the available tickets on match day. We will have to wait for the club's decision.",
-      "Demand for the derby has been high: Tribuna and Preferencia tickets sold out eleven days before the match, and there were few seats left in the Fondo Sur."
-    ]
-  },
   "art95": {
     "fecha": "2026-10-20",
     "categoria": "noticia",
@@ -1026,6 +1011,18 @@
       "Tickets can only be bought on the Xerez CD website, which is also selling seats in the away section. They are no longer on sale on the Cádiz CF website. The ticket offices will not sell tickets, so anyone who wants to attend the derby will have to buy them in advance.",
       "<strong>No official figure for Cádiz fans</strong>",
       "Cádiz CF supporters have been allocated the Fondo Norte. Because of the security operation for the match, the number of Cádiz fans travelling to Jerez will not be made public, although it could be around 2,800."
+    ]
+  },
+  "art112": {
+    "fecha": "2026-10-28",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "Xerez - Cádiz, postponed after the Urda train crash",
+    "lead": "The Copa del Rey tie between Xerez CD and Cádiz CF, scheduled for tonight at 21:00 at Chapín, has been postponed by the RFEF following the train crash in Urda (Toledo).",
+    "body": [
+      "According to the information available so far, the crash has left 30 people dead and many injured.",
+      "There is still no new date for the match, which had generated huge anticipation in Jerez: Chapín was set to be almost full.",
+      "Diario Xerecista sends its condolences to the families of the victims and wishes the injured a speedy recovery."
     ]
   }
 }

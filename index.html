@@ -1757,7 +1757,7 @@
     {fecha:'2026-10-10',jornada:'J6', local:'Betis Deportivo',          visitante:'Xerez CD',                hora:'18:00', resultado:'1-1'},
     {fecha:'2026-10-18',jornada:'J7', local:'Xerez CD',                 visitante:'Ciudad de Lucena',        hora:'19:00', resultado:'0-1'},
     {fecha:'2026-10-25',jornada:'J8', local:'Xerez CD',                 visitante:'Marbella F.C.',           hora:'19:00', resultado:'1-0'},
-    {fecha:'2026-10-28',jornada:'Copa del Rey',local:'Xerez CD',            visitante:'C\u00e1diz CF',              hora:'21:00', resultado:null, tipo:'copa', sede:'Chap\u00edn'},
+    {fecha:'2026-10-28',jornada:'Copa del Rey',local:'Xerez CD',            visitante:'C\u00e1diz CF',              hora:'21:00', resultado:null, aplazado:true, tipo:'copa', sede:'Chap\u00edn'},
     {fecha:'2026-11-01',jornada:'J9', local:'U.D. Tamaraceite',         visitante:'Xerez CD',                hora:'13:00', resultado:null},
     {fecha:'2026-11-08',jornada:'J10',local:'Atlético Sanluqueño',      visitante:'Xerez CD',                hora:'12:30', resultado:null},
     {fecha:'2026-11-15',jornada:'J11',local:'Xerez CD',                 visitante:'C.A. Antoniano',          resultado:null},
@@ -1788,7 +1788,7 @@
 
   function renderProximoPartido(){
     const hoy = new Date(); hoy.setHours(0,0,0,0);
-    const proximo = PARTIDOS.find(function(p){ return !p.resultado && new Date(p.fecha+'T12:00:00') >= hoy; });
+    const proximo = PARTIDOS.find(function(p){ return !p.resultado && !p.aplazado && new Date(p.fecha+'T12:00:00') >= hoy; });
     const widget = document.getElementById('proximoWidget');
     if(!proximo || !widget) return;
     window.proximoPartidoData = proximo;
@@ -1827,7 +1827,7 @@
     const hoy = new Date(); hoy.setHours(0,0,0,0);
     var proximoIdx = -1;
     for(var i=0;i<PARTIDOS.length;i++){
-      if(!PARTIDOS[i].resultado && new Date(PARTIDOS[i].fecha+'T12:00:00') >= hoy){ proximoIdx=i; break; }
+      if(!PARTIDOS[i].resultado && !PARTIDOS[i].aplazado && new Date(PARTIDOS[i].fecha+'T12:00:00') >= hoy){ proximoIdx=i; break; }
     }
     const MESES_ES = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
     const MESES_EN = ['January','February','March','April','May','June','July','August','September','October','November','December'];
@@ -1849,7 +1849,9 @@
       var horaHtml = '';
       var rowClass = 'fixture-row';
       var scoreHtml;
-      if(p.resultado){
+      if(p.aplazado){
+        scoreHtml = '<span class="vs-score" style="font-size:12px;">'+(idiomaActual==='es' ? 'Aplazado' : 'Postponed')+'</span>';
+      } else if(p.resultado){
         var partes = p.resultado.split('-');
         var gLocal = parseInt(partes[0],10);
         var gVisitante = parseInt(partes[1],10);
@@ -2096,7 +2098,7 @@
     const el = document.getElementById('topbarScore');
     if(!el) return;
     const hoy = new Date(); hoy.setHours(0,0,0,0);
-    const p = PARTIDOS.find(function(x){ return !x.resultado && new Date(x.fecha+'T12:00:00') >= hoy; });
+    const p = PARTIDOS.find(function(x){ return !x.resultado && !x.aplazado && new Date(x.fecha+'T12:00:00') >= hoy; });
     if(!p) return;
     const fd = new Date(p.fecha+'T12:00:00');
     const locale = idiomaActual==='es' ? 'es-ES' : 'en-GB';

@@ -724,21 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 7 · Grupo IV"
   },
-  "art94": {
-    "fecha": "2026-10-20",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Seguridad",
-    "title": "Se complica el dispositivo de seguridad del Xerez-Cádiz, declarado de alto riesgo",
-    "lead": "El partido de Copa del Rey entre el Xerez CD y el Cádiz CF, que se disputará el miércoles 28 de octubre en Chapín, ha sido declarado de alto riesgo por las autoridades competentes. Además, Renfe no habilitará un tren de regreso para los aficionados gaditanos, según ha comunicado el Cádiz CF en sus redes sociales, lo que complica el dispositivo de seguridad y podría hacer que muchos seguidores del Cádiz renuncien a viajar a Jerez.",
-    "body": [
-      "El Xerez CD recibe al Cádiz CF el miércoles 28 de octubre, a las 21:00 horas, en Chapín, en la primera eliminatoria de la Copa del Rey. El club gaditano ha explicado en un comunicado que intentó negociar con Renfe un tren de vuelta para su afición tras el partido, pero no ha sido posible. La falta de ese tren obliga a replantear el dispositivo de seguridad previsto para un encuentro de alto riesgo.",
-      "<strong>Menos aficionados visitantes</strong>",
-      "Sin un tren de regreso, muchos seguidores del Cádiz podrían pensarse no viajar a Jerez. El club les reservó el Fondo Norte, con entradas a 25 euros.",
-      "<strong>¿Qué hará el Xerez con el Fondo Norte?</strong>",
-      "La gran incógnita es qué hará ahora el Xerez CD con las localidades del Fondo Norte que puedan quedar libres. Una posibilidad sería dividir el fondo en dos para poner a la venta el día del partido las entradas disponibles. Habrá que esperar a conocer la decisión del club.",
-      "La demanda para el derbi ha sido alta: las entradas de Tribuna y Preferencia se agotaron a falta de once días para el encuentro, y en Fondo Sur quedaban pocas localidades."
-    ]
-  },
   "art95": {
     "fecha": "2026-10-20",
     "categoria": "noticia",
@@ -1026,6 +1011,18 @@
       "Las entradas solo se pueden comprar en la web del Xerez CD, que también vende localidades de la zona visitante. En la del Cádiz CF ya no están a la venta. Las taquillas no venderán entradas, así que quien quiera ir al derbi tendrá que comprarlas antes.",
       "<strong>Sin cifra oficial de cadistas</strong>",
       "Los aficionados del Cádiz CF tienen reservado el Fondo Norte. Por el dispositivo de seguridad del partido, no se hará pública la cifra de seguidores cadistas que se desplazarán a Jerez, aunque podrían rondar los 2.800."
+    ]
+  },
+  "art112": {
+    "fecha": "2026-10-28",
+    "categoria": "noticia",
+    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
+    "title": "Xerez - Cádiz, suspendido por el accidente de tren de Urda",
+    "lead": "El partido de Copa del Rey entre el Xerez CD y el Cádiz CF, previsto para esta noche a las 21:00 en Chapín, ha sido suspendido por la RFEF a raíz del accidente de tren ocurrido en Urda (Toledo).",
+    "body": [
+      "Según los datos conocidos hasta el momento, el accidente ha causado 30 muertos y numerosos heridos.",
+      "Todavía no hay nueva fecha para el encuentro, que había despertado una enorme expectación en Jerez: Chapín iba a rozar el lleno.",
+      "El Diario Xerecista traslada su pésame a las familias de las víctimas y desea una pronta recuperación a los heridos."
     ]
   }
 }

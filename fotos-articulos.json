@@ -79,10 +79,6 @@
     "foto": "fotos/publicadas/xerez-lucena-j7-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art94": {
-    "foto": "fotos/publicadas/xerez-donbenito-j3-chapin-grada.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art95": {
     "foto": "fotos/publicadas/estadio-chapin-vista-aerea.jpg",
     "creditoFoto": "Foto: Diario Xerecista",
@@ -151,6 +147,10 @@
   },
   "art111": {
     "foto": "fotos/publicadas/cadiz-cf-disputa-balon.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art112": {
+    "foto": "fotos/publicadas/estadio-chapin-vista-aerea.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
