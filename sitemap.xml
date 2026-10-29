@@ -693,4 +693,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-gave-their-explanation-cadiz-gave-theirs-and-the-federation-decided/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-dio-su-explicacion-el-cadiz-la-suya-y-la-federacion-decidio/"/>
   </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/cronicas/2026-10/la-razon-pudo-mas-que-el-corazon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/la-razon-pudo-mas-que-el-corazon/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/cronicas/2026-10/head-over-heart/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/la-razon-pudo-mas-que-el-corazon/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/cronicas/2026-10/head-over-heart/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/la-razon-pudo-mas-que-el-corazon/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/cronicas/2026-10/head-over-heart/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/la-razon-pudo-mas-que-el-corazon/"/>
+  </url>
 </urlset>
