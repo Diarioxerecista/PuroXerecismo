@@ -79,10 +79,6 @@
     "foto": "fotos/publicadas/xerez-lucena-j7-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art97": {
-    "foto": "fotos/publicadas/xerez-lucena-j7-control-area.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art98": {
     "foto": "fotos/publicadas/Noticia_once_xerez.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -150,6 +146,10 @@
   },
   "art114": {
     "foto": "fotos/publicadas/xerez-marbella-j8-ocasion-bloch.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art115": {
+    "foto": "fotos/publicadas/xerez-donbenito-j3-remate-area.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }

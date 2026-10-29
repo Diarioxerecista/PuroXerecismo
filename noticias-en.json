@@ -724,20 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 7 · Group IV"
   },
-  "art97": {
-    "fecha": "2026-10-22",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Matchday 8",
-    "title": "Atlético Marbella never won in Jerez: the history ahead of Marbella FC's first visit",
-    "lead": "Xerez CD host Marbella FC on Sunday 25 October at 19:00 in what will be, according to the Marbella press, the first official meeting between the two clubs. The blue-and-whites did face the now-defunct Atlético Marbella three times at home in Segunda B, with two wins and a draw.",
-    "body": [
-      "Matchday eight of Group IV of the Segunda RFEF brings together two teams level in the table at Chapín: Xerez are 13th and Marbella 14th, both on 6 points.",
-      "<strong>Marbella have already won in Jerez, but not against Xerez</strong>",
-      "The current Marbella club, then called UD Marbella, already knows what it is like to win in Jerez. It did so in the 2009/10 season, when it beat Jerez Industrial 1-2 in Group IV of the Segunda División B.",
-      "<strong>Three previous meetings with Atlético Marbella</strong>",
-      "Xerez's home record against the now-defunct Club Atlético Marbella favours the blue-and-whites. In the 1984/85 season, Xerez won 1-0 in Group II of Segunda B. In 1991/92 they repeated the 1-0, by then in Group IV, and in 1996/97 the two sides drew 0-0 in the same group. In its three visits, Atlético Marbella never won in Jerez."
-    ]
-  },
   "art98": {
     "fecha": "2026-10-22",
     "categoria": "noticia",
@@ -1014,7 +1000,7 @@
       "<strong>Play now and delay the reseeding</strong>",
       "The first option would be to play the match next week, midweek. This would take advantage of the fact that Xerez CD do not play at home in the league again until 15 November, against Antoniano, although the reseeding would have to be delayed by a few days. For the squad it would mean a demanding schedule: on Sunday 1 November they visit Tamaraceite in the Canary Islands and on Sunday 8 they play away at Atlético Sanluqueño, which would make three matches in eight days.",
       "<strong>Or wait until late November</strong>",
-      "The second option is to play it on 24 or 25 November, before the draw for the second round of the Copa del Rey. In that case, the derby would fall between the trip to Atlético Central (22 November) and the home game against Linares Deportivo (29 November), with the reseeding already finished.",
+      "The second option is to play it on 24 or 25 November, before the draw for the second round of the Copa del Rey. In that case, the derby would fall between the trip to Atlético Central (22 November) and the home game against Linares Deportivo (29 November).",
       "With the new date, Cádiz CF supporters could have transport available to get home after the match.",
       "<strong>A badly worn pitch</strong>",
       "The state of the pitch was already a concern before the postponement. In the pre-match press conference, Abel Segovia admitted that the pitch \"worries me, of course it does\", after several matches in a row at Chapín."
@@ -1032,6 +1018,21 @@
       "The decision comes just one day after the postponement. The match was called off because of the crash and will be played while there are still people missing.",
       "<strong>Three days to travel to the Canary Islands</strong>",
       "The schedule is tightening for Xerez CD. After the cup derby, Segovia's side visit Tamaraceite in the Canary Islands on Sunday 1 November at 13:00, just three days later."
+    ]
+  },
+  "art115": {
+    "fecha": "2026-10-29",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinion · Analysis",
+    "title": "Xerez gave their explanation, Cádiz gave theirs and the Federation decided",
+    "lead": "I do not understand why a certain section of the Cádiz press is blaming Xerez for the match being played today.",
+    "body": [
+      "From Monday, the Chapín pitch undergoes a reseeding that lasts 24 days, and the only date available was 25 November, which is when Cádiz wanted to play. That date was unacceptable for the Federation, since the draw is on 1 December and it wants all the matches to be finished so that they do not clash with the Champions League matches.",
+      "Xerez gave their explanation, Cádiz gave theirs and the Federation decided.",
+      "Do they really want to postpone the match because of what has happened, or are there other interests behind it?"
     ]
   }
 }

@@ -724,20 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 7 · Grupo IV"
   },
-  "art97": {
-    "fecha": "2026-10-22",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Jornada 8",
-    "title": "El Atlético Marbella nunca ganó en Jerez: los precedentes antes de la primera visita del Marbella FC",
-    "lead": "El Xerez CD recibe el domingo 25 de octubre, a las 19:00 horas, al Marbella FC en lo que será, según la prensa marbellí, el primer enfrentamiento oficial entre ambos clubes. Los azulinos sí se midieron en tres ocasiones como locales al desaparecido Atlético Marbella en Segunda B, con dos victorias y un empate.",
-    "body": [
-      "La octava jornada del Grupo IV de Segunda RFEF enfrenta en Chapín a dos equipos empatados en la tabla: el Xerez es decimotercero y el Marbella, decimocuarto, ambos con 6 puntos.",
-      "<strong>El Marbella ya ganó en Jerez, pero no al Xerez</strong>",
-      "El actual club marbellí, que entonces se llamaba UD Marbella, ya sabe lo que es ganar en Jerez. Lo hizo en la temporada 2009/10, cuando se impuso por 1-2 al Jerez Industrial en el Grupo IV de Segunda División B.",
-      "<strong>Tres precedentes ante el Atlético Marbella</strong>",
-      "El historial del Xerez como local ante el desaparecido Club Atlético Marbella es favorable a los azulinos. En la temporada 1984/85, el Xerez ganó por 1-0 en el Grupo II de Segunda B. En la 1991/92 repitió el 1-0, ya en el Grupo IV, y en la 1996/97 ambos empataron a cero en ese mismo grupo. En sus tres visitas, el Atlético Marbella nunca ganó en Jerez."
-    ]
-  },
   "art98": {
     "fecha": "2026-10-22",
     "categoria": "noticia",
@@ -1014,7 +1000,7 @@
       "<strong>Jugar ya y retrasar la resiembra</strong>",
       "La primera opción sería disputar el partido la semana que viene, entre semana. Así se aprovecharía que el Xerez CD no vuelve a jugar como local en Liga hasta el 15 de noviembre, ante el Antoniano, aunque habría que retrasar unos días la resiembra. Para la plantilla supondría un calendario exigente: el domingo 1 de noviembre visita al Tamaraceite en Canarias y el domingo 8 juega en el campo del Atlético Sanluqueño, así que serían tres partidos en ocho días.",
       "<strong>O esperar a finales de noviembre</strong>",
-      "La segunda opción es jugarlo el 24 o el 25 de noviembre, antes del sorteo de la segunda ronda de la Copa del Rey. En ese caso, el derbi caería entre la visita al Atlético Central (22 de noviembre) y la recepción al Linares Deportivo (29 de noviembre), con la resiembra ya terminada.",
+      "La segunda opción es jugarlo el 24 o el 25 de noviembre, antes del sorteo de la segunda ronda de la Copa del Rey. En ese caso, el derbi caería entre la visita al Atlético Central (22 de noviembre) y la recepción al Linares Deportivo (29 de noviembre).",
       "Con la nueva fecha, los aficionados del Cádiz CF sí podrían disponer de medios de transporte para volver a casa tras el partido.",
       "<strong>Un césped muy castigado</strong>",
       "El estado del terreno de juego ya preocupaba antes del aplazamiento. En la previa del partido, Abel Segovia reconoció que el campo \"me preocupa, claro que sí\", después de varios partidos seguidos en Chapín."
@@ -1032,6 +1018,21 @@
       "La decisión llega apenas un día después del aplazamiento. El partido se suspendió por el accidente y se jugará cuando todavía hay desaparecidos.",
       "<strong>Tres días para viajar a Canarias</strong>",
       "El calendario se aprieta para el Xerez CD. Tras el derbi copero, el equipo de Segovia visita el domingo 1 de noviembre a las 13:00 al Tamaraceite, en Canarias, apenas tres días después."
+    ]
+  },
+  "art115": {
+    "fecha": "2026-10-29",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinión · Análisis",
+    "title": "El Xerez dio su explicación, el Cádiz la suya y la Federación decidió",
+    "lead": "No entiendo que desde cierto sector del periodismo gaditano se le eche la culpa al Xerez de jugar el partido en el día de hoy.",
+    "body": [
+      "A partir del lunes, el campo de Chapín sufre una resiembra que dura 24 días, y la única fecha que había disponible era el 25 de noviembre, que es cuando quería jugar el Cádiz. Era una fecha inasumible para la Federación, ya que el sorteo es el día 1 de diciembre y quiere que todos los partidos estén terminados para que no coincidan con los partidos de la Champions.",
+      "El Xerez dio su explicación, el Cádiz dio la suya y la Federación decidió.",
+      "¿De verdad se quiere aplazar el partido por lo que ha pasado o hay otros intereses detrás?"
     ]
   }
 }
