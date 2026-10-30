@@ -556,6 +556,14 @@
   @media (max-width:560px){
     .ad-banner-top{height:52px;}
   }
+  /* Xerez TV: último vídeo o directo del canal oficial (lista de subidas de YouTube) */
+  .tv-box{margin-top:18px;}
+  .tv-box-head{display:flex;align-items:center;gap:8px;font-family:'Space Mono',monospace;font-size:11px;font-weight:700;color:var(--azul-medio);text-transform:uppercase;letter-spacing:0.12em;margin-bottom:8px;}
+  .tv-box-head svg{width:20px;height:14px;flex:none;}
+  .tv-box-frame{position:relative;aspect-ratio:16/9;background:#000;border-radius:3px;overflow:hidden;}
+  .tv-box-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  .tv-box-link{display:inline-block;margin-top:8px;font-size:13px;color:var(--azul-medio);font-weight:600;text-decoration:none;}
+  .tv-box-link:hover{text-decoration:underline;}
 
   /* ===== Banner de cookies ===== */
   .cookie-banner{
@@ -838,6 +846,7 @@
     /* Side-list: 2 columnas compactas bajo el hero */
     .side-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
     .ad-banner-side{grid-column:1/-1;height:90px;}
+    .tv-box{grid-column:1/-1;}
     /* Ocultar miniaturas y resetear grid en items */
     .side-item-foto{display:block;}
     .side-thumb{display:none;}
@@ -2324,6 +2333,11 @@
           <img src="fotos/publicidad/lugo-distribuciones-carnicas-trim.png" alt="Distribuciones Cárnicas Garrido Lugo" onerror="this.style.display='none';var s=this.parentNode.querySelector('.ad-fallback');if(s){s.style.display='flex';}" style="width:100%;height:100%;object-fit:contain;">
           <span class="ad-fallback" style="display:none;width:100%;height:100%;box-sizing:border-box;align-items:center;justify-content:center;text-align:center;font-family:'Space Mono',monospace;font-size:11px;line-height:1.25;color:var(--tinta-suave);">Distribuciones Cárnicas<br>Garrido Lugo<br>608 394 823</span>
         </a>
+        <div class="tv-box">
+          <div class="tv-box-head"><svg viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" rx="3" fill="#FF0000"/><path d="M8 4l5 3-5 3z" fill="#fff"/></svg>Xerez TV</div>
+          <div class="tv-box-frame"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=UU9VoHXdJS772qYHpRNvYGSQ" title="Xerez TV" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <a class="tv-box-link" href="https://www.youtube.com/@XerezCD_OFICIAL" target="_blank" rel="noopener">${t('tvCanal')}</a>
+        </div>
       </div>
     `;
     document.getElementById('heroGrid').innerHTML = heroHtml;
@@ -2475,7 +2489,7 @@
       errorCarga: 'No se han podido cargar las noticias. Comprueba que el archivo noticias-es.json existe junto a index.html.',
       plantilla: 'Plantilla', plantillaTitulo: 'Plantilla 2026/27',
       cardJornada: 'J', cardAmistoso: 'Amistoso', cardCopa: 'Copa',
-      publiEspacio: 'Espacio publicitario \u00b7 Pon tu publicidad aqu\u00ed', publiContacta: 'Contacta \u2192',
+      publiEspacio: 'Espacio publicitario \u00b7 Pon tu publicidad aqu\u00ed', publiContacta: 'Contacta \u2192', tvCanal: 'Ver el canal en YouTube \u2192',
       goleadoresTitulo: 'Goleadores \u00b7 Liga', golSing: 'gol', golPlur: 'goles',
       goleadoresPie: function(g, j){ return g+' '+(g===1?'gol':'goles')+' del Xerez CD en '+j+' '+(j===1?'jornada':'jornadas'); },
       tagNoticias: 'Fichajes · Club · Temporada', tagCronicas: 'Temporada 2026/27', tagCalendario: 'Grupo IV · Segunda Federación 2026/27',
@@ -2512,7 +2526,7 @@
       errorCarga: 'Could not load the news. Check that noticias-en.json exists next to index.html.',
       plantilla: 'Squad', plantillaTitulo: 'Squad 2026/27',
       cardJornada: 'MD', cardAmistoso: 'Friendly', cardCopa: 'Cup',
-      publiEspacio: 'Advertising space \u00b7 Advertise here', publiContacta: 'Contact us \u2192',
+      publiEspacio: 'Advertising space \u00b7 Advertise here', publiContacta: 'Contact us \u2192', tvCanal: 'Watch the channel on YouTube \u2192',
       goleadoresTitulo: 'Top scorers \u00b7 League', golSing: 'goal', golPlur: 'goals',
       goleadoresPie: function(g, j){ return g+' Xerez CD '+(g===1?'goal':'goals')+' in '+j+' '+(j===1?'matchday':'matchdays'); },
       tagNoticias: 'Signings · Club · Season', tagCronicas: '2026/27 season', tagCalendario: 'Group IV · Segunda Federación 2026/27',
