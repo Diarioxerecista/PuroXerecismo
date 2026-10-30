@@ -724,20 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 7 · Grupo IV"
   },
-  "art98": {
-    "fecha": "2026-10-22",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
-    "title": "El Cádiz pide a la Federación adelantar a las 20:00 el derbi de Copa en Chapín",
-    "lead": "El Cádiz CF ha pedido a la Federación adelantar a las 20:00 el partido de Copa del Rey ante el Xerez CD en Chapín, previsto para el miércoles 28 de octubre a las 21:00, para facilitar un desplazamiento masivo de su afición.",
-    "body": [
-      "En primera instancia, el club cadista pidió al Xerez CD cambiar la hora del partido, pero la entidad azulina se negó. Ante esa negativa, el Cádiz ha acudido a la Real Federación Española de Fútbol (RFEF).",
-      "De momento es solo una petición. El horario oficial sigue siendo las 21:00 mientras la Federación no responda.",
-      "<strong>La afición xerecista, pendiente</strong>",
-      "Queda por ver cómo sentaría el cambio a la afición xerecista. Hay seguidores con la entrada ya sacada que salen de trabajar a esa hora y podrían tener problemas para llegar a tiempo al estadio.",
-      "El encuentro ya estaba rodeado de expectación: está declarado de alto riesgo y el Ayuntamiento retirará la estructura de lanzamiento de disco de Chapín para el partido."
-    ]
-  },
   "art99": {
     "fecha": "2026-10-23",
     "categoria": "noticia",
@@ -1080,5 +1066,22 @@
     "arbitro": "José Antonio Sánchez Villalobos",
     "estadio": "Chapín",
     "jornadaLabel": "Copa del Rey · Primera eliminatoria"
+  },
+  "art117": {
+    "fecha": "2026-10-30",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinión · Análisis",
+    "title": "Una afición que ha madurado desde el barro",
+    "lead": "Los aficionados del Xerez demostraron ante el Cádiz que son una afición ejemplar, forjada en años de sufrimiento.",
+    "body": [
+      "Ayer los verdaderos aficionados de Jerez demostraron que son una afición ejemplar. Después de años de sufrimientos, de incertidumbre, demostró estar a la altura de una afición de Primera División.",
+      "Lo primero, no hubo incidentes, y eso hace ver que la afición del Xerez ha madurado: que dentro del campo se dice de todo, sí, pero que cuando sale cada uno se pueda ir a su casa. Ayer había muchos niños con caras de expectación, porque nunca habían vivido algo así.",
+      "<strong>De Los Cortijillos a un Chapín lleno</strong>",
+      "Esa madurez no ha llegado sola. Se ha ganado en campos como Los Cortijillos o La Bazán, lejos de los grandes estadios, en tardes en las que el xerecista viajaba por su equipo sin pedir nada a cambio. Esos campos hacen madurar a una afición y le enseñan a valorar todavía más a su equipo. Quien ha estado allí sabe lo que vale una noche como la de ayer.",
+      "Ahora, el próximo gran desplazamiento que recibiremos será el de la gente del Recre, que vendrán más, y volveremos a ser una afición señora. Y espero que con un estadio igual de lleno que ayer."
+    ]
   }
 }

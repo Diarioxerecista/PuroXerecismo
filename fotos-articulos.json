@@ -79,10 +79,6 @@
     "foto": "fotos/publicadas/xerez-lucena-j7-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art98": {
-    "foto": "fotos/publicadas/Noticia_once_xerez.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art99": {
     "foto": "fotos/publicadas/video-pp-sudadera-xerez.jpg",
     "creditoFoto": "Imagen: vídeo del Partido Popular en X",
@@ -154,6 +150,10 @@
   },
   "art116": {
     "foto": "fotos/publicadas/xerez-cadiz-copa-mesa-celebra.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art117": {
+    "foto": "fotos/publicadas/xerez-cadiz-copa-aficion-chapin-llena.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }

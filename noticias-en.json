@@ -724,20 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 7 · Group IV"
   },
-  "art98": {
-    "fecha": "2026-10-22",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
-    "title": "Cádiz ask the Federation to bring forward the Copa derby at Chapín to 20:00",
-    "lead": "Cádiz CF have asked the Federation to bring forward the Copa del Rey tie against Xerez CD at Chapín to 20:00. The match is currently scheduled for Wednesday 28 October at 21:00, and the change would make it easier for their fans to travel en masse.",
-    "body": [
-      "Cádiz first asked Xerez CD to change the kick-off time, but the blue-and-whites refused. Following that refusal, Cádiz have turned to the Royal Spanish Football Federation (RFEF).",
-      "For now it is only a request. The official kick-off remains 21:00 until the Federation responds.",
-      "<strong>Xerez fans wait to see what happens</strong>",
-      "It remains to be seen how Xerez fans would take the change. Some supporters who already have their tickets finish work around that time and could struggle to reach the stadium on time.",
-      "The match was already drawing attention: it has been declared high-risk and the City Council will remove the discus-throwing structure at Chapín for the game."
-    ]
-  },
   "art99": {
     "fecha": "2026-10-23",
     "categoria": "noticia",
@@ -1080,5 +1066,22 @@
     "arbitro": "José Antonio Sánchez Villalobos",
     "estadio": "Chapín",
     "jornadaLabel": "Copa del Rey · First round"
+  },
+  "art117": {
+    "fecha": "2026-10-30",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinion · Analysis",
+    "title": "A fanbase that has grown up from the mud",
+    "lead": "Xerez supporters showed against Cádiz that they are an exemplary fanbase, forged through years of suffering.",
+    "body": [
+      "Yesterday the true supporters of Jerez showed that they are an exemplary fanbase. After years of suffering and uncertainty, it proved itself worthy of a Primera División fanbase.",
+      "First of all, there were no incidents, and that shows that the Xerez fanbase has matured: inside the ground everything gets said, yes, but when it is over everyone can go home. Yesterday there were lots of children with expectant faces, because they had never experienced anything like it.",
+      "<strong>From Los Cortijillos to a full Chapín</strong>",
+      "That maturity did not come on its own. It was earned at grounds like Los Cortijillos or La Bazán, far from the big stadiums, on afternoons when Xerez fans travelled for their team without asking for anything in return. Grounds like those make a fanbase grow up and teach it to value its team even more. Anyone who was there knows what a night like yesterday is worth.",
+      "Now, the next big away following we will welcome will be the Recre fans, who will come in greater numbers, and we will once again be a fanbase with class. And I hope it will be with a stadium as full as yesterday."
+    ]
   }
 }
