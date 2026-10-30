@@ -553,8 +553,16 @@
     color:var(--tinta-suave);
     opacity:0.5;
   }
+  .ad-banner-top .ad-slots{min-width:0;}
   @media (max-width:560px){
     .ad-banner-top{height:52px;}
+    .ad-banner-top .ad-slots{gap:8px;}
+    .ad-slot-small{flex:0 1 120px;min-width:0;}
+    .ad-slot-small{overflow:hidden;}
+    .ad-slot-small span{font-size:7px;text-align:center;line-height:1.2;padding:0 2px;letter-spacing:0;}
+  }
+  @media (max-width:400px){
+    .ad-banner-top .ad-label{display:none;}
   }
   /* Xerez TV: último vídeo o directo del canal oficial (lista de subidas de YouTube) */
   .tv-box{margin-top:18px;}
@@ -1058,7 +1066,7 @@
   #entradaSplash .ent-foto{
     position:absolute;
     inset:-3%;
-    background:url('fotos/chapin.png') center 78%/cover no-repeat;
+    background:url('fotos/chapin.jpg') center 78%/cover no-repeat;
     filter:grayscale(1) contrast(1.15) brightness(0.85);
     animation:entKenburns 24s ease-in-out infinite alternate;
   }
@@ -2219,7 +2227,7 @@
     const cats = Array.isArray(a.categoria) ? a.categoria : [a.categoria];
     const franja = (cats.indexOf('cronica') !== -1 && a.score) ? franjaMarcador(a) : '';
     if(a.foto){
-      imgHtml = `<img src="${escAttr(a.foto)}" alt="${escAttr(a.title)}" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:${escAttr(a.objectPosition||'top center')};">${franja}` ;
+      imgHtml = `<img src="${escAttr(a.foto)}" alt="${escAttr(a.title)}" loading="lazy" decoding="async" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:${escAttr(a.objectPosition||'top center')};">${franja}` ;
     } else if(a.score){
       imgHtml = franja
         ? `<div class="stripe"></div>${franja}`
@@ -2277,7 +2285,7 @@
     const sideItems = resto.slice(0,4).map(id => {
       const art = articles[id];
       const thumbHtml = art.foto
-        ? `<div class="side-thumb" style="width:88px;height:68px;border-radius:8px;overflow:hidden;flex-shrink:0;"><img src="${escAttr(art.foto)}" alt="${escAttr(art.title)}" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:${escAttr(art.objectPosition||'top center')};"></div>`
+        ? `<div class="side-thumb" style="width:88px;height:68px;border-radius:8px;overflow:hidden;flex-shrink:0;"><img src="${escAttr(art.foto)}" alt="${escAttr(art.title)}" loading="lazy" decoding="async" onerror="${ONERROR_FOTO}" style="width:100%;height:100%;object-fit:cover;object-position:${escAttr(art.objectPosition||'top center')};"></div>`
         : '';
       return `
       <div class="side-item${art.foto ? ' side-item-foto' : ''}" onclick="openArticle('${id}')">
