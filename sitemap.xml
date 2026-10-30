@@ -370,24 +370,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/el-lucena-sale-colider-de-chapin-ante-un-gran-xerez/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-escudo-del-xerez-cd-se-cuela-en-un-video-del-pp-contra-el-psoe/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-23</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-escudo-del-xerez-cd-se-cuela-en-un-video-del-pp-contra-el-psoe/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/the-xerez-cd-crest-slips-into-a-pp-video-against-the-psoe/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-escudo-del-xerez-cd-se-cuela-en-un-video-del-pp-contra-el-psoe/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/the-xerez-cd-crest-slips-into-a-pp-video-against-the-psoe/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-23</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-escudo-del-xerez-cd-se-cuela-en-un-video-del-pp-contra-el-psoe/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/the-xerez-cd-crest-slips-into-a-pp-video-against-the-psoe/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-escudo-del-xerez-cd-se-cuela-en-un-video-del-pp-contra-el-psoe/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/asi-llega-el-marbella-a-chapin-tres-centrales-pocos-goles-y-una-plantilla-todavia-por-hacer/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -710,5 +692,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/una-aficion-que-ha-madurado-desde-el-barro/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/a-fanbase-that-has-grown-up-from-the-mud/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/una-aficion-que-ha-madurado-desde-el-barro/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-abocado-al-cierre-parcial-de-chapin-y-a-una-multa-de-3000-euros-por-el-lanzamiento-de-objetos/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-abocado-al-cierre-parcial-de-chapin-y-a-una-multa-de-3000-euros-por-el-lanzamiento-de-objetos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-facing-partial-closure-of-chapin-and-a-3000-euro-fine-for-throwing-objects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-abocado-al-cierre-parcial-de-chapin-y-a-una-multa-de-3000-euros-por-el-lanzamiento-de-objetos/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-facing-partial-closure-of-chapin-and-a-3000-euro-fine-for-throwing-objects/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-abocado-al-cierre-parcial-de-chapin-y-a-una-multa-de-3000-euros-por-el-lanzamiento-de-objetos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-facing-partial-closure-of-chapin-and-a-3000-euro-fine-for-throwing-objects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-abocado-al-cierre-parcial-de-chapin-y-a-una-multa-de-3000-euros-por-el-lanzamiento-de-objetos/"/>
   </url>
 </urlset>

@@ -79,11 +79,6 @@
     "foto": "fotos/publicadas/xerez-lucena-j7-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art99": {
-    "foto": "fotos/publicadas/video-pp-sudadera-xerez.jpg",
-    "creditoFoto": "Imagen: vídeo del Partido Popular en X",
-    "objectPosition": "center 40%"
-  },
   "art100": {
     "foto": "fotos/publicadas/marbella-fc-balon-aereo.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -154,6 +149,10 @@
   },
   "art117": {
     "foto": "fotos/publicadas/xerez-cadiz-copa-aficion-chapin-llena.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art118": {
+    "foto": "fotos/publicadas/xerez-donbenito-j3-chapin-grada.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }

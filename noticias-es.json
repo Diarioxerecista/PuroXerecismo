@@ -724,19 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 7 · Grupo IV"
   },
-  "art99": {
-    "fecha": "2026-10-23",
-    "categoria": "noticia",
-    "eyebrow": "Xerez CD · Actualidad",
-    "title": "El escudo del Xerez CD se cuela en un vídeo del PP contra el PSOE",
-    "lead": "El Partido Popular ha publicado en su cuenta oficial de X un vídeo dirigido a Pedro Sánchez en el que el protagonista viste una sudadera con el escudo del Xerez CD.",
-    "body": [
-      "El vídeo dura un minuto y 29 segundos y se publicó con el mensaje «Esperamos que no se te revuelva la pizza, Pedro», junto a una mención a la cuenta de Sánchez. Empieza con una imagen del cartel de una sede del PSOE. A la hora de escribir esta información, superaba las 290.000 reproducciones.",
-      "<strong>El escudo, en primer plano</strong>",
-      "En varias imágenes aparece el joven que protagoniza la pieza caminando por la calle con un casco de moto bajo el brazo. Lleva una sudadera azul marino de la marca Luanvi con el escudo del Xerez CD en el pecho.",
-      "Diario Xerecista no tiene constancia de que el club haya autorizado el uso de su escudo en el vídeo ni de que se haya pronunciado al respecto."
-    ]
-  },
   "art100": {
     "fecha": "2026-10-23",
     "categoria": "noticia",
@@ -1082,6 +1069,20 @@
       "<strong>De Los Cortijillos a un Chapín lleno</strong>",
       "Esa madurez no ha llegado sola. Se ha ganado en campos como Los Cortijillos o La Bazán, lejos de los grandes estadios, en tardes en las que el xerecista viajaba por su equipo sin pedir nada a cambio. Esos campos hacen madurar a una afición y le enseñan a valorar todavía más a su equipo. Quien ha estado allí sabe lo que vale una noche como la de ayer.",
       "Ahora, el próximo gran desplazamiento que recibiremos será el de la gente del Recre, que vendrán más, y volveremos a ser una afición señora. Y espero que con un estadio igual de lleno que ayer."
+    ]
+  },
+  "art118": {
+    "fecha": "2026-10-30",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Disciplina",
+    "title": "El Xerez, abocado al cierre parcial de Chapín y a una multa de 3.000 euros por el lanzamiento de objetos",
+    "lead": "El club será sancionado previsiblemente por reincidir en el lanzamiento de objetos al terreno de juego, después de lo ocurrido en el derbi de Copa ante el Cádiz CF.",
+    "body": [
+      "El Xerez CD será sancionado, previsiblemente, con el cierre parcial de su estadio y una multa de 3.000 euros por reincidencia en el lanzamiento de objetos.",
+      "La sanción llega tras el derbi de la primera eliminatoria de la Copa del Rey ante el Cádiz CF, jugado el jueves en Chapín (1-3). En el minuto 59, después del 1-2 de García Pascual, el árbitro detuvo el partido por el lanzamiento de objetos desde la curva del Fondo Sur.",
+      "<strong>Reincidencia</strong>",
+      "No es la primera vez esta temporada. Ya ocurrió en el partido de liga ante el Ciudad de Lucena, el 18 de octubre en Chapín, y esa condición de reincidente es la que agrava el castigo, que pasa de la multa al cierre parcial del recinto.",
+      "Queda por conocer qué zona del estadio se verá afectada y en qué partido se cumplirá la sanción. El próximo encuentro del Xerez en Chapín es ante el Antoniano, el 15 de noviembre."
     ]
   }
 }
