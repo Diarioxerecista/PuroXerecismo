@@ -196,7 +196,8 @@ jobs:
           PYEOF
 
       - name: Publicar el resultado final en X
-        if: always()
+        # Desactivado el 30/10/2026 a petición del usuario (X pide créditos de pago). Para reactivarlo: if: always()
+        if: false
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
