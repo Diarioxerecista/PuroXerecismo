@@ -73,6 +73,7 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 "art85": { "foto": "fotos/publicadas/Noticia_zelu.jpg", "creditoFoto": "Foto: Diario Xerecista" }
 ```
 - Fotos en `fotos/publicadas/`. Si piden "una foto cualquiera / de partidos anteriores", elegir una que no use ningún otro artículo y que encaje con el tema.
+- Peso: antes de publicar una foto nueva, dejarla en JPEG de calidad 82, progresivo, con 1400 px de ancho como máximo (las de 1000 px pasan de ~800 KB a ~200 KB sin diferencia visible).
 - Crédito siempre "Foto: Diario Xerecista" (EN: "Photo: Diario Xerecista").
 - Encuadre: las tarjetas, el destacado y las miniaturas recortan la foto por arriba (`top center`). Si lo importante queda cortado (p. ej. una foto vertical), añadir `"objectPosition": "center 50%"` (u otro valor CSS) en su entrada de fotos-articulos.json.
 
