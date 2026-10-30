@@ -7,7 +7,7 @@
   <array>
     <string>/usr/bin/python3</string>
     <string>-I</string>
-    <string>/Users/xerezcd/Documents/GitHub/PuroXerecismo/Github/scripts/despertar_directo.py</string>
+    <string>/Users/xerezcd/Library/Application Support/DiarioXerecista/despertar_directo.py</string>
   </array>
   <key>StartInterval</key><integer>900</integer>
   <key>RunAtLoad</key><true/>
