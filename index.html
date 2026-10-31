@@ -2815,7 +2815,8 @@
       : (slug && slug !== id
         ? 'https://www.diarioxerecista.es/noticias/'+slug+'/'
         : 'https://www.diarioxerecista.es/?n='+id);
-    const shareUrl = 'https://x.com/intent/tweet?text='+encodeURIComponent(a.title+'\n\n'+urlArticulo+'\n\n#XerezCD');
+    // "v" en el JSON: versión de la vista previa en X tras cambiar titular o imagen (X guarda la tarjeta antigua)
+    const shareUrl = 'https://x.com/intent/tweet?text='+encodeURIComponent(a.title+'\n\n'+urlArticulo+(a.v ? '?v='+a.v : '')+'\n\n#XerezCD');
     const compartirTexto = idiomaActual === 'es' ? 'Compartir en 𝕏' : 'Share on 𝕏';
     c.innerHTML = `
       <span class="back-link" onclick="closeArticle()">${t('volver')}</span>
