@@ -724,23 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 7 · Grupo IV"
   },
-  "art100": {
-    "fecha": "2026-10-23",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Jornada 8",
-    "title": "Así llega el Marbella a Chapín: tres centrales, pocos goles y una plantilla todavía por hacer",
-    "lead": "El Marbella FC de Antonio Calderón visita Chapín el domingo 25 de octubre, a las 19:00, como 14.º clasificado con 6 puntos, los mismos que el Xerez CD. El equipo marbellí, recién descendido de Primera Federación, ha marcado solo seis goles en siete jornadas, y la prensa local señala la falta de gol como su gran problema.",
-    "body": [
-      "<strong>Defensa de tres centrales</strong>",
-      "Calderón llegó al banquillo del Marbella en julio y ha apostado por una defensa de tres centrales. En rueda de prensa explicó que es el planteamiento que mejor se adapta a su plantilla y que lo mantendrá, aunque no descarta variarlo. Ante el Betis Deportivo formó con cinco defensas, cuatro centrocampistas y un solo punta.",
-      "El técnico también ha destacado el cambio de sistema que introdujo ante el Atlético Central, que, según él, dio solidez al equipo: \"con esta solidez, al equipo le damos seguridad\". Su idea es presionar sin balón para robar y hacer daño al rival.",
-      "<strong>Sin gol y con una plantilla nueva</strong>",
-      "El Marbella suma seis goles a favor y nueve en contra. En su último partido empató sin goles ante el Estepona, y la prensa marbellí describió la falta de acierto como \"su gran problema de esta campaña\". Antes había perdido 1-0 en Badajoz, de penalti, y 0-2 ante el Betis Deportivo, con diez jugadores toda la segunda parte por la expulsión de Cristóbal.",
-      "La plantilla se ha rehecho casi entera tras el descenso, y el propio Calderón ha reconocido que los jugadores todavía se están conociendo. También ha reclamado un vestuario en el estadio Luis Teruel, porque el grupo solo coincide en los entrenamientos.",
-      "<strong>Un duelo entre vecinos de tabla</strong>",
-      "Xerez y Marbella llegan empatados a 6 puntos; los azulinos son 13.º y los marbellíes, 14.º, solo por la diferencia de goles. El Atlético Marbella nunca ganó en Jerez en sus tres visitas en Segunda B."
-    ]
-  },
   "art101": {
     "fecha": "2026-10-23",
     "categoria": "noticia",
@@ -1083,6 +1066,26 @@
       "<strong>Reincidencia</strong>",
       "No es la primera vez esta temporada. En el partido de liga ante el Ciudad de Lucena, el 18 de octubre en Chapín, el club ya recibió un apercibimiento de cierre parcial y una multa de 600 euros, y ante el Cádiz ha vuelto a ocurrir lo mismo. Esa condición de reincidente es la que agrava el castigo, que pasa de la multa al cierre parcial del recinto.",
       "Queda por conocer qué zona del estadio se verá afectada y en qué partido se cumplirá la sanción. El próximo encuentro del Xerez en Chapín es ante el Antoniano, el 15 de noviembre."
+    ]
+  },
+  "art119": {
+    "fecha": "2026-10-31",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Xerez CD · Análisis",
+    "title": "Al Xerez le falta gol: 5 tantos en ocho jornadas, su peor arranque de las últimas temporadas",
+    "lead": "El Xerez CD ha marcado solo 5 goles en las ocho primeras jornadas de liga, ni siquiera uno por partido. Es la cifra más baja de las últimas cuatro temporadas a estas alturas y la segunda peor del grupo. La falta de acierto arriba explica que el equipo sume 9 puntos, por debajo de los cursos anteriores.",
+    "body": [
+      "<strong>Tres goles menos que en los últimos años</strong>",
+      "En las tres temporadas anteriores, el Xerez llegaba a la octava jornada con 8 goles a favor. Fue así hace dos temporadas, con Checa, y también la pasada, con Galiano. Ocurrió incluso en el año del ascenso, la temporada 2023/24 en Tercera Federación. Este curso lleva tres menos.",
+      "En toda la Segunda RFEF, Grupo IV, solo Las Palmas Atlético, con 4, ha marcado menos que el Xerez.",
+      "<strong>La defensa ya no compensa</strong>",
+      "La falta de gol no es nueva en el Xerez, pero en los últimos años la tapaba una buena defensa. En el año del ascenso, el equipo no encajó ningún gol en las ocho primeras jornadas y sumó 20 puntos. Con Checa llevaba 6 en contra y 13 puntos. Con Galiano, 5 en contra y 14 puntos.",
+      "Este año el Xerez ha encajado 6 goles, los mismos que el equipo de Checa. La diferencia está arriba: tres goles menos se traducen en cuatro puntos menos.",
+      "<strong>El reto de Segovia</strong>",
+      "El propio Abel Segovia ha reconocido que a su equipo le falta finalizar las ocasiones que genera. Convertir esas llegadas en goles es el siguiente paso para que el Xerez empiece a mirar hacia arriba en la clasificación."
     ]
   }
 }

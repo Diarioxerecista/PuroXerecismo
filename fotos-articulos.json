@@ -79,10 +79,6 @@
     "foto": "fotos/publicadas/xerez-lucena-j7-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art100": {
-    "foto": "fotos/publicadas/marbella-fc-balon-aereo.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art101": {
     "foto": "fotos/publicadas/abel-segovia-rueda-prensa-marbella.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -153,6 +149,10 @@
   },
   "art118": {
     "foto": "fotos/publicadas/xerez-donbenito-j3-chapin-grada.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art119": {
+    "foto": "fotos/publicadas/xerez-lucena-j7-larguero.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }

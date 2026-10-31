@@ -724,23 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 7 · Group IV"
   },
-  "art100": {
-    "fecha": "2026-10-23",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Matchday 8",
-    "title": "How Marbella arrive at Chapín: a back three, few goals and a squad still taking shape",
-    "lead": "Antonio Calderón's Marbella FC visit Chapín on Sunday 25 October at 19:00 sitting 14th with 6 points, the same as Xerez CD. The Marbella side, just relegated from Primera Federación, have scored only six goals in seven matchdays, and the local press points to their lack of goals as their biggest problem.",
-    "body": [
-      "<strong>A back three</strong>",
-      "Calderón took over at Marbella in July and has opted for a three-man central defence. At a press conference he explained that it is the approach that best suits his squad and that he will stick with it, although he does not rule out changing it. Against Betis Deportivo he lined up with five defenders, four midfielders and a lone striker.",
-      "The coach has also highlighted the change of system he introduced against Atlético Central, which, in his view, gave the team solidity: \"with this solidity, we give the team security\". His idea is to press without the ball in order to win it back and hurt the opponent.",
-      "<strong>No goals and a new squad</strong>",
-      "Marbella have scored six goals and conceded nine. In their last match they drew 0-0 with Estepona, and the Marbella press described the lack of finishing as \"their big problem this season\". Before that they had lost 1-0 at Badajoz, to a penalty, and 0-2 to Betis Deportivo, playing the whole second half with ten men after Cristóbal was sent off.",
-      "The squad has been almost completely rebuilt after relegation, and Calderón himself has acknowledged that the players are still getting to know each other. He has also called for a dressing room at the Luis Teruel stadium, because the group only comes together at training.",
-      "<strong>A clash between table neighbours</strong>",
-      "Xerez and Marbella are level on 6 points; the blue-and-whites are 13th and Marbella 14th, separated only by goal difference. Atlético Marbella never won in Jerez in their three visits in Segunda B."
-    ]
-  },
   "art101": {
     "fecha": "2026-10-23",
     "categoria": "noticia",
@@ -1083,6 +1066,26 @@
       "<strong>Repeat offence</strong>",
       "It is not the first time this season. In the league match against Ciudad de Lucena, on 18 October at Chapín, the club had already received a warning of partial closure and a 600-euro fine, and against Cádiz the same thing happened again. Being a repeat offender is what makes the punishment harsher, going from a fine to the partial closure of the ground.",
       "It remains to be seen which area of the stadium will be affected and in which match the sanction will be served. Xerez's next game at Chapín is against Antoniano on 15 November."
+    ]
+  },
+  "art119": {
+    "fecha": "2026-10-31",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Xerez CD · Analysis",
+    "title": "Xerez lack goals: 5 in eight matchdays, their worst start in recent seasons",
+    "lead": "Xerez CD have scored only 5 goals in the first eight league matchdays, not even one per game. It is the lowest figure of the last four seasons at this stage and the second worst in the group. The lack of finishing up front explains why the team have 9 points, below previous campaigns.",
+    "body": [
+      "<strong>Three goals fewer than in recent years</strong>",
+      "In the three previous seasons, Xerez reached the eighth matchday with 8 goals scored. That was the case two seasons ago, under Checa, and also last season, under Galiano. It even happened in the promotion year, the 2023/24 season in Tercera Federación. This campaign they have three fewer.",
+      "In the whole of Segunda RFEF, Group IV, only Las Palmas Atlético, with 4, have scored fewer than Xerez.",
+      "<strong>The defence no longer makes up for it</strong>",
+      "The lack of goals is nothing new at Xerez, but in recent years a good defence covered it up. In the promotion year, the team did not concede a single goal in the first eight matchdays and collected 20 points. Under Checa they had conceded 6 and had 13 points. Under Galiano, 5 conceded and 14 points.",
+      "This year Xerez have conceded 6 goals, the same as Checa's side. The difference is up front: three goals fewer have translated into four points fewer.",
+      "<strong>Segovia's challenge</strong>",
+      "Abel Segovia himself has acknowledged that his team need to finish the chances they create. Turning those attacks into goals is the next step for Xerez to start looking up the table."
     ]
   }
 }
