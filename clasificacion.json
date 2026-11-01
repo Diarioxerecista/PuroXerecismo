@@ -14,10 +14,18 @@
     {
       "nombre": "Ciudad de Lucena",
       "escudo": "fotos/escudos/ciudad-lucena.png",
-      "pj": 8,
-      "pts": 15,
-      "gf": 14,
-      "gc": 8
+      "pj": 9,
+      "pts": 18,
+      "gf": 16,
+      "gc": 9
+    },
+    {
+      "nombre": "Badajoz",
+      "escudo": "fotos/escudos/badajoz.png",
+      "pj": 9,
+      "pts": 16,
+      "gf": 9,
+      "gc": 6
     },
     {
       "nombre": "Betis B",
@@ -26,14 +34,6 @@
       "pts": 15,
       "gf": 12,
       "gc": 7
-    },
-    {
-      "nombre": "Badajoz",
-      "escudo": "fotos/escudos/badajoz.png",
-      "pj": 8,
-      "pts": 15,
-      "gf": 8,
-      "gc": 5
     },
     {
       "nombre": "Mijas Las Lagunas",
@@ -60,6 +60,14 @@
       "gc": 13
     },
     {
+      "nombre": "Linares Deportivo",
+      "escudo": "fotos/escudos/linares.png",
+      "pj": 9,
+      "pts": 13,
+      "gf": 10,
+      "gc": 10
+    },
+    {
       "nombre": "Salerm Puente Genil",
       "escudo": "fotos/escudos/puente-genil.png",
       "pj": 9,
@@ -74,14 +82,6 @@
       "pts": 12,
       "gf": 8,
       "gc": 7
-    },
-    {
-      "nombre": "Linares Deportivo",
-      "escudo": "fotos/escudos/linares.png",
-      "pj": 8,
-      "pts": 12,
-      "gf": 9,
-      "gc": 9
     },
     {
       "nombre": "Estepona",
@@ -102,10 +102,10 @@
     {
       "nombre": "Atlético Sanluqueño",
       "escudo": "fotos/escudos/sanluqueno.png",
-      "pj": 8,
+      "pj": 9,
       "pts": 10,
-      "gf": 14,
-      "gc": 12
+      "gf": 15,
+      "gc": 14
     },
     {
       "nombre": "Tenerife B",
@@ -147,10 +147,6 @@
       "gf": 4,
       "gc": 16
     }
-  ],
-  "pendientes": [
-    "Badajoz - Linares Deportivo",
-    "Ciudad de Lucena - Atlético Sanluqueño"
   ],
   "aplazados": [
     "Tenerife B - Don Benito"
