@@ -2155,17 +2155,18 @@
       +'</div>';
   }
   // Goleadores del directo: [{equipo:'local'|'visitante', jugador, minuto, tipo:'pen'|'pp'|''}]
+  // Mismo aspecto que los goleadores de la tarjeta de partido terminado ("Nombre 24'")
   function golesDirecto(goles){
     if(!goles || !goles.length) return '';
-    function col(lado, alin){
-      var l = goles.filter(function(g){ return g.equipo===lado; }).map(function(g){
+    function col(lado){
+      return goles.filter(function(g){ return g.equipo===lado; }).map(function(g){
         var t = g.tipo==='pen' ? (idiomaActual==='es'?' (pen.)':' (pen)') : g.tipo==='pp' ? (idiomaActual==='es'?' (p.p.)':' (o.g.)') : '';
-        return '\u26bd '+g.jugador+(g.minuto ? ' '+g.minuto+"'" : '')+t;
-      });
-      return '<div style="flex:1;text-align:'+alin+';">'+l.join('<br>')+'</div>';
+        return g.jugador+(g.minuto ? ' '+g.minuto+"'" : '')+t;
+      }).join('<br>');
     }
-    return '<div style="display:flex;gap:24px;max-width:520px;margin:14px auto 0;font-family:\'Space Mono\',monospace;font-size:12px;line-height:1.7;color:rgba(255,255,255,0.8);">'
-      +col('local','right')+col('visitante','left')+'</div>';
+    return '<div class="matchcard-goals" style="padding:14px 0 0;">'
+      +'<div class="matchcard-goals-col home">'+col('local')+'</div><div></div>'
+      +'<div class="matchcard-goals-col away">'+col('visitante')+'</div></div>';
   }
   function comprobarDirecto(){
     fetchJson('live.json')
