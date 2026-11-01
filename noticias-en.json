@@ -724,25 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 7 · Group IV"
   },
-  "art101": {
-    "fecha": "2026-10-23",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Matchday 8",
-    "title": "Segovia wants to make Chapín a fortress",
-    "lead": "Xerez CD head coach Abel Segovia called for sharper finishing for Sunday's match against Marbella (19:00, Chapín), a direct rival level on 6 points. He confirmed that Zelu will miss out and that Josete is back, and set the Copa del Rey aside: \"We haven't talked about Wednesday and we're not going to\".",
-    "body": [
-      "<strong>Only Marbella matters</strong>",
-      "The Cup tie against Cádiz, on Wednesday at Chapín, has not made its way into the dressing room this week, according to the coach: \"The only match that exists right now is the Marbella one\". Xerez arrive 13th, in the play-out place, and Marbella 14th, in the relegation zone, on the same points.",
-      "<strong>Lack of goals after Lucena</strong>",
-      "Segovia did not dwell on whether the 0-1 defeat to Ciudad de Lucena was unfair: \"I don't believe in fair or unfair, I believe in putting it in or not\". For the coach, the team played a complete match and lacked a finish. \"We are creating plenty of chances,\" he added, and he believes Xerez are above average in that department.",
-      "<strong>Fali at centre-back</strong>",
-      "On Fali, whom he played at centre-back last matchday, he recalled that he had already coached him as assistant manager at Nàstic and that he performed best in that position there. \"If we have to use him in defensive midfield we will, but right now I see him as a centre-back,\" he explained.",
-      "<strong>A changing Marbella</strong>",
-      "He noted that the opponents have gone four games without scoring, but that they change system a lot: they started with a 4-4-2 and have used 5-2-3 and 5-3-2. In their last match they defended with five and attacked in a 4-3-3. \"We have worked on those situations so we know how to counter them. In the end it has to be about us,\" he said.",
-      "<strong>Chapín, a fortress</strong>",
-      "Segovia asked for the fans' support: \"To achieve any objective you have to make your home a fortress\". He wants supporters to \"identify with the team, be proud and, when it's time to push, push\"."
-    ]
-  },
   "art102": {
     "fecha": "2026-10-25",
     "categoria": [
@@ -1123,5 +1104,27 @@
     "arbitro": "Álvaro García Padilla",
     "estadio": "Juan Guedes",
     "jornadaLabel": "Matchday 9 · Group IV"
+  },
+  "art121": {
+    "fecha": "2026-11-01",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Matchday 9",
+    "title": "Xerez two points off the play-offs and two above the drop in a crazy group",
+    "lead": "The win in Tamaraceite (1-3) lifts Xerez CD to tenth place with 12 points. They sit two points off the play-offs and two above the relegation zone. Recreativo de Huelva pull clear at the top after beating Betis B in the game of the matchday, and Ciudad de Lucena establish themselves as the surprise of the season in second place.",
+    "body": [
+      "Matchday 9 of Segunda RFEF, Group IV, leaves a very tight table. Only four points separate fifth place from fourteenth.",
+      "Xerez make it two league wins in a row and climb from thirteenth to tenth. With 12 points they are level with Salerm Puente Genil, Estepona and Atlético Central. They are two points behind Mijas Las Lagunas, in fifth, the last play-off spot. Below them, Tenerife B are another two points back in the first relegation place, with a game in hand after their match against Don Benito was postponed.",
+      "<strong>Recre pull clear</strong>",
+      "Recreativo de Huelva won 0-2 away at Betis B in the standout game of the matchday. José Carlos (32') and Marín (61') scored. The Huelva side have 20 points and lead on their own. Betis B drop to fourth.",
+      "<strong>Surprising Lucena in second</strong>",
+      "Ciudad de Lucena keep holding firm. They beat Atlético Sanluqueño 2-1 and tighten their grip on second place with 18 points, just two behind the leaders. They are the big surprise at the top in the early part of the season. Behind them, Badajoz are third on 16 after a 1-1 draw with Linares Deportivo.",
+      "<strong>Antoniano wake up</strong>",
+      "The surprise came at Antoniano, bottom until this matchday, who thrashed Estepona 4-1, one of the promotion candidates. Estepona went ahead through Aguilar in the 10th minute. Antoniano came back with goals from Nando (15'), Gálvez (61'), Carrascal (64') and Nacho (67'). Everything suggests the change of coach has done the Seville side good, and they move off the bottom.",
+      "<strong>Marbella fail to lift their heads</strong>",
+      "Marbella, a side expected to be near the top, drew 0-0 with Mijas Las Lagunas and still show no sign of reacting. They have 7 points and only one win in nine matchdays, and are fifteenth, in the relegation zone.",
+      "<strong>Rest of the matchday</strong>",
+      "In the other games, Sevilla Atlético and Salerm Puente Genil drew 1-1 and Atlético Central won 0-1 away at Las Palmas Atlético.",
+      "Next Sunday, at 12:30, Xerez visit Atlético Sanluqueño at El Palmar. Their opponents are thirteenth with 10 points, in the relegation play-off spot."
+    ]
   }
 }

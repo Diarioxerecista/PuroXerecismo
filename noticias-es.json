@@ -724,25 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 7 · Grupo IV"
   },
-  "art101": {
-    "fecha": "2026-10-23",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Jornada 8",
-    "title": "Segovia quiere hacer de Chapín un fortín",
-    "lead": "El entrenador del Xerez CD, Abel Segovia, pidió acierto de cara a portería para el partido del domingo ante el Marbella (19:00, Chapín), un rival directo empatado a 6 puntos. Confirmó la baja de Zelu y la vuelta de Josete, y dejó la Copa del Rey a un lado: \"Del miércoles ni hemos hablado ni vamos a hablar\".",
-    "body": [
-      "<strong>Solo existe el Marbella</strong>",
-      "El cruce de Copa ante el Cádiz, el miércoles en Chapín, no ha entrado en el vestuario esta semana, según el técnico: \"El único partido que existe ahora mismo es el del Marbella\". El Xerez llega 13.º, en puesto de play-out, y el Marbella 14.º, en descenso, con los mismos puntos.",
-      "<strong>Falta de gol tras el Lucena</strong>",
-      "Segovia no se quedó en si la derrota por 0-1 ante el Ciudad de Lucena fue injusta: \"Yo no creo en la justicia o no justicia, creo en meterla o no meterla\". Para el técnico, el equipo hizo un partido completo y le faltó finalizar. \"Estamos generando bastantes ocasiones\", añadió, y cree que el Xerez está por encima de la media en ese apartado.",
-      "<strong>Fali, de central</strong>",
-      "Sobre Fali, al que alineó como central en la última jornada, recordó que ya lo entrenó como segundo entrenador en el Nàstic y que allí rindió más en esa posición. \"Si lo tenemos que utilizar de medio centro lo utilizaremos, pero yo ahora mismo lo veo de central\", explicó.",
-      "<strong>Un Marbella cambiante</strong>",
-      "Del rival destacó que lleva cuatro partidos sin marcar, pero que cambia mucho de sistema: empezó con un 4-4-2 y ha pasado por el 5-2-3 y el 5-3-2. En su último partido defendía con cinco y atacaba con un 4-3-3. \"Hemos trabajado las situaciones para saber contrarrestar eso. Al final tenemos que ser nosotros\", dijo.",
-      "<strong>Chapín, un fortín</strong>",
-      "Segovia pidió el apoyo de la grada: \"Para conseguir cualquier objetivo hay que hacer un fortín de casa\". Quiere que la afición \"se sienta identificada, que esté orgullosa y que en los momentos que hay que apretar, apriete\"."
-    ]
-  },
   "art102": {
     "fecha": "2026-10-25",
     "categoria": [
@@ -1123,5 +1104,27 @@
     "arbitro": "Álvaro García Padilla",
     "estadio": "Juan Guedes",
     "jornadaLabel": "Jornada 9 · Grupo IV"
+  },
+  "art121": {
+    "fecha": "2026-11-01",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Jornada 9",
+    "title": "El Xerez, a dos puntos del play off y a dos del descenso en un grupo de locura",
+    "lead": "La victoria en Tamaraceite (1-3) sube al Xerez CD hasta la décima plaza, con 12 puntos. Queda a dos del play off y a dos del descenso. El Recreativo de Huelva se escapa en el liderato tras ganar al Betis B en el partido de la jornada, y el Ciudad de Lucena se consolida como la sorpresa del campeonato en la segunda posición.",
+    "body": [
+      "La jornada 9 de la Segunda RFEF, Grupo IV, deja una clasificación muy apretada. Entre el quinto clasificado y el decimocuarto hay solo cuatro puntos.",
+      "El Xerez encadena su segunda victoria seguida en liga y pasa de la decimotercera a la décima posición. Con 12 puntos empata con Salerm Puente Genil, Estepona y Atlético Central. Está a dos puntos del Mijas Las Lagunas, quinto y último puesto de play off. Por abajo, tiene a otros dos al Tenerife B, que ocupa el primer puesto de descenso con un partido menos, tras el aplazamiento de su encuentro ante el Don Benito.",
+      "<strong>El Recre se escapa</strong>",
+      "El Recreativo de Huelva ganó 0-2 en el campo del Betis B, en el partido más destacado de la jornada. Marcaron José Carlos (32') y Marín (61'). El equipo onubense suma 20 puntos y es el líder en solitario. El Betis B cae a la cuarta plaza.",
+      "<strong>El sorprendente Lucena, segundo</strong>",
+      "El Ciudad de Lucena sigue aguantando el tirón. Ganó 2-1 al Atlético Sanluqueño y se afianza en la segunda posición con 18 puntos, a solo dos del líder. Es la gran sorpresa de la zona alta en el arranque de temporada. Por detrás, el Badajoz es tercero con 16 tras empatar 1-1 ante el Linares Deportivo.",
+      "<strong>El Antoniano despierta</strong>",
+      "La sorpresa llegó en el campo del Antoniano, colista hasta esta jornada, que goleó 4-1 al Estepona, uno de los candidatos al ascenso. El Estepona se adelantó con un gol de Aguilar en el minuto 10. El Antoniano remontó con tantos de Nando (15'), Gálvez (61'), Carrascal (64') y Nacho (67'). Todo apunta a que el cambio de entrenador le ha sentado bien al conjunto sevillano, que deja el último puesto.",
+      "<strong>El Marbella no levanta cabeza</strong>",
+      "El Marbella, un equipo llamado a estar arriba, empató 0-0 ante el Mijas Las Lagunas y sigue sin reaccionar. Suma 7 puntos y una sola victoria en nueve jornadas, y es decimoquinto, en puestos de descenso.",
+      "<strong>Resto de la jornada</strong>",
+      "En los demás partidos, el Sevilla Atlético y el Salerm Puente Genil empataron 1-1 y el Atlético Central ganó 0-1 en el campo de Las Palmas Atlético.",
+      "El próximo domingo, a las 12:30, el Xerez visita al Atlético Sanluqueño en El Palmar. El rival es decimotercero con 10 puntos, en el puesto de play out."
+    ]
   }
 }
