@@ -1087,5 +1087,41 @@
       "<strong>Segovia's challenge</strong>",
       "Abel Segovia himself has acknowledged that his team need to finish the chances they create. Turning those attacks into goals is the next step for Xerez to start looking up the table."
     ]
+  },
+  "art120": {
+    "fecha": "2026-11-01",
+    "categoria": [
+      "cronica",
+      "noticia"
+    ],
+    "eyebrow": "Match report · Matchday 9",
+    "title": "Xerez rediscover their scoring touch in the Fortunate Isles (1-3)",
+    "lead": "Xerez CD beat Tamaraceite 1-3 at the Juan Guedes with goals from Zequi, Chuma and Guille Campos. It is their second league win in a row and their first away from Chapín this season. Abel Segovia's side, who had scored only five goals in eight matchdays, scored three in a single match for the first time in the league.",
+    "score": "1-3",
+    "scoreHome": "U.D. Tamaraceite",
+    "scoreAway": "Xerez CD",
+    "body": [
+      "<strong>A start that shaped the match</strong>",
+      "Xerez came out pressing high and quickly reaped the reward. In the 6th minute, Mario Peregrina won the ball from the home defence inside their own area and Zequi fired in the rebound to make it 0-1.",
+      "The goal ushered in Tamaraceite's best spell, as they penned the blue-and-whites in for much of the first half. Andrés Rivero and Toni Falcón tried their luck from outside the area and Carlos Pantoja responded with several important saves.",
+      "<div style=\"position:relative;margin-top:18px;margin-bottom:18px;\"><img src=\"fotos/publicadas/tamaraceite-xerez-j9-balon-aereo.jpg\" alt=\"Tamaraceite goalkeeper Carlos Daniel claims a high ball ahead of a Xerez CD player\" style=\"width:100%;border-radius:3px;display:block;\"><span style=\"position:absolute;left:8px;bottom:8px;font-family:'Space Mono',monospace;font-size:11px;color:#fff;background:rgba(13,44,84,0.72);padding:3px 8px;border-radius:2px;\">Photo: Xerez CD</span></div>",
+      "<strong>Chuma strikes during the home side's best moment</strong>",
+      "With the islanders pushing forward, Xerez scored the second in the 25th minute. Guille Campos got to the byline on the right and delivered a cross to the near post that Chuma turned into the net. Shortly afterwards, Guille Campos cleared off the line a shot that was heading in and Pantoja stopped another from the rebound. Before half-time, Peregrina had the chance to make it three in a one-on-one that goalkeeper Carlos Daniel saved.",
+      "<strong>Guille Campos seals it and Rivero pulls one back</strong>",
+      "Right at the start of the second half, in the 46th minute, Guille Campos hooked home a rebound from a corner on the turn to make it 0-3. Tamaraceite did not give up and Andrés Rivero, unmarked at the far post, pulled one back in the 65th minute (1-3).",
+      "Segovia brought on Jaime López, Fali, Jaime Fernández, Víctor López and Óscar Lorenzo. Xerez defended the closing minutes in an orderly fashion and still had the odd counter-attack to extend their lead. The home crowd called for a penalty in an incident between Afonso and Chacartegui, but the referee did not give it. Next Sunday, Xerez visit Atlético Sanluqueño at El Palmar.",
+      "<div style=\"position:relative;margin-top:18px;margin-bottom:18px;\"><img src=\"fotos/publicadas/tamaraceite-xerez-j9-aficion-xerecista.jpg\" alt=\"Xerez CD supporters with scarves and flags in the stand at the Juan Guedes\" style=\"width:100%;border-radius:3px;display:block;\"><span style=\"position:absolute;left:8px;bottom:8px;font-family:'Space Mono',monospace;font-size:11px;color:#fff;background:rgba(13,44,84,0.72);padding:3px 8px;border-radius:2px;\">Photo: Xerez CD</span></div>",
+      "<strong>Match facts</strong>",
+      "<strong>UD Tamaraceite:</strong> Carlos Daniel, Javi Afonso, Ramsés Perdomo, Bruno García, Carlos Delgado (Julio Báez, 58'), Andrés Rivero, Hugo Castellano, Toni Falcón (Antonio Hernández, 46'), Aitor Brito, Adrián Medina (Sergio Suárez, 46') and Jesús Farías (Sergio Ruiz, 58').",
+      "<strong>Xerez CD:</strong> Pantoja, Guille Campos (Víctor López, 78'), Moi, Josete, Chacartegui, Raúl López, Ismael (Óscar Lorenzo, 78'), Mario Peregrina (Fali, 71'), Zequi Díaz (Jaime López, 62'), Julito (Jaime Fernández, 71') and Chuma.",
+      "<strong>Goals:</strong> 0-1 (6') Zequi. 0-2 (25') Chuma. 0-3 (46') Guille Campos. 1-3 (65') Andrés Rivero.",
+      "<strong>Referee:</strong> Álvaro García Padilla (Madrid). He booked Moi, Chuma and Jaime López of Xerez CD, and Antonio Hernández of Tamaraceite.",
+      "<strong>Notes:</strong> ninth matchday of Segunda RFEF Group 4, played at the Juan Guedes. Around 100 Xerez supporters cheered the team on from the stand. A minute's silence was held for the victims of the train accident in Urda."
+    ],
+    "goleadoresHome": "Andrés Rivero 65'",
+    "goleadoresAway": "Zeki 6'<br>Chuma 25'<br>Guille 46'",
+    "arbitro": "Álvaro García Padilla",
+    "estadio": "Juan Guedes",
+    "jornadaLabel": "Matchday 9 · Group IV"
   }
 }

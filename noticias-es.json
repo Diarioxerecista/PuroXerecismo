@@ -1087,5 +1087,41 @@
       "<strong>El reto de Segovia</strong>",
       "El propio Abel Segovia ha reconocido que a su equipo le falta finalizar las ocasiones que genera. Convertir esas llegadas en goles es el siguiente paso para que el Xerez empiece a mirar hacia arriba en la clasificación."
     ]
+  },
+  "art120": {
+    "fecha": "2026-11-01",
+    "categoria": [
+      "cronica",
+      "noticia"
+    ],
+    "eyebrow": "Crónica · Jornada 9",
+    "title": "El Xerez se reencuentra con el gol en las Islas Afortunadas (1-3)",
+    "lead": "El Xerez CD ganó 1-3 al Tamaraceite en el Juan Guedes con goles de Zequi, Chuma y Guille Campos. Es su segunda victoria seguida en liga y la primera lejos de Chapín esta temporada. El equipo de Abel Segovia, que solo llevaba cinco goles en ocho jornadas, marcó tres en un mismo partido por primera vez en el campeonato.",
+    "score": "1-3",
+    "scoreHome": "U.D. Tamaraceite",
+    "scoreAway": "Xerez CD",
+    "body": [
+      "<strong>Un arranque que marcó el partido</strong>",
+      "El Xerez salió a presionar arriba y lo aprovechó enseguida. En el minuto 6, Mario Peregrina robó el balón a la defensa local dentro de su área y Zequi remató el rechace para el 0-1.",
+      "El gol dio paso a la mejor fase del Tamaraceite, que encerró a los azulinos durante buena parte de la primera mitad. Andrés Rivero y Toni Falcón lo intentaron desde fuera del área y Carlos Pantoja respondió con varias paradas importantes.",
+      "<div style=\"position:relative;margin-top:18px;margin-bottom:18px;\"><img src=\"fotos/publicadas/tamaraceite-xerez-j9-balon-aereo.jpg\" alt=\"Carlos Daniel, portero del Tamaraceite, atrapa un balón aéreo ante un jugador del Xerez CD\" style=\"width:100%;border-radius:3px;display:block;\"><span style=\"position:absolute;left:8px;bottom:8px;font-family:'Space Mono',monospace;font-size:11px;color:#fff;background:rgba(13,44,84,0.72);padding:3px 8px;border-radius:2px;\">Foto: Xerez CD</span></div>",
+      "<strong>Chuma castiga en el mejor momento local</strong>",
+      "Con los canarios volcados, el Xerez marcó el segundo en el minuto 25. Guille Campos ganó la línea de fondo por la derecha y puso un centro al primer palo que Chuma empujó a la red. Poco después, Guille Campos sacó bajo palos un disparo que era gol y Pantoja evitó otro en el rechace. Antes del descanso, Peregrina tuvo el tercero en un mano a mano que salvó el portero Carlos Daniel.",
+      "<strong>Guille Campos sentencia y Rivero recorta</strong>",
+      "Nada más empezar la segunda parte, en el minuto 46, Guille Campos remató de media vuelta un rechace tras un córner para el 0-3. El Tamaraceite no se rindió y Andrés Rivero, solo en el segundo palo, recortó en el minuto 65 (1-3).",
+      "Segovia dio entrada a Jaime López, Fali, Jaime Fernández, Víctor López y Óscar Lorenzo. El Xerez defendió con orden los últimos minutos y aún tuvo alguna contra para ampliar la ventaja. La grada local pidió penalti en una acción entre Afonso y Chacartegui, pero el árbitro no lo señaló. El próximo domingo, el Xerez visita al Atlético Sanluqueño en El Palmar.",
+      "<div style=\"position:relative;margin-top:18px;margin-bottom:18px;\"><img src=\"fotos/publicadas/tamaraceite-xerez-j9-aficion-xerecista.jpg\" alt=\"Aficionados del Xerez CD con bufandas y banderas en la grada del Juan Guedes\" style=\"width:100%;border-radius:3px;display:block;\"><span style=\"position:absolute;left:8px;bottom:8px;font-family:'Space Mono',monospace;font-size:11px;color:#fff;background:rgba(13,44,84,0.72);padding:3px 8px;border-radius:2px;\">Foto: Xerez CD</span></div>",
+      "<strong>Ficha técnica</strong>",
+      "<strong>UD Tamaraceite:</strong> Carlos Daniel, Javi Afonso, Ramsés Perdomo, Bruno García, Carlos Delgado (Julio Báez, 58'), Andrés Rivero, Hugo Castellano, Toni Falcón (Antonio Hernández, 46'), Aitor Brito, Adrián Medina (Sergio Suárez, 46') y Jesús Farías (Sergio Ruiz, 58').",
+      "<strong>Xerez CD:</strong> Pantoja, Guille Campos (Víctor López, 78'), Moi, Josete, Chacartegui, Raúl López, Ismael (Óscar Lorenzo, 78'), Mario Peregrina (Fali, 71'), Zequi Díaz (Jaime López, 62'), Julito (Jaime Fernández, 71') y Chuma.",
+      "<strong>Goles:</strong> 0-1 (6') Zequi. 0-2 (25') Chuma. 0-3 (46') Guille Campos. 1-3 (65') Andrés Rivero.",
+      "<strong>Árbitro:</strong> Álvaro García Padilla (Madrid). Amonestó a Moi, Chuma y Jaime López, por parte del Xerez CD, y a Antonio Hernández, por parte del Tamaraceite.",
+      "<strong>Incidencias:</strong> partido de la novena jornada del Grupo 4 de Segunda RFEF, disputado en el Juan Guedes. Unos 100 aficionados xerecistas animaron al equipo desde la grada. Se guardó un minuto de silencio por las víctimas del accidente de tren de Urda."
+    ],
+    "goleadoresHome": "Andrés Rivero 65'",
+    "goleadoresAway": "Zeki 6'<br>Chuma 25'<br>Guille 46'",
+    "arbitro": "Álvaro García Padilla",
+    "estadio": "Juan Guedes",
+    "jornadaLabel": "Jornada 9 · Grupo IV"
   }
 }
