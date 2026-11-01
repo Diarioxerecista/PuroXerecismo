@@ -2160,7 +2160,7 @@
     function col(lado, alin){
       var l = goles.filter(function(g){ return g.equipo===lado; }).map(function(g){
         var t = g.tipo==='pen' ? (idiomaActual==='es'?' (pen.)':' (pen)') : g.tipo==='pp' ? (idiomaActual==='es'?' (p.p.)':' (o.g.)') : '';
-        return '\u26bd '+g.jugador+' '+g.minuto+"'"+t;
+        return '\u26bd '+g.jugador+(g.minuto ? ' '+g.minuto+"'" : '')+t;
       });
       return '<div style="flex:1;text-align:'+alin+';">'+l.join('<br>')+'</div>';
     }
