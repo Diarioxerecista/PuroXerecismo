@@ -186,12 +186,23 @@ jobs:
                   goles  = f["goals"]
                   marcador = f"{goles['home'] or 0}-{goles['away'] or 0}"
                   minuto = f["fixture"]["status"].get("elapsed") or ""
+                  # Goleadores: "equipo" es "local" o "visitante" según la portada, no según la API
+                  goles_lista = []
+                  for ev in f.get("events") or []:
+                      if ev.get("type") != "Goal" or ev.get("detail") == "Missed Penalty":
+                          continue
+                      lado = "local" if ev["team"]["id"] == f["teams"]["home"]["id"] else "visitante"
+                      t = ev.get("time") or {}
+                      goles_lista.append({"equipo": lado, "jugador": (ev.get("player") or {}).get("name") or "",
+                                          "minuto": f"{t.get('elapsed')}" + (f"+{t['extra']}" if t.get("extra") else ""),
+                                          "tipo": {"Own Goal": "pp", "Penalty": "pen"}.get(ev.get("detail"), "")})
+                  extra = {"goles": goles_lista} if goles_lista else {}
                   if status in VIVO:
-                      publicar({"activo": True, **base, "resultado": marcador, "minuto": minuto})
+                      publicar({"activo": True, **base, "resultado": marcador, "minuto": minuto, **extra})
                   elif status in DESCANSO:
-                      publicar({"activo": True, **base, "resultado": marcador, "minuto": "", "estado": "DESCANSO"})
+                      publicar({"activo": True, **base, "resultado": marcador, "minuto": "", "estado": "DESCANSO", **extra})
                   elif status in TERMINADO:
-                      publicar({"activo": True, **base, "resultado": marcador, "minuto": "", "estado": "FINAL"})
+                      publicar({"activo": True, **base, "resultado": marcador, "minuto": "", "estado": "FINAL", **extra})
                       break
                   elif status in ANULADO:
                       publicar(APAGADO)

@@ -2150,8 +2150,22 @@
       +'<span style="font-family:\'Space Mono\',monospace;font-size:34px;font-weight:700;color:var(--oro);background:rgba(255,255,255,0.08);padding:6px 18px;border-radius:4px;">'+d.resultado+'</span>'
       +'<div style="display:flex;align-items:center;gap:12px;"><span style="font-family:\'Fraunces\',serif;font-size:22px;font-weight:700;color:#fff;">'+d.visitante+'</span>'+esc(d.visitante)+'</div>'
       +'</div>'
+      +golesDirecto(d.goles)
       +(d.nota ? '<div style="margin-top:12px;font-family:\'Space Mono\',monospace;font-size:11px;color:rgba(255,255,255,0.65);">'+d.nota+'</div>' : '')
       +'</div>';
+  }
+  // Goleadores del directo: [{equipo:'local'|'visitante', jugador, minuto, tipo:'pen'|'pp'|''}]
+  function golesDirecto(goles){
+    if(!goles || !goles.length) return '';
+    function col(lado, alin){
+      var l = goles.filter(function(g){ return g.equipo===lado; }).map(function(g){
+        var t = g.tipo==='pen' ? (idiomaActual==='es'?' (pen.)':' (pen)') : g.tipo==='pp' ? (idiomaActual==='es'?' (p.p.)':' (o.g.)') : '';
+        return '\u26bd '+g.jugador+' '+g.minuto+"'"+t;
+      });
+      return '<div style="flex:1;text-align:'+alin+';">'+l.join('<br>')+'</div>';
+    }
+    return '<div style="display:flex;gap:24px;max-width:520px;margin:14px auto 0;font-family:\'Space Mono\',monospace;font-size:12px;line-height:1.7;color:rgba(255,255,255,0.8);">'
+      +col('local','right')+col('visitante','left')+'</div>';
   }
   function comprobarDirecto(){
     fetchJson('live.json')
