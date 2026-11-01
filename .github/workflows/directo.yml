@@ -121,6 +121,11 @@ jobs:
 
           APAGADO = {"activo": False}
 
+          # "manual": true en live.json = alguien lo está llevando a mano (p. ej. desde Futbolme): no tocarlo
+          if (leer() or {}).get("manual"):
+              print("live.json en modo manual; el robot no lo toca.", flush=True)
+              sys.exit(0)
+
           hoy = ahora().strftime("%Y-%m-%d")
           partido_hoy = next((p for p in PARTIDOS if p["fecha"] == hoy), None)
           if not partido_hoy:
