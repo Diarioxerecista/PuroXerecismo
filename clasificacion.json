@@ -1,23 +1,15 @@
 {
-  "actualizado": "2026-10-25",
-  "jornada": 8,
+  "actualizado": "2026-11-01",
+  "jornada": 9,
   "fuente": "futbolme",
   "equipos": [
     {
       "nombre": "Recreativo de Huelva",
       "escudo": "fotos/escudos/recreativo.png",
-      "pj": 8,
-      "pts": 17,
-      "gf": 18,
+      "pj": 9,
+      "pts": 20,
+      "gf": 20,
       "gc": 7
-    },
-    {
-      "nombre": "Betis B",
-      "escudo": "fotos/escudos/betis-deportivo.png",
-      "pj": 8,
-      "pts": 15,
-      "gf": 12,
-      "gc": 5
     },
     {
       "nombre": "Ciudad de Lucena",
@@ -28,12 +20,28 @@
       "gc": 8
     },
     {
+      "nombre": "Betis B",
+      "escudo": "fotos/escudos/betis-deportivo.png",
+      "pj": 9,
+      "pts": 15,
+      "gf": 12,
+      "gc": 7
+    },
+    {
       "nombre": "Badajoz",
       "escudo": "fotos/escudos/badajoz.png",
       "pj": 8,
       "pts": 15,
       "gf": 8,
       "gc": 5
+    },
+    {
+      "nombre": "Mijas Las Lagunas",
+      "escudo": "fotos/escudos/las-lagunas.png",
+      "pj": 9,
+      "pts": 14,
+      "gf": 17,
+      "gc": 13
     },
     {
       "nombre": "Don Benito",
@@ -44,28 +52,28 @@
       "gc": 11
     },
     {
-      "nombre": "Mijas Las Lagunas",
-      "escudo": "fotos/escudos/las-lagunas.png",
-      "pj": 8,
+      "nombre": "Sevilla Atlético",
+      "escudo": "fotos/escudos/sevilla-atletico.png",
+      "pj": 9,
       "pts": 13,
-      "gf": 17,
+      "gf": 15,
       "gc": 13
     },
     {
-      "nombre": "Sevilla Atlético",
-      "escudo": "fotos/escudos/sevilla-atletico.png",
-      "pj": 8,
+      "nombre": "Salerm Puente Genil",
+      "escudo": "fotos/escudos/puente-genil.png",
+      "pj": 9,
       "pts": 12,
-      "gf": 14,
-      "gc": 12
+      "gf": 9,
+      "gc": 7
     },
     {
-      "nombre": "Estepona",
-      "escudo": "fotos/escudos/estepona.png",
-      "pj": 8,
+      "nombre": "Xerez CD",
+      "escudo": "fotos/escudos/escudo-xerez-cd-hd.png",
+      "pj": 9,
       "pts": 12,
-      "gf": 12,
-      "gc": 11
+      "gf": 8,
+      "gc": 7
     },
     {
       "nombre": "Linares Deportivo",
@@ -76,12 +84,20 @@
       "gc": 9
     },
     {
-      "nombre": "Salerm Puente Genil",
-      "escudo": "fotos/escudos/puente-genil.png",
-      "pj": 8,
-      "pts": 11,
-      "gf": 8,
-      "gc": 6
+      "nombre": "Estepona",
+      "escudo": "fotos/escudos/estepona.png",
+      "pj": 9,
+      "pts": 12,
+      "gf": 13,
+      "gc": 15
+    },
+    {
+      "nombre": "Atlético Central",
+      "escudo": "fotos/escudos/atletico-central.png",
+      "pj": 9,
+      "pts": 12,
+      "gf": 12,
+      "gc": 15
     },
     {
       "nombre": "Atlético Sanluqueño",
@@ -100,52 +116,41 @@
       "gc": 13
     },
     {
-      "nombre": "Xerez CD",
-      "escudo": "fotos/escudos/escudo-xerez-cd-hd.png",
-      "pj": 8,
-      "pts": 9,
-      "gf": 5,
-      "gc": 6
-    },
-    {
-      "nombre": "Atlético Central",
-      "escudo": "fotos/escudos/atletico-central.png",
-      "pj": 8,
-      "pts": 9,
-      "gf": 11,
-      "gc": 15
-    },
-    {
       "nombre": "Marbella",
       "escudo": "fotos/escudos/marbella.png",
-      "pj": 8,
-      "pts": 6,
+      "pj": 9,
+      "pts": 7,
       "gf": 6,
       "gc": 10
     },
     {
+      "nombre": "Antoniano",
+      "escudo": "fotos/escudos/antoniano.png",
+      "pj": 9,
+      "pts": 6,
+      "gf": 10,
+      "gc": 18
+    },
+    {
       "nombre": "Tamaraceite",
       "escudo": "fotos/escudos/tamaraceite.png",
-      "pj": 8,
+      "pj": 9,
       "pts": 6,
-      "gf": 7,
-      "gc": 15
+      "gf": 8,
+      "gc": 18
     },
     {
       "nombre": "Las Palmas Atlético",
       "escudo": "fotos/escudos/las-palmas-atletico.png",
-      "pj": 8,
+      "pj": 9,
       "pts": 5,
       "gf": 4,
-      "gc": 15
-    },
-    {
-      "nombre": "Antoniano",
-      "escudo": "fotos/escudos/antoniano.png",
-      "pj": 8,
-      "pts": 3,
-      "gf": 6,
-      "gc": 17
+      "gc": 16
     }
+  ],
+  "pendientes": [
+    "Badajoz - Linares Deportivo",
+    "Ciudad de Lucena - Atlético Sanluqueño",
+    "Tenerife B - Don Benito"
   ]
 }
