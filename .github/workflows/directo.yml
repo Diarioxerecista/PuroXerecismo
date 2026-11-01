@@ -143,8 +143,16 @@ jobs:
               r = requests.get("https://v3.football.api-sports.io/fixtures", params=params, headers=HEADERS, timeout=20)
               return r.json().get("response", [])
 
+          # Hay otros equipos "Xerez" (p. ej. Xerez Deportivo): exigir también alguna palabra del rival del día
+          import unicodedata
+          def normal(t):
+              return "".join(c for c in unicodedata.normalize("NFD", t.lower()) if unicodedata.category(c) != "Mn").replace(".", " ").replace('"', " ")
+          rival = partido_hoy["visitante"] if "xerez" in partido_hoy["local"].lower() else partido_hoy["local"]
+          claves_rival = [w for w in normal(rival).split() if len(w) >= 4 and w not in ("club", "atletico", "deportivo")]
+
           def es_xerez(f):
-              return "xerez" in f["teams"]["home"]["name"].lower() or "xerez" in f["teams"]["away"]["name"].lower()
+              nombres = normal(f["teams"]["home"]["name"] + " " + f["teams"]["away"]["name"])
+              return "xerez" in nombres and any(w in nombres for w in claves_rival)
 
           VIVO      = {"1H", "2H", "ET", "BT", "P", "LIVE"}
           DESCANSO  = {"HT"}
