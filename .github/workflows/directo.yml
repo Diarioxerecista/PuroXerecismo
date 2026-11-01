@@ -80,15 +80,15 @@ jobs:
 
           # ── Funcionamiento ─────────────────────────────────────────────────
           # GitHub lanza este workflow cuando puede (a veces con mucho retraso).
-          # Por eso, si arranca hasta 90 min antes del saque, se queda esperando y,
-          # desde 10 min antes, vigila el partido entero consultando la API cada
-          # 150 s y publicando cada cambio. Al final deja "FINAL" y se detiene;
-          # la siguiente ejecución fuera de horario apaga el directo.
+          # Por eso, si arranca hasta 200 min antes del saque, se queda esperando y,
+          # desde 10 min antes, vigila el partido entero: marcador, minuto y descanso
+          # de Futbolme cada 60 s; goleadores de API-Football cada 5 min. Publica cada
+          # cambio, al final deja "FINAL" y se detiene; la siguiente ejecución fuera
+          # de horario apaga el directo.
           ESPERA_ANTES = 200     # min antes del saque en que ya merece la pena quedarse (margen por los retrasos de GitHub)
           CONSULTA_ANTES = 10    # min antes del saque en que empieza a consultar la API
           FIN_VENTANA = 135      # min después del saque en que se deja de vigilar
-          PAUSA = 150            # s entre consultas (~60 consultas por partido)
-
+          
           MADRID = ZoneInfo("Europe/Madrid")
           def ahora():
               return datetime.now(MADRID).replace(tzinfo=None)
@@ -103,7 +103,12 @@ jobs:
 
           def publicar(data):
               """Escribe live.json y lo sube si ha cambiado."""
-              if leer() == data:
+              subprocess.run(["git", "pull", "-q", "--rebase", "--autostash"], check=False)
+              actual = leer() or {}
+              # Goleadores puestos a mano (p. ej. por Claude) que la API aún no tiene: conservarlos
+              if data.get("activo") and len(actual.get("goles") or []) > len(data.get("goles") or []):
+                  data = {**data, "goles": actual["goles"]}
+              if actual == data:
                   return
               with open(LIVE_PATH, "w", encoding="utf-8") as f:
                   json.dump(data, f, ensure_ascii=False)
@@ -121,11 +126,6 @@ jobs:
 
           APAGADO = {"activo": False}
 
-          # "manual": true en live.json = alguien lo está llevando a mano (p. ej. desde Futbolme): no tocarlo
-          if (leer() or {}).get("manual"):
-              print("live.json en modo manual; el robot no lo toca.", flush=True)
-              sys.exit(0)
-
           hoy = ahora().strftime("%Y-%m-%d")
           partido_hoy = next((p for p in PARTIDOS if p["fecha"] == hoy), None)
           if not partido_hoy:
@@ -137,6 +137,11 @@ jobs:
           if not (kick - timedelta(minutes=ESPERA_ANTES) <= ahora() <= kick + timedelta(minutes=FIN_VENTANA)):
               # Fuera de la ventana: apagar el directo y no gastar cuota de la API
               publicar(APAGADO)
+              sys.exit(0)
+
+          # "manual": true en live.json = alguien lo lleva a mano durante el partido: no tocarlo
+          if (leer() or {}).get("manual"):
+              print("live.json en modo manual; el robot no lo toca.", flush=True)
               sys.exit(0)
 
           key = os.environ.get("API_FOOTBALL_KEY", "").strip()
@@ -160,63 +165,106 @@ jobs:
               nombres = normal(f["teams"]["home"]["name"] + " " + f["teams"]["away"]["name"])
               return "xerez" in nombres and any(w in nombres for w in claves_rival)
 
-          VIVO      = {"1H", "2H", "ET", "BT", "P", "LIVE"}
-          DESCANSO  = {"HT"}
-          TERMINADO = {"FT", "AET", "PEN"}
-          ANULADO   = {"PST", "CANC", "ABD", "SUSP", "INT", "AWD", "WO"}
+          # ── Futbolme: marcador, minuto y estado (va al minuto en Segunda RFEF; su robots.txt lo permite)
+          import re, html as htmlmod
+          UA = {"User-Agent": "DiarioXerecista-directo/1.0 (+https://www.diarioxerecista.es)"}
 
-          fixture_id = None
+          def url_futbolme():
+              """Busca en la portada de Futbolme el partido de hoy del Xerez CD (no el Xerez Deportivo)."""
+              s = requests.get("https://www.futbolme.com/", headers=UA, timeout=30).text
+              for m in re.finditer(r'/resultados-directo/partido/([a-z0-9-]+)/(\d+)', s):
+                  slug = m.group(1)
+                  if "xerez-cd" in slug and any(w in slug for w in claves_rival):
+                      return "https://www.futbolme.com" + m.group(0)
+              return None
+
+          def leer_futbolme(url):
+              """Devuelve (marcador o None, estado): estado p. ej. '1T - Minuto 23', 'Descanso', '' al acabar."""
+              s = requests.get(url, headers=UA, timeout=30).text
+              t = re.sub(r"<script.*?</script>|<style.*?</style>", "", s, flags=re.S)
+              partes = [p.strip() for p in htmlmod.unescape(re.sub(r"<[^>]+>", "|", t)).split("|") if p.strip()]
+              i = next((k for k, p in enumerate(partes) if p.startswith("Actualizado a las")), None)
+              if i is None:
+                  return None
+              estado = partes[i + 1] if re.search(r"(?i)minuto|descanso|final|aplaz|suspend", partes[i + 1]) else ""
+              j = i + 1 + (1 if estado else 0)
+              g1, g2 = partes[j + 2], partes[j + 3]
+              return (f"{g1}-{g2}" if g1.isdigit() and g2.isdigit() else None), estado
+
+          # ── API-Football: solo para los goleadores (en esta categoría a veces se congela)
+          def goleadores_api(fixture_id):
+              res = api({"id": fixture_id})
+              if not res:
+                  return []
+              f, lista = res[0], []
+              for ev in f.get("events") or []:
+                  if ev.get("type") != "Goal" or ev.get("detail") == "Missed Penalty":
+                      continue
+                  lado = "local" if ev["team"]["id"] == f["teams"]["home"]["id"] else "visitante"
+                  t = ev.get("time") or {}
+                  lista.append({"equipo": lado, "jugador": (ev.get("player") or {}).get("name") or "",
+                                "minuto": f"{t.get('elapsed')}" + (f"+{t['extra']}" if t.get("extra") else ""),
+                                "tipo": {"Own Goal": "pp", "Penalty": "pen"}.get(ev.get("detail"), "")})
+              return lista
+
           base = {"local": partido_hoy["local"], "visitante": partido_hoy["visitante"]}
+          url_fm, fixture_id, goles_lista = None, None, []
+          ultima_api, visto_2t, ultimo_min, vacios = 0, False, 0, 0
+          PAUSA_FM = 60          # s entre lecturas de Futbolme
+          PAUSA_API = 300        # s entre consultas de goleadores (~25 por partido)
 
           while ahora() <= kick + timedelta(minutes=FIN_VENTANA):
-              # Antes de tiempo: esperar sin consultar la API
               if ahora() < kick - timedelta(minutes=CONSULTA_ANTES):
                   publicar(APAGADO)
                   time.sleep(60)
                   continue
+              if (leer() or {}).get("manual"):
+                  print("live.json pasado a modo manual; el robot se retira.", flush=True)
+                  break
               try:
-                  if fixture_id is None:
-                      partido = next((f for f in api({"date": hoy}) if es_xerez(f)), None)
-                      if not partido:
-                          print("Partido no encontrado en la API; reintento en 5 min.", flush=True)
-                          time.sleep(300)
-                          continue
-                      fixture_id = partido["fixture"]["id"]
-                  res = api({"id": fixture_id})
-                  if not res:
-                      time.sleep(PAUSA)
-                      continue
-                  f = res[0]
-                  status = f["fixture"]["status"]["short"]
-                  goles  = f["goals"]
-                  marcador = f"{goles['home'] or 0}-{goles['away'] or 0}"
-                  minuto = f["fixture"]["status"].get("elapsed") or ""
-                  # Goleadores: "equipo" es "local" o "visitante" según la portada, no según la API
-                  goles_lista = []
-                  for ev in f.get("events") or []:
-                      if ev.get("type") != "Goal" or ev.get("detail") == "Missed Penalty":
-                          continue
-                      lado = "local" if ev["team"]["id"] == f["teams"]["home"]["id"] else "visitante"
-                      t = ev.get("time") or {}
-                      goles_lista.append({"equipo": lado, "jugador": (ev.get("player") or {}).get("name") or "",
-                                          "minuto": f"{t.get('elapsed')}" + (f"+{t['extra']}" if t.get("extra") else ""),
-                                          "tipo": {"Own Goal": "pp", "Penalty": "pen"}.get(ev.get("detail"), "")})
-                  extra = {"goles": goles_lista} if goles_lista else {}
-                  if status in VIVO:
-                      publicar({"activo": True, **base, "resultado": marcador, "minuto": minuto, **extra})
-                  elif status in DESCANSO:
-                      publicar({"activo": True, **base, "resultado": marcador, "minuto": "", "estado": "DESCANSO", **extra})
-                  elif status in TERMINADO:
-                      publicar({"activo": True, **base, "resultado": marcador, "minuto": "", "estado": "FINAL", **extra})
-                      break
-                  elif status in ANULADO:
-                      publicar(APAGADO)
-                      break
-                  else:
-                      publicar(APAGADO)   # aún no ha empezado
+                  if url_fm is None:
+                      url_fm = url_futbolme()
+                      print("Futbolme:", url_fm, flush=True)
+                  if fixture_id is None or time.time() - ultima_api >= PAUSA_API:
+                      ultima_api = time.time()
+                      if fixture_id is None:
+                          p = next((f for f in api({"date": hoy}) if es_xerez(f)), None)
+                          fixture_id = p["fixture"]["id"] if p else None
+                      if fixture_id:
+                          goles_lista = goleadores_api(fixture_id) or goles_lista
               except Exception as e:
-                  print("Error consultando la API:", e, flush=True)
-              time.sleep(PAUSA)
+                  print("Error buscando el partido / goleadores:", e, flush=True)
+              r = None
+              try:
+                  r = leer_futbolme(url_fm) if url_fm else None
+              except Exception as e:
+                  print("Error leyendo Futbolme:", e, flush=True)
+              if not r:
+                  time.sleep(PAUSA_FM)
+                  continue
+              marcador, estado = r
+              actual = leer() or {}
+              marcador = marcador or actual.get("resultado") or "0-0"
+              extra = {"goles": goles_lista} if goles_lista else {}
+              m = re.search(r"Minuto\s*(\d+)", estado)
+              if estado.startswith("2T"):
+                  visto_2t = True
+              if m:
+                  ultimo_min = int(m.group(1))
+              vacios = 0 if estado else vacios + 1
+              if re.search(r"(?i)aplaz|suspend", estado):
+                  publicar(APAGADO)
+                  break
+              # Al acabar, Futbolme deja el estado en blanco: exigirlo dos veces seguidas y pasado el 85'
+              if re.search(r"(?i)final", estado) or (vacios >= 2 and visto_2t and ultimo_min >= 85):
+                  publicar({"activo": True, **base, "resultado": marcador, "minuto": "", "estado": "FINAL", **extra})
+                  break
+              if re.search(r"(?i)descanso", estado):
+                  publicar({"activo": True, **base, "resultado": marcador, "minuto": "", "estado": "DESCANSO", **extra})
+              elif m:
+                  publicar({"activo": True, **base, "resultado": marcador, "minuto": int(m.group(1)), **extra})
+              # sin estado y sin haber visto la 2.ª parte = aún no ha empezado: no tocar nada
+              time.sleep(PAUSA_FM)
 
           PYEOF
 
