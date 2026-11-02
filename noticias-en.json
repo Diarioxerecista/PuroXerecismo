@@ -724,25 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 7 · Group IV"
   },
-  "art102": {
-    "fecha": "2026-10-25",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
-    "eyebrow": "Opinion · Analysis",
-    "title": "Win or win",
-    "lead": "Xerez CD host Marbella today (19:00, Chapín) with no margin for error. Saturday's results have tightened the table and, against a direct rival on the same 6 points, only a win will do. It is time for the improvement seen in their play to finally turn into goals.",
-    "body": [
-      "<strong>What Saturday left behind</strong>",
-      "The matchday began yesterday with four games, and almost all the movement was at the top. Recreativo thrashed Antoniano 5-0 and go top on 17 points. Betis Deportivo drew in Mijas and Ciudad de Lucena, who won at Chapín a week ago, also took only a point in Estepona. Don Benito and Linares shared the spoils.",
-      "Xerez, 13th in the play-out place, are 8 points behind Don Benito and Badajoz, who on 14 currently hold the last play-off spots. The gap can still be closed, but there is no room for more slip-ups at home.",
-      "<strong>A match worth double</strong>",
-      "Opposite them are Marbella, level on 6 points. A win would take Xerez to 9 points and leave a direct rival behind. A defeat, on the other hand, could sink them into the relegation zone, because Atlético Central and Tamaraceite also play below them.",
-      "<strong>Let the improvement show on the scoreboard</strong>",
-      "Abel Segovia's side have taken steps forward in their play, and the coach himself says they create more chances than average. But Xerez have scored only four goals in seven matchdays, the second-lowest tally in the group. Against Lucena they played well and lost 0-1. Today deserving it is not enough: they have to score and win to start looking towards the top half."
-    ]
-  },
   "art103": {
     "fecha": "2026-10-25",
     "categoria": "noticia",
@@ -1125,6 +1106,23 @@
       "<strong>Rest of the matchday</strong>",
       "In the other games, Sevilla Atlético and Salerm Puente Genil drew 1-1 and Atlético Central won 0-1 away at Las Palmas Atlético.",
       "Next Sunday, at 12:30, Xerez visit Atlético Sanluqueño at El Palmar. Their opponents are thirteenth with 10 points, in the relegation play-off spot."
+    ]
+  },
+  "art122": {
+    "fecha": "2026-11-02",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Fixtures",
+    "title": "Kick-off time set for Xerez CD – Antoniano: Sunday 15th at 18:00, but no venue yet",
+    "lead": "The match between Xerez CD and Atlético Antoniano, on matchday 11 of Segunda RFEF, Group IV, will be played on Sunday 15 November at 18:00. What is still unknown is where: Chapín will not be available because the pitch is being reseeded.",
+    "body": [
+      "The kick-off time is now official, but uncertainty remains over the venue. The reseeding work at the Estadio Municipal de Chapín means the pitch cannot be used for 24 days, so Xerez CD will have to play their home game away from their stadium.",
+      "<strong>The options</strong>",
+      "Jerez City Council has offered the Estadio Pedro Garrido to both Jerez clubs for as long as the work lasts. According to the local press, the club considers that ground too small for the Xerez support.",
+      "Another option being considered is El Palmar, in Sanlúcar, which is popular with the fans. The problem is that Atlético Sanluqueño play at home two weeks in a row, which would complicate the use of their facilities.",
+      "Swapping the order of the fixtures with Antoniano has also been suggested: playing this game in Lebrija and the second-round meeting at Chapín. The club see this as unlikely, since the Federation would have to approve it.",
+      "<strong>The opponents</strong>",
+      "Antoniano arrive after thrashing Estepona 4-1 on the last matchday, a result that lifted them off the bottom. They are sixteenth with 6 points. Xerez are tenth with 12.",
+      "Before that, Xerez have another fixture: on Sunday 8th they visit Atlético Sanluqueño at El Palmar at 12:30."
     ]
   }
 }

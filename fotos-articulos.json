@@ -79,10 +79,6 @@
     "foto": "fotos/publicadas/xerez-lucena-j7-lamento.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art102": {
-    "foto": "fotos/publicadas/xerez-chapin-grada-aficion-2026-27.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art103": {
     "foto": "fotos/publicadas/xerez-sanluqueno-amistoso-1.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -157,6 +153,10 @@
   },
   "art121": {
     "foto": "fotos/publicadas/Lucena2022.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art122": {
+    "foto": "fotos/publicadas/xerez-cadiz-copa-disputa.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }

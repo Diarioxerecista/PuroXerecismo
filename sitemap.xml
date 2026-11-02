@@ -370,24 +370,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/el-lucena-sale-colider-de-chapin-ante-un-gran-xerez/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/ganar-o-ganar/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-25</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/ganar-o-ganar/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/win-or-win/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/ganar-o-ganar/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/win-or-win/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-25</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/ganar-o-ganar/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/win-or-win/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/ganar-o-ganar/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-atletico-sanluqueno-xerez-cd-se-jugara-el-domingo-8-de-noviembre-a-las-1230/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -728,5 +710,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/el-xerez-a-dos-puntos-del-play-off-y-a-dos-del-descenso-en-un-grupo-de-locura/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/xerez-two-points-off-the-play-offs-and-two-above-the-drop-in-a-crazy-group/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/el-xerez-a-dos-puntos-del-play-off-y-a-dos-del-descenso-en-un-grupo-de-locura/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-11/ya-hay-horario-para-el-xerez-cd-antoniano-domingo-15-a-las-1800-pero-sin-campo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/ya-hay-horario-para-el-xerez-cd-antoniano-domingo-15-a-las-1800-pero-sin-campo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/kick-off-time-set-for-xerez-cd-antoniano-sunday-15th-at-1800-but-no-venue-yet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/ya-hay-horario-para-el-xerez-cd-antoniano-domingo-15-a-las-1800-pero-sin-campo/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-11/kick-off-time-set-for-xerez-cd-antoniano-sunday-15th-at-1800-but-no-venue-yet/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/ya-hay-horario-para-el-xerez-cd-antoniano-domingo-15-a-las-1800-pero-sin-campo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/kick-off-time-set-for-xerez-cd-antoniano-sunday-15th-at-1800-but-no-venue-yet/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/ya-hay-horario-para-el-xerez-cd-antoniano-domingo-15-a-las-1800-pero-sin-campo/"/>
   </url>
 </urlset>

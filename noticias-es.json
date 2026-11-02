@@ -724,25 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 7 · Grupo IV"
   },
-  "art102": {
-    "fecha": "2026-10-25",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
-    "eyebrow": "Opinión · Análisis",
-    "title": "Ganar o ganar",
-    "lead": "El Xerez CD recibe hoy al Marbella (19:00, Chapín) sin margen de error. Los resultados del sábado han dejado la tabla más apretada y, ante un rival directo con los mismos 6 puntos, solo vale la victoria. Es la hora de que la mejoría que se ha visto en el juego se traduzca por fin en goles.",
-    "body": [
-      "<strong>Lo que dejó el sábado</strong>",
-      "La jornada empezó ayer con cuatro partidos, y casi todo se movió por arriba. El Recreativo goleó 5-0 al Antoniano y se pone líder con 17 puntos. El Betis Deportivo empató en Mijas y el Ciudad de Lucena, que ganó en Chapín hace una semana, también sumó solo un punto en Estepona. Don Benito y Linares firmaron tablas.",
-      "El Xerez, 13.º en puesto de play-out, está a 8 puntos de Don Benito y Badajoz, que con 14 ocupan ahora las últimas plazas de play off. La distancia todavía se puede recortar, pero no admite más tropiezos en casa.",
-      "<strong>Un partido que vale doble</strong>",
-      "Enfrente está un Marbella empatado a 6 puntos. Una victoria llevaría al Xerez a 9 puntos y dejaría atrás a un rival directo. Una derrota, en cambio, podría hundirlo en la zona de descenso, porque por debajo también juegan Atlético Central y Tamaraceite.",
-      "<strong>Que la mejoría se vea en el marcador</strong>",
-      "El equipo de Abel Segovia ha dado pasos adelante en el juego, y el propio técnico asegura que genera más ocasiones que la media. Pero el Xerez lleva solo cuatro goles en siete jornadas, la segunda cifra más baja del grupo. Ante el Lucena hizo un buen partido y perdió 0-1. Hoy no basta con merecer: hay que marcar y ganar para empezar a mirar hacia la parte alta."
-    ]
-  },
   "art103": {
     "fecha": "2026-10-25",
     "categoria": "noticia",
@@ -1125,6 +1106,23 @@
       "<strong>Resto de la jornada</strong>",
       "En los demás partidos, el Sevilla Atlético y el Salerm Puente Genil empataron 1-1 y el Atlético Central ganó 0-1 en el campo de Las Palmas Atlético.",
       "El próximo domingo, a las 12:30, el Xerez visita al Atlético Sanluqueño en El Palmar. El rival es decimotercero con 10 puntos, en el puesto de play out."
+    ]
+  },
+  "art122": {
+    "fecha": "2026-11-02",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Calendario",
+    "title": "Ya hay horario para el Xerez CD – Antoniano: domingo 15 a las 18:00, pero sin campo",
+    "lead": "El partido entre el Xerez CD y el Atlético Antoniano, de la jornada 11 de la Segunda RFEF, Grupo IV, se jugará el domingo 15 de noviembre a las 18:00. Lo que todavía no se sabe es dónde: Chapín no estará disponible por la resiembra del césped.",
+    "body": [
+      "El horario ya es oficial, pero sigue la incertidumbre sobre el campo. Los trabajos de resiembra del Estadio Municipal de Chapín obligan a dejar el césped sin uso durante 24 días, por lo que el Xerez CD tendrá que jugar como local fuera de su estadio.",
+      "<strong>Las opciones</strong>",
+      "El Ayuntamiento de Jerez ha ofrecido el Estadio Pedro Garrido a los dos clubes jerezanos mientras duren los trabajos. Según la prensa local, el club ve ese campo pequeño para la afición xerecista.",
+      "Otra de las opciones que se barajan es El Palmar, en Sanlúcar, que gusta a los aficionados. El problema es que el Atlético Sanluqueño juega como local dos semanas seguidas, lo que complicaría el uso de sus instalaciones.",
+      "También se ha planteado intercambiar el orden de los partidos con el Antoniano: jugar este en Lebrija y el de la segunda vuelta en Chapín. Desde el club lo ven poco probable, ya que tendría que aprobarlo la Federación.",
+      "<strong>El rival</strong>",
+      "El Antoniano llega a la cita tras golear 4-1 al Estepona en la última jornada, un resultado que le ha permitido dejar el último puesto. Es decimosexto con 6 puntos. El Xerez es décimo con 12.",
+      "Antes, el Xerez tiene otra cita: el domingo 8 visita al Atlético Sanluqueño en El Palmar a las 12:30."
     ]
   }
 }
