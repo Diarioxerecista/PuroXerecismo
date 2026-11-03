@@ -724,17 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 7 · Group IV"
   },
-  "art103": {
-    "fecha": "2026-10-25",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Matchday 10",
-    "title": "Atlético Sanluqueño v Xerez CD will be played on Sunday 8 November at 12:30",
-    "lead": "The match between Atlético Sanluqueño and Xerez CD, on matchday ten of Group IV of the Segunda RFEF, now has a kick-off time: it will be played on Sunday 8 November at 12:30 at El Palmar in Sanlúcar de Barrameda.",
-    "body": [
-      "It will be Xerez's second consecutive match with a morning kick-off. A week earlier, on Sunday 1 November, they visit Tamaraceite at 13:00.",
-      "Before those two away trips, on Wednesday 28 October, the team host Cádiz CF at Chapín in the first round of the Copa del Rey."
-    ]
-  },
   "art104": {
     "fecha": "2026-10-25",
     "categoria": [
@@ -1123,6 +1112,20 @@
       "<strong>The opponents</strong>",
       "Antoniano arrive after thrashing Estepona 4-1 on the last matchday, a result that lifted them off the bottom. They are sixteenth with 6 points. Xerez are tenth with 12.",
       "Before that, Xerez have another fixture: on Sunday 8th they visit Atlético Sanluqueño at El Palmar at 12:30."
+    ]
+  },
+  "art123": {
+    "fecha": "2026-11-03",
+    "categoria": "noticia",
+    "eyebrow": "Football · Mourning",
+    "title": "CD Tenerife footballer Jesús de Miguel dies after injury suffered against Andorra",
+    "lead": "CD Tenerife announced on Tuesday the death of their forward Jesús de Miguel, aged 30. The player died at 8:00 at the Hospital Universitario Nuestra Señora de Candelaria, where he had been admitted on Monday after a heavy collision with the FC Andorra goalkeeper during a match.",
+    "body": [
+      "The incident happened in the match Tenerife and Andorra played on Monday afternoon. Jesús de Miguel went for a loose ball in the opposition area and collided with the visiting goalkeeper, Jesús Owono. The referee stopped play and the match was suspended.",
+      "According to several media outlets, the player suffered a cardiorespiratory arrest on the pitch and the medical services managed to restore his pulse in the ambulance. Once in hospital, his neurological condition worsened overnight because of the head injury, and his death was certified early in the morning.",
+      "<strong>The club statement</strong>",
+      "CD Tenerife expressed their deep sorrow at the loss, conveyed their support to the family and asked for their privacy to be respected. The family thanked people for the messages of support they have received.",
+      "From Diario Xerecista we send our deepest condolences to the family, friends and team-mates of Jesús de Miguel, and to everyone at CD Tenerife. Rest in peace."
     ]
   }
 }

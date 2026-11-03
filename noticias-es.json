@@ -724,17 +724,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 7 · Grupo IV"
   },
-  "art103": {
-    "fecha": "2026-10-25",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Jornada 10",
-    "title": "El Atlético Sanluqueño - Xerez CD se jugará el domingo 8 de noviembre a las 12:30",
-    "lead": "El partido entre el Atlético Sanluqueño y el Xerez CD, de la décima jornada del Grupo IV de Segunda RFEF, ya tiene horario: se disputará el domingo 8 de noviembre a las 12:30 en El Palmar de Sanlúcar de Barrameda.",
-    "body": [
-      "Será el segundo partido seguido del Xerez en horario de mañana. Una semana antes, el domingo 1 de noviembre, visita al Tamaraceite a las 13:00.",
-      "Antes de esos dos desplazamientos, el miércoles 28 de octubre, el equipo recibe al Cádiz CF en Chapín en la primera eliminatoria de la Copa del Rey."
-    ]
-  },
   "art104": {
     "fecha": "2026-10-25",
     "categoria": [
@@ -1123,6 +1112,20 @@
       "<strong>El rival</strong>",
       "El Antoniano llega a la cita tras golear 4-1 al Estepona en la última jornada, un resultado que le ha permitido dejar el último puesto. Es decimosexto con 6 puntos. El Xerez es décimo con 12.",
       "Antes, el Xerez tiene otra cita: el domingo 8 visita al Atlético Sanluqueño en El Palmar a las 12:30."
+    ]
+  },
+  "art123": {
+    "fecha": "2026-11-03",
+    "categoria": "noticia",
+    "eyebrow": "Fútbol · Luto",
+    "title": "Muere Jesús de Miguel, futbolista del CD Tenerife, tras el golpe sufrido ante el Andorra",
+    "lead": "El CD Tenerife ha comunicado este martes el fallecimiento de su delantero Jesús de Miguel, de 30 años. El jugador murió a las 8:00 horas en el Hospital Universitario Nuestra Señora de Candelaria, donde estaba ingresado desde el lunes tras un fuerte choque con el portero del FC Andorra durante un partido.",
+    "body": [
+      "La jugada se produjo en el partido que el Tenerife y el Andorra disputaron en la tarde del lunes. Jesús de Miguel fue a disputar un balón dividido en el área rival y chocó con el guardameta visitante, Jesús Owono. El árbitro detuvo el juego y el encuentro quedó suspendido.",
+      "Según han informado varios medios, el jugador sufrió una parada cardiorrespiratoria sobre el terreno de juego y los servicios médicos lograron recuperarle el pulso en la ambulancia. Ya en el hospital, su estado neurológico empeoró durante la madrugada a causa del traumatismo craneal, y su muerte se certificó a primera hora de la mañana.",
+      "<strong>El comunicado del club</strong>",
+      "El CD Tenerife ha expresado su profundo dolor por la pérdida, ha trasladado su apoyo a la familia y ha pedido respeto a su intimidad. La familia ha agradecido las muestras de cariño recibidas.",
+      "Desde Diario Xerecista enviamos nuestro más sentido pésame a la familia, a los amigos y compañeros de Jesús de Miguel, y a todo el CD Tenerife. Descanse en paz."
     ]
   }
 }

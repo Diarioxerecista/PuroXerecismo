@@ -370,24 +370,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/el-lucena-sale-colider-de-chapin-ante-un-gran-xerez/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-atletico-sanluqueno-xerez-cd-se-jugara-el-domingo-8-de-noviembre-a-las-1230/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-25</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-atletico-sanluqueno-xerez-cd-se-jugara-el-domingo-8-de-noviembre-a-las-1230/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/atletico-sanluqueno-v-xerez-cd-will-be-played-on-sunday-8-november-at-1230/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-atletico-sanluqueno-xerez-cd-se-jugara-el-domingo-8-de-noviembre-a-las-1230/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/atletico-sanluqueno-v-xerez-cd-will-be-played-on-sunday-8-november-at-1230/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-25</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-atletico-sanluqueno-xerez-cd-se-jugara-el-domingo-8-de-noviembre-a-las-1230/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/atletico-sanluqueno-v-xerez-cd-will-be-played-on-sunday-8-november-at-1230/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-atletico-sanluqueno-xerez-cd-se-jugara-el-domingo-8-de-noviembre-a-las-1230/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/cronicas/2026-10/un-canonazo-de-ismael-saca-al-xerez-del-descenso-ante-el-marbella-1-0/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -728,5 +710,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/ya-hay-horario-para-el-xerez-cd-antoniano-domingo-15-a-las-1800-pero-sin-campo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/kick-off-time-set-for-xerez-cd-antoniano-sunday-15th-at-1800-but-no-venue-yet/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/ya-hay-horario-para-el-xerez-cd-antoniano-domingo-15-a-las-1800-pero-sin-campo/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-11/muere-jesus-de-miguel-futbolista-del-cd-tenerife-tras-el-golpe-sufrido-ante-el-andorra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/muere-jesus-de-miguel-futbolista-del-cd-tenerife-tras-el-golpe-sufrido-ante-el-andorra/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/cd-tenerife-footballer-jesus-de-miguel-dies-after-injury-suffered-against-andorra/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/muere-jesus-de-miguel-futbolista-del-cd-tenerife-tras-el-golpe-sufrido-ante-el-andorra/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-11/cd-tenerife-footballer-jesus-de-miguel-dies-after-injury-suffered-against-andorra/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/muere-jesus-de-miguel-futbolista-del-cd-tenerife-tras-el-golpe-sufrido-ante-el-andorra/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/cd-tenerife-footballer-jesus-de-miguel-dies-after-injury-suffered-against-andorra/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/muere-jesus-de-miguel-futbolista-del-cd-tenerife-tras-el-golpe-sufrido-ante-el-andorra/"/>
   </url>
 </urlset>
