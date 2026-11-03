@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-01",
+  "actualizado": "2026-11-03",
   "jornada": 9,
   "fuente": "futbolme",
   "equipos": [
@@ -18,6 +18,14 @@
       "pts": 18,
       "gf": 16,
       "gc": 9
+    },
+    {
+      "nombre": "Don Benito",
+      "escudo": "fotos/escudos/don-benito.png",
+      "pj": 9,
+      "pts": 17,
+      "gf": 15,
+      "gc": 11
     },
     {
       "nombre": "Badajoz",
@@ -42,14 +50,6 @@
       "pts": 14,
       "gf": 17,
       "gc": 13
-    },
-    {
-      "nombre": "Don Benito",
-      "escudo": "fotos/escudos/don-benito.png",
-      "pj": 8,
-      "pts": 14,
-      "gf": 14,
-      "gc": 11
     },
     {
       "nombre": "Sevilla Atlético",
@@ -110,10 +110,10 @@
     {
       "nombre": "Tenerife B",
       "escudo": "fotos/escudos/tenerife-b.png",
-      "pj": 8,
+      "pj": 9,
       "pts": 10,
       "gf": 11,
-      "gc": 13
+      "gc": 14
     },
     {
       "nombre": "Marbella",
@@ -147,8 +147,5 @@
       "gf": 4,
       "gc": 16
     }
-  ],
-  "aplazados": [
-    "Tenerife B - Don Benito"
   ]
 }
