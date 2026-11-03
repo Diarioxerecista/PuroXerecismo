@@ -763,26 +763,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Jornada 8 · Grupo IV"
   },
-  "art105": {
-    "fecha": "2026-10-26",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
-    "eyebrow": "Opinión · Análisis",
-    "title": "El lavado de cara del Xerez: Segovia empieza a darle personalidad",
-    "lead": "Cuatro jornadas después de la llegada de Abel Segovia, el Xerez CD es otro equipo. Ha pasado de sumar 2 puntos en las cuatro primeras jornadas a sumar 7 en las cuatro siguientes, y sobre todo ha recuperado algo que había perdido: una forma reconocible de jugar.",
-    "body": [
-      "<strong>De \"sin personalidad\" a un equipo reconocible</strong>",
-      "La etapa de Xavi Molist terminó con dos empates, dos derrotas y un solo gol a favor. La derrota en Huelva, que precipitó su cese, dejó la imagen de un equipo sin ideas y sin personalidad. Segovia llegó con el equipo hundido en la tabla y sin margen para adaptarse.",
-      "Su estreno fue atípico. Ante el Tenerife B tuvo que ver el partido desde la grada, porque su ficha aún no estaba tramitada, y Juan Pedro Ramos se sentó en el banquillo. Aun así, el equipo remontó y logró su primera victoria. Ya se vieron algunos de los cambios: laterales que dan amplitud y extremos que se meten por dentro para buscar el uno contra uno.",
-      "<strong>Presión, transiciones y carácter en Chapín</strong>",
-      "En Sevilla, ante el Betis Deportivo, el Xerez fue el primer equipo que le marcó un gol al líder, con presión adelantada, robos y transiciones rápidas. El cansancio le costó la victoria al final. Ante el Ciudad de Lucena dominó de principio a fin y estrelló dos balones en el larguero, pero perdió con un gol en el minuto 89. Ante el Marbella sufrió en el primer tiempo, pero Segovia movió el banquillo en el descanso y el cambio de Ismael le dio la victoria.",
-      "El balance con Segovia es de 7 puntos de 12, cuatro goles a favor y tres en contra. El equipo ha salido del descenso directo y el propio técnico lo resume así: el equipo \"tiene una identidad\".",
-      "<strong>La asignatura pendiente: el gol</strong>",
-      "El lavado de cara todavía no está completo. El Xerez lleva cinco goles en ocho jornadas, la segunda cifra más baja del grupo, y el propio Segovia reconoce que al equipo le falta finalizar las ocasiones que genera. Con la personalidad recuperada, el siguiente paso es que esa mejoría se vea en el marcador para empezar a mirar hacia arriba."
-    ]
-  },
   "art106": {
     "fecha": "2026-10-26",
     "categoria": "noticia",
@@ -1125,6 +1105,22 @@
       "<strong>El comunicado del club</strong>",
       "El CD Tenerife ha expresado su profundo dolor por la pérdida, ha trasladado su apoyo a la familia y ha pedido respeto a su intimidad. La familia ha agradecido las muestras de cariño recibidas.",
       "Desde Diario Xerecista enviamos nuestro más sentido pésame a la familia, a los amigos y compañeros de Jesús de Miguel, y a todo el CD Tenerife. Descanse en paz."
+    ]
+  },
+  "art124": {
+    "fecha": "2026-11-03",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Análisis",
+    "title": "El sorpasso de los recién ascendidos: cuatro de los seis primeros llegaron este verano desde Tercera",
+    "lead": "Cuatro de los seis primeros clasificados del Grupo IV de la Segunda RFEF son recién ascendidos. Tras nueve jornadas, el Ciudad de Lucena es segundo, el Don Benito tercero, el Badajoz cuarto y el Mijas Las Lagunas sexto. Solo el Recreativo de Huelva, líder, y el Betis B, quinto, rompen esa racha.",
+    "body": [
+      "Los equipos que subieron este verano desde la Tercera Federación están siendo los protagonistas del arranque de temporada.",
+      "<strong>Lucena, Don Benito y Badajoz, en el podio de los novatos</strong>",
+      "El Ciudad de Lucena, que ascendió como campeón de su grupo de Tercera, es segundo con 18 puntos, a solo dos del líder. El Don Benito, que también subió de forma directa, es tercero con 17 tras ganar su partido aplazado ante el Tenerife B (0-1). El Badajoz, que logró el ascenso por la vía de la promoción, es cuarto con 16.",
+      "Completa el grupo el Mijas Las Lagunas, también ascendido directamente, que es sexto con 14 puntos, a uno del play off.",
+      "<strong>Los que bajaron de Primera Federación, más abajo</strong>",
+      "El contraste lo ponen los cuatro equipos que descendieron de Primera Federación. Solo el Betis B, quinto con 15 puntos, está en la zona alta. El Sevilla Atlético es séptimo con 13, mientras que el Atlético Sanluqueño (13.º, 10 puntos) y el Marbella (15.º, 7 puntos) están en la parte baja.",
+      "El Xerez CD es décimo con 12 puntos, a tres del play off. El domingo visita al Atlético Sanluqueño en El Palmar a las 12:30."
     ]
   }
 }

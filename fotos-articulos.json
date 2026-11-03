@@ -83,10 +83,6 @@
     "foto": "fotos/publicadas/xerez-marbella-j8-gol-ismael.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art105": {
-    "foto": "fotos/publicadas/abel-segovia-banda-chapin.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art106": {
     "foto": "fotos/publicadas/estadio-chapin-vista-aerea.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -158,5 +154,9 @@
   "art123": {
     "foto": "fotos/publicadas/jesus-de-miguel-tenerife-byn.jpg",
     "creditoFoto": "Foto: CD Tenerife"
+  },
+  "art124": {
+    "foto": "fotos/publicadas/xerez-lucena-j7-ruben-mesa.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
   }
 }

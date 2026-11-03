@@ -763,26 +763,6 @@
     "estadio": "Chapín",
     "jornadaLabel": "Matchday 8 · Group IV"
   },
-  "art105": {
-    "fecha": "2026-10-26",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
-    "eyebrow": "Opinion · Analysis",
-    "title": "Xerez's makeover: Segovia starts to give the team a personality",
-    "lead": "Four matchdays after the arrival of Abel Segovia, Xerez CD are a different team. They have gone from 2 points in the first four matchdays to 7 in the next four, and above all they have recovered something they had lost: a recognisable way of playing.",
-    "body": [
-      "<strong>From \"no personality\" to a recognisable team</strong>",
-      "Xavi Molist's spell ended with two draws, two defeats and a single goal scored. The defeat in Huelva, which hastened his dismissal, left the image of a team without ideas and without personality. Segovia arrived with the team sunk in the table and no time to settle in.",
-      "His debut was unusual. Against Tenerife B he had to watch the match from the stands, because his registration had not yet been processed, and Juan Pedro Ramos sat on the bench. Even so, the team came from behind to claim their first win. Some of the changes were already visible: full-backs providing width and wingers cutting inside to look for one-on-ones.",
-      "<strong>Pressing, transitions and character at Chapín</strong>",
-      "In Seville, against Betis Deportivo, Xerez became the first team to score against the leaders, with a high press, ball recoveries and quick transitions. Fatigue cost them the win at the end. Against Ciudad de Lucena they dominated from start to finish and hit the crossbar twice, but lost to an 89th-minute goal. Against Marbella they suffered in the first half, but Segovia turned to his bench at the break and bringing on Ismael won them the game.",
-      "Under Segovia the record stands at 7 points out of 12, four goals scored and three conceded. The team have climbed out of the automatic relegation places, and the coach himself sums it up: the team \"has an identity\".",
-      "<strong>The unfinished business: goals</strong>",
-      "The makeover is not yet complete. Xerez have scored five goals in eight matchdays, the second-lowest tally in the group, and Segovia himself admits the team need to finish the chances they create. With their personality recovered, the next step is for that improvement to show on the scoreboard so they can start looking upwards."
-    ]
-  },
   "art106": {
     "fecha": "2026-10-26",
     "categoria": "noticia",
@@ -1125,6 +1105,22 @@
       "<strong>The club statement</strong>",
       "CD Tenerife expressed their deep sorrow at the loss, conveyed their support to the family and asked for their privacy to be respected. The family thanked people for the messages of support they have received.",
       "From Diario Xerecista we send our deepest condolences to the family, friends and team-mates of Jesús de Miguel, and to everyone at CD Tenerife. Rest in peace."
+    ]
+  },
+  "art124": {
+    "fecha": "2026-11-03",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Analysis",
+    "title": "The newly promoted overtake: four of the top six came up from Tercera this summer",
+    "lead": "Four of the top six in Group IV of Segunda RFEF are newly promoted. After nine matchdays, Ciudad de Lucena are second, Don Benito third, Badajoz fourth and Mijas Las Lagunas sixth. Only Recreativo de Huelva, the leaders, and Betis B, in fifth, break the pattern.",
+    "body": [
+      "The teams that came up from Tercera Federación this summer are taking centre stage in the early part of the season.",
+      "<strong>Lucena, Don Benito and Badajoz on the newcomers' podium</strong>",
+      "Ciudad de Lucena, who were promoted as champions of their Tercera group, are second with 18 points, just two behind the leaders. Don Benito, who also went up automatically, are third with 17 after winning their postponed match against Tenerife B (0-1). Badajoz, who were promoted through the play-offs, are fourth with 16.",
+      "Mijas Las Lagunas, also promoted automatically, complete the group in sixth with 14 points, one off the play-offs.",
+      "<strong>Those relegated from Primera Federación, further down</strong>",
+      "The contrast comes from the four teams relegated from Primera Federación. Only Betis B, fifth with 15 points, are in the top half. Sevilla Atlético are seventh with 13, while Atlético Sanluqueño (13th, 10 points) and Marbella (15th, 7 points) are in the lower reaches.",
+      "Xerez CD are tenth with 12 points, three off the play-offs. On Sunday they visit Atlético Sanluqueño at El Palmar at 12:30."
     ]
   }
 }
