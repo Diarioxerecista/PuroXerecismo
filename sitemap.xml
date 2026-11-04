@@ -388,24 +388,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-10/un-canonazo-de-ismael-saca-al-xerez-del-descenso-ante-el-marbella-1-0/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-no-vendera-las-entradas-sobrantes-del-fondo-norte-por-motivos-de-seguridad/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-no-vendera-las-entradas-sobrantes-del-fondo-norte-por-motivos-de-seguridad/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-will-not-sell-the-remaining-fondo-norte-tickets-for-security-reasons/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-no-vendera-las-entradas-sobrantes-del-fondo-norte-por-motivos-de-seguridad/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-will-not-sell-the-remaining-fondo-norte-tickets-for-security-reasons/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-no-vendera-las-entradas-sobrantes-del-fondo-norte-por-motivos-de-seguridad/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-will-not-sell-the-remaining-fondo-norte-tickets-for-security-reasons/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-no-vendera-las-entradas-sobrantes-del-fondo-norte-por-motivos-de-seguridad/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/si-vengo-de-primera-regional/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -728,5 +710,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/el-sorpasso-de-los-recien-ascendidos-cuatro-de-los-seis-primeros-llegaron-este-verano-desde-tercera/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/the-newly-promoted-overtake-four-of-the-top-six-came-up-from-tercera-this-summer/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/el-sorpasso-de-los-recien-ascendidos-cuatro-de-los-seis-primeros-llegaron-este-verano-desde-tercera/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-11/agotadas-en-minutos-las-400-entradas-para-el-atletico-sanluqueno-xerez-cd/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/agotadas-en-minutos-las-400-entradas-para-el-atletico-sanluqueno-xerez-cd/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/400-tickets-for-atletico-sanluqueno-xerez-cd-sold-out-in-minutes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/agotadas-en-minutos-las-400-entradas-para-el-atletico-sanluqueno-xerez-cd/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-11/400-tickets-for-atletico-sanluqueno-xerez-cd-sold-out-in-minutes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/agotadas-en-minutos-las-400-entradas-para-el-atletico-sanluqueno-xerez-cd/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/400-tickets-for-atletico-sanluqueno-xerez-cd-sold-out-in-minutes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/agotadas-en-minutos-las-400-entradas-para-el-atletico-sanluqueno-xerez-cd/"/>
   </url>
 </urlset>

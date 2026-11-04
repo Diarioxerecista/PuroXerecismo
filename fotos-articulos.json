@@ -83,10 +83,6 @@
     "foto": "fotos/publicadas/xerez-marbella-j8-gol-ismael.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art106": {
-    "foto": "fotos/publicadas/estadio-chapin-vista-aerea.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art107": {
     "foto": "fotos/publicadas/cadiz-cf-jugadores-carranza.jpg",
     "creditoFoto": "Foto: Diario de Cádiz"
@@ -157,6 +153,10 @@
   },
   "art124": {
     "foto": "fotos/publicadas/xerez-lucena-j7-ruben-mesa.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art125": {
+    "foto": "fotos/publicadas/xerez-sanluqueno-amistoso-3.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
