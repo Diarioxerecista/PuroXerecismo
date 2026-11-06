@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # para que un robot pueda lanzar a su relevo
 
 # Un solo robot a la vez: si arranca otro mientras uno vigila un partido, espera su turno.
 concurrency:
@@ -32,6 +33,7 @@ jobs:
       - name: Vigilar el partido y actualizar live.json
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           python3 << 'PYEOF'
           import json, os, sys, time, subprocess, requests
@@ -79,13 +81,17 @@ jobs:
           ]
 
           # ── Funcionamiento ─────────────────────────────────────────────────
-          # GitHub lanza este workflow cuando puede (a veces con mucho retraso).
-          # Por eso, si arranca hasta 200 min antes del saque, se queda esperando y,
-          # desde 10 min antes, vigila el partido entero: marcador, minuto y descanso
+          # GitHub lanza este workflow cuando puede: de media cada 3,5 horas y a veces con
+          # huecos de 10. Por eso, si arranca hasta 18 horas antes del saque, se queda
+          # esperando sin gastar nada y, antes de agotar sus 6 horas, lanza a su relevo, de
+          # modo que siempre hay un robot en marcha cuando empieza el partido. Desde 10 min
+          # antes vigila el partido entero: marcador, minuto y descanso
           # de Futbolme cada 60 s; goleadores de API-Football cada 5 min. Publica cada
           # cambio, al final deja "FINAL" y se detiene; la siguiente ejecución fuera
           # de horario apaga el directo.
-          ESPERA_ANTES = 200     # min antes del saque en que ya merece la pena quedarse (margen por los retrasos de GitHub)
+          ESPERA_HORAS = 18      # horas antes del saque desde las que un robot se queda esperando
+          RELEVO_MIN = 300       # min que aguanta un robot esperando antes de lanzar a su relevo
+          LIMITE_MIN = 340       # min de vida útil de un robot (timeout-minutes: 350)
           CONSULTA_ANTES = 10    # min antes del saque en que empieza a consultar la API
           FIN_VENTANA = 135      # min después del saque en que se deja de vigilar
           
@@ -126,21 +132,35 @@ jobs:
 
           APAGADO = {"activo": False}
 
-          hoy = ahora().strftime("%Y-%m-%d")
-          partido_hoy = next((p for p in PARTIDOS if p["fecha"] == hoy), None)
-          if not partido_hoy:
-              publicar(APAGADO)
-              sys.exit(0)
+          def saque(p):
+              return datetime.strptime(p["fecha"] + " " + p["hora"], "%Y-%m-%d %H:%M")
 
-          h, m = map(int, partido_hoy["hora"].split(":"))
-          kick = ahora().replace(hour=h, minute=m, second=0, microsecond=0)
-          if not (kick - timedelta(minutes=ESPERA_ANTES) <= ahora() <= kick + timedelta(minutes=FIN_VENTANA)):
+          INICIO = ahora()
+          partido_hoy = next((p for p in PARTIDOS
+                              if saque(p) - timedelta(hours=ESPERA_HORAS) <= INICIO <= saque(p) + timedelta(minutes=FIN_VENTANA)), None)
+          if not partido_hoy:
               # Fuera de la ventana: apagar el directo y no gastar cuota de la API
               publicar(APAGADO)
               sys.exit(0)
 
+          kick = saque(partido_hoy)
+          hoy = partido_hoy["fecha"]
+          print("Partido vigilado:", partido_hoy, flush=True)
+
+          def lanzar_relevo():
+              r = requests.post(
+                  f"https://api.github.com/repos/{os.environ['GITHUB_REPOSITORY']}/actions/workflows/directo.yml/dispatches",
+                  headers={"Authorization": "Bearer " + os.environ.get("GH_TOKEN", ""), "Accept": "application/vnd.github+json"},
+                  json={"ref": "main"}, timeout=20)
+              print("Relevo lanzado:", r.status_code, flush=True)
+              return r.status_code == 204
+
+          # Si no llegaría vivo al final del partido, relevo antes del saque
+          necesita_relevo = kick + timedelta(minutes=FIN_VENTANA) > INICIO + timedelta(minutes=LIMITE_MIN)
+          hora_relevo = min(INICIO + timedelta(minutes=RELEVO_MIN), kick - timedelta(minutes=30))
+
           # "manual": true en live.json = alguien lo lleva a mano durante el partido: no tocarlo
-          if (leer() or {}).get("manual"):
+          if ahora() >= kick - timedelta(minutes=CONSULTA_ANTES) and (leer() or {}).get("manual"):
               print("live.json en modo manual; el robot no lo toca.", flush=True)
               sys.exit(0)
 
@@ -171,11 +191,14 @@ jobs:
 
           def url_futbolme():
               """Busca en la portada de Futbolme el partido de hoy del Xerez CD (no el Xerez Deportivo)."""
-              s = requests.get("https://www.futbolme.com/", headers=UA, timeout=30).text
-              for m in re.finditer(r'/resultados-directo/partido/([a-z0-9-]+)/(\d+)', s):
-                  slug = m.group(1)
-                  if "xerez-cd" in slug and any(w in slug for w in claves_rival):
-                      return "https://www.futbolme.com" + m.group(0)
+              # Primero la página del Grupo IV (trae la jornada entera); la portada, para la Copa
+              for pagina in ("https://www.futbolme.com/resultados-directo/torneo/segunda-federacion-grupo-4/3060/",
+                             "https://www.futbolme.com/"):
+                  s = requests.get(pagina, headers=UA, timeout=30).text
+                  for m in re.finditer(r'/resultados-directo/partido/([a-z0-9-]+)/(\d+)', s):
+                      slug = m.group(1)
+                      if "xerez-cd" in slug and any(w in slug for w in claves_rival):
+                          return "https://www.futbolme.com" + m.group(0)
               return None
 
           def leer_futbolme(url):
@@ -215,7 +238,11 @@ jobs:
 
           while ahora() <= kick + timedelta(minutes=FIN_VENTANA):
               if ahora() < kick - timedelta(minutes=CONSULTA_ANTES):
-                  publicar(APAGADO)
+                  subprocess.run(["git", "pull", "-q", "--rebase", "--autostash"], check=False)
+                  if not (leer() or {}).get("manual"):
+                      publicar(APAGADO)
+                  if necesita_relevo and ahora() >= hora_relevo and lanzar_relevo():
+                      sys.exit(0)
                   time.sleep(60)
                   continue
               if (leer() or {}).get("manual"):
