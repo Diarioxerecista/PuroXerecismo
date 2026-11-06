@@ -5,6 +5,8 @@ on:
     - cron: '*/5 * * * *'   # GitHub no garantiza la frecuencia: puede retrasarlo o saltárselo
     - cron: '17,47 * * * *' # refuerzo fuera de las horas en punto, que es cuando más se retrasa
   workflow_dispatch: {}
+  push:
+    paths: ['.github/workflows/directo.yml']
 
 permissions:
   contents: write
@@ -53,6 +55,7 @@ jobs:
             {"fecha":"2026-10-25","hora":"19:00","local":"Xerez CD","visitante":"Marbella F.C."},
             {"fecha":"2026-10-29","hora":"21:00","local":"Xerez CD","visitante":"Cádiz CF"},
             {"fecha":"2026-11-01","hora":"13:00","local":"U.D. Tamaraceite","visitante":"Xerez CD"},
+            {"fecha":"2026-11-06","hora":"22:00","local":"Atlético Sanluqueño","visitante":"Xerez CD"},
             {"fecha":"2026-11-08","hora":"12:30","local":"Atlético Sanluqueño","visitante":"Xerez CD"},
             {"fecha":"2026-11-15","hora":"18:00","local":"Xerez CD","visitante":"C.A. Antoniano"},
             {"fecha":"2026-11-22","hora":"17:00","local":"C. Atlético Central","visitante":"Xerez CD"},
@@ -90,7 +93,7 @@ jobs:
           # cambio, al final deja "FINAL" y se detiene; la siguiente ejecución fuera
           # de horario apaga el directo.
           ESPERA_HORAS = 18      # horas antes del saque desde las que un robot se queda esperando
-          RELEVO_MIN = 300       # min que aguanta un robot esperando antes de lanzar a su relevo
+          RELEVO_MIN = 1       # min que aguanta un robot esperando antes de lanzar a su relevo
           LIMITE_MIN = 340       # min de vida útil de un robot (timeout-minutes: 350)
           CONSULTA_ANTES = 10    # min antes del saque en que empieza a consultar la API
           FIN_VENTANA = 135      # min después del saque en que se deja de vigilar
