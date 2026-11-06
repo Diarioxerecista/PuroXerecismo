@@ -655,6 +655,11 @@
   }
   .card{cursor:pointer;}
   .tit-link{color:inherit;text-decoration:none;}
+  .viaje-cartel{position:absolute;top:10px;right:10px;z-index:800;max-width:calc(100% - 70px);background:var(--azul-profundo);color:#fff;font-family:'Space Mono',monospace;font-size:11px;font-weight:700;padding:6px 10px;border-radius:3px;border-bottom:2px solid var(--oro);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none;box-shadow:0 2px 8px rgba(0,0,0,.3);}
+  .viaje-volver{position:absolute;bottom:22px;left:10px;z-index:800;background:#fff;color:var(--azul-profundo);border:1px solid var(--azul-profundo);border-radius:3px;font-family:'Space Mono',monospace;font-size:12px;font-weight:700;padding:6px 10px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.3);}
+  .viaje-cabeza{width:34px;height:34px;display:flex;align-items:center;justify-content:center;filter:drop-shadow(0 2px 5px rgba(0,0,0,.45));}
+  .viaje-cabeza img{width:100%;height:100%;object-fit:contain;}
+  .viaje-cabeza.avion{font-size:26px;line-height:1;}
   .card .img-box{
     aspect-ratio:16/10;
     background:linear-gradient(135deg,var(--azul-medio),var(--azul-claro));
@@ -1448,10 +1453,11 @@
     <button class="navbtn active" data-view="portada">Portada</button>
     <button class="navbtn" data-view="noticias">Noticias</button>
     <button class="navbtn" data-view="cronicas">Crónicas</button>
-    <button class="navbtn" data-view="calendario">Calendario y resultados</button>
+    <button class="navbtn" data-view="calendario">Calendario</button>
     <button class="navbtn" data-view="clasificacion">Clasificación</button>
-    <button class="navbtn" data-view="historias">Historias Xerecistas</button>
-    <button class="navbtn" data-view="opinion">Artículo de Opinión</button>
+    <button class="navbtn" data-view="desplazamientos">Desplazamientos</button>
+    <button class="navbtn" data-view="historias">Historias</button>
+    <button class="navbtn" data-view="opinion">Opinión</button>
     <button class="navbtn" data-view="plantilla">Plantilla</button>
     <a class="navbtn navbtn-x" href="https://x.com/Puroxerecismo" target="_blank" rel="noopener noreferrer">𝕏</a>
     <button class="navbtn navbtn-lang" id="langToggle" onclick="cambiarIdioma()" title="Switch language / Cambiar idioma">🇬🇧 EN</button>
@@ -1722,6 +1728,7 @@
       navButtons.forEach(b=>b.classList.remove('active'));
       btn.classList.add('active');
       const view = btn.dataset.view;
+      if(view === 'desplazamientos'){ openMapaRivales(); return; }
       showView(view);
       if(view === 'portada'){
         history.pushState({view}, '', window.location.pathname);
@@ -2549,6 +2556,7 @@
   const TEXTOS = {
     es: {
       portada: 'Portada', noticias: 'Noticias', cronicas: 'Crónicas',
+      navCalendario: 'Calendario', navHistorias: 'Historias', navOpinion: 'Opinión',
       calendario: 'Calendario y resultados', clasificacion: 'Clasificación',
       historias: 'Historias Xerecistas', historiasVacio: 'Esta sección reunirá historias, entrevistas y relatos del xerecismo más allá de la actualidad del día a día. Muy pronto empezaremos a publicar el primer contenido.',
       opinion: 'Artículo de Opinión', opinionVacio: 'Próximamente, artículos de opinión sobre la actualidad del Xerez CD y el xerecismo. Muy pronto empezaremos a publicar el primer contenido.',
@@ -2572,11 +2580,11 @@
       mapaLiga: 'Segunda Federación · Grupo IV', mapaFijo: 'Fijo', mapaEyebrow: 'Competición · Grupo IV 26/27', mapaVer: 'Ver mapa →', mapaVolver: '← Volver',
       mapaCardTitulo: 'Mapa interactivo de rivales — distancias desde Chapín',
       mapaCardTexto: '17 rivales geolocalizados con los kilómetros desde Chapín.',
-      mapaTitulo: 'Rivales del Xerez CD — Grupo IV 26/27',
-      mapaLead: '17 rivales geolocalizados. Haz clic en cada marcador para ver los kilómetros por carretera desde el Estadio Municipal de Chapín (en línea recta para los equipos canarios).',
+      mapaTitulo: 'Desplazamientos del Xerez CD',
+      mapaLead: 'Pulsa un escudo y mira el viaje desde Chapín hasta cada campo del Grupo IV.',
       mapaTemporada: 'Temporada 2026/27', mapaZonas: '18 equipos · Andalucía, Extremadura y Canarias',
       mapaEquipos: 'Equipos', mapaJornadas: 'Jornadas', mapaInicio: 'Inicio',
-      mapaLeyenda: 'Por carretera; en línea recta para Canarias', mapaDesde: 'desde Chapín', mapaCalculando: 'Calculando...',
+      mapaLeyenda: 'Por carretera; en línea recta para Canarias', desplazamientos: 'Desplazamientos', mapaPulsa: 'Pulsa un escudo y mira el viaje', mapaVerTodos: '↺ Ver todos', mapaDesde: 'desde Chapín', mapaCalculando: 'Calculando...',
       mapaIsla: '✈️ distancia aérea (isla)', mapaCarretera: '🚗 por carretera', mapaAprox: 'distancia aprox.',
       calendarioTitulo: 'Calendario y resultados',
       calendarioIntro: 'Calendario oficial del Xerez CD en el Grupo IV de Segunda Federación. Temporada 2026/27. Los resultados se irán actualizando jornada a jornada.',
@@ -2586,6 +2594,7 @@
     },
     en: {
       portada: 'Home', noticias: 'News', cronicas: 'Match reports',
+      navCalendario: 'Fixtures', navHistorias: 'Stories', navOpinion: 'Opinion',
       calendario: 'Fixtures & results', clasificacion: 'Standings',
       historias: 'Xerecista Stories', historiasVacio: 'This section will bring together stories, interviews and tales from the Xerez fanbase, beyond day-to-day news. We will start publishing content here very soon.',
       opinion: 'Opinion Piece', opinionVacio: 'Coming soon, opinion pieces about Xerez CD and the Xerez fanbase. We will start publishing content here very soon.',
@@ -2609,11 +2618,11 @@
       mapaLiga: 'Segunda Federación · Group IV', mapaFijo: 'Pinned', mapaEyebrow: 'Competition · Group IV 26/27', mapaVer: 'See map →', mapaVolver: '← Back',
       mapaCardTitulo: 'Interactive map of opponents — distances from Chapín',
       mapaCardTexto: '17 opponents geolocated with the distance in kilometres from Chapín.',
-      mapaTitulo: 'Xerez CD opponents — Group IV 26/27',
-      mapaLead: '17 opponents geolocated. Click on each marker to see the road distance in kilometres from the Estadio Municipal de Chapín (straight-line distance for the Canary Islands teams).',
+      mapaTitulo: 'Xerez CD away trips',
+      mapaLead: 'Tap a crest and watch the trip from Chapín to every ground in Group IV.',
       mapaTemporada: '2026/27 season', mapaZonas: '18 teams · Andalusia, Extremadura and the Canary Islands',
       mapaEquipos: 'Teams', mapaJornadas: 'Matchdays', mapaInicio: 'Start',
-      mapaLeyenda: 'By road; straight-line for the Canary Islands', mapaDesde: 'from Chapín', mapaCalculando: 'Calculating...',
+      mapaLeyenda: 'By road; straight-line for the Canary Islands', desplazamientos: 'Away trips', mapaPulsa: 'Tap a crest to watch the trip', mapaVerTodos: '↺ See all', mapaDesde: 'from Chapín', mapaCalculando: 'Calculating...',
       mapaIsla: '✈️ air distance (island)', mapaCarretera: '🚗 by road', mapaAprox: 'approx. distance',
       calendarioTitulo: 'Fixtures and results',
       calendarioIntro: 'Official Xerez CD fixtures in Group IV of the Segunda Federación. 2026/27 season. Results will be updated matchday by matchday.',
@@ -2633,10 +2642,11 @@
     document.querySelector('[data-view="portada"]').textContent = t('portada');
     document.querySelector('[data-view="noticias"]').textContent = t('noticias');
     document.querySelector('[data-view="cronicas"]').textContent = t('cronicas');
-    document.querySelector('[data-view="calendario"]').textContent = t('calendario');
+    document.querySelector('[data-view="calendario"]').textContent = t('navCalendario');
     document.querySelector('[data-view="clasificacion"]').textContent = t('clasificacion');
-    document.querySelector('[data-view="historias"]').textContent = t('historias');
-    document.querySelector('[data-view="opinion"]').textContent = t('opinion');
+    document.querySelector('[data-view="historias"]').textContent = t('navHistorias');
+    document.querySelector('[data-view="desplazamientos"]').textContent = t('desplazamientos');
+    document.querySelector('[data-view="opinion"]').textContent = t('navOpinion');
     document.querySelector('#view-historias .section-head h2').textContent = t('historias');
     document.querySelector('#view-historias p').textContent = t('historiasVacio');
     document.querySelector('#view-opinion .section-head h2').textContent = t('opinion');
@@ -3120,13 +3130,15 @@ function initMapaRivales(){
     c.style.marginLeft = m._icon.style.marginLeft || '0px';
     c.style.marginTop  = m._icon.style.marginTop  || '0px';
   });
-  equipos.forEach(function(e,i){
+  var rutas = {};
+  function ponerKm(){ equipos.forEach(function(e,i){
     if(e.home) return;
     var m=markers[i];
     if(ISLAS_CANARIAS.indexOf(e.n)>=0){
       var aer=kmAereo(JEREZ[0],JEREZ[1],e.lat,e.lon);
       m.setPopupContent(popupRival(e.n,'~'+aer+' km',t('mapaIsla')));
     } else {
+      if(rutas[e.n]){ m.setPopupContent(popupRival(e.n,rutas[e.n].km+' km',t('mapaCarretera'))); return; }
       fetchKmCarretera(JEREZ[1],JEREZ[0],e.lon,e.lat).then(function(km){
         if(km) m.setPopupContent(popupRival(e.n,km+' km',t('mapaCarretera')));
         else { var aer=kmAereo(JEREZ[0],JEREZ[1],e.lat,e.lon); m.setPopupContent(popupRival(e.n,'~'+aer+' km',t('mapaAprox'))); }
@@ -3135,6 +3147,105 @@ function initMapaRivales(){
         m.setPopupContent(popupRival(e.n,'~'+aer+' km',t('mapaAprox')));
       });
     }
+  }); }
+  fetch('rutas-rivales.json').then(function(r){ return r.json(); })
+    .then(function(d){ rutas = d || {}; }).catch(function(){})
+    .then(ponerKm);
+  activarViajes(map, equipos, markers, JEREZ, function(n){ return rutas[n]; });
+}
+
+// ===== Viaje animado: al pulsar un rival, el escudo del Xerez recorre la carretera
+// (rutas-rivales.json) o vuela si es Canarias; al llegar sale el bocadillo con los km.
+var _viajeId = 0;
+function activarViajes(map, equipos, markers, JEREZ, rutaDe){
+  _viajeId++;
+  var capas = [], boundsTodos = L.featureGroup(markers).getBounds().pad(0.08);
+  var cont = map.getContainer();
+  var quieto = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var cartel = L.DomUtil.create('div', 'viaje-cartel', cont);
+  cartel.textContent = t('mapaPulsa');
+  var volver = L.DomUtil.create('button', 'viaje-volver', cont);
+  volver.type = 'button'; volver.textContent = t('mapaVerTodos'); volver.style.display = 'none';
+  L.DomEvent.disableClickPropagation(volver);
+
+  function limpiar(){
+    capas.forEach(function(c){ map.removeLayer(c); });
+    capas = [];
+  }
+  L.DomEvent.on(volver, 'click', function(){
+    _viajeId++; limpiar(); map.closePopup();
+    volver.style.display = 'none'; cartel.textContent = t('mapaPulsa');
+    map.flyToBounds(boundsTodos, {duration:0.8});
+  });
+
+  // Tramo recorrido hasta la fraccion f (0-1) medida en distancia
+  function medir(p){
+    var d = [0];
+    for(var i=1;i<p.length;i++) d.push(d[i-1] + L.latLng(p[i-1]).distanceTo(p[i]));
+    return d;
+  }
+  function tramo(p, d, f){
+    var obj = d[d.length-1]*f, i = 1;
+    while(i < p.length-1 && d[i] < obj) i++;
+    var u = (obj-d[i-1]) / ((d[i]-d[i-1]) || 1);
+    var punta = [p[i-1][0]+(p[i][0]-p[i-1][0])*u, p[i-1][1]+(p[i][1]-p[i-1][1])*u];
+    return { linea: p.slice(0,i).concat([punta]), punta: punta };
+  }
+  // Curva de avion hasta Canarias (no hay carretera)
+  function arco(a, b){
+    var c = [(a[0]+b[0])/2 + 3.2, (a[1]+b[1])/2 - 2.2], out = [];
+    for(var i=0;i<=60;i++){
+      var u=i/60, v=1-u;
+      out.push([v*v*a[0]+2*v*u*c[0]+u*u*b[0], v*v*a[1]+2*v*u*c[1]+u*u*b[1]]);
+    }
+    return out;
+  }
+
+  equipos.forEach(function(e,i){
+    if(e.home) return;
+    var m = markers[i];
+    m.off('click', m._openPopup);
+    m.on('click', function(){
+      var id = ++_viajeId;
+      limpiar(); map.closePopup();
+      var isla = ISLAS_CANARIAS.indexOf(e.n) >= 0, datos = rutaDe(e.n);
+      var p = isla ? arco(JEREZ,[e.lat,e.lon]) : (datos ? datos.ruta : [JEREZ,[e.lat,e.lon]]);
+      var km = (!isla && datos) ? datos.km : kmAereo(JEREZ[0],JEREZ[1],e.lat,e.lon);
+      var pre = (!isla && datos) ? '' : '~';
+      var d = medir(p), dur = quieto ? 1 : (isla ? 2800 : 1800 + Math.min(km,340)/340*1200);
+      volver.style.display = 'block';
+      cartel.textContent = e.n;
+
+      var fondo = L.polyline([], {color:'#fff', weight:isla?5:8, opacity:0.9, interactive:false}).addTo(map);
+      var linea = L.polyline([], {color:isla?'#C9A24B':'#0D2C54', weight:isla?3:5, dashArray:isla?'8 8':null, lineCap:'round', lineJoin:'round', interactive:false}).addTo(map);
+      var cabeza = L.marker(JEREZ, {interactive:false, zIndexOffset:3000, icon:L.divIcon({className:'',
+        html: isla ? '<div class="viaje-cabeza avion">✈️</div>'
+                   : '<div class="viaje-cabeza"><img src="fotos/escudos/escudo-xerez-cd-hd.png" alt=""></div>',
+        iconSize:[34,34], iconAnchor:[17,17]})}).addTo(map);
+      capas = [fondo, linea, cabeza];
+
+      var arrancado = false;
+      function arrancar(){
+        if(arrancado || id !== _viajeId) return;
+        arrancado = true;
+        var t0 = performance.now();
+        (function paso(ahora){
+          if(id !== _viajeId) return;
+          var x = Math.min((ahora-t0)/dur, 1);
+          var f = x<0.5 ? 2*x*x : 1-Math.pow(-2*x+2,2)/2;
+          var r = tramo(p, d, f);
+          fondo.setLatLngs(r.linea); linea.setLatLngs(r.linea); cabeza.setLatLng(r.punta);
+          cartel.textContent = e.n + ' · ' + pre + Math.round(km*f) + ' km';
+          if(x < 1) requestAnimationFrame(paso);
+          else m.openPopup();
+        })(t0);
+      }
+      map.once('moveend', arrancar);
+      setTimeout(arrancar, 1300);
+      var estrecho = cont.clientWidth < 500;
+      map.flyToBounds(L.latLngBounds(p), {paddingTopLeft: estrecho ? [30,70] : [80,130], paddingBottomRight: estrecho ? [30,40] : [80,50], duration:0.9, maxZoom:12});
+    });
   });
 }
 </script>
