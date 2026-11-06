@@ -151,7 +151,7 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - index.html tiene una lista de respaldo `COLABORADORES_RESPALDO`: si se añade o quita un colaborador, cambiarlo también ahí. Un patrocinador nunca debe desaparecer de la portada por error.
 
 ## Portada (`index.html`)
-- Lee los JSON; no hace falta tocarla para publicar.
+- Lee los JSON; para publicar solo hay que refrescar sus titulares: `python3 -I scripts/titulares_portada.py` (17 titulares en HTML normal dentro de `#loUltimoGrid`, para que Google los lea sin esperar a los JSON; la portada los sustituye al cargar). Ejecutarlo al publicar o retirar un artículo; `comprobar.py` falla si están desfasados.
 - Textos de interfaz ES/EN en el diccionario de traducciones del propio index.html: cambiar ambos idiomas.
 - Secciones (`<section class="view" id="view-…">`): noticias, cronicas, calendario, clasificacion, historias, opinion, plantilla (cromos), contacto, articulo.
 - Portada excluye `"historias"` y `"opinion"` puros; `["opinion","noticia"]` sí sale.

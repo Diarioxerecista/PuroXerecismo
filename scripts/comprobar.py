@@ -48,6 +48,8 @@ p = re.search(r'const PARTIDOS\s*=\s*\[(.*?)\];', idx, re.S).group(1)
 rows = re.findall(r"\{fecha:'([^']+)',jornada:'([^']+)',\s*local:\s*('(?:[^'\\]|\\.)*'),\s*visitante:\s*('(?:[^'\\]|\\.)*')(.*?)\}", p)
 oficiales = {ast.literal_eval(x) for r in rows if "amistoso" not in r[4] for x in (r[2], r[3])}
 err += [f'rival oficial sin escudo {t}' for t in oficiales - set(esc)]
+import subprocess
+if subprocess.run([sys.executable, '-I', 'scripts/titulares_portada.py', '--check']).returncode: err.append('titulares de portada desfasados: python3 -I scripts/titulares_portada.py')
 import xml.dom.minidom
 try: xml.dom.minidom.parseString(sm.encode())
 except Exception as e: err.append(f'sitemap XML inválido: {e}')
