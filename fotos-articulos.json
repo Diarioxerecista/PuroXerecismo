@@ -158,5 +158,10 @@
   "art126": {
     "foto": "fotos/publicadas/aficion-xerecista-ultra-sherry-archivo.jpg",
     "creditoFoto": "Foto: Archivo"
+  },
+  "art127": {
+    "foto": "fotos/publicadas/sanluqueno-xerez-j10-julito-celebra.jpg",
+    "creditoFoto": "Foto: Diario Xerecista",
+    "objectPosition": "center 45%"
   }
 }
