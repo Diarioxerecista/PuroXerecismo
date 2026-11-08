@@ -68,6 +68,14 @@
       "gc": 15
     },
     {
+      "nombre": "Atlético Central",
+      "escudo": "fotos/escudos/atletico-central.png",
+      "pj": 10,
+      "pts": 15,
+      "gf": 13,
+      "gc": 15
+    },
+    {
       "nombre": "Sevilla Atlético",
       "escudo": "fotos/escudos/sevilla-atletico.png",
       "pj": 10,
@@ -90,14 +98,6 @@
       "pts": 12,
       "gf": 11,
       "gc": 10
-    },
-    {
-      "nombre": "Atlético Central",
-      "escudo": "fotos/escudos/atletico-central.png",
-      "pj": 9,
-      "pts": 12,
-      "gf": 12,
-      "gc": 15
     },
     {
       "nombre": "Atlético Sanluqueño",
@@ -126,10 +126,10 @@
     {
       "nombre": "Antoniano",
       "escudo": "fotos/escudos/antoniano.png",
-      "pj": 9,
+      "pj": 10,
       "pts": 6,
       "gf": 10,
-      "gc": 18
+      "gc": 19
     },
     {
       "nombre": "Tamaraceite",
@@ -149,7 +149,6 @@
     }
   ],
   "pendientes": [
-    "Atlético Central - Antoniano",
     "Betis B - Tenerife B"
   ]
 }
