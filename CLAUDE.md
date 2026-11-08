@@ -156,6 +156,8 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - Secciones (`<section class="view" id="view-…">`): noticias, cronicas, calendario, clasificacion, historias, opinion, plantilla (cromos), contacto, articulo.
 - Pestaña Desplazamientos (`openMapaRivales`): mapa de rivales con viaje animado; los trazados y km por carretera salen de `rutas-rivales.json` (sacados de OSRM, 14 rivales peninsulares). Canarias va en línea curva con avión. Si cambia un rival en otra temporada, añadir su trazado a ese archivo.
 - Portada excluye `"historias"` y `"opinion"` puros; `["opinion","noticia"]` sí sale.
+- La destacada es la más reciente (fecha, luego id). Un artículo con `"noPrincipal": true` (ES y EN) nunca sale de destacado: pasa a la barra lateral (se usa en las declaraciones que se publican tras la crónica, para que la principal siga siendo la crónica).
+- Rotación: si el más antiguo es `["opinion","noticia"]`, se deja en `"opinion"` (sigue en la sección Opinión) en vez de borrarlo, igual que con `["historias","noticia"]`.
 - Ya estamos en temporada: no usar la palabra "Pretemporada" en etiquetas de interfaz.
 - Bloque bajo la noticia principal (columna del destacado, en este orden):
   1. Franja "Espacio publicitario · Pon tu publicidad aquí" con el botón a Contacto. Cuando haya un patrocinador para ese hueco, se sustituye por su banner.

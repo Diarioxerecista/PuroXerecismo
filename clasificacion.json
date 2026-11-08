@@ -1,39 +1,47 @@
 {
-  "actualizado": "2026-11-03",
-  "jornada": 9,
+  "actualizado": "2026-11-08",
+  "jornada": 10,
   "fuente": "futbolme",
   "equipos": [
     {
       "nombre": "Recreativo de Huelva",
       "escudo": "fotos/escudos/recreativo.png",
-      "pj": 9,
-      "pts": 20,
-      "gf": 20,
-      "gc": 7
-    },
-    {
-      "nombre": "Ciudad de Lucena",
-      "escudo": "fotos/escudos/ciudad-lucena.png",
-      "pj": 9,
-      "pts": 18,
-      "gf": 16,
-      "gc": 9
+      "pj": 10,
+      "pts": 21,
+      "gf": 21,
+      "gc": 8
     },
     {
       "nombre": "Don Benito",
       "escudo": "fotos/escudos/don-benito.png",
-      "pj": 9,
-      "pts": 17,
-      "gf": 15,
-      "gc": 11
+      "pj": 10,
+      "pts": 20,
+      "gf": 18,
+      "gc": 13
+    },
+    {
+      "nombre": "Ciudad de Lucena",
+      "escudo": "fotos/escudos/ciudad-lucena.png",
+      "pj": 10,
+      "pts": 19,
+      "gf": 17,
+      "gc": 10
     },
     {
       "nombre": "Badajoz",
       "escudo": "fotos/escudos/badajoz.png",
-      "pj": 9,
-      "pts": 16,
-      "gf": 9,
-      "gc": 6
+      "pj": 10,
+      "pts": 17,
+      "gf": 10,
+      "gc": 7
+    },
+    {
+      "nombre": "Xerez CD",
+      "escudo": "fotos/escudos/escudo-xerez-cd-hd.png",
+      "pj": 10,
+      "pts": 15,
+      "gf": 12,
+      "gc": 7
     },
     {
       "nombre": "Betis B",
@@ -46,50 +54,42 @@
     {
       "nombre": "Mijas Las Lagunas",
       "escudo": "fotos/escudos/las-lagunas.png",
-      "pj": 9,
-      "pts": 14,
-      "gf": 17,
-      "gc": 13
-    },
-    {
-      "nombre": "Sevilla Atlético",
-      "escudo": "fotos/escudos/sevilla-atletico.png",
-      "pj": 9,
-      "pts": 13,
-      "gf": 15,
-      "gc": 13
-    },
-    {
-      "nombre": "Linares Deportivo",
-      "escudo": "fotos/escudos/linares.png",
-      "pj": 9,
-      "pts": 13,
-      "gf": 10,
-      "gc": 10
-    },
-    {
-      "nombre": "Salerm Puente Genil",
-      "escudo": "fotos/escudos/puente-genil.png",
-      "pj": 9,
-      "pts": 12,
-      "gf": 9,
-      "gc": 7
-    },
-    {
-      "nombre": "Xerez CD",
-      "escudo": "fotos/escudos/escudo-xerez-cd-hd.png",
-      "pj": 9,
-      "pts": 12,
-      "gf": 8,
-      "gc": 7
+      "pj": 10,
+      "pts": 15,
+      "gf": 18,
+      "gc": 14
     },
     {
       "nombre": "Estepona",
       "escudo": "fotos/escudos/estepona.png",
-      "pj": 9,
-      "pts": 12,
-      "gf": 13,
+      "pj": 10,
+      "pts": 15,
+      "gf": 18,
       "gc": 15
+    },
+    {
+      "nombre": "Sevilla Atlético",
+      "escudo": "fotos/escudos/sevilla-atletico.png",
+      "pj": 10,
+      "pts": 14,
+      "gf": 18,
+      "gc": 16
+    },
+    {
+      "nombre": "Linares Deportivo",
+      "escudo": "fotos/escudos/linares.png",
+      "pj": 10,
+      "pts": 14,
+      "gf": 13,
+      "gc": 13
+    },
+    {
+      "nombre": "Salerm Puente Genil",
+      "escudo": "fotos/escudos/puente-genil.png",
+      "pj": 10,
+      "pts": 12,
+      "gf": 11,
+      "gc": 10
     },
     {
       "nombre": "Atlético Central",
@@ -102,10 +102,10 @@
     {
       "nombre": "Atlético Sanluqueño",
       "escudo": "fotos/escudos/sanluqueno.png",
-      "pj": 9,
+      "pj": 10,
       "pts": 10,
       "gf": 15,
-      "gc": 14
+      "gc": 18
     },
     {
       "nombre": "Tenerife B",
@@ -118,10 +118,10 @@
     {
       "nombre": "Marbella",
       "escudo": "fotos/escudos/marbella.png",
-      "pj": 9,
-      "pts": 7,
-      "gf": 6,
-      "gc": 10
+      "pj": 10,
+      "pts": 10,
+      "gf": 8,
+      "gc": 11
     },
     {
       "nombre": "Antoniano",
@@ -134,18 +134,22 @@
     {
       "nombre": "Tamaraceite",
       "escudo": "fotos/escudos/tamaraceite.png",
-      "pj": 9,
+      "pj": 10,
       "pts": 6,
       "gf": 8,
-      "gc": 18
+      "gc": 23
     },
     {
       "nombre": "Las Palmas Atlético",
       "escudo": "fotos/escudos/las-palmas-atletico.png",
-      "pj": 9,
+      "pj": 10,
       "pts": 5,
-      "gf": 4,
-      "gc": 16
+      "gf": 5,
+      "gc": 18
     }
+  ],
+  "pendientes": [
+    "Atlético Central - Antoniano",
+    "Betis B - Tenerife B"
   ]
 }

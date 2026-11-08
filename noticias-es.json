@@ -765,10 +765,7 @@
   },
   "art107": {
     "fecha": "2026-10-27",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
+    "categoria": "opinion",
     "eyebrow": "Opinión · Carlos López, periodista",
     "title": "Sí, vengo de Primera Regional",
     "lead": "Veo que algunos, allá por la Caleta, preguntan al xerecismo qué se ha sentido en Primera Regional. Y yo, que con los años cada vez encuentro más difícil agachar la cabeza y callar, no puedo evitar replicar.",
@@ -1168,8 +1165,34 @@
       "<figure class=\"cc-fig\"><img src=\"fotos/publicadas/sanluqueno-xerez-j10-peregrina.jpg\" alt=\"Mario Peregrina, del Xerez CD, presiona a un jugador del Atlético Sanluqueño\" loading=\"lazy\"><figcaption><b>Peregrina, encima.</b> Mario Peregrina presiona a un jugador del Sanluqueño. <i>Foto: Diario Xerecista</i></figcaption></figure>",
       "Jaime López y Jaime Fernández salieron en el 68' por Peregrina y Zeki. El cambio funcionó enseguida. En el 76', Jaime López, recién entrado, marcó con la zurda un balón que le puso Julito en el área (0-2). Un minuto después, Julito remató en el segundo palo un centro de Jaime López (0-3). En el 78' firmó el hat-trick con la derecha desde dentro del área (0-4). La afición visitante terminó cantando en El Palmar.",
       "<strong>Mirando arriba</strong>",
-      "Con tres victorias seguidas (Marbella, Tamaraceite y Sanluqueño), el Xerez CD llega a 15 puntos. Falta el resto de la jornada para saber su puesto, pero ya está metido en la pelea por el play off. El próximo partido es el domingo 15 de noviembre a las 18:00 ante el Antoniano, en el estadio Pedro Garrido.",
-      "<em>Antes del partido se guardó un minuto de silencio en memoria de Jesús de Miguel, delantero del Tenerife fallecido esta semana. En el minuto 9 la grada le dedicó una larga ovación.</em>"
+      "Con tres victorias seguidas (Marbella, Tamaraceite y Sanluqueño), el Xerez CD llega a 15 puntos y, a falta de dos partidos de la jornada, es quinto, en puestos de play off. El próximo partido es el domingo 15 de noviembre a las 18:00 ante el Antoniano, en el estadio Pedro Garrido.",
+      "<strong>Lo que dijo Segovia</strong>",
+      "\"Un equipo que quiere atacar necesita defender mejor. Un equipo se construye desde el orden defensivo\", explicó el entrenador, que pidió calma pese a la racha: \"Quedan 24 jornadas para disputar\". <a href=\"/noticias/articulos/2026-11/segovia-un-equipo-se-construye-desde-el-orden-defensivo/\">Lea aquí todas sus declaraciones</a>.",
+      "<em>Antes del partido se guardó un minuto de silencio en memoria de Jesús de Miguel, delantero del Tenerife fallecido esta semana. En el minuto 9 la grada le dedicó una larga ovación.</em>",
+      "<div class=\"cc-clasi\"><span class=\"cc-flecha\">▲</span><span class=\"cc-pos\">5.º</span><p><b>El Xerez sube cinco puestos</b>, de 10.º a 5.º, con 15 puntos, y entra en puestos de play off. Empata con el Betis B, que tiene un partido menos.<small>Clasificación provisional de la jornada 10 (faltan Atlético Central-Antoniano y Betis B-Tenerife B)</small></p></div>"
+    ]
+  },
+  "art128": {
+    "fecha": "2026-11-08",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Declaraciones",
+    "title": "Segovia: \"Un equipo se construye desde el orden defensivo\"",
+    "lead": "El entrenador del Xerez CD se mostró satisfecho tras la goleada (0-4) en El Palmar. Destacó la portería a cero, la superioridad de su equipo en la segunda parte y el premio a Saúl y Salas, pero no quiere mirar la clasificación: \"Quedan 24 jornadas\".",
+    "noPrincipal": true,
+    "body": [
+      "Abel Segovia valoró el triunfo ante el Atlético Sanluqueño como un paso más en el crecimiento del equipo. El Xerez suma tres victorias seguidas, pero el técnico sevillano no quiso dar importancia a la tabla a estas alturas de la temporada.",
+      "<strong>Un mal arranque y un parón que no ayudó</strong>",
+      "Segovia reconoció que a su equipo le costó entrar en el partido: \"Nos ha costado los primeros cinco minutos. No hemos sido nosotros y estábamos a verlas venir\". Después llegó un buen tramo con balón, que se cortó con la detención del partido para atender a un aficionado en la grada: \"Nos hemos podido adelantar, pero el parón por lo ocurrido con un aficionado nos ha venido bastante mal. Estábamos deseando llegar al medio tiempo porque con el aire nos ha costado\".",
+      "<strong>Superiores tras el descanso</strong>",
+      "En la segunda parte, con el viento a favor, el Xerez dominó: \"Hemos sido bastante superiores, sabemos matar el partido y jugar con el aire\". Aun así, al técnico le habría gustado tener más el balón: \"Somos un equipo que propone bastante en ataque. Pero bueno, al final contento con el resultado\".",
+      "<strong>El gol llega con el trabajo</strong>",
+      "Tras un arranque de liga con pocos goles, el equipo ha marcado siete en los dos últimos partidos. \"El trabajo da sus frutos. Generamos mucho y no estábamos teniendo acierto. Cuando hemos empezado a tenerlo estamos siendo superiores a los contrarios\", explicó. Pero pidió calma: \"Queda mucho. Quedan 24 jornadas para disputar. Damos un pasito y hacemos que la confianza de cara a gol crezca\".",
+      "<strong>La portería a cero, la base</strong>",
+      "Segovia dio mucho valor a no encajar. El Xerez solo ha recibido siete goles en diez jornadas. \"Un equipo que quiere conseguir cosas es importante que mantenga la portería a cero. Un equipo que quiere atacar necesita defender mejor. Un equipo se construye desde el orden defensivo\", afirmó.",
+      "<strong>Premio para Saúl y Salas</strong>",
+      "Saúl y Salas jugaron sus primeros minutos de la temporada. \"Necesitan sentirse importantes. Ellos me dan mucho y yo voy a darles. Es un premio al trabajo que están haciendo, que lo están haciendo muy bien\", dijo el técnico.",
+      "<strong>Rubén Mesa, el miércoles</strong>",
+      "Sobre la ausencia de Rubén Mesa, Segovia explicó que el delantero \"está lesionado\". Tuvo molestias en el partido de Copa ante el Cádiz y no pudo jugar en Tamaraceite: \"Esta semana estaba recuperándose y el próximo miércoles ya estará entrenando con normalidad\"."
     ]
   }
 }

@@ -160,6 +160,11 @@ h1{
 .cc-tag{background:#b3262e;color:#fff;font-weight:800;padding:4px 10px;font-size:14px;white-space:nowrap}
 .cc-nom{background:#EDE9E0;font-weight:800;padding:4px 10px;font-size:14px;flex:1}
 .cc-caja p{padding:8px 10px}
+.cc-clasi{display:flex;align-items:center;gap:12px;margin:22px 0 0;padding:12px 14px;background:#fff;border:1px solid #d9d3c5;border-left:6px solid #b3262e;clear:both}
+.cc-flecha{font-size:26px;color:#1f8a4c;font-weight:900;line-height:1}
+.cc-pos{font-family:'Fraunces',serif;font-weight:900;font-size:30px;color:#0D2C54;line-height:1;white-space:nowrap}
+.cc-clasi p{margin:0;font-size:15px;line-height:1.5}
+.cc-clasi small{display:block;color:#4A4A47;font-size:12px;margin-top:2px}
 .cc-fig{margin:6px 0 20px}
 .cc-fig img{width:100%;display:block;border-radius:2px}
 .cc-fig figcaption{font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;font-size:13px;color:#4A4A47;padding-top:6px;line-height:1.4}
