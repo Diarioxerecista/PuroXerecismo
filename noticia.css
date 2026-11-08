@@ -139,7 +139,7 @@ h1{
 .cc-g+.cc-g{background:#1B4D8F}
 .cc-onces{display:grid;grid-template-columns:1fr 1fr;gap:0 10px;font-size:12.5px}
 .cc-onces ul{list-style:none;margin:0;padding:0}
-.cc-onces li{padding:2px 0;border-bottom:1px solid #d9d3c5;margin:0}
+.cc-onces li{padding:2px 0;border-bottom:1px solid #d9d3c5;margin:0;display:flow-root}
 .cc-onces li.dt{font-weight:800;text-transform:uppercase;font-size:11.5px;border:0;padding-top:6px}
 .cc-onces li.sup{color:#4A4A47;padding-left:10px;font-size:12px;background:#f1ede4}
 .cc-am{display:inline-block;width:8px;height:11px;background:#e8c21c;border-radius:1px;margin-right:4px;vertical-align:-1px}
