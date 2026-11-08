@@ -175,8 +175,11 @@ h1{
 .cc-byline{display:block;border-bottom:1px solid #d9d3c5;padding-bottom:8px;margin-bottom:14px}
 .cc-texto h2{font-family:'Fraunces',serif;font-size:22px;color:var(--azul-profundo);margin:26px 0 10px}
 .cc-texto > p:first-child::first-letter{float:left;font-family:'Fraunces',serif;font-weight:900;font-size:64px;line-height:.85;padding:4px 8px 0 0;color:var(--azul-profundo)}
-@media(max-width:820px){
+@media(max-width:1000px){
+  .cc-grid{grid-template-columns:270px minmax(0,1fr);gap:22px}
+  .n-article.cc-wide{padding-left:18px;padding-right:18px}
+}
+@media(max-width:700px){
   .cc-grid{grid-template-columns:minmax(0,1fr);gap:20px}
-  .cc-grid aside{order:2}
   .cc-sub{font-size:17px}
 }
