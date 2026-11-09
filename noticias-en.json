@@ -778,28 +778,6 @@
     ],
     "autor": "Carlos López, journalist"
   },
-  "art109": {
-    "fecha": "2026-10-27",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
-    "title": "Abel Segovia: \"Children should not have to see things they should not see\"",
-    "lead": "The Xerez CD coach wants the Copa del Rey derby against Cádiz CF to be a celebration of football and an example for the youngest fans. He believes his team can compete against a Segunda División side, announces changes to the line-up and admits that the state of the Chapín pitch worries him.",
-    "body": [
-      "Xerez CD host Cádiz CF at Chapín this Wednesday at 21:00, in a Copa del Rey tie that has generated great anticipation. At the pre-match press conference, Abel Segovia argued that his squad has the tools to take on opponents from a higher division.",
-      "<strong>A message for both sets of fans</strong>",
-      "Segovia appealed to both sets of supporters, with a full house expected in the stands: \"I ask for it to be a celebration of football and for us to show the whole of Spain what we can become. Let there be cordiality, respect and rivalry properly understood. Above all, that children don't see things they shouldn't see; we have to set an example because we move a lot of people\".",
-      "<strong>Motivation, Xerez's weapon</strong>",
-      "The coach accepts that Cádiz, who play in the Segunda División, start as favourites. Even so, he believes the difference in motivation can level things out: \"There is a lot of desire and excitement, we can't wait for the match to come so we can do things well and compete against a great team. You are facing a Segunda team and for them coming here is not the motivation it should be, whereas for us it is the highest. Playing against our rival from the province is a showcase for the players\".",
-      "Nor is he worried that the atmosphere might weigh on his players: \"I'm not worried about over-excitement; in fact, I want us to have it, because in the end that gives you the spirit and the strength to keep going in the match when your strength runs out. We know who we are up against and what we are going to find. Hopefully it will be a celebration of football and at the end of the match we will be happier than them\".",
-      "<strong>Changes to the line-up</strong>",
-      "Cádiz could make many changes to their line-up. Segovia revealed that he too will give chances to players who have had fewer minutes in the league: \"We are also going to make changes because there are people who deserve it, who are working very well and I think they have to come in. I will pick the eleven who I believe will compete in the best conditions to go for the match\".",
-      "On the opponents, who have changed coach, he explained how they have prepared for the match: \"We had analysed Cádiz under the previous coach and we have had to watch the Ceuta match the other day, where they were able to recover from 0-1 down. They do quite a lot of good things, but we have explained to the players what we have to do to counter their strengths and take advantage of their weaknesses\".",
-      "<strong>The pitch, the main concern</strong>",
-      "The Chapín pitch is badly worn after several consecutive matches over the weekend. It worries the coach, although he refused to use it as an excuse: \"The pitch worries me, of course it does. We are a team that wants to have the ball, create numerical advantages from the back and have pace up front, and if the pitch is in poor condition it is harder for us. The other day there were moves in which, by having to take an extra touch, we gave the opponent time to get into position. It hurts both of us, but there is no excuse: eleven against eleven, the pitch will be however it has to be and you have to know what to do at every moment\".",
-      "<strong>\"We are lacking accuracy\"</strong>",
-      "Segovia also defended his team's start to the season, although he admitted they are short of goals: \"I don't agree that the team's true potential hasn't been seen. I think we have done very good things and we are getting better and better, although we are lacking accuracy in front of goal. In a one-off match we can compete with anyone and hopefully we will be up to it\"."
-    ]
-  },
   "art110": {
     "fecha": "2026-10-27",
     "categoria": "noticia",
@@ -1196,6 +1174,24 @@
       "<strong>A millstone</strong>",
       "Many things surely play a part: the opponent, the moment, the fixture list. But it is hard to believe that the distance has nothing to do with it. A huge stadium, with the stands far from the pitch, cools the atmosphere, and the team feels it.",
       "Chapín will be a millstone as long as it stays like this. And every trip, like yesterday's to El Palmar, reminds us of what we could have at home."
+    ]
+  },
+  "art130": {
+    "fecha": "2026-11-09",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Matchday 11",
+    "title": "Antoniano have Xerez's number: three wins in the last four meetings",
+    "lead": "Xerez CD host Atlético Antoniano on Sunday 15 November at 18:00 at the Pedro Garrido. Antoniano have beaten them in three of the last four meetings, although this time they arrive in the lower reaches of the table.",
+    "noPrincipal": true,
+    "body": [
+      "The recent record between the two sides clearly favours the Lebrija club. In the last four games, all in Segunda Federación, Antoniano have three wins and Xerez one, with six goals for Antoniano and four for the blue-and-whites.",
+      "<strong>Two defeats in 2024/25</strong>",
+      "The 2024/25 season ended without a point for Xerez against this opponent. On 6 October 2024 they lost 1-0 at the Estadio Municipal de Lebrija, and on 16 February 2025 they were beaten 1-2 at home.",
+      "<strong>One win and one defeat in 2025/26</strong>",
+      "Last season Xerez ended the run on 14 September 2025 with a 2-0 home win. In the second half of the season, on 25 January 2026, Antoniano won again, 3-2 at the Estadio Municipal de Lebrija. It was the last meeting between the two.",
+      "<strong>Two teams at different moments</strong>",
+      "This time the two sides arrive on opposite paths. Xerez are fifth, in the play-off places, with 15 points, after a 0-4 win over Atlético Sanluqueño at El Palmar. Antoniano are sixteenth, in the relegation zone, with 6 points. They have scored 10 goals and conceded 19, the second-worst defence in the group.",
+      "At home, Xerez have 7 points from five games. It will be their first official home game at the Pedro Garrido, because of the reseeding work on the Chapín pitch."
     ]
   }
 }
