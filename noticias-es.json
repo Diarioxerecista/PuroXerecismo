@@ -778,24 +778,6 @@
     ],
     "autor": "Carlos López, periodista"
   },
-  "art108": {
-    "fecha": "2026-10-27",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
-    "title": "El Xerez llega al derbi con el historial a su favor: 13 victorias ante el Cádiz",
-    "lead": "El Xerez CD ha ganado más veces de las que ha perdido ante el Cádiz CF. En los 36 partidos que han jugado en las principales categorías, entre casa y fuera, los azulinos suman 13 victorias, 11 empates y 12 derrotas. Los dos equipos vuelven a verse las caras este miércoles, a las 21:00, en Chapín, en la Copa del Rey.",
-    "body": [
-      "<strong>El rival de la provincia más repetido</strong>",
-      "Ningún otro club de la provincia se ha enfrentado tantas veces al Cádiz como el Xerez. El conjunto jerezano ocupa el puesto 28 en la lista histórica de rivales del club de Carranza, y es el primero de la provincia gaditana.",
-      "<strong>Un duelo casi a partes iguales</strong>",
-      "Los números dibujan un derbi muy igualado, pero con ligera ventaja xerecista. El Xerez ha sacado los tres puntos en 13 ocasiones, ha cedido en 12 y otras 11 veces el partido acabó en tablas.",
-      "<strong>El Cádiz, favorito pese a su año</strong>",
-      "Pero las categorías están para algo, y el Cádiz parte como favorito en la eliminatoria. Lo hace a pesar de un 2026 complicado, en el que ha sumado cinco victorias y ha tenido cinco entrenadores.",
-      "El Xerez, sin embargo, tendrá a su favor un Chapín que se espera a reventar y que llevará en volandas a los suyos, con la ilusión de superar una eliminatoria más, en la que podría tocarle un equipo de Champions.",
-      "<strong>Un nuevo capítulo en Chapín</strong>",
-      "El derbi suma ahora un nuevo episodio, esta vez en la Copa del Rey. El Xerez buscará mañana, ante su afición, ampliar esa ventaja en el historial y meterse en la siguiente ronda."
-    ]
-  },
   "art109": {
     "fecha": "2026-10-27",
     "categoria": "noticia",
@@ -1193,6 +1175,27 @@
       "Saúl y Salas jugaron sus primeros minutos de la temporada. \"Necesitan sentirse importantes. Ellos me dan mucho y yo voy a darles. Es un premio al trabajo que están haciendo, que lo están haciendo muy bien\", dijo el técnico.",
       "<strong>Rubén Mesa, el miércoles</strong>",
       "Sobre la ausencia de Rubén Mesa, Segovia explicó que el delantero \"está lesionado\". Tuvo molestias en el partido de Copa ante el Cádiz y no pudo jugar en Tamaraceite: \"Esta semana estaba recuperándose y el próximo miércoles ya estará entrenando con normalidad\"."
+    ]
+  },
+  "art129": {
+    "fecha": "2026-11-09",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinión · Análisis",
+    "title": "El Palmar nos enseñó lo que Chapín nos quita",
+    "lead": "La celebración de los goles en El Palmar, con jugadores y aficionados separados solo por una valla, deja una pregunta incómoda: ¿cuánto le cuesta al Xerez jugar en un estadio con pista de atletismo?",
+    "noPrincipal": true,
+    "body": [
+      "Basta con ver la foto. Los jugadores se abrazan tras uno de los goles y, a un par de metros, la grada celebra con ellos. No hay pista, no hay distancia. Equipo y afición celebran casi juntos, como si fueran una misma cosa.",
+      "Esa imagen se repite cada vez que viajamos con el equipo: campos donde la grada está pegada al césped y el aliento llega al jugador. Y uno no puede evitar imaginarse Chapín así: sin pistas de atletismo, con la gente a pie de campo y el equipo sintiendo de verdad a los suyos.",
+      "<strong>Los números no engañan</strong>",
+      "Chapín pesa. Lo ha hecho en las tres últimas temporadas, en las que el Xerez ha sacado más puntos fuera que en casa. Y esta campaña va por el mismo camino: en sus cinco partidos como local suma 7 puntos y 4 goles a favor; en sus cinco salidas, 8 puntos y 8 goles.",
+      "Las dos veces que el equipo ha encadenado dos partidos seguidos en casa, el botín ha sido corto: un punto ante Badajoz y Don Benito, y tres ante Lucena y Marbella. En cambio, la única vez que ha jugado dos seguidos fuera, en Tamaraceite y en El Palmar, volvió con los seis puntos y siete goles a favor.",
+      "<strong>Una losa</strong>",
+      "Seguramente influyen muchas cosas: el rival, el momento, el calendario. Pero cuesta creer que la distancia no tenga nada que ver. Un estadio enorme, con la grada lejos del césped, enfría el ambiente, y el equipo lo nota.",
+      "Chapín será una losa mientras siga así. Y cada viaje, como el de ayer a El Palmar, nos recuerda lo que podríamos tener en casa."
     ]
   }
 }

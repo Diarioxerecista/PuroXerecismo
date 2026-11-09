@@ -406,24 +406,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/si-vengo-de-primera-regional/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-llega-al-derbi-con-el-historial-a-su-favor-13-victorias-ante-el-cadiz/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-llega-al-derbi-con-el-historial-a-su-favor-13-victorias-ante-el-cadiz/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-head-into-the-derby-with-history-on-their-side-13-wins-against-cadiz/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-llega-al-derbi-con-el-historial-a-su-favor-13-victorias-ante-el-cadiz/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-head-into-the-derby-with-history-on-their-side-13-wins-against-cadiz/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-27</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-llega-al-derbi-con-el-historial-a-su-favor-13-victorias-ante-el-cadiz/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-head-into-the-derby-with-history-on-their-side-13-wins-against-cadiz/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-llega-al-derbi-con-el-historial-a-su-favor-13-victorias-ante-el-cadiz/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/abel-segovia-que-los-ninos-no-tengan-que-ver-cosas-que-no-tienen-que-ver/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -764,5 +746,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/segovia-un-equipo-se-construye-desde-el-orden-defensivo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/segovia-a-team-is-built-on-defensive-organisation/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/segovia-un-equipo-se-construye-desde-el-orden-defensivo/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-11/el-palmar-nos-enseno-lo-que-chapin-nos-quita/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/el-palmar-nos-enseno-lo-que-chapin-nos-quita/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/el-palmar-showed-us-what-chapin-takes-away-from-us/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/el-palmar-nos-enseno-lo-que-chapin-nos-quita/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-11/el-palmar-showed-us-what-chapin-takes-away-from-us/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/el-palmar-nos-enseno-lo-que-chapin-nos-quita/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/el-palmar-showed-us-what-chapin-takes-away-from-us/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/el-palmar-nos-enseno-lo-que-chapin-nos-quita/"/>
   </url>
 </urlset>

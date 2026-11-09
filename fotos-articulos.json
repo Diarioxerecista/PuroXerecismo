@@ -87,10 +87,6 @@
     "foto": "fotos/publicadas/cadiz-cf-jugadores-carranza.jpg",
     "creditoFoto": "Foto: Diario de Cádiz"
   },
-  "art108": {
-    "foto": "fotos/publicadas/xerez-cadiz-archivo-marca.jpg",
-    "creditoFoto": "Foto: Diario Marca"
-  },
   "art109": {
     "foto": "fotos/publicadas/abel-segovia-rueda-prensa-marbella.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -166,6 +162,10 @@
   },
   "art128": {
     "foto": "fotos/publicadas/sanluqueno-xerez-j10-segovia-arbitro.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art129": {
+    "foto": "fotos/publicadas/el-palmar-celebracion-grada-opinion.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
