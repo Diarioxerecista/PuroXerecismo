@@ -233,6 +233,23 @@ jobs:
           base = {"local": partido_hoy["local"], "visitante": partido_hoy["visitante"]}
           url_fm, fixture_id, goles_lista = None, None, []
           ultima_api, visto_2t, ultimo_min, vacios = 0, False, 0, 0
+          # Reloj propio: Futbolme a veces da minutos absurdos (8/11/2026: 31' al minuto de empezar,
+          # saltos al 86'-99' en la 2.ª parte) y se congela sin poner "Final" (se quedó en el 71').
+          descanso_visto, inicio_2t, final_publicado = None, None, False
+          ultimo_crudo, ultimo_cambio = None, ahora()
+          TOLERANCIA_MIN = 7     # si el minuto de Futbolme se aleja más del reloj propio, manda el propio
+          FINAL_TRAS = 110       # min desde el saque a partir de los que un Futbolme quieto = final
+          QUIETO_MIN = 8         # min sin ningún cambio en Futbolme para darlo por terminado
+
+          def minuto_propio():
+              t = ahora()
+              if inicio_2t and t >= inicio_2t:
+                  return min(95, 46 + int((t - inicio_2t).total_seconds() // 60))
+              if descanso_visto:
+                  return None
+              if t >= kick + timedelta(minutes=62):   # Futbolme no avisó del descanso: 2.ª parte estimada
+                  return min(95, 46 + int((t - kick - timedelta(minutes=62)).total_seconds() // 60))
+              return max(1, min(45, 1 + int((t - kick).total_seconds() // 60)))
           PAUSA_FM = 60          # s entre lecturas de Futbolme
           PAUSA_API = 300        # s entre consultas de goleadores (~25 por partido)
 
@@ -270,28 +287,50 @@ jobs:
                   time.sleep(PAUSA_FM)
                   continue
               marcador, estado = r
+              if (marcador, estado) != ultimo_crudo:
+                  ultimo_crudo, ultimo_cambio = (marcador, estado), ahora()
               actual = leer() or {}
               marcador = marcador or actual.get("resultado") or "0-0"
               extra = {"goles": goles_lista} if goles_lista else {}
               m = re.search(r"Minuto\s*(\d+)", estado)
-              if estado.startswith("2T"):
+              if re.search(r"(?i)descanso", estado) and not descanso_visto:
+                  descanso_visto = ahora()
+              if estado.startswith("2T") or (m and descanso_visto and not re.search(r"(?i)descanso", estado)):
                   visto_2t = True
-              if m:
-                  ultimo_min = int(m.group(1))
+                  if inicio_2t is None:
+                      # La reanudación que marca Futbolme sí es fiable (8/11: 2T a las 13:41, gol al 52' a las 13:47)
+                      inicio_2t = ahora()
+              minuto_fm = int(m.group(1)) if m else None
+              propio = minuto_propio()
+              if minuto_fm is not None and propio is not None and abs(minuto_fm - propio) > TOLERANCIA_MIN:
+                  minuto = propio
+              else:
+                  minuto = minuto_fm
+              if minuto is not None:
+                  ultimo_min = minuto
               vacios = 0 if estado else vacios + 1
               if re.search(r"(?i)aplaz|suspend", estado):
                   publicar(APAGADO)
                   break
               # Al acabar, Futbolme deja el estado en blanco: exigirlo dos veces seguidas y pasado el 85'
-              if re.search(r"(?i)final", estado) or (vacios >= 2 and visto_2t and ultimo_min >= 85):
+              quieto = (ahora() - kick >= timedelta(minutes=FINAL_TRAS)
+                        and ahora() - ultimo_cambio >= timedelta(minutes=QUIETO_MIN))
+              if re.search(r"(?i)final", estado) or (vacios >= 2 and visto_2t and ultimo_min >= 85) or quieto:
                   publicar({"activo": True, **base, "resultado": marcador, "minuto": "", "estado": "FINAL", **extra})
+                  final_publicado = True
                   break
               if re.search(r"(?i)descanso", estado):
                   publicar({"activo": True, **base, "resultado": marcador, "minuto": "", "estado": "DESCANSO", **extra})
-              elif m:
-                  publicar({"activo": True, **base, "resultado": marcador, "minuto": int(m.group(1)), **extra})
+              elif minuto is not None:
+                  publicar({"activo": True, **base, "resultado": marcador, "minuto": minuto, **extra})
               # sin estado y sin haber visto la 2.ª parte = aún no ha empezado: no tocar nada
               time.sleep(PAUSA_FM)
+
+          # Se acabó la ventana sin "Final" (Futbolme congelado): cerrar con el último marcador
+          if not final_publicado:
+              actual = leer() or {}
+              if actual.get("activo") and not actual.get("manual") and actual.get("estado") != "FINAL":
+                  publicar({**actual, "minuto": "", "estado": "FINAL"})
 
           PYEOF
 
