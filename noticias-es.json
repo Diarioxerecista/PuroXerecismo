@@ -778,18 +778,6 @@
     ],
     "autor": "Carlos López, periodista"
   },
-  "art110": {
-    "fecha": "2026-10-27",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
-    "title": "Fali: \"Si meto un gol, a lo mejor doy una voltereta y ni sé hacerla\"",
-    "lead": "El central del Xerez CD, que jugó en el Cádiz CF hasta 2025, se enfrenta este miércoles a su antiguo club en la Copa del Rey. Asegura que celebrar un gol no sería una falta de respeto a la afición cadista.",
-    "body": [
-      "El Xerez CD recibe este miércoles, a las 21:00, al Cádiz CF en Chapín. Para Fali Jiménez no será un partido más. El defensa pasó varias temporadas en el club de Carranza y sigue viviendo en Cádiz, donde sus hijos van al colegio y al instituto.",
-      "<strong>\"Llevo siete años sin meter un gol\"</strong>",
-      "Preguntado por cómo celebraría un hipotético gol ante su exequipo, Fali le quitó hierro al asunto con una sonrisa: \"Llevo siete años sin meter un gol. Si meto un gol, imagínate... no sé ni lo que puedo hacer, a lo mejor doy una voltereta y ni sé hacerla. Celebrar un gol no sería una falta de respeto a la afición del Cádiz, pero ellos me conocen y saben el cariño que les tengo\"."
-    ]
-  },
   "art111": {
     "fecha": "2026-10-27",
     "categoria": "noticia",
@@ -1192,6 +1180,27 @@
       "<strong>Dos equipos en momentos distintos</strong>",
       "Esta vez los equipos llegan con trayectorias opuestas. El Xerez es quinto, en puestos de play off, con 15 puntos, después de golear 0-4 al Atlético Sanluqueño en El Palmar. El Antoniano es decimosexto, en descenso, con 6 puntos. Ha marcado 10 goles y encajado 19, la segunda peor defensa del grupo.",
       "Como local, el Xerez suma 7 puntos en cinco partidos. Será su primer partido oficial como local en el Pedro Garrido, por los trabajos de resiembra del césped de Chapín."
+    ]
+  },
+  "art131": {
+    "fecha": "2026-11-11",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinión · Análisis",
+    "title": "El otro Xerez que manda",
+    "lead": "Mientras el equipo de fútbol pelea por el play off en Segunda RFEF, las jugadoras del Xerez CD Baloncesto lideran la Liga Femenina 2 en su primera temporada en la categoría. Merecen que el xerecismo las mire.",
+    "body": [
+      "Un aficionado se quejaba hace unos días, con razón, de que nadie le da bola al baloncesto femenino del Xerez. Tiene razón, y en el Diario Xerecista vamos a empezar a dársela.",
+      "Cinco victorias seguidas. Líderes del Grupo B de la Liga Femenina 2 con cinco triunfos y una sola derrota, y la mejor diferencia de puntos de la zona alta. Y todo eso en su estreno en la categoría. Pocas veces un recién ascendido llega así.",
+      "El ascenso no fue casualidad. En junio, en el Ruiz-Mateos y ante su gente, el equipo de Trini Bou ganó con autoridad a San Ignacio y Al-Qázeres. Perdió por un punto el último partido ante Casablanca, pero el trabajo ya estaba hecho: el Xerez era de Liga Femenina 2. Había llegado un año después de quedarse a las puertas.",
+      "<strong>El mismo escudo</strong>",
+      "Es el mismo escudo que llevamos a El Palmar, a Tamaraceite o a Chapín. El Xerez CD no es solo un equipo de fútbol: es un club, con una sección de baloncesto que lleva casi una década creciendo y que hoy compite en la segunda categoría nacional.",
+      "Por eso cuesta entender que buena parte del xerecismo no sepa que su club manda en una liga nacional. Las victorias de estas jugadoras también son nuestras.",
+      "<strong>Llenar la grada</strong>",
+      "El fútbol nos ha enseñado lo que vale tener a la gente cerca. Ellas lo están ganando todo en la pista. Lo que les falta, y eso depende de nosotros, es una grada a la altura de lo que están haciendo.",
+      "Un club se hace grande cuando todas sus secciones sienten el mismo apoyo. Este Xerez del baloncesto ya ha hecho su parte. Ahora nos toca a nosotros."
     ]
   }
 }

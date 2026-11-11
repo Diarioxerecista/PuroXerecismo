@@ -87,10 +87,6 @@
     "foto": "fotos/publicadas/cadiz-cf-jugadores-carranza.jpg",
     "creditoFoto": "Foto: Diario de Cádiz"
   },
-  "art110": {
-    "foto": "fotos/publicadas/xerez-marbella-j8-fali.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art111": {
     "foto": "fotos/publicadas/cadiz-cf-disputa-balon.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -167,5 +163,9 @@
   "art130": {
     "foto": "fotos/publicadas/xerez-chapin-golpeo-archivo.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art131": {
+    "foto": "fotos/publicadas/xerez-cd-baloncesto-femenino-ascenso-lf2.jpg",
+    "creditoFoto": "Foto: Xerez CD Baloncesto"
   }
 }

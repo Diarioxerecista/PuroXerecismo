@@ -778,18 +778,6 @@
     ],
     "autor": "Carlos López, journalist"
   },
-  "art110": {
-    "fecha": "2026-10-27",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
-    "title": "Fali: \"If I score, maybe I'll do a somersault and I don't even know how\"",
-    "lead": "The Xerez CD centre-back, who played for Cádiz CF until 2025, faces his former club in the Copa del Rey this Wednesday. He says celebrating a goal would not be disrespectful to the Cádiz fans.",
-    "body": [
-      "Xerez CD host Cádiz CF at Chapín this Wednesday at 21:00. For Fali Jiménez it will not be just another match. The defender spent several seasons at the Carranza club and still lives in Cádiz, where his children go to primary and secondary school.",
-      "<strong>\"I haven't scored a goal in seven years\"</strong>",
-      "Asked how he would celebrate a hypothetical goal against his former team, Fali played it down with a smile: \"I haven't scored a goal in seven years. If I score, imagine... I don't even know what I might do, maybe I'll do a somersault and I don't even know how. Celebrating a goal wouldn't be disrespectful to the Cádiz fans, but they know me and they know how fond of them I am\"."
-    ]
-  },
   "art111": {
     "fecha": "2026-10-27",
     "categoria": "noticia",
@@ -1192,6 +1180,27 @@
       "<strong>Two teams at different moments</strong>",
       "This time the two sides arrive on opposite paths. Xerez are fifth, in the play-off places, with 15 points, after a 0-4 win over Atlético Sanluqueño at El Palmar. Antoniano are sixteenth, in the relegation zone, with 6 points. They have scored 10 goals and conceded 19, the second-worst defence in the group.",
       "At home, Xerez have 7 points from five games. It will be their first official home game at the Pedro Garrido, because of the reseeding work on the Chapín pitch."
+    ]
+  },
+  "art131": {
+    "fecha": "2026-11-11",
+    "categoria": [
+      "opinion",
+      "noticia"
+    ],
+    "eyebrow": "Opinion · Analysis",
+    "title": "The other Xerez on top",
+    "lead": "While the football team fights for the play-offs in Segunda RFEF, the Xerez CD Baloncesto players are leading Liga Femenina 2 in their first season in the division. They deserve the attention of the Xerez faithful.",
+    "body": [
+      "A fan complained a few days ago, rightly, that nobody pays any attention to Xerez women's basketball. The fan is right, and at Diario Xerecista we are going to start doing so.",
+      "Five wins in a row. Leaders of Group B of Liga Femenina 2 with five wins and just one defeat, and the best points difference among the top teams. And all of that in their debut in the division. A newly promoted side rarely arrives like this.",
+      "Promotion was no fluke. In June, at the Ruiz-Mateos and in front of their own fans, Trini Bou's team won convincingly against San Ignacio and Al-Qázeres. They lost the last game against Casablanca by a single point, but the job was already done: Xerez were in Liga Femenina 2. It came a year after falling just short.",
+      "<strong>The same badge</strong>",
+      "It is the same badge we take to El Palmar, to Tamaraceite or to Chapín. Xerez CD is not just a football team: it is a club, with a basketball section that has been growing for almost a decade and today competes in the second tier of Spanish basketball.",
+      "That is why it is hard to understand that many Xerez fans do not know their club is top of a national league. These players' wins are ours too.",
+      "<strong>Filling the stands</strong>",
+      "Football has taught us how much it is worth to have the fans close by. They are winning everything on the court. What they lack, and that is up to us, is a crowd that matches what they are achieving.",
+      "A club becomes great when all its sections feel the same support. This basketball Xerez has already done its part. Now it is our turn."
     ]
   }
 }
