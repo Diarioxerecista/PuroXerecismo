@@ -3,10 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <script>
-  // Entrada: en visitas "en frío" (sin ?n= / ?v= y sin sesión iniciada) se muestra la splash integrada.
+  // Entrada: solo la primera vez que se visita la web (se recuerda en localStorage); nunca con ?n= / ?v=.
   try{
     var params = new URLSearchParams(window.location.search);
-    if(!params.has('n') && !params.has('v') && !sessionStorage.getItem('xdEntrada')){
+    var vista = false;
+    try{ vista = localStorage.getItem('xdEntrada') || sessionStorage.getItem('xdEntrada'); }catch(e2){}
+    if(!params.has('n') && !params.has('v') && !vista){
       document.documentElement.classList.add('con-entrada');
     }
   }catch(e){}
@@ -1414,6 +1416,7 @@
 </div>
 <script>
   function cerrarEntrada(){
+    try{localStorage.setItem('xdEntrada','1');}catch(e){}
     try{sessionStorage.setItem('xdEntrada','1');}catch(e){}
     var s = document.getElementById('entradaSplash');
     s.style.opacity = '0';
