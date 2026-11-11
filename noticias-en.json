@@ -778,21 +778,6 @@
     ],
     "autor": "Carlos López, journalist"
   },
-  "art111": {
-    "fecha": "2026-10-27",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
-    "title": "Chapín set to be almost full for the cup derby against Cádiz",
-    "lead": "Chapín will be close to full this Wednesday at 21:00 for the Copa del Rey tie between Xerez CD and Cádiz CF. The club has put back on sale the tickets released by season-ticket holders, in every part of the stadium. They cannot be bought at the ticket office.",
-    "body": [
-      "<strong>Update:</strong> the match was postponed because of the Urda train crash and will finally be played on Thursday 29 October at 21:00 at Chapín.",
-      "Xerez CD sold out the Tribuna and Preferencia stands ten days ago, when only a few seats were left in the Fondo Sur. Now the tickets released by season-ticket holders are available again, spread across the whole ground.",
-      "<strong>Online only</strong>",
-      "Tickets can only be bought on the Xerez CD website, which is also selling seats in the away section. They are no longer on sale on the Cádiz CF website. The ticket offices will not sell tickets, so anyone who wants to attend the derby will have to buy them in advance.",
-      "<strong>No official figure for Cádiz fans</strong>",
-      "Cádiz CF supporters have been allocated the Fondo Norte. Because of the security operation for the match, the number of Cádiz fans travelling to Jerez will not be made public, although it could be around 2,800."
-    ]
-  },
   "art112": {
     "fecha": "2026-10-28",
     "categoria": "noticia",
@@ -1202,5 +1187,24 @@
       "Football has taught us how much it is worth to have the fans close by. They are winning everything on the court. What they lack, and that is up to us, is a crowd that matches what they are achieving.",
       "A club becomes great when all its sections feel the same support. This basketball Xerez has already done its part. Now it is our turn."
     ]
+  },
+  "art132": {
+    "fecha": "2026-11-11",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Matchday 11",
+    "title": "Xerez can turn up the pressure at the top in a round without the leaders",
+    "lead": "With Recreativo de Huelva playing the Copa Federación final in Sestao and a Badajoz-Don Benito clash at the top, Xerez CD have a chance against Antoniano to close the gap on the front-runners and establish themselves in the top five.",
+    "body": [
+      "Matchday 11 of Segunda RFEF, Group IV, comes with a fixture list that favours Xerez CD. The leaders, Recreativo de Huelva, will not play this weekend because they play the Copa Federación final against Sestao River on Saturday at 19:00 at Las Llanas, in Sestao. Their league game against Sevilla Atlético has been postponed to Wednesday 25 November at 18:00.",
+      "<strong>Head-to-head in Badajoz</strong>",
+      "In addition, two of the teams at the top face each other: Badajoz, fourth on 17 points, host Don Benito, second on 20, on Sunday at 17:00 at the Nuevo Vivero, in an Extremadura derby that the Badajoz club has declared a Club Half-Day. One of them, or both if they draw, will drop points.",
+      "Xerez, fifth on 15 points, host Antoniano, sixteenth on 6, on Sunday 15 at 18:00 at the Pedro Garrido. A win would take them to 18 points, three behind Recreativo, who will have a game in hand. If Badajoz also lose, the blue-and-whites would climb to fourth.",
+      "<strong>From crisis to the top places</strong>",
+      "This scenario seemed unthinkable a month and a half ago. On 27 September, Xerez lost 1-0 at Recreativo in Huelva on matchday 4. They had 2 points from 12 at the time, and the club sacked Xavi Molist.",
+      "Since then, the team has taken 13 of a possible 18 points: wins over Tenerife B, Marbella, Tamaraceite and Atlético Sanluqueño, a draw against Betis B and just one defeat, against Ciudad de Lucena.",
+      "<strong>A tight battle</strong>",
+      "Behind them, the battle remains very even: Betis B, sixth, also have 15 points and a game in hand against Tenerife B, while Mijas Las Lagunas, Estepona and Atlético Central have the same points as Xerez."
+    ],
+    "noPrincipal": true
   }
 }
