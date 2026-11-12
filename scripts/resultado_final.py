@@ -165,11 +165,18 @@ def main(local, visitante, gl, gv, foto, salida, vert=0.4, copa=None):
     # 5. Escudos, nombres y marcador
     pegar_escudo(lienzo, esc[local], (228, 690), (200, 190))
     pegar_escudo(lienzo, esc[visitante], (617, 690), (200, 190))
-    texto(lienzo, (228, 818), nombre_visible(local, esc, nombres), fuente(44), 330)
-    texto(lienzo, (617, 818), nombre_visible(visitante, esc, nombres), fuente(44), 330)
+    # Los dos nombres al mismo tamaño (el que quepa en 330 px), y "FINAL" sin pisar los goles:
+    # con otra fuente (p. ej. DejaVu en GitHub, más ancha que la DIN del Mac) se reduce sola.
+    d = ImageDraw.Draw(lienzo)
+    n_l, n_v = nombre_visible(local, esc, nombres), nombre_visible(visitante, esc, nombres)
+    tam = 44
+    while tam > 20 and max(d.textlength(n_l, font=fuente(tam)), d.textlength(n_v, font=fuente(tam))) > 330:
+        tam -= 2
+    texto(lienzo, (228, 818), n_l, fuente(tam))
+    texto(lienzo, (617, 818), n_v, fuente(tam))
     gran = fuente(92)
     texto(lienzo, (228, 904), str(gl), gran)
-    texto(lienzo, (425, 904), 'FINAL', gran)
+    texto(lienzo, (425, 904), 'FINAL', gran, 250)
     texto(lienzo, (617, 904), str(gv), gran)
 
     lienzo.convert('RGB').save(salida, quality=92)
