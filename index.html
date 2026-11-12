@@ -413,6 +413,21 @@
     #tablaClasificacion .team img{width:18px !important;height:18px !important;flex-shrink:0;}
   }
 
+  /* Calendario en móvil: columnas que caben en 375 px (antes el visitante se salía por la derecha) */
+  @media (max-width:560px){
+    #view-calendario .fixture-row{grid-template-columns:42px minmax(0,1fr) 50px minmax(0,1fr);gap:6px;padding:10px 8px;}
+    #view-calendario .fixture-row.header{font-size:9px;letter-spacing:0;}
+    #view-calendario .fixture-row.header span:nth-child(2){text-align:right;}
+    #view-calendario .fixture-row.header span:nth-child(3){text-align:center;}
+    #view-calendario .fixture-row.header span:nth-child(5){display:none;}
+    #view-calendario .fixture-row .team{min-width:0;font-size:12.5px;line-height:1.2;gap:5px !important;overflow-wrap:break-word;}
+    #view-calendario .fixture-row .team img{width:20px !important;height:20px !important;flex-shrink:0;}
+    #view-calendario .fixture-row .vs-score{padding:4px 2px;font-size:13px;}
+    #view-calendario .fixture-row .date{font-size:10.5px;}
+    /* Enlaces pequeños: zona de toque más cómoda para el dedo */
+    .tv-box-link{padding:8px 0;}
+  }
+
   /* Columna de la noticia principal: publicidad + goleadores debajo */
   .hero-col{display:flex;flex-direction:column;gap:20px;min-width:0;}
   .ad-strip{
@@ -1353,6 +1368,11 @@
   @media (max-width:760px){
     .audio-flotante{right:14px;bottom:14px;padding:7px 14px 7px 7px;}
     .audio-flotante .af-titulo{font-size:10px;}
+  }
+  /* Móvil: el himno queda solo como botón redondo para no tapar el texto */
+  @media (max-width:560px){
+    .audio-flotante{padding:5px;gap:0;}
+    .audio-flotante .af-info{display:none;}
   }
   @media (max-width:760px){
     #entradaSplash .ent-sello{right:2vw;top:3%;}
