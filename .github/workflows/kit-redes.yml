@@ -1,0 +1,44 @@
+name: Tuit del partido (foto propia)
+
+# Rehace la imagen del resultado de tuit/ cuando el usuario sube desde el móvil una foto
+# a fotos/partido/ (botón "Poner mi foto de fondo" de la página invisible tuit/).
+# El kit inicial lo crea directo.yml al acabar el partido (scripts/kit_redes.py --live).
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'fotos/partido/**'
+      - '!fotos/partido/LEEME.md'
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: 'foto = con la última foto subida; prueba = último partido jugado'
+        type: choice
+        options: [foto, prueba]
+        default: prueba
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kit-redes
+  cancel-in-progress: false
+
+jobs:
+  kit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Instalar dependencias
+        run: pip install pillow pillow-heif --quiet
+      - name: Preparar el tuit
+        run: |
+          git config user.name "Diario Xerecista (bot)"
+          git config user.email "bot@puroxerecismo.local"
+          python3 scripts/kit_redes.py --${{ github.event.inputs.modo || 'foto' }}
+          git add -A tuit fotos/partido fotos/publicadas
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Auto: tuit del partido preparado"
+            for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done
+          fi

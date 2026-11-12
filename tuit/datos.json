@@ -1,0 +1,42 @@
+{
+  "clave": "2026-11-08 Atlético Sanluqueño - Xerez CD",
+  "fecha": "2026-11-08",
+  "jornada": "J10",
+  "local": "Atlético Sanluqueño",
+  "visitante": "Xerez CD",
+  "gl": 0,
+  "gv": 4,
+  "goles": [
+    {
+      "equipo": "visitante",
+      "jugador": "Julito",
+      "minuto": "52",
+      "tipo": ""
+    },
+    {
+      "equipo": "visitante",
+      "jugador": "Jaime López",
+      "minuto": "76",
+      "tipo": ""
+    },
+    {
+      "equipo": "visitante",
+      "jugador": "Julito",
+      "minuto": "77",
+      "tipo": ""
+    },
+    {
+      "equipo": "visitante",
+      "jugador": "Julito",
+      "minuto": "78",
+      "tipo": ""
+    }
+  ],
+  "copa": false,
+  "ganaXerez": true,
+  "foto": "fotos/publicadas/xerez-tenerife-b-j5-celebracion.jpg",
+  "origenFoto": "archivo",
+  "texto": "✅ FINAL | Atlético Sanluqueño 0-4 Xerez CD\n\n⚽ Julito 52', 77', 78'\n⚽ Jaime López 76'\n\nVictoria del Xerez CD 💙\n\n📲 diarioxerecista.es\n\n#XerezCD #SegundaRFEF",
+  "generado": "12/11/2026 15:57",
+  "v": "20261112155758"
+}

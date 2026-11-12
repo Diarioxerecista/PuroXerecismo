@@ -384,6 +384,20 @@ jobs:
 
           PYEOF
 
+      - name: Preparar el tuit del resultado (página invisible tuit/)
+        # Si live.json ha quedado en FINAL, deja imagen y texto en tuit/ para que el usuario publique a mano.
+        # Va aparte del directo: si falla, el marcador de la portada no se ve afectado.
+        if: always()
+        continue-on-error: true
+        run: |
+          git pull -q --rebase --autostash || true
+          python3 scripts/kit_redes.py --live
+          if [ -n "$(git status --porcelain tuit)" ]; then
+            git add tuit
+            git commit -q -m "Auto: tuit del partido preparado"
+            for i in 1 2 3 4 5; do git pull -q --rebase && git push -q && break; sleep 5; done
+          fi
+
       - name: Publicar el resultado final en X
         # Desactivado el 30/10/2026 a petición del usuario (X pide créditos de pago). Para reactivarlo: if: always()
         if: false

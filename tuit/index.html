@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Tuit del partido</title>
+<link rel="icon" href="../favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Tuit Xerez">
+<style>
+  :root{--azul:#0a3a7a;--fondo:#f3f5f9;--texto:#111;--suave:#5b6577;--borde:#d9dee8;--caja:#fff}
+  @media (prefers-color-scheme:dark){:root{--fondo:#0d1420;--texto:#eef2f8;--suave:#9aa6b8;--borde:#26324a;--caja:#152033}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--fondo);color:var(--texto);font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  main{max-width:520px;margin:0 auto;padding:16px 16px 40px}
+  header{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+  header img{width:36px;height:auto}
+  h1{font-size:20px;margin:0}
+  .meta{color:var(--suave);font-size:13px;margin:0 0 12px}
+  .foto{width:100%;border-radius:12px;display:block;border:1px solid var(--borde);background:var(--caja)}
+  .ayuda{color:var(--suave);font-size:13px;margin:6px 0 16px;text-align:center}
+  textarea{width:100%;min-height:220px;border:1px solid var(--borde);border-radius:12px;padding:12px;font:15px/1.45 inherit;background:var(--caja);color:var(--texto);resize:vertical}
+  .botones{display:grid;gap:10px;margin:12px 0}
+  .btn{display:block;width:100%;text-align:center;padding:15px;border-radius:12px;border:0;font-size:17px;font-weight:700;text-decoration:none;cursor:pointer}
+  .btn-x{background:#000;color:#fff}
+  .btn-copiar{background:var(--azul);color:#fff}
+  .btn-foto{background:var(--caja);color:var(--texto);border:2px dashed var(--borde)}
+  .btn-recargar{background:transparent;color:var(--suave);font-size:14px;font-weight:600;padding:8px}
+  .pasos{background:var(--caja);border:1px solid var(--borde);border-radius:12px;padding:12px 14px 12px 32px;font-size:14px;color:var(--suave)}
+  .pasos li{margin:4px 0}
+  .aviso{background:#fff4d6;color:#5a4300;border-radius:10px;padding:10px 12px;font-size:14px;margin-bottom:12px;display:none}
+  .vacio{text-align:center;color:var(--suave);padding:40px 0}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="../fotos/escudos/escudo-xerez-cd-hd.png" alt="">
+    <h1>Tuit del partido</h1>
+  </header>
+
+  <div id="contenido"><p class="vacio">Cargando…</p></div>
+
+  <h2 style="font-size:16px;margin:24px 0 8px">Cómo publicarlo</h2>
+  <ol class="pasos">
+    <li>Mantén el dedo sobre la imagen → <b>Guardar en Fotos</b>.</li>
+    <li>Pulsa <b>Abrir X con el texto</b>.</li>
+    <li>En el tuit, toca el icono de foto y elige la imagen (y si quieres, una tuya del campo: X deja hasta 4).</li>
+    <li>Publica.</li>
+  </ol>
+
+  <h2 style="font-size:16px;margin:24px 0 8px">¿Quieres tu foto de fondo?</h2>
+  <ol class="pasos">
+    <li>Pulsa <b>Poner mi foto de fondo</b> (se abre GitHub con tu sesión).</li>
+    <li>Toca <b>choose your files</b> y elige la foto.</li>
+    <li>Baja y pulsa el botón verde <b>Commit changes</b>.</li>
+    <li>Vuelve aquí y en 2–3 minutos pulsa <b>Recargar</b>.</li>
+  </ol>
+</main>
+
+<script>
+const SUBIR = 'https://github.com/diarioxerecista/PuroXerecismo/upload/main/fotos/partido';
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+async function cargar(){
+  const caja = document.getElementById('contenido');
+  try{
+    const r = await fetch('datos.json?t=' + Date.now(), {cache:'no-store'});
+    if(!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    const origen = d.origenFoto === 'tuya' ? 'tu foto' : 'foto de archivo';
+    caja.innerHTML = `
+      <p class="meta">${esc(d.clave)} · preparado el ${esc(d.generado)} · ${origen}</p>
+      ${d.goles && d.goles.length === 0 && (d.gl + d.gv) > 0 ? '<div class="aviso" style="display:block">Ojo: no han llegado los goleadores. Puedes escribirlos en el texto antes de publicar.</div>' : ''}
+      <img class="foto" src="resultado.jpg?v=${esc(d.v)}" alt="Imagen del resultado">
+      <p class="ayuda">Mantén el dedo encima para guardarla</p>
+      <textarea id="texto">${esc(d.texto)}</textarea>
+      <div class="botones">
+        <a class="btn btn-x" id="abrirX" href="#" target="_blank" rel="noopener">Abrir X con el texto</a>
+        <button class="btn btn-copiar" id="copiar" type="button">Copiar texto</button>
+        <a class="btn btn-foto" href="${SUBIR}" target="_blank" rel="noopener">📷 Poner mi foto de fondo</a>
+        <button class="btn btn-recargar" type="button" onclick="cargar()">↻ Recargar</button>
+      </div>`;
+    const ta = document.getElementById('texto');
+    const x = document.getElementById('abrirX');
+    const enlaceX = () => x.href = 'https://x.com/intent/tweet?text=' + encodeURIComponent(ta.value);
+    ta.addEventListener('input', enlaceX); enlaceX();
+    document.getElementById('copiar').onclick = async e => {
+      try{ await navigator.clipboard.writeText(ta.value); }
+      catch(_){ ta.select(); document.execCommand('copy'); }
+      e.target.textContent = '✓ Copiado'; setTimeout(()=>e.target.textContent='Copiar texto', 2000);
+    };
+  }catch(e){
+    caja.innerHTML = '<p class="vacio">Todavía no hay tuit preparado.<br><button class="btn btn-recargar" onclick="cargar()">↻ Recargar</button></p>';
+  }
+}
+cargar();
+</script>
+</body>
+</html>

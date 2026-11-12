@@ -108,6 +108,11 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - Al acabar un partido, si el usuario lo pide: `python3 scripts/resultado_final.py "<local>" "<visitante>" <gl> <gv> <foto> <salida.jpg> [--vert 0.4]` (nombres como en `ESCUDOS` de index.html; foto del partido o de archivo). Usa el modelo del usuario `scripts/plantilla-resultado/modelo.jpg` (843×1264, con logos RFEF, anunciantes Lugo y El Jardín de Papel). Se entrega al usuario; no se sube a la web. En partidos de Copa (`tipo:'copa'` en PARTIDOS) pone "COPA DEL REY" en lugar del logo de Segunda Federación.
 - Publicación automática en X: DESACTIVADA desde el 30/10/2026 (X pide créditos de pago; el usuario decidió quitarla). El paso de `directo.yml` que ejecuta `scripts/publicar_x.py` tiene `if: false`; para reactivarlo, volver a `if: always()`. Sigue disponible la publicación manual con el workflow `resultado-x.yml` (Actions → Run workflow), que también necesita créditos. Cualquier publicación en X la hace el usuario.
 
+### Tuit del partido (página invisible `tuit/`)
+- Al acabar cada partido, `directo.yml` (paso aparte, `continue-on-error`) ejecuta `scripts/kit_redes.py --live`: si live.json está en FINAL deja en `tuit/` la imagen del resultado (`resultado.jpg`, con `resultado_final.py` y una foto de liga de archivo, nunca del Cádiz) y el texto del tuit con goleadores (`datos.json`). El usuario abre www.diarioxerecista.es/tuit/ en el móvil (noindex, sin enlaces desde la web), guarda la imagen y publica en X a mano.
+- Foto propia desde el campo: el botón de la página abre la subida de GitHub en `fotos/partido/`; `kit-redes.yml` la pasa a `fotos/publicadas/<local>-<visitante>-jN-grada-N.jpg` (1400 px, q82) y rehace la imagen. Prueba manual: Actions → "Tuit del partido" → Run workflow → `prueba` (último partido jugado, goleadores de su crónica).
+- No publica nada en X (eso lo hace siempre el usuario).
+
 ## Clasificación (`clasificacion.json`)
 - `{ actualizado, jornada, fuente, equipos: [{ nombre, escudo, pj, pts, gf, gc }] }`. 18 equipos.
 - Con los resultados de una jornada: sumar pj, gf, gc y pts (3/1/0) a los 18, ordenar por pts → diferencia de goles → goles a favor, y subir `jornada` y `actualizado`. Comprobar antes que `jornada` es la anterior (no sumar dos veces).
