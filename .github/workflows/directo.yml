@@ -206,6 +206,8 @@ jobs:
               s = requests.get(url, headers=UA, timeout=30).text
               t = re.sub(r"<script.*?</script>|<style.*?</style>", "", s, flags=re.S)
               partes = [p.strip() for p in htmlmod.unescape(re.sub(r"<[^>]+>", "|", t)).split("|") if p.strip()]
+              global goles_fm
+              goles_fm = goleadores_futbolme(s)
               i = next((k for k, p in enumerate(partes) if p.startswith("Actualizado a las")), None)
               if i is None:
                   return None
@@ -213,6 +215,52 @@ jobs:
               j = i + 1 + (1 if estado else 0)
               g1, g2 = partes[j + 2], partes[j + 3]
               return (f"{g1}-{g2}" if g1.isdigit() and g2.isdigit() else None), estado
+
+          # ── Goleadores de Futbolme: tabla de la página del partido; columna izquierda = local,
+          # derecha = visitante (comprobado con J1-J10 de 2026/27). Futbolme da el minuto en curso (6:30 → 7').
+          goles_fm = []
+          def goleadores_futbolme(s):
+              i = s.find("Primer Tiempo")
+              if i < 0:
+                  return []
+              j = s.find("</table>", i)
+              lista = []
+              for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", s[i:j], flags=re.S):
+                  tds = re.findall(r"<td[^>]*>(.*?)</td>", tr, flags=re.S)
+                  if len(tds) != 2:
+                      continue
+                  for lado, td in zip(("local", "visitante"), tds):
+                      ico = re.search(r'src="([^"]+)"', td)
+                      if "label" not in td or not ico:
+                          continue
+                      ico = ico.group(1).lower()
+                      if "balon" not in ico and "penal" not in ico and "propi" not in ico:
+                          continue   # tarjetas u otros sucesos
+                      m = re.search(r"label[^>]*>([^<]*)<", td)
+                      minuto = re.sub(r"\D", "", htmlmod.unescape(m.group(1))) if m else ""
+                      a = re.search(r"<a[^>]*>(.*?)</a>", td, flags=re.S)
+                      jugador = htmlmod.unescape(re.sub(r"<[^>]+>", "", a.group(1))).strip() if a else ""
+                      tipo = "pen" if "penal" in ico else "pp" if "propi" in ico else ""
+                      lista.append({"equipo": lado, "jugador": jugador, "minuto": minuto, "tipo": tipo})
+              return lista
+
+          # Nombres del Xerez como en plantilla.json (Futbolme pone "López", "Zequi"...)
+          ALIAS_FM = {"Zequi": "Zeki"}
+          def nombre_xerez(n):
+              n = ALIAS_FM.get(n, n)
+              try:
+                  pl = json.load(open("plantilla.json", encoding="utf-8"))
+              except Exception:
+                  return n
+              def corto(p):
+                  ap = (p.get("apellidos") or "").split()
+                  repetido = sum(1 for q in pl if q.get("nombre") == p.get("nombre")) > 1
+                  return p["nombre"] + (" " + ap[0] if repetido and ap else "")
+              c = [p for p in pl if p.get("nombre") == n] or [p for p in pl if n in (p.get("apellidos") or "").split()[:1]]
+              return corto(c[0]) if len(c) == 1 else n
+          def goles_con_nombres(lista):
+              lado_x = "local" if "Xerez" in base["local"] else "visitante"
+              return [{**g, "jugador": nombre_xerez(g["jugador"])} if g["equipo"] == lado_x else g for g in lista]
 
           # ── API-Football: solo para los goleadores (en esta categoría a veces se congela)
           def goleadores_api(fixture_id):
@@ -291,7 +339,9 @@ jobs:
                   ultimo_crudo, ultimo_cambio = (marcador, estado), ahora()
               actual = leer() or {}
               marcador = marcador or actual.get("resultado") or "0-0"
-              extra = {"goles": goles_lista} if goles_lista else {}
+              # Goleadores: Futbolme (va al minuto) y, si la API tiene más, la API
+              mejores = goles_con_nombres(goles_fm) if len(goles_fm) >= len(goles_lista) else goles_lista
+              extra = {"goles": mejores} if mejores else {}
               m = re.search(r"Minuto\s*(\d+)", estado)
               if re.search(r"(?i)descanso", estado) and not descanso_visto:
                   descanso_visto = ahora()
