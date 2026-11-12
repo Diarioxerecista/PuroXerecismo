@@ -87,10 +87,6 @@
     "foto": "fotos/publicadas/cadiz-cf-jugadores-carranza.jpg",
     "creditoFoto": "Foto: Diario de Cádiz"
   },
-  "art112": {
-    "foto": "fotos/publicadas/estadio-chapin-vista-aerea.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art113": {
     "foto": "fotos/publicadas/xerez-chapin-grada-aficion-2026-27.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -166,6 +162,10 @@
   },
   "art133": {
     "foto": "fotos/publicadas/xerez-cadiz-copa-agarron-mesa.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art132": {
+    "foto": "fotos/publicadas/xerez-cadiz-copa-contra-amarilla.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
