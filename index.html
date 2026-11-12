@@ -949,6 +949,21 @@
     .scoreline{flex-direction:column;gap:10px;}
     .side-list{grid-template-columns:1fr;}
   }
+  /* Móvil: cabecera compacta para que la noticia principal se vea nada más entrar */
+  @media (max-width:560px){
+    .topbar{font-size:10.5px;}
+    .topbar .wrap{height:28px;flex-wrap:nowrap;overflow:hidden;}
+    .topbar .wrap > span:first-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+    .topbar .marcador{display:none;}
+    .masthead .wrap{flex-direction:row;align-items:center;padding:14px 16px 12px;gap:10px;}
+    .brand{gap:10px;}
+    .crest{width:54px;height:47px;}
+    .brand-text .kicker{font-size:8.5px;letter-spacing:0.1em;}
+    .brand-text h1{font-size:27px;line-height:1.05;}
+    .meta-date{display:none;}
+    /* Huecos vacíos de patrocinador: solo en ordenador */
+    .ad-slot-vacio{display:none;}
+  }
 
   /* ===== Widget próximo partido ===== */
   .proximo-widget{
@@ -1534,9 +1549,9 @@
   <div class="ad-banner-top">
     <span class="ad-label">Colaboradores</span>
     <div class="ad-slots" id="colaboradoresSlots">
-      <div class="ad-slot-small"><span>Logo patrocinador</span></div>
-      <div class="ad-slot-small"><span>Logo patrocinador</span></div>
-      <div class="ad-slot-small"><span>Logo patrocinador</span></div>
+      <div class="ad-slot-small ad-slot-vacio"><span>Logo patrocinador</span></div>
+      <div class="ad-slot-small ad-slot-vacio"><span>Logo patrocinador</span></div>
+      <div class="ad-slot-small ad-slot-vacio"><span>Logo patrocinador</span></div>
     </div>
   </div>
 </div>
@@ -2166,7 +2181,7 @@
         }).join('');
         // Rellenar huecos vacíos hasta 3
         var vacios = Math.max(0, 3 - activos.length);
-        for(var i=0;i<vacios;i++) html += '<div class="ad-slot-small"><span>Logo patrocinador</span></div>';
+        for(var i=0;i<vacios;i++) html += '<div class="ad-slot-small ad-slot-vacio"><span>Logo patrocinador</span></div>';
         slots.innerHTML = html;
   }
 
