@@ -2706,7 +2706,9 @@
   function buscarJugador(nombre, plantilla){
     const n = normNombre(nombre);
     return (plantilla||[]).find(function(j){
-      return [j.nombre, j.apellidos, (j.nombre||'')+' '+(j.apellidos||''), j.nombreCompleto]
+      // También "nombre + primer apellido" ("Jaime López"), para distinguir a dos jugadores con el mismo nombre
+      return [j.nombre, j.apellidos, (j.nombre||'')+' '+(j.apellidos||''), j.nombreCompleto,
+              (j.nombre||'')+' '+String(j.apellidos||'').split(' ')[0]]
         .some(function(x){ return x && normNombre(x) === n; });
     }) || null;
   }
