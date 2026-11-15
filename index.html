@@ -2735,7 +2735,10 @@
           // Se agrupa por jugador de plantilla.json (así "Isuskiza" y "Bittor" cuentan como uno)
           const j = buscarJugador(nombre, plantilla);
           const clave = j ? 'p:'+normNombre(j.nombre+' '+(j.apellidos||'')) : 'n:'+normNombre(nombre);
-          if(!cuenta[clave]) cuenta[clave] = { nombre: j ? j.nombre : nombre, jugador: j, goles: 0, alcanzado: 0 };
+          // Si hay dos jugadores con el mismo nombre (Jaime López / Jaime Fernández), se añade el primer apellido
+          const repetido = j && (plantilla||[]).filter(function(x){ return normNombre(x.nombre) === normNombre(j.nombre); }).length > 1;
+          const visible = j ? (repetido ? j.nombre+' '+String(j.apellidos||'').split(' ')[0] : j.nombre) : nombre;
+          if(!cuenta[clave]) cuenta[clave] = { nombre: visible, jugador: j, goles: 0, alcanzado: 0 };
           cuenta[clave].goles++;
           cuenta[clave].alcanzado = seq++; // momento en que llegó a su cifra actual
         });
