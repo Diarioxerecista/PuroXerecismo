@@ -778,23 +778,6 @@
     ],
     "autor": "Carlos López, periodista"
   },
-  "art113": {
-    "fecha": "2026-10-28",
-    "categoria": "noticia",
-    "eyebrow": "Copa del Rey · Xerez CD - Cádiz CF",
-    "title": "El Xerez - Cádiz, entre la semana que viene y el 24 o 25 de noviembre",
-    "lead": "El Xerez CD - Cádiz CF de Copa del Rey, aplazado este miércoles, tiene dos posibles fechas: la semana que viene, lo que obligaría a retrasar unos días la resiembra del césped de Chapín, o el 24 o el 25 de noviembre, antes del sorteo de la segunda ronda.",
-    "body": [
-      "<strong>Actualización:</strong> el partido se jugará finalmente el jueves 29 de octubre a las 21:00 en Chapín.",
-      "<strong>Jugar ya y retrasar la resiembra</strong>",
-      "La primera opción sería disputar el partido la semana que viene, entre semana. Así se aprovecharía que el Xerez CD no vuelve a jugar como local en Liga hasta el 15 de noviembre, ante el Antoniano, aunque habría que retrasar unos días la resiembra. Para la plantilla supondría un calendario exigente: el domingo 1 de noviembre visita al Tamaraceite en Canarias y el domingo 8 juega en el campo del Atlético Sanluqueño, así que serían tres partidos en ocho días.",
-      "<strong>O esperar a finales de noviembre</strong>",
-      "La segunda opción es jugarlo el 24 o el 25 de noviembre, antes del sorteo de la segunda ronda de la Copa del Rey. En ese caso, el derbi caería entre la visita al Atlético Central (22 de noviembre) y la recepción al Linares Deportivo (29 de noviembre).",
-      "Con la nueva fecha, los aficionados del Cádiz CF sí podrían disponer de medios de transporte para volver a casa tras el partido.",
-      "<strong>Un césped muy castigado</strong>",
-      "El estado del terreno de juego ya preocupaba antes del aplazamiento. En la previa del partido, Abel Segovia reconoció que el campo \"me preocupa, claro que sí\", después de varios partidos seguidos en Chapín."
-    ]
-  },
   "art114": {
     "fecha": "2026-10-28",
     "categoria": "noticia",
@@ -1229,6 +1212,8 @@
       "Lolo Ortiz dio entrada tras el descanso a Divino y Ricky en la banda derecha. La primera ocasión fue azulina: un mano a mano de Chuma que Matías Árbol desvió. En el minuto 50, Moi vio la segunda amarilla por una falta sobre Gálvez en la frontal, y Ricky Castro lanzó el libre por encima del larguero. Segovia recompuso la defensa de cuatro con la entrada de Manu Galán por Zeki en el 52. Cuatro minutos después, Matías Árbol volvió a intervenir en una falta lanzada por Chuma.",
       "<figure class=\"cc-fig\"><img src=\"fotos/publicadas/xerez-antoniano-j11-isma-conduce.jpg\" alt=\"Isma, del Xerez CD, conduce el balón en el Pedro Garrido\" loading=\"lazy\"><figcaption><b>Isma, al mando.</b> El centrocampista conduce el balón ante la grada del Pedro Garrido. <i>Foto: Diario Xerecista</i></figcaption></figure>",
       "El ritmo bajó en el tramo final. En el 67, Jaime López, Zelu y Rubén Mesa sustituyeron a Isma, Julito y Chuma, y en el 81 Guille Campos relevó a Peregrina. El Antoniano no llegó a poner a prueba a Carlos Pantoja, y el Xerez cerró un triunfo que lo mantiene en puestos de play off.",
+      "<strong>Lo que dijo Segovia</strong>",
+      "\"Cuando hacemos las cosas bien somos un equipo difícil, pero cuando no lo hacemos, somos un equipo vulgar como cualquiera\", advirtió el entrenador, que pidió ir \"paso a paso\". <a href=\"/noticias/articulos/2026-11/abel-segovia-contento-con-el-crecimiento-del-equipo/\">Lea aquí todas sus declaraciones</a>.",
       "<div class=\"cc-clasi\"><span class=\"cc-flecha\">=</span><span class=\"cc-pos\">5.º</span><p><b>El Xerez sigue quinto</b>, con 18 puntos, en puestos de play off. Iguala con el Betis Deportivo, al que supera por diferencia de goles, y está a dos puntos de la segunda plaza.<small>Clasificación provisional de la jornada 11 (faltan el Sevilla Atlético-Recreativo de Huelva y el Betis B-Tenerife B, aplazados)</small></p></div>"
     ],
     "score": "2-0",
@@ -1240,5 +1225,29 @@
     "estadio": "Pedro Garrido",
     "jornadaLabel": "Jornada 11 · Grupo IV",
     "formato": "clasico"
+  },
+  "art135": {
+    "fecha": "2026-11-15",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Declaraciones de Abel Segovia",
+    "title": "Abel Segovia, contento con el crecimiento del equipo",
+    "lead": "El entrenador del Xerez CD pidió calma tras la cuarta victoria seguida, ante el Antoniano (2-0). Cree que el resultado se quedó corto y lamentó la primera amarilla de Moi, que acabó expulsado.",
+    "body": [
+      "Abel Segovia rebajó la euforia tras el 2-0 al Atlético Antoniano, la cuarta victoria consecutiva del Xerez CD, que deja al equipo quinto, a dos puntos de la segunda plaza y a tres del líder, el Recreativo de Huelva, con un partido menos. \"El equipo no va a entrar en eso. El entrenador se encarga de decir que no nos confundamos. Cuando hacemos las cosas bien somos un equipo difícil, pero cuando no lo hacemos, somos un equipo vulgar como cualquiera\", afirmó en rueda de prensa.",
+      "El técnico explicó que el equipo encontró el daño donde lo había preparado: \"Hemos interpretado muy bien los intervalos central-lateral como lo habíamos trabajado durante la semana. Sabíamos que ahí se les podía hacer daño y lo hemos hecho\". Aun así, echó en falta más acierto: \"Creo que el resultado es corto y teníamos que haber matado el partido antes para estar más tranquilos\". En defensa, se mostró satisfecho: \"No recuerdo ninguna acción de ellos que acabara en portería\".",
+      "<strong>Goles desde todas las líneas</strong>",
+      "Preguntado por los goles de los centrocampistas, Segovia defendió que el gol no depende solo de los delanteros: \"Generamos mucho en ataque y al final van a marcar goles todos. Los centrales tienen que llegar en acción a balón parado, y la gente de segunda línea como Mario o Isma tiene que sumar\".",
+      "También le preguntaron por el cambio de sistema, del 4-4-2 al 4-3-3, y por Julito, que empezó la temporada como segundo delantero y ahora juega más abierto, en una posición en la que se le ve más cómodo.",
+      "<strong>Guille Campos, Rubén Mesa y el físico</strong>",
+      "El entrenador explicó que la suplencia de Guille Campos fue una decisión táctica: \"Contra un equipo en bloque bajo necesitábamos un lateral con características diferentes para pisar posiciones muy adelantadas. Con Guille estoy encantado; tengo 23 jugadores y elijo según el rival\". De Rubén Mesa, que vuelve a sumar minutos tras sus problemas físicos, dijo que \"hay que ir poco a poco con él; lo importante es que sea feliz y nos va a dar muchísimo\".",
+      "También le preguntaron por jugar con doble lateral derecho, con Víctor López y Guille Campos juntos en el campo. Segovia reconoció que no le gusta, pero que era necesario.",
+      "Sobre la mejoría del equipo desde el partido ante el Betis B, Segovia insistió en que, más que un problema físico, era un problema mental, y que el equipo ha conseguido trabajarlo y mejorar.",
+      "<strong>La expulsión de Moi</strong>",
+      "Segovia no entró a valorar la segunda amarilla a Moi, que dejó el partido en diez contra diez: \"Yo estoy lejos para juzgar si ha sido expulsión o no, pero el árbitro lo ha expulsado y lo que tenemos que hacer es adaptarnos a la nueva situación\". Sí señaló la primera, antes del descanso: \"Creo que tenemos que ser más listos; la tarjeta que nos ha penalizado ha sido la del final del primer tiempo, una acción en la que no hay que hacer ni falta y la hacemos. Tenemos que aprender, aunque él ha hecho un partido sensacional\".",
+      "<strong>\"Nuestro campo es Chapín\"</strong>",
+      "Preguntado por si prefiere el ambiente del Pedro Garrido o el de Chapín, fue claro: \"Nuestro campo es Chapín\". Y cerró con un mensaje de calma: \"Cuando un equipo sólo se basa en los resultados, cuando pierde, ¿a qué se agarra? Nosotros nos agarramos al trabajo, a mejorar cada día y a seguir haciendo lo mismo con total naturalidad. Esto es muy largo, paso a paso\".",
+      "<a href=\"/noticias/cronicas/2026-11/el-xerez-suma-cuatro-victorias-seguidas-y-se-acerca-a-la-segunda-plaza/\">Lea aquí la crónica del Xerez CD 2-0 Atlético Antoniano</a>."
+    ],
+    "noPrincipal": true
   }
 }

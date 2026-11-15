@@ -406,24 +406,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/si-vengo-de-primera-regional/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cadiz-entre-la-semana-que-viene-y-el-24-o-25-de-noviembre/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cadiz-entre-la-semana-que-viene-y-el-24-o-25-de-noviembre/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cadiz-between-next-week-and-24-or-25-november/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cadiz-entre-la-semana-que-viene-y-el-24-o-25-de-noviembre/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cadiz-between-next-week-and-24-or-25-november/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cadiz-entre-la-semana-que-viene-y-el-24-o-25-de-noviembre/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cadiz-between-next-week-and-24-or-25-november/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cadiz-entre-la-semana-que-viene-y-el-24-o-25-de-noviembre/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cadiz-se-jugara-este-jueves-a-las-21-00-en-chapin/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -782,5 +764,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/cronicas/2026-11/el-xerez-suma-cuatro-victorias-seguidas-y-se-acerca-a-la-segunda-plaza/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/cronicas/2026-11/xerez-make-it-four-wins-in-a-row-and-close-in-on-second-place/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/cronicas/2026-11/el-xerez-suma-cuatro-victorias-seguidas-y-se-acerca-a-la-segunda-plaza/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-11/abel-segovia-contento-con-el-crecimiento-del-equipo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/abel-segovia-contento-con-el-crecimiento-del-equipo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/abel-segovia-pleased-with-the-teams-growth/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/abel-segovia-contento-con-el-crecimiento-del-equipo/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-11/abel-segovia-pleased-with-the-teams-growth/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/abel-segovia-contento-con-el-crecimiento-del-equipo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/abel-segovia-pleased-with-the-teams-growth/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/abel-segovia-contento-con-el-crecimiento-del-equipo/"/>
   </url>
 </urlset>

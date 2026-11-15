@@ -87,10 +87,6 @@
     "foto": "fotos/publicadas/cadiz-cf-jugadores-carranza.jpg",
     "creditoFoto": "Foto: Diario de Cádiz"
   },
-  "art113": {
-    "foto": "fotos/publicadas/xerez-chapin-grada-aficion-2026-27.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art114": {
     "foto": "fotos/publicadas/xerez-marbella-j8-ocasion-bloch.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -172,5 +168,10 @@
     "foto": "fotos/publicadas/xerez-antoniano-j11-celebracion-peregrina.jpg",
     "creditoFoto": "Foto: Diario Xerecista",
     "objectPosition": "center 60%"
+  },
+  "art135": {
+    "foto": "fotos/publicadas/xerez-antoniano-j11-segovia-banda.jpg",
+    "creditoFoto": "Foto: Diario Xerecista",
+    "objectPosition": "center 30%"
   }
 }
