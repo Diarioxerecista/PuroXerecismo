@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-08",
-  "jornada": 10,
+  "actualizado": "2026-11-15",
+  "jornada": 11,
   "fuente": "futbolme",
   "equipos": [
     {
@@ -14,66 +14,82 @@
     {
       "nombre": "Don Benito",
       "escudo": "fotos/escudos/don-benito.png",
-      "pj": 10,
+      "pj": 11,
       "pts": 20,
-      "gf": 18,
-      "gc": 13
-    },
-    {
-      "nombre": "Ciudad de Lucena",
-      "escudo": "fotos/escudos/ciudad-lucena.png",
-      "pj": 10,
-      "pts": 19,
-      "gf": 17,
-      "gc": 10
+      "gf": 19,
+      "gc": 15
     },
     {
       "nombre": "Badajoz",
       "escudo": "fotos/escudos/badajoz.png",
-      "pj": 10,
-      "pts": 17,
-      "gf": 10,
-      "gc": 7
+      "pj": 11,
+      "pts": 20,
+      "gf": 12,
+      "gc": 8
+    },
+    {
+      "nombre": "Ciudad de Lucena",
+      "escudo": "fotos/escudos/ciudad-lucena.png",
+      "pj": 11,
+      "pts": 19,
+      "gf": 20,
+      "gc": 14
     },
     {
       "nombre": "Xerez CD",
       "escudo": "fotos/escudos/escudo-xerez-cd-hd.png",
-      "pj": 10,
-      "pts": 15,
-      "gf": 12,
+      "pj": 11,
+      "pts": 18,
+      "gf": 14,
       "gc": 7
     },
     {
       "nombre": "Betis B",
       "escudo": "fotos/escudos/betis-deportivo.png",
-      "pj": 9,
-      "pts": 15,
-      "gf": 12,
-      "gc": 7
-    },
-    {
-      "nombre": "Mijas Las Lagunas",
-      "escudo": "fotos/escudos/las-lagunas.png",
       "pj": 10,
-      "pts": 15,
-      "gf": 18,
-      "gc": 14
+      "pts": 18,
+      "gf": 13,
+      "gc": 7
     },
     {
       "nombre": "Estepona",
       "escudo": "fotos/escudos/estepona.png",
-      "pj": 10,
+      "pj": 11,
+      "pts": 18,
+      "gf": 22,
+      "gc": 18
+    },
+    {
+      "nombre": "Linares Deportivo",
+      "escudo": "fotos/escudos/linares.png",
+      "pj": 11,
+      "pts": 17,
+      "gf": 15,
+      "gc": 14
+    },
+    {
+      "nombre": "Mijas Las Lagunas",
+      "escudo": "fotos/escudos/las-lagunas.png",
+      "pj": 11,
       "pts": 15,
-      "gf": 18,
-      "gc": 15
+      "gf": 21,
+      "gc": 18
+    },
+    {
+      "nombre": "Salerm Puente Genil",
+      "escudo": "fotos/escudos/puente-genil.png",
+      "pj": 11,
+      "pts": 15,
+      "gf": 13,
+      "gc": 10
     },
     {
       "nombre": "Atlético Central",
       "escudo": "fotos/escudos/atletico-central.png",
-      "pj": 10,
+      "pj": 11,
       "pts": 15,
       "gf": 13,
-      "gc": 15
+      "gc": 17
     },
     {
       "nombre": "Sevilla Atlético",
@@ -84,71 +100,56 @@
       "gc": 16
     },
     {
-      "nombre": "Linares Deportivo",
-      "escudo": "fotos/escudos/linares.png",
-      "pj": 10,
-      "pts": 14,
-      "gf": 13,
-      "gc": 13
-    },
-    {
-      "nombre": "Salerm Puente Genil",
-      "escudo": "fotos/escudos/puente-genil.png",
-      "pj": 10,
-      "pts": 12,
-      "gf": 11,
-      "gc": 10
+      "nombre": "Marbella",
+      "escudo": "fotos/escudos/marbella.png",
+      "pj": 11,
+      "pts": 13,
+      "gf": 9,
+      "gc": 11
     },
     {
       "nombre": "Atlético Sanluqueño",
       "escudo": "fotos/escudos/sanluqueno.png",
-      "pj": 10,
+      "pj": 11,
       "pts": 10,
       "gf": 15,
-      "gc": 18
+      "gc": 19
     },
     {
       "nombre": "Tenerife B",
       "escudo": "fotos/escudos/tenerife-b.png",
-      "pj": 9,
-      "pts": 10,
-      "gf": 11,
-      "gc": 14
-    },
-    {
-      "nombre": "Marbella",
-      "escudo": "fotos/escudos/marbella.png",
       "pj": 10,
       "pts": 10,
-      "gf": 8,
-      "gc": 11
-    },
-    {
-      "nombre": "Antoniano",
-      "escudo": "fotos/escudos/antoniano.png",
-      "pj": 10,
-      "pts": 6,
-      "gf": 10,
-      "gc": 19
-    },
-    {
-      "nombre": "Tamaraceite",
-      "escudo": "fotos/escudos/tamaraceite.png",
-      "pj": 10,
-      "pts": 6,
-      "gf": 8,
-      "gc": 23
+      "gf": 12,
+      "gc": 16
     },
     {
       "nombre": "Las Palmas Atlético",
       "escudo": "fotos/escudos/las-palmas-atletico.png",
-      "pj": 10,
-      "pts": 5,
-      "gf": 5,
-      "gc": 18
+      "pj": 11,
+      "pts": 8,
+      "gf": 9,
+      "gc": 21
+    },
+    {
+      "nombre": "Antoniano",
+      "escudo": "fotos/escudos/antoniano.png",
+      "pj": 11,
+      "pts": 6,
+      "gf": 10,
+      "gc": 21
+    },
+    {
+      "nombre": "Tamaraceite",
+      "escudo": "fotos/escudos/tamaraceite.png",
+      "pj": 11,
+      "pts": 6,
+      "gf": 8,
+      "gc": 24
     }
   ],
   "pendientes": [
-    "Betis B - Tenerife B"
+    "Betis B - Tenerife B",
+    "Sevilla Atlético - Recreativo de Huelva"
   ]
 }
