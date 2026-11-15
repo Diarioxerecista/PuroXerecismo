@@ -6,12 +6,26 @@
   "visitante": "C.A. Antoniano",
   "gl": 2,
   "gv": 0,
-  "goles": [],
+  "goles": [
+    {
+      "equipo": "local",
+      "jugador": "Isma",
+      "minuto": "23",
+      "tipo": "pen"
+    },
+    {
+      "equipo": "local",
+      "jugador": "Mario Peregrina",
+      "minuto": "44",
+      "tipo": ""
+    }
+  ],
   "copa": false,
   "ganaXerez": true,
-  "foto": "fotos/publicadas/tamaraceite-xerez-j9-chuma-saludo.jpg",
-  "origenFoto": "archivo",
-  "texto": "✅ FINAL | Xerez CD 2-0 Antoniano\n\nVictoria del Xerez CD 💙\n\n📲 diarioxerecista.es\n\n#XerezCD #SegundaRFEF",
-  "generado": "15/11/2026 19:57",
-  "v": "20261115195725"
+  "vert": 0.55,
+  "foto": "fotos/publicadas/xerez-antoniano-j11-celebracion-peregrina.jpg",
+  "origenFoto": "tuya",
+  "texto": "✅ FINAL | Xerez CD 2-0 Antoniano\n\n⚽ Isma 23' (p)\n⚽ Mario Peregrina 44'\n\nVictoria del Xerez CD 💙\n\n📲 diarioxerecista.es\n\n#XerezCD #SegundaRFEF",
+  "generado": "15/11/2026 21:30",
+  "v": "20261115213004"
 }

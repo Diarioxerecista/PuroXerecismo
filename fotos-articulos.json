@@ -167,5 +167,10 @@
   "art132": {
     "foto": "fotos/publicadas/sanluqueno-xerez-j10-jugada-frontal.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art134": {
+    "foto": "fotos/publicadas/xerez-antoniano-j11-celebracion-peregrina.jpg",
+    "creditoFoto": "Foto: Diario Xerecista",
+    "objectPosition": "center 60%"
   }
 }
