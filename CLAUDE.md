@@ -166,7 +166,7 @@ La portada necesita al menos 17 artículos no-"historias" (1 destacado + 4 en ba
 - Ya estamos en temporada: no usar la palabra "Pretemporada" en etiquetas de interfaz.
 - Bloque bajo la noticia principal (columna del destacado, en este orden):
   1. Franja "Espacio publicitario · Pon tu publicidad aquí" con el botón a Contacto. Cuando haya un patrocinador para ese hueco, se sustituye por su banner.
-  2. "Goleadores · Liga": todos los goleadores del Xerez CD en liga (hasta 6, en filas de 3), calculados automáticamente a partir de `goleadoresHome`/`goleadoresAway` de las crónicas con eyebrow "Jornada" (sin amistosos ni Copa). Foto = cromo de plantilla.json; sin cromo, la inicial. Empate: el que llegó antes a esa cifra y, si persiste, orden alfabético.
+  2. "Goleadores · Liga": todos los goleadores del Xerez CD en liga (hasta 9, en filas de 3), calculados automáticamente a partir de `goleadoresHome`/`goleadoresAway` de las crónicas con eyebrow "Jornada" (sin amistosos ni Copa). Foto = cromo de plantilla.json; sin cromo, la inicial. Empate: el que llegó antes a esa cifra y, si persiste, orden alfabético.
 
 - Barra lateral, bajo el anuncio de Lugo: bloque "Xerez TV" con la lista de subidas del canal oficial de YouTube (@XerezCD_OFICIAL, lista `UU9VoHXdJS772qYHpRNvYGSQ`): muestra solo el último vídeo o directo, sin mantenimiento.
 

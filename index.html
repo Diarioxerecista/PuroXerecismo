@@ -2752,7 +2752,7 @@
     }
     const datos = calcularGoleadores(plantilla);
     if(!datos.lista.length){ box.innerHTML = ''; return; }
-    const filas = datos.lista.slice(0,6).map(function(g, i){
+    const filas = datos.lista.slice(0,9).map(function(g, i){
       const j = g.jugador;
       const foto = j && j.cromo
         ? '<div class="goleador-foto" style="background-image:url(\''+escAttr(j.cromo)+'\')" role="img" aria-label="'+escAttr(g.nombre)+'"></div>'
@@ -3130,7 +3130,10 @@
         </div>`;
     }
 
-    let bodyHtml = a.body.map(p=> /^<(div|figure|img)/i.test(p.trim()) ? p : `<p>${p}</p>`).join('');
+    // Rutas de imágenes del cuerpo en absoluto (/fotos/…): al abrir el artículo la dirección pasa a
+    // /noticias/<slug>/ y las fotos con loading="lazy" se cargaban después con la ruta rota.
+    let bodyHtml = a.body.map(p=> /^<(div|figure|img)/i.test(p.trim()) ? p : `<p>${p}</p>`).join('')
+      .replace(/(<img[^>]*\ssrc=")(?!https?:|\/|data:)/gi, '$1/');
     let quoteHtml = a.quote ? `<div class="pullquote">${a.quote}</div>` : '';
     let fotoHtml = '';
     if(a.foto){
