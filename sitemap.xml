@@ -406,24 +406,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/si-vengo-de-primera-regional/"/>
   </url>
   <url>
-    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cadiz-se-jugara-este-jueves-a-las-21-00-en-chapin/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cadiz-se-jugara-este-jueves-a-las-21-00-en-chapin/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cadiz-to-be-played-this-thursday-at-21-00-at-chapin/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cadiz-se-jugara-este-jueves-a-las-21-00-en-chapin/"/>
-  </url>
-  <url>
-    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cadiz-to-be-played-this-thursday-at-21-00-at-chapin/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cadiz-se-jugara-este-jueves-a-las-21-00-en-chapin/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-10/xerez-cadiz-to-be-played-this-thursday-at-21-00-at-chapin/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-cadiz-se-jugara-este-jueves-a-las-21-00-en-chapin/"/>
-  </url>
-  <url>
     <loc>https://www.diarioxerecista.es/noticias/articulos/2026-10/el-xerez-dio-su-explicacion-el-cadiz-la-suya-y-la-federacion-decidio/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -782,5 +764,23 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/abel-segovia-contento-con-el-crecimiento-del-equipo/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/abel-segovia-pleased-with-the-teams-growth/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/abel-segovia-contento-con-el-crecimiento-del-equipo/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/noticias/articulos/2026-11/insultos-machistas-en-el-pedro-garrido/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/insultos-machistas-en-el-pedro-garrido/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/sexist-abuse-at-the-pedro-garrido/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/insultos-machistas-en-el-pedro-garrido/"/>
+  </url>
+  <url>
+    <loc>https://www.diarioxerecista.es/en/noticias/articulos/2026-11/sexist-abuse-at-the-pedro-garrido/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-11-16</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/insultos-machistas-en-el-pedro-garrido/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.diarioxerecista.es/en/noticias/articulos/2026-11/sexist-abuse-at-the-pedro-garrido/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.diarioxerecista.es/noticias/articulos/2026-11/insultos-machistas-en-el-pedro-garrido/"/>
   </url>
 </urlset>

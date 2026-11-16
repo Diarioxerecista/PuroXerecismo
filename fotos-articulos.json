@@ -87,10 +87,6 @@
     "foto": "fotos/publicadas/cadiz-cf-jugadores-carranza.jpg",
     "creditoFoto": "Foto: Diario de Cádiz"
   },
-  "art114": {
-    "foto": "fotos/publicadas/xerez-marbella-j8-ocasion-bloch.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art115": {
     "foto": "fotos/publicadas/xerez-donbenito-j3-remate-area.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -173,5 +169,9 @@
     "foto": "fotos/publicadas/xerez-antoniano-j11-segovia-banda.jpg",
     "creditoFoto": "Foto: Diario Xerecista",
     "objectPosition": "center 30%"
+  },
+  "art136": {
+    "foto": "fotos/publicadas/xerez-antoniano-j11-grada-visitante-jueza.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
   }
 }
