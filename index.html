@@ -2071,11 +2071,11 @@
     if(!widget || window._liveActivo) return; // en directo manda el marcador en vivo
     const hoy = new Date(); hoy.setHours(0,0,0,0);
     const proximo = PARTIDOS.find(function(p){ return !p.resultado && !p.aplazado && new Date(p.fecha+'T12:00:00') >= hoy; });
-    // Último partido jugado: su tarjeta de resultado sale el día del partido y los 2 siguientes
+    // Último partido jugado: su tarjeta de resultado sale solo el día del partido; al día siguiente, el próximo
     var jugados = PARTIDOS.filter(function(p){ return p.resultado && p.tipo!=='amistoso'; });
     var ultimo = jugados[jugados.length-1];
     var forzar = /[?&]tarjeta=(resultado|previa)/.exec(location.search);
-    var verResultado = ultimo && ((hoy - new Date(ultimo.fecha+'T00:00:00')) <= 2*86400000);
+    var verResultado = ultimo && ((hoy - new Date(ultimo.fecha+'T00:00:00')) < 86400000);
     if(forzar) verResultado = forzar[1]==='resultado' && !!ultimo;
     if(verResultado){ widget.innerHTML = tarjetaResultado(ultimo, proximo); pintarPuestosPartido(); return; }
     if(!proximo) return;
