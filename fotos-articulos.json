@@ -177,5 +177,10 @@
   "art137": {
     "foto": "fotos/publicadas/xerez-cd-tienda-oficial-apertura.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art138": {
+    "foto": "fotos/publicadas/recreativo-xerez-j4-disputa-cesped.jpg",
+    "creditoFoto": "Foto: Diario Xerecista",
+    "objectPosition": "center 45%"
   }
 }

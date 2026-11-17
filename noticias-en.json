@@ -838,10 +838,7 @@
   },
   "art117": {
     "fecha": "2026-10-30",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
+    "categoria": "opinion",
     "eyebrow": "Opinion · Analysis",
     "title": "A fanbase that has grown up from the mud",
     "lead": "Xerez supporters showed against Cádiz that they are an exemplary fanbase, forged through years of suffering.",
@@ -1264,6 +1261,20 @@
       "Tickets are on sale at the club offices, Monday to Friday, from 10:30 to 13:30 and in the afternoon from 17:00. Anyone buying at the ground on match day will pay 16 euros.",
       "<strong>Four wins in a row</strong>",
       "The Group IV Segunda RFEF Matchday 12 game kicks off at 12:00 at the Nuevo Estadio Ciudad de Alcalá, in Alcalá de Guadaíra. Xerez arrive in fifth place, with 18 points and four wins in a row, after beating Antoniano 2-0. Atlético Central are eleventh, with 15 points."
+    ]
+  },
+  "art138": {
+    "fecha": "2026-11-17",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Tickets",
+    "title": "Anger in Huelva over Atlético Central ticket prices for Xerez",
+    "lead": "Atlético Central will charge Xerez fans 11 euros for Sunday's game. They asked Recreativo supporters for 20 on the opening matchday of the league and, after complaints, settled on 15.",
+    "body": [
+      "Atlético Central's ticket prices for Xerez CD supporters have caused anger in Huelva, according to Huelva Información. Xerez fans will pay 11 euros in advance for Sunday's game, on 22 November at the Ciudad de Alcalá, and 16 at the ground on match day. Under-12s will get in free on showing their ID card. In addition, Xerez have received a first batch of 500 tickets, which could be increased depending on demand.",
+      "<strong>What happened in August</strong>",
+      "On the opening matchday of the league, Atlético Central priced tickets for Recreativo de Huelva fans at 20 euros, and children aged up to 11 also had to pay. Recre tried to get the price lowered without success, and publicly criticised it as above the Segunda RFEF average for away supporters. Many of their fans stayed at home.",
+      "In the end, Atlético Central cut the general ticket to 15 euros. They justified the price by saying that clubs in this category, and especially loss-making projects like theirs, depend heavily on ticket sales.",
+      "In Huelva, the difference in treatment has drawn attention, all the more so as these are two of the biggest fan bases in Group IV."
     ]
   }
 }
