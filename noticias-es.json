@@ -780,10 +780,7 @@
   },
   "art115": {
     "fecha": "2026-10-29",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
+    "categoria": "opinion",
     "eyebrow": "Opinión · Análisis",
     "title": "El Xerez dio su explicación, el Cádiz la suya y la Federación decidió",
     "lead": "No entiendo que desde cierto sector del periodismo gaditano se le eche la culpa al Xerez de jugar el partido en el día de hoy.",
@@ -1254,6 +1251,19 @@
       "<strong>En pleno siglo XXI</strong>",
       "Es una auténtica vergüenza que en pleno siglo XXI se sigan escuchando estos insultos en un campo de fútbol. Quien grita \"vete a planchar\" a una mujer que está arbitrando dice mucho más de sí mismo que de ella. Seguramente sean personas acomplejadas, que solo encuentran en el insulto la forma de sentirse por encima de alguien. Ojalá no tengan hijas, porque si las tienen, sabemos lo que van a aprender en casa.",
       "El fútbol, y también nuestras gradas, tienen que ser un lugar donde cualquier mujer pueda estar, animar o arbitrar sin tener que aguantar esto. No se puede consentir."
+    ]
+  },
+  "art137": {
+    "fecha": "2026-11-17",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Entradas",
+    "title": "El Xerez recibe 500 entradas a 11 euros para el partido en el campo del Atlético Central",
+    "lead": "Los menores de 12 años entrarán gratis al partido del domingo, de la jornada 12 de Segunda RFEF, que empezará a las 12:00 en Alcalá de Guadaíra.",
+    "body": [
+      "El Xerez CD ha recibido una primera remesa de 500 entradas para el partido del próximo domingo, 22 de noviembre, en el campo del Atlético Central. Cada localidad cuesta 11 euros en venta anticipada, y los menores de 12 años podrán entrar gratis. El club ha anunciado que el número de entradas podría ampliarse según la demanda.",
+      "Las entradas se venden en la sede del club, de lunes a viernes, de 10:30 a 13:30 y por la tarde a partir de las 17:00. Quien la compre en taquilla el mismo día del partido pagará 16 euros.",
+      "<strong>Cuatro victorias seguidas</strong>",
+      "El partido, de la jornada 12 del Grupo IV de Segunda RFEF, empezará a las 12:00 en el Nuevo Estadio Ciudad de Alcalá, en Alcalá de Guadaíra. El Xerez llega quinto, con 18 puntos y cuatro victorias seguidas, después de ganar 2-0 al Antoniano. El Atlético Central es undécimo, con 15 puntos."
     ]
   }
 }

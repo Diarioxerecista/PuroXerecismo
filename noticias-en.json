@@ -780,10 +780,7 @@
   },
   "art115": {
     "fecha": "2026-10-29",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
+    "categoria": "opinion",
     "eyebrow": "Opinion · Analysis",
     "title": "Xerez gave their explanation, Cádiz gave theirs and the Federation decided",
     "lead": "I do not understand why a certain section of the Cádiz press is blaming Xerez for the match being played today.",
@@ -1254,6 +1251,19 @@
       "<strong>In the 21st century</strong>",
       "It is a real disgrace that in the 21st century these insults can still be heard at a football ground. Whoever shouts \"go and do the ironing\" at a woman who is refereeing says far more about himself than about her. They are probably people with complexes, who can only find a way to feel superior to someone through insults. Let us hope they do not have daughters, because if they do, we know what they will learn at home.",
       "Football, and our stands too, must be a place where any woman can be, cheer or referee without having to put up with this. It cannot be tolerated."
+    ]
+  },
+  "art137": {
+    "fecha": "2026-11-17",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Tickets",
+    "title": "Xerez receive 500 tickets at 11 euros for the game at Atlético Central",
+    "lead": "Under-12s will get in free for Sunday's Segunda RFEF Matchday 12 game, which kicks off at 12:00 in Alcalá de Guadaíra.",
+    "body": [
+      "Xerez CD have received a first batch of 500 tickets for next Sunday's game, on 22 November, away to Atlético Central. Each ticket costs 11 euros in advance, and under-12s will get in free. The club has announced that the number of tickets could be increased depending on demand.",
+      "Tickets are on sale at the club offices, Monday to Friday, from 10:30 to 13:30 and in the afternoon from 17:00. Anyone buying at the ground on match day will pay 16 euros.",
+      "<strong>Four wins in a row</strong>",
+      "The Group IV Segunda RFEF Matchday 12 game kicks off at 12:00 at the Nuevo Estadio Ciudad de Alcalá, in Alcalá de Guadaíra. Xerez arrive in fifth place, with 18 points and four wins in a row, after beating Antoniano 2-0. Atlético Central are eleventh, with 15 points."
     ]
   }
 }
