@@ -99,10 +99,6 @@
     "foto": "fotos/publicadas/xerez-cadiz-copa-aficion-chapin-llena.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art118": {
-    "foto": "fotos/publicadas/xerez-donbenito-j3-chapin-grada.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art119": {
     "foto": "fotos/publicadas/xerez-lucena-j7-larguero.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -182,5 +178,10 @@
     "foto": "fotos/publicadas/recreativo-xerez-j4-disputa-cesped.jpg",
     "creditoFoto": "Foto: Diario Xerecista",
     "objectPosition": "center 45%"
+  },
+  "art139": {
+    "foto": "fotos/publicadas/tamaraceite-xerez-j9-aficion-xerecista.jpg",
+    "creditoFoto": "Foto: Diario Xerecista",
+    "objectPosition": "center 55%"
   }
 }

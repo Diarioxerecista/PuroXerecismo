@@ -850,20 +850,6 @@
       "Now, the next big away following we will welcome will be the Recre fans, who will come in greater numbers, and we will once again be a fanbase with class. And I hope it will be with a stadium as full as yesterday."
     ]
   },
-  "art118": {
-    "fecha": "2026-10-30",
-    "categoria": "noticia",
-    "eyebrow": "Xerez CD · Discipline",
-    "title": "Xerez could receive a Copa warning over objects thrown against Cádiz",
-    "lead": "What happened in the Copa derby against Cádiz CF would not count as a repeat offence, since the Copa del Rey and the league are different competitions and the warning the club received against Ciudad de Lucena belongs to the league.",
-    "body": [
-      "<strong>Correction:</strong> an earlier version of this article reported that Xerez CD faced the partial closure of Chapín and a 3,000-euro fine as repeat offenders for throwing objects. That is not the case. The Copa del Rey and the league are different competitions, so what happened against Cádiz would not count as a repeat offence in relation to the warning received in the league.",
-      "According to the referee's report, in the 60th minute of the Copa del Rey first-round derby (1-3), after García Pascual made it 1-2, the match referee, Sánchez Villalobos, activated phase 1 of the protocol for thrown objects. Bottles of water and soft drinks were thrown onto the pitch from a section of the stadium occupied by home supporters, without any of them hitting anyone. The crowd was warned over the public address system that, if it happened again, the match would be temporarily suspended. The game was stopped for two minutes and 30 seconds and then continued without any further incident, according to the report.",
-      "<strong>Two different competitions</strong>",
-      "In the league match against Ciudad de Lucena, on 18 October at Chapín, the club received a warning of partial closure and a 600-euro fine. As they are different competitions, what could happen now is that the Competition Committee issues another warning in the Copa, separate from the one already in place in the league."
-    ],
-    "v": 3
-  },
   "art119": {
     "fecha": "2026-10-31",
     "categoria": [
@@ -1275,6 +1261,18 @@
       "On the opening matchday of the league, Atlético Central priced tickets for Recreativo de Huelva fans at 20 euros, and children aged up to 11 also had to pay. Recre tried to get the price lowered without success, and publicly criticised it as above the Segunda RFEF average for away supporters. Many of their fans stayed at home.",
       "In the end, Atlético Central cut the general ticket to 15 euros. They justified the price by saying that clubs in this category, and especially loss-making projects like theirs, depend heavily on ticket sales.",
       "In Huelva, the difference in treatment has drawn attention, all the more so as these are two of the biggest fan bases in Group IV."
+    ]
+  },
+  "art139": {
+    "fecha": "2026-11-18",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Tickets",
+    "title": "Xerez sell out first 500 tickets for Atlético Central game and put another 500 on sale",
+    "lead": "Xerez supporters snapped up the first batch of tickets for Sunday's game in Alcalá de Guadaíra in a single day.",
+    "body": [
+      "Xerez CD have sold out the first 500 tickets sent by Atlético Central for Sunday's game, on 22 November at 12:00 at the Ciudad de Alcalá. The tickets were sold in a single day at the club offices, and the club has already put another 500 on sale.",
+      "Atlético Central could make up to 1,500 tickets available to Xerez, and the club will keep asking for more depending on demand.",
+      "Tickets cost 11 euros in advance and 16 at the ground on match day. Under-12s get in free on showing their ID card."
     ]
   }
 }
