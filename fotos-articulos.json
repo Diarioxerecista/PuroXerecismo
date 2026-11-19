@@ -188,5 +188,10 @@
     "foto": "fotos/publicadas/xerez-once-ascenso-del-rio-santos.jpg",
     "creditoFoto": "Foto: Diario Xerecista",
     "objectPosition": "center 35%"
+  },
+  "art141": {
+    "foto": "fotos/publicadas/futbol-base-sub15-tarjeta-verde-commons.jpg",
+    "creditoFoto": "Foto: Tadeáš Bednarz / Wikimedia Commons (CC BY-SA 4.0)",
+    "objectPosition": "center 40%"
   }
 }
