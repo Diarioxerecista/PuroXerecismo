@@ -852,10 +852,7 @@
   },
   "art119": {
     "fecha": "2026-10-31",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
+    "categoria": "opinion",
     "eyebrow": "Xerez CD · Análisis",
     "title": "Al Xerez le falta gol: 5 tantos en ocho jornadas, su peor arranque de las últimas temporadas",
     "lead": "El Xerez CD ha marcado solo 5 goles en las ocho primeras jornadas de liga, ni siquiera uno por partido. Es la cifra más baja de las últimas cuatro temporadas a estas alturas y la segunda peor del grupo. La falta de acierto arriba explica que el equipo sume 9 puntos, por debajo de los cursos anteriores.",
@@ -1273,6 +1270,17 @@
       "El Xerez CD ha agotado las primeras 500 entradas que le envió el Atlético Central para el partido del domingo 22 de noviembre, a las 12:00, en el Ciudad de Alcalá. Las localidades se vendieron en un solo día en la sede del club, que ya ha puesto a la venta otras 500.",
       "El Atlético Central podría facilitar al Xerez hasta 1.500 entradas, y el club seguirá pidiendo más en función de la demanda.",
       "Las entradas cuestan 11 euros en venta anticipada y 16 en taquilla el día del partido. Los menores de 12 años entran gratis presentando el DNI."
+    ]
+  },
+  "art140": {
+    "fecha": "2026-11-19",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Jornada 12",
+    "title": "Del Río y Santos, dos protagonistas del ascenso del Xerez, se medirán a su exequipo con el Atlético Central",
+    "lead": "Ambos formaron parte de la plantilla que subió al Xerez CD a Segunda RFEF y el domingo estarán en el otro lado, en el Ciudad de Alcalá.",
+    "body": [
+      "El partido del próximo domingo entre el Atlético Central y el Xerez CD, a las 12:00 en Alcalá de Guadaíra, tendrá un componente especial. En las filas del conjunto sevillano militan Del Río y Santos, dos jugadores que participaron en el ascenso del Xerez a Segunda RFEF.",
+      "Ahora se reencontrarán con el que fue su equipo en la jornada 12 del Grupo IV. El Xerez llega quinto, con 18 puntos y cuatro victorias seguidas. El Atlético Central es undécimo, con 15 puntos."
     ]
   }
 }

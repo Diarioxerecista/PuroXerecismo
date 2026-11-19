@@ -852,10 +852,7 @@
   },
   "art119": {
     "fecha": "2026-10-31",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
+    "categoria": "opinion",
     "eyebrow": "Xerez CD · Analysis",
     "title": "Xerez lack goals: 5 in eight matchdays, their worst start in recent seasons",
     "lead": "Xerez CD have scored only 5 goals in the first eight league matchdays, not even one per game. It is the lowest figure of the last four seasons at this stage and the second worst in the group. The lack of finishing up front explains why the team have 9 points, below previous campaigns.",
@@ -1273,6 +1270,17 @@
       "Xerez CD have sold out the first 500 tickets sent by Atlético Central for Sunday's game, on 22 November at 12:00 at the Ciudad de Alcalá. The tickets were sold in a single day at the club offices, and the club has already put another 500 on sale.",
       "Atlético Central could make up to 1,500 tickets available to Xerez, and the club will keep asking for more depending on demand.",
       "Tickets cost 11 euros in advance and 16 at the ground on match day. Under-12s get in free on showing their ID card."
+    ]
+  },
+  "art140": {
+    "fecha": "2026-11-19",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Matchday 12",
+    "title": "Del Río and Santos, two of Xerez's promotion heroes, face their former club with Atlético Central",
+    "lead": "Both were part of the squad that took Xerez CD up to Segunda RFEF, and on Sunday they will be on the other side at the Ciudad de Alcalá.",
+    "body": [
+      "Next Sunday's game between Atlético Central and Xerez CD, at 12:00 in Alcalá de Guadaíra, will have a special edge. The Seville side include Del Río and Santos, two players who took part in Xerez's promotion to Segunda RFEF.",
+      "Now they will come up against their former team in Matchday 12 of Group IV. Xerez arrive in fifth place, with 18 points and four wins in a row. Atlético Central are eleventh, with 15 points."
     ]
   }
 }
