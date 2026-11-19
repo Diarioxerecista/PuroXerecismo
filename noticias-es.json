@@ -903,28 +903,6 @@
     "estadio": "Juan Guedes",
     "jornadaLabel": "Jornada 9 · Grupo IV"
   },
-  "art121": {
-    "fecha": "2026-11-01",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Jornada 9",
-    "title": "El Xerez, a dos puntos del play off y a dos del descenso en un grupo de locura",
-    "lead": "La victoria en Tamaraceite (1-3) sube al Xerez CD hasta la décima plaza, con 12 puntos. Queda a dos del play off y a dos del descenso. El Recreativo de Huelva se escapa en el liderato tras ganar al Betis B en el partido de la jornada, y el Ciudad de Lucena se consolida como la sorpresa del campeonato en la segunda posición.",
-    "body": [
-      "La jornada 9 de la Segunda RFEF, Grupo IV, deja una clasificación muy apretada. Entre el quinto clasificado y el decimocuarto hay solo cuatro puntos.",
-      "El Xerez encadena su segunda victoria seguida en liga y pasa de la decimotercera a la décima posición. Con 12 puntos empata con Salerm Puente Genil, Estepona y Atlético Central. Está a dos puntos del Mijas Las Lagunas, quinto y último puesto de play off. Por abajo, tiene a otros dos al Tenerife B, que ocupa el primer puesto de descenso con un partido menos, tras el aplazamiento de su encuentro ante el Don Benito.",
-      "<strong>El Recre se escapa</strong>",
-      "El Recreativo de Huelva ganó 0-2 en el campo del Betis B, en el partido más destacado de la jornada. Marcaron José Carlos (32') y Marín (61'). El equipo onubense suma 20 puntos y es el líder en solitario. El Betis B cae a la cuarta plaza.",
-      "<strong>El sorprendente Lucena, segundo</strong>",
-      "El Ciudad de Lucena sigue aguantando el tirón. Ganó 2-1 al Atlético Sanluqueño y se afianza en la segunda posición con 18 puntos, a solo dos del líder. Es la gran sorpresa de la zona alta en el arranque de temporada. Por detrás, el Badajoz es tercero con 16 tras empatar 1-1 ante el Linares Deportivo.",
-      "<strong>El Antoniano despierta</strong>",
-      "La sorpresa llegó en el campo del Antoniano, colista hasta esta jornada, que goleó 4-1 al Estepona, uno de los candidatos al ascenso. El Estepona se adelantó con un gol de Aguilar en el minuto 10. El Antoniano remontó con tantos de Nando (15'), Gálvez (61'), Carrascal (64') y Nacho (67'). Todo apunta a que el cambio de entrenador le ha sentado bien al conjunto sevillano, que deja el último puesto.",
-      "<strong>El Marbella no levanta cabeza</strong>",
-      "El Marbella, un equipo llamado a estar arriba, empató 0-0 ante el Mijas Las Lagunas y sigue sin reaccionar. Suma 7 puntos y una sola victoria en nueve jornadas, y es decimoquinto, en puestos de descenso.",
-      "<strong>Resto de la jornada</strong>",
-      "En los demás partidos, el Sevilla Atlético y el Salerm Puente Genil empataron 1-1 y el Atlético Central ganó 0-1 en el campo de Las Palmas Atlético.",
-      "El próximo domingo, a las 12:30, el Xerez visita al Atlético Sanluqueño en El Palmar. El rival es decimotercero con 10 puntos, en el puesto de play out."
-    ]
-  },
   "art122": {
     "fecha": "2026-11-02",
     "categoria": "noticia",
@@ -1298,6 +1276,22 @@
       "<strong>Que el buen ejemplo se vea</strong>",
       "La solución no requiere grandes inversiones ni reformas. Basta con voluntad: que la tarjeta verde aparezca en la web junto a las amarillas y las rojas, y que exista una clasificación de juego limpio en las categorías de base para que los clubes y los niños puedan presumir de ella.",
       "Si de verdad creemos que el fútbol educa, el buen ejemplo tiene que verse, como mínimo, tanto como el malo. Tarjeta amarilla sí, tarjeta verde también."
+    ]
+  },
+  "art142": {
+    "fecha": "2026-11-19",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Jornada 12",
+    "title": "Uno de los mejores locales contra uno de los mejores visitantes: el Xerez pone a prueba el fortín del Atlético Central",
+    "lead": "El equipo de Alcalá de Guadaíra solo ha perdido un partido en casa, donde ha encajado un único gol. El Xerez CD llega con 8 puntos de 15 a domicilio y dos victorias seguidas fuera.",
+    "body": [
+      "El Xerez CD visita este domingo (12:00) el Nuevo Estadio Ciudad de Alcalá en un duelo de contrastes: uno de los locales más fuertes de la categoría contra uno de los visitantes más sólidos.",
+      "El Atlético Central, recién ascendido a Segunda RFEF, ha ganado cuatro de sus cinco partidos en casa y solo ha recibido un gol, el de su única derrota como local. Estrenó la categoría con un 2-0 al Recreativo de Huelva, el actual líder, y en la cuarta jornada ganó por el mismo resultado al Sevilla Atlético.",
+      "<strong>El Xerez, fiable lejos de Chapín</strong>",
+      "Enfrente estará un Xerez que rinde mejor fuera que en casa. En sus cinco salidas ha sumado dos victorias, dos empates y una sola derrota, ante el Recreativo (1-0). Solo ha encajado tres goles y viene de ganar sus dos últimos desplazamientos con contundencia: 1-3 en Tamaraceite y 0-4 en Sanlúcar.",
+      "<strong>Dos caras locales</strong>",
+      "El Atlético Central ha conseguido como local 12 de sus 15 puntos y lejos de su estadio ha encajado 16 de los 17 goles que lleva en contra. Es undécimo, tres puntos por debajo del Xerez, que es quinto con 18.",
+      "El partido también se vivirá en la grada. El club xerecista ya ha vendido las primeras 500 entradas y ha puesto a la venta otras 500, y se esperan más de 1.000 aficionados del Xerez en Alcalá de Guadaíra."
     ]
   }
 }

@@ -107,10 +107,6 @@
     "foto": "fotos/publicadas/tamaraceite-xerez-j9-chuma-saludo.jpg",
     "creditoFoto": "Foto: Xerez CD"
   },
-  "art121": {
-    "foto": "fotos/publicadas/Lucena2022.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art122": {
     "foto": "fotos/publicadas/xerez-cadiz-copa-disputa.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -192,6 +188,11 @@
   "art141": {
     "foto": "fotos/publicadas/futbol-base-sub15-tarjeta-verde-commons.jpg",
     "creditoFoto": "Foto: Tadeáš Bednarz / Wikimedia Commons (CC BY-SA 4.0)",
+    "objectPosition": "center 40%"
+  },
+  "art142": {
+    "foto": "fotos/publicadas/estepona-xerez-j1-ocasion.jpg",
+    "creditoFoto": "Foto: Diario Xerecista",
     "objectPosition": "center 40%"
   }
 }

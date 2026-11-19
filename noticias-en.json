@@ -903,28 +903,6 @@
     "estadio": "Juan Guedes",
     "jornadaLabel": "Matchday 9 · Group IV"
   },
-  "art121": {
-    "fecha": "2026-11-01",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Matchday 9",
-    "title": "Xerez two points off the play-offs and two above the drop in a crazy group",
-    "lead": "The win in Tamaraceite (1-3) lifts Xerez CD to tenth place with 12 points. They sit two points off the play-offs and two above the relegation zone. Recreativo de Huelva pull clear at the top after beating Betis B in the game of the matchday, and Ciudad de Lucena establish themselves as the surprise of the season in second place.",
-    "body": [
-      "Matchday 9 of Segunda RFEF, Group IV, leaves a very tight table. Only four points separate fifth place from fourteenth.",
-      "Xerez make it two league wins in a row and climb from thirteenth to tenth. With 12 points they are level with Salerm Puente Genil, Estepona and Atlético Central. They are two points behind Mijas Las Lagunas, in fifth, the last play-off spot. Below them, Tenerife B are another two points back in the first relegation place, with a game in hand after their match against Don Benito was postponed.",
-      "<strong>Recre pull clear</strong>",
-      "Recreativo de Huelva won 0-2 away at Betis B in the standout game of the matchday. José Carlos (32') and Marín (61') scored. The Huelva side have 20 points and lead on their own. Betis B drop to fourth.",
-      "<strong>Surprising Lucena in second</strong>",
-      "Ciudad de Lucena keep holding firm. They beat Atlético Sanluqueño 2-1 and tighten their grip on second place with 18 points, just two behind the leaders. They are the big surprise at the top in the early part of the season. Behind them, Badajoz are third on 16 after a 1-1 draw with Linares Deportivo.",
-      "<strong>Antoniano wake up</strong>",
-      "The surprise came at Antoniano, bottom until this matchday, who thrashed Estepona 4-1, one of the promotion candidates. Estepona went ahead through Aguilar in the 10th minute. Antoniano came back with goals from Nando (15'), Gálvez (61'), Carrascal (64') and Nacho (67'). Everything suggests the change of coach has done the Seville side good, and they move off the bottom.",
-      "<strong>Marbella fail to lift their heads</strong>",
-      "Marbella, a side expected to be near the top, drew 0-0 with Mijas Las Lagunas and still show no sign of reacting. They have 7 points and only one win in nine matchdays, and are fifteenth, in the relegation zone.",
-      "<strong>Rest of the matchday</strong>",
-      "In the other games, Sevilla Atlético and Salerm Puente Genil drew 1-1 and Atlético Central won 0-1 away at Las Palmas Atlético.",
-      "Next Sunday, at 12:30, Xerez visit Atlético Sanluqueño at El Palmar. Their opponents are thirteenth with 10 points, in the relegation play-off spot."
-    ]
-  },
   "art122": {
     "fecha": "2026-11-02",
     "categoria": "noticia",
@@ -1298,6 +1276,22 @@
       "<strong>Let the good example be seen</strong>",
       "The solution requires no big investment or reform. All it takes is will: for the green card to appear on the website alongside the yellows and reds, and for there to be a fair-play table in the grassroots categories so that clubs and children can be proud of it.",
       "If we truly believe that football educates, the good example has to be seen at least as much as the bad one. Yellow card yes, green card too."
+    ]
+  },
+  "art142": {
+    "fecha": "2026-11-19",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Matchday 12",
+    "title": "One of the best home sides against one of the best away sides: Xerez put Atlético Central's fortress to the test",
+    "lead": "The Alcalá de Guadaíra side have lost only one game at home, where they have conceded a single goal. Xerez CD arrive with 8 points out of 15 on the road and two away wins in a row.",
+    "body": [
+      "Xerez CD visit the Nuevo Estadio Ciudad de Alcalá this Sunday (12:00) in a clash of contrasts: one of the strongest home sides in the division against one of the most solid away sides.",
+      "Atlético Central, newly promoted to Segunda RFEF, have won four of their five home games and conceded just one goal, the one in their only home defeat. They opened their campaign in the division with a 2-0 win over Recreativo de Huelva, the current leaders, and on matchday four beat Sevilla Atlético by the same score.",
+      "<strong>Xerez, reliable away from Chapín</strong>",
+      "Facing them will be a Xerez side that perform better away than at home. In their five trips they have picked up two wins, two draws and just one defeat, against Recreativo (1-0). They have conceded only three goals and come into the game on the back of two emphatic away wins: 1-3 at Tamaraceite and 0-4 in Sanlúcar.",
+      "<strong>Two faces of the home side</strong>",
+      "Atlético Central have earned 12 of their 15 points at home, and away from their ground they have conceded 16 of the 17 goals against them. They are eleventh, three points behind Xerez, who are fifth on 18.",
+      "The game will also be played out in the stands. Xerez have already sold the first 500 tickets and put another 500 on sale, and more than 1,000 Xerez supporters are expected in Alcalá de Guadaíra."
     ]
   }
 }
