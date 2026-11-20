@@ -903,22 +903,6 @@
     "estadio": "Juan Guedes",
     "jornadaLabel": "Jornada 9 · Grupo IV"
   },
-  "art122": {
-    "fecha": "2026-11-02",
-    "categoria": "noticia",
-    "eyebrow": "Xerez CD · Calendario",
-    "title": "El Xerez recibirá el domingo 15 a las 18:00 al Antoniano en el Pedro Garrido",
-    "lead": "El Xerez CD jugará ante el Atlético Antoniano el domingo 15 de noviembre a las 18:00 en el Estadio Pedro Garrido, en la jornada 11 de la Segunda RFEF, Grupo IV. El club quiere instalar una grada supletoria para ampliar el aforo.",
-    "body": [
-      "Queda resuelta la incógnita sobre el campo. Los trabajos de resiembra del Estadio Municipal de Chapín obligan a dejar el césped sin uso durante 24 días, por lo que el Xerez CD jugará como local en el Pedro Garrido, el estadio que el Ayuntamiento de Jerez había ofrecido a los clubes de la ciudad mientras duren los trabajos.",
-      "<strong>Una grada supletoria</strong>",
-      "El club veía el aforo del Pedro Garrido escaso para la afición xerecista. Para que puedan asistir más aficionados, el Xerez quiere instalar una grada supletoria.",
-      "Antes de conocerse la sede se habían barajado otras opciones, como El Palmar, en Sanlúcar, o intercambiar el orden de los partidos con el Antoniano para jugar este en Lebrija y el de la segunda vuelta en Chapín.",
-      "<strong>El rival</strong>",
-      "El Antoniano llega a la cita tras golear 4-1 al Estepona en la última jornada, un resultado que le ha permitido dejar el último puesto. Es decimosexto con 6 puntos. El Xerez es décimo con 12.",
-      "Antes, el Xerez tiene otra cita: el domingo 8 visita al Atlético Sanluqueño en El Palmar a las 12:30."
-    ]
-  },
   "art123": {
     "fecha": "2026-11-03",
     "categoria": "noticia",
@@ -1292,6 +1276,19 @@
       "<strong>Dos caras locales</strong>",
       "El Atlético Central ha conseguido como local 12 de sus 15 puntos y lejos de su estadio ha encajado 16 de los 17 goles que lleva en contra. Es undécimo, tres puntos por debajo del Xerez, que es quinto con 18.",
       "El partido también se vivirá en la grada. El club xerecista ya ha vendido las primeras 500 entradas y ha puesto a la venta otras 500, y se esperan más de 1.000 aficionados del Xerez en Alcalá de Guadaíra."
+    ]
+  },
+  "art143": {
+    "fecha": "2026-11-20",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Enfermería",
+    "title": "Moi y Chuma, bajas del Xerez para visitar al Atlético Central",
+    "lead": "El central cumple sanción por la doble amarilla que vio ante el Antoniano, y el delantero sufre una microrrotura en el bíceps femoral que le tendrá fuera entre una y dos semanas.",
+    "body": [
+      "El Xerez CD no podrá contar con Moi ni con Chuma este domingo (12:00) en el Nuevo Estadio Ciudad de Alcalá, donde se enfrenta al Atlético Central en la duodécima jornada.",
+      "Moi fue expulsado en el minuto 50 del último partido, el 2-0 al Antoniano en Chapín, al ver la segunda amarilla por una falta en la frontal. Había visto la primera antes del descanso. Su ausencia obliga a recomponer el eje de la defensa.",
+      "Chuma, por su parte, sufre una microrrotura en el bíceps femoral de la pierna derecha. La lesión no es grave, pero le tendrá apartado de los terrenos de juego entre una y dos semanas. El delantero fue protagonista ante el Antoniano: provocó el penalti del 1-0 y dio el pase del 2-0 a Mario Peregrina antes de ser sustituido en el minuto 67.",
+      "El Xerez llega a Alcalá de Guadaíra con cuatro victorias seguidas y quinto en la clasificación con 18 puntos."
     ]
   }
 }

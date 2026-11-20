@@ -903,22 +903,6 @@
     "estadio": "Juan Guedes",
     "jornadaLabel": "Matchday 9 · Group IV"
   },
-  "art122": {
-    "fecha": "2026-11-02",
-    "categoria": "noticia",
-    "eyebrow": "Xerez CD · Fixtures",
-    "title": "Xerez will host Antoniano at the Pedro Garrido on Sunday 15th at 18:00",
-    "lead": "Xerez CD will face Atlético Antoniano on Sunday 15 November at 18:00 at the Estadio Pedro Garrido, on matchday 11 of Segunda RFEF, Group IV. The club want to install a temporary stand to increase capacity.",
-    "body": [
-      "The question over the venue has been resolved. The reseeding work at the Estadio Municipal de Chapín means the pitch cannot be used for 24 days, so Xerez CD will play their home game at the Pedro Garrido, the stadium Jerez City Council had offered to the city's clubs for as long as the work lasts.",
-      "<strong>A temporary stand</strong>",
-      "The club considered the capacity of the Pedro Garrido too small for the Xerez support. So that more fans can attend, Xerez want to install a temporary stand.",
-      "Before the venue was known, other options had been considered, such as El Palmar, in Sanlúcar, or swapping the order of the fixtures with Antoniano to play this game in Lebrija and the second-round meeting at Chapín.",
-      "<strong>The opponents</strong>",
-      "Antoniano arrive after thrashing Estepona 4-1 on the last matchday, a result that lifted them off the bottom. They are sixteenth with 6 points. Xerez are tenth with 12.",
-      "Before that, Xerez have another fixture: on Sunday 8th they visit Atlético Sanluqueño at El Palmar at 12:30."
-    ]
-  },
   "art123": {
     "fecha": "2026-11-03",
     "categoria": "noticia",
@@ -1292,6 +1276,19 @@
       "<strong>Two faces of the home side</strong>",
       "Atlético Central have earned 12 of their 15 points at home, and away from their ground they have conceded 16 of the 17 goals against them. They are eleventh, three points behind Xerez, who are fifth on 18.",
       "The game will also be played out in the stands. Xerez have already sold the first 500 tickets and put another 500 on sale, and more than 1,000 Xerez supporters are expected in Alcalá de Guadaíra."
+    ]
+  },
+  "art143": {
+    "fecha": "2026-11-20",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Injuries",
+    "title": "Moi and Chuma ruled out of Xerez trip to Atlético Central",
+    "lead": "The centre-back serves a suspension for the two yellow cards he received against Antoniano, and the striker has a micro-tear in his biceps femoris that will keep him out for one to two weeks.",
+    "body": [
+      "Xerez CD will be without Moi and Chuma this Sunday (12:00) at the Nuevo Estadio Ciudad de Alcalá, where they face Atlético Central on matchday twelve.",
+      "Moi was sent off in the 50th minute of the last game, the 2-0 win over Antoniano at Chapín, after receiving a second yellow card for a foul on the edge of the box. He had been booked for the first time before half-time. His absence forces a reshuffle at the heart of the defence.",
+      "Chuma, meanwhile, has suffered a micro-tear in the biceps femoris of his right leg. The injury is not serious, but it will keep him off the pitch for between one and two weeks. The striker played a key role against Antoniano: he won the penalty for the 1-0 and set up Mario Peregrina for the 2-0 before being substituted in the 67th minute.",
+      "Xerez arrive in Alcalá de Guadaíra on a four-match winning run and fifth in the table with 18 points."
     ]
   }
 }

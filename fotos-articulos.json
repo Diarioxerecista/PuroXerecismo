@@ -107,10 +107,6 @@
     "foto": "fotos/publicadas/tamaraceite-xerez-j9-chuma-saludo.jpg",
     "creditoFoto": "Foto: Xerez CD"
   },
-  "art122": {
-    "foto": "fotos/publicadas/xerez-cadiz-copa-disputa.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art123": {
     "foto": "fotos/publicadas/jesus-de-miguel-tenerife-byn.jpg",
     "creditoFoto": "Foto: CD Tenerife"
@@ -194,5 +190,10 @@
     "foto": "fotos/publicadas/estepona-xerez-j1-ocasion.jpg",
     "creditoFoto": "Foto: Diario Xerecista",
     "objectPosition": "center 40%"
+  },
+  "art143": {
+    "foto": "fotos/publicadas/xerez-antoniano-j11-amarilla.jpg",
+    "creditoFoto": "Foto: Diario Xerecista",
+    "objectPosition": "center 30%"
   }
 }
