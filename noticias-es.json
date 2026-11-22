@@ -905,10 +905,7 @@
   },
   "art126": {
     "fecha": "2026-11-04",
-    "categoria": [
-      "historias",
-      "noticia"
-    ],
+    "categoria": "historias",
     "eyebrow": "Historias Xerecistas",
     "title": "De Ultra Sherry a Hools XCD: la historia de la grada de animación del Xerez",
     "lead": "La grada de animación del Xerez CD tiene casi cuatro décadas de historia. Nació a mediados de los ochenta en el viejo estadio Domecq, encontró en Ultra Sherry su grupo más influyente a partir de 1991 y se dividió en 2013 con el nacimiento del Xerez Deportivo FC. Desde entonces, los Hools XCD son quienes animan al Xerez CD.",
@@ -1341,6 +1338,20 @@
       "En la zona baja, Las Palmas Atlético logró su segunda victoria consecutiva al ganar por 0-3 en el campo del Mijas Las Lagunas, con goles de Cacho, de penalti, Aimar y Bomba. Con 11 puntos es decimoquinto. El Antoniano venció por 3-2 al Puente Genil con un gol de José Mari en el minuto 93 y suma 9 puntos. El Tenerife B ganó por 2-1 al Tamaraceite, colista con 6 puntos.",
       "<strong>Resultados de la jornada 12</strong>",
       "Tenerife B 2-1 Tamaraceite · Estepona 4-0 Sevilla Atlético · Atlético Central 0-2 Xerez CD · Don Benito 0-0 Marbella · Mijas Las Lagunas 0-3 Las Palmas Atlético · Antoniano 3-2 Puente Genil · Linares Deportivo 3-0 Atlético Sanluqueño · Ciudad de Lucena 1-1 Betis B · Recreativo de Huelva 7-0 Badajoz"
+    ]
+  },
+  "art147": {
+    "fecha": "2026-11-23",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Mercado",
+    "title": "La rumorología acelera la renovación de Mario Peregrina",
+    "lead": "El club azulino quiere ampliar el contrato del mediapunta onubense, de 22 años, que termina el 30 de junio de 2027, después de que, según apuntan, el Espanyol B y varios clubes de Primera Federación se hayan interesado por él.",
+    "body": [
+      "El Xerez CD ha acelerado las conversaciones para renovar a Mario Peregrina. Según apuntan, el Espanyol B y varios equipos de Primera Federación se habrían interesado por el centrocampista. Su contrato actual con el club azulino termina el 30 de junio de 2027.",
+      "Peregrina, nacido en Minas de Riotinto (Huelva) el 8 de febrero de 2004, llegó al Xerez el pasado 29 de julio procedente del Córdoba CF B, donde jugó tras formarse en la cantera del Real Betis. Lleva el dorsal 18.",
+      "<strong>Fijo en el once</strong>",
+      "El mediapunta se ha hecho un sitio en el equipo de Abel Segovia. Fue titular en las últimas jornadas ante el Atlético Sanluqueño, el Antoniano y el Atlético Central. Ante el Antoniano marcó el 2-0 en el minuto 44, su primer gol en liga, y en Alcalá de Guadaíra dio un gran pase a Rubén Mesa y obligó a Santos a lucirse con un disparo raso.",
+      "El Xerez, segundo en la clasificación con cinco victorias consecutivas, pretende así blindar a uno de los jugadores jóvenes con más proyección de su plantilla."
     ]
   }
 }

@@ -905,10 +905,7 @@
   },
   "art126": {
     "fecha": "2026-11-04",
-    "categoria": [
-      "historias",
-      "noticia"
-    ],
+    "categoria": "historias",
     "eyebrow": "Xerez Stories",
     "title": "From Ultra Sherry to Hools XCD: the story of Xerez's singing section",
     "lead": "Xerez CD's singing section has almost four decades of history. It was born in the mid-eighties at the old Domecq stadium, found its most influential group in Ultra Sherry from 1991 onwards and split in 2013 with the birth of Xerez Deportivo FC. Since then, Hools XCD have been the ones cheering on Xerez CD.",
@@ -1341,6 +1338,20 @@
       "At the bottom, Las Palmas Atlético won for the second game running, 0-3 away to Mijas Las Lagunas, with goals from Cacho, from the penalty spot, Aimar and Bomba. On 11 points they are fifteenth. Antoniano beat Puente Genil 3-2 with a 93rd-minute goal from José Mari and have 9 points. Tenerife B beat Tamaraceite 2-1; Tamaraceite are bottom with 6 points.",
       "<strong>Matchday 12 results</strong>",
       "Tenerife B 2-1 Tamaraceite · Estepona 4-0 Sevilla Atlético · Atlético Central 0-2 Xerez CD · Don Benito 0-0 Marbella · Mijas Las Lagunas 0-3 Las Palmas Atlético · Antoniano 3-2 Puente Genil · Linares Deportivo 3-0 Atlético Sanluqueño · Ciudad de Lucena 1-1 Betis B · Recreativo de Huelva 7-0 Badajoz"
+    ]
+  },
+  "art147": {
+    "fecha": "2026-11-23",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Transfers",
+    "title": "Transfer rumours speed up Mario Peregrina's contract renewal",
+    "lead": "The club want to extend the contract of the 22-year-old attacking midfielder from Huelva, which runs until 30 June 2027, after Espanyol B and several Primera Federación clubs are said to have shown interest in him.",
+    "body": [
+      "Xerez CD have stepped up talks to renew Mario Peregrina. According to reports, Espanyol B and several Primera Federación sides are said to be interested in the midfielder. His current contract with the club runs until 30 June 2027.",
+      "Peregrina, born in Minas de Riotinto (Huelva) on 8 February 2004, joined Xerez on 29 July from Córdoba CF B, where he played after coming through the Real Betis academy. He wears the number 18 shirt.",
+      "<strong>A regular starter</strong>",
+      "The attacking midfielder has earned a place in Abel Segovia's side. He started the last few matches against Atlético Sanluqueño, Antoniano and Atlético Central. Against Antoniano he scored the second goal in the 44th minute, his first league goal, and in Alcalá de Guadaíra he played a fine pass to Rubén Mesa and forced Santos into a good save with a low shot.",
+      "Xerez, second in the table after five straight wins, are looking to tie down one of the young players with the most potential in their squad."
     ]
   }
 }
