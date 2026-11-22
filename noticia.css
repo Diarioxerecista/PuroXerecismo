@@ -189,3 +189,18 @@ h1{
   .cc-bal{font-size:12px}
   .cc-sub{font-size:17px}
 }
+
+/* Declaraciones en formato 'en frases' (sg-*) */
+.sg-claves{background:#0D2C54;color:#fff;padding:22px 22px 8px;margin:26px 0 30px;border-top:5px solid #C9A24B;border-radius:3px}
+.sg-claves .sg-tit{font-family:'Space Mono',monospace;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#C9A24B;margin-bottom:14px}
+.sg-claves .sg-q{border-top:1px solid rgba(255,255,255,.18);padding:14px 0 6px}
+.sg-claves .sg-q:first-of-type{border-top:0;padding-top:0}
+.sg-claves h3{font-family:'Fraunces',serif;font-weight:900;font-size:21px;line-height:1.25;color:#fff;margin:0 0 8px}
+.sg-claves p{color:rgba(255,255,255,.92)!important;font-size:15px!important;line-height:1.7!important;margin-bottom:10px!important}
+.sg-claves b{color:#C9A24B}
+.sg-cita{margin:30px 0;padding:0 0 18px 0;border:0;border-bottom:1px solid rgba(13,44,84,.14);position:relative}
+.sg-cita .sg-frase{font-family:'Fraunces',serif;font-style:italic;font-weight:900;font-size:27px;line-height:1.25;color:#0D2C54;margin:0 0 10px;padding-left:44px;position:relative}
+.sg-cita .sg-frase:before{content:'\201C';position:absolute;left:0;top:-12px;font-size:64px;line-height:1;color:#b3262e;font-style:normal}
+.sg-cita .sg-tema{display:inline-block;font-family:'Space Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#fff;background:#b3262e;padding:3px 8px;margin:0 0 8px 44px}
+.sg-cita .sg-ctx{font-size:15px!important;line-height:1.7!important;color:#4A4A47!important;margin:0 0 0 44px!important}
+@media(max-width:560px){.sg-cita .sg-frase{font-size:22px;padding-left:34px}.sg-cita .sg-frase:before{font-size:50px}.sg-cita .sg-tema,.sg-cita .sg-ctx{margin-left:34px!important}}

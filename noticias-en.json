@@ -903,20 +903,6 @@
     "estadio": "Juan Guedes",
     "jornadaLabel": "Matchday 9 · Group IV"
   },
-  "art123": {
-    "fecha": "2026-11-03",
-    "categoria": "noticia",
-    "eyebrow": "Football · Mourning",
-    "title": "CD Tenerife footballer Jesús de Miguel dies after injury suffered against Andorra",
-    "lead": "CD Tenerife announced on Tuesday the death of their forward Jesús de Miguel, aged 30. The player died at 8:00 at the Hospital Universitario Nuestra Señora de Candelaria, where he had been admitted on Monday after a heavy collision with the FC Andorra goalkeeper during a match.",
-    "body": [
-      "The incident happened in the match Tenerife and Andorra played on Monday afternoon. Jesús de Miguel went for a loose ball in the opposition area and collided with the visiting goalkeeper, Jesús Owono. The referee stopped play and the match was suspended.",
-      "According to several media outlets, the player suffered a cardiorespiratory arrest on the pitch and the medical services managed to restore his pulse in the ambulance. Once in hospital, his neurological condition worsened overnight because of the head injury, and his death was certified early in the morning.",
-      "<strong>The club statement</strong>",
-      "CD Tenerife expressed their deep sorrow at the loss, conveyed their support to the family and asked for their privacy to be respected. The family thanked people for the messages of support they have received.",
-      "From Diario Xerecista we send our deepest condolences to the family, friends and team-mates of Jesús de Miguel, and to everyone at CD Tenerife. Rest in peace."
-    ]
-  },
   "art124": {
     "fecha": "2026-11-03",
     "categoria": "noticia",
@@ -1316,6 +1302,8 @@
       "<figure class=\"cc-fig\"><img src=\"fotos/publicadas/atletico-central-xerez-j12-disputa.jpg\" alt=\"A Xerez CD player goes to ground in a challenge with two Atlético Central players\" loading=\"lazy\"><figcaption><b>Battle in midfield.</b> A Xerez player goes down in a challenge with two Atlético Central opponents. <i>Photo: Diario Xerecista</i></figcaption></figure>",
       "Xerez pressed in midfield and broke quickly. Julito fired over from the edge of the box and, with Zelu and Jaime López already on for Peregrina and Zeki (66'), he hit the crossbar with another effort that took a deflection. Rubén Mesa could not convert the rebound. Zelu was denied by Santos in a one-on-one and later shot over, and in the closing stages Manu Galán sent a corner against the post.",
       "The Xerez fans celebrated a win that consolidates the team near the top of the table.",
+      "<strong>What Segovia said</strong>",
+      "\"Given what we saw, of course it's a narrow scoreline,\" said the coach, \"super proud\" of a team that covered for four absences. <a href=\"/en/noticias/articulos/2026-11/abel-segovia-super-proud-of-a-team-that-covers-for-absences/\">Read all his comments here</a>.",
       "<div class=\"cc-clasi\"><span class=\"cc-flecha\">▲</span><span class=\"cc-pos\">21</span><p><b>Xerez move on to 21 points</b> and five straight wins, near the top of the table.<small>Their position depends on the rest of the matchday 12 results</small></p></div>"
     ],
     "score": "0-2",
@@ -1327,5 +1315,25 @@
     "estadio": "Ciudad de Alcalá",
     "jornadaLabel": "Matchday 12 · Group IV",
     "formato": "clasico"
+  },
+  "art145": {
+    "fecha": "2026-11-22",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Abel Segovia press conference",
+    "title": "Abel Segovia \"super proud\" of a team that covers for absences",
+    "lead": "The Xerez CD coach feels the 0-2 win over Atlético Central flattered the hosts, praises his side for covering four absences and hails the more than 1,000 fans who travelled to Alcalá de Guadaíra.",
+    "body": [
+      "Abel Segovia left the Ciudad de Alcalá very pleased with Xerez CD's fifth win in a row. \"I think we were superior from start to finish,\" the coach summed up. His only complaint was the opponents' set pieces, where he asked for \"a bit more calm\" to avoid giving away fouls.",
+      "<div class=\"sg-claves\"><div class=\"sg-tit\">The key points</div><div class=\"sg-q\"><h3>Better away than at home?</h3><p>Xerez once again have more points away from Chapín (<b>11</b>) than at home (<b>10</b>), as in previous seasons. Segovia denies the team feel more comfortable on the road: \"Away or at home, it makes no difference to me. The team always has to be the same, a recognisable team, a team with an identity.\" He pointed to the game against Ciudad de Lucena, \"one of the most complete\" his side have played, which they lost. Even so, \"the more points we take away from home, the better\", because at home Xerez are going to be \"very strong\".</p></div><div class=\"sg-q\"><h3>Two left-backs to give Salas minutes</h3><p>In the closing stages he paired Chacartegui and Salas on the left, just as he did last week on the right with Víctor López and Guille Campos. Segovia explained that he wanted to give Salas minutes because he is working very well, and that he moved Zelu to the other flank.</p></div></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">The result</span><p class=\"sg-frase\">Given what we saw, of course it's a narrow scoreline</p><p class=\"sg-ctx\">With more accuracy, he believes Xerez \"would have killed the game off earlier\" and been more comfortable.</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">The absences</span><p class=\"sg-frase\">We had four players missing and they covered for them perfectly</p><p class=\"sg-ctx\">He said he was \"super proud\" of every player. Only Chacartegui kept his place in defence from the Antoniano game, and the team kept a third clean sheet in a row.</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">Rubén Mesa</span><p class=\"sg-frase\">That's why I didn't take him off, because the only thing missing was a goal</p><p class=\"sg-ctx\">The coach believes the striker \"has freed himself up\" and hopes he scores soon, because \"it would be a release for him\".</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">Bittor</span><p class=\"sg-frase\">So he sees that in the end hard work pays off</p><p class=\"sg-ctx\">Víctor Isuskiza, who had barely played since Segovia arrived, was given minutes as a reward: \"He is training very well, he is very professional.\"</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">Fali</span><p class=\"sg-frase\">That's why we have four or five centre-backs</p><p class=\"sg-ctx\">The centre-back, injured in the last training session, will have to undergo tests: \"He felt something and we didn't want to take a risk with him.\"</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">Linares</span><p class=\"sg-frase\">This has only just begun</p><p class=\"sg-ctx\">He highlighted the value of winning in Sanlúcar and in Alcalá, where, he recalled, only Linares, the next opponents, had won: \"On Sunday, with our people, we go for them from the first minute.\"</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">The fans</span><p class=\"sg-frase\">Seeing your people cheer you on, push you on, is the best</p><p class=\"sg-ctx\">He thanked the thousand or so Xerez fans who filled the Preferencia stand and set a challenge: \"This year we have to fill the ground, because we have to achieve good things.\"</p></div>",
+      "<a href=\"/en/noticias/cronicas/2026-11/an-unstoppable-xerez-tighten-their-grip-on-the-top-of-the-table/\">Read the Atlético Central 0-2 Xerez CD match report here</a>."
+    ],
+    "noPrincipal": true
   }
 }

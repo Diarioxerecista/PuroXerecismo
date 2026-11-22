@@ -107,10 +107,6 @@
     "foto": "fotos/publicadas/tamaraceite-xerez-j9-chuma-saludo.jpg",
     "creditoFoto": "Foto: Xerez CD"
   },
-  "art123": {
-    "foto": "fotos/publicadas/jesus-de-miguel-tenerife-byn.jpg",
-    "creditoFoto": "Foto: CD Tenerife"
-  },
   "art124": {
     "foto": "fotos/publicadas/xerez-lucena-j7-ruben-mesa.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -200,5 +196,10 @@
     "foto": "fotos/publicadas/atletico-central-xerez-j12-celebracion.jpg",
     "creditoFoto": "Foto: Diario Xerecista",
     "objectPosition": "center 35%"
+  },
+  "art145": {
+    "foto": "fotos/publicadas/atletico-central-xerez-j12-abel-segovia.jpg",
+    "creditoFoto": "Foto: Diario Xerecista",
+    "objectPosition": "center 30%"
   }
 }

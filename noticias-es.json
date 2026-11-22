@@ -903,20 +903,6 @@
     "estadio": "Juan Guedes",
     "jornadaLabel": "Jornada 9 · Grupo IV"
   },
-  "art123": {
-    "fecha": "2026-11-03",
-    "categoria": "noticia",
-    "eyebrow": "Fútbol · Luto",
-    "title": "Muere Jesús de Miguel, futbolista del CD Tenerife, tras el golpe sufrido ante el Andorra",
-    "lead": "El CD Tenerife ha comunicado este martes el fallecimiento de su delantero Jesús de Miguel, de 30 años. El jugador murió a las 8:00 horas en el Hospital Universitario Nuestra Señora de Candelaria, donde estaba ingresado desde el lunes tras un fuerte choque con el portero del FC Andorra durante un partido.",
-    "body": [
-      "La jugada se produjo en el partido que el Tenerife y el Andorra disputaron en la tarde del lunes. Jesús de Miguel fue a disputar un balón dividido en el área rival y chocó con el guardameta visitante, Jesús Owono. El árbitro detuvo el juego y el encuentro quedó suspendido.",
-      "Según han informado varios medios, el jugador sufrió una parada cardiorrespiratoria sobre el terreno de juego y los servicios médicos lograron recuperarle el pulso en la ambulancia. Ya en el hospital, su estado neurológico empeoró durante la madrugada a causa del traumatismo craneal, y su muerte se certificó a primera hora de la mañana.",
-      "<strong>El comunicado del club</strong>",
-      "El CD Tenerife ha expresado su profundo dolor por la pérdida, ha trasladado su apoyo a la familia y ha pedido respeto a su intimidad. La familia ha agradecido las muestras de cariño recibidas.",
-      "Desde Diario Xerecista enviamos nuestro más sentido pésame a la familia, a los amigos y compañeros de Jesús de Miguel, y a todo el CD Tenerife. Descanse en paz."
-    ]
-  },
   "art124": {
     "fecha": "2026-11-03",
     "categoria": "noticia",
@@ -1316,6 +1302,8 @@
       "<figure class=\"cc-fig\"><img src=\"fotos/publicadas/atletico-central-xerez-j12-disputa.jpg\" alt=\"Un jugador del Xerez CD cae al suelo en una disputa con dos jugadores del Atlético Central\" loading=\"lazy\"><figcaption><b>Pelea en el centro del campo.</b> Un jugador del Xerez cae en una disputa con dos rivales del Atlético Central. <i>Foto: Diario Xerecista</i></figcaption></figure>",
       "El Xerez presionaba en el centro del campo y salía rápido a la contra. Julito mandó por encima del larguero un disparo desde la frontal y, ya con Zelu y Jaime López en el campo por Peregrina y Zeki (66'), estrelló otro en el larguero tras tocar en un defensa. Rubén Mesa no pudo aprovechar el rechace. Zelu se topó con Santos en un mano a mano, después remató alto, y en el tramo final Manu Galán envió un córner al palo.",
       "La afición azulina celebró un triunfo que consolida al equipo en la zona alta.",
+      "<strong>Lo que dijo Segovia</strong>",
+      "\"Para lo que se ha visto, claro que es corto\", valoró el entrenador, \"superorgulloso\" de un equipo que suplió cuatro bajas. <a href=\"/noticias/articulos/2026-11/abel-segovia-superorgulloso-de-un-equipo-que-suple-las-bajas/\">Lea aquí todas sus declaraciones</a>.",
       "<div class=\"cc-clasi\"><span class=\"cc-flecha\">▲</span><span class=\"cc-pos\">21</span><p><b>El Xerez suma 21 puntos</b> y cinco victorias seguidas, en la zona alta de la tabla.<small>El puesto, pendiente del resto de resultados de la jornada 12</small></p></div>"
     ],
     "score": "0-2",
@@ -1327,5 +1315,25 @@
     "estadio": "Ciudad de Alcalá",
     "jornadaLabel": "Jornada 12 · Grupo IV",
     "formato": "clasico"
+  },
+  "art145": {
+    "fecha": "2026-11-22",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Declaraciones de Abel Segovia",
+    "title": "Abel Segovia, «superorgulloso» de un equipo que suple las bajas",
+    "lead": "El entrenador del Xerez CD cree que el 0-2 ante el Atlético Central se quedó corto, destaca que el equipo cubrió cuatro bajas y elogia a los más de 1.000 aficionados que viajaron a Alcalá de Guadaíra.",
+    "body": [
+      "Abel Segovia se marchó del Ciudad de Alcalá muy satisfecho con la quinta victoria consecutiva del Xerez CD. \"Creo que hemos sido superiores de principio a fin\", resumió el técnico, que solo puso un pero: el balón parado del rival, donde pidió \"un poco más de calma\" para no hacer faltas.",
+      "<div class=\"sg-claves\"><div class=\"sg-tit\">Lo más destacado</div><div class=\"sg-q\"><h3>¿Mejor fuera que en casa?</h3><p>El Xerez vuelve a sumar más puntos lejos de Chapín (<b>11</b>) que como local (<b>10</b>), como ya ocurrió en las temporadas anteriores. Segovia niega que el equipo se sienta más cómodo fuera: \"A mí eso de fuera o dentro me da igual. El equipo tiene que ser siempre el mismo, un equipo reconocible, un equipo con identidad\". Puso como ejemplo el partido ante el Ciudad de Lucena, \"uno de los más completos\" del equipo, que se perdió. Eso sí, \"mientras más puntos saquemos fuera, mejor\", porque en casa el Xerez va a ser \"muy fuerte\".</p></div><div class=\"sg-q\"><h3>Doble lateral izquierdo para Salas</h3><p>En el tramo final juntó en la banda izquierda a Chacartegui y a Salas, lo mismo que hizo la semana pasada en la derecha con Víctor López y Guille Campos. Segovia explicó que quería darle minutos a Salas porque está trabajando muy bien, y que pasó a Zelu a la otra banda.</p></div></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">El resultado</span><p class=\"sg-frase\">Para lo que se ha visto, claro que es corto</p><p class=\"sg-ctx\">Con más acierto, cree que el Xerez \"habría matado el partido antes\" y habría estado más tranquilo.</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">Las bajas</span><p class=\"sg-frase\">Teníamos cuatro bajas y lo han suplido perfectamente</p><p class=\"sg-ctx\">Se declaró \"superorgulloso\" de cada jugador. En defensa solo repetía Chacartegui respecto al partido ante el Antoniano, y el equipo encadenó su tercera portería a cero.</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">Rubén Mesa</span><p class=\"sg-frase\">Por eso no lo he quitado, porque solo le ha faltado el gol</p><p class=\"sg-ctx\">El técnico cree que el delantero \"se ha liberado\" y espera que marque pronto, porque \"sería una liberación para él\".</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">Bittor</span><p class=\"sg-frase\">Que vea que al final el trabajo tiene su recompensa</p><p class=\"sg-ctx\">Víctor Isuskiza, que apenas había jugado desde la llegada de Segovia, tuvo minutos como premio: \"Está entrenando muy bien, es muy profesional\".</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">Fali</span><p class=\"sg-frase\">Para eso tenemos a cuatro o cinco centrales</p><p class=\"sg-ctx\">El central, lesionado en el último entrenamiento, tendrá que hacerse pruebas: \"Notó algo y no queríamos arriesgar con él\".</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">El Linares</span><p class=\"sg-frase\">Esto solo ha hecho empezar</p><p class=\"sg-ctx\">Destacó el valor de ganar en Sanlúcar y en Alcalá, donde, según recordó, solo había ganado el Linares, el próximo rival: \"El domingo, con nuestra gente, desde el primer minuto a por ellos\".</p></div>",
+      "<div class=\"sg-cita\"><span class=\"sg-tema\">La afición</span><p class=\"sg-frase\">Ver a tu gente cómo te anima, cómo te aprieta, es lo más</p><p class=\"sg-ctx\">Agradeció el apoyo del millar de xerecistas que llenó la Preferencia y lanzó un reto: \"Tenemos que conseguir este año llenar el campo, porque tenemos que conseguir cosas buenas\".</p></div>",
+      "<a href=\"/noticias/cronicas/2026-11/un-xerez-intratable-se-afianza-en-la-zona-alta-de-la-tabla/\">Lea aquí la crónica del Atlético Central 0-2 Xerez CD</a>."
+    ],
+    "noPrincipal": true
   }
 }
