@@ -107,10 +107,6 @@
     "foto": "fotos/publicadas/tamaraceite-xerez-j9-chuma-saludo.jpg",
     "creditoFoto": "Foto: Xerez CD"
   },
-  "art124": {
-    "foto": "fotos/publicadas/xerez-lucena-j7-ruben-mesa.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art126": {
     "foto": "fotos/publicadas/aficion-xerecista-ultra-sherry-archivo.jpg",
     "creditoFoto": "Foto: Archivo"
@@ -201,5 +197,9 @@
     "foto": "fotos/publicadas/atletico-central-xerez-j12-abel-segovia.jpg",
     "creditoFoto": "Foto: Diario Xerecista",
     "objectPosition": "center 30%"
+  },
+  "art146": {
+    "foto": "fotos/publicadas/atletico-central-xerez-j12-duelo.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
   }
 }

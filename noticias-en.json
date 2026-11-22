@@ -903,22 +903,6 @@
     "estadio": "Juan Guedes",
     "jornadaLabel": "Matchday 9 · Group IV"
   },
-  "art124": {
-    "fecha": "2026-11-03",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Analysis",
-    "title": "The newly promoted overtake: four of the top six came up from Tercera this summer",
-    "lead": "Four of the top six in Group IV of Segunda RFEF are newly promoted. After nine matchdays, Ciudad de Lucena are second, Don Benito third, Badajoz fourth and Mijas Las Lagunas sixth. Only Recreativo de Huelva, the leaders, and Betis B, in fifth, break the pattern.",
-    "body": [
-      "The teams that came up from Tercera Federación this summer are taking centre stage in the early part of the season.",
-      "<strong>Lucena, Don Benito and Badajoz on the newcomers' podium</strong>",
-      "Ciudad de Lucena, who were promoted as champions of their Tercera group, are second with 18 points, just two behind the leaders. Don Benito, who also went up automatically, are third with 17 after winning their postponed match against Tenerife B (0-1). Badajoz, who were promoted through the play-offs, are fourth with 16.",
-      "Mijas Las Lagunas, also promoted automatically, complete the group in sixth with 14 points, one off the play-offs.",
-      "<strong>Those relegated from Primera Federación, further down</strong>",
-      "The contrast comes from the four teams relegated from Primera Federación. Only Betis B, fifth with 15 points, are in the top half. Sevilla Atlético are seventh with 13, while Atlético Sanluqueño (13th, 10 points) and Marbella (15th, 7 points) are in the lower reaches.",
-      "Xerez CD are tenth with 12 points, three off the play-offs. On Sunday they visit Atlético Sanluqueño at El Palmar at 12:30."
-    ]
-  },
   "art126": {
     "fecha": "2026-11-04",
     "categoria": [
@@ -1336,5 +1320,27 @@
       "<a href=\"/en/noticias/cronicas/2026-11/an-unstoppable-xerez-tighten-their-grip-on-the-top-of-the-table/\">Read the Atlético Central 0-2 Xerez CD match report here</a>."
     ],
     "noPrincipal": true
+  },
+  "art146": {
+    "fecha": "2026-11-22",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Matchday 12",
+    "title": "Recreativo thrash Badajoz and Xerez climb to second place",
+    "lead": "The leaders hammered Badajoz 7-0 in the most eye-catching matchday of the season, in which Xerez, with their fifth straight win, rose to second place pending the two postponed games.",
+    "body": [
+      "Recreativo de Huelva produced the result of matchday 12 in Group IV of Segunda RFEF by thrashing Badajoz 7-0 at the Nuevo Colombino. The Huelva side have 24 points with a game in hand and extend their lead at the top. Badajoz, who started the weekend in third, drop to seventh.",
+      "<strong>Xerez, second</strong>",
+      "Xerez CD made the most of the matchday to climb three places, from fifth to second, after a 0-2 win over Atlético Central at the Ciudad de Alcalá with goals from Chacartegui and Zeki. It is their fifth straight win. Abel Segovia's side have 21 points, the same as Estepona and Don Benito, whom they lead on goal difference, and sit three behind Recreativo.",
+      "The table is still provisional because two postponed games remain. Sevilla Atlético-Recreativo de Huelva, from matchday 11, is played on Wednesday 25 November at 18:00. If they win, the leaders could stretch their lead to six points. Betis B-Tenerife B, from matchday 10, is scheduled for 3 January.",
+      "<strong>Estepona keep rolling</strong>",
+      "Estepona made it three wins in a row by beating Sevilla Atlético 4-0, with goals from Yuste, Arriaza, Aguilar and Ariel. Before that they had beaten Tamaraceite 5-0 and won 3-4 in Mijas. They are third on 21 points.",
+      "Don Benito, meanwhile, could only draw 0-0 with Marbella and are fourth. Ciudad de Lucena drew 1-1 with Betis Deportivo and hold the last play-off place with 20 points.",
+      "<strong>Linares, Xerez's next opponents</strong>",
+      "Linares Deportivo, who visit Chapín next Sunday, beat Atlético Sanluqueño 3-0 with goals from Juanma, Eu, from the penalty spot, and Gascón. The Jaén side are eight matchdays unbeaten (four wins and four draws) since their defeat to Betis B on matchday 4. They are sixth with 20 points, one fewer than Xerez.",
+      "<strong>Las Palmas Atlético get some breathing space</strong>",
+      "At the bottom, Las Palmas Atlético won for the second game running, 0-3 away to Mijas Las Lagunas, with goals from Cacho, from the penalty spot, Aimar and Bomba. On 11 points they are fifteenth. Antoniano beat Puente Genil 3-2 with a 93rd-minute goal from José Mari and have 9 points. Tenerife B beat Tamaraceite 2-1; Tamaraceite are bottom with 6 points.",
+      "<strong>Matchday 12 results</strong>",
+      "Tenerife B 2-1 Tamaraceite · Estepona 4-0 Sevilla Atlético · Atlético Central 0-2 Xerez CD · Don Benito 0-0 Marbella · Mijas Las Lagunas 0-3 Las Palmas Atlético · Antoniano 3-2 Puente Genil · Linares Deportivo 3-0 Atlético Sanluqueño · Ciudad de Lucena 1-1 Betis B · Recreativo de Huelva 7-0 Badajoz"
+    ]
   }
 }

@@ -903,22 +903,6 @@
     "estadio": "Juan Guedes",
     "jornadaLabel": "Jornada 9 · Grupo IV"
   },
-  "art124": {
-    "fecha": "2026-11-03",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Análisis",
-    "title": "El sorpasso de los recién ascendidos: cuatro de los seis primeros llegaron este verano desde Tercera",
-    "lead": "Cuatro de los seis primeros clasificados del Grupo IV de la Segunda RFEF son recién ascendidos. Tras nueve jornadas, el Ciudad de Lucena es segundo, el Don Benito tercero, el Badajoz cuarto y el Mijas Las Lagunas sexto. Solo el Recreativo de Huelva, líder, y el Betis B, quinto, rompen esa racha.",
-    "body": [
-      "Los equipos que subieron este verano desde la Tercera Federación están siendo los protagonistas del arranque de temporada.",
-      "<strong>Lucena, Don Benito y Badajoz, en el podio de los novatos</strong>",
-      "El Ciudad de Lucena, que ascendió como campeón de su grupo de Tercera, es segundo con 18 puntos, a solo dos del líder. El Don Benito, que también subió de forma directa, es tercero con 17 tras ganar su partido aplazado ante el Tenerife B (0-1). El Badajoz, que logró el ascenso por la vía de la promoción, es cuarto con 16.",
-      "Completa el grupo el Mijas Las Lagunas, también ascendido directamente, que es sexto con 14 puntos, a uno del play off.",
-      "<strong>Los que bajaron de Primera Federación, más abajo</strong>",
-      "El contraste lo ponen los cuatro equipos que descendieron de Primera Federación. Solo el Betis B, quinto con 15 puntos, está en la zona alta. El Sevilla Atlético es séptimo con 13, mientras que el Atlético Sanluqueño (13.º, 10 puntos) y el Marbella (15.º, 7 puntos) están en la parte baja.",
-      "El Xerez CD es décimo con 12 puntos, a tres del play off. El domingo visita al Atlético Sanluqueño en El Palmar a las 12:30."
-    ]
-  },
   "art126": {
     "fecha": "2026-11-04",
     "categoria": [
@@ -1336,5 +1320,27 @@
       "<a href=\"/noticias/cronicas/2026-11/un-xerez-intratable-se-afianza-en-la-zona-alta-de-la-tabla/\">Lea aquí la crónica del Atlético Central 0-2 Xerez CD</a>."
     ],
     "noPrincipal": true
+  },
+  "art146": {
+    "fecha": "2026-11-22",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Jornada 12",
+    "title": "El Recreativo golea al Badajoz y el Xerez escala a la segunda plaza",
+    "lead": "El líder endosó un 7-0 al Badajoz en la jornada más llamativa de la temporada, en la que el Xerez, con su quinta victoria consecutiva, se aupó a la segunda posición a falta de los dos partidos aplazados.",
+    "body": [
+      "El Recreativo de Huelva firmó el resultado de la duodécima jornada del Grupo IV de Segunda RFEF al golear por 7-0 al Badajoz en el Nuevo Colombino. El conjunto onubense suma 24 puntos con un partido menos y amplía su ventaja en lo más alto. El Badajoz, que llegaba tercero, cae hasta la séptima posición.",
+      "<strong>El Xerez, segundo</strong>",
+      "El Xerez CD aprovechó la jornada para escalar tres puestos, de la quinta a la segunda plaza, tras ganar por 0-2 al Atlético Central en el Ciudad de Alcalá con goles de Chacartegui y Zeki. Es su quinta victoria consecutiva. El equipo de Abel Segovia suma 21 puntos, los mismos que el Estepona y el Don Benito, a los que supera por diferencia de goles, y queda a tres del Recreativo.",
+      "La clasificación sigue siendo provisional porque faltan dos partidos aplazados. El Sevilla Atlético-Recreativo de Huelva, de la jornada 11, se juega el miércoles 25 de noviembre a las 18:00. Si gana, el líder podría ampliar su ventaja a seis puntos. El Betis B-Tenerife B, de la jornada 10, está previsto para el 3 de enero.",
+      "<strong>El Estepona no se detiene</strong>",
+      "El Estepona encadenó su tercera victoria consecutiva al golear por 4-0 al Sevilla Atlético, con goles de Yuste, Arriaza, Aguilar y Ariel. Antes había ganado por 5-0 al Tamaraceite y por 3-4 en Mijas. Es tercero con 21 puntos.",
+      "Por su parte, el Don Benito no pasó del empate a cero ante el Marbella y es cuarto. El Ciudad de Lucena empató a uno con el Betis Deportivo y cierra los puestos de play off con 20 puntos.",
+      "<strong>El Linares, próximo rival del Xerez</strong>",
+      "El Linares Deportivo, que el próximo domingo visita Chapín, ganó por 3-0 al Atlético Sanluqueño con goles de Juanma, Eu, de penalti, y Gascón. El conjunto jiennense suma ocho jornadas sin perder (cuatro victorias y cuatro empates) desde su derrota en la jornada 4 ante el Betis B. Es sexto con 20 puntos, uno menos que el Xerez.",
+      "<strong>Las Palmas Atlético toma aire</strong>",
+      "En la zona baja, Las Palmas Atlético logró su segunda victoria consecutiva al ganar por 0-3 en el campo del Mijas Las Lagunas, con goles de Cacho, de penalti, Aimar y Bomba. Con 11 puntos es decimoquinto. El Antoniano venció por 3-2 al Puente Genil con un gol de José Mari en el minuto 93 y suma 9 puntos. El Tenerife B ganó por 2-1 al Tamaraceite, colista con 6 puntos.",
+      "<strong>Resultados de la jornada 12</strong>",
+      "Tenerife B 2-1 Tamaraceite · Estepona 4-0 Sevilla Atlético · Atlético Central 0-2 Xerez CD · Don Benito 0-0 Marbella · Mijas Las Lagunas 0-3 Las Palmas Atlético · Antoniano 3-2 Puente Genil · Linares Deportivo 3-0 Atlético Sanluqueño · Ciudad de Lucena 1-1 Betis B · Recreativo de Huelva 7-0 Badajoz"
+    ]
   }
 }
