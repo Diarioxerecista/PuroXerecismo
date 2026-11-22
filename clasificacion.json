@@ -1,151 +1,151 @@
 {
-  "actualizado": "2026-11-15",
-  "jornada": 11,
+  "actualizado": "2026-11-22",
+  "jornada": 12,
   "fuente": "futbolme",
   "equipos": [
     {
       "nombre": "Recreativo de Huelva",
       "escudo": "fotos/escudos/recreativo.png",
-      "pj": 10,
-      "pts": 21,
-      "gf": 21,
+      "pj": 11,
+      "pts": 24,
+      "gf": 28,
       "gc": 8
-    },
-    {
-      "nombre": "Don Benito",
-      "escudo": "fotos/escudos/don-benito.png",
-      "pj": 11,
-      "pts": 20,
-      "gf": 19,
-      "gc": 15
-    },
-    {
-      "nombre": "Badajoz",
-      "escudo": "fotos/escudos/badajoz.png",
-      "pj": 11,
-      "pts": 20,
-      "gf": 12,
-      "gc": 8
-    },
-    {
-      "nombre": "Ciudad de Lucena",
-      "escudo": "fotos/escudos/ciudad-lucena.png",
-      "pj": 11,
-      "pts": 19,
-      "gf": 20,
-      "gc": 14
     },
     {
       "nombre": "Xerez CD",
       "escudo": "fotos/escudos/escudo-xerez-cd-hd.png",
-      "pj": 11,
-      "pts": 18,
-      "gf": 14,
-      "gc": 7
-    },
-    {
-      "nombre": "Betis B",
-      "escudo": "fotos/escudos/betis-deportivo.png",
-      "pj": 10,
-      "pts": 18,
-      "gf": 13,
+      "pj": 12,
+      "pts": 21,
+      "gf": 16,
       "gc": 7
     },
     {
       "nombre": "Estepona",
       "escudo": "fotos/escudos/estepona.png",
-      "pj": 11,
-      "pts": 18,
-      "gf": 22,
+      "pj": 12,
+      "pts": 21,
+      "gf": 26,
       "gc": 18
+    },
+    {
+      "nombre": "Don Benito",
+      "escudo": "fotos/escudos/don-benito.png",
+      "pj": 12,
+      "pts": 21,
+      "gf": 19,
+      "gc": 15
+    },
+    {
+      "nombre": "Ciudad de Lucena",
+      "escudo": "fotos/escudos/ciudad-lucena.png",
+      "pj": 12,
+      "pts": 20,
+      "gf": 21,
+      "gc": 15
     },
     {
       "nombre": "Linares Deportivo",
       "escudo": "fotos/escudos/linares.png",
-      "pj": 11,
-      "pts": 17,
-      "gf": 15,
+      "pj": 12,
+      "pts": 20,
+      "gf": 18,
       "gc": 14
     },
     {
-      "nombre": "Mijas Las Lagunas",
-      "escudo": "fotos/escudos/las-lagunas.png",
+      "nombre": "Badajoz",
+      "escudo": "fotos/escudos/badajoz.png",
+      "pj": 12,
+      "pts": 20,
+      "gf": 12,
+      "gc": 15
+    },
+    {
+      "nombre": "Betis B",
+      "escudo": "fotos/escudos/betis-deportivo.png",
       "pj": 11,
-      "pts": 15,
-      "gf": 21,
-      "gc": 18
+      "pts": 19,
+      "gf": 14,
+      "gc": 8
     },
     {
       "nombre": "Salerm Puente Genil",
       "escudo": "fotos/escudos/puente-genil.png",
-      "pj": 11,
+      "pj": 12,
       "pts": 15,
-      "gf": 13,
-      "gc": 10
+      "gf": 15,
+      "gc": 13
+    },
+    {
+      "nombre": "Mijas Las Lagunas",
+      "escudo": "fotos/escudos/las-lagunas.png",
+      "pj": 12,
+      "pts": 15,
+      "gf": 21,
+      "gc": 21
     },
     {
       "nombre": "Atlético Central",
       "escudo": "fotos/escudos/atletico-central.png",
-      "pj": 11,
+      "pj": 12,
       "pts": 15,
       "gf": 13,
-      "gc": 17
+      "gc": 19
     },
     {
       "nombre": "Sevilla Atlético",
       "escudo": "fotos/escudos/sevilla-atletico.png",
-      "pj": 10,
+      "pj": 11,
       "pts": 14,
       "gf": 18,
-      "gc": 16
+      "gc": 20
     },
     {
       "nombre": "Marbella",
       "escudo": "fotos/escudos/marbella.png",
-      "pj": 11,
-      "pts": 13,
+      "pj": 12,
+      "pts": 14,
       "gf": 9,
       "gc": 11
     },
     {
-      "nombre": "Atlético Sanluqueño",
-      "escudo": "fotos/escudos/sanluqueno.png",
-      "pj": 11,
-      "pts": 10,
-      "gf": 15,
-      "gc": 19
-    },
-    {
       "nombre": "Tenerife B",
       "escudo": "fotos/escudos/tenerife-b.png",
-      "pj": 10,
-      "pts": 10,
-      "gf": 12,
-      "gc": 16
+      "pj": 11,
+      "pts": 13,
+      "gf": 14,
+      "gc": 17
     },
     {
       "nombre": "Las Palmas Atlético",
       "escudo": "fotos/escudos/las-palmas-atletico.png",
-      "pj": 11,
-      "pts": 8,
-      "gf": 9,
+      "pj": 12,
+      "pts": 11,
+      "gf": 12,
       "gc": 21
+    },
+    {
+      "nombre": "Atlético Sanluqueño",
+      "escudo": "fotos/escudos/sanluqueno.png",
+      "pj": 12,
+      "pts": 10,
+      "gf": 15,
+      "gc": 22
     },
     {
       "nombre": "Antoniano",
       "escudo": "fotos/escudos/antoniano.png",
-      "pj": 11,
-      "pts": 6,
-      "gf": 10,
-      "gc": 21
+      "pj": 12,
+      "pts": 9,
+      "gf": 13,
+      "gc": 23
     },
     {
       "nombre": "Tamaraceite",
       "escudo": "fotos/escudos/tamaraceite.png",
-      "pj": 11,
+      "pj": 12,
       "pts": 6,
-      "gf": 8,
-      "gc": 24
+      "gf": 9,
+      "gc": 26
     }
   ],
   "pendientes": [
