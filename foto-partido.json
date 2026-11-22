@@ -1,0 +1,16 @@
+{
+  "fotos": [
+    {
+      "jornada": 12,
+      "fecha": "2026-11-22",
+      "partido": "At. Central 0-2 Xerez CD",
+      "foto": "fotos/publicadas/atletico-central-xerez-j12-abrazo-chacartegui-gallo.jpg",
+      "objectPosition": "center 35%",
+      "titulo": "El abrazo de Chacartegui con Gallo",
+      "pie": "Chacartegui y Zeki se abrazan con Gallo, de la secretaría técnica del club, en la celebración de un gol en el Ciudad de Alcalá.",
+      "titulo_en": "Chacartegui's embrace with Gallo",
+      "pie_en": "Chacartegui and Zeki embrace Gallo, from the club's technical staff, as they celebrate a goal at the Ciudad de Alcalá.",
+      "cronica": "art144"
+    }
+  ]
+}

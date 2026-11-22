@@ -485,6 +485,17 @@
     font-family:'Space Mono',monospace;font-size:11px;color:var(--tinta-suave);
     margin-top:12px;
   }
+  /* La foto del partido (bloque compacto de portada) */
+  .fdp{display:block;margin:22px 0 0;background:var(--azul-profundo);border-top:4px solid var(--oro);border-radius:3px;overflow:hidden;text-decoration:none;}
+  .fdp-cab{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 14px;font-family:'Space Mono',monospace;}
+  .fdp-tit{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--oro);}
+  .fdp-j{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.65);text-align:right;}
+  .fdp-img{position:relative;}
+  .fdp-img img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;}
+  .fdp-velo{position:absolute;left:0;right:0;bottom:0;padding:40px 14px 12px;background:linear-gradient(transparent,rgba(13,44,84,.92));}
+  .fdp-velo span{font-family:'Fraunces',serif;font-style:italic;font-weight:900;font-size:22px;line-height:1.2;color:#fff;}
+  .fdp-ver{padding:9px 14px 11px;font-family:'Space Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--oro);text-transform:uppercase;}
+  .fdp:hover .fdp-ver{color:#fff;}
   @media (max-width:560px){
     .goleadores-list{grid-template-columns:1fr;}
     .ad-strip{height:auto;min-height:64px;padding:10px 12px;}
@@ -2678,6 +2689,7 @@
         <button type="button" class="ad-strip-btn" onclick="irAContacto()">${t('publiContacta')}</button>
       </div>
       <div id="goleadoresBox"></div>
+      <div id="fotoPartidoBox"></div>
       </div>
       <div class="side-list">
         ${sideItems}
@@ -2694,6 +2706,7 @@
     `;
     document.getElementById('heroGrid').innerHTML = heroHtml;
     renderGoleadores();
+    renderFotoPartido();
 
     const loUltimoIds = resto.slice(4, 16);
     const cardFijaPortada = `<article class="card" onclick="openMapaRivales()" style="cursor:pointer;">
@@ -2793,6 +2806,28 @@
       + '</div>';
   }
 
+  // La foto del partido: bloque compacto bajo los goleadores; la galería está en /la-foto-del-partido/
+  function renderFotoPartido(){
+    const box = document.getElementById('fotoPartidoBox');
+    if(!box) return;
+    if(window._fotoPartido === undefined){
+      window._fotoPartido = null;
+      fetchJson('foto-partido.json').then(function(j){ window._fotoPartido = (j && j.fotos) || []; renderFotoPartido(); })
+        .catch(function(){ window._fotoPartido = []; });
+      return;
+    }
+    const f = (window._fotoPartido || [])[0];
+    if(!f){ box.innerHTML = ''; return; }
+    const en = idiomaActual === 'en';
+    const titulo = en && f.titulo_en ? f.titulo_en : f.titulo;
+    const enlace = en ? 'en/la-foto-del-partido/' : 'la-foto-del-partido/';
+    box.innerHTML = '<a class="fdp" href="'+enlace+'">'
+      + '<div class="fdp-cab"><span class="fdp-tit">\ud83d\udcf8 '+t('fdpTitulo')+'</span><span class="fdp-j">'+(en?'MD':'J')+f.jornada+' \u00b7 '+escAttr(f.partido)+'</span></div>'
+      + '<div class="fdp-img"><img src="'+escAttr(f.foto)+'" alt="'+escAttr(titulo)+'" loading="lazy" style="object-position:'+escAttr(f.objectPosition||'center 30%')+'">'
+      + '<div class="fdp-velo"><span>'+escAttr(titulo)+'</span></div></div>'
+      + '<div class="fdp-ver">'+t('fdpVerTodas')+' \u2192</div></a>';
+  }
+
   function renderNoticias(){
     const ids = idsOrdenadosPorFecha('noticia').slice(0, 15);
     const cardFija = `<article class="card" onclick="openMapaRivales()" style="cursor:pointer;">
@@ -2849,6 +2884,7 @@
       cardJornada: 'J', cardAmistoso: 'Amistoso', cardCopa: 'Copa',
       publiEspacio: 'Espacio publicitario \u00b7 Pon tu publicidad aqu\u00ed', publiContacta: 'Contacta \u2192', tvCanal: 'Ver el canal en YouTube \u2192',
       goleadoresTitulo: 'Goleadores \u00b7 Liga', golSing: 'gol', golPlur: 'goles',
+      fdpTitulo: 'La foto del partido', fdpVerTodas: 'Ver todas las fotos de la temporada',
       goleadoresPie: function(g, j){ return g+' '+(g===1?'gol':'goles')+' del Xerez CD en '+j+' '+(j===1?'jornada':'jornadas'); },
       tagNoticias: 'Fichajes · Club · Temporada', tagCronicas: 'Temporada 2026/27', tagCalendario: 'Grupo IV · Segunda Federación 2026/27',
       tagClasificacion: 'Grupo IV · Segunda Federación', tagHistorias: 'Hemeroteca y relatos', tagOpinion: 'Punto de vista', tagPlantilla: 'Temporada 2026/27',
@@ -2887,6 +2923,7 @@
       cardJornada: 'MD', cardAmistoso: 'Friendly', cardCopa: 'Cup',
       publiEspacio: 'Advertising space \u00b7 Advertise here', publiContacta: 'Contact us \u2192', tvCanal: 'Watch the channel on YouTube \u2192',
       goleadoresTitulo: 'Top scorers \u00b7 League', golSing: 'goal', golPlur: 'goals',
+      fdpTitulo: 'Photo of the match', fdpVerTodas: 'See all the photos of the season',
       goleadoresPie: function(g, j){ return g+' Xerez CD '+(g===1?'goal':'goals')+' in '+j+' '+(j===1?'matchday':'matchdays'); },
       tagNoticias: 'Signings · Club · Season', tagCronicas: '2026/27 season', tagCalendario: 'Group IV · Segunda Federación 2026/27',
       tagClasificacion: 'Group IV · Segunda Federación', tagHistorias: 'Archive and stories', tagOpinion: 'Point of view', tagPlantilla: '2026/27 season',
