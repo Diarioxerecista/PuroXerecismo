@@ -969,10 +969,7 @@
   },
   "art129": {
     "fecha": "2026-11-09",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
+    "categoria": "opinion",
     "eyebrow": "Opinión · Análisis",
     "title": "El Palmar nos enseñó lo que Chapín nos quita",
     "lead": "La celebración de los goles en El Palmar, con jugadores y aficionados separados solo por una valla, deja una pregunta incómoda: ¿cuánto le cuesta al Xerez jugar en un estadio con pista de atletismo?",
@@ -1345,6 +1342,24 @@
       "<strong>También en las victorias</strong>",
       "La madera no ha desaparecido con la buena racha. En la última jornada, en el campo del Atlético Central, Julito estrelló un balón en el larguero tras tocar en un defensa y Manu Galán dio en el palo con un saque de esquina, en un partido que el Xerez ganó por 0-2.",
       "Con cinco victorias consecutivas, el Xerez es segundo con 21 puntos, a tres del líder, el Recreativo de Huelva. Con algo más de fortuna en esos remates, la distancia con la cabeza podría ser menor."
+    ]
+  },
+  "art149": {
+    "fecha": "2026-11-23",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Jornada 13",
+    "title": "El Linares llega a Chapín tras ocho jornadas sin perder",
+    "lead": "El Xerez CD, segundo con cinco victorias seguidas, recibe el domingo 29 de noviembre a las 18:00 al Linares Deportivo, sexto a un punto y uno de los equipos más en forma del grupo.",
+    "body": [
+      "El Xerez CD y el Linares Deportivo protagonizan el partido de la jornada 13 del Grupo IV de Segunda RFEF, que se disputa el domingo 29 de noviembre a las 18:00 en Chapín. Se enfrentan dos de los equipos más en forma del grupo: el Xerez suma cinco victorias consecutivas y el Linares, ocho jornadas sin perder.",
+      "<strong>Un rival que no pierde desde septiembre</strong>",
+      "El conjunto jiennense no conoce la derrota desde la jornada 4, cuando cayó por 4-0 en el campo del Betis B. Desde entonces ha sumado cuatro victorias y cuatro empates. En la última jornada ganó por 3-0 al Atlético Sanluqueño. Es sexto con 20 puntos, uno menos que el Xerez, con 18 goles a favor y 14 en contra.",
+      "Fuera de casa, el Linares es uno de los mejores visitantes del grupo. Ha sumado 11 de sus 20 puntos lejos de su estadio, con tres victorias, dos empates y una derrota. Entre esas victorias está la que logró en el Ciudad de Alcalá ante el Atlético Central, el campo donde el Xerez ganó el pasado domingo. Como recordó Abel Segovia tras el partido, solo el Linares y el Xerez han ganado allí.",
+      "<strong>El Xerez quiere hacerse fuerte en Chapín</strong>",
+      "El Xerez llega segundo con 21 puntos, a tres del Recreativo de Huelva. Como ocurre con su rival, ha sumado más puntos fuera (11) que en casa (10). En Chapín acumula tres victorias, un empate y dos derrotas, con seis goles a favor y cuatro en contra. Ganó sus dos últimos partidos como local, ante el Marbella (1-0) y el Antoniano (2-0).",
+      "<strong>Vuelve Moi</strong>",
+      "Abel Segovia recupera a Moi, que ya ha cumplido su partido de sanción por la doble amarilla ante el Antoniano. Aún es pronto para conocer la evolución de los lesionados, Chuma y Fali.",
+      "Un triunfo permitiría al Xerez dejar al Linares a cuatro puntos y seguir en la pelea por la primera plaza."
     ]
   }
 }
