@@ -116,10 +116,6 @@
     "creditoFoto": "Foto: Diario Xerecista",
     "objectPosition": "center 45%"
   },
-  "art128": {
-    "foto": "fotos/publicadas/sanluqueno-xerez-j10-segovia-arbitro.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art129": {
     "foto": "fotos/publicadas/el-palmar-celebracion-grada-opinion.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
@@ -204,6 +200,10 @@
   },
   "art147": {
     "foto": "fotos/publicadas/sanluqueno-xerez-j10-peregrina-conduccion.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art148": {
+    "foto": "fotos/publicadas/Noticia_moi.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   }
 }
