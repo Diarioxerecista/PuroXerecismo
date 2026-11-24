@@ -987,10 +987,7 @@
   },
   "art131": {
     "fecha": "2026-11-11",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
+    "categoria": "opinion",
     "eyebrow": "Opinión · Análisis",
     "title": "El otro Xerez que manda",
     "lead": "Mientras el equipo de fútbol pelea por el play off en Segunda RFEF, las jugadoras del Xerez CD Baloncesto lideran la Liga Femenina 2 en su primera temporada en la categoría. Merecen que el xerecismo las mire.",
@@ -1359,5 +1356,18 @@
       "Es un contratiempo importante para Segovia, que ha contado con Fali como uno de los fijos en el centro de la defensa. El técnico tiene otras opciones en la zona: como él mismo dijo el domingo, el equipo tiene \"cuatro o cinco centrales\". El Xerez recibe el domingo al Linares Deportivo, a las 18:00, con la baja segura de Fali y la de Chuma, aún pendiente de evolución."
     ],
     "v": 2
+  },
+  "art151": {
+    "fecha": "2026-11-24",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Jornada 15",
+    "title": "El Sevilla Atlético – Xerez CD se jugará el domingo 13 de diciembre a las 11:30",
+    "lead": "Ya hay horario para la visita del Xerez CD al filial sevillista, correspondiente a la decimoquinta jornada de liga en el Grupo IV de Segunda RFEF. El partido se disputará en horario matinal, el domingo 13 de diciembre a las 11:30, en el estadio Jesús Navas.",
+    "body": [
+      "El encuentro cerrará un tramo exigente para el equipo xerecista. Antes recibirá en Chapín al Linares Deportivo, este domingo 29 de noviembre a las 18:00, y viajará después a Gran Canaria para medirse a Las Palmas Atlético el 6 de diciembre.",
+      "<strong>Dos realidades en la tabla</strong>",
+      "El Xerez llegará a esa cita desde la zona alta: ahora es segundo, con 21 puntos en 12 partidos. El Sevilla Atlético es duodécimo, con 14 puntos y un partido menos. Le falta por jugar el aplazado ante el Recreativo de Huelva, que se disputa este miércoles 25 de noviembre.",
+      "El choque de la segunda vuelta entre ambos equipos está programado en Chapín para el 7 de marzo de 2027."
+    ]
   }
 }

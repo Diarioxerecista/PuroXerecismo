@@ -987,10 +987,7 @@
   },
   "art131": {
     "fecha": "2026-11-11",
-    "categoria": [
-      "opinion",
-      "noticia"
-    ],
+    "categoria": "opinion",
     "eyebrow": "Opinion · Analysis",
     "title": "The other Xerez on top",
     "lead": "While the football team fights for the play-offs in Segunda RFEF, the Xerez CD Baloncesto players are leading Liga Femenina 2 in their first season in the division. They deserve the attention of the Xerez faithful.",
@@ -1359,5 +1356,18 @@
       "It is a significant setback for Segovia, who has relied on Fali as one of his regulars at the heart of the defence. The coach has other options in that area: as he said himself on Sunday, the team have \"four or five centre-backs\". Xerez host Linares Deportivo on Sunday at 18:00, with Fali definitely out and Chuma still being assessed."
     ],
     "v": 2
+  },
+  "art151": {
+    "fecha": "2026-11-24",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Matchday 15",
+    "title": "Sevilla Atlético v Xerez CD to be played on Sunday 13 December at 11:30",
+    "lead": "The kick-off time has been set for Xerez CD's visit to Sevilla's reserve side, on matchday 15 of Group IV of Segunda RFEF. The match will be played in the morning, on Sunday 13 December at 11:30, at the Jesús Navas stadium.",
+    "body": [
+      "The match will close a demanding run for Xerez. Before it, they host Linares Deportivo at Chapín this Sunday, 29 November, at 18:00, and then travel to Gran Canaria to face Las Palmas Atlético on 6 December.",
+      "<strong>Two different situations in the table</strong>",
+      "Xerez will go into that game from the top of the table: they are currently second, with 21 points from 12 matches. Sevilla Atlético are twelfth, with 14 points and a game in hand. They still have to play their postponed match against Recreativo de Huelva, which takes place this Wednesday, 25 November.",
+      "The return fixture between the two sides is scheduled at Chapín for 7 March 2027."
+    ]
   }
 }
