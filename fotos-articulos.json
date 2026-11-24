@@ -120,10 +120,6 @@
     "foto": "fotos/publicadas/el-palmar-celebracion-grada-opinion.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
   },
-  "art130": {
-    "foto": "fotos/publicadas/xerez-chapin-golpeo-archivo.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art131": {
     "foto": "fotos/publicadas/xerez-cd-baloncesto-femenino-ascenso-lf2.jpg",
     "creditoFoto": "Foto: Xerez CD Baloncesto"
@@ -209,5 +205,10 @@
   "art149": {
     "foto": "fotos/publicadas/atletico-central-xerez-j12-disputa.jpg",
     "creditoFoto": "Foto: Diario Xerecista"
+  },
+  "art150": {
+    "foto": "fotos/publicadas/xerez-rotena-fali-ninos.jpg",
+    "creditoFoto": "Foto: Diario Xerecista",
+    "objectPosition": "center 25%"
   }
 }

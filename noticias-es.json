@@ -985,24 +985,6 @@
       "Chapín será una losa mientras siga así. Y cada viaje, como el de ayer a El Palmar, nos recuerda lo que podríamos tener en casa."
     ]
   },
-  "art130": {
-    "fecha": "2026-11-09",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Jornada 11",
-    "title": "El Antoniano se le atraganta al Xerez: tres victorias en los cuatro últimos duelos",
-    "lead": "El Xerez CD recibe el domingo 15 de noviembre a las 18:00 en el Pedro Garrido al Atlético Antoniano. Es un rival que le ha ganado tres de los cuatro últimos enfrentamientos, aunque esta vez llega en la zona baja de la tabla.",
-    "noPrincipal": true,
-    "body": [
-      "El balance reciente entre ambos equipos es claramente favorable al conjunto lebrijano. En los cuatro últimos partidos, todos en Segunda Federación, el Antoniano suma tres victorias y el Xerez una, con seis goles a favor del Antoniano y cuatro del conjunto azulino.",
-      "<strong>Dos derrotas en la 2024/25</strong>",
-      "La temporada 2024/25 se saldó sin puntos para el Xerez ante este rival. El 6 de octubre de 2024 cayó 1-0 en el Estadio Municipal de Lebrija y el 16 de febrero de 2025 perdió 1-2 como local.",
-      "<strong>Una victoria y una derrota en la 2025/26</strong>",
-      "El curso pasado el Xerez cortó la racha el 14 de septiembre de 2025, con un 2-0 en casa. En la segunda vuelta, el 25 de enero de 2026, el Antoniano volvió a imponerse por 3-2 en el Estadio Municipal de Lebrija. Fue el último enfrentamiento entre ambos.",
-      "<strong>Dos equipos en momentos distintos</strong>",
-      "Esta vez los equipos llegan con trayectorias opuestas. El Xerez es quinto, en puestos de play off, con 15 puntos, después de golear 0-4 al Atlético Sanluqueño en El Palmar. El Antoniano es decimosexto, en descenso, con 6 puntos. Ha marcado 10 goles y encajado 19, la segunda peor defensa del grupo.",
-      "Como local, el Xerez suma 7 puntos en cinco partidos. Será su primer partido oficial como local en el Pedro Garrido, por los trabajos de resiembra del césped de Chapín."
-    ]
-  },
   "art131": {
     "fecha": "2026-11-11",
     "categoria": [
@@ -1361,6 +1343,20 @@
       "<strong>Vuelve Moi</strong>",
       "Abel Segovia recupera a Moi, que ya ha cumplido su partido de sanción por la doble amarilla ante el Antoniano. Aún es pronto para conocer la evolución de los lesionados, Chuma y Fali.",
       "Un triunfo permitiría al Xerez dejar al Linares a cuatro puntos y seguir en la pelea por la primera plaza."
+    ]
+  },
+  "art150": {
+    "fecha": "2026-11-24",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Enfermería",
+    "title": "Fali se rompe el cuerno del menisco de la rodilla derecha y estará de baja entre ocho y doce semanas",
+    "lead": "El central del Xerez CD será operado en los próximos días y podría perderse entre seis y diez partidos de liga, en plena racha de cinco victorias consecutivas del equipo.",
+    "body": [
+      "Fali sufre una rotura del cuerno del menisco de la rodilla derecha. El central del Xerez CD será operado en los próximos días y estará de baja entre ocho y doce semanas.",
+      "El defensa valenciano, de 33 años, se lesionó en el último entrenamiento antes del partido ante el Atlético Central y se quedó fuera de la convocatoria. Tras el encuentro, Abel Segovia explicó que el jugador \"notó algo\" y que el cuerpo técnico no quiso arriesgar con él.",
+      "<strong>Hasta mediados de enero o febrero</strong>",
+      "Con esos plazos, Fali podría volver entre mediados de enero y mediados de febrero. En el mejor de los casos se perdería los seis partidos que quedan hasta la jornada 18, ante el Estepona en Chapín. En el peor, la baja se alargaría hasta la jornada 22, en el campo del Don Benito.",
+      "Es un contratiempo importante para Segovia, que ha contado con Fali como uno de los fijos en el centro de la defensa. El técnico tiene otras opciones en la zona: como él mismo dijo el domingo, el equipo tiene \"cuatro o cinco centrales\". El Xerez recibe el domingo al Linares Deportivo, a las 18:00, con la baja segura de Fali y la de Chuma, aún pendiente de evolución."
     ]
   }
 }

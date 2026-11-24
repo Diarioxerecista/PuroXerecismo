@@ -985,24 +985,6 @@
       "Chapín will be a millstone as long as it stays like this. And every trip, like yesterday's to El Palmar, reminds us of what we could have at home."
     ]
   },
-  "art130": {
-    "fecha": "2026-11-09",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Matchday 11",
-    "title": "Antoniano have Xerez's number: three wins in the last four meetings",
-    "lead": "Xerez CD host Atlético Antoniano on Sunday 15 November at 18:00 at the Pedro Garrido. Antoniano have beaten them in three of the last four meetings, although this time they arrive in the lower reaches of the table.",
-    "noPrincipal": true,
-    "body": [
-      "The recent record between the two sides clearly favours the Lebrija club. In the last four games, all in Segunda Federación, Antoniano have three wins and Xerez one, with six goals for Antoniano and four for the blue-and-whites.",
-      "<strong>Two defeats in 2024/25</strong>",
-      "The 2024/25 season ended without a point for Xerez against this opponent. On 6 October 2024 they lost 1-0 at the Estadio Municipal de Lebrija, and on 16 February 2025 they were beaten 1-2 at home.",
-      "<strong>One win and one defeat in 2025/26</strong>",
-      "Last season Xerez ended the run on 14 September 2025 with a 2-0 home win. In the second half of the season, on 25 January 2026, Antoniano won again, 3-2 at the Estadio Municipal de Lebrija. It was the last meeting between the two.",
-      "<strong>Two teams at different moments</strong>",
-      "This time the two sides arrive on opposite paths. Xerez are fifth, in the play-off places, with 15 points, after a 0-4 win over Atlético Sanluqueño at El Palmar. Antoniano are sixteenth, in the relegation zone, with 6 points. They have scored 10 goals and conceded 19, the second-worst defence in the group.",
-      "At home, Xerez have 7 points from five games. It will be their first official home game at the Pedro Garrido, because of the reseeding work on the Chapín pitch."
-    ]
-  },
   "art131": {
     "fecha": "2026-11-11",
     "categoria": [
@@ -1361,6 +1343,20 @@
       "<strong>Moi returns</strong>",
       "Abel Segovia has Moi back after he served his one-match ban for the two yellow cards against Antoniano. It is still too early to know how the injured players, Chuma and Fali, are progressing.",
       "A win would put Xerez four points clear of Linares and keep them in the race for first place."
+    ]
+  },
+  "art150": {
+    "fecha": "2026-11-24",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Injuries",
+    "title": "Fali tears the meniscus horn in his right knee and will be out for eight to twelve weeks",
+    "lead": "The Xerez CD centre-back will undergo surgery in the coming days and could miss between six and ten league matches, in the middle of the team's run of five straight wins.",
+    "body": [
+      "Fali has torn the horn of the meniscus in his right knee. The Xerez CD centre-back will undergo surgery in the coming days and will be out for between eight and twelve weeks.",
+      "The 33-year-old defender from Valencia was injured in the final training session before the match against Atlético Central and was left out of the squad. After the game, Abel Segovia explained that the player \"felt something\" and that the coaching staff did not want to take any risks with him.",
+      "<strong>Out until mid-January or February</strong>",
+      "Based on that timescale, Fali could return between mid-January and mid-February. In the best-case scenario he would miss the six matches up to matchday 18, at home to Estepona at Chapín. In the worst case, his absence would last until matchday 22, away to Don Benito.",
+      "It is a significant setback for Segovia, who has relied on Fali as one of his regulars at the heart of the defence. The coach has other options in that area: as he said himself on Sunday, the team have \"four or five centre-backs\". Xerez host Linares Deportivo on Sunday at 18:00, with Fali definitely out and Chuma still being assessed."
     ]
   }
 }
