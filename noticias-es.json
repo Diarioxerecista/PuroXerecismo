@@ -1003,17 +1003,6 @@
       "Un club se hace grande cuando todas sus secciones sienten el mismo apoyo. Este Xerez del baloncesto ya ha hecho su parte. Ahora nos toca a nosotros."
     ]
   },
-  "art133": {
-    "fecha": "2026-11-11",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Jornada 13",
-    "title": "El Xerez-Linares, el domingo 29 de noviembre a las 18:00 en Chapín",
-    "lead": "El Xerez CD ya conoce el horario de su partido de la jornada 13 de la Segunda RFEF, Grupo IV: recibirá al Linares Deportivo el domingo 29 de noviembre a las 18:00 en el Estadio Municipal de Chapín.",
-    "body": [
-      "Será la vuelta del Xerez a Chapín, donde no juega desde el partido de Copa del Rey ante el Cádiz del 29 de octubre. El partido ante el Antoniano de este domingo 15, a las 18:00, se disputa en el Pedro Garrido. Después, el domingo 22, los azulinos visitan al Atlético Central a las 12:00."
-    ],
-    "noPrincipal": true
-  },
   "art132": {
     "fecha": "2026-11-12",
     "categoria": "noticia",
@@ -1372,6 +1361,21 @@
       "<strong>Dos realidades en la tabla</strong>",
       "El Xerez llegará a esa cita desde la zona alta: ahora es segundo, con 21 puntos en 12 partidos. El Sevilla Atlético es duodécimo, con 14 puntos y un partido menos. Le falta por jugar el aplazado ante el Recreativo de Huelva, que se disputa este miércoles 25 de noviembre.",
       "El choque de la segunda vuelta entre ambos equipos está programado en Chapín para el 7 de marzo de 2027."
+    ]
+  },
+  "art152": {
+    "fecha": "2026-11-25",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Enfermería",
+    "title": "Fali será operado de una rotura compleja del menisco externo",
+    "lead": "El parte médico del Xerez CD confirma que el central sufre una rotura compleja del cuerno posterior del menisco externo, que afecta a las dos superficies del menisco. El jugador, de 33 años, pasará por el quirófano y estará de baja entre ocho y doce semanas.",
+    "body": [
+      "El club ha detallado el alcance de la lesión que Fali sufrió el sábado en el último entrenamiento antes del partido ante el Atlético Central y que le obligó a abandonar el terreno de juego. Las primeras pruebas médicas han confirmado una rotura compleja del cuerno posterior del menisco externo. Los servicios médicos del Xerez concretarán el tipo de intervención.",
+      "<strong>Artroscopia: coser o recortar</strong>",
+      "En este tipo de lesiones, la decisión se toma cruzando la resonancia magnética con los objetivos de la temporada. Lo habitual es una artroscopia, con dos opciones: coser el menisco (sutura) o retirar solo la parte dañada (meniscectomía parcial). El objetivo es preservar al máximo la rodilla y alargar la carrera del jugador sin comprometer su rendimiento.",
+      "La elección no es menor. La sutura conserva el menisco, que en el lado externo es clave para la estabilidad de la rodilla, pero exige una recuperación más larga y cicatriza peor cuando el tejido ya tiene desgaste, algo habitual pasados los 30 años. Por eso, en futbolistas de la edad de Fali es frecuente optar por la meniscectomía parcial, que permite volver antes. El tratamiento sin cirugía solo se contempla cuando la rotura es estable, pequeña y no da síntomas en el campo.",
+      "<strong>Baja hasta enero o febrero</strong>",
+      "Con una baja de entre ocho y doce semanas, Fali podría volver entre mediados de enero y mediados de febrero. Se perdería, como mínimo, los seis partidos que quedan hasta la jornada 18, ante el Estepona en Chapín, y como máximo, hasta la jornada 22, en el campo del Don Benito. El Xerez recibe este domingo al Linares Deportivo, a las 18:00, sin el central valenciano."
     ]
   }
 }

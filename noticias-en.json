@@ -1003,17 +1003,6 @@
       "A club becomes great when all its sections feel the same support. This basketball Xerez has already done its part. Now it is our turn."
     ]
   },
-  "art133": {
-    "fecha": "2026-11-11",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Matchday 13",
-    "title": "Xerez-Linares on Sunday 29 November at 18:00 at Chapín",
-    "lead": "Xerez CD now know the kick-off time for their matchday 13 game in Segunda RFEF, Group IV: they will host Linares Deportivo on Sunday 29 November at 18:00 at the Estadio Municipal de Chapín.",
-    "body": [
-      "It will mark Xerez's return to Chapín, where they have not played since the Copa del Rey game against Cádiz on 29 October. This Sunday's game against Antoniano on the 15th, at 18:00, is being played at the Pedro Garrido. After that, on Sunday 22, the blue-and-whites visit Atlético Central at 12:00."
-    ],
-    "noPrincipal": true
-  },
   "art132": {
     "fecha": "2026-11-12",
     "categoria": "noticia",
@@ -1372,6 +1361,21 @@
       "<strong>Two different situations in the table</strong>",
       "Xerez will go into that game from the top of the table: they are currently second, with 21 points from 12 matches. Sevilla Atlético are twelfth, with 14 points and a game in hand. They still have to play their postponed match against Recreativo de Huelva, which takes place this Wednesday, 25 November.",
       "The return fixture between the two sides is scheduled at Chapín for 7 March 2027."
+    ]
+  },
+  "art152": {
+    "fecha": "2026-11-25",
+    "categoria": "noticia",
+    "eyebrow": "Xerez CD · Injuries",
+    "title": "Fali to undergo surgery for a complex tear of the lateral meniscus",
+    "lead": "Xerez CD's medical report confirms that the centre-back has suffered a complex tear of the posterior horn of the lateral meniscus, affecting both surfaces of the meniscus. The 33-year-old will undergo surgery and will be out for between eight and twelve weeks.",
+    "body": [
+      "The club has detailed the extent of the injury Fali suffered on Saturday in the final training session before the match against Atlético Central, which forced him to leave the pitch. Initial medical tests have confirmed a complex tear of the posterior horn of the lateral meniscus. Xerez's medical staff will determine the type of operation.",
+      "<strong>Arthroscopy: stitch or trim</strong>",
+      "In injuries of this kind, the decision is made by cross-checking the MRI scan against the goals for the season. The usual approach is arthroscopy, with two options: stitching the meniscus (suture) or removing only the damaged part (partial meniscectomy). The aim is to preserve the knee as much as possible and extend the player's career without compromising his performance.",
+      "The choice is no small matter. A suture preserves the meniscus, which on the lateral side is key to the stability of the knee, but it requires a longer recovery and heals less well when the tissue is already worn, something common after the age of 30. For that reason, partial meniscectomy, which allows a quicker return, is a frequent choice for footballers of Fali's age. Non-surgical treatment is only considered when the tear is stable, small and causes no symptoms on the pitch.",
+      "<strong>Out until January or February</strong>",
+      "With an absence of between eight and twelve weeks, Fali could return between mid-January and mid-February. He would miss at least the six matches up to matchday 18, at home to Estepona at Chapín, and at most up to matchday 22, away to Don Benito. Xerez host Linares Deportivo this Sunday at 18:00 without the centre-back from Valencia."
     ]
   }
 }
