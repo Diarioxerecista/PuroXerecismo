@@ -1003,25 +1003,6 @@
       "A club becomes great when all its sections feel the same support. This basketball Xerez has already done its part. Now it is our turn."
     ]
   },
-  "art132": {
-    "fecha": "2026-11-12",
-    "categoria": "noticia",
-    "eyebrow": "Segunda RFEF · Matchday 11",
-    "title": "From crisis to the chase: Xerez can move within three points of the leaders",
-    "lead": "With Recreativo de Huelva playing the Copa Federación final in Sestao and a Badajoz-Don Benito clash at the top, Xerez CD have a chance against Antoniano to close the gap on the front-runners and establish themselves in the top five.",
-    "body": [
-      "Matchday 11 of Segunda RFEF, Group IV, comes with a fixture list that favours Xerez CD. The leaders, Recreativo de Huelva, will not play this weekend because they play the Copa Federación final against Sestao River on Saturday at 19:00 at Las Llanas, in Sestao. Their league game against Sevilla Atlético has been postponed to Wednesday 25 November at 18:00.",
-      "<strong>Head-to-head in Badajoz</strong>",
-      "In addition, two of the teams at the top face each other: Badajoz, fourth on 17 points, host Don Benito, second on 20, on Sunday at 17:00 at the Nuevo Vivero, in an Extremadura derby that the Badajoz club has declared a Club Half-Day. One of them, or both if they draw, will drop points.",
-      "Xerez, fifth on 15 points, host Antoniano, sixteenth on 6, on Sunday 15 at 18:00 at the Pedro Garrido. A win would take them to 18 points, three behind Recreativo, who will have a game in hand. If Badajoz also lose, the blue-and-whites would climb to fourth.",
-      "<strong>From crisis to the top places</strong>",
-      "This scenario seemed unthinkable a month and a half ago. On 27 September, Xerez lost 1-0 at Recreativo in Huelva on matchday 4. They had 2 points from 12 at the time, and the club sacked Xavi Molist.",
-      "Since then, the team has taken 13 of a possible 18 points: wins over Tenerife B, Marbella, Tamaraceite and Atlético Sanluqueño, a draw against Betis B and just one defeat, against Ciudad de Lucena.",
-      "<strong>A tight battle</strong>",
-      "Behind them, the battle remains very even: Betis B, sixth, also have 15 points and a game in hand against Tenerife B, while Mijas Las Lagunas, Estepona and Atlético Central have the same points as Xerez."
-    ],
-    "noPrincipal": true
-  },
   "art134": {
     "fecha": "2026-11-15",
     "categoria": [
@@ -1359,7 +1340,7 @@
     "body": [
       "The match will close a demanding run for Xerez. Before it, they host Linares Deportivo at Chapín this Sunday, 29 November, at 18:00, and then travel to Gran Canaria to face Las Palmas Atlético on 6 December.",
       "<strong>Two different situations in the table</strong>",
-      "Xerez will go into that game from the top of the table: they are currently second, with 21 points from 12 matches. Sevilla Atlético are twelfth, with 14 points and a game in hand. They still have to play their postponed match against Recreativo de Huelva, which takes place this Wednesday, 25 November.",
+      "Xerez will go into that game from the top of the table: they are currently second, with 21 points from 12 matches. Sevilla Atlético are thirteenth, in the play-out position, with 14 points, after losing 1-2 to Recreativo de Huelva in the postponed matchday 11 fixture.",
       "The return fixture between the two sides is scheduled at Chapín for 7 March 2027."
     ]
   },
@@ -1378,5 +1359,19 @@
       "With an absence of between eight and twelve weeks, Fali could return between mid-January and mid-February. He would miss at least the six matches up to matchday 18, at home to Estepona at Chapín, and at most up to matchday 22, away to Don Benito. Xerez host Linares Deportivo this Sunday at 18:00 without the centre-back from Valencia."
     ],
     "v": 2
+  },
+  "art153": {
+    "fecha": "2026-11-26",
+    "categoria": "noticia",
+    "eyebrow": "Segunda RFEF · Table",
+    "title": "Recreativo win in Seville and leave Xerez six points off the top",
+    "lead": "Recreativo de Huelva beat Sevilla Atlético 1-2 in the postponed matchday 11 fixture and pull clear at the top with 27 points, six more than Xerez CD. Abel Segovia's side, in second place, cannot afford to slip up on Sunday against Linares Deportivo at Chapín.",
+    "body": [
+      "The Huelva side claimed their eighth win of the season and extend their lead at the top. They have 27 points from 12 matches, with the most prolific attack in the group: 30 goals scored and only 9 conceded. Xerez, with 7 goals conceded, still have the meanest defence.",
+      "Sevilla Atlético, on 14 points, drop to thirteenth, the play-out position.",
+      "<strong>A Sunday with no margin for error</strong>",
+      "Xerez are second with 21 points, level with Estepona and Don Benito. The top of the table is very tight: just two points separate second from eighth. Sunday's opponents, at 18:00 at Chapín, are one of those chasers: Linares Deportivo, sixth with 20 points, who arrive unbeaten in eight matchdays.",
+      "A slip-up at home would leave Recreativo even further ahead and put second place at risk."
+    ]
   }
 }

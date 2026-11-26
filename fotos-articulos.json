@@ -124,10 +124,6 @@
     "foto": "fotos/publicadas/xerez-cd-baloncesto-femenino-ascenso-lf2.jpg",
     "creditoFoto": "Foto: Xerez CD Baloncesto"
   },
-  "art132": {
-    "foto": "fotos/publicadas/sanluqueno-xerez-j10-jugada-frontal.jpg",
-    "creditoFoto": "Foto: Diario Xerecista"
-  },
   "art134": {
     "foto": "fotos/publicadas/xerez-antoniano-j11-celebracion-peregrina.jpg",
     "creditoFoto": "Foto: Diario Xerecista",
@@ -215,5 +211,9 @@
     "foto": "fotos/publicadas/fali-abrazo-companero-archivo.jpg",
     "creditoFoto": "Foto: Diario Xerecista",
     "objectPosition": "center 25%"
+  },
+  "art153": {
+    "foto": "fotos/publicadas/xerez-antoniano-j11-isma-conduce.jpg",
+    "creditoFoto": "Foto: Diario Xerecista"
   }
 }
